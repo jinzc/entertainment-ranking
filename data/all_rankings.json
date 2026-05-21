@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-21 16:00",
+  "update_time": "2026-05-21 08:16",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,34 +7,8 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 5,
-        "items": [
-          {
-            "rank": 1,
-            "title": "金秀贤案件反转",
-            "hot": "6157166"
-          },
-          {
-            "rank": 2,
-            "title": "刘亦菲超900天没组进",
-            "hot": "435718"
-          },
-          {
-            "rank": 3,
-            "title": "伊能静说张豆豆哭起来像刘诗诗",
-            "hot": "632739"
-          },
-          {
-            "rank": 4,
-            "title": "曝不二之臣剧组把剧本烧了",
-            "hot": "663893"
-          },
-          {
-            "rank": 5,
-            "title": "王玉雯的资源",
-            "hot": "588297"
-          }
-        ]
+        "count": 0,
+        "items": []
       },
       {
         "key": "weibo_tv",
@@ -47,23 +21,26 @@
             "hot": "7777万",
             "score": "8.9",
             "platform": "CCTV1/腾讯视频",
-            "cast": "张嘉益、刘浩存、秦海璐"
+            "cast": "张嘉益、刘浩存、秦海璐、窦骁",
+            "source": "榜单"
           },
           {
             "rank": 2,
             "title": "家业",
             "hot": "7271万",
-            "score": "",
+            "score": "暂无",
             "platform": "CCTV8/爱奇艺",
-            "cast": "杨紫、韩东君、吴冕"
+            "cast": "杨紫、韩东君、吴冕",
+            "source": "榜单"
           },
           {
             "rank": 3,
             "title": "良陈美锦",
             "hot": "4524万",
-            "score": "",
+            "score": "暂无",
             "platform": "湖南卫视/芒果TV",
-            "cast": "任敏、此沙、董思成"
+            "cast": "任敏、此沙、董思成",
+            "source": "榜单"
           },
           {
             "rank": 4,
@@ -71,15 +48,17 @@
             "hot": "3814万",
             "score": "7.8",
             "platform": "CCTV8",
-            "cast": "杨洋、章若楠、方逸伦"
+            "cast": "杨洋、章若楠、方逸伦",
+            "source": "榜单"
           },
           {
             "rank": 5,
             "title": "低智商犯罪",
             "hot": "3299万",
             "score": "9.2",
-            "platform": "爱奇艺",
-            "cast": "王骁、田曦薇、王传君"
+            "platform": "爱奇艺/东方卫视",
+            "cast": "王骁、田曦薇、王传君",
+            "source": "榜单"
           }
         ]
       },
@@ -95,17 +74,20 @@
             "score": "8.6",
             "region": "中国大陆",
             "genre": "剧情 家庭",
-            "cast": "李思潼、王彦桐、吴少卿"
+            "cast": "李思潼、王彦桐、吴少卿",
+            "recommend": "",
+            "source": "榜单"
           },
           {
             "rank": 2,
             "title": "错过了，遗憾吗？",
             "hot": "3056万",
-            "score": "",
+            "score": "85%",
             "region": "",
             "genre": "",
             "cast": "",
-            "recommend": "大V推荐度85%"
+            "recommend": "大V推荐度85%",
+            "source": "榜单"
           },
           {
             "rank": 3,
@@ -114,7 +96,9 @@
             "score": "",
             "region": "中国大陆",
             "genre": "喜剧",
-            "cast": "马思纯、陈昊森、张艺凡"
+            "cast": "马思纯、陈昊森、张艺凡",
+            "recommend": "",
+            "source": "榜单"
           },
           {
             "rank": 4,
@@ -124,7 +108,8 @@
             "region": "中国大陆",
             "genre": "剧情",
             "cast": "于和伟、高圆圆、韩庚",
-            "recommend": "大V推荐度98%"
+            "recommend": "大V推荐度98%",
+            "source": "榜单"
           },
           {
             "rank": 5,
@@ -133,7 +118,9 @@
             "score": "8.2",
             "region": "中国大陆",
             "genre": "剧情",
-            "cast": "蒋龙、齐溪、杨超越"
+            "cast": "蒋龙、齐溪、杨超越",
+            "recommend": "",
+            "source": "榜单"
           }
         ]
       }
@@ -146,114 +133,206 @@
       {
         "key": "douban_movie",
         "title": "电影榜",
-        "count": 5,
+        "count": 15,
         "items": [
           {
             "rank": 1,
-            "title": "给阿嬷的情书",
-            "score": "9.1",
-            "rating_count": "153.5万",
-            "types": "剧情 家庭",
-            "regions": "中国大陆",
-            "release_date": "2026",
-            "actors": "李思潼、王彦桐、吴少卿"
+            "title": "肖申克的救赎",
+            "score": "9.7",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg",
+            "url": "https://movie.douban.com/subject/1292052/",
+            "types": "犯罪, 剧情",
+            "regions": "美国",
+            "release_date": "1994-09-10",
+            "actors": "蒂姆·罗宾斯, 摩根·弗里曼, 鲍勃·冈顿"
           },
           {
             "rank": 2,
-            "title": "监狱来的妈妈",
-            "score": "",
-            "rating_count": "63.2万",
-            "types": "剧情 家庭",
-            "regions": "中国大陆",
-            "release_date": "2025",
-            "actors": ""
+            "title": "霸王别姬",
+            "score": "9.6",
+            "rating_count": "",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911205318.jpg",
+            "url": "https://movie.douban.com/subject/1291546/",
+            "types": "剧情, 爱情, 同性",
+            "regions": "中国大陆, 中国香港",
+            "release_date": "1993-07-26",
+            "actors": "张国荣, 张丰毅, 巩俐"
           },
           {
             "rank": 3,
-            "title": "错过了，遗憾吗？",
-            "score": "",
-            "rating_count": "24.8万",
-            "types": "喜剧 爱情",
-            "regions": "中国大陆",
-            "release_date": "2026",
-            "actors": ""
+            "title": "控方证人",
+            "score": "9.6",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2927451337.jpg",
+            "url": "https://movie.douban.com/subject/1296141/",
+            "types": "剧情, 犯罪, 悬疑",
+            "regions": "美国",
+            "release_date": "2025-12-05",
+            "actors": "泰隆·鲍华, 玛琳·黛德丽, 查尔斯·劳顿"
           },
           {
             "rank": 4,
-            "title": "我看见两朵一样的云",
-            "score": "",
-            "rating_count": "23.9万",
-            "types": "爱情 科幻",
-            "regions": "中国大陆",
-            "release_date": "2026",
-            "actors": ""
+            "title": "泰坦尼克号",
+            "score": "9.5",
+            "rating_count": "",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p457760035.jpg",
+            "url": "https://movie.douban.com/subject/1292722/",
+            "types": "剧情, 爱情, 灾难",
+            "regions": "美国",
+            "release_date": "1998-04-03",
+            "actors": "莱昂纳多·迪卡普里奥, 凯特·温斯莱特, 比利·赞恩"
           },
           {
             "rank": 5,
-            "title": "我，许可",
-            "score": "8.3",
-            "rating_count": "16.6万",
-            "types": "剧情 喜剧",
+            "title": "阿甘正传",
+            "score": "9.5",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500944103.jpg",
+            "url": "https://movie.douban.com/subject/1292720/",
+            "types": "剧情, 爱情",
+            "regions": "美国",
+            "release_date": "1994-06-23",
+            "actors": "汤姆·汉克斯, 罗宾·怀特, 加里·辛尼斯"
+          },
+          {
+            "rank": 6,
+            "title": "美丽人生",
+            "score": "9.5",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.jpg",
+            "url": "https://movie.douban.com/subject/1292063/",
+            "types": "剧情, 喜剧, 爱情",
+            "regions": "意大利",
+            "release_date": "2020-01-03",
+            "actors": "罗伯托·贝尼尼, 尼可莱塔·布拉斯基, 乔治·坎塔里尼"
+          },
+          {
+            "rank": 7,
+            "title": "辛德勒的名单",
+            "score": "9.5",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.jpg",
+            "url": "https://movie.douban.com/subject/1295124/",
+            "types": "剧情, 历史, 战争",
+            "regions": "美国",
+            "release_date": "1993-11-30",
+            "actors": "连姆·尼森, 本·金斯利, 拉尔夫·费因斯"
+          },
+          {
+            "rank": 8,
+            "title": "这个杀手不太冷",
+            "score": "9.4",
+            "rating_count": "",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913554676.jpg",
+            "url": "https://movie.douban.com/subject/1295644/",
+            "types": "剧情, 动作, 犯罪",
+            "regions": "法国, 美国",
+            "release_date": "2024-11-01",
+            "actors": "让·雷诺, 娜塔莉·波特曼, 加里·奥德曼"
+          },
+          {
+            "rank": 9,
+            "title": "千与千寻",
+            "score": "9.4",
+            "rating_count": "",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.jpg",
+            "url": "https://movie.douban.com/subject/1291561/",
+            "types": "剧情, 动画, 奇幻",
+            "regions": "日本",
+            "release_date": "2019-06-21",
+            "actors": "柊瑠美, 入野自由, 夏木真理"
+          },
+          {
+            "rank": 10,
+            "title": "盗梦空间",
+            "score": "9.4",
+            "rating_count": "",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.jpg",
+            "url": "https://movie.douban.com/subject/3541415/",
+            "types": "剧情, 科幻, 悬疑",
+            "regions": "美国, 英国",
+            "release_date": "2010-09-01",
+            "actors": "莱昂纳多·迪卡普里奥, 约瑟夫·高登-莱维特, 艾利奥特·佩吉"
+          },
+          {
+            "rank": 11,
+            "title": "星际穿越",
+            "score": "9.4",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.jpg",
+            "url": "https://movie.douban.com/subject/1889243/",
+            "types": "剧情, 科幻, 冒险",
+            "regions": "美国, 英国",
+            "release_date": "2014-11-12",
+            "actors": "马修·麦康纳, 安妮·海瑟薇, 杰西卡·查斯坦"
+          },
+          {
+            "rank": 12,
+            "title": "楚门的世界",
+            "score": "9.4",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.jpg",
+            "url": "https://movie.douban.com/subject/1292064/",
+            "types": "剧情, 科幻",
+            "regions": "美国",
+            "release_date": "1998-06-05",
+            "actors": "金·凯瑞, 劳拉·琳妮, 艾德·哈里斯"
+          },
+          {
+            "rank": 13,
+            "title": "忠犬八公的故事",
+            "score": "9.4",
+            "rating_count": "",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2587099240.jpg",
+            "url": "https://movie.douban.com/subject/3011091/",
+            "types": "剧情",
+            "regions": "美国, 英国",
+            "release_date": "2009-06-13",
+            "actors": "理查·基尔, 莎拉·罗默尔, 琼·艾伦"
+          },
+          {
+            "rank": 14,
+            "title": "茶馆",
+            "score": "9.5",
+            "rating_count": "",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2528965424.jpg",
+            "url": "https://movie.douban.com/subject/1461403/",
+            "types": "剧情, 历史",
             "regions": "中国大陆",
-            "release_date": "2026",
-            "actors": ""
+            "release_date": "1982",
+            "actors": "于是之, 郑榕, 蓝天野"
+          },
+          {
+            "rank": 15,
+            "title": "大闹天宫",
+            "score": "9.4",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2184505167.jpg",
+            "url": "https://movie.douban.com/subject/1418019/",
+            "types": "剧情, 动画, 奇幻",
+            "regions": "中国大陆",
+            "release_date": "1961",
+            "actors": "邱岳峰, 富润生, 毕克"
           }
         ]
       },
       {
         "key": "douban_tv",
         "title": "电视榜",
-        "count": 5,
+        "count": 1,
         "items": [
           {
             "rank": 1,
-            "title": "主角",
-            "score": "",
-            "rating_count": "171.3万",
-            "types": "剧情",
-            "regions": "中国大陆",
-            "release_date": "2026",
-            "actors": "张嘉益、刘浩存、秦海璐"
-          },
-          {
-            "rank": 2,
-            "title": "家业",
-            "score": "",
-            "rating_count": "155.0万",
-            "types": "剧情 古装",
-            "regions": "中国大陆",
-            "release_date": "2026",
-            "actors": "杨紫、韩东君、吴冕"
-          },
-          {
-            "rank": 3,
-            "title": "雨霖铃",
-            "score": "",
-            "rating_count": "68.4万",
-            "types": "剧情 武侠",
-            "regions": "中国大陆",
-            "release_date": "2026",
-            "actors": "杨洋、章若楠、方逸伦"
-          },
-          {
-            "rank": 4,
-            "title": "低智商犯罪",
-            "score": "8.0",
-            "rating_count": "59.2万",
-            "types": "剧情 犯罪",
-            "regions": "中国大陆",
-            "release_date": "2026",
-            "actors": "王骁、田曦薇、王传君"
-          },
-          {
-            "rank": 5,
-            "title": "黑袍纠察队 第五季",
-            "score": "7.1",
-            "rating_count": "48.7万",
-            "types": "剧情 喜剧 动作",
-            "regions": "美国",
-            "release_date": "2026",
-            "actors": ""
+            "title": "这个杀手不太冷",
+            "score": "9.4",
+            "rating_count": "",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913554676.jpg",
+            "url": "https://movie.douban.com/subject/1295644/",
+            "types": "剧情, 动作, 犯罪",
+            "regions": "法国, 美国",
+            "release_date": "2024-11-01",
+            "actors": "让·雷诺, 娜塔莉·波特曼, 加里·奥德曼"
           }
         ]
       }
@@ -266,7 +345,7 @@
       {
         "key": "douyin_movie",
         "title": "院线电影",
-        "count": 5,
+        "count": 8,
         "items": [
           {
             "rank": 1,
@@ -312,6 +391,33 @@
             "want_count": "133",
             "types": "励志",
             "actors": "赵箫泓 郝燕飞"
+          },
+          {
+            "rank": 6,
+            "title": "真人快打2",
+            "hot": "968.3万",
+            "score": "",
+            "want_count": "1213",
+            "types": "科幻 惊悚",
+            "actors": "卡尔·厄本 阿德..."
+          },
+          {
+            "rank": 7,
+            "title": "森中有林",
+            "hot": "727.4万",
+            "score": "",
+            "want_count": "1.5万",
+            "types": "爱情 犯罪",
+            "actors": "于和伟 高圆圆 韩庚"
+          },
+          {
+            "rank": 8,
+            "title": "星球大战：曼达洛人与...",
+            "hot": "613.7万",
+            "score": "",
+            "want_count": "2566",
+            "types": "科幻 冒险",
+            "actors": ""
           }
         ]
       },
@@ -383,21 +489,21 @@
             "title": "寒战1994",
             "hot_score": "96438",
             "hot_desc": "9.6万",
-            "desc": "1994年，香港回归前夕，政治部即将解散。一宗富商绑架案..."
+            "desc": "1994年，香港回归前夕，政治部即将解散。一宗富商绑架案，让热血正义的李文彬..."
           },
           {
             "rank": 2,
             "title": "10间敢死队",
             "hot_score": "89672",
             "hot_desc": "9.0万",
-            "desc": "当一个一心求死的人，遇上一群拼命想活的人..."
+            "desc": "当一个一心求死的人，遇上一群拼命想活的人，他在这份滚烫的生命力里豁然醒悟..."
           },
           {
             "rank": 3,
             "title": "消失的人",
             "hot_score": "86849",
             "hot_desc": "8.7万",
-            "desc": "同一个小区里，儿童失踪、深夜入侵、尸体藏匿..."
+            "desc": "同一个小区里，儿童失踪、深夜入侵、尸体藏匿，三起看似无关的谜案，竟指向一个真相..."
           }
         ]
       },
@@ -425,7 +531,7 @@
             "title": "佳偶天成",
             "hot_score": "79974",
             "hot_desc": "8.0万",
-            "desc": "讲述了战鬼族人陆千乔为破除诅咒、成为凡人..."
+            "desc": "讲述了战鬼族人陆千乔为破除诅咒、成为凡人，需历经换皮、换肉、换骨、换血、换心五..."
           }
         ]
       }
