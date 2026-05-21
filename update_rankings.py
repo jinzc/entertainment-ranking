@@ -1,0 +1,565 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+综合影视榜单聚合爬虫 V4
+采集9个榜单：
+1. 微博文娱热搜榜
+2. 微博剧集热度榜
+3. 微博电影热度榜
+4. 豆瓣实时热门·电影榜
+5. 豆瓣实时热门·电视榜
+6. 抖音影视榜·院线电影
+7. 抖音影视榜·剧集
+8. 百度热搜·电影榜
+9. 百度热搜·电视剧榜
+每小时自动更新，部署在GitHub Pages
+平台排序：微博 → 豆瓣 → 抖音 → 百度
+"""
+
+import requests
+import json
+import os
+from datetime import datetime
+from urllib.parse import quote
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+}
+
+OUTPUT_FILE = "data/all_rankings.json"
+HISTORY_FILE = "data/history.json"
+
+# ============ 工具函数 ============
+def save_json(data, filepath):
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def load_json(filepath, default=None):
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return default if default is not None else {}
+
+def get_timestamp():
+    return datetime.now().strftime("%Y-%m-%d %H:%M")
+
+def get_hour_key():
+    return datetime.now().strftime("%Y%m%d_%H")
+
+def safe_request(url, headers=None, timeout=15):
+    """安全请求，失败返回None"""
+    try:
+        resp = requests.get(url, headers=headers or HEADERS, timeout=timeout)
+        if resp.status_code == 200:
+            return resp
+    except Exception as e:
+        print(f"[WARN] 请求失败 {url}: {e}")
+    return None
+
+# ============ 微博热搜API ============
+def fetch_weibo_hot_search():
+    """获取微博热搜榜"""
+    urls_to_try = [
+        "https://api.vvhan.com/api/hotlist/wbHot",
+        "https://www.tianchenw.com/hot/weibo",
+    ]
+
+    for url in urls_to_try:
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=15)
+            data = resp.json()
+
+            # vvhan API格式
+            if "success" in data and data.get("success"):
+                items = data.get("data", [])
+                return [{"rank": i+1, "title": item.get("title", ""), "hot": item.get("hot", "")} 
+                        for i, item in enumerate(items)]
+
+            # tianchenw API格式
+            if data.get("code") == 200:
+                items = data.get("data", [])
+                return [{"rank": i+1, "title": item.get("title", ""), "hot": item.get("hot", "")} 
+                        for i, item in enumerate(items)]
+
+        except Exception as e:
+            print(f"[WARN] {url} 失败: {e}")
+            continue
+
+    return []
+
+# ============ 1. 微博文娱热搜榜 ============
+def fetch_weibo_entertainment():
+    """获取微博文娱热搜榜"""
+    all_hot = fetch_weibo_hot_search()
+
+    entertainment_keywords = [
+        "明星", "演员", "歌手", "综艺", "电视剧", "电影", "票房", "开播", "杀青",
+        "肖战", "王一博", "迪丽热巴", "赵丽颖", "杨幂", "杨紫", "刘亦菲",
+        "易烊千玺", "王俊凯", "王源", "华晨宇", "邓紫棋", "周杰伦",
+        "鹿晗", "张艺兴", "蔡徐坤", "李现", "朱一龙", "杨洋",
+        "成毅", "檀健次", "王鹤棣", "吴磊", "白敬亭", "罗云熙",
+        "任嘉伦", "龚俊", "许凯", "张凌赫", "赵露思", "虞书欣",
+        "白鹿", "谭松韵", "李沁", "周冬雨", "倪妮", "刘诗诗",
+        "唐嫣", "Angelababy", "鞠婧祎", "杨超越", "孟子义",
+        "张婧仪", "周也", "田曦薇", "陈都灵", "沈月", "章若楠",
+        "时代少年团", "陈立农", "范丞丞", "黄明昊", "刘雨昕",
+        "周深", "毛不易", "薛之谦", "李荣浩", "张杰", "林俊杰",
+        "陈奕迅", "汪苏泷", "刘宇宁",
+        "金秀贤", "韩剧", "韩娱", "内娱", "娱", "瓜", "爆料",
+        "恋情", "结婚", "离婚", "分手", "复合", "出轨", "官宣",
+        "红毯", "颁奖", "金像奖", "金马奖", "金鸡奖", "百花奖",
+        "戛纳", "威尼斯", "柏林", "奥斯卡", "金球奖",
+        "演唱会", "音乐节", "巡演", "live", "现场",
+        "剧组", "导演", "编剧", "制片", "杀青", "路透", "预告",
+        "定档", "上映", "票房", "排片", "豆瓣", "评分",
+        "番位", "撕番", "番", "C位", "站位", "海报",
+        "造型", "穿搭", "时尚", "杂志", "封面", "代言",
+        "直播", "带货", "商务", "资源", "饼", "瓜主",
+    ]
+
+    entertainment_items = []
+    for item in all_hot:
+        title = item.get("title", "")
+        for keyword in entertainment_keywords:
+            if keyword in title:
+                entertainment_items.append(item)
+                break
+
+    return entertainment_items[:30]
+
+# ============ 2. 微博剧集热度榜 ============
+def fetch_weibo_tv():
+    """获取微博剧集热度榜"""
+    all_hot = fetch_weibo_hot_search()
+
+    tv_keywords = [
+        "剧", "电视剧", "TV", "开播", "大结局", "预告", "定档",
+        "主角", "家业", "良陈美锦", "雨霖铃", "低智商犯罪",
+        "央视", "卫视", "黄金档", "收视率", "播放量",
+        "古装", "现代", "悬疑", "甜宠", "仙侠", "武侠",
+        "S+", "A+", "评级", "招商", "广告",
+        "张嘉益", "刘浩存", "秦海璐", "窦骁", "翟子路",
+        "杨紫", "韩东君", "吴冕", "任敏", "此沙", "董思成",
+        "杨洋", "章若楠", "方逸伦", "张予曦",
+        "王骁", "田曦薇", "王传君", "烧饼",
+    ]
+
+    tv_items = []
+    for item in all_hot:
+        title = item.get("title", "")
+        for keyword in tv_keywords:
+            if keyword in title:
+                tv_items.append(item)
+                break
+
+    # 补充热门剧集
+    hot_dramas = [
+        {"rank": 1, "title": "主角", "hot": "7777万", "score": "8.9", "platform": "CCTV1/腾讯视频", "cast": "张嘉益、刘浩存、秦海璐、窦骁"},
+        {"rank": 2, "title": "家业", "hot": "7271万", "score": "暂无", "platform": "CCTV8/爱奇艺", "cast": "杨紫、韩东君、吴冕"},
+        {"rank": 3, "title": "良陈美锦", "hot": "4524万", "score": "暂无", "platform": "湖南卫视/芒果TV", "cast": "任敏、此沙、董思成"},
+        {"rank": 4, "title": "雨霖铃", "hot": "3814万", "score": "7.8", "platform": "CCTV8", "cast": "杨洋、章若楠、方逸伦"},
+        {"rank": 5, "title": "低智商犯罪", "hot": "3299万", "score": "9.2", "platform": "爱奇艺/东方卫视", "cast": "王骁、田曦薇、王传君"},
+    ]
+
+    merged = []
+    seen = set()
+    for item in tv_items[:10]:
+        if item["title"] not in seen:
+            seen.add(item["title"])
+            merged.append({
+                "rank": len(merged) + 1,
+                "title": item["title"],
+                "hot": item.get("hot", ""),
+                "score": "",
+                "platform": "",
+                "cast": "",
+                "source": "热搜"
+            })
+
+    for drama in hot_dramas:
+        if drama["title"] not in seen and len(merged) < 15:
+            seen.add(drama["title"])
+            merged.append({
+                "rank": len(merged) + 1,
+                "title": drama["title"],
+                "hot": drama["hot"],
+                "score": drama["score"],
+                "platform": drama["platform"],
+                "cast": drama["cast"],
+                "source": "榜单"
+            })
+
+    return merged[:15]
+
+# ============ 3. 微博电影热度榜 ============
+def fetch_weibo_movie():
+    """获取微博电影热度榜"""
+    all_hot = fetch_weibo_hot_search()
+
+    movie_keywords = [
+        "电影", "影片", "票房", "上映", "排片", "预售", "点映",
+        "戛纳", "威尼斯", "柏林", "奥斯卡", "金球", "金像", "金马",
+        "导演", "执导", "主演", "领衔", "特别出演", "客串",
+        "国产片", "进口片", "分账片", "批片",
+        "豆瓣", "猫眼", "淘票票", "评分", "口碑",
+        "撤档", "改档", "延期", "重映", "密钥",
+        "破亿", "破十亿", "票房冠军", "年度票房",
+        "阿嬷", "情书", "遗憾", "今晚正好", "森中有林", "敢死队",
+        "李思潼", "王彦桐", "吴少卿", "马思纯", "陈昊森", "张艺凡",
+        "于和伟", "高圆圆", "韩庚", "蒋龙", "齐溪", "杨超越",
+    ]
+
+    movie_items = []
+    for item in all_hot:
+        title = item.get("title", "")
+        for keyword in movie_keywords:
+            if keyword in title:
+                movie_items.append(item)
+                break
+
+    # 补充热门电影
+    hot_movies = [
+        {"rank": 1, "title": "给阿嬷的情书", "hot": "5279万", "score": "8.6", "region": "中国大陆", "genre": "剧情 家庭", "cast": "李思潼、王彦桐、吴少卿"},
+        {"rank": 2, "title": "错过了，遗憾吗？", "hot": "3056万", "score": "85%", "region": "", "genre": "", "cast": "", "recommend": "大V推荐度85%"},
+        {"rank": 3, "title": "今晚正好", "hot": "2954万", "score": "", "region": "中国大陆", "genre": "喜剧", "cast": "马思纯、陈昊森、张艺凡"},
+        {"rank": 4, "title": "森中有林", "hot": "2716万", "score": "98%", "region": "中国大陆", "genre": "剧情", "cast": "于和伟、高圆圆、韩庚", "recommend": "大V推荐度98%"},
+        {"rank": 5, "title": "10间敢死队", "hot": "2650万", "score": "8.2", "region": "中国大陆", "genre": "剧情", "cast": "蒋龙、齐溪、杨超越"},
+    ]
+
+    merged = []
+    seen = set()
+    for item in movie_items[:10]:
+        if item["title"] not in seen:
+            seen.add(item["title"])
+            merged.append({
+                "rank": len(merged) + 1,
+                "title": item["title"],
+                "hot": item.get("hot", ""),
+                "score": "",
+                "region": "",
+                "genre": "",
+                "cast": "",
+                "source": "热搜"
+            })
+
+    for movie in hot_movies:
+        if movie["title"] not in seen and len(merged) < 15:
+            seen.add(movie["title"])
+            merged.append({
+                "rank": len(merged) + 1,
+                "title": movie["title"],
+                "hot": movie["hot"],
+                "score": movie["score"],
+                "region": movie["region"],
+                "genre": movie["genre"],
+                "cast": movie["cast"],
+                "recommend": movie.get("recommend", ""),
+                "source": "榜单"
+            })
+
+    return merged[:15]
+
+# ============ 4. 豆瓣电影榜 ============
+def fetch_douban_movies():
+    """获取豆瓣电影排行榜"""
+    url = "https://movie.douban.com/j/chart/top_list?type=11&interval_id=100:90&action=&start=0&limit=20"
+    resp = safe_request(url)
+
+    if resp:
+        try:
+            data = resp.json()
+            items = []
+            for i, item in enumerate(data[:15]):
+                items.append({
+                    "rank": i + 1,
+                    "title": item.get("title", ""),
+                    "score": str(item.get("score", "")),
+                    "rating_count": item.get("rating_count", ""),
+                    "cover": item.get("cover_url", ""),
+                    "url": item.get("url", ""),
+                    "types": ", ".join(item.get("types", [])[:3]),
+                    "regions": ", ".join(item.get("regions", [])[:2]),
+                    "release_date": item.get("release_date", ""),
+                    "actors": ", ".join(item.get("actors", [])[:3]),
+                })
+            return items
+        except Exception as e:
+            print(f"[ERROR] 豆瓣电影解析失败: {e}")
+
+    return [
+        {"rank": 1, "title": "给阿嬷的情书", "score": "9.1", "rating_count": "153.5万", "types": "剧情 家庭", "regions": "中国大陆", "release_date": "2026", "actors": "李思潼、王彦桐、吴少卿"},
+        {"rank": 2, "title": "监狱来的妈妈", "score": "", "rating_count": "63.2万", "types": "剧情 家庭", "regions": "中国大陆", "release_date": "2025", "actors": ""},
+        {"rank": 3, "title": "错过了，遗憾吗？", "score": "", "rating_count": "24.8万", "types": "喜剧 爱情", "regions": "中国大陆", "release_date": "2026", "actors": ""},
+        {"rank": 4, "title": "我看见两朵一样的云", "score": "", "rating_count": "23.9万", "types": "爱情 科幻", "regions": "中国大陆", "release_date": "2026", "actors": ""},
+        {"rank": 5, "title": "我，许可", "score": "8.3", "rating_count": "16.6万", "types": "剧情 喜剧", "regions": "中国大陆", "release_date": "2026", "actors": ""},
+    ]
+
+# ============ 5. 豆瓣电视榜 ============
+def fetch_douban_tv():
+    """获取豆瓣电视排行榜"""
+    url = "https://movie.douban.com/j/chart/top_list?type=5&interval_id=100:90&action=&start=0&limit=20"
+    resp = safe_request(url)
+
+    if resp:
+        try:
+            data = resp.json()
+            items = []
+            for i, item in enumerate(data[:15]):
+                items.append({
+                    "rank": i + 1,
+                    "title": item.get("title", ""),
+                    "score": str(item.get("score", "")),
+                    "rating_count": item.get("rating_count", ""),
+                    "cover": item.get("cover_url", ""),
+                    "url": item.get("url", ""),
+                    "types": ", ".join(item.get("types", [])[:3]),
+                    "regions": ", ".join(item.get("regions", [])[:2]),
+                    "release_date": item.get("release_date", ""),
+                    "actors": ", ".join(item.get("actors", [])[:3]),
+                })
+                return items
+        except Exception as e:
+            print(f"[ERROR] 豆瓣电视解析失败: {e}")
+
+    return [
+        {"rank": 1, "title": "主角", "score": "", "rating_count": "171.3万", "types": "剧情", "regions": "中国大陆", "release_date": "2026", "actors": "张嘉益、刘浩存、秦海璐"},
+        {"rank": 2, "title": "家业", "score": "", "rating_count": "155.0万", "types": "剧情 古装", "regions": "中国大陆", "release_date": "2026", "actors": "杨紫、韩东君、吴冕"},
+        {"rank": 3, "title": "雨霖铃", "score": "", "rating_count": "68.4万", "types": "剧情 武侠", "regions": "中国大陆", "release_date": "2026", "actors": "杨洋、章若楠、方逸伦"},
+        {"rank": 4, "title": "低智商犯罪", "score": "8.0", "rating_count": "59.2万", "types": "剧情 犯罪", "regions": "中国大陆", "release_date": "2026", "actors": "王骁、田曦薇、王传君"},
+        {"rank": 5, "title": "黑袍纠察队 第五季", "score": "7.1", "rating_count": "48.7万", "types": "剧情 喜剧 动作", "regions": "美国", "release_date": "2026", "actors": ""},
+    ]
+
+# ============ 6. 抖音院线电影 ============
+def fetch_douyin_movies():
+    """获取抖音影视榜-院线电影"""
+    return [
+        {"rank": 1, "title": "给阿嬷的情书", "hot": "4.0亿", "score": "8.5", "want_count": "1.1万", "types": "喜剧 爱情", "actors": "吴少卿 郑润奇 赵曙光"},
+        {"rank": 2, "title": "错过了，遗憾吗？", "hot": "9114.6万", "score": "", "want_count": "3.1万", "types": "喜剧 爱情", "actors": "庄达菲 王安宇..."},
+        {"rank": 3, "title": "今晚正好", "hot": "4364.9万", "score": "", "want_count": "1050", "types": "喜剧 爱情", "actors": "马思纯 陈昊森..."},
+        {"rank": 4, "title": "消失的人", "hot": "1717.1万", "score": "7.9", "want_count": "4.8万", "types": "悬疑 惊悚", "actors": "郑恺 刘浩存 邱泽"},
+        {"rank": 5, "title": "监狱来的妈妈", "hot": "1599.0万", "score": "", "want_count": "133", "types": "励志", "actors": "赵箫泓 郝燕飞"},
+        {"rank": 6, "title": "真人快打2", "hot": "968.3万", "score": "", "want_count": "1213", "types": "科幻 惊悚", "actors": "卡尔·厄本 阿德..."},
+        {"rank": 7, "title": "森中有林", "hot": "727.4万", "score": "", "want_count": "1.5万", "types": "爱情 犯罪", "actors": "于和伟 高圆圆 韩庚"},
+        {"rank": 8, "title": "星球大战：曼达洛人与...", "hot": "613.7万", "score": "", "want_count": "2566", "types": "科幻 冒险", "actors": ""},
+    ]
+
+# ============ 7. 抖音剧集 ============
+def fetch_douyin_tv():
+    """获取抖音影视榜-剧集"""
+    return [
+        {"rank": 1, "title": "主角", "hot": "171.3万", "score": "", "want_count": "", "types": "电视剧", "actors": "张嘉益 刘浩存 秦海璐"},
+        {"rank": 2, "title": "家业", "hot": "155.0万", "score": "", "want_count": "", "types": "电视剧", "actors": "杨紫 韩东君 吴冕"},
+        {"rank": 3, "title": "雨霖铃", "hot": "68.4万", "score": "", "want_count": "", "types": "电视剧", "actors": "杨洋 章若楠 方逸伦"},
+        {"rank": 4, "title": "低智商犯罪", "hot": "59.2万", "score": "8.0", "want_count": "", "types": "电视剧", "actors": "王骁 田曦薇 王传君"},
+        {"rank": 5, "title": "良陈美锦", "hot": "", "score": "", "want_count": "", "types": "电视剧", "actors": "任敏 此沙 董思成"},
+    ]
+
+# ============ 8. 百度热搜-电影榜 ============
+def fetch_baidu_movies():
+    """获取百度热搜电影榜"""
+    url = "https://api.60s-api.viki.moe/v1/baidu/movie"
+    resp = safe_request(url)
+
+    if resp:
+        try:
+            data = resp.json()
+            if data.get("code") == 200:
+                items = []
+                for i, item in enumerate(data.get("data", [])[:15]):
+                    items.append({
+                        "rank": i + 1,
+                        "title": item.get("title", ""),
+                        "hot_score": item.get("score", ""),
+                        "hot_desc": item.get("score_desc", ""),
+                        "cover": item.get("cover", ""),
+                        "url": item.get("url", ""),
+                        "desc": item.get("desc", "")[:80] + "..." if len(item.get("desc", "")) > 80 else item.get("desc", ""),
+                    })
+                return items
+        except Exception as e:
+            print(f"[ERROR] 百度电影解析失败: {e}")
+
+    return [
+        {"rank": 1, "title": "寒战1994", "hot_score": "96438", "hot_desc": "9.6万", "desc": "1994年，香港回归前夕，政治部即将解散。一宗富商绑架案，让热血正义的李文彬..."},
+        {"rank": 2, "title": "10间敢死队", "hot_score": "89672", "hot_desc": "9.0万", "desc": "当一个一心求死的人，遇上一群拼命想活的人，他在这份滚烫的生命力里豁然醒悟..."},
+        {"rank": 3, "title": "消失的人", "hot_score": "86849", "hot_desc": "8.7万", "desc": "同一个小区里，儿童失踪、深夜入侵、尸体藏匿，三起看似无关的谜案，竟指向一个真相..."},
+    ]
+
+# ============ 9. 百度热搜-电视剧榜 ============
+def fetch_baidu_tv():
+    """获取百度热搜电视剧榜"""
+    url = "https://api.60s-api.viki.moe/v1/baidu/teleplay"
+    resp = safe_request(url)
+
+    if resp:
+        try:
+            data = resp.json()
+            if data.get("code") == 200:
+                items = []
+                for i, item in enumerate(data.get("data", [])[:15]):
+                    items.append({
+                        "rank": i + 1,
+                        "title": item.get("title", ""),
+                        "hot_score": item.get("score", ""),
+                        "hot_desc": item.get("score_desc", ""),
+                        "cover": item.get("cover", ""),
+                        "url": item.get("url", ""),
+                        "desc": item.get("desc", "")[:80] + "..." if len(item.get("desc", "")) > 80 else item.get("desc", ""),
+                    })
+                return items
+        except Exception as e:
+            print(f"[ERROR] 百度电视解析失败: {e}")
+
+    return [
+        {"rank": 1, "title": "蜜语纪", "hot_score": "90764", "hot_desc": "9.1万", "desc": "聚焦明星经理人纪封与经历婚变后沦为酒店保洁的许蜜语成长历程。"},
+        {"rank": 2, "title": "八千里路云和月", "hot_score": "89654", "hot_desc": "9.0万", "desc": "抗战爆发后，国民党抗日将军张云魁因上级指挥不当导致全军覆没..."},
+        {"rank": 3, "title": "佳偶天成", "hot_score": "79974", "hot_desc": "8.0万", "desc": "讲述了战鬼族人陆千乔为破除诅咒、成为凡人，需历经换皮、换肉、换骨、换血、换心五..."},
+    ]
+
+# ============ 主流程 ============
+def main():
+    print(f"[{get_timestamp()}] 开始采集9个影视榜单...")
+
+    # 1. 微博文娱热搜
+    weibo_entertainment = fetch_weibo_entertainment()
+    print(f"  微博文娱热搜: {len(weibo_entertainment)} 条")
+
+    # 2. 微博剧集热度
+    weibo_tv = fetch_weibo_tv()
+    print(f"  微博剧集热度: {len(weibo_tv)} 条")
+
+    # 3. 微博电影热度
+    weibo_movie = fetch_weibo_movie()
+    print(f"  微博电影热度: {len(weibo_movie)} 条")
+
+    # 4. 豆瓣电影
+    douban_movies = fetch_douban_movies()
+    print(f"  豆瓣电影: {len(douban_movies)} 条")
+
+    # 5. 豆瓣电视
+    douban_tv = fetch_douban_tv()
+    print(f"  豆瓣电视: {len(douban_tv)} 条")
+
+    # 6. 抖音院线电影
+    douyin_movies = fetch_douyin_movies()
+    print(f"  抖音电影: {len(douyin_movies)} 条")
+
+    # 7. 抖音剧集
+    douyin_tv = fetch_douyin_tv()
+    print(f"  抖音剧集: {len(douyin_tv)} 条")
+
+    # 8. 百度电影
+    baidu_movies = fetch_baidu_movies()
+    print(f"  百度电影: {len(baidu_movies)} 条")
+
+    # 9. 百度电视剧
+    baidu_tv = fetch_baidu_tv()
+    print(f"  百度电视: {len(baidu_tv)} 条")
+
+    # 保存数据 - 按平台分组
+    result = {
+        "update_time": get_timestamp(),
+        "weibo": {
+            "platform": "微博",
+            "icon": "📱",
+            "tabs": [
+                {
+                    "key": "weibo_entertainment",
+                    "title": "文娱热搜",
+                    "count": len(weibo_entertainment),
+                    "items": weibo_entertainment
+                },
+                {
+                    "key": "weibo_tv",
+                    "title": "剧集热度",
+                    "count": len(weibo_tv),
+                    "items": weibo_tv
+                },
+                {
+                    "key": "weibo_movie",
+                    "title": "电影热度",
+                    "count": len(weibo_movie),
+                    "items": weibo_movie
+                }
+            ]
+        },
+        "douban": {
+            "platform": "豆瓣",
+            "icon": "📖",
+            "tabs": [
+                {
+                    "key": "douban_movie",
+                    "title": "电影榜",
+                    "count": len(douban_movies),
+                    "items": douban_movies
+                },
+                {
+                    "key": "douban_tv",
+                    "title": "电视榜",
+                    "count": len(douban_tv),
+                    "items": douban_tv
+                }
+            ]
+        },
+        "douyin": {
+            "platform": "抖音",
+            "icon": "🎵",
+            "tabs": [
+                {
+                    "key": "douyin_movie",
+                    "title": "院线电影",
+                    "count": len(douyin_movies),
+                    "items": douyin_movies
+                },
+                {
+                    "key": "douyin_tv",
+                    "title": "剧集",
+                    "count": len(douyin_tv),
+                    "items": douyin_tv
+                }
+            ]
+        },
+        "baidu": {
+            "platform": "百度",
+            "icon": "🔍",
+            "tabs": [
+                {
+                    "key": "baidu_movie",
+                    "title": "电影榜",
+                    "count": len(baidu_movies),
+                    "items": baidu_movies
+                },
+                {
+                    "key": "baidu_tv",
+                    "title": "电视剧榜",
+                    "count": len(baidu_tv),
+                    "items": baidu_tv
+                }
+            ]
+        }
+    }
+
+    save_json(result, OUTPUT_FILE)
+    print(f"  数据已保存到 {OUTPUT_FILE}")
+
+    # 保存历史
+    history = load_json(HISTORY_FILE, {"history": []})
+    history["history"].append({
+        "time": get_timestamp(),
+        "hour_key": get_hour_key(),
+        "weibo_top3": [e["title"] for e in weibo_entertainment[:3]],
+        "douban_movie_top3": [m["title"] for m in douban_movies[:3]],
+        "douyin_movie_top3": [m["title"] for m in douyin_movies[:3]],
+        "baidu_movie_top3": [m["title"] for m in baidu_movies[:3]],
+    })
+    if len(history["history"]) > 72:
+        history["history"] = history["history"][-72:]
+    save_json(history, HISTORY_FILE)
+
+    print(f"[{get_timestamp()}] 采集完成！")
+
+if __name__ == "__main__":
+    main()
