@@ -1,0 +1,81 @@
+{
+  "update_time": "尚未更新",
+  "weibo": {
+    "platform": "微博",
+    "icon": "📱",
+    "tabs": [
+      {
+        "key": "weibo_entertainment",
+        "title": "文娱热搜",
+        "count": 0,
+        "items": []
+      },
+      {
+        "key": "weibo_tv",
+        "title": "剧集热度",
+        "count": 0,
+        "items": []
+      },
+      {
+        "key": "weibo_movie",
+        "title": "电影热度",
+        "count": 0,
+        "items": []
+      }
+    ]
+  },
+  "douban": {
+    "platform": "豆瓣",
+    "icon": "📖",
+    "tabs": [
+      {
+        "key": "douban_movie",
+        "title": "电影榜",
+        "count": 0,
+        "items": []
+      },
+      {
+        "key": "douban_tv",
+        "title": "电视榜",
+        "count": 0,
+        "items": []
+      }
+    ]
+  },
+  "douyin": {
+    "platform": "抖音",
+    "icon": "🎵",
+    "tabs": [
+      {
+        "key": "douyin_movie",
+        "title": "院线电影",
+        "count": 0,
+        "items": []
+      },
+      {
+        "key": "douyin_tv",
+        "title": "剧集",
+        "count": 0,
+        "items": []
+      }
+    ]
+  },
+  "baidu": {
+    "platform": "百度",
+    "icon": "🔍",
+    "tabs": [
+      {
+        "key": "baidu_movie",
+        "title": "电影榜",
+        "count": 0,
+        "items": []
+      },
+      {
+        "key": "baidu_tv",
+        "title": "电视剧榜",
+        "count": 0,
+        "items": []
+      }
+    ]
+  }
+}
