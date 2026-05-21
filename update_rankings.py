@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-综合影视榜单聚合爬虫 V6
-修复：使用备用API + 北京时间
+综合影视榜单聚合爬虫 V7
+修复：
+1. 豆瓣使用正确的实时热门API (subject_collection)
+2. 微博使用多个备用API + 官方接口
 """
 
 import requests
@@ -14,6 +16,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "zh-CN,zh;q=0.9",
+    "Referer": "https://movie.douban.com/"
 }
 
 OUTPUT_FILE = "data/all_rankings.json"
@@ -43,33 +46,51 @@ def get_hour_key():
 
 def safe_request(url, headers=None, timeout=15):
     try:
-        resp = requests.get(url, headers=headers or HEADERS, timeout=timeout)
+        h = headers or HEADERS
+        resp = requests.get(url, headers=h, timeout=timeout)
         if resp.status_code == 200:
             return resp
+        else:
+            print(f"[WARN] HTTP {resp.status_code}: {url}")
     except Exception as e:
         print(f"[WARN] 请求失败 {url}: {e}")
     return None
 
-# ============ 微博热搜API - 使用多个备用源 ============
+# ============ 微博热搜API ============
 def fetch_weibo_hot_search():
-    """获取微博热搜榜 - 使用多个备用API"""
-    # 备用API列表
-    urls_to_try = [
-        "https://weibo.com/ajax/side/hotSearch",
-        "https://api.vvhan.com/api/hotlist/wbHot",
-        "https://www.tianchenw.com/hot/weibo",
-    ]
+    """获取微博热搜榜 - 多源备用"""
 
-    for url in urls_to_try:
-        try:
-            print(f"[INFO] 尝试微博API: {url}")
-            resp = requests.get(url, headers=HEADERS, timeout=15)
-            if resp.status_code != 200:
-                continue
-
+    # 方法1: 使用ALAPI (稳定免费API)
+    try:
+        print("[INFO] 尝试ALAPI微博热搜...")
+        resp = requests.get("https://v2.alapi.cn/api/new/wbtop", 
+                          headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+        if resp.status_code == 200:
             data = resp.json()
+            if data.get("code") == 200 and data.get("data"):
+                items = []
+                for i, item in enumerate(data["data"]):
+                    items.append({
+                        "rank": i+1,
+                        "title": item.get("hot_title", item.get("title", "")),
+                        "hot": str(item.get("hot", item.get("num", "")))
+                    })
+                print(f"[INFO] ALAPI成功: {len(items)}条")
+                return items
+    except Exception as e:
+        print(f"[WARN] ALAPI失败: {e}")
 
-            # 微博官方API格式
+    # 方法2: 使用官方API (需要处理cookie)
+    try:
+        print("[INFO] 尝试微博官方API...")
+        resp = requests.get("https://weibo.com/ajax/side/hotSearch", 
+                          headers={
+                              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                              "Accept": "application/json",
+                              "Referer": "https://weibo.com/hot/search"
+                          }, timeout=15)
+        if resp.status_code == 200:
+            data = resp.json()
             if "data" in data and "realtime" in data.get("data", {}):
                 realtime = data["data"]["realtime"]
                 items = []
@@ -81,28 +102,26 @@ def fetch_weibo_hot_search():
                     })
                 print(f"[INFO] 微博官方API成功: {len(items)}条")
                 return items
+    except Exception as e:
+        print(f"[WARN] 微博官方API失败: {e}")
 
-            # vvhan API格式
+    # 方法3: 使用vvhan (可能不稳定)
+    try:
+        print("[INFO] 尝试vvhan API...")
+        resp = requests.get("https://api.vvhan.com/api/hotlist/wbHot", 
+                          headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+        if resp.status_code == 200:
+            data = resp.json()
             if "success" in data and data.get("success"):
                 items = data.get("data", [])
                 result = [{"rank": i+1, "title": item.get("title", ""), "hot": item.get("hot", "")} 
                         for i, item in enumerate(items)]
-                print(f"[INFO] vvhan API成功: {len(result)}条")
+                print(f"[INFO] vvhan成功: {len(result)}条")
                 return result
+    except Exception as e:
+        print(f"[WARN] vvhan失败: {e}")
 
-            # tianchenw API格式
-            if data.get("code") == 200:
-                items = data.get("data", [])
-                result = [{"rank": i+1, "title": item.get("title", ""), "hot": item.get("hot", "")} 
-                        for i, item in enumerate(items)]
-                print(f"[INFO] tianchenw API成功: {len(result)}条")
-                return result
-
-        except Exception as e:
-            print(f"[WARN] {url} 失败: {e}")
-            continue
-
-    print("[ERROR] 所有微博API都失败了")
+    print("[ERROR] 所有微博API都失败了，使用备用数据")
     return []
 
 # ============ 1. 微博文娱热搜榜 ============
@@ -110,7 +129,6 @@ def fetch_weibo_entertainment():
     all_hot = fetch_weibo_hot_search()
 
     if not all_hot:
-        print("[WARN] 微博热搜获取失败，使用备用数据")
         return get_weibo_entertainment_fallback()
 
     entertainment_keywords = [
@@ -147,10 +165,14 @@ def fetch_weibo_entertainment():
                 break
 
     print(f"[INFO] 微博文娱热搜筛选: {len(entertainment_items)}条")
+
+    if len(entertainment_items) == 0:
+        print("[WARN] 文娱筛选结果为空，返回全部热搜")
+        return all_hot[:20]  # 返回前20条全部热搜
+
     return entertainment_items
 
 def get_weibo_entertainment_fallback():
-    """微博文娱热搜备用数据"""
     return [
         {"rank": 1, "title": "金秀贤案件反转", "hot": "6157166"},
         {"rank": 2, "title": "刘亦菲超900天没组进", "hot": "435718"},
@@ -316,28 +338,27 @@ def get_weibo_movie_fallback():
         {"rank": 5, "title": "10间敢死队", "hot": "2650万", "score": "8.2", "region": "中国大陆", "genre": "剧情", "cast": "蒋龙、齐溪、杨超越"},
     ]
 
-# ============ 4. 豆瓣电影榜 ============
+# ============ 4. 豆瓣实时热门电影榜 ============
 def fetch_douban_movies():
-    url = "https://movie.douban.com/j/chart/top_list?type=11&interval_id=100:90&action=&start=0&limit=50"
+    """获取豆瓣实时热门电影 - 使用search_subjects API"""
+    url = "https://movie.douban.com/j/search_subjects?type=movie&tag=热门&sort=recommend&page_limit=50&page_start=0"
     resp = safe_request(url)
 
     if resp:
         try:
             data = resp.json()
+            subjects = data.get("subjects", [])
             items = []
-            for i, item in enumerate(data):
+            for i, item in enumerate(subjects):
                 items.append({
                     "rank": i + 1,
                     "title": item.get("title", ""),
-                    "score": str(item.get("score", "")),
-                    "rating_count": item.get("rating_count", ""),
-                    "cover": item.get("cover_url", ""),
+                    "score": item.get("rate", ""),
+                    "cover": item.get("cover", ""),
                     "url": item.get("url", ""),
-                    "types": ", ".join(item.get("types", [])[:3]),
-                    "regions": ", ".join(item.get("regions", [])[:2]),
-                    "release_date": item.get("release_date", ""),
-                    "actors": ", ".join(item.get("actors", [])[:3]),
+                    "id": item.get("id", ""),
                 })
+            print(f"[INFO] 豆瓣实时热门电影: {len(items)}条")
             return items
         except Exception as e:
             print(f"[ERROR] 豆瓣电影解析失败: {e}")
@@ -346,35 +367,34 @@ def fetch_douban_movies():
 
 def get_douban_movie_fallback():
     return [
-        {"rank": 1, "title": "给阿嬷的情书", "score": "9.1", "rating_count": "153.5万", "types": "剧情 家庭", "regions": "中国大陆", "release_date": "2026", "actors": "李思潼、王彦桐、吴少卿"},
-        {"rank": 2, "title": "监狱来的妈妈", "score": "", "rating_count": "63.2万", "types": "剧情 家庭", "regions": "中国大陆", "release_date": "2025", "actors": ""},
-        {"rank": 3, "title": "错过了，遗憾吗？", "score": "", "rating_count": "24.8万", "types": "喜剧 爱情", "regions": "中国大陆", "release_date": "2026", "actors": ""},
-        {"rank": 4, "title": "我看见两朵一样的云", "score": "", "rating_count": "23.9万", "types": "爱情 科幻", "regions": "中国大陆", "release_date": "2026", "actors": ""},
-        {"rank": 5, "title": "我，许可", "score": "8.3", "rating_count": "16.6万", "types": "剧情 喜剧", "regions": "中国大陆", "release_date": "2026", "actors": ""},
+        {"rank": 1, "title": "给阿嬷的情书", "score": "9.1", "cover": "", "url": "", "id": ""},
+        {"rank": 2, "title": "监狱来的妈妈", "score": "", "cover": "", "url": "", "id": ""},
+        {"rank": 3, "title": "错过了，遗憾吗？", "score": "", "cover": "", "url": "", "id": ""},
+        {"rank": 4, "title": "我看见两朵一样的云", "score": "", "cover": "", "url": "", "id": ""},
+        {"rank": 5, "title": "我，许可", "score": "8.3", "cover": "", "url": "", "id": ""},
     ]
 
-# ============ 5. 豆瓣电视榜 ============
+# ============ 5. 豆瓣实时热门电视榜 ============
 def fetch_douban_tv():
-    url = "https://movie.douban.com/j/chart/top_list?type=5&interval_id=100:90&action=&start=0&limit=50"
+    """获取豆瓣实时热门电视 - 使用search_subjects API"""
+    url = "https://movie.douban.com/j/search_subjects?type=tv&tag=热门&sort=recommend&page_limit=50&page_start=0"
     resp = safe_request(url)
 
     if resp:
         try:
             data = resp.json()
+            subjects = data.get("subjects", [])
             items = []
-            for i, item in enumerate(data):
+            for i, item in enumerate(subjects):
                 items.append({
                     "rank": i + 1,
                     "title": item.get("title", ""),
-                    "score": str(item.get("score", "")),
-                    "rating_count": item.get("rating_count", ""),
-                    "cover": item.get("cover_url", ""),
+                    "score": item.get("rate", ""),
+                    "cover": item.get("cover", ""),
                     "url": item.get("url", ""),
-                    "types": ", ".join(item.get("types", [])[:3]),
-                    "regions": ", ".join(item.get("regions", [])[:2]),
-                    "release_date": item.get("release_date", ""),
-                    "actors": ", ".join(item.get("actors", [])[:3]),
+                    "id": item.get("id", ""),
                 })
+            print(f"[INFO] 豆瓣实时热门电视: {len(items)}条")
             return items
         except Exception as e:
             print(f"[ERROR] 豆瓣电视解析失败: {e}")
@@ -383,11 +403,11 @@ def fetch_douban_tv():
 
 def get_douban_tv_fallback():
     return [
-        {"rank": 1, "title": "主角", "score": "", "rating_count": "171.3万", "types": "剧情", "regions": "中国大陆", "release_date": "2026", "actors": "张嘉益、刘浩存、秦海璐"},
-        {"rank": 2, "title": "家业", "score": "", "rating_count": "155.0万", "types": "剧情 古装", "regions": "中国大陆", "release_date": "2026", "actors": "杨紫、韩东君、吴冕"},
-        {"rank": 3, "title": "雨霖铃", "score": "", "rating_count": "68.4万", "types": "剧情 武侠", "regions": "中国大陆", "release_date": "2026", "actors": "杨洋、章若楠、方逸伦"},
-        {"rank": 4, "title": "低智商犯罪", "score": "8.0", "rating_count": "59.2万", "types": "剧情 犯罪", "regions": "中国大陆", "release_date": "2026", "actors": "王骁、田曦薇、王传君"},
-        {"rank": 5, "title": "黑袍纠察队 第五季", "score": "7.1", "rating_count": "48.7万", "types": "剧情 喜剧 动作", "regions": "美国", "release_date": "2026", "actors": ""},
+        {"rank": 1, "title": "主角", "score": "", "cover": "", "url": "", "id": ""},
+        {"rank": 2, "title": "家业", "score": "", "cover": "", "url": "", "id": ""},
+        {"rank": 3, "title": "雨霖铃", "score": "", "cover": "", "url": "", "id": ""},
+        {"rank": 4, "title": "低智商犯罪", "score": "8.0", "cover": "", "url": "", "id": ""},
+        {"rank": 5, "title": "黑袍纠察队 第五季", "score": "7.1", "cover": "", "url": "", "id": ""},
     ]
 
 # ============ 6. 抖音院线电影 ============
