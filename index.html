@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -70,7 +69,7 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.2);
         }
 
-        /* 子Tab（榜单类型） */
+        /* 子Tab */
         .sub-tabs {
             display: flex;
             justify-content: center;
@@ -218,7 +217,7 @@
             color: #bdc3c7;
         }
 
-        .loading, .error {
+        .loading, .error, .empty {
             text-align: center;
             padding: 50px 20px;
             color: rgba(255,255,255,0.8);
@@ -226,6 +225,25 @@
         }
         .error {
             color: #e74c3c;
+        }
+        .empty {
+            color: rgba(255,255,255,0.6);
+        }
+        .retry-btn {
+            background: white;
+            color: #1a1a2e;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: all 0.3s;
+        }
+        .retry-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
         footer {
             text-align: center;
@@ -258,26 +276,26 @@
             <button class="platform-tab" data-platform="baidu">🔍 百度</button>
         </div>
 
-        <!-- 微博子Tab (3个) -->
+        <!-- 微博子Tab -->
         <div class="sub-tabs" id="subtabs-weibo">
             <button class="sub-tab active" data-sub="weibo_entertainment">📰 文娱热搜</button>
             <button class="sub-tab" data-sub="weibo_tv">📺 剧集热度</button>
             <button class="sub-tab" data-sub="weibo_movie">🎬 电影热度</button>
         </div>
 
-        <!-- 豆瓣子Tab (2个) -->
+        <!-- 豆瓣子Tab -->
         <div class="sub-tabs" id="subtabs-douban" style="display:none;">
             <button class="sub-tab active" data-sub="douban_movie">🎬 电影榜</button>
             <button class="sub-tab" data-sub="douban_tv">📺 电视榜</button>
         </div>
 
-        <!-- 抖音子Tab (2个) -->
+        <!-- 抖音子Tab -->
         <div class="sub-tabs" id="subtabs-douyin" style="display:none;">
             <button class="sub-tab active" data-sub="douyin_movie">🎬 院线电影</button>
             <button class="sub-tab" data-sub="douyin_tv">📺 剧集</button>
         </div>
 
-        <!-- 百度子Tab (2个) -->
+        <!-- 百度子Tab -->
         <div class="sub-tabs" id="subtabs-baidu" style="display:none;">
             <button class="sub-tab active" data-sub="baidu_movie">🎬 电影榜</button>
             <button class="sub-tab" data-sub="baidu_tv">📺 电视剧榜</button>
@@ -289,63 +307,63 @@
                 <span class="panel-title">📰 微博文娱热搜榜</span>
                 <span class="panel-source">weibo.com</span>
             </div>
-            <div class="ranking-list" id="list-weibo_entertainment"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-weibo_entertainment"><div class="loading">正在加载数据...</div></div>
         </div>
         <div class="ranking-panel" id="panel-weibo_tv">
             <div class="panel-header">
                 <span class="panel-title">📺 微博剧集热度榜</span>
                 <span class="panel-source">weibo.com</span>
             </div>
-            <div class="ranking-list" id="list-weibo_tv"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-weibo_tv"><div class="loading">正在加载数据...</div></div>
         </div>
         <div class="ranking-panel" id="panel-weibo_movie">
             <div class="panel-header">
                 <span class="panel-title">🎬 微博电影热度榜</span>
                 <span class="panel-source">weibo.com</span>
             </div>
-            <div class="ranking-list" id="list-weibo_movie"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-weibo_movie"><div class="loading">正在加载数据...</div></div>
         </div>
         <div class="ranking-panel" id="panel-douban_movie">
             <div class="panel-header">
                 <span class="panel-title">豆瓣实时热门 · 电影榜</span>
                 <span class="panel-source">douban.com</span>
             </div>
-            <div class="ranking-list" id="list-douban_movie"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-douban_movie"><div class="loading">正在加载数据...</div></div>
         </div>
         <div class="ranking-panel" id="panel-douban_tv">
             <div class="panel-header">
                 <span class="panel-title">豆瓣实时热门 · 电视榜</span>
                 <span class="panel-source">douban.com</span>
             </div>
-            <div class="ranking-list" id="list-douban_tv"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-douban_tv"><div class="loading">正在加载数据...</div></div>
         </div>
         <div class="ranking-panel" id="panel-douyin_movie">
             <div class="panel-header">
                 <span class="panel-title">抖音影视榜 · 院线电影</span>
                 <span class="panel-source">douyin.com</span>
             </div>
-            <div class="ranking-list" id="list-douyin_movie"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-douyin_movie"><div class="loading">正在加载数据...</div></div>
         </div>
         <div class="ranking-panel" id="panel-douyin_tv">
             <div class="panel-header">
                 <span class="panel-title">抖音影视榜 · 剧集</span>
                 <span class="panel-source">douyin.com</span>
             </div>
-            <div class="ranking-list" id="list-douyin_tv"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-douyin_tv"><div class="loading">正在加载数据...</div></div>
         </div>
         <div class="ranking-panel" id="panel-baidu_movie">
             <div class="panel-header">
                 <span class="panel-title">百度热搜 · 电影榜</span>
                 <span class="panel-source">baidu.com</span>
             </div>
-            <div class="ranking-list" id="list-baidu_movie"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-baidu_movie"><div class="loading">正在加载数据...</div></div>
         </div>
         <div class="ranking-panel" id="panel-baidu_tv">
             <div class="panel-header">
                 <span class="panel-title">百度热搜 · 电视剧榜</span>
                 <span class="panel-source">baidu.com</span>
             </div>
-            <div class="ranking-list" id="list-baidu_tv"><div class="loading">正在加载...</div></div>
+            <div class="ranking-list" id="list-baidu_tv"><div class="loading">正在加载数据...</div></div>
         </div>
 
         <footer>
@@ -358,45 +376,86 @@
         let allData = {};
         let currentPlatform = 'weibo';
         let currentSub = 'weibo_entertainment';
+        let loadError = null;
 
         async function loadData() {
-            try {
-                const response = await fetch('data/all_rankings.json?t=' + Date.now());
-                if (!response.ok) throw new Error('数据加载失败');
-                allData = await response.json();
+            // 尝试多个路径加载数据
+            const paths = [
+                'data/all_rankings.json',
+                './data/all_rankings.json',
+                '/data/all_rankings.json',
+                'entertainment-ranking/data/all_rankings.json',
+            ];
 
-                document.getElementById('updateTime').textContent = '更新时间：' + allData.update_time;
-                document.getElementById('footerTime').textContent = allData.update_time;
+            let lastError = null;
 
-                renderAll();
-            } catch (err) {
-                document.querySelectorAll('.ranking-list').forEach(el => {
-                    el.innerHTML = '<div class="error">数据加载失败，请稍后刷新重试</div>';
-                });
+            for (const path of paths) {
+                try {
+                    console.log('尝试加载:', path);
+                    const response = await fetch(path + '?t=' + Date.now(), {
+                        method: 'GET',
+                        headers: { 'Accept': 'application/json' }
+                    });
+
+                    if (response.ok) {
+                        const text = await response.text();
+                        try {
+                            allData = JSON.parse(text);
+                            console.log('数据加载成功:', path);
+                            loadError = null;
+
+                            document.getElementById('updateTime').textContent = '更新时间：' + (allData.update_time || '未知');
+                            document.getElementById('footerTime').textContent = allData.update_time || '-';
+
+                            renderAll();
+                            return;
+                        } catch (parseErr) {
+                            console.error('JSON解析失败:', parseErr);
+                            lastError = '数据格式错误';
+                        }
+                    } else {
+                        console.log('路径失败:', path, response.status);
+                        lastError = 'HTTP ' + response.status;
+                    }
+                } catch (err) {
+                    console.log('请求失败:', path, err.message);
+                    lastError = err.message;
+                }
             }
+
+            // 所有路径都失败
+            loadError = lastError;
+            console.error('所有路径加载失败:', lastError);
+
+            // 显示错误信息
+            document.querySelectorAll('.ranking-list').forEach(el => {
+                el.innerHTML = '<div class="error">数据加载失败<br><small>' + (lastError || '请检查网络连接') + '</small><br><button class="retry-btn" onclick="loadData()">🔄 重新加载</button></div>';
+            });
+
+            document.getElementById('updateTime').textContent = '加载失败';
         }
 
         function renderAll() {
             // 微博
-            if (allData.weibo) {
+            if (allData.weibo && allData.weibo.tabs) {
                 allData.weibo.tabs.forEach(tab => {
                     renderList(tab.key, tab.items || []);
                 });
             }
             // 豆瓣
-            if (allData.douban) {
+            if (allData.douban && allData.douban.tabs) {
                 allData.douban.tabs.forEach(tab => {
                     renderList(tab.key, tab.items || []);
                 });
             }
             // 抖音
-            if (allData.douyin) {
+            if (allData.douyin && allData.douyin.tabs) {
                 allData.douyin.tabs.forEach(tab => {
                     renderList(tab.key, tab.items || []);
                 });
             }
             // 百度
-            if (allData.baidu) {
+            if (allData.baidu && allData.baidu.tabs) {
                 allData.baidu.tabs.forEach(tab => {
                     renderList(tab.key, tab.items || []);
                 });
@@ -408,7 +467,7 @@
             if (!container) return;
 
             if (items.length === 0) {
-                container.innerHTML = '<div class="loading">暂无数据</div>';
+                container.innerHTML = '<div class="empty">暂无数据，等待下次更新...</div>';
                 return;
             }
 
@@ -417,29 +476,29 @@
                 const rankClass = idx === 0 ? 'rank-1' : idx === 1 ? 'rank-2' : idx === 2 ? 'rank-3' : 'rank-other';
 
                 let metaHtml = '';
-                if (item.score) metaHtml += `<span class="item-score">${item.score}分</span>`;
+                if (item.score && item.score !== '') metaHtml += `<span class="item-score">${item.score}分</span>`;
                 if (item.hot || item.hot_score) metaHtml += `<span class="item-hot">🔥 ${item.hot || item.hot_desc || item.hot_score}</span>`;
-                if (item.types) metaHtml += `<span class="item-tag">${item.types}</span>`;
-                if (item.regions) metaHtml += `<span class="item-tag">${item.regions}</span>`;
-                if (item.release_date) metaHtml += `<span class="item-tag">${item.release_date}</span>`;
-                if (item.platform) metaHtml += `<span class="item-tag">${item.platform}</span>`;
-                if (item.genre) metaHtml += `<span class="item-tag">${item.genre}</span>`;
+                if (item.types && item.types !== '') metaHtml += `<span class="item-tag">${item.types}</span>`;
+                if (item.regions && item.regions !== '') metaHtml += `<span class="item-tag">${item.regions}</span>`;
+                if (item.release_date && item.release_date !== '') metaHtml += `<span class="item-tag">${item.release_date}</span>`;
+                if (item.platform && item.platform !== '') metaHtml += `<span class="item-tag">${item.platform}</span>`;
+                if (item.genre && item.genre !== '') metaHtml += `<span class="item-tag">${item.genre}</span>`;
 
                 let castHtml = '';
-                if (item.actors) castHtml = `<div class="item-cast">${item.actors}</div>`;
-                if (item.desc) castHtml = `<div class="item-cast">${item.desc}</div>`;
-                if (item.cast) castHtml = `<div class="item-cast">${item.cast}</div>`;
+                if (item.actors && item.actors !== '') castHtml = `<div class="item-cast">${item.actors}</div>`;
+                if (item.desc && item.desc !== '') castHtml = `<div class="item-cast">${item.desc}</div>`;
+                if (item.cast && item.cast !== '') castHtml = `<div class="item-cast">${item.cast}</div>`;
 
                 let rightHtml = '';
-                if (item.rating_count) rightHtml = `<div class="item-index">${item.rating_count}</div>`;
-                else if (item.want_count) rightHtml = `<div style="color:#f39c12;font-size:0.8rem;font-weight:bold;">⭐ ${item.want_count}</div>`;
-                else if (item.recommend) rightHtml = `<div style="color:#27ae60;font-size:0.75rem;font-weight:bold;">${item.recommend}</div>`;
+                if (item.rating_count && item.rating_count !== '') rightHtml = `<div class="item-index">${item.rating_count}</div>`;
+                else if (item.want_count && item.want_count !== '') rightHtml = `<div style="color:#f39c12;font-size:0.8rem;font-weight:bold;">⭐ ${item.want_count}</div>`;
+                else if (item.recommend && item.recommend !== '') rightHtml = `<div style="color:#27ae60;font-size:0.75rem;font-weight:bold;">${item.recommend}</div>`;
 
                 return `
                     <div class="rank-item ${isTop3 ? 'top3' : ''}">
                         <div class="rank-num ${rankClass}">${idx + 1}</div>
                         <div class="item-content">
-                            <div class="item-title">${item.title}</div>
+                            <div class="item-title">${item.title || '未命名'}</div>
                             <div class="item-meta">${metaHtml}</div>
                             ${castHtml}
                         </div>
@@ -487,7 +546,10 @@
             });
         });
 
+        // 页面加载时自动获取数据
         loadData();
+
+        // 每5分钟自动刷新
         setInterval(loadData, 300000);
     </script>
 </body>
