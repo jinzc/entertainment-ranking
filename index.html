@@ -3,386 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>综合影视榜单 - 微博·豆瓣·抖音·百度</title>
+    <title>综合影视榜单</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: #f5f5f5;
-            color: #333;
-        }
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .header h1 { font-size: 24px; margin-bottom: 8px; }
-        .header p { font-size: 14px; opacity: 0.9; }
-        .update-time {
-            text-align: center;
-            padding: 10px;
-            background: #fff;
-            border-bottom: 1px solid #eee;
-            font-size: 13px;
-            color: #666;
-        }
-        .platform-tabs {
-            display: flex;
-            background: #fff;
-            border-bottom: 1px solid #eee;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-        }
-        .platform-tab {
-            flex: 1;
-            min-width: 80px;
-            padding: 15px 10px;
-            text-align: center;
-            cursor: pointer;
-            border: none;
-            background: none;
-            font-size: 14px;
-            transition: all 0.3s;
-            white-space: nowrap;
-        }
-        .platform-tab:hover { background: #f8f8f8; }
-        .platform-tab.active {
-            color: #667eea;
-            border-bottom: 2px solid #667eea;
-            font-weight: bold;
-        }
-        .sub-tabs {
-            display: flex;
-            background: #fff;
-            border-bottom: 1px solid #eee;
-            padding: 0 15px;
-        }
-        .sub-tab {
-            padding: 10px 15px;
-            cursor: pointer;
-            font-size: 13px;
-            color: #666;
-            border: none;
-            background: none;
-        }
-        .sub-tab.active {
-            color: #667eea;
-            border-bottom: 2px solid #667eea;
-        }
-        .content {
-            padding: 15px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .ranking-list {
-            background: #fff;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        .ranking-item {
-            display: flex;
-            align-items: center;
-            padding: 12px 15px;
-            border-bottom: 1px solid #f5f5f5;
-            transition: background 0.2s;
-        }
-        .ranking-item:hover { background: #fafafa; }
-        .rank-number {
-            width: 32px;
-            height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 14px;
-            margin-right: 12px;
-            flex-shrink: 0;
-        }
-        .rank-number.top3 {
-            background: linear-gradient(135deg, #ff6b6b, #ee5a5a);
-            color: white;
-        }
-        .rank-number.normal {
-            background: #f0f0f0;
-            color: #666;
-        }
-        .rank-info {
-            flex: 1;
-            min-width: 0;
-        }
-        .rank-title {
-            font-size: 15px;
-            color: #333;
-            margin-bottom: 4px;
-            word-break: break-all;
-        }
-        .rank-meta {
-            font-size: 12px;
-            color: #999;
-        }
-        .rank-meta span { margin-right: 10px; }
-        .rank-hot {
-            font-size: 12px;
-            color: #ff6b6b;
-            flex-shrink: 0;
-            margin-left: 10px;
-        }
-        .error-msg {
-            text-align: center;
-            padding: 40px 20px;
-            color: #999;
-        }
-        .error-msg .icon {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #999;
-        }
-        .loading-spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid #f3f3f3;
-            border-top: 3px solid #667eea;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 15px;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        .cover-img {
-            width: 50px;
-            height: 70px;
-            border-radius: 4px;
-            object-fit: cover;
-            margin-right: 12px;
-            flex-shrink: 0;
-        }
-        .score-badge {
-            display: inline-block;
-            padding: 2px 6px;
-            background: #ff6b6b;
-            color: white;
-            border-radius: 4px;
-            font-size: 11px;
-            margin-left: 8px;
-        }
-        @media (max-width: 600px) {
-            .header h1 { font-size: 20px; }
-            .ranking-item { padding: 10px 12px; }
-            .rank-title { font-size: 14px; }
-        }
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f5f5f5;color:#333}
+        .header{background:linear-gradient(135deg,#667eea,#764ba2);color:white;padding:20px;text-align:center}
+        .header h1{font-size:24px;margin-bottom:6px}
+        .header p{font-size:14px;opacity:.9}
+        .update-time{text-align:center;padding:10px;background:#fff;border-bottom:1px solid #eee;font-size:13px;color:#666}
+        .tabs{display:flex;background:#fff;border-bottom:1px solid #eee;overflow-x:auto}
+        .tab{flex:1;min-width:80px;padding:14px 8px;text-align:center;cursor:pointer;border:none;background:none;font-size:14px;white-space:nowrap}
+        .tab.active{color:#667eea;border-bottom:2px solid #667eea;font-weight:bold}
+        .subtabs{display:flex;background:#fff;border-bottom:1px solid #eee;padding:0 10px}
+        .subtab{padding:10px 14px;cursor:pointer;font-size:13px;color:#666;border:none;background:none}
+        .subtab.active{color:#667eea;border-bottom:2px solid #667eea}
+        .content{padding:15px;max-width:800px;margin:0 auto}
+        .list{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+        .item{display:flex;align-items:center;padding:12px 15px;border-bottom:1px solid #f5f5f5}
+        .item:hover{background:#fafafa}
+        .num{width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:6px;font-weight:bold;font-size:14px;margin-right:12px;flex-shrink:0}
+        .num.top3{background:linear-gradient(135deg,#ff6b6b,#ee5a5a);color:white}
+        .num.normal{background:#f0f0f0;color:#666}
+        .info{flex:1;min-width:0}
+        .title{font-size:15px;color:#333;margin-bottom:3px;word-break:break-all}
+        .meta{font-size:12px;color:#999}
+        .meta span{margin-right:8px}
+        .hot{font-size:12px;color:#ff6b6b;flex-shrink:0;margin-left:8px}
+        .err{text-align:center;padding:40px 20px;color:#999}
+        .err .icon{font-size:40px;margin-bottom:10px}
+        .loading{text-align:center;padding:40px;color:#999}
+        .spin{width:36px;height:36px;border:3px solid #f3f3f3;border-top:3px solid #667eea;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 12px}
+        @keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+        .cover{width:45px;height:60px;border-radius:4px;object-fit:cover;margin-right:10px;flex-shrink:0}
+        .badge{display:inline-block;padding:1px 5px;background:#ff6b6b;color:white;border-radius:3px;font-size:11px;margin-left:6px}
+        @media(max-width:600px){.header h1{font-size:20px}.item{padding:10px 12px}.title{font-size:14px}}
     </style>
+<base target="_blank">
 </head>
 <body>
     <div class="header">
         <h1>🎬 综合影视榜单</h1>
         <p>微博 · 豆瓣 · 抖音 · 百度 影视热度聚合</p>
     </div>
-    <div class="update-time" id="updateTime">加载中...</div>
-    <div class="platform-tabs" id="platformTabs"></div>
-    <div class="sub-tabs" id="subTabs"></div>
-    <div class="content" id="content">
-        <div class="loading">
-            <div class="loading-spinner"></div>
-            <p>正在加载数据...</p>
-        </div>
+    <div class="update-time" id="ut">加载中...</div>
+    <div class="tabs" id="pt"></div>
+    <div class="subtabs" id="st"></div>
+    <div class="content" id="ct">
+        <div class="loading"><div class="spin"></div><p>正在加载数据...</p></div>
     </div>
 
-    <script>
-        let allData = null;
-        let currentPlatform = 'weibo';
-        let currentTab = 'weibo_entertainment';
+<script>
+let D=null,P='weibo',T='weibo_entertainment';
+const C={weibo:{n:'微博',i:'📱'},douban:{n:'豆瓣',i:'📖'},douyin:{n:'抖音',i:'🎵'},baidu:{n:'百度',i:'🔍'}};
 
-        const platformConfig = {
-            weibo: { name: '微博', icon: '📱' },
-            douban: { name: '豆瓣', icon: '📖' },
-            douyin: { name: '抖音', icon: '🎵' },
-            baidu: { name: '百度', icon: '🔍' }
-        };
-
-        async function loadData() {
-            try {
-                // 尝试多个数据源路径
-                const urls = [
-                    'data/all_rankings.json',
-                    './data/all_rankings.json',
-                    '/data/all_rankings.json',
-                    'all_rankings.json'
-                ];
-
-                let response = null;
-                let lastError = null;
-                for (const url of urls) {
-                    try {
-                        const resp = await fetch(url, { cache: 'no-cache' });
-                        if (resp.ok) {
-                            response = resp;
-                            break;
-                        }
-                    } catch (e) {
-                        lastError = e;
-                        console.log('尝试路径失败:', url, e.message);
-                    }
-                }
-
-                if (!response) {
-                    throw new Error('无法加载数据文件: ' + (lastError ? lastError.message : '所有路径都失败'));
-                }
-
-                allData = await response.json();
-
-                if (!allData || !allData.update_time) {
-                    throw new Error('数据格式异常');
-                }
-
-                document.getElementById('updateTime').textContent = 
-                    '更新时间：' + allData.update_time + '（北京时间）';
-                renderPlatformTabs();
-                renderSubTabs();
-                renderContent();
-            } catch (error) {
-                console.error('加载失败:', error);
-                document.getElementById('content').innerHTML = 
-                    '<div class="error-msg"><div class="icon">⚠️</div><p>数据加载失败</p><p style="font-size:12px;color:#bbb;margin-top:10px;">' + error.message + '</p><p style="font-size:12px;color:#667eea;margin-top:15px;cursor:pointer;text-decoration:underline;" onclick="location.reload()">点击刷新重试</p></div>';
-                document.getElementById('updateTime').textContent = '数据加载失败 - ' + error.message;
-            }
+async function load(){
+    try{
+        const urls=['data/all_rankings.json','./data/all_rankings.json','/data/all_rankings.json','all_rankings.json'];
+        let r=null,le=null;
+        for(const u of urls){
+            try{const x=await fetch(u,{cache:'no-cache'});if(x.ok){r=x;break}}catch(e){le=e}
         }
+        if(!r)throw new Error('无法加载数据'+(le?': '+le.message:''));
+        D=await r.json();
+        if(!D||!D.update_time)throw new Error('数据格式异常');
+        document.getElementById('ut').textContent='更新时间：'+D.update_time+'（北京时间）';
+        renderP();renderS();renderC();
+    }catch(e){
+        console.error(e);
+        document.getElementById('ct').innerHTML='<div class="err"><div class="icon">⚠️</div><p>数据加载失败</p><p style="font-size:12px;color:#bbb;margin-top:8px">'+e.message+'</p><p style="font-size:12px;color:#667eea;margin-top:12px;cursor:pointer;text-decoration:underline" onclick="location.reload(true)">点击刷新重试</p></div>';
+        document.getElementById('ut').textContent='加载失败';
+    }
+}
 
-        function renderPlatformTabs() {
-            const container = document.getElementById('platformTabs');
-            container.innerHTML = '';
+function renderP(){
+    const el=document.getElementById('pt');el.innerHTML='';
+    Object.keys(C).forEach(k=>{
+        const b=document.createElement('button');
+        b.className='tab'+(k===P?' active':'');
+        b.textContent=C[k].i+' '+C[k].n;
+        b.onclick=()=>{P=k;const x=D[k];if(x&&x.tabs&&x.tabs.length)T=x.tabs[0].key;renderP();renderS();renderC()};
+        el.appendChild(b);
+    });
+}
 
-            Object.keys(platformConfig).forEach(key => {
-                const btn = document.createElement('button');
-                btn.className = 'platform-tab' + (key === currentPlatform ? ' active' : '');
-                btn.textContent = platformConfig[key].icon + ' ' + platformConfig[key].name;
-                btn.onclick = () => {
-                    currentPlatform = key;
-                    const platformData = allData[key];
-                    if (platformData && platformData.tabs && platformData.tabs.length > 0) {
-                        currentTab = platformData.tabs[0].key;
-                    }
-                    renderPlatformTabs();
-                    renderSubTabs();
-                    renderContent();
-                };
-                container.appendChild(btn);
-            });
+function renderS(){
+    const el=document.getElementById('st');el.innerHTML='';
+    if(!D||!D[P])return;
+    (D[P].tabs||[]).forEach(t=>{
+        const b=document.createElement('button');
+        b.className='subtab'+(t.key===T?' active':'');
+        b.textContent=t.title;
+        b.onclick=()=>{T=t.key;renderS();renderC()};
+        el.appendChild(b);
+    });
+}
+
+function renderC(){
+    const el=document.getElementById('ct');
+    if(!D||!D[P]){el.innerHTML='<div class="err"><div class="icon">📭</div><p>暂无数据</p></div>';return}
+    const tab=(D[P].tabs||[]).find(t=>t.key===T);
+    if(!tab){el.innerHTML='<div class="err"><div class="icon">📭</div><p>暂无数据</p></div>';return}
+    if(tab.error){el.innerHTML='<div class="err"><div class="icon">⚠️</div><p>'+tab.error+'</p></div>';return}
+    const items=tab.items||[];
+    if(!items.length){el.innerHTML='<div class="err"><div class="icon">📭</div><p>本时段暂无数据</p></div>';return}
+    let h='<div class="list">';
+    items.forEach((item,idx)=>{
+        const top=idx<3,cls=top?'top3':'normal';
+        let meta='',extra='';
+        if(P==='weibo'){
+            if(item.hot)extra+='<span class="hot">🔥 '+item.hot+'</span>';
+            if(item.platform)meta+='<span>📺 '+item.platform+'</span>';
+            if(item.cast)meta+='<span>👤 '+item.cast+'</span>';
+            if(item.score&&item.score!=='暂无')meta+='<span class="badge">'+item.score+'</span>';
+            if(item.source)meta+='<span style="color:#667eea">'+item.source+'</span>';
+        }else if(P==='douban'){
+            if(item.cover){extra='<img class="cover" src="'+item.cover+'" alt="" onerror="this.style.display='none'">'}
+            if(item.score)meta+='<span class="badge">⭐ '+item.score+'</span>';
+            if(item.types)meta+='<span>'+item.types+'</span>';
+            if(item.actors)meta+='<span>👤 '+item.actors+'</span>';
+            if(item.release_date)meta+='<span>📅 '+item.release_date+'</span>';
+        }else if(P==='douyin'){
+            if(item.hot)extra+='<span class="hot">🔥 '+item.hot+'</span>';
+            if(item.score)meta+='<span class="badge">⭐ '+item.score+'</span>';
+            if(item.types)meta+='<span>'+item.types+'</span>';
+            if(item.actors)meta+='<span>👤 '+item.actors+'</span>';
+        }else if(P==='baidu'){
+            if(item.hot_desc)extra+='<span class="hot">🔥 '+item.hot_desc+'</span>';
+            if(item.desc)meta+='<span>'+item.desc+'</span>';
         }
+        h+='<div class="item">';
+        h+='<div class="num '+cls+'">'+(idx+1)+'</div>';
+        if(extra&&P==='douban')h+=extra;
+        h+='<div class="info">';
+        h+='<div class="title">'+(item.title||'未知')+'</div>';
+        if(meta)h+='<div class="meta">'+meta+'</div>';
+        h+='</div>';
+        if(extra&&P!=='douban')h+=extra;
+        h+='</div>';
+    });
+    h+='</div>';
+    el.innerHTML=h;
+}
 
-        function renderSubTabs() {
-            const container = document.getElementById('subTabs');
-            container.innerHTML = '';
-
-            if (!allData || !allData[currentPlatform]) return;
-
-            const tabs = allData[currentPlatform].tabs || [];
-            tabs.forEach(tab => {
-                const btn = document.createElement('button');
-                btn.className = 'sub-tab' + (tab.key === currentTab ? ' active' : '');
-                btn.textContent = tab.title;
-                btn.onclick = () => {
-                    currentTab = tab.key;
-                    renderSubTabs();
-                    renderContent();
-                };
-                container.appendChild(btn);
-            });
-        }
-
-        function renderContent() {
-            const container = document.getElementById('content');
-
-            if (!allData || !allData[currentPlatform]) {
-                container.innerHTML = '<div class="error-msg"><div class="icon">📭</div><p>暂无数据</p></div>';
-                return;
-            }
-
-            const platformData = allData[currentPlatform];
-            const tabData = platformData.tabs.find(t => t.key === currentTab);
-
-            if (!tabData) {
-                container.innerHTML = '<div class="error-msg"><div class="icon">📭</div><p>暂无数据</p></div>';
-                return;
-            }
-
-            // 如果有错误提示
-            if (tabData.error) {
-                container.innerHTML = '<div class="error-msg"><div class="icon">⚠️</div><p>' + tabData.error + '</p></div>';
-                return;
-            }
-
-            const items = tabData.items || [];
-
-            if (items.length === 0) {
-                container.innerHTML = '<div class="error-msg"><div class="icon">📭</div><p>本时段暂无数据</p></div>';
-                return;
-            }
-
-            let html = '<div class="ranking-list">';
-            items.forEach((item, index) => {
-                const isTop3 = index < 3;
-                const rankClass = isTop3 ? 'top3' : 'normal';
-
-                let metaHtml = '';
-                let extraHtml = '';
-
-                // 根据不同平台显示不同信息
-                if (currentPlatform === 'weibo') {
-                    if (item.hot) extraHtml += '<span class="rank-hot">🔥 ' + item.hot + '</span>';
-                    if (item.platform) metaHtml += '<span>📺 ' + item.platform + '</span>';
-                    if (item.cast) metaHtml += '<span>👤 ' + item.cast + '</span>';
-                    if (item.score && item.score !== '暂无') metaHtml += '<span class="score-badge">' + item.score + '</span>';
-                    if (item.source) metaHtml += '<span style="color:#667eea">' + item.source + '</span>';
-                } else if (currentPlatform === 'douban') {
-                    if (item.cover) {
-                        extraHtml = '<img class="cover-img" src="' + item.cover + '" alt="" onerror="this.style.display='none'">';
-                    }
-                    if (item.score) metaHtml += '<span class="score-badge">⭐ ' + item.score + '</span>';
-                    if (item.types) metaHtml += '<span>' + item.types + '</span>';
-                    if (item.actors) metaHtml += '<span>👤 ' + item.actors + '</span>';
-                    if (item.release_date) metaHtml += '<span>📅 ' + item.release_date + '</span>';
-                } else if (currentPlatform === 'douyin') {
-                    if (item.hot) extraHtml += '<span class="rank-hot">🔥 ' + item.hot + '</span>';
-                    if (item.score) metaHtml += '<span class="score-badge">⭐ ' + item.score + '</span>';
-                    if (item.types) metaHtml += '<span>' + item.types + '</span>';
-                    if (item.actors) metaHtml += '<span>👤 ' + item.actors + '</span>';
-                } else if (currentPlatform === 'baidu') {
-                    if (item.hot_desc) extraHtml += '<span class="rank-hot">🔥 ' + item.hot_desc + '</span>';
-                    if (item.desc) metaHtml += '<span>' + item.desc + '</span>';
-                }
-
-                html += '<div class="ranking-item">';
-                html += '<div class="rank-number ' + rankClass + '">' + (index + 1) + '</div>';
-                if (extraHtml && currentPlatform === 'douban') {
-                    html += extraHtml;
-                }
-                html += '<div class="rank-info">';
-                html += '<div class="rank-title">' + (item.title || '未知') + '</div>';
-                if (metaHtml) {
-                    html += '<div class="rank-meta">' + metaHtml + '</div>';
-                }
-                html += '</div>';
-                if (extraHtml && currentPlatform !== 'douban') {
-                    html += extraHtml;
-                }
-                html += '</div>';
-            });
-            html += '</div>';
-
-            container.innerHTML = html;
-        }
-
-        // 页面加载完成后自动加载数据
-        document.addEventListener('DOMContentLoaded', loadData);
-    </script>
+document.addEventListener('DOMContentLoaded',load);
+</script>
 </body>
 </html>
