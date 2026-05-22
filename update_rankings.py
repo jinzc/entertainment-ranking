@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-综合影视榜单聚合爬虫 V14
+综合影视榜单聚合爬虫 V15
 修复：
-1. 微博API字段缺失问题 - 处理num/flag_desc为空的情况
-2. 增加备用数据源
-3. 优化关键词筛选逻辑
+1. 微博剧集/电影没有数据时不展示（返回None，前端不显示tab）
+2. 豆瓣统一不展示图片
+3. 微博API字段缺失处理
 """
 
 import requests
@@ -70,12 +70,11 @@ def fetch_weibo_hot_search():
                 realtime = data["data"]["realtime"]
                 items = []
                 for i, item in enumerate(realtime):
-                    # 处理字段可能为空的情况
                     title = item.get("word", "")
                     hot = item.get("num", item.get("raw_hot", ""))
                     flag_desc = item.get("flag_desc", "")
 
-                    if title:  # 只添加有标题的
+                    if title:
                         items.append({
                             "rank": i+1,
                             "title": title,
@@ -212,15 +211,13 @@ def fetch_weibo_entertainment():
 def fetch_weibo_tv():
     all_hot = fetch_weibo_hot_search()
     if not all_hot:
-        print("[ERROR] 微博热搜抓取失败，剧集榜返回空")
-        return []
+        return None
 
     # 使用官方flag_desc="剧集"筛选
     tv_items = [item for item in all_hot if item.get("flag_desc") == "剧集"]
 
     # 如果flag_desc筛选不到，用关键词补充
     if len(tv_items) == 0:
-        print("[INFO] flag_desc无剧集数据，用关键词补充")
         seen = set()
         tv_keywords = ["剧", "电视剧", "TV", "开播", "大结局", "预告", "定档", "主角", "追剧"]
         for item in all_hot:
@@ -231,6 +228,9 @@ def fetch_weibo_tv():
                     tv_items.append(item)
             if len(tv_items) >= 10:
                 break
+
+    if not tv_items:
+        return None
 
     result = []
     seen = set()
@@ -254,15 +254,13 @@ def fetch_weibo_tv():
 def fetch_weibo_movie():
     all_hot = fetch_weibo_hot_search()
     if not all_hot:
-        print("[ERROR] 微博热搜抓取失败，电影榜返回空")
-        return []
+        return None
 
     # 使用官方flag_desc="电影"筛选
     movie_items = [item for item in all_hot if item.get("flag_desc") == "电影"]
 
     # 如果flag_desc筛选不到，用关键词补充
     if len(movie_items) == 0:
-        print("[INFO] flag_desc无电影数据，用关键词补充")
         seen = set()
         movie_keywords = ["电影", "影片", "票房", "上映", "排片", "预售", "首映", "导演", "主演"]
         for item in all_hot:
@@ -273,6 +271,9 @@ def fetch_weibo_movie():
                     movie_items.append(item)
             if len(movie_items) >= 10:
                 break
+
+    if not movie_items:
+        return None
 
     result = []
     seen = set()
@@ -316,8 +317,7 @@ def fetch_douban_movies():
                     "title": item.get("title", ""),
                     "score": score,
                     "rating_count": "",
-                    "cover": item.get("cover_url", item.get("pic", {}).get("normal", "")),
-                    "url": item.get("url", ""),
+                    # 不返回cover字段，统一不展示图片
                     "types": ", ".join(item.get("genres", [])[:3]),
                     "regions": ", ".join(item.get("countries", [])[:2]),
                     "release_date": item.get("year", ""),
@@ -354,8 +354,7 @@ def fetch_douban_tv():
                     "title": item.get("title", ""),
                     "score": score,
                     "rating_count": "",
-                    "cover": item.get("cover_url", item.get("pic", {}).get("normal", "")),
-                    "url": item.get("url", ""),
+                    # 不返回cover字段，统一不展示图片
                     "types": ", ".join(item.get("genres", [])[:3]),
                     "regions": ", ".join(item.get("countries", [])[:2]),
                     "release_date": item.get("year", ""),
@@ -587,10 +586,10 @@ def main():
     print(f"  微博文娱热搜: {len(weibo_entertainment)} 条")
 
     weibo_tv = fetch_weibo_tv()
-    print(f"  微博剧集热度: {len(weibo_tv)} 条")
+    print(f"  微博剧集热度: {len(weibo_tv) if weibo_tv else 0} 条")
 
     weibo_movie = fetch_weibo_movie()
-    print(f"  微博电影热度: {len(weibo_movie)} 条")
+    print(f"  微博电影热度: {len(weibo_movie) if weibo_movie else 0} 条")
 
     douban_movies = fetch_douban_movies()
     print(f"  豆瓣电影: {len(douban_movies)} 条")
@@ -626,16 +625,21 @@ def main():
             "items": items
         }
 
+    # 构建tabs列表，None表示不展示
+    weibo_tabs = [
+        make_tab_data("weibo_entertainment", "文娱热搜", weibo_entertainment, "微博"),
+    ]
+    if weibo_tv:
+        weibo_tabs.append(make_tab_data("weibo_tv", "剧集热度", weibo_tv, "微博"))
+    if weibo_movie:
+        weibo_tabs.append(make_tab_data("weibo_movie", "电影热度", weibo_movie, "微博"))
+
     result = {
         "update_time": get_timestamp(),
         "weibo": {
             "platform": "微博",
             "icon": "📱",
-            "tabs": [
-                make_tab_data("weibo_entertainment", "文娱热搜", weibo_entertainment, "微博"),
-                make_tab_data("weibo_tv", "剧集热度", weibo_tv, "微博"),
-                make_tab_data("weibo_movie", "电影热度", weibo_movie, "微博"),
-            ]
+            "tabs": weibo_tabs
         },
         "douban": {
             "platform": "豆瓣",
