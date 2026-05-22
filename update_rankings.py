@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-综合影视榜单聚合爬虫 V11
+综合影视榜单聚合爬虫 V13
 核心修复：
-1. 微博文娱榜使用官方API的flag_desc字段直接筛选（剧集/综艺/电影/演出/音乐）
-2. 微博剧集/电影直接使用flag_desc分类，不再关键词匹配
-3. 抖音使用dabenshi.cn聚合API（GitHub Actions环境测试通过）
-4. 百度保留多源尝试
+1. 微博文娱榜：尝试直接抓取 https://s.weibo.com/top/summary?cate=entrank 页面
+   - 如果页面需要登录，则回退到官方API+关键词筛选
+2. 微博剧集/电影：使用flag_desc官方分类
+3. 抖音：使用dabenshi.cn聚合API
+4. 百度：多源尝试
 5. 彻底移除所有写死数据
-6. 抓取失败返回空 + error提示
 """
 
 import requests
@@ -55,9 +55,74 @@ def safe_request(url, headers=None, timeout=15):
         print(f"[WARN] 请求失败 {url}: {e}")
     return None
 
-# ============ 1. 微博热搜API（官方） ============
+# ============ 1. 微博文娱榜（直接抓取页面） ============
+def fetch_weibo_entertainment_page():
+    """尝试直接抓取微博文娱榜页面 https://s.weibo.com/top/summary?cate=entrank"""
+    try:
+        print("[INFO] 尝试抓取微博文娱榜页面...")
+        url = "https://s.weibo.com/top/summary?cate=entrank"
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "zh-CN,zh;q=0.9",
+            "Referer": "https://s.weibo.com/",
+            "Cookie": "SUB=_2AkMVWDzQf8NxqwJRmP0Sz2_qZY5_ygvEieKjBAkJRMxHRl-W9XqnYgtP6TVn8hJ3DyLwVDkjGQJ7D9EVp2xO1z7xKDs;"
+        }
+        resp = requests.get(url, headers=headers, timeout=15)
+        if resp.status_code == 200:
+            html = resp.text
+            # 检查是否是热搜榜内容（而不是使用须知）
+            if "热搜榜" in html or "rank" in html or "td-01" in html:
+                # 从HTML中提取热搜数据
+                # 微博热搜通常格式: <td class="td-01 ranktop">1</td><td class="td-02"><a href="...">标题</a></td>
+                items = []
+
+                # 方法1: 提取排名和标题
+                pattern1 = r'<td class="td-01[^"]*">\s*(\d+)\s*</td>\s*<td class="td-02[^"]*">.*?<a[^>]*href="[^"]*"[^>]*>(.*?)</a>'
+                matches1 = re.findall(pattern1, html, re.DOTALL)
+
+                # 方法2: 备用提取方式
+                pattern2 = r'<a href="/weibo\?q=[^"]*&[^"]*">([^<]+)</a>'
+                matches2 = re.findall(pattern2, html)
+
+                if matches1:
+                    for rank, title in matches1:
+                        title = re.sub(r'<[^>]+>', '', title).strip()
+                        if title:
+                            items.append({
+                                "rank": int(rank),
+                                "title": title,
+                                "hot": "",
+                                "flag_desc": "",
+                                "label_name": ""
+                            })
+                elif matches2:
+                    for i, title in enumerate(matches2):
+                        title = title.strip()
+                        if title:
+                            items.append({
+                                "rank": i + 1,
+                                "title": title,
+                                "hot": "",
+                                "flag_desc": "",
+                                "label_name": ""
+                            })
+
+                if len(items) >= 10:
+                    print(f"[INFO] 微博文娱榜页面抓取成功: {len(items)}条")
+                    return items
+                else:
+                    print(f"[WARN] 页面解析仅{len(items)}条，可能结构已变更")
+            else:
+                print("[WARN] 页面返回了使用须知或其他内容，需要登录")
+    except Exception as e:
+        print(f"[WARN] 微博文娱榜页面抓取失败: {e}")
+
+    return None
+
+# ============ 2. 微博热搜API（官方） ============
 def fetch_weibo_hot_search():
-    """获取微博热搜榜 - 官方API"""
+    """获取微博热搜榜 - 官方API，返回51条"""
     try:
         print("[INFO] 尝试微博官方API...")
         resp = requests.get("https://weibo.com/ajax/side/hotSearch",
@@ -112,8 +177,16 @@ def fetch_weibo_hot_search():
     print("[ERROR] 所有微博API都失败了，返回空")
     return []
 
-# ============ 2. 微博文娱热搜榜 ============
+# ============ 3. 微博文娱热搜榜 ============
 def fetch_weibo_entertainment():
+    # 首先尝试直接抓取文娱榜页面
+    page_items = fetch_weibo_entertainment_page()
+    if page_items and len(page_items) >= 10:
+        print(f"[INFO] 使用微博文娱榜页面数据: {len(page_items)}条")
+        return page_items[:50]
+
+    # 如果页面抓取失败，回退到API+关键词筛选
+    print("[INFO] 回退到官方API+关键词筛选...")
     all_hot = fetch_weibo_hot_search()
     if not all_hot:
         print("[ERROR] 微博热搜抓取失败，文娱榜返回空")
@@ -121,19 +194,17 @@ def fetch_weibo_entertainment():
 
     # 使用官方flag_desc字段筛选文娱内容
     entertainment_types = ["剧集", "综艺", "电影", "演出", "音乐"]
-    entertainment_items = []
-
+    ent_items = []
     for item in all_hot:
-        flag_desc = item.get("flag_desc", "")
-        if flag_desc in entertainment_types:
-            entertainment_items.append(item)
+        if item.get("flag_desc") in entertainment_types:
+            ent_items.append(item)
 
-    print(f"[INFO] 微博文娱热搜(flag_desc筛选): {len(entertainment_items)}条")
+    print(f"[INFO] 微博文娱(flag_desc官方分类): {len(ent_items)}条")
 
-    # 如果官方分类少于20条，用关键词补充到50条
-    if len(entertainment_items) < 20:
-        print(f"[WARN] 官方分类仅{len(entertainment_items)}条，用关键词补充")
-        seen = {item["title"] for item in entertainment_items}
+    # 如果官方分类不足50条，用关键词补充
+    if len(ent_items) < 50:
+        print(f"[INFO] 官方分类仅{len(ent_items)}条，用关键词补充至50条")
+        seen = {item["title"] for item in ent_items}
 
         keywords = [
             "肖战", "王一博", "迪丽热巴", "赵丽颖", "杨幂", "杨紫", "刘亦菲",
@@ -156,11 +227,11 @@ def fetch_weibo_entertainment():
             "时代少年团", "陈立农", "范丞丞", "黄明昊", "刘雨昕",
             "金秀贤", "宋慧乔", "全智贤", "李敏镐", "朴叙俊", "孔刘",
             "BLACKPINK", "BTS", "EXO", "TWICE", "IVE", "aespa",
-            "韩剧", "韩娱", "Kpop", "内娱", "娱", "瓜", "爆料",
+            "韩剧", "韩娱", "Kpop", "内娱",
             "明星", "演员", "歌手", "综艺", "电视剧", "电影", "票房", "开播", "杀青",
             "导演", "编剧", "制片", "剧组", "路透", "预告", "片花",
             "定档", "上映", "排片", "首映", "点映", "路演",
-            "豆瓣", "猫眼", "淘票票", "评分", "口碑", "烂番茄",
+            "豆瓣", "猫眼", "淘票票", "评分", "口碑",
             "撤档", "改档", "延期", "重映", "密钥",
             "破亿", "破十亿", "票房冠军", "年度票房", "观影",
             "红毯", "颁奖", "金像奖", "金马奖", "金鸡奖", "百花奖",
@@ -170,12 +241,12 @@ def fetch_weibo_entertainment():
             "恋情", "结婚", "离婚", "分手", "复合", "出轨", "官宣",
             "求婚", "订婚", "婚礼", "蜜月", "怀孕", "生子",
             "绯闻", "八卦", "爆料", "实锤", "澄清", "辟谣",
-            "番位", "撕番", "C位", "站位", "海报", "番",
+            "番位", "撕番", "C位", "站位", "海报",
             "应援", "打榜", "控评", "反黑", "站姐", "代拍",
             "粉丝", "黑粉", "路人", "脱粉", "回踩", "塌房",
             "造型", "穿搭", "时尚", "杂志", "封面", "代言",
             "高定", "红毯", "时装周", "巴黎", "米兰", "纽约",
-            "直播", "带货", "商务", "资源", "饼", "瓜主",
+            "直播", "带货", "商务", "资源",
             "演唱会", "音乐节", "巡演", "live", "现场", "开票",
             "加场", "售罄", "黄牛", "抢票", "大麦", "猫眼",
             "跑男", "极挑", "向往", "快本", "天天", "王牌",
@@ -185,10 +256,11 @@ def fetch_weibo_entertainment():
             "动漫", "动画", "二次元", "Cosplay", "漫展",
             "游戏", "电竞", "LOL", "王者荣耀", "原神", "吃鸡",
             "主播", "UP主", "B站", "抖音", "快手", "小红书",
-            "网红", "博主", "达人", "MCN", "直播", "短视频",
+            "网红", "博主", "达人", "MCN", "短视频",
             "Vlog", "Plog", "穿搭", "美妆", "护肤", "健身",
             "减肥", "瘦身", "整容", "医美", "颜值", "身材",
-            "宠物", "萌宠", "猫", "狗", "动物园", "海洋生物",
+            "宠物", "萌宠", "猫", "狗", "动物园",
+            "瓜", "爆料", "娱", "内娱", "韩娱", "港娱", "台娱",
         ]
 
         for item in all_hot:
@@ -197,22 +269,22 @@ def fetch_weibo_entertainment():
             title = item["title"]
             for kw in keywords:
                 if kw in title:
-                    entertainment_items.append(item)
+                    ent_items.append(item)
                     seen.add(title)
                     break
-            if len(entertainment_items) >= 50:
+            if len(ent_items) >= 50:
                 break
 
-    return entertainment_items[:50]
+    print(f"[INFO] 微博文娱热搜最终: {len(ent_items)}条")
+    return ent_items[:50]
 
-# ============ 3. 微博剧集热度榜 ============
+# ============ 4. 微博剧集热度榜 ============
 def fetch_weibo_tv():
     all_hot = fetch_weibo_hot_search()
     if not all_hot:
         print("[ERROR] 微博热搜抓取失败，剧集榜返回空")
         return []
 
-    # 使用官方flag_desc="剧集"筛选
     tv_items = [item for item in all_hot if item.get("flag_desc") == "剧集"]
 
     result = []
@@ -233,14 +305,13 @@ def fetch_weibo_tv():
     print(f"[INFO] 微博剧集(flag_desc=剧集): {len(result)}条")
     return result
 
-# ============ 4. 微博电影热度榜 ============
+# ============ 5. 微博电影热度榜 ============
 def fetch_weibo_movie():
     all_hot = fetch_weibo_hot_search()
     if not all_hot:
         print("[ERROR] 微博热搜抓取失败，电影榜返回空")
         return []
 
-    # 使用官方flag_desc="电影"筛选
     movie_items = [item for item in all_hot if item.get("flag_desc") == "电影"]
 
     result = []
@@ -262,7 +333,7 @@ def fetch_weibo_movie():
     print(f"[INFO] 微博电影(flag_desc=电影): {len(result)}条")
     return result
 
-# ============ 5. 豆瓣实时热门电影榜 ============
+# ============ 6. 豆瓣实时热门电影榜 ============
 def fetch_douban_movies():
     url = "https://m.douban.com/rexxar/api/v2/subject_collection/movie_real_time_hotest/items?start=0&count=50"
     headers = {
@@ -300,7 +371,7 @@ def fetch_douban_movies():
     print("[ERROR] 豆瓣电影抓取失败，返回空")
     return []
 
-# ============ 6. 豆瓣实时热门电视榜 ============
+# ============ 7. 豆瓣实时热门电视榜 ============
 def fetch_douban_tv():
     url = "https://m.douban.com/rexxar/api/v2/subject_collection/tv_real_time_hotest/items?start=0&count=50"
     headers = {
@@ -338,10 +409,8 @@ def fetch_douban_tv():
     print("[ERROR] 豆瓣电视抓取失败，返回空")
     return []
 
-# ============ 7. 抖音院线电影 ============
+# ============ 8. 抖音院线电影 ============
 def fetch_douyin_movies():
-    """抖音影视榜 - 通过聚合API获取"""
-    # 尝试多个聚合API
     apis = [
         "https://api.aa1.cn/api/douyin-hot",
         "https://dabenshi.cn/other/api/hot.php?type=douyinhot",
@@ -355,7 +424,6 @@ def fetch_douyin_movies():
                 data = resp.json()
                 items = []
 
-                # 处理不同API的数据格式
                 if isinstance(data, list):
                     all_items = data
                 elif isinstance(data, dict):
@@ -394,9 +462,8 @@ def fetch_douyin_movies():
     print("[ERROR] 所有抖音API都失败了，返回空")
     return []
 
-# ============ 8. 抖音剧集 ============
+# ============ 9. 抖音剧集 ============
 def fetch_douyin_tv():
-    """抖音剧集榜"""
     apis = [
         "https://api.aa1.cn/api/douyin-hot",
         "https://dabenshi.cn/other/api/hot.php?type=douyinhot",
@@ -448,10 +515,8 @@ def fetch_douyin_tv():
     print("[ERROR] 所有抖音API都失败了，返回空")
     return []
 
-# ============ 9. 百度热搜-电影榜 ============
+# ============ 10. 百度热搜-电影榜 ============
 def fetch_baidu_movies():
-    """获取百度热搜电影榜 - 多源尝试"""
-    # 方法1: 百度官方API
     try:
         print("[INFO] 尝试百度官方API...")
         url = "https://top.baidu.com/api/board?platform=wise&tab=movie"
@@ -484,7 +549,6 @@ def fetch_baidu_movies():
     except Exception as e:
         print(f"[WARN] 百度官方API失败: {e}")
 
-    # 方法2: 通过百度搜索风云榜网页版
     try:
         print("[INFO] 尝试百度搜索风云榜...")
         resp = requests.get("https://top.baidu.com/board?tab=movie",
@@ -518,10 +582,8 @@ def fetch_baidu_movies():
     print("[ERROR] 百度电影抓取失败，返回空")
     return []
 
-# ============ 10. 百度热搜-电视剧榜 ============
+# ============ 11. 百度热搜-电视剧榜 ============
 def fetch_baidu_tv():
-    """获取百度热搜电视剧榜"""
-    # 方法1: 百度官方API
     try:
         print("[INFO] 尝试百度官方API...")
         url = "https://top.baidu.com/api/board?platform=wise&tab=teleplay"
