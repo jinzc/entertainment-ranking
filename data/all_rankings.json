@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-23 01:56",
+  "update_time": "2026-05-23 03:57",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,217 +7,210 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 30,
+        "count": 29,
         "items": [
           {
             "rank": 1,
             "title": "浪姐淘汰",
-            "hot": "1621760",
+            "hot": "441478",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
             "rank": 5,
-            "title": "庾澄庆合伙人",
-            "hot": "700276",
+            "title": "歌手排名 闹麻了",
+            "hot": "148481",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
             "rank": 6,
-            "title": "跑男收视率",
-            "hot": "680978",
+            "title": "庾澄庆合伙人",
+            "hot": "146520",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
             "rank": 7,
-            "title": "歌手排名",
-            "hot": "549391",
+            "title": "跑男收视率",
+            "hot": "144960",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 12,
-            "title": "浪姐 做局",
-            "hot": "522084",
+            "rank": 13,
+            "title": "庾澄庆淘汰",
+            "hot": "138532",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 13,
-            "title": "窦靖童演唱那英从头哭到尾",
-            "hot": "485902",
-            "flag_desc": "综艺",
-            "label_name": "热"
-          },
-          {
             "rank": 14,
-            "title": "庾澄庆淘汰",
-            "hot": "480428",
+            "title": "窦靖童演唱那英从头哭到尾",
+            "hot": "136123",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 15,
-            "title": "浪姐票数 等差数列",
-            "hot": "407167",
+            "title": "伊能静 我在妻旅才是乘风破浪",
+            "hot": "98163",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 16,
             "title": "耳帝长评歌手",
-            "hot": "312519",
+            "hot": "81211",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 17,
-            "title": "伊能静 我在妻旅才是乘风破浪",
-            "hot": "311258",
+            "title": "浪姐票数 等差数列",
+            "hot": "81188",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 18,
+            "title": "歌手",
+            "hot": "80927",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 22,
-            "title": "惊鸿一面 夯",
-            "hot": "305854",
+            "title": "结石姐 歌手袭榜",
+            "hot": "80414",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 23,
-            "title": "结石姐 歌手袭榜",
-            "hot": "289015",
+            "rank": 24,
+            "title": "窦颖给窦靖童和声",
+            "hot": "77660",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 25,
-            "title": "窦靖童 王菲的声音唱窦唯",
-            "hot": "264556",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 26,
-            "title": "浪姐排名",
-            "hot": "253257",
+            "title": "浪姐 做局",
+            "hot": "76129",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 27,
-            "title": "窦颖给窦靖童和声",
-            "hot": "194378",
+            "title": "惊鸿一面 夯",
+            "hot": "73861",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 32,
-            "title": "范丞丞让尤长靖拿第三名",
-            "hot": "193087",
+            "rank": 28,
+            "title": "窦靖童 王菲的声音唱窦唯",
+            "hot": "69468",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 33,
-            "title": "胡彦斌破音",
-            "hot": "167802",
+            "title": "歌手排名",
+            "hot": "66094",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 34,
-            "title": "那英说张碧晨是一定走到最后的",
-            "hot": "167802",
+            "title": "孙怡浪姐谈离婚",
+            "hot": "61509",
             "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 35,
-            "title": "齐豫开净化了",
-            "hot": "167532",
-            "flag_desc": "综艺",
-            "label_name": "新"
+            "label_name": ""
           },
           {
             "rank": 36,
-            "title": "歌手直播",
-            "hot": "167214",
+            "title": "范丞丞让尤长靖拿第三名",
+            "hot": "53241",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 37,
-            "title": "尤长靖把我唱哭了",
-            "hot": "167026",
+            "title": "张碧晨 炸场子",
+            "hot": "53219",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 38,
-            "title": "歌手弹幕 隔壁唱得好看跳得好听",
-            "hot": "166686",
+            "title": "胡彦斌破音",
+            "hot": "53127",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 39,
-            "title": "张碧晨 炸场子",
-            "hot": "166424",
+            "rank": 40,
+            "title": "歌手直播",
+            "hot": "52993",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 41,
+            "title": "尤长靖把我唱哭了",
+            "hot": "52960",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 43,
-            "title": "王菲我知道你在看",
-            "hot": "165321",
+            "title": "那英说张碧晨是一定走到最后的",
+            "hot": "52795",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 44,
             "title": "收视率",
-            "hot": "165068",
+            "hot": "52725",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 50,
-            "title": "汪苏泷演唱会布料已越来越少",
-            "hot": "163624",
-            "flag_desc": "演出",
-            "label_name": "新"
+            "rank": 47,
+            "title": "王菲我知道你在看",
+            "hot": "52533",
+            "flag_desc": "综艺",
+            "label_name": ""
           },
           {
-            "rank": 21,
-            "title": "丈夫高调宣布出轨有私生子妻子崩溃",
-            "hot": "306238",
+            "rank": 23,
+            "title": "网约车司机闷死小猫后跑路拉黑",
+            "hot": "80299",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 24,
-            "title": "网约车司机闷死小猫后跑路拉黑",
-            "hot": "282520",
+            "rank": 26,
+            "title": "丈夫高调宣布出轨有私生子妻子崩溃",
+            "hot": "74525",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           },
           {
             "rank": 30,
             "title": "小猫臂力惊人 肚肚逼人",
-            "hot": "193487",
+            "hot": "68470",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 31,
+            "rank": 32,
             "title": "女孩开心跑进店将小猫扔出店外",
-            "hot": "193134",
+            "hot": "66394",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           }
         ]
       }
