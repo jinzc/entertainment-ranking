@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-22 11:47",
+  "update_time": "2026-05-22 12:05",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,173 +7,355 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 24,
+        "count": 50,
         "items": [
           {
+            "rank": 1,
+            "title": "曝周也恋情",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 2,
+            "title": "疑似景甜代孕协议曝光",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 3,
+            "title": "周也把手探进男友衣服里",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 4,
+            "title": "景甜方否认代孕协议",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
             "rank": 5,
-            "title": "澎湖海战",
-            "hot": "716520",
-            "flag_desc": "电影",
-            "label_name": "新"
+            "title": "拉窗帘",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 6,
+            "title": "伊能静上手拉开了孙杨",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
           },
           {
             "rank": 7,
-            "title": "赵丽颖澎湖海战海报",
-            "hot": "677141",
-            "flag_desc": "电影",
-            "label_name": "新"
+            "title": "花粉地狱",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
           },
           {
             "rank": 8,
             "title": "张豆豆喊出我肚子很痛孙杨才停下来",
-            "hot": "576746",
-            "flag_desc": "综艺",
-            "label_name": "新"
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 9,
+            "title": "周也男友 圈外人",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 10,
+            "title": "孙杨张豆豆 煤气灯效应",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 11,
+            "title": "曝陈丽君此沙恋情",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 12,
+            "title": "澎湖海战",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
           },
           {
             "rank": 13,
-            "title": "赵丽颖天下大势乘风而来",
-            "hot": "294641",
-            "flag_desc": "电影",
-            "label_name": "新"
-          },
-          {
-            "rank": 15,
-            "title": "TOP 青岛",
-            "hot": "276055",
-            "flag_desc": "演出",
-            "label_name": "新"
-          },
-          {
-            "rank": 24,
-            "title": "曝桃花坞游戏抄袭",
-            "hot": "268113",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 28,
-            "title": "沈梦辰歌手直播冷到发抖",
-            "hot": "251711",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 30,
-            "title": "电影澎湖海战定档7月25日",
-            "hot": "229867",
-            "flag_desc": "电影",
-            "label_name": "新"
-          },
-          {
-            "rank": 32,
-            "title": "徐若晗艺术生的含金量还在上升",
-            "hot": "227876",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 42,
-            "title": "至今不知道庾澄庆家有多难搞",
-            "hot": "160236",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 44,
-            "title": "曝刺棠男主张凌赫",
-            "hot": "154255",
-            "flag_desc": "剧集",
-            "label_name": "新"
-          },
-          {
-            "rank": 46,
-            "title": "窦靖童叫那英老师遭反问",
-            "hot": "147573",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 49,
-            "title": "孙杨张豆豆 煤气灯效应",
-            "hot": "138202",
-            "flag_desc": "综艺",
+            "title": "赵丽颖澎湖海战海报",
+            "hot": "",
+            "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 14,
-            "title": "男子拍到摊贩往西瓜上抹不明液体",
-            "hot": "276603",
+            "title": "赵丽颖天下大势乘风而来",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 15,
+            "title": "肯德基 aespa",
+            "hot": "",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 16,
-            "title": "肯德基 aespa",
-            "hot": "275220",
+            "title": "周也 生理性喜欢",
+            "hot": "",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
+          },
+          {
+            "rank": 17,
+            "title": "窦靖童叫那英老师遭反问",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 18,
+            "title": "TOP 青岛",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 19,
+            "title": "曝刺棠宋祖儿换李宛妲",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
           },
           {
             "rank": 20,
             "title": "肖战手上的伤口",
-            "hot": "271332",
+            "hot": "",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           },
           {
             "rank": 21,
-            "title": "曝刺棠宋祖儿换李宛妲",
-            "hot": "271259",
+            "title": "肖战两天只休息了2.5小时",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 22,
+            "title": "曝桃花坞游戏抄袭",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 23,
+            "title": "赵丽颖易烊千玺三搭",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 24,
+            "title": "周也520很开心",
+            "hot": "",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 25,
-            "title": "女子收22万彩礼扔掉结婚证称没结婚",
-            "hot": "267750",
+            "title": "刘亦菲采访被主持人抢话",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 26,
+            "title": "周也与男子拥吻",
+            "hot": "",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 27,
-            "title": "肖战两天只休息了2.5小时",
-            "hot": "256948",
+            "title": "易烊千玺演皇帝",
+            "hot": "",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
+          },
+          {
+            "rank": 28,
+            "title": "沈梦辰歌手直播冷到发抖",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 29,
+            "title": "白鹿 年纪大了有点尴尬",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 30,
+            "title": "徐若晗艺术生的含金量还在上升",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 31,
+            "title": "曝富豪男友准备起诉景甜",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 32,
+            "title": "陈奕迅女儿现身法网助阵男友",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
           },
           {
             "rank": 33,
-            "title": "盛世天下女帝篇定档6月",
-            "hot": "203663",
+            "title": "电影澎湖海战定档7月25日",
+            "hot": "",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           },
           {
             "rank": 34,
-            "title": "陈奕迅女儿现身法网助阵男友",
-            "hot": "192185",
+            "title": "赵樱子周柯宇售后",
+            "hot": "",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 35,
             "title": "金秀贤已接受精神科治疗",
-            "hot": "177495",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 36,
+            "title": "左邓",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 37,
+            "title": "曝刺棠男主张凌赫",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 38,
+            "title": "至今不知道庾澄庆家有多难搞",
+            "hot": "",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 39,
-            "title": "白鹿 年纪大了有点尴尬",
-            "hot": "165319",
+            "title": "汪峰又把人设立住了",
+            "hot": "",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           },
           {
-            "rank": 51,
-            "title": "金秀贤从全民唾骂到沉冤得雪",
-            "hot": "135742",
+            "rank": 40,
+            "title": "左航20岁生日车内造型封面",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 41,
+            "title": "庾澄庆和窦靖童聊恩利",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 42,
+            "title": "私生强抱蔡徐坤涉嫌多重违法",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 43,
+            "title": "伊能静大战庾澄庆 宋妍霏大战窦靖童",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 44,
+            "title": "肖战回青岛拍戏了",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 45,
+            "title": "孙杨脾气",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 46,
+            "title": "谁给马頔做的表情包",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 47,
+            "title": "此沙陈丽君方否认恋情",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 48,
+            "title": "丁程鑫不参与开推胆量排名",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 49,
+            "title": "杨紫这画的是什么",
+            "hot": "",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 50,
+            "title": "金海燕奖",
+            "hot": "",
             "flag_desc": "",
             "label_name": ""
           }
@@ -182,18 +364,9 @@
       {
         "key": "weibo_tv",
         "title": "剧集热度",
-        "count": 1,
-        "items": [
-          {
-            "rank": 1,
-            "title": "曝刺棠男主张凌赫",
-            "hot": "154255",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
-          }
-        ]
+        "count": 0,
+        "items": [],
+        "error": "微博数据抓取失败，本时段暂无数据"
       },
       {
         "key": "weibo_movie",
@@ -203,7 +376,7 @@
           {
             "rank": 1,
             "title": "澎湖海战",
-            "hot": "716520",
+            "hot": "499113",
             "score": "",
             "region": "",
             "genre": "",
@@ -213,7 +386,7 @@
           {
             "rank": 2,
             "title": "赵丽颖澎湖海战海报",
-            "hot": "677141",
+            "hot": "316610",
             "score": "",
             "region": "",
             "genre": "",
@@ -223,7 +396,7 @@
           {
             "rank": 3,
             "title": "赵丽颖天下大势乘风而来",
-            "hot": "294641",
+            "hot": "236547",
             "score": "",
             "region": "",
             "genre": "",
@@ -233,7 +406,7 @@
           {
             "rank": 4,
             "title": "电影澎湖海战定档7月25日",
-            "hot": "229867",
+            "hot": "219982",
             "score": "",
             "region": "",
             "genre": "",
@@ -516,7 +689,7 @@
           {
             "rank": 1,
             "title": "给阿嬷的情书票房破6亿",
-            "hot": "781.1万",
+            "hot": "774.6万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -524,8 +697,8 @@
           },
           {
             "rank": 2,
-            "title": "一篇长文写给阿嬷的情书导演",
-            "hot": "777.8万",
+            "title": "《监狱来的妈妈》停止上映",
+            "hot": "773.9万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -533,8 +706,8 @@
           },
           {
             "rank": 3,
-            "title": "《监狱来的妈妈》停止上映",
-            "hot": "773.4万",
+            "title": "一篇长文写给阿嬷的情书导演",
+            "hot": "773.8万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -550,7 +723,7 @@
           {
             "rank": 1,
             "title": "肖战金海燕奖最佳男主角",
-            "hot": "894.4万",
+            "hot": "869.3万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -559,7 +732,7 @@
           {
             "rank": 2,
             "title": "良陈美锦大结局",
-            "hot": "829.8万",
+            "hot": "816.3万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -568,7 +741,7 @@
           {
             "rank": 3,
             "title": "盛唐奇案开播",
-            "hot": "781.4万",
+            "hot": "804.2万",
             "score": "",
             "want_count": "",
             "types": "",
