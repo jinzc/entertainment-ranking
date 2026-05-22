@@ -59,7 +59,7 @@ var T="weibo_entertainment";
 var C={weibo:{n:"微博",i:"1"},douban:{n:"豆瓣",i:"2"},douyin:{n:"抖音",i:"3"},baidu:{n:"百度",i:"4"}};
 
 function loadData(){
-  var urls=["data/all_rankings.json","./data/all_rankings.json","/data/all_rankings.json","all_rankings.json"];
+  var ts="?t="+Date.now();var urls=["data/all_rankings.json"+ts,"./data/all_rankings.json"+ts,"/data/all_rankings.json"+ts,"all_rankings.json"+ts];
   var r=null;
   var le=null;
   var i=0;
