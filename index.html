@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -8,549 +9,374 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-            min-height: 100vh;
+            background: #f5f5f5;
             color: #333;
         }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            padding: 30px 20px 20px;
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
+            padding: 20px;
+            text-align: center;
         }
-        header h1 {
-            font-size: 2rem;
-            margin-bottom: 8px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-        header p {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
+        .header h1 { font-size: 24px; margin-bottom: 8px; }
+        .header p { font-size: 14px; opacity: 0.9; }
         .update-time {
-            display: inline-block;
-            background: rgba(255,255,255,0.15);
-            padding: 6px 16px;
-            border-radius: 20px;
-            margin-top: 12px;
-            font-size: 0.8rem;
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+            color: #666;
         }
-
-        /* 平台Tab */
         .platform-tabs {
             display: flex;
-            justify-content: center;
-            gap: 8px;
-            margin: 20px 0 15px;
-            flex-wrap: wrap;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
         }
         .platform-tab {
-            background: rgba(255,255,255,0.1);
-            border: 2px solid rgba(255,255,255,0.2);
-            padding: 10px 24px;
-            border-radius: 25px;
+            flex: 1;
+            min-width: 80px;
+            padding: 15px 10px;
+            text-align: center;
             cursor: pointer;
-            font-size: 0.95rem;
-            color: rgba(255,255,255,0.8);
-            font-weight: bold;
+            border: none;
+            background: none;
+            font-size: 14px;
             transition: all 0.3s;
+            white-space: nowrap;
         }
-        .platform-tab:hover {
-            background: rgba(255,255,255,0.2);
-        }
+        .platform-tab:hover { background: #f8f8f8; }
         .platform-tab.active {
-            background: white;
-            color: #1a1a2e;
-            border-color: white;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            font-weight: bold;
         }
-
-        /* 子Tab */
         .sub-tabs {
             display: flex;
-            justify-content: center;
-            gap: 8px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            padding: 0 15px;
         }
         .sub-tab {
-            background: rgba(255,255,255,0.08);
-            border: 1px solid rgba(255,255,255,0.15);
-            padding: 8px 18px;
-            border-radius: 20px;
+            padding: 10px 15px;
             cursor: pointer;
-            font-size: 0.85rem;
-            color: rgba(255,255,255,0.7);
-            transition: all 0.3s;
-        }
-        .sub-tab:hover {
-            background: rgba(255,255,255,0.15);
+            font-size: 13px;
+            color: #666;
+            border: none;
+            background: none;
         }
         .sub-tab.active {
-            background: rgba(255,255,255,0.25);
-            color: white;
-            border-color: rgba(255,255,255,0.4);
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
         }
-
-        /* 榜单面板 */
-        .ranking-panel {
-            display: none;
+        .content {
+            padding: 15px;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        .ranking-panel.active {
-            display: block;
-        }
-        .panel-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 15px;
-            padding: 0 5px;
-        }
-        .panel-title {
-            color: white;
-            font-size: 1.2rem;
-            font-weight: bold;
-        }
-        .panel-source {
-            color: rgba(255,255,255,0.6);
-            font-size: 0.8rem;
-        }
-
-        /* 列表项 */
         .ranking-list {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
-        .rank-item {
-            background: white;
-            border-radius: 14px;
-            padding: 14px 18px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            transition: all 0.3s;
-            cursor: pointer;
+        .ranking-item {
             display: flex;
             align-items: center;
-            gap: 15px;
+            padding: 12px 15px;
+            border-bottom: 1px solid #f5f5f5;
+            transition: background 0.2s;
         }
-        .rank-item:hover {
-            transform: translateX(4px);
-            box-shadow: 0 6px 25px rgba(0,0,0,0.15);
-        }
-        .rank-item.top3 {
-            border-left: 4px solid #e74c3c;
-        }
-
-        .rank-num {
-            width: 34px;
-            height: 34px;
-            border-radius: 50%;
+        .ranking-item:hover { background: #fafafa; }
+        .rank-number {
+            width: 32px;
+            height: 32px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.9rem;
+            border-radius: 6px;
             font-weight: bold;
-            color: white;
+            font-size: 14px;
+            margin-right: 12px;
             flex-shrink: 0;
         }
-        .rank-1 { background: linear-gradient(135deg, #e74c3c, #c0392b); }
-        .rank-2 { background: linear-gradient(135deg, #f39c12, #e67e22); }
-        .rank-3 { background: linear-gradient(135deg, #3498db, #2980b9); }
-        .rank-other { background: linear-gradient(135deg, #95a5a6, #7f8c8d); }
-
-        .item-content {
+        .rank-number.top3 {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a5a);
+            color: white;
+        }
+        .rank-number.normal {
+            background: #f0f0f0;
+            color: #666;
+        }
+        .rank-info {
             flex: 1;
             min-width: 0;
         }
-        .item-title {
-            font-size: 1rem;
-            font-weight: bold;
-            color: #2c3e50;
-            line-height: 1.4;
+        .rank-title {
+            font-size: 15px;
+            color: #333;
             margin-bottom: 4px;
+            word-break: break-all;
         }
-        .item-meta {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            font-size: 0.78rem;
-            color: #7f8c8d;
+        .rank-meta {
+            font-size: 12px;
+            color: #999;
         }
-        .item-score {
-            background: linear-gradient(135deg, #f1c40f, #f39c12);
-            color: white;
-            padding: 2px 8px;
-            border-radius: 8px;
-            font-weight: bold;
-            font-size: 0.75rem;
+        .rank-meta span { margin-right: 10px; }
+        .rank-hot {
+            font-size: 12px;
+            color: #ff6b6b;
+            flex-shrink: 0;
+            margin-left: 10px;
         }
-        .item-hot {
-            display: flex;
-            align-items: center;
-            gap: 3px;
-            color: #e74c3c;
-            font-weight: bold;
+        .error-msg {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
         }
-        .item-tag {
-            background: #ecf0f1;
-            padding: 2px 8px;
-            border-radius: 6px;
-            font-size: 0.72rem;
+        .error-msg .icon {
+            font-size: 48px;
+            margin-bottom: 10px;
         }
-        .item-cast {
-            color: #95a5a6;
-            font-size: 0.78rem;
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
         }
-
-        .item-right {
-            text-align: right;
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .cover-img {
+            width: 50px;
+            height: 70px;
+            border-radius: 4px;
+            object-fit: cover;
+            margin-right: 12px;
             flex-shrink: 0;
         }
-        .item-index {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #bdc3c7;
+        .score-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            background: #ff6b6b;
+            color: white;
+            border-radius: 4px;
+            font-size: 11px;
+            margin-left: 8px;
         }
-
-        .loading, .error, .empty {
-            text-align: center;
-            padding: 50px 20px;
-            color: rgba(255,255,255,0.8);
-            font-size: 1rem;
-        }
-        .error {
-            color: #e74c3c;
-        }
-        .empty {
-            color: rgba(255,255,255,0.6);
-        }
-        .retry-btn {
-            background: white;
-            color: #1a1a2e;
-            border: none;
-            padding: 10px 24px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: bold;
-            margin-top: 15px;
-            transition: all 0.3s;
-        }
-        .retry-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-        footer {
-            text-align: center;
-            padding: 30px 20px;
-            color: rgba(255,255,255,0.5);
-            font-size: 0.75rem;
-        }
-        @media (max-width: 768px) {
-            header h1 { font-size: 1.5rem; }
-            .platform-tab { padding: 8px 16px; font-size: 0.85rem; }
-            .sub-tab { padding: 6px 12px; font-size: 0.8rem; }
-            .item-title { font-size: 0.9rem; }
-            .rank-item { gap: 10px; padding: 12px 14px; }
+        @media (max-width: 600px) {
+            .header h1 { font-size: 20px; }
+            .ranking-item { padding: 10px 12px; }
+            .rank-title { font-size: 14px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🎬 综合影视榜单</h1>
-            <p>微博 · 豆瓣 · 抖音 · 百度 影视热度聚合</p>
-            <div class="update-time" id="updateTime">加载中...</div>
-        </header>
-
-        <!-- 平台Tab -->
-        <div class="platform-tabs">
-            <button class="platform-tab active" data-platform="weibo">📱 微博</button>
-            <button class="platform-tab" data-platform="douban">📖 豆瓣</button>
-            <button class="platform-tab" data-platform="douyin">🎵 抖音</button>
-            <button class="platform-tab" data-platform="baidu">🔍 百度</button>
+    <div class="header">
+        <h1>🎬 综合影视榜单</h1>
+        <p>微博 · 豆瓣 · 抖音 · 百度 影视热度聚合</p>
+    </div>
+    <div class="update-time" id="updateTime">加载中...</div>
+    <div class="platform-tabs" id="platformTabs"></div>
+    <div class="sub-tabs" id="subTabs"></div>
+    <div class="content" id="content">
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            <p>正在加载数据...</p>
         </div>
-
-        <!-- 微博子Tab -->
-        <div class="sub-tabs" id="subtabs-weibo">
-            <button class="sub-tab active" data-sub="weibo_entertainment">📰 文娱热搜</button>
-            <button class="sub-tab" data-sub="weibo_tv">📺 剧集热度</button>
-            <button class="sub-tab" data-sub="weibo_movie">🎬 电影热度</button>
-        </div>
-
-        <!-- 豆瓣子Tab -->
-        <div class="sub-tabs" id="subtabs-douban" style="display:none;">
-            <button class="sub-tab active" data-sub="douban_movie">🎬 电影榜</button>
-            <button class="sub-tab" data-sub="douban_tv">📺 电视榜</button>
-        </div>
-
-        <!-- 抖音子Tab -->
-        <div class="sub-tabs" id="subtabs-douyin" style="display:none;">
-            <button class="sub-tab active" data-sub="douyin_movie">🎬 院线电影</button>
-            <button class="sub-tab" data-sub="douyin_tv">📺 剧集</button>
-        </div>
-
-        <!-- 百度子Tab -->
-        <div class="sub-tabs" id="subtabs-baidu" style="display:none;">
-            <button class="sub-tab active" data-sub="baidu_movie">🎬 电影榜</button>
-            <button class="sub-tab" data-sub="baidu_tv">📺 电视剧榜</button>
-        </div>
-
-        <!-- 9个面板 -->
-        <div class="ranking-panel active" id="panel-weibo_entertainment">
-            <div class="panel-header">
-                <span class="panel-title">📰 微博文娱热搜榜</span>
-                <span class="panel-source">weibo.com</span>
-            </div>
-            <div class="ranking-list" id="list-weibo_entertainment"><div class="loading">正在加载数据...</div></div>
-        </div>
-        <div class="ranking-panel" id="panel-weibo_tv">
-            <div class="panel-header">
-                <span class="panel-title">📺 微博剧集热度榜</span>
-                <span class="panel-source">weibo.com</span>
-            </div>
-            <div class="ranking-list" id="list-weibo_tv"><div class="loading">正在加载数据...</div></div>
-        </div>
-        <div class="ranking-panel" id="panel-weibo_movie">
-            <div class="panel-header">
-                <span class="panel-title">🎬 微博电影热度榜</span>
-                <span class="panel-source">weibo.com</span>
-            </div>
-            <div class="ranking-list" id="list-weibo_movie"><div class="loading">正在加载数据...</div></div>
-        </div>
-        <div class="ranking-panel" id="panel-douban_movie">
-            <div class="panel-header">
-                <span class="panel-title">豆瓣实时热门 · 电影榜</span>
-                <span class="panel-source">douban.com</span>
-            </div>
-            <div class="ranking-list" id="list-douban_movie"><div class="loading">正在加载数据...</div></div>
-        </div>
-        <div class="ranking-panel" id="panel-douban_tv">
-            <div class="panel-header">
-                <span class="panel-title">豆瓣实时热门 · 电视榜</span>
-                <span class="panel-source">douban.com</span>
-            </div>
-            <div class="ranking-list" id="list-douban_tv"><div class="loading">正在加载数据...</div></div>
-        </div>
-        <div class="ranking-panel" id="panel-douyin_movie">
-            <div class="panel-header">
-                <span class="panel-title">抖音影视榜 · 院线电影</span>
-                <span class="panel-source">douyin.com</span>
-            </div>
-            <div class="ranking-list" id="list-douyin_movie"><div class="loading">正在加载数据...</div></div>
-        </div>
-        <div class="ranking-panel" id="panel-douyin_tv">
-            <div class="panel-header">
-                <span class="panel-title">抖音影视榜 · 剧集</span>
-                <span class="panel-source">douyin.com</span>
-            </div>
-            <div class="ranking-list" id="list-douyin_tv"><div class="loading">正在加载数据...</div></div>
-        </div>
-        <div class="ranking-panel" id="panel-baidu_movie">
-            <div class="panel-header">
-                <span class="panel-title">百度热搜 · 电影榜</span>
-                <span class="panel-source">baidu.com</span>
-            </div>
-            <div class="ranking-list" id="list-baidu_movie"><div class="loading">正在加载数据...</div></div>
-        </div>
-        <div class="ranking-panel" id="panel-baidu_tv">
-            <div class="panel-header">
-                <span class="panel-title">百度热搜 · 电视剧榜</span>
-                <span class="panel-source">baidu.com</span>
-            </div>
-            <div class="ranking-list" id="list-baidu_tv"><div class="loading">正在加载数据...</div></div>
-        </div>
-
-        <footer>
-            <p>数据来源：微博 / 豆瓣 / 抖音 / 百度 | 每小时自动更新</p>
-            <p style="margin-top:6px">上次更新：<span id="footerTime">-</span></p>
-        </footer>
     </div>
 
     <script>
-        let allData = {};
+        let allData = null;
         let currentPlatform = 'weibo';
-        let currentSub = 'weibo_entertainment';
-        let loadError = null;
+        let currentTab = 'weibo_entertainment';
+
+        const platformConfig = {
+            weibo: { name: '微博', icon: '📱' },
+            douban: { name: '豆瓣', icon: '📖' },
+            douyin: { name: '抖音', icon: '🎵' },
+            baidu: { name: '百度', icon: '🔍' }
+        };
 
         async function loadData() {
-            // 尝试多个路径加载数据
-            const paths = [
-                'data/all_rankings.json',
-                './data/all_rankings.json',
-                '/data/all_rankings.json',
-                'entertainment-ranking/data/all_rankings.json',
-            ];
+            try {
+                // 尝试多个数据源路径
+                const urls = [
+                    'data/all_rankings.json',
+                    './data/all_rankings.json',
+                    '/data/all_rankings.json',
+                    'all_rankings.json'
+                ];
 
-            let lastError = null;
-
-            for (const path of paths) {
-                try {
-                    console.log('尝试加载:', path);
-                    const response = await fetch(path + '?t=' + Date.now(), {
-                        method: 'GET',
-                        headers: { 'Accept': 'application/json' }
-                    });
-
-                    if (response.ok) {
-                        const text = await response.text();
-                        try {
-                            allData = JSON.parse(text);
-                            console.log('数据加载成功:', path);
-                            loadError = null;
-
-                            document.getElementById('updateTime').textContent = '更新时间：' + (allData.update_time || '未知');
-                            document.getElementById('footerTime').textContent = allData.update_time || '-';
-
-                            renderAll();
-                            return;
-                        } catch (parseErr) {
-                            console.error('JSON解析失败:', parseErr);
-                            lastError = '数据格式错误';
+                let response = null;
+                for (const url of urls) {
+                    try {
+                        const resp = await fetch(url, { cache: 'no-cache' });
+                        if (resp.ok) {
+                            response = resp;
+                            break;
                         }
-                    } else {
-                        console.log('路径失败:', path, response.status);
-                        lastError = 'HTTP ' + response.status;
+                    } catch (e) {
+                        console.log('尝试路径失败:', url);
                     }
-                } catch (err) {
-                    console.log('请求失败:', path, err.message);
-                    lastError = err.message;
                 }
+
+                if (!response) {
+                    throw new Error('无法加载数据文件');
+                }
+
+                allData = await response.json();
+                document.getElementById('updateTime').textContent = 
+                    '更新时间：' + allData.update_time + '（北京时间）';
+                renderPlatformTabs();
+                renderSubTabs();
+                renderContent();
+            } catch (error) {
+                console.error('加载失败:', error);
+                document.getElementById('content').innerHTML = 
+                    '<div class="error-msg"><div class="icon">⚠️</div><p>数据加载失败，请刷新页面重试</p><p style="font-size:12px;color:#bbb;margin-top:10px;">' + error.message + '</p></div>';
+                document.getElementById('updateTime').textContent = '数据加载失败';
             }
+        }
 
-            // 所有路径都失败
-            loadError = lastError;
-            console.error('所有路径加载失败:', lastError);
+        function renderPlatformTabs() {
+            const container = document.getElementById('platformTabs');
+            container.innerHTML = '';
 
-            // 显示错误信息
-            document.querySelectorAll('.ranking-list').forEach(el => {
-                el.innerHTML = '<div class="error">数据加载失败<br><small>' + (lastError || '请检查网络连接') + '</small><br><button class="retry-btn" onclick="loadData()">🔄 重新加载</button></div>';
+            Object.keys(platformConfig).forEach(key => {
+                const btn = document.createElement('button');
+                btn.className = 'platform-tab' + (key === currentPlatform ? ' active' : '');
+                btn.textContent = platformConfig[key].icon + ' ' + platformConfig[key].name;
+                btn.onclick = () => {
+                    currentPlatform = key;
+                    const platformData = allData[key];
+                    if (platformData && platformData.tabs && platformData.tabs.length > 0) {
+                        currentTab = platformData.tabs[0].key;
+                    }
+                    renderPlatformTabs();
+                    renderSubTabs();
+                    renderContent();
+                };
+                container.appendChild(btn);
             });
-
-            document.getElementById('updateTime').textContent = '加载失败';
         }
 
-        function renderAll() {
-            // 微博
-            if (allData.weibo && allData.weibo.tabs) {
-                allData.weibo.tabs.forEach(tab => {
-                    renderList(tab.key, tab.items || []);
-                });
-            }
-            // 豆瓣
-            if (allData.douban && allData.douban.tabs) {
-                allData.douban.tabs.forEach(tab => {
-                    renderList(tab.key, tab.items || []);
-                });
-            }
-            // 抖音
-            if (allData.douyin && allData.douyin.tabs) {
-                allData.douyin.tabs.forEach(tab => {
-                    renderList(tab.key, tab.items || []);
-                });
-            }
-            // 百度
-            if (allData.baidu && allData.baidu.tabs) {
-                allData.baidu.tabs.forEach(tab => {
-                    renderList(tab.key, tab.items || []);
-                });
-            }
+        function renderSubTabs() {
+            const container = document.getElementById('subTabs');
+            container.innerHTML = '';
+
+            if (!allData || !allData[currentPlatform]) return;
+
+            const tabs = allData[currentPlatform].tabs || [];
+            tabs.forEach(tab => {
+                const btn = document.createElement('button');
+                btn.className = 'sub-tab' + (tab.key === currentTab ? ' active' : '');
+                btn.textContent = tab.title;
+                btn.onclick = () => {
+                    currentTab = tab.key;
+                    renderSubTabs();
+                    renderContent();
+                };
+                container.appendChild(btn);
+            });
         }
 
-        function renderList(key, items) {
-            const container = document.getElementById('list-' + key);
-            if (!container) return;
+        function renderContent() {
+            const container = document.getElementById('content');
 
-            if (items.length === 0) {
-                container.innerHTML = '<div class="empty">暂无数据，等待下次更新...</div>';
+            if (!allData || !allData[currentPlatform]) {
+                container.innerHTML = '<div class="error-msg"><div class="icon">📭</div><p>暂无数据</p></div>';
                 return;
             }
 
-            container.innerHTML = items.map((item, idx) => {
-                const isTop3 = idx < 3;
-                const rankClass = idx === 0 ? 'rank-1' : idx === 1 ? 'rank-2' : idx === 2 ? 'rank-3' : 'rank-other';
+            const platformData = allData[currentPlatform];
+            const tabData = platformData.tabs.find(t => t.key === currentTab);
+
+            if (!tabData) {
+                container.innerHTML = '<div class="error-msg"><div class="icon">📭</div><p>暂无数据</p></div>';
+                return;
+            }
+
+            // 如果有错误提示
+            if (tabData.error) {
+                container.innerHTML = '<div class="error-msg"><div class="icon">⚠️</div><p>' + tabData.error + '</p></div>';
+                return;
+            }
+
+            const items = tabData.items || [];
+
+            if (items.length === 0) {
+                container.innerHTML = '<div class="error-msg"><div class="icon">📭</div><p>本时段暂无数据</p></div>';
+                return;
+            }
+
+            let html = '<div class="ranking-list">';
+            items.forEach((item, index) => {
+                const isTop3 = index < 3;
+                const rankClass = isTop3 ? 'top3' : 'normal';
 
                 let metaHtml = '';
-                if (item.score && item.score !== '') metaHtml += `<span class="item-score">${item.score}分</span>`;
-                if (item.hot || item.hot_score) metaHtml += `<span class="item-hot">🔥 ${item.hot || item.hot_desc || item.hot_score}</span>`;
-                if (item.types && item.types !== '') metaHtml += `<span class="item-tag">${item.types}</span>`;
-                if (item.regions && item.regions !== '') metaHtml += `<span class="item-tag">${item.regions}</span>`;
-                if (item.release_date && item.release_date !== '') metaHtml += `<span class="item-tag">${item.release_date}</span>`;
-                if (item.platform && item.platform !== '') metaHtml += `<span class="item-tag">${item.platform}</span>`;
-                if (item.genre && item.genre !== '') metaHtml += `<span class="item-tag">${item.genre}</span>`;
+                let extraHtml = '';
 
-                let castHtml = '';
-                if (item.actors && item.actors !== '') castHtml = `<div class="item-cast">${item.actors}</div>`;
-                if (item.desc && item.desc !== '') castHtml = `<div class="item-cast">${item.desc}</div>`;
-                if (item.cast && item.cast !== '') castHtml = `<div class="item-cast">${item.cast}</div>`;
-
-                let rightHtml = '';
-                if (item.rating_count && item.rating_count !== '') rightHtml = `<div class="item-index">${item.rating_count}</div>`;
-                else if (item.want_count && item.want_count !== '') rightHtml = `<div style="color:#f39c12;font-size:0.8rem;font-weight:bold;">⭐ ${item.want_count}</div>`;
-                else if (item.recommend && item.recommend !== '') rightHtml = `<div style="color:#27ae60;font-size:0.75rem;font-weight:bold;">${item.recommend}</div>`;
-
-                return `
-                    <div class="rank-item ${isTop3 ? 'top3' : ''}">
-                        <div class="rank-num ${rankClass}">${idx + 1}</div>
-                        <div class="item-content">
-                            <div class="item-title">${item.title || '未命名'}</div>
-                            <div class="item-meta">${metaHtml}</div>
-                            ${castHtml}
-                        </div>
-                        <div class="item-right">${rightHtml}</div>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        // 平台Tab切换
-        document.querySelectorAll('.platform-tab').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const platform = this.dataset.platform;
-                currentPlatform = platform;
-
-                document.querySelectorAll('.platform-tab').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-
-                document.querySelectorAll('.sub-tabs').forEach(el => el.style.display = 'none');
-                document.getElementById('subtabs-' + platform).style.display = 'flex';
-
-                document.querySelectorAll('.sub-tab').forEach(b => b.classList.remove('active'));
-                const firstSub = document.querySelector('#subtabs-' + platform + ' .sub-tab');
-                if (firstSub) {
-                    firstSub.classList.add('active');
-                    currentSub = firstSub.dataset.sub;
+                // 根据不同平台显示不同信息
+                if (currentPlatform === 'weibo') {
+                    if (item.hot) extraHtml += '<span class="rank-hot">🔥 ' + item.hot + '</span>';
+                    if (item.platform) metaHtml += '<span>📺 ' + item.platform + '</span>';
+                    if (item.cast) metaHtml += '<span>👤 ' + item.cast + '</span>';
+                    if (item.score && item.score !== '暂无') metaHtml += '<span class="score-badge">' + item.score + '</span>';
+                    if (item.source) metaHtml += '<span style="color:#667eea">' + item.source + '</span>';
+                } else if (currentPlatform === 'douban') {
+                    if (item.cover) {
+                        extraHtml = '<img class="cover-img" src="' + item.cover + '" alt="" onerror="this.style.display='none'">';
+                    }
+                    if (item.score) metaHtml += '<span class="score-badge">⭐ ' + item.score + '</span>';
+                    if (item.types) metaHtml += '<span>' + item.types + '</span>';
+                    if (item.actors) metaHtml += '<span>👤 ' + item.actors + '</span>';
+                    if (item.release_date) metaHtml += '<span>📅 ' + item.release_date + '</span>';
+                } else if (currentPlatform === 'douyin') {
+                    if (item.hot) extraHtml += '<span class="rank-hot">🔥 ' + item.hot + '</span>';
+                    if (item.score) metaHtml += '<span class="score-badge">⭐ ' + item.score + '</span>';
+                    if (item.types) metaHtml += '<span>' + item.types + '</span>';
+                    if (item.actors) metaHtml += '<span>👤 ' + item.actors + '</span>';
+                } else if (currentPlatform === 'baidu') {
+                    if (item.hot_desc) extraHtml += '<span class="rank-hot">🔥 ' + item.hot_desc + '</span>';
+                    if (item.desc) metaHtml += '<span>' + item.desc + '</span>';
                 }
 
-                document.querySelectorAll('.ranking-panel').forEach(p => p.classList.remove('active'));
-                document.getElementById('panel-' + currentSub).classList.add('active');
+                html += '<div class="ranking-item">';
+                html += '<div class="rank-number ' + rankClass + '">' + (index + 1) + '</div>';
+                if (extraHtml && currentPlatform === 'douban') {
+                    html += extraHtml;
+                }
+                html += '<div class="rank-info">';
+                html += '<div class="rank-title">' + (item.title || '未知') + '</div>';
+                if (metaHtml) {
+                    html += '<div class="rank-meta">' + metaHtml + '</div>';
+                }
+                html += '</div>';
+                if (extraHtml && currentPlatform !== 'douban') {
+                    html += extraHtml;
+                }
+                html += '</div>';
             });
-        });
+            html += '</div>';
 
-        // 子Tab切换
-        document.querySelectorAll('.sub-tab').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const sub = this.dataset.sub;
-                currentSub = sub;
+            container.innerHTML = html;
+        }
 
-                document.querySelectorAll('.sub-tab').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-
-                document.querySelectorAll('.ranking-panel').forEach(p => p.classList.remove('active'));
-                document.getElementById('panel-' + sub).classList.add('active');
-            });
-        });
-
-        // 页面加载时自动获取数据
-        loadData();
-
-        // 每5分钟自动刷新
-        setInterval(loadData, 300000);
+        // 页面加载完成后自动加载数据
+        document.addEventListener('DOMContentLoaded', loadData);
     </script>
 </body>
 </html>
