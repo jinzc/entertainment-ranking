@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-22 14:57",
+  "update_time": "2026-05-22 17:27",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,355 +7,138 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 50,
+        "count": 19,
         "items": [
           {
-            "rank": 1,
-            "title": "周也 周皓崎",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 2,
-            "title": "疑似景甜代孕协议曝光",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 3,
-            "title": "周也 生理性喜欢",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 4,
-            "title": "李登科打听到周也男友不是周皓崎",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
             "rank": 5,
-            "title": "曝网红慧慧饱饱知三当三还代孕",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 6,
-            "title": "张豆豆喊出我肚子很痛孙杨才停下来",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
+            "title": "庾澄庆伊能静歌手浪姐封面",
+            "hot": "808555",
+            "flag_desc": "综艺",
+            "label_name": "新"
           },
           {
             "rank": 7,
-            "title": "周也 赖冠霖",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 8,
-            "title": "伊能静大战庾澄庆 宋妍霏大战窦靖童",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 9,
-            "title": "周也年龄",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 10,
-            "title": "马嘉祺录综艺还在论文查重",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 11,
-            "title": "周皓崎是电影偷偷藏不住段嘉许",
-            "hot": "",
-            "flag_desc": "",
+            "title": "曾沛慈 全部看浪姐不准看歌手",
+            "hot": "762898",
+            "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 12,
-            "title": "曝周也恋情",
-            "hot": "",
+            "title": "魏如萱调侃曾沛慈太残酷",
+            "hot": "290871",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 23,
+            "title": "张豆豆曾反复跟孙杨确认是否真的结婚",
+            "hot": "276359",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 30,
+            "title": "时团上六休一",
+            "hot": "267066",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 31,
+            "title": "赵丽颖林子烨演母子",
+            "hot": "265248",
+            "flag_desc": "电影",
+            "label_name": ""
+          },
+          {
+            "rank": 34,
+            "title": "贾樟柯点评舒淇新片",
+            "hot": "261784",
+            "flag_desc": "电影",
+            "label_name": "新"
+          },
+          {
+            "rank": 37,
+            "title": "刘耀文宋亚轩完全暴露",
+            "hot": "257909",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 42,
+            "title": "歌手浪姐 互念热搜",
+            "hot": "251780",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 44,
+            "title": "谢娜栀子花大战菠萝蜜是真的",
+            "hot": "248346",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 4,
+            "title": "舒淇演绎小米YU7伟大旅程",
+            "hot": "808670",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 13,
-            "title": "周也把手探进男友衣服里",
-            "hot": "",
+            "title": "丈夫高调宣布出轨有私生子妻子崩溃",
+            "hot": "290615",
             "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 14,
-            "title": "曝富豪男友准备起诉景甜",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 15,
-            "title": "赵丽颖易烊千玺三搭",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 16,
-            "title": "好久没见到这么锤的瓜了",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 17,
-            "title": "景甜变装",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 18,
-            "title": "赵丽颖林子烨演母子",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 19,
-            "title": "伊能静自曝48岁生女肚子被打开2次",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 20,
-            "title": "谢娜栀子花大战菠萝蜜是真的",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 21,
-            "title": "周也恋爱 主角含金量还在上升",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 22,
-            "title": "周也520很开心",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 23,
-            "title": "上一个不拉窗帘的是董洁和王大治",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 24,
-            "title": "曝陈丽君此沙恋情",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 25,
-            "title": "王橹杰被拼豆折磨出痛苦面具",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
+            "label_name": "新"
           },
           {
             "rank": 26,
-            "title": "景甜方否认代孕协议",
-            "hot": "",
+            "title": "狗狗中毒针进店向主人求救仍死亡",
+            "hot": "272425",
             "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 27,
-            "title": "汪峰又把人设立住了",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 28,
-            "title": "拉窗帘",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 29,
-            "title": "伊能静上手拉开了孙杨",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 30,
-            "title": "易烊千玺演皇帝",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 31,
-            "title": "花粉地狱",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
+            "label_name": "新"
           },
           {
             "rank": 32,
-            "title": "左航生日发文",
-            "hot": "",
+            "title": "特朗普说去不去儿子婚礼都会被骂",
+            "hot": "264062",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 33,
-            "title": "白鹿 年纪大了有点尴尬",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 34,
-            "title": "刘耀文在宋亚轩行李箱里找洗漱包",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 35,
-            "title": "张婧仪深夜做按摩下楼梯时险些绊倒",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 36,
-            "title": "严浩翔为11个人做饭",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 37,
-            "title": "周皓崎超话主持是周也粉丝",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 38,
-            "title": "景甜还有3部待播剧",
-            "hot": "",
+            "title": "小猫突然把小狗脑袋扶正",
+            "hot": "262865",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 39,
-            "title": "网红慧慧饱饱声明",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 40,
-            "title": "肯德基 aespa",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 41,
-            "title": "肖战出发领奖时请客剧组了",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 42,
-            "title": "曾沛慈魏如萱对打",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 43,
-            "title": "歌手浪姐联动",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 44,
-            "title": "芒果 听完你的听你的",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 45,
-            "title": "澎湖海战赵丽颖台词",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 46,
-            "title": "TOP 青岛",
-            "hot": "",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 47,
-            "title": "澎湖海战",
-            "hot": "",
+            "title": "田曦薇gucci第二套",
+            "hot": "255770",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 48,
-            "title": "丁程鑫贴脸李小冉唱心愿便利贴",
-            "hot": "",
+            "title": "海底捞门店回应小狗上桌吃蛋糕",
+            "hot": "242944",
             "flag_desc": "",
-            "label_name": ""
+            "label_name": "新"
           },
           {
             "rank": 49,
-            "title": "为了拍肖战走了一整套连招",
-            "hot": "",
+            "title": "孙颖莎王楚钦世乒赛全胜海报",
+            "hot": "242474",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 50,
-            "title": "乘风2026浪花代表团",
-            "hot": "",
+            "title": "赵丽颖易烊千玺三搭",
+            "hot": "239845",
             "flag_desc": "",
             "label_name": ""
           }
@@ -371,9 +154,29 @@
       {
         "key": "weibo_movie",
         "title": "电影热度",
-        "count": 0,
-        "items": [],
-        "error": "微博数据抓取失败，本时段暂无数据"
+        "count": 2,
+        "items": [
+          {
+            "rank": 1,
+            "title": "赵丽颖林子烨演母子",
+            "hot": "265248",
+            "score": "",
+            "region": "",
+            "genre": "",
+            "cast": "",
+            "source": "热搜"
+          },
+          {
+            "rank": 2,
+            "title": "贾樟柯点评舒淇新片",
+            "hot": "261784",
+            "score": "",
+            "region": "",
+            "genre": "",
+            "cast": "",
+            "source": "热搜"
+          }
+        ]
       }
     ]
   },
@@ -448,18 +251,6 @@
           },
           {
             "rank": 6,
-            "title": "监狱来的妈妈",
-            "score": "0",
-            "rating_count": "",
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932289498.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/35517408",
-            "types": "",
-            "regions": "",
-            "release_date": "2025",
-            "actors": ""
-          },
-          {
-            "rank": 7,
             "title": "我，许可",
             "score": "8.3",
             "rating_count": "",
@@ -468,6 +259,18 @@
             "types": "",
             "regions": "",
             "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 7,
+            "title": "监狱来的妈妈",
+            "score": "0",
+            "rating_count": "",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932289498.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/35517408",
+            "types": "",
+            "regions": "",
+            "release_date": "2025",
             "actors": ""
           },
           {
@@ -484,11 +287,11 @@
           },
           {
             "rank": 9,
-            "title": "群体",
-            "score": "0",
+            "title": "消失的人",
+            "score": "7.4",
             "rating_count": "",
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932381127.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/37096700",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931601069.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/36965301",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -496,11 +299,11 @@
           },
           {
             "rank": 10,
-            "title": "消失的人",
-            "score": "7.4",
+            "title": "群体",
+            "score": "0",
             "rating_count": "",
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931601069.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/36965301",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932381127.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/37096700",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -515,11 +318,11 @@
         "items": [
           {
             "rank": 1,
-            "title": "家业",
+            "title": "主角",
             "score": "0",
             "rating_count": "",
-            "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2932320661.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/36883114",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932204747.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/35295564",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -527,11 +330,11 @@
           },
           {
             "rank": 2,
-            "title": "主角",
+            "title": "家业",
             "score": "0",
             "rating_count": "",
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932204747.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/35295564",
+            "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2932320661.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/36883114",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -563,11 +366,11 @@
           },
           {
             "rank": 5,
-            "title": "黑袍纠察队 第五季",
-            "score": "7.0",
+            "title": "良陈美锦",
+            "score": "5.7",
             "rating_count": "",
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2930448310.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/36343491",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931979616.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/36640247",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -575,11 +378,11 @@
           },
           {
             "rank": 6,
-            "title": "良陈美锦",
-            "score": "5.7",
+            "title": "黑袍纠察队 第五季",
+            "score": "6.9",
             "rating_count": "",
-            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931979616.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/36640247",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2930448310.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/36343491",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -644,12 +447,12 @@
       {
         "key": "douyin_movie",
         "title": "院线电影",
-        "count": 4,
+        "count": 3,
         "items": [
           {
             "rank": 1,
-            "title": "贾玲转念花开有望暑期上映",
-            "hot": "776.3万",
+            "title": "电影澎湖海战定档7月25日",
+            "hot": "771.2万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -657,8 +460,8 @@
           },
           {
             "rank": 2,
-            "title": "电影澎湖海战定档7月25日",
-            "hot": "773.3万",
+            "title": "给阿嬷的情书拿到第一个电影奖",
+            "hot": "766.9万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -666,17 +469,8 @@
           },
           {
             "rank": 3,
-            "title": "给阿嬷的情书拿到第一个电影奖",
-            "hot": "771.3万",
-            "score": "",
-            "want_count": "",
-            "types": "",
-            "actors": ""
-          },
-          {
-            "rank": 4,
-            "title": "《监狱来的妈妈》停止上映",
-            "hot": "768.6万",
+            "title": "贾玲转念花开有望暑期上映",
+            "hot": "764.3万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -687,12 +481,12 @@
       {
         "key": "douyin_tv",
         "title": "剧集",
-        "count": 4,
+        "count": 3,
         "items": [
           {
             "rank": 1,
             "title": "盛唐奇案开播",
-            "hot": "911.4万",
+            "hot": "778万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -701,7 +495,7 @@
           {
             "rank": 2,
             "title": "电影澎湖海战定档7月25日",
-            "hot": "773.3万",
+            "hot": "771.2万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -710,16 +504,7 @@
           {
             "rank": 3,
             "title": "肖战金海燕奖最佳男主角",
-            "hot": "772.9万",
-            "score": "",
-            "want_count": "",
-            "types": "",
-            "actors": ""
-          },
-          {
-            "rank": 4,
-            "title": "良陈美锦大结局",
-            "hot": "770万",
+            "hot": "770.2万",
             "score": "",
             "want_count": "",
             "types": "",
