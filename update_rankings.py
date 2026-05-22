@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-综合影视榜单聚合爬虫 V9 - 纯净版
-修复：
-1. 抓取失败返回空列表，不再用任何备用/写死数据填充
-2. 百度API修复
-3. 抖音改为尝试真实抓取
-4. 微博文娱筛选优化
-5. 所有失败平台在数据中标注 "抓取失败" 提示
-6. 彻底移除所有写死的 hot_movies / hot_dramas / fallback 数据
+综合影视榜单聚合爬虫 V11
+核心修复：
+1. 微博文娱榜使用官方API的flag_desc字段直接筛选（剧集/综艺/电影/演出/音乐）
+2. 微博剧集/电影直接使用flag_desc分类，不再关键词匹配
+3. 抖音使用dabenshi.cn聚合API（GitHub Actions环境测试通过）
+4. 百度保留多源尝试
+5. 彻底移除所有写死数据
+6. 抓取失败返回空 + error提示
 """
 
 import requests
@@ -38,7 +38,6 @@ def load_json(filepath, default=None):
     return default if default is not None else {}
 
 def get_timestamp():
-    """获取北京时间"""
     return datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
 
 def get_hour_key():
@@ -56,10 +55,9 @@ def safe_request(url, headers=None, timeout=15):
         print(f"[WARN] 请求失败 {url}: {e}")
     return None
 
-# ============ 1. 微博热搜API ============
+# ============ 1. 微博热搜API（官方） ============
 def fetch_weibo_hot_search():
-    """获取微博热搜榜 - 多源备用"""
-    # 方法1: 微博官方API
+    """获取微博热搜榜 - 官方API"""
     try:
         print("[INFO] 尝试微博官方API...")
         resp = requests.get("https://weibo.com/ajax/side/hotSearch",
@@ -78,7 +76,9 @@ def fetch_weibo_hot_search():
                     items.append({
                         "rank": i+1,
                         "title": item.get("word", ""),
-                        "hot": str(item.get("raw_hot", ""))
+                        "hot": str(item.get("num", "")),
+                        "flag_desc": item.get("flag_desc", ""),
+                        "label_name": item.get("label_name", "")
                     })
                 print(f"[INFO] 微博官方API成功: {len(items)}条")
                 if len(items) >= 50:
@@ -86,7 +86,7 @@ def fetch_weibo_hot_search():
     except Exception as e:
         print(f"[WARN] 微博官方API失败: {e}")
 
-    # 方法2: ALAPI
+    # 备用: ALAPI
     try:
         print("[INFO] 尝试ALAPI微博热搜...")
         resp = requests.get("https://v2.alapi.cn/api/new/wbtop",
@@ -99,7 +99,9 @@ def fetch_weibo_hot_search():
                     items.append({
                         "rank": i+1,
                         "title": item.get("hot_title", item.get("title", "")),
-                        "hot": str(item.get("hot", item.get("num", "")))
+                        "hot": str(item.get("hot", item.get("num", ""))),
+                        "flag_desc": "",
+                        "label_name": ""
                     })
                 print(f"[INFO] ALAPI成功: {len(items)}条")
                 if len(items) >= 10:
@@ -110,77 +112,109 @@ def fetch_weibo_hot_search():
     print("[ERROR] 所有微博API都失败了，返回空")
     return []
 
-# ============ 1. 微博文娱热搜榜 ============
+# ============ 2. 微博文娱热搜榜 ============
 def fetch_weibo_entertainment():
     all_hot = fetch_weibo_hot_search()
     if not all_hot:
         print("[ERROR] 微博热搜抓取失败，文娱榜返回空")
         return []
 
-    entertainment_keywords = [
-        "明星", "演员", "歌手", "综艺", "电视剧", "电影", "票房", "开播", "杀青",
-        "肖战", "王一博", "迪丽热巴", "赵丽颖", "杨幂", "杨紫", "刘亦菲",
-        "易烊千玺", "王俊凯", "王源", "华晨宇", "邓紫棋", "周杰伦",
-        "鹿晗", "张艺兴", "蔡徐坤", "李现", "朱一龙", "杨洋",
-        "成毅", "檀健次", "王鹤棣", "吴磊", "白敬亭", "罗云熙",
-        "任嘉伦", "龚俊", "许凯", "张凌赫", "赵露思", "虞书欣",
-        "白鹿", "谭松韵", "李沁", "周冬雨", "倪妮", "刘诗诗",
-        "唐嫣", "Angelababy", "鞠婧祎", "杨超越", "孟子义",
-        "张婧仪", "周也", "田曦薇", "陈都灵", "沈月", "章若楠",
-        "时代少年团", "陈立农", "范丞丞", "黄明昊", "刘雨昕",
-        "周深", "毛不易", "薛之谦", "李荣浩", "张杰", "林俊杰",
-        "陈奕迅", "汪苏泷", "刘宇宁",
-        "金秀贤", "韩剧", "韩娱", "内娱", "娱", "瓜", "爆料",
-        "恋情", "结婚", "离婚", "分手", "复合", "出轨", "官宣",
-        "红毯", "颁奖", "金像奖", "金马奖", "金鸡奖", "百花奖",
-        "戛纳", "威尼斯", "柏林", "奥斯卡", "金球奖",
-        "演唱会", "音乐节", "巡演", "live", "现场",
-        "剧组", "导演", "编剧", "制片", "路透", "预告",
-        "定档", "上映", "排片", "豆瓣", "评分",
-        "番位", "撕番", "番", "C位", "站位", "海报",
-        "造型", "穿搭", "时尚", "杂志", "封面", "代言",
-        "直播", "带货", "商务", "资源", "饼", "瓜主",
-    ]
-
+    # 使用官方flag_desc字段筛选文娱内容
+    entertainment_types = ["剧集", "综艺", "电影", "演出", "音乐"]
     entertainment_items = []
+
     for item in all_hot:
-        title = item.get("title", "")
-        for keyword in entertainment_keywords:
-            if keyword in title:
-                entertainment_items.append(item)
+        flag_desc = item.get("flag_desc", "")
+        if flag_desc in entertainment_types:
+            entertainment_items.append(item)
+
+    print(f"[INFO] 微博文娱热搜(flag_desc筛选): {len(entertainment_items)}条")
+
+    # 如果官方分类少于20条，用关键词补充到50条
+    if len(entertainment_items) < 20:
+        print(f"[WARN] 官方分类仅{len(entertainment_items)}条，用关键词补充")
+        seen = {item["title"] for item in entertainment_items}
+
+        keywords = [
+            "肖战", "王一博", "迪丽热巴", "赵丽颖", "杨幂", "杨紫", "刘亦菲",
+            "易烊千玺", "王俊凯", "王源", "华晨宇", "邓紫棋", "周杰伦",
+            "鹿晗", "张艺兴", "蔡徐坤", "李现", "朱一龙", "杨洋",
+            "成毅", "檀健次", "王鹤棣", "吴磊", "白敬亭", "罗云熙",
+            "任嘉伦", "龚俊", "许凯", "张凌赫", "赵露思", "虞书欣",
+            "白鹿", "谭松韵", "李沁", "周冬雨", "倪妮", "刘诗诗",
+            "唐嫣", "Angelababy", "鞠婧祎", "杨超越", "孟子义",
+            "张婧仪", "周也", "田曦薇", "陈都灵", "沈月", "章若楠",
+            "关晓彤", "宋祖儿", "林允", "张天爱", "古力娜扎", "佟丽娅",
+            "高圆圆", "林志玲", "舒淇", "章子怡", "巩俐", "张曼玉",
+            "周星驰", "成龙", "李连杰", "刘德华", "张学友", "郭富城",
+            "梁朝伟", "周润发", "葛优", "黄渤", "徐峥", "沈腾",
+            "吴京", "张译", "雷佳音", "于和伟", "陈道明", "张国立",
+            "周深", "毛不易", "薛之谦", "李荣浩", "张杰", "林俊杰",
+            "陈奕迅", "汪苏泷", "刘宇宁", "许嵩", "华晨宇", "邓紫棋",
+            "王菲", "那英", "韩红", "孙燕姿", "蔡依林", "梁静茹",
+            "五月天", "苏打绿", "告五人", "凤凰传奇", "TFBOYS",
+            "时代少年团", "陈立农", "范丞丞", "黄明昊", "刘雨昕",
+            "金秀贤", "宋慧乔", "全智贤", "李敏镐", "朴叙俊", "孔刘",
+            "BLACKPINK", "BTS", "EXO", "TWICE", "IVE", "aespa",
+            "韩剧", "韩娱", "Kpop", "内娱", "娱", "瓜", "爆料",
+            "明星", "演员", "歌手", "综艺", "电视剧", "电影", "票房", "开播", "杀青",
+            "导演", "编剧", "制片", "剧组", "路透", "预告", "片花",
+            "定档", "上映", "排片", "首映", "点映", "路演",
+            "豆瓣", "猫眼", "淘票票", "评分", "口碑", "烂番茄",
+            "撤档", "改档", "延期", "重映", "密钥",
+            "破亿", "破十亿", "票房冠军", "年度票房", "观影",
+            "红毯", "颁奖", "金像奖", "金马奖", "金鸡奖", "百花奖",
+            "华表奖", "金鹰奖", "飞天奖", "白玉兰", "金钟奖",
+            "戛纳", "威尼斯", "柏林", "奥斯卡", "金球奖", "艾美奖",
+            "格莱美", "全英音乐奖", "公告牌", "MTV",
+            "恋情", "结婚", "离婚", "分手", "复合", "出轨", "官宣",
+            "求婚", "订婚", "婚礼", "蜜月", "怀孕", "生子",
+            "绯闻", "八卦", "爆料", "实锤", "澄清", "辟谣",
+            "番位", "撕番", "C位", "站位", "海报", "番",
+            "应援", "打榜", "控评", "反黑", "站姐", "代拍",
+            "粉丝", "黑粉", "路人", "脱粉", "回踩", "塌房",
+            "造型", "穿搭", "时尚", "杂志", "封面", "代言",
+            "高定", "红毯", "时装周", "巴黎", "米兰", "纽约",
+            "直播", "带货", "商务", "资源", "饼", "瓜主",
+            "演唱会", "音乐节", "巡演", "live", "现场", "开票",
+            "加场", "售罄", "黄牛", "抢票", "大麦", "猫眼",
+            "跑男", "极挑", "向往", "快本", "天天", "王牌",
+            "声生不息", "乘风破浪", "披荆斩棘", "歌手", "天赐",
+            "脱口秀", "喜剧大赛", "德云", "麻花", "开心",
+            "恋综", "推理", "密室", "逃脱", "剧本杀",
+            "动漫", "动画", "二次元", "Cosplay", "漫展",
+            "游戏", "电竞", "LOL", "王者荣耀", "原神", "吃鸡",
+            "主播", "UP主", "B站", "抖音", "快手", "小红书",
+            "网红", "博主", "达人", "MCN", "直播", "短视频",
+            "Vlog", "Plog", "穿搭", "美妆", "护肤", "健身",
+            "减肥", "瘦身", "整容", "医美", "颜值", "身材",
+            "宠物", "萌宠", "猫", "狗", "动物园", "海洋生物",
+        ]
+
+        for item in all_hot:
+            if item["title"] in seen:
+                continue
+            title = item["title"]
+            for kw in keywords:
+                if kw in title:
+                    entertainment_items.append(item)
+                    seen.add(title)
+                    break
+            if len(entertainment_items) >= 50:
                 break
 
-    print(f"[INFO] 微博文娱热搜筛选: {len(entertainment_items)}条")
     return entertainment_items[:50]
 
-# ============ 2. 微博剧集热度榜 ============
+# ============ 3. 微博剧集热度榜 ============
 def fetch_weibo_tv():
     all_hot = fetch_weibo_hot_search()
     if not all_hot:
         print("[ERROR] 微博热搜抓取失败，剧集榜返回空")
         return []
 
-    tv_keywords = [
-        "剧", "电视剧", "TV", "开播", "大结局", "预告", "定档",
-        "主角", "家业", "良陈美锦", "雨霖铃", "低智商犯罪",
-        "央视", "卫视", "黄金档", "收视率", "播放量",
-        "古装", "现代", "悬疑", "甜宠", "仙侠", "武侠",
-        "S+", "A+", "评级", "招商", "广告",
-        "张嘉益", "刘浩存", "秦海璐", "窦骁", "翟子路",
-        "杨紫", "韩东君", "吴冕", "任敏", "此沙", "董思成",
-        "杨洋", "章若楠", "方逸伦", "张予曦",
-        "王骁", "田曦薇", "王传君", "烧饼",
-    ]
+    # 使用官方flag_desc="剧集"筛选
+    tv_items = [item for item in all_hot if item.get("flag_desc") == "剧集"]
 
-    tv_items = []
-    for item in all_hot:
-        title = item.get("title", "")
-        for keyword in tv_keywords:
-            if keyword in title:
-                tv_items.append(item)
-                break
-
-    # 只返回实时热搜中筛选出的剧集话题，不写死任何数据
     result = []
     seen = set()
     for item in tv_items:
@@ -196,37 +230,19 @@ def fetch_weibo_tv():
                 "source": "热搜"
             })
 
+    print(f"[INFO] 微博剧集(flag_desc=剧集): {len(result)}条")
     return result
 
-# ============ 3. 微博电影热度榜 ============
+# ============ 4. 微博电影热度榜 ============
 def fetch_weibo_movie():
     all_hot = fetch_weibo_hot_search()
     if not all_hot:
         print("[ERROR] 微博热搜抓取失败，电影榜返回空")
         return []
 
-    movie_keywords = [
-        "电影", "影片", "票房", "上映", "排片", "预售", "点映",
-        "戛纳", "威尼斯", "柏林", "奥斯卡", "金球", "金像", "金马",
-        "导演", "执导", "主演", "领衔", "特别出演", "客串",
-        "国产片", "进口片", "分账片", "批片",
-        "豆瓣", "猫眼", "淘票票", "评分", "口碑",
-        "撤档", "改档", "延期", "重映", "密钥",
-        "破亿", "破十亿", "票房冠军", "年度票房",
-        "阿嬷", "情书", "遗憾", "今晚正好", "森中有林", "敢死队",
-        "李思潼", "王彦桐", "吴少卿", "马思纯", "陈昊森", "张艺凡",
-        "于和伟", "高圆圆", "韩庚", "蒋龙", "齐溪", "杨超越",
-    ]
+    # 使用官方flag_desc="电影"筛选
+    movie_items = [item for item in all_hot if item.get("flag_desc") == "电影"]
 
-    movie_items = []
-    for item in all_hot:
-        title = item.get("title", "")
-        for keyword in movie_keywords:
-            if keyword in title:
-                movie_items.append(item)
-                break
-
-    # 只返回实时热搜中筛选出的电影话题，不写死任何数据
     result = []
     seen = set()
     for item in movie_items:
@@ -243,11 +259,11 @@ def fetch_weibo_movie():
                 "source": "热搜"
             })
 
+    print(f"[INFO] 微博电影(flag_desc=电影): {len(result)}条")
     return result
 
-# ============ 4. 豆瓣实时热门电影榜 ============
+# ============ 5. 豆瓣实时热门电影榜 ============
 def fetch_douban_movies():
-    """获取豆瓣实时热门电影"""
     url = "https://m.douban.com/rexxar/api/v2/subject_collection/movie_real_time_hotest/items?start=0&count=50"
     headers = {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15",
@@ -284,9 +300,8 @@ def fetch_douban_movies():
     print("[ERROR] 豆瓣电影抓取失败，返回空")
     return []
 
-# ============ 5. 豆瓣实时热门电视榜 ============
+# ============ 6. 豆瓣实时热门电视榜 ============
 def fetch_douban_tv():
-    """获取豆瓣实时热门电视"""
     url = "https://m.douban.com/rexxar/api/v2/subject_collection/tv_real_time_hotest/items?start=0&count=50"
     headers = {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15",
@@ -323,79 +338,117 @@ def fetch_douban_tv():
     print("[ERROR] 豆瓣电视抓取失败，返回空")
     return []
 
-# ============ 6. 抖音院线电影 ============
+# ============ 7. 抖音院线电影 ============
 def fetch_douyin_movies():
-    """抖音影视榜 - 通过第三方聚合API获取"""
-    try:
-        print("[INFO] 尝试获取抖音/猫眼电影数据...")
-        resp = requests.get("https://www.60s.vip/api/douyin/hot",
-            headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
-        if resp.status_code == 200:
-            data = resp.json()
-            if data.get("code") == 200:
+    """抖音影视榜 - 通过聚合API获取"""
+    # 尝试多个聚合API
+    apis = [
+        "https://api.aa1.cn/api/douyin-hot",
+        "https://dabenshi.cn/other/api/hot.php?type=douyinhot",
+    ]
+
+    for api_url in apis:
+        try:
+            print(f"[INFO] 尝试抖音API: {api_url}...")
+            resp = requests.get(api_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+            if resp.status_code == 200:
+                data = resp.json()
                 items = []
-                movie_keywords = ["电影", "票房", "上映", "首映", "影片", "导演", "主演"]
-                all_items = data.get("data", [])
+
+                # 处理不同API的数据格式
+                if isinstance(data, list):
+                    all_items = data
+                elif isinstance(data, dict):
+                    all_items = data.get("data", data.get("result", []))
+                else:
+                    continue
+
+                movie_keywords = ["电影", "票房", "上映", "首映", "影片", "导演", "主演", "影院", "院线"]
                 for i, item in enumerate(all_items):
-                    title = item.get("title", "")
+                    if isinstance(item, dict):
+                        title = item.get("word", item.get("title", ""))
+                        hot = str(item.get("hot_value", item.get("hot", item.get("num", ""))))
+                    else:
+                        continue
+
                     for kw in movie_keywords:
                         if kw in title:
                             items.append({
                                 "rank": len(items) + 1,
                                 "title": title,
-                                "hot": str(item.get("hot", "")),
+                                "hot": hot,
                                 "score": "",
                                 "want_count": "",
                                 "types": "",
                                 "actors": ""
                             })
                             break
-                if len(items) >= 5:
+
+                if len(items) >= 3:
                     print(f"[INFO] 抖音电影数据: {len(items)}条")
                     return items[:10]
-    except Exception as e:
-        print(f"[WARN] 抖音电影抓取失败: {e}")
+        except Exception as e:
+            print(f"[WARN] {api_url} 失败: {e}")
+            continue
 
-    print("[ERROR] 抖音电影抓取失败，返回空")
+    print("[ERROR] 所有抖音API都失败了，返回空")
     return []
 
-# ============ 7. 抖音剧集 ============
+# ============ 8. 抖音剧集 ============
 def fetch_douyin_tv():
     """抖音剧集榜"""
-    try:
-        print("[INFO] 尝试获取抖音剧集数据...")
-        resp = requests.get("https://www.60s.vip/api/douyin/hot",
-            headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
-        if resp.status_code == 200:
-            data = resp.json()
-            if data.get("code") == 200:
+    apis = [
+        "https://api.aa1.cn/api/douyin-hot",
+        "https://dabenshi.cn/other/api/hot.php?type=douyinhot",
+    ]
+
+    for api_url in apis:
+        try:
+            print(f"[INFO] 尝试抖音API: {api_url}...")
+            resp = requests.get(api_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+            if resp.status_code == 200:
+                data = resp.json()
                 items = []
-                tv_keywords = ["剧", "电视剧", "剧集", "开播", "大结局", "预告", "定档", "主角", "家业", "雨霖铃"]
-                all_items = data.get("data", [])
+
+                if isinstance(data, list):
+                    all_items = data
+                elif isinstance(data, dict):
+                    all_items = data.get("data", data.get("result", []))
+                else:
+                    continue
+
+                tv_keywords = ["剧", "电视剧", "剧集", "开播", "大结局", "预告", "定档", "主角", "追剧", "剧情"]
                 for i, item in enumerate(all_items):
-                    title = item.get("title", "")
+                    if isinstance(item, dict):
+                        title = item.get("word", item.get("title", ""))
+                        hot = str(item.get("hot_value", item.get("hot", item.get("num", ""))))
+                    else:
+                        continue
+
                     for kw in tv_keywords:
                         if kw in title:
                             items.append({
                                 "rank": len(items) + 1,
                                 "title": title,
-                                "hot": str(item.get("hot", "")),
+                                "hot": hot,
                                 "score": "",
                                 "want_count": "",
                                 "types": "",
                                 "actors": ""
                             })
                             break
-                if len(items) >= 5:
+
+                if len(items) >= 3:
                     print(f"[INFO] 抖音剧集数据: {len(items)}条")
                     return items[:10]
-    except Exception as e:
-        print(f"[WARN] 抖音剧集抓取失败: {e}")
+        except Exception as e:
+            print(f"[WARN] {api_url} 失败: {e}")
+            continue
 
-    print("[ERROR] 抖音剧集抓取失败，返回空")
+    print("[ERROR] 所有抖音API都失败了，返回空")
     return []
 
-# ============ 8. 百度热搜-电影榜 ============
+# ============ 9. 百度热搜-电影榜 ============
 def fetch_baidu_movies():
     """获取百度热搜电影榜 - 多源尝试"""
     # 方法1: 百度官方API
@@ -465,7 +518,7 @@ def fetch_baidu_movies():
     print("[ERROR] 百度电影抓取失败，返回空")
     return []
 
-# ============ 9. 百度热搜-电视剧榜 ============
+# ============ 10. 百度热搜-电视剧榜 ============
 def fetch_baidu_tv():
     """获取百度热搜电视剧榜"""
     # 方法1: 百度官方API
@@ -535,7 +588,6 @@ def main():
     baidu_tv = fetch_baidu_tv()
     print(f"  百度电视: {len(baidu_tv)} 条")
 
-    # 如果某个平台抓取失败，添加提示信息
     def make_tab_data(key, title, items, platform_name):
         if not items:
             return {
