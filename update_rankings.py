@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-综合影视榜单聚合爬虫 V9
+综合影视榜单聚合爬虫 V9 - 纯净版
 修复：
-1. 抓取失败返回空列表，不再用备用数据填充
-2. 百度API修复 - 使用新的接口
-3. 抖音改为真实抓取（通过第三方聚合API）
+1. 抓取失败返回空列表，不再用任何备用/写死数据填充
+2. 百度API修复
+3. 抖音改为尝试真实抓取
 4. 微博文娱筛选优化
 5. 所有失败平台在数据中标注 "抓取失败" 提示
+6. 彻底移除所有写死的 hot_movies / hot_dramas / fallback 数据
 """
 
 import requests
@@ -179,21 +180,14 @@ def fetch_weibo_tv():
                 tv_items.append(item)
                 break
 
-    hot_dramas = [
-        {"rank": 1, "title": "主角", "hot": "7777万", "score": "8.9", "platform": "CCTV1/腾讯视频", "cast": "张嘉益、刘浩存、秦海璐、窦骁"},
-        {"rank": 2, "title": "家业", "hot": "7271万", "score": "暂无", "platform": "CCTV8/爱奇艺", "cast": "杨紫、韩东君、吴冕"},
-        {"rank": 3, "title": "良陈美锦", "hot": "4524万", "score": "暂无", "platform": "湖南卫视/芒果TV", "cast": "任敏、此沙、董思成"},
-        {"rank": 4, "title": "雨霖铃", "hot": "3814万", "score": "7.8", "platform": "CCTV8", "cast": "杨洋、章若楠、方逸伦"},
-        {"rank": 5, "title": "低智商犯罪", "hot": "3299万", "score": "9.2", "platform": "爱奇艺/东方卫视", "cast": "王骁、田曦薇、王传君"},
-    ]
-
-    merged = []
+    # 只返回实时热搜中筛选出的剧集话题，不写死任何数据
+    result = []
     seen = set()
     for item in tv_items:
         if item["title"] not in seen:
             seen.add(item["title"])
-            merged.append({
-                "rank": len(merged) + 1,
+            result.append({
+                "rank": len(result) + 1,
                 "title": item["title"],
                 "hot": item.get("hot", ""),
                 "score": "",
@@ -202,20 +196,7 @@ def fetch_weibo_tv():
                 "source": "热搜"
             })
 
-    for drama in hot_dramas:
-        if drama["title"] not in seen:
-            seen.add(drama["title"])
-            merged.append({
-                "rank": len(merged) + 1,
-                "title": drama["title"],
-                "hot": drama["hot"],
-                "score": drama["score"],
-                "platform": drama["platform"],
-                "cast": drama["cast"],
-                "source": "榜单"
-            })
-
-    return merged
+    return result
 
 # ============ 3. 微博电影热度榜 ============
 def fetch_weibo_movie():
@@ -245,21 +226,14 @@ def fetch_weibo_movie():
                 movie_items.append(item)
                 break
 
-    hot_movies = [
-        {"rank": 1, "title": "给阿嬷的情书", "hot": "5279万", "score": "8.6", "region": "中国大陆", "genre": "剧情 家庭", "cast": "李思潼、王彦桐、吴少卿"},
-        {"rank": 2, "title": "错过了，遗憾吗？", "hot": "3056万", "score": "85%", "region": "", "genre": "", "cast": "", "recommend": "大V推荐度85%"},
-        {"rank": 3, "title": "今晚正好", "hot": "2954万", "score": "", "region": "中国大陆", "genre": "喜剧", "cast": "马思纯、陈昊森、张艺凡"},
-        {"rank": 4, "title": "森中有林", "hot": "2716万", "score": "98%", "region": "中国大陆", "genre": "剧情", "cast": "于和伟、高圆圆、韩庚", "recommend": "大V推荐度98%"},
-        {"rank": 5, "title": "10间敢死队", "hot": "2650万", "score": "8.2", "region": "中国大陆", "genre": "剧情", "cast": "蒋龙、齐溪、杨超越"},
-    ]
-
-    merged = []
+    # 只返回实时热搜中筛选出的电影话题，不写死任何数据
+    result = []
     seen = set()
     for item in movie_items:
         if item["title"] not in seen:
             seen.add(item["title"])
-            merged.append({
-                "rank": len(merged) + 1,
+            result.append({
+                "rank": len(result) + 1,
                 "title": item["title"],
                 "hot": item.get("hot", ""),
                 "score": "",
@@ -269,22 +243,7 @@ def fetch_weibo_movie():
                 "source": "热搜"
             })
 
-    for movie in hot_movies:
-        if movie["title"] not in seen:
-            seen.add(movie["title"])
-            merged.append({
-                "rank": len(merged) + 1,
-                "title": movie["title"],
-                "hot": movie["hot"],
-                "score": movie["score"],
-                "region": movie["region"],
-                "genre": movie["genre"],
-                "cast": movie["cast"],
-                "recommend": movie.get("recommend", ""),
-                "source": "榜单"
-            })
-
-    return merged
+    return result
 
 # ============ 4. 豆瓣实时热门电影榜 ============
 def fetch_douban_movies():
