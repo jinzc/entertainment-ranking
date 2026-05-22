@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-22 10:10",
+  "update_time": "2026-05-22 10:27",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,7 +7,7 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 9,
+        "count": 10,
         "items": [
           {
             "rank": 7,
@@ -15,38 +15,43 @@
             "hot": ""
           },
           {
-            "rank": 8,
+            "rank": 9,
             "title": "男子拍到摊贩往西瓜上抹不明液体",
             "hot": ""
           },
           {
-            "rank": 13,
+            "rank": 18,
             "title": "金秀贤已接受精神科治疗",
             "hot": ""
           },
           {
-            "rank": 26,
+            "rank": 24,
             "title": "陈奕迅女儿现身法网助阵男友",
             "hot": ""
           },
           {
-            "rank": 32,
+            "rank": 28,
+            "title": "女子收22万彩礼扔掉结婚证称没结婚",
+            "hot": ""
+          },
+          {
+            "rank": 33,
             "title": "此沙陈丽君方否认恋情",
             "hot": ""
           },
           {
-            "rank": 37,
-            "title": "孔笙帮肖战整理西服",
-            "hot": ""
-          },
-          {
-            "rank": 44,
+            "rank": 39,
             "title": "私生强抱蔡徐坤涉嫌多重违法",
             "hot": ""
           },
           {
+            "rank": 45,
+            "title": "孔笙帮肖战整理西服",
+            "hot": ""
+          },
+          {
             "rank": 46,
-            "title": "女子收22万彩礼扔掉结婚证称没结婚",
+            "title": "白鹿说十周年见面会压力很大",
             "hot": ""
           },
           {
@@ -59,7 +64,7 @@
       {
         "key": "weibo_tv",
         "title": "剧集热度",
-        "count": 6,
+        "count": 1,
         "items": [
           {
             "rank": 1,
@@ -69,115 +74,15 @@
             "platform": "",
             "cast": "",
             "source": "热搜"
-          },
-          {
-            "rank": 2,
-            "title": "主角",
-            "hot": "7777万",
-            "score": "8.9",
-            "platform": "CCTV1/腾讯视频",
-            "cast": "张嘉益、刘浩存、秦海璐、窦骁",
-            "source": "榜单"
-          },
-          {
-            "rank": 3,
-            "title": "家业",
-            "hot": "7271万",
-            "score": "暂无",
-            "platform": "CCTV8/爱奇艺",
-            "cast": "杨紫、韩东君、吴冕",
-            "source": "榜单"
-          },
-          {
-            "rank": 4,
-            "title": "良陈美锦",
-            "hot": "4524万",
-            "score": "暂无",
-            "platform": "湖南卫视/芒果TV",
-            "cast": "任敏、此沙、董思成",
-            "source": "榜单"
-          },
-          {
-            "rank": 5,
-            "title": "雨霖铃",
-            "hot": "3814万",
-            "score": "7.8",
-            "platform": "CCTV8",
-            "cast": "杨洋、章若楠、方逸伦",
-            "source": "榜单"
-          },
-          {
-            "rank": 6,
-            "title": "低智商犯罪",
-            "hot": "3299万",
-            "score": "9.2",
-            "platform": "爱奇艺/东方卫视",
-            "cast": "王骁、田曦薇、王传君",
-            "source": "榜单"
           }
         ]
       },
       {
         "key": "weibo_movie",
         "title": "电影热度",
-        "count": 5,
-        "items": [
-          {
-            "rank": 1,
-            "title": "给阿嬷的情书",
-            "hot": "5279万",
-            "score": "8.6",
-            "region": "中国大陆",
-            "genre": "剧情 家庭",
-            "cast": "李思潼、王彦桐、吴少卿",
-            "recommend": "",
-            "source": "榜单"
-          },
-          {
-            "rank": 2,
-            "title": "错过了，遗憾吗？",
-            "hot": "3056万",
-            "score": "85%",
-            "region": "",
-            "genre": "",
-            "cast": "",
-            "recommend": "大V推荐度85%",
-            "source": "榜单"
-          },
-          {
-            "rank": 3,
-            "title": "今晚正好",
-            "hot": "2954万",
-            "score": "",
-            "region": "中国大陆",
-            "genre": "喜剧",
-            "cast": "马思纯、陈昊森、张艺凡",
-            "recommend": "",
-            "source": "榜单"
-          },
-          {
-            "rank": 4,
-            "title": "森中有林",
-            "hot": "2716万",
-            "score": "98%",
-            "region": "中国大陆",
-            "genre": "剧情",
-            "cast": "于和伟、高圆圆、韩庚",
-            "recommend": "大V推荐度98%",
-            "source": "榜单"
-          },
-          {
-            "rank": 5,
-            "title": "10间敢死队",
-            "hot": "2650万",
-            "score": "8.2",
-            "region": "中国大陆",
-            "genre": "剧情",
-            "cast": "蒋龙、齐溪、杨超越",
-            "recommend": "",
-            "source": "榜单"
-          }
-        ]
+        "count": 0,
+        "items": [],
+        "error": "微博数据抓取失败，本时段暂无数据"
       }
     ]
   },
@@ -216,18 +121,6 @@
           },
           {
             "rank": 3,
-            "title": "监狱来的妈妈",
-            "score": "0",
-            "rating_count": "",
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932289498.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/35517408",
-            "types": "",
-            "regions": "",
-            "release_date": "2025",
-            "actors": ""
-          },
-          {
-            "rank": 4,
             "title": "今晚正好",
             "score": "0",
             "rating_count": "",
@@ -236,6 +129,18 @@
             "types": "",
             "regions": "",
             "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 4,
+            "title": "监狱来的妈妈",
+            "score": "0",
+            "rating_count": "",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932289498.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/35517408",
+            "types": "",
+            "regions": "",
+            "release_date": "2025",
             "actors": ""
           },
           {
@@ -252,11 +157,11 @@
           },
           {
             "rank": 6,
-            "title": "黑球",
+            "title": "群体",
             "score": "0",
             "rating_count": "",
-            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2926418304.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/37215318",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932381127.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/37096700",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -276,11 +181,11 @@
           },
           {
             "rank": 8,
-            "title": "消失的人",
-            "score": "7.4",
+            "title": "黑球",
+            "score": "0",
             "rating_count": "",
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931601069.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/36965301",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2926418304.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/37215318",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -300,11 +205,11 @@
           },
           {
             "rank": 10,
-            "title": "懦夫",
-            "score": "0",
+            "title": "消失的人",
+            "score": "7.4",
             "rating_count": "",
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932617088.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/37148241",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931601069.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/36965301",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -403,11 +308,11 @@
           },
           {
             "rank": 8,
-            "title": "超能路人甲",
-            "score": "7.0",
+            "title": "种地吧4",
+            "score": "0",
             "rating_count": "",
-            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932006694.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/36680667",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932240888.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/37562142",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -427,11 +332,11 @@
           },
           {
             "rank": 10,
-            "title": "种地吧4",
-            "score": "0",
+            "title": "超能路人甲",
+            "score": "7.0",
             "rating_count": "",
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932240888.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/37562142",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932006694.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/36680667",
             "types": "",
             "regions": "",
             "release_date": "2026",
