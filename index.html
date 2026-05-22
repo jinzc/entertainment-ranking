@@ -166,7 +166,7 @@ function renderC(){
       if(item.score&&item.score!=="暂无")meta+='<span class="badge">'+item.score+'</span>';
       if(item.source)meta+='<span style="color:#667eea">'+item.source+'</span>';
     }else if(P==="douban"){
-      if(item.cover){extra='<img class="cover" src="'+item.cover+'" alt="" onerror="this.style.display='none'">'}
+      if(item.cover){extra='<img class="cover" src="'+item.cover+'" alt="" onerror="this.style.display=\'none\'">'}
       if(item.score)meta+='<span class="badge">'+item.score+'</span>';
       if(item.types)meta+='<span>'+item.types+'</span>';
       if(item.actors)meta+='<span>'+item.actors+'</span>';
