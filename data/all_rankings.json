@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-22 11:33",
+  "update_time": "2026-05-22 11:47",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,187 +7,173 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 26,
+        "count": 24,
         "items": [
           {
-            "rank": 1,
-            "title": "澎湖海战",
-            "hot": "1161110",
-            "flag_desc": "电影",
-            "label_name": "新"
-          },
-          {
-            "rank": 4,
-            "title": "赵丽颖澎湖海战海报",
-            "hot": "793829",
-            "flag_desc": "电影",
-            "label_name": "新"
-          },
-          {
             "rank": 5,
+            "title": "澎湖海战",
+            "hot": "716520",
+            "flag_desc": "电影",
+            "label_name": "新"
+          },
+          {
+            "rank": 7,
+            "title": "赵丽颖澎湖海战海报",
+            "hot": "677141",
+            "flag_desc": "电影",
+            "label_name": "新"
+          },
+          {
+            "rank": 8,
+            "title": "张豆豆喊出我肚子很痛孙杨才停下来",
+            "hot": "576746",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 13,
+            "title": "赵丽颖天下大势乘风而来",
+            "hot": "294641",
+            "flag_desc": "电影",
+            "label_name": "新"
+          },
+          {
+            "rank": 15,
             "title": "TOP 青岛",
-            "hot": "484917",
+            "hot": "276055",
             "flag_desc": "演出",
             "label_name": "新"
           },
           {
-            "rank": 12,
-            "title": "孙杨张豆豆 煤气灯效应",
-            "hot": "288957",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 14,
-            "title": "赵丽颖天下大势乘风而来",
-            "hot": "285600",
-            "flag_desc": "电影",
-            "label_name": "新"
-          },
-          {
-            "rank": 19,
-            "title": "窦靖童叫那英老师遭反问",
-            "hot": "277227",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 25,
+            "rank": 24,
             "title": "曝桃花坞游戏抄袭",
-            "hot": "268819",
+            "hot": "268113",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
-            "rank": 27,
+            "rank": 28,
             "title": "沈梦辰歌手直播冷到发抖",
-            "hot": "266476",
+            "hot": "251711",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 30,
             "title": "电影澎湖海战定档7月25日",
-            "hot": "257218",
+            "hot": "229867",
             "flag_desc": "电影",
             "label_name": "新"
           },
           {
-            "rank": 34,
-            "title": "张豆豆喊出我肚子很痛孙杨才停下来",
-            "hot": "249156",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 37,
+            "rank": 32,
             "title": "徐若晗艺术生的含金量还在上升",
-            "hot": "248153",
+            "hot": "227876",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 41,
+            "rank": 42,
             "title": "至今不知道庾澄庆家有多难搞",
-            "hot": "202483",
+            "hot": "160236",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 43,
+            "rank": 44,
             "title": "曝刺棠男主张凌赫",
-            "hot": "179099",
+            "hot": "154255",
             "flag_desc": "剧集",
             "label_name": "新"
           },
           {
-            "rank": 47,
-            "title": "庾澄庆和窦靖童聊恩利",
-            "hot": "153477",
+            "rank": 46,
+            "title": "窦靖童叫那英老师遭反问",
+            "hot": "147573",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 9,
+            "rank": 49,
+            "title": "孙杨张豆豆 煤气灯效应",
+            "hot": "138202",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 14,
             "title": "男子拍到摊贩往西瓜上抹不明液体",
-            "hot": "303049",
+            "hot": "276603",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 15,
-            "title": "肖战手上的伤口",
-            "hot": "283296",
+            "rank": 16,
+            "title": "肯德基 aespa",
+            "hot": "275220",
             "flag_desc": "",
             "label_name": "新"
           },
           {
             "rank": 20,
+            "title": "肖战手上的伤口",
+            "hot": "271332",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 21,
             "title": "曝刺棠宋祖儿换李宛妲",
-            "hot": "276274",
+            "hot": "271259",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 28,
-            "title": "肖战两天只休息了2.5小时",
-            "hot": "265098",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 29,
+            "rank": 25,
             "title": "女子收22万彩礼扔掉结婚证称没结婚",
-            "hot": "257226",
+            "hot": "267750",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           },
           {
-            "rank": 32,
-            "title": "航拍常德石门洪灾后现场",
-            "hot": "257215",
+            "rank": 27,
+            "title": "肖战两天只休息了2.5小时",
+            "hot": "256948",
             "flag_desc": "",
             "label_name": "新"
           },
           {
             "rank": 33,
-            "title": "肯德基 aespa",
-            "hot": "257214",
+            "title": "盛世天下女帝篇定档6月",
+            "hot": "203663",
             "flag_desc": "",
             "label_name": "新"
+          },
+          {
+            "rank": 34,
+            "title": "陈奕迅女儿现身法网助阵男友",
+            "hot": "192185",
+            "flag_desc": "",
+            "label_name": ""
           },
           {
             "rank": 35,
-            "title": "盛世天下女帝篇定档6月",
-            "hot": "248485",
+            "title": "金秀贤已接受精神科治疗",
+            "hot": "177495",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 39,
+            "title": "白鹿 年纪大了有点尴尬",
+            "hot": "165319",
             "flag_desc": "",
             "label_name": "新"
           },
           {
-            "rank": 38,
-            "title": "金秀贤已接受精神科治疗",
-            "hot": "219535",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 40,
-            "title": "陈奕迅女儿现身法网助阵男友",
-            "hot": "202838",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 48,
-            "title": "私生强抱蔡徐坤涉嫌多重违法",
-            "hot": "152388",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 50,
+            "rank": 51,
             "title": "金秀贤从全民唾骂到沉冤得雪",
-            "hot": "135620",
+            "hot": "135742",
             "flag_desc": "",
             "label_name": ""
           }
@@ -201,7 +187,7 @@
           {
             "rank": 1,
             "title": "曝刺棠男主张凌赫",
-            "hot": "179099",
+            "hot": "154255",
             "score": "",
             "platform": "",
             "cast": "",
@@ -217,7 +203,7 @@
           {
             "rank": 1,
             "title": "澎湖海战",
-            "hot": "1161110",
+            "hot": "716520",
             "score": "",
             "region": "",
             "genre": "",
@@ -227,7 +213,7 @@
           {
             "rank": 2,
             "title": "赵丽颖澎湖海战海报",
-            "hot": "793829",
+            "hot": "677141",
             "score": "",
             "region": "",
             "genre": "",
@@ -237,7 +223,7 @@
           {
             "rank": 3,
             "title": "赵丽颖天下大势乘风而来",
-            "hot": "285600",
+            "hot": "294641",
             "score": "",
             "region": "",
             "genre": "",
@@ -247,7 +233,7 @@
           {
             "rank": 4,
             "title": "电影澎湖海战定档7月25日",
-            "hot": "257218",
+            "hot": "229867",
             "score": "",
             "region": "",
             "genre": "",
@@ -530,7 +516,7 @@
           {
             "rank": 1,
             "title": "给阿嬷的情书票房破6亿",
-            "hot": "775万",
+            "hot": "781.1万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -538,8 +524,8 @@
           },
           {
             "rank": 2,
-            "title": "《监狱来的妈妈》停止上映",
-            "hot": "774.7万",
+            "title": "一篇长文写给阿嬷的情书导演",
+            "hot": "777.8万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -547,8 +533,8 @@
           },
           {
             "rank": 3,
-            "title": "一篇长文写给阿嬷的情书导演",
-            "hot": "772.9万",
+            "title": "《监狱来的妈妈》停止上映",
+            "hot": "773.4万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -564,7 +550,7 @@
           {
             "rank": 1,
             "title": "肖战金海燕奖最佳男主角",
-            "hot": "896万",
+            "hot": "894.4万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -573,7 +559,7 @@
           {
             "rank": 2,
             "title": "良陈美锦大结局",
-            "hot": "839万",
+            "hot": "829.8万",
             "score": "",
             "want_count": "",
             "types": "",
@@ -582,7 +568,7 @@
           {
             "rank": 3,
             "title": "盛唐奇案开播",
-            "hot": "835.4万",
+            "hot": "781.4万",
             "score": "",
             "want_count": "",
             "types": "",
