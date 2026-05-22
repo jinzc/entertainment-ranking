@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-22 20:24",
+  "update_time": "2026-05-22 23:50",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,179 +7,189 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 21,
+        "count": 26,
         "items": [
           {
             "rank": 1,
-            "title": "歌手直播",
-            "hot": "6040080",
+            "title": "歌手排名",
+            "hot": "14724275",
             "flag_desc": "综艺",
-            "label_name": "新"
+            "label_name": "爆"
           },
           {
             "rank": 2,
-            "title": "浪姐直播",
-            "hot": "2860150",
+            "title": "窦靖童 王菲的声音唱窦唯",
+            "hot": "3096182",
+            "flag_desc": "综艺",
+            "label_name": "热"
+          },
+          {
+            "rank": 5,
+            "title": "浪姐排名",
+            "hot": "3080720",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
-            "rank": 5,
-            "title": "魏如萱调侃曾沛慈太残酷",
-            "hot": "694432",
+            "rank": 7,
+            "title": "庾澄庆淘汰",
+            "hot": "3047686",
             "flag_desc": "综艺",
-            "label_name": ""
+            "label_name": "新"
           },
           {
-            "rank": 15,
-            "title": "你曾是少年",
-            "hot": "370258",
+            "rank": 13,
+            "title": "惊鸿一面 夯",
+            "hot": "2962593",
+            "flag_desc": "综艺",
+            "label_name": "热"
+          },
+          {
+            "rank": 14,
+            "title": "结石姐 歌手袭榜",
+            "hot": "2947310",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 16,
+            "title": "跑男收视率",
+            "hot": "2918530",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
             "rank": 17,
-            "title": "魏如萱首发",
-            "hot": "367145",
+            "title": "第一次爱的人 全场最佳",
+            "hot": "2896613",
             "flag_desc": "综艺",
             "label_name": "新"
+          },
+          {
+            "rank": 20,
+            "title": "凑热闹 喷麦",
+            "hot": "2851645",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 22,
+            "title": "伊能静 我在妻旅才是乘风破浪",
+            "hot": "2832961",
+            "flag_desc": "综艺",
+            "label_name": "热"
           },
           {
             "rank": 23,
-            "title": "方媛哭了",
-            "hot": "356815",
+            "title": "胡彦斌破音",
+            "hot": "2806793",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 25,
+            "title": "凑热闹分数",
+            "hot": "2786083",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
-            "rank": 27,
-            "title": "歌手赛制",
-            "hot": "349950",
+            "rank": 26,
+            "title": "窦靖童演唱那英从头哭到尾",
+            "hot": "2763539",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
             "rank": 29,
-            "title": "庾澄庆伊能静歌手浪姐封面",
-            "hot": "346379",
+            "title": "张碧晨 炸场子",
+            "hot": "2715342",
             "flag_desc": "综艺",
             "label_name": ""
-          },
-          {
-            "rank": 32,
-            "title": "浪姐",
-            "hot": "339386",
-            "flag_desc": "综艺",
-            "label_name": "新"
           },
           {
             "rank": 33,
-            "title": "徐若晗回应不理方媛",
-            "hot": "338081",
+            "title": "歌手直播",
+            "hot": "2664143",
             "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 35,
-            "title": "孙怡的底妆为什么哭不花",
-            "hot": "334935",
-            "flag_desc": "综艺",
-            "label_name": "新"
+            "label_name": ""
           },
           {
             "rank": 36,
-            "title": "奔跑吧",
-            "hot": "333121",
+            "title": "窦颖给窦靖童和声",
+            "hot": "2604640",
             "flag_desc": "综艺",
             "label_name": "新"
+          },
+          {
+            "rank": 37,
+            "title": "范丞丞让尤长靖拿第三名",
+            "hot": "2601445",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 40,
+            "title": "收视率",
+            "hot": "2553881",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 41,
+            "title": "尤长靖把我唱哭了",
+            "hot": "2531268",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 44,
+            "title": "跑男",
+            "hot": "2491169",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 45,
+            "title": "歌手弹幕 隔壁唱得好看跳得好听",
+            "hot": "2468278",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 46,
+            "title": "谁给张碧晨化的妆",
+            "hot": "2455885",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 8,
+            "title": "歌手2026没白等一年",
+            "hot": "3026913",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 15,
+            "title": "丈夫高调宣布出轨有私生子妻子崩溃",
+            "hot": "2927606",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 30,
+            "title": "小猫臂力惊人 肚肚逼人",
+            "hot": "2701108",
+            "flag_desc": "",
+            "label_name": ""
           },
           {
             "rank": 50,
-            "title": "孙怡短发造型",
-            "hot": "308667",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 51,
-            "title": "曾沛慈 全部看浪姐不准看歌手",
-            "hot": "305786",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 10,
-            "title": "小猫臂力惊人 肚肚逼人",
-            "hot": "380254",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 13,
-            "title": "雪莉哥哥向金秀贤宣战",
-            "hot": "374139",
-            "flag_desc": "",
-            "label_name": "热"
-          },
-          {
-            "rank": 14,
-            "title": "丈夫高调宣布出轨有私生子妻子崩溃",
-            "hot": "372185",
-            "flag_desc": "",
-            "label_name": "热"
-          },
-          {
-            "rank": 18,
-            "title": "曝杨幂已提名白玉兰最佳女主角",
-            "hot": "366045",
-            "flag_desc": "盛典",
-            "label_name": "新"
-          },
-          {
-            "rank": 22,
-            "title": "摊贩向西瓜涂抹的液体检测是水",
-            "hot": "357507",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 24,
-            "title": "朱珠说刘亦菲选择朋友很小心",
-            "hot": "355392",
+            "title": "左航直播",
+            "hot": "2399378",
             "flag_desc": "",
             "label_name": ""
-          },
-          {
-            "rank": 34,
-            "title": "腾势Z9GT在南法戛纳天价落槌",
-            "hot": "336327",
-            "flag_desc": "",
-            "label_name": "新"
-          }
-        ]
-      },
-      {
-        "key": "weibo_tv",
-        "title": "剧集热度",
-        "count": 2,
-        "items": [
-          {
-            "rank": 1,
-            "title": "曝杨幂已提名白玉兰最佳女主角",
-            "hot": "366045",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
-          },
-          {
-            "rank": 2,
-            "title": "短剧 一万播放五块钱",
-            "hot": "327899",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
           }
         ]
       }
@@ -216,16 +226,6 @@
           },
           {
             "rank": 3,
-            "title": "今晚正好",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 4,
             "title": "惊蛰无声",
             "score": "6.0",
             "rating_count": "",
@@ -235,8 +235,8 @@
             "actors": ""
           },
           {
-            "rank": 5,
-            "title": "错过了，遗憾吗？",
+            "rank": 4,
+            "title": "今晚正好",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -245,9 +245,19 @@
             "actors": ""
           },
           {
-            "rank": 6,
+            "rank": 5,
             "title": "我，许可",
             "score": "8.3",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 6,
+            "title": "错过了，遗憾吗？",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -266,22 +276,22 @@
           },
           {
             "rank": 8,
-            "title": "绵羊侦探团",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 9,
             "title": "一个男人和一个女人",
             "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
             "release_date": "2024",
+            "actors": ""
+          },
+          {
+            "rank": 9,
+            "title": "绵羊侦探团",
+            "score": "0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
             "actors": ""
           },
           {
@@ -303,6 +313,16 @@
         "items": [
           {
             "rank": 1,
+            "title": "乘风2026",
+            "score": "5.3",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 2,
             "title": "家业",
             "score": "0",
             "rating_count": "",
@@ -312,7 +332,7 @@
             "actors": ""
           },
           {
-            "rank": 2,
+            "rank": 3,
             "title": "主角",
             "score": "0",
             "rating_count": "",
@@ -322,27 +342,7 @@
             "actors": ""
           },
           {
-            "rank": 3,
-            "title": "低智商犯罪",
-            "score": "8.0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
             "rank": 4,
-            "title": "雨霖铃",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 5,
             "title": "歌手2026",
             "score": "0",
             "rating_count": "",
@@ -352,7 +352,27 @@
             "actors": ""
           },
           {
+            "rank": 5,
+            "title": "低智商犯罪",
+            "score": "8.0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
             "rank": 6,
+            "title": "雨霖铃",
+            "score": "0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 7,
             "title": "黑袍纠察队 第五季",
             "score": "6.9",
             "rating_count": "",
@@ -362,19 +382,9 @@
             "actors": ""
           },
           {
-            "rank": 7,
+            "rank": 8,
             "title": "良陈美锦",
             "score": "5.7",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 8,
-            "title": "超能路人甲",
-            "score": "7.1",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -393,8 +403,8 @@
           },
           {
             "rank": 10,
-            "title": "种地吧4",
-            "score": "0",
+            "title": "超能路人甲",
+            "score": "7.1",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -412,70 +422,16 @@
       {
         "key": "douyin_movie",
         "title": "院线电影",
-        "count": 3,
-        "items": [
-          {
-            "rank": 1,
-            "title": "电影澎湖海战定档7月25日",
-            "hot": "819.3万",
-            "score": "",
-            "want_count": "",
-            "types": "",
-            "actors": ""
-          },
-          {
-            "rank": 2,
-            "title": "给阿嬷的情书拿到第一个电影奖",
-            "hot": "796.8万",
-            "score": "",
-            "want_count": "",
-            "types": "",
-            "actors": ""
-          },
-          {
-            "rank": 3,
-            "title": "贾玲转念花开有望暑期上映",
-            "hot": "764.9万",
-            "score": "",
-            "want_count": "",
-            "types": "",
-            "actors": ""
-          }
-        ]
+        "count": 0,
+        "items": [],
+        "error": "抖音数据抓取失败，本时段暂无数据"
       },
       {
         "key": "douyin_tv",
         "title": "剧集",
-        "count": 3,
-        "items": [
-          {
-            "rank": 1,
-            "title": "肖战金海燕奖最佳男主角",
-            "hot": "862.8万",
-            "score": "",
-            "want_count": "",
-            "types": "",
-            "actors": ""
-          },
-          {
-            "rank": 2,
-            "title": "电影澎湖海战定档7月25日",
-            "hot": "819.3万",
-            "score": "",
-            "want_count": "",
-            "types": "",
-            "actors": ""
-          },
-          {
-            "rank": 3,
-            "title": "盛唐奇案开播",
-            "hot": "768万",
-            "score": "",
-            "want_count": "",
-            "types": "",
-            "actors": ""
-          }
-        ]
+        "count": 0,
+        "items": [],
+        "error": "抖音数据抓取失败，本时段暂无数据"
       }
     ]
   },
