@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-22 08:07",
+  "update_time": "2026-05-22 10:10",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,256 +7,51 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 50,
+        "count": 9,
         "items": [
           {
-            "rank": 5,
-            "title": "孔笙帮肖战整理西服",
-            "hot": ""
-          },
-          {
-            "rank": 12,
-            "title": "此沙陈丽君方否认恋情",
-            "hot": ""
-          },
-          {
-            "rank": 16,
-            "title": "男子拍到摊贩往西瓜上抹不明液体",
-            "hot": ""
-          },
-          {
-            "rank": 19,
-            "title": "肖战金海燕奖最佳男主角",
-            "hot": ""
-          },
-          {
-            "rank": 22,
-            "title": "曝Angelababy没有靠黄晓明",
-            "hot": ""
-          },
-          {
-            "rank": 34,
-            "title": "金秀贤已接受精神科治疗",
-            "hot": ""
-          },
-          {
-            "rank": 42,
-            "title": "白鹿 油画公主",
-            "hot": ""
-          },
-          {
-            "rank": 45,
-            "title": "田曦薇西装露额头",
-            "hot": ""
-          },
-          {
-            "rank": 48,
-            "title": "给阿嬷的情书亚洲年度最佳艺术电影",
-            "hot": ""
-          },
-          {
-            "rank": 49,
-            "title": "BLG官宣Viper回国治病",
-            "hot": ""
-          },
-          {
-            "rank": 50,
-            "title": "金秀贤从全民唾骂到沉冤得雪",
-            "hot": ""
-          },
-          {
-            "rank": 1,
-            "title": "黄金一跌再跌",
-            "hot": ""
-          },
-          {
-            "rank": 2,
-            "title": "母亲阳台烧香起火致2子女身亡",
-            "hot": ""
-          },
-          {
-            "rank": 3,
-            "title": "我国建成规模最大水利基础设施体系",
-            "hot": ""
-          },
-          {
-            "rank": 4,
-            "title": "C罗夺得沙特联赛冠军",
-            "hot": ""
-          },
-          {
-            "rank": 6,
-            "title": "张豆豆情绪稳定后又被孙杨说哭了",
-            "hot": ""
-          },
-          {
             "rank": 7,
-            "title": "京东健康送免单 秦岚同款Swisse",
+            "title": "沈梦辰歌手直播冷到发抖",
             "hot": ""
           },
           {
             "rank": 8,
-            "title": "马奎尔落选世界杯名单",
-            "hot": ""
-          },
-          {
-            "rank": 9,
-            "title": "雷军说输给特斯拉不丢人",
-            "hot": ""
-          },
-          {
-            "rank": 10,
-            "title": "豆包炒股建议",
-            "hot": ""
-          },
-          {
-            "rank": 11,
-            "title": "A股大反转原因",
+            "title": "男子拍到摊贩往西瓜上抹不明液体",
             "hot": ""
           },
           {
             "rank": 13,
-            "title": "至今不知道庾澄庆家有多难搞",
-            "hot": ""
-          },
-          {
-            "rank": 14,
-            "title": "洛克王国",
-            "hot": ""
-          },
-          {
-            "rank": 15,
-            "title": "徐若晗艺术生的含金量还在上升",
-            "hot": ""
-          },
-          {
-            "rank": 17,
-            "title": "婴幼儿湿巾检出锑为何不公布品牌",
-            "hot": ""
-          },
-          {
-            "rank": 18,
-            "title": "男子拒见婚外女友不慎将其撞死",
-            "hot": ""
-          },
-          {
-            "rank": 20,
-            "title": "用上AI后工作时间反而更长了",
-            "hot": ""
-          },
-          {
-            "rank": 21,
-            "title": "暗恋同事的有福了",
-            "hot": ""
-          },
-          {
-            "rank": 23,
-            "title": "这才是护学岗该有的样子",
-            "hot": ""
-          },
-          {
-            "rank": 24,
-            "title": "发朋友圈辱骂邻居孩子被判赔7000元",
-            "hot": ""
-          },
-          {
-            "rank": 25,
-            "title": "女子收22万彩礼拉黑准新郎",
+            "title": "金秀贤已接受精神科治疗",
             "hot": ""
           },
           {
             "rank": 26,
-            "title": "终于理解了朋友是流动的这句话",
-            "hot": ""
-          },
-          {
-            "rank": 27,
-            "title": "官方通报税务局职工上班玩手游",
-            "hot": ""
-          },
-          {
-            "rank": 28,
-            "title": "小米YU7首战ModelY八败两胜",
-            "hot": ""
-          },
-          {
-            "rank": 29,
-            "title": "丁程鑫不参与开推胆量排名",
-            "hot": ""
-          },
-          {
-            "rank": 30,
-            "title": "老人不买天价鹿茸被一脚踹翻",
-            "hot": ""
-          },
-          {
-            "rank": 31,
-            "title": "寿司郎为什么洗不干净盘子",
+            "title": "陈奕迅女儿现身法网助阵男友",
             "hot": ""
           },
           {
             "rank": 32,
-            "title": "伊能静上手拉开了孙杨",
-            "hot": ""
-          },
-          {
-            "rank": 33,
-            "title": "睡觉时出现这4种表现可能是疾病信号",
-            "hot": ""
-          },
-          {
-            "rank": 35,
-            "title": "良陈美锦",
-            "hot": ""
-          },
-          {
-            "rank": 36,
-            "title": "杨梅价格暴跌",
+            "title": "此沙陈丽君方否认恋情",
             "hot": ""
           },
           {
             "rank": 37,
-            "title": "才到5月暴雨频繁原因",
-            "hot": ""
-          },
-          {
-            "rank": 38,
-            "title": "一次性雨伞用过被退写满学生姓名",
-            "hot": ""
-          },
-          {
-            "rank": 39,
-            "title": "u17世界杯",
-            "hot": ""
-          },
-          {
-            "rank": 40,
-            "title": "弟弟谎报身份致哥哥成吸毒人员",
-            "hot": ""
-          },
-          {
-            "rank": 41,
-            "title": "得闲谨制横扫",
-            "hot": ""
-          },
-          {
-            "rank": 43,
-            "title": "雷军回应为何只公布锁单量",
+            "title": "孔笙帮肖战整理西服",
             "hot": ""
           },
           {
             "rank": 44,
-            "title": "王菲别唱了",
+            "title": "私生强抱蔡徐坤涉嫌多重违法",
             "hot": ""
           },
           {
             "rank": 46,
-            "title": "父母弄散儿子拼3天积木感觉天塌了",
+            "title": "女子收22万彩礼扔掉结婚证称没结婚",
             "hot": ""
           },
           {
-            "rank": 47,
-            "title": "庾澄庆和窦靖童聊恩利",
+            "rank": 51,
+            "title": "金秀贤从全民唾骂到沉冤得雪",
             "hot": ""
           }
         ]
@@ -264,7 +59,7 @@
       {
         "key": "weibo_tv",
         "title": "剧集热度",
-        "count": 8,
+        "count": 6,
         "items": [
           {
             "rank": 1,
@@ -277,33 +72,6 @@
           },
           {
             "rank": 2,
-            "title": "肖战金海燕奖最佳男主角",
-            "hot": "",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
-          },
-          {
-            "rank": 3,
-            "title": "良陈美锦",
-            "hot": "",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
-          },
-          {
-            "rank": 4,
-            "title": "田曦薇西装露额头",
-            "hot": "",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
-          },
-          {
-            "rank": 5,
             "title": "主角",
             "hot": "7777万",
             "score": "8.9",
@@ -312,7 +80,7 @@
             "source": "榜单"
           },
           {
-            "rank": 6,
+            "rank": 3,
             "title": "家业",
             "hot": "7271万",
             "score": "暂无",
@@ -321,7 +89,16 @@
             "source": "榜单"
           },
           {
-            "rank": 7,
+            "rank": 4,
+            "title": "良陈美锦",
+            "hot": "4524万",
+            "score": "暂无",
+            "platform": "湖南卫视/芒果TV",
+            "cast": "任敏、此沙、董思成",
+            "source": "榜单"
+          },
+          {
+            "rank": 5,
             "title": "雨霖铃",
             "hot": "3814万",
             "score": "7.8",
@@ -330,7 +107,7 @@
             "source": "榜单"
           },
           {
-            "rank": 8,
+            "rank": 6,
             "title": "低智商犯罪",
             "hot": "3299万",
             "score": "9.2",
@@ -343,20 +120,10 @@
       {
         "key": "weibo_movie",
         "title": "电影热度",
-        "count": 6,
+        "count": 5,
         "items": [
           {
             "rank": 1,
-            "title": "给阿嬷的情书亚洲年度最佳艺术电影",
-            "hot": "",
-            "score": "",
-            "region": "",
-            "genre": "",
-            "cast": "",
-            "source": "热搜"
-          },
-          {
-            "rank": 2,
             "title": "给阿嬷的情书",
             "hot": "5279万",
             "score": "8.6",
@@ -367,7 +134,7 @@
             "source": "榜单"
           },
           {
-            "rank": 3,
+            "rank": 2,
             "title": "错过了，遗憾吗？",
             "hot": "3056万",
             "score": "85%",
@@ -378,7 +145,7 @@
             "source": "榜单"
           },
           {
-            "rank": 4,
+            "rank": 3,
             "title": "今晚正好",
             "hot": "2954万",
             "score": "",
@@ -389,7 +156,7 @@
             "source": "榜单"
           },
           {
-            "rank": 5,
+            "rank": 4,
             "title": "森中有林",
             "hot": "2716万",
             "score": "98%",
@@ -400,7 +167,7 @@
             "source": "榜单"
           },
           {
-            "rank": 6,
+            "rank": 5,
             "title": "10间敢死队",
             "hot": "2650万",
             "score": "8.2",
@@ -485,18 +252,6 @@
           },
           {
             "rank": 6,
-            "title": "一个男人和一个女人",
-            "score": "0",
-            "rating_count": "",
-            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932071585.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/36311696",
-            "types": "",
-            "regions": "",
-            "release_date": "2024",
-            "actors": ""
-          },
-          {
-            "rank": 7,
             "title": "黑球",
             "score": "0",
             "rating_count": "",
@@ -508,19 +263,19 @@
             "actors": ""
           },
           {
-            "rank": 8,
-            "title": "我，许可",
-            "score": "8.3",
+            "rank": 7,
+            "title": "一个男人和一个女人",
+            "score": "0",
             "rating_count": "",
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932103692.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/37332784",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932071585.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/36311696",
             "types": "",
             "regions": "",
-            "release_date": "2026",
+            "release_date": "2024",
             "actors": ""
           },
           {
-            "rank": 9,
+            "rank": 8,
             "title": "消失的人",
             "score": "7.4",
             "rating_count": "",
@@ -532,11 +287,23 @@
             "actors": ""
           },
           {
+            "rank": 9,
+            "title": "我，许可",
+            "score": "8.3",
+            "rating_count": "",
+            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932103692.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/37332784",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
             "rank": 10,
             "title": "懦夫",
             "score": "0",
             "rating_count": "",
-            "cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931442603.jpg",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932617088.jpg",
             "url": "https://www.douban.com/doubanapp/dispatch/movie/37148241",
             "types": "",
             "regions": "",
@@ -624,18 +391,6 @@
           },
           {
             "rank": 7,
-            "title": "黑夜告白",
-            "score": "7.0",
-            "rating_count": "",
-            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931782015.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/35922594",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 8,
             "title": "歌手2026",
             "score": "0",
             "rating_count": "",
@@ -647,12 +402,24 @@
             "actors": ""
           },
           {
-            "rank": 9,
-            "title": "种地吧4",
-            "score": "0",
+            "rank": 8,
+            "title": "超能路人甲",
+            "score": "7.0",
             "rating_count": "",
-            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932240888.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/37562142",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932006694.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/36680667",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 9,
+            "title": "黑夜告白",
+            "score": "7.0",
+            "rating_count": "",
+            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931782015.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/35922594",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -660,11 +427,11 @@
           },
           {
             "rank": 10,
-            "title": "超能路人甲",
-            "score": "7.1",
+            "title": "种地吧4",
+            "score": "0",
             "rating_count": "",
-            "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932006694.jpg",
-            "url": "https://www.douban.com/doubanapp/dispatch/movie/36680667",
+            "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932240888.jpg",
+            "url": "https://www.douban.com/doubanapp/dispatch/movie/37562142",
             "types": "",
             "regions": "",
             "release_date": "2026",
@@ -681,196 +448,16 @@
       {
         "key": "douyin_movie",
         "title": "院线电影",
-        "count": 10,
-        "items": [
-          {
-            "rank": 1,
-            "title": "给阿嬷的情书",
-            "hot": "4.0亿",
-            "score": "8.5",
-            "want_count": "1.1万",
-            "types": "喜剧 爱情",
-            "actors": "吴少卿 郑润奇 赵曙光"
-          },
-          {
-            "rank": 2,
-            "title": "错过了，遗憾吗？",
-            "hot": "9114.6万",
-            "score": "",
-            "want_count": "3.1万",
-            "types": "喜剧 爱情",
-            "actors": "庄达菲 王安宇..."
-          },
-          {
-            "rank": 3,
-            "title": "今晚正好",
-            "hot": "4364.9万",
-            "score": "",
-            "want_count": "1050",
-            "types": "喜剧 爱情",
-            "actors": "马思纯 陈昊森..."
-          },
-          {
-            "rank": 4,
-            "title": "消失的人",
-            "hot": "1717.1万",
-            "score": "7.9",
-            "want_count": "4.8万",
-            "types": "悬疑 惊悚",
-            "actors": "郑恺 刘浩存 邱泽"
-          },
-          {
-            "rank": 5,
-            "title": "监狱来的妈妈",
-            "hot": "1599.0万",
-            "score": "",
-            "want_count": "133",
-            "types": "励志",
-            "actors": "赵箫泓 郝燕飞"
-          },
-          {
-            "rank": 6,
-            "title": "真人快打2",
-            "hot": "968.3万",
-            "score": "",
-            "want_count": "1213",
-            "types": "科幻 惊悚",
-            "actors": "卡尔·厄本 阿德..."
-          },
-          {
-            "rank": 7,
-            "title": "森中有林",
-            "hot": "727.4万",
-            "score": "",
-            "want_count": "1.5万",
-            "types": "爱情 犯罪",
-            "actors": "于和伟 高圆圆 韩庚"
-          },
-          {
-            "rank": 8,
-            "title": "星球大战：曼达洛人与...",
-            "hot": "613.7万",
-            "score": "",
-            "want_count": "2566",
-            "types": "科幻 冒险",
-            "actors": ""
-          },
-          {
-            "rank": 9,
-            "title": "寒战1994",
-            "hot": "500.0万",
-            "score": "",
-            "want_count": "800",
-            "types": "剧情 动作",
-            "actors": "吴彦祖 刘俊谦"
-          },
-          {
-            "rank": 10,
-            "title": "10间敢死队",
-            "hot": "450.0万",
-            "score": "8.2",
-            "want_count": "2000",
-            "types": "喜剧 剧情",
-            "actors": "蒋龙 齐溪 杨超越"
-          }
-        ]
+        "count": 0,
+        "items": [],
+        "error": "抖音数据抓取失败，本时段暂无数据"
       },
       {
         "key": "douyin_tv",
         "title": "剧集",
-        "count": 10,
-        "items": [
-          {
-            "rank": 1,
-            "title": "主角",
-            "hot": "171.3万",
-            "score": "",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": "张嘉益 刘浩存 秦海璐"
-          },
-          {
-            "rank": 2,
-            "title": "家业",
-            "hot": "155.0万",
-            "score": "",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": "杨紫 韩东君 吴冕"
-          },
-          {
-            "rank": 3,
-            "title": "雨霖铃",
-            "hot": "68.4万",
-            "score": "",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": "杨洋 章若楠 方逸伦"
-          },
-          {
-            "rank": 4,
-            "title": "低智商犯罪",
-            "hot": "59.2万",
-            "score": "8.0",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": "王骁 田曦薇 王传君"
-          },
-          {
-            "rank": 5,
-            "title": "良陈美锦",
-            "hot": "",
-            "score": "",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": "任敏 此沙 董思成"
-          },
-          {
-            "rank": 6,
-            "title": "蜜语纪",
-            "hot": "",
-            "score": "",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": "钟汉良 朱珠"
-          },
-          {
-            "rank": 7,
-            "title": "八千里路云和月",
-            "hot": "",
-            "score": "",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": "王阳 万茜 于和伟"
-          },
-          {
-            "rank": 8,
-            "title": "佳偶天成",
-            "hot": "",
-            "score": "",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": "任嘉伦 王鹤润"
-          },
-          {
-            "rank": 9,
-            "title": "黑袍纠察队 第五季",
-            "hot": "",
-            "score": "7.1",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": ""
-          },
-          {
-            "rank": 10,
-            "title": "方圆八百米",
-            "hot": "",
-            "score": "",
-            "want_count": "",
-            "types": "电视剧",
-            "actors": ""
-          }
-        ]
+        "count": 0,
+        "items": [],
+        "error": "抖音数据抓取失败，本时段暂无数据"
       }
     ]
   },
