@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-23 19:15",
+  "update_time": "2026-05-23 21:44",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,134 +7,154 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 16,
+        "count": 19,
         "items": [
           {
-            "rank": 17,
-            "title": "庾澄庆 被换6首歌",
-            "hot": "309864",
+            "rank": 1,
+            "title": "浪姐直播",
+            "hot": "1591200",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 18,
-            "title": "易烊千玺给王源演唱会送花篮了",
-            "hot": "308346",
-            "flag_desc": "演出",
-            "label_name": ""
+            "rank": 6,
+            "title": "沈月工作室 你仅仅是沈月就很好",
+            "hot": "799272",
+            "flag_desc": "综艺",
+            "label_name": "热"
+          },
+          {
+            "rank": 7,
+            "title": "范玮琪没来",
+            "hot": "582751",
+            "flag_desc": "综艺",
+            "label_name": "新"
           },
           {
             "rank": 19,
             "title": "沈月向王鹤棣道歉",
-            "hot": "306782",
+            "hot": "554156",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 20,
-            "title": "宋亚轩国乐无双新歌写了二十天",
-            "hot": "305618",
-            "flag_desc": "音乐",
-            "label_name": "新"
-          },
-          {
-            "rank": 23,
-            "title": "丁程鑫误入巨人国",
-            "hot": "301118",
+            "rank": 22,
+            "title": "宋亚轩唱粤语情歌的咬字",
+            "hot": "543635",
             "flag_desc": "综艺",
             "label_name": "新"
-          },
-          {
-            "rank": 24,
-            "title": "庾澄庆格局",
-            "hot": "299931",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 27,
-            "title": "赵又廷这么发高圆圆知道吗",
-            "hot": "294319",
-            "flag_desc": "电影",
-            "label_name": ""
           },
           {
             "rank": 28,
-            "title": "沙溢跑男高反吸氧开车",
-            "hot": "293288",
+            "title": "孙怡 节目组把我当歌手用了吗",
+            "hot": "527311",
             "flag_desc": "综艺",
-            "label_name": ""
+            "label_name": "新"
           },
           {
-            "rank": 45,
-            "title": "吴泽林语气",
-            "hot": "268109",
+            "rank": 34,
+            "title": "王濛短道速滑 也许放弃才能靠近你",
+            "hot": "510668",
             "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 35,
+            "title": "易烊千玺给王源演唱会送花篮了",
+            "hot": "509219",
+            "flag_desc": "演出",
             "label_name": ""
-          },
-          {
-            "rank": 11,
-            "title": "林一 沈月",
-            "hot": "350003",
-            "flag_desc": "",
-            "label_name": "热"
-          },
-          {
-            "rank": 14,
-            "title": "王鹤棣 拆cp",
-            "hot": "319232",
-            "flag_desc": "",
-            "label_name": "热"
           },
           {
             "rank": 37,
-            "title": "挑杯决赛明星团建现场",
-            "hot": "280460",
-            "flag_desc": "",
+            "title": "庾澄庆格局",
+            "hot": "503205",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 38,
+            "title": "丁程鑫误入巨人国",
+            "hot": "499631",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 40,
+            "title": "宋亚轩唱值了",
+            "hot": "494941",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 41,
+            "title": "王濛pk萧蔷",
+            "hot": "490703",
+            "flag_desc": "综艺",
             "label_name": "新"
           },
           {
             "rank": 42,
-            "title": "明星看粉丝分析",
-            "hot": "272029",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 44,
-            "title": "小狗护主中弹三次手术后出院",
-            "hot": "269603",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 48,
-            "title": "王烁然回复粉丝评论",
-            "hot": "263910",
-            "flag_desc": "",
+            "title": "萧蔷开口跪",
+            "hot": "488147",
+            "flag_desc": "综艺",
             "label_name": "新"
           },
           {
             "rank": 49,
-            "title": "曝白玉兰提名终极预测",
-            "hot": "262405",
-            "flag_desc": "盛典",
+            "title": "浪姐这不是会选歌吗",
+            "hot": "468788",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 51,
+            "title": "杨紫玉兰花开君再来杀青合照",
+            "hot": "462684",
+            "flag_desc": "剧集",
+            "label_name": ""
+          },
+          {
+            "rank": 52,
+            "title": "成龙是有什么把柄在吴彤手上吗",
+            "hot": "462105",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 14,
+            "title": "王鹤棣 拆cp",
+            "hot": "568017",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 25,
+            "title": "窦靖童小时候是王菲的挂件",
+            "hot": "535765",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 50,
+            "title": "小狗护主中弹三次手术后出院",
+            "hot": "466640",
+            "flag_desc": "",
             "label_name": ""
           }
         ]
       },
       {
-        "key": "weibo_movie",
-        "title": "电影热度",
+        "key": "weibo_tv",
+        "title": "剧集热度",
         "count": 1,
         "items": [
           {
             "rank": 1,
-            "title": "赵又廷这么发高圆圆知道吗",
-            "hot": "294319",
+            "title": "杨紫玉兰花开君再来杀青合照",
+            "hot": "462684",
             "score": "",
-            "region": "",
-            "genre": "",
+            "platform": "",
             "cast": "",
             "source": "热搜"
           }
