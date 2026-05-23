@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-24 03:16",
+  "update_time": "2026-05-24 04:58",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,152 +7,159 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 21,
+        "count": 22,
         "items": [
           {
             "rank": 4,
-            "title": "孙怡看到曾沛慈票数的表情",
-            "hot": "196665",
+            "title": "王鹤棣对徐志胜的态度",
+            "hot": "109014",
             "flag_desc": "综艺",
-            "label_name": ""
+            "label_name": "热"
           },
           {
             "rank": 5,
-            "title": "王鹤棣对徐志胜的态度",
-            "hot": "190516",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 6,
-            "title": "浪姐最合理的一次",
-            "hot": "177365",
+            "title": "孙怡看到曾沛慈票数的表情",
+            "hot": "103050",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 9,
-            "title": "单依纯终于原谅观众了",
-            "hot": "176180",
+            "rank": 8,
+            "title": "浪姐最合理的一次",
+            "hot": "61966",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 11,
             "title": "伊能静疑似力挺庾澄庆",
-            "hot": "169284",
-            "flag_desc": "综艺",
-            "label_name": "热"
-          },
-          {
-            "rank": 15,
-            "title": "曾沛慈 踢馆歌手",
-            "hot": "151964",
+            "hot": "55017",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 16,
+            "rank": 13,
+            "title": "单依纯终于原谅观众了",
+            "hot": "51476",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 14,
+            "title": "曾沛慈 踢馆歌手",
+            "hot": "48928",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 15,
             "title": "窦靖童小时候是王菲的挂件",
-            "hot": "123073",
+            "hot": "46174",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 17,
-            "title": "郭本尼唯爱孙怡",
-            "hot": "111799",
+            "title": "王濛短道速滑 也许放弃才能靠近你",
+            "hot": "42348",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 19,
-            "title": "张月队长solo秀第一名",
-            "hot": "103283",
+            "title": "郭本尼唯爱孙怡",
+            "hot": "40775",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 21,
-            "title": "王濛短道速滑 也许放弃才能靠近你",
-            "hot": "102803",
+            "title": "张月队长solo秀第一名",
+            "hot": "40763",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 23,
-            "title": "李昀锐撩的不是关晓彤是丁程鑫吧",
-            "hot": "102320",
+            "rank": 22,
+            "title": "汪苏泷跳了三次误闯天家",
+            "hot": "40759",
+            "flag_desc": "演出",
+            "label_name": "新"
+          },
+          {
+            "rank": 27,
+            "title": "成龙是有什么把柄在吴彤手上吗",
+            "hot": "40715",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 26,
+            "rank": 31,
             "title": "喻言摔了",
-            "hot": "101665",
+            "hot": "40683",
             "flag_desc": "演出",
             "label_name": ""
           },
           {
-            "rank": 30,
-            "title": "成龙是有什么把柄在吴彤手上吗",
-            "hot": "100645",
+            "rank": 36,
+            "title": "李昀锐撩的不是关晓彤是丁程鑫吧",
+            "hot": "40649",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 32,
+            "rank": 37,
             "title": "家业收视率",
-            "hot": "100060",
+            "hot": "40642",
             "flag_desc": "剧集",
             "label_name": ""
           },
           {
-            "rank": 34,
-            "title": "王源在我脸上饭撒了",
-            "hot": "99466",
-            "flag_desc": "演出",
-            "label_name": ""
-          },
-          {
-            "rank": 39,
-            "title": "李宇春港得好帅",
-            "hot": "98246",
-            "flag_desc": "演出",
-            "label_name": ""
-          },
-          {
-            "rank": 45,
-            "title": "周深一开嗓票价就回本了",
-            "hot": "96821",
-            "flag_desc": "演出",
-            "label_name": ""
-          },
-          {
-            "rank": 35,
-            "title": "山西煤矿事故发布会现场默哀",
-            "hot": "99319",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 38,
-            "title": "张国清赶赴留神峪煤矿事故现场",
-            "hot": "98566",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
             "rank": 40,
-            "title": "王者荣耀",
-            "hot": "97944",
+            "title": "周深一开嗓票价就回本了",
+            "hot": "40611",
+            "flag_desc": "演出",
+            "label_name": ""
+          },
+          {
+            "rank": 43,
+            "title": "王源在我脸上饭撒了",
+            "hot": "40592",
+            "flag_desc": "演出",
+            "label_name": ""
+          },
+          {
+            "rank": 47,
+            "title": "李宇春港得好帅",
+            "hot": "40556",
+            "flag_desc": "演出",
+            "label_name": ""
+          },
+          {
+            "rank": 24,
+            "title": "张国清赶赴留神峪煤矿事故现场",
+            "hot": "40741",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 44,
+            "rank": 34,
+            "title": "山西煤矿事故发布会现场默哀",
+            "hot": "40663",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 41,
+            "title": "王者荣耀",
+            "hot": "40606",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 48,
             "title": "就说王源的演出少看一场会出事",
-            "hot": "97095",
+            "hot": "40554",
             "flag_desc": "晚会",
             "label_name": ""
           }
@@ -166,7 +173,7 @@
           {
             "rank": 1,
             "title": "家业收视率",
-            "hot": "100060",
+            "hot": "40642",
             "score": "",
             "platform": "",
             "cast": "",
