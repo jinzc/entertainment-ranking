@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-23 14:36",
+  "update_time": "2026-05-23 17:04",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,111 +7,139 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 15,
+        "count": 19,
         "items": [
           {
             "rank": 4,
             "title": "沈月向王鹤棣道歉",
-            "hot": "1632249",
+            "hot": "1350860",
             "flag_desc": "综艺",
             "label_name": "沸"
           },
           {
             "rank": 6,
-            "title": "吴泽林语气",
-            "hot": "988680",
+            "title": "庾澄庆格局",
+            "hot": "1065392",
             "flag_desc": "综艺",
-            "label_name": "热"
+            "label_name": "新"
           },
           {
-            "rank": 14,
+            "rank": 15,
             "title": "曝沈月小群不是录制期间那个",
-            "hot": "551920",
+            "hot": "544303",
             "flag_desc": "综艺",
             "label_name": "热"
-          },
-          {
-            "rank": 17,
-            "title": "谢娜回应又被黄灿灿踩裙子了",
-            "hot": "544903",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 19,
-            "title": "棣月系be了",
-            "hot": "537966",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 23,
-            "title": "曾沛慈非常不满意自己的表现",
-            "hot": "528051",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 25,
-            "title": "范丞丞喊李晨老头",
-            "hot": "522013",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 28,
-            "title": "侯宇发长文",
-            "hot": "514221",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 13,
-            "title": "王鹤棣回旋镖",
-            "hot": "15598101",
-            "flag_desc": "",
-            "label_name": "爆"
           },
           {
             "rank": 16,
-            "title": "明星看粉丝分析",
-            "hot": "546344",
-            "flag_desc": "",
+            "title": "易烊千玺给王源演唱会送花篮了",
+            "hot": "542029",
+            "flag_desc": "演出",
             "label_name": "新"
           },
           {
-            "rank": 21,
-            "title": "棣月系粉丝现状",
-            "hot": "533706",
-            "flag_desc": "",
+            "rank": 18,
+            "title": "吴泽林语气",
+            "hot": "469841",
+            "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 35,
-            "title": "史上颜值巅峰iPhone要来了",
-            "hot": "495610",
-            "flag_desc": "",
+            "rank": 19,
+            "title": "沙溢跑男高反吸氧开车",
+            "hot": "426738",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 27,
+            "title": "谢娜回应又被黄灿灿踩裙子了",
+            "hot": "356152",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 31,
+            "title": "赵又廷这么发高圆圆知道吗",
+            "hot": "350034",
+            "flag_desc": "电影",
             "label_name": ""
           },
           {
             "rank": 37,
-            "title": "带薪健身",
-            "hot": "490148",
+            "title": "严浩翔将缺席下一期西游录制",
+            "hot": "338223",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 38,
+            "title": "棣月系be了",
+            "hot": "335597",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 44,
+            "title": "曾沛慈非常不满意自己的表现",
+            "hot": "325042",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 47,
+            "title": "刘耀文让于洋少说宋亚轩两句",
+            "hot": "319665",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 50,
+            "title": "侯宇发长文",
+            "hot": "313730",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 12,
+            "title": "王鹤棣 拆cp",
+            "hot": "577478",
             "flag_desc": "",
             "label_name": "新"
           },
           {
-            "rank": 39,
-            "title": "被骂后选择离家出走的狗狗",
-            "hot": "483372",
+            "rank": 22,
+            "title": "明星看粉丝分析",
+            "hot": "366602",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           },
           {
-            "rank": 45,
-            "title": "坐肖战前面的导演回应假装合照",
-            "hot": "467895",
+            "rank": 25,
+            "title": "曝白玉兰提名终极预测",
+            "hot": "360366",
             "flag_desc": "盛典",
+            "label_name": ""
+          },
+          {
+            "rank": 32,
+            "title": "给杨幂干成外星人了",
+            "hot": "348189",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 40,
+            "title": "2026王者荣耀挑战者杯决赛",
+            "hot": "333607",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 51,
+            "title": "棣月系粉丝现状",
+            "hot": "312746",
+            "flag_desc": "",
             "label_name": ""
           }
         ]
@@ -123,8 +151,8 @@
         "items": [
           {
             "rank": 1,
-            "title": "坐肖战前面的导演回应假装合照",
-            "hot": "467895",
+            "title": "赵又廷这么发高圆圆知道吗",
+            "hot": "350034",
             "score": "",
             "region": "",
             "genre": "",
@@ -334,7 +362,7 @@
           {
             "rank": 9,
             "title": "校园之外 第一季",
-            "score": "8.1",
+            "score": "8.2",
             "rating_count": "",
             "types": "",
             "regions": "",
