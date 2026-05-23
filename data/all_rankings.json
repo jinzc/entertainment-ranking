@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-23 17:04",
+  "update_time": "2026-05-23 19:15",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,139 +7,118 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 19,
+        "count": 16,
         "items": [
           {
-            "rank": 4,
-            "title": "沈月向王鹤棣道歉",
-            "hot": "1350860",
-            "flag_desc": "综艺",
-            "label_name": "沸"
-          },
-          {
-            "rank": 6,
-            "title": "庾澄庆格局",
-            "hot": "1065392",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 15,
-            "title": "曝沈月小群不是录制期间那个",
-            "hot": "544303",
+            "rank": 17,
+            "title": "庾澄庆 被换6首歌",
+            "hot": "309864",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 16,
-            "title": "易烊千玺给王源演唱会送花篮了",
-            "hot": "542029",
-            "flag_desc": "演出",
-            "label_name": "新"
-          },
-          {
             "rank": 18,
-            "title": "吴泽林语气",
-            "hot": "469841",
-            "flag_desc": "综艺",
+            "title": "易烊千玺给王源演唱会送花篮了",
+            "hot": "308346",
+            "flag_desc": "演出",
             "label_name": ""
           },
           {
             "rank": 19,
-            "title": "沙溢跑男高反吸氧开车",
-            "hot": "426738",
+            "title": "沈月向王鹤棣道歉",
+            "hot": "306782",
+            "flag_desc": "综艺",
+            "label_name": "热"
+          },
+          {
+            "rank": 20,
+            "title": "宋亚轩国乐无双新歌写了二十天",
+            "hot": "305618",
+            "flag_desc": "音乐",
+            "label_name": "新"
+          },
+          {
+            "rank": 23,
+            "title": "丁程鑫误入巨人国",
+            "hot": "301118",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 24,
+            "title": "庾澄庆格局",
+            "hot": "299931",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 27,
-            "title": "谢娜回应又被黄灿灿踩裙子了",
-            "hot": "356152",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 31,
             "title": "赵又廷这么发高圆圆知道吗",
-            "hot": "350034",
+            "hot": "294319",
             "flag_desc": "电影",
             "label_name": ""
           },
           {
-            "rank": 37,
-            "title": "严浩翔将缺席下一期西游录制",
-            "hot": "338223",
+            "rank": 28,
+            "title": "沙溢跑男高反吸氧开车",
+            "hot": "293288",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 38,
-            "title": "棣月系be了",
-            "hot": "335597",
+            "rank": 45,
+            "title": "吴泽林语气",
+            "hot": "268109",
             "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 11,
+            "title": "林一 沈月",
+            "hot": "350003",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 14,
+            "title": "王鹤棣 拆cp",
+            "hot": "319232",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 37,
+            "title": "挑杯决赛明星团建现场",
+            "hot": "280460",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 42,
+            "title": "明星看粉丝分析",
+            "hot": "272029",
+            "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 44,
-            "title": "曾沛慈非常不满意自己的表现",
-            "hot": "325042",
-            "flag_desc": "综艺",
+            "title": "小狗护主中弹三次手术后出院",
+            "hot": "269603",
+            "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 47,
-            "title": "刘耀文让于洋少说宋亚轩两句",
-            "hot": "319665",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 50,
-            "title": "侯宇发长文",
-            "hot": "313730",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 12,
-            "title": "王鹤棣 拆cp",
-            "hot": "577478",
+            "rank": 48,
+            "title": "王烁然回复粉丝评论",
+            "hot": "263910",
             "flag_desc": "",
             "label_name": "新"
           },
           {
-            "rank": 22,
-            "title": "明星看粉丝分析",
-            "hot": "366602",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 25,
+            "rank": 49,
             "title": "曝白玉兰提名终极预测",
-            "hot": "360366",
+            "hot": "262405",
             "flag_desc": "盛典",
-            "label_name": ""
-          },
-          {
-            "rank": 32,
-            "title": "给杨幂干成外星人了",
-            "hot": "348189",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 40,
-            "title": "2026王者荣耀挑战者杯决赛",
-            "hot": "333607",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 51,
-            "title": "棣月系粉丝现状",
-            "hot": "312746",
-            "flag_desc": "",
             "label_name": ""
           }
         ]
@@ -152,7 +131,7 @@
           {
             "rank": 1,
             "title": "赵又廷这么发高圆圆知道吗",
-            "hot": "350034",
+            "hot": "294319",
             "score": "",
             "region": "",
             "genre": "",
