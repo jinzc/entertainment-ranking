@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-23 23:04",
+  "update_time": "2026-05-24 01:04",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,140 +7,154 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 19,
+        "count": 21,
         "items": [
           {
+            "rank": 2,
+            "title": "浪姐最合理的一次",
+            "hot": "574428",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
             "rank": 4,
-            "title": "沈月工作室 你仅仅是沈月就很好",
-            "hot": "942622",
+            "title": "孙怡看到曾沛慈票数的表情",
+            "hot": "547844",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 11,
+            "title": "伊能静疑似力挺庾澄庆",
+            "hot": "458099",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 6,
-            "title": "孙怡看到曾沛慈票数的表情",
-            "hot": "889827",
+            "rank": 12,
+            "title": "单依纯终于原谅观众了",
+            "hot": "457712",
             "flag_desc": "综艺",
-            "label_name": "新"
+            "label_name": ""
           },
           {
             "rank": 13,
-            "title": "伊能静疑似力挺庾澄庆",
-            "hot": "475988",
+            "title": "曾沛慈 踢馆歌手",
+            "hot": "456752",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 15,
+            "title": "郭本尼唯爱孙怡",
+            "hot": "454521",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
-            "rank": 15,
-            "title": "曾沛慈票数",
-            "hot": "455043",
+            "rank": 17,
+            "title": "窦靖童小时候是王菲的挂件",
+            "hot": "453395",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 19,
+            "title": "张月队长solo秀第一名",
+            "hot": "418875",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
             "rank": 21,
             "title": "王濛短道速滑 也许放弃才能靠近你",
-            "hot": "440693",
+            "hot": "416896",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 22,
-            "title": "浪姐直播",
-            "hot": "438343",
+            "rank": 23,
+            "title": "李昀锐撩的不是关晓彤是丁程鑫吧",
+            "hot": "412821",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 25,
+            "title": "家业收视率",
+            "hot": "410605",
+            "flag_desc": "剧集",
+            "label_name": ""
+          },
+          {
+            "rank": 28,
+            "title": "喻言摔了",
+            "hot": "405347",
+            "flag_desc": "演出",
+            "label_name": ""
+          },
+          {
+            "rank": 33,
+            "title": "周深一开嗓票价就回本了",
+            "hot": "397743",
+            "flag_desc": "演出",
+            "label_name": "新"
+          },
+          {
+            "rank": 34,
+            "title": "李宇春港得好帅",
+            "hot": "396073",
+            "flag_desc": "演出",
+            "label_name": "新"
+          },
+          {
+            "rank": 36,
+            "title": "王源在我脸上饭撒了",
+            "hot": "393584",
+            "flag_desc": "演出",
+            "label_name": "新"
+          },
+          {
+            "rank": 46,
+            "title": "张杰唱的是天下也是归途",
+            "hot": "378020",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 50,
+            "title": "成龙是有什么把柄在吴彤手上吗",
+            "hot": "371803",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 24,
-            "title": "张月好适合野心家",
-            "hot": "434548",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 27,
-            "title": "张月赢了安崎",
-            "hot": "429083",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 28,
-            "title": "家业收视率",
-            "hot": "426660",
-            "flag_desc": "剧集",
-            "label_name": "新"
-          },
-          {
-            "rank": 29,
-            "title": "窦靖童小时候是王菲的挂件",
-            "hot": "423196",
-            "flag_desc": "综艺",
+            "title": "山西煤矿事故发布会现场默哀",
+            "hot": "411592",
+            "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 31,
-            "title": "单依纯终于原谅观众了",
-            "hot": "419584",
-            "flag_desc": "综艺",
+            "title": "就说王源的演出少看一场会出事",
+            "hot": "401322",
+            "flag_desc": "晚会",
             "label_name": "新"
           },
           {
-            "rank": 34,
-            "title": "张杰唱的是天下也是归途",
-            "hot": "414081",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 37,
-            "title": "喻言摔了",
-            "hot": "406586",
-            "flag_desc": "演出",
-            "label_name": "新"
-          },
-          {
-            "rank": 41,
-            "title": "王濛看李小冉唐艺昕的眼神",
-            "hot": "397236",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 49,
-            "title": "庾澄庆淘汰缺席歌手采访",
-            "hot": "381344",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 11,
+            "rank": 39,
             "title": "张国清赶赴留神峪煤矿事故现场",
-            "hot": "496411",
+            "hot": "389234",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 12,
-            "title": "王鹤棣沈月疑似互删",
-            "hot": "18068490",
+            "rank": 42,
+            "title": "王者荣耀",
+            "hot": "383925",
             "flag_desc": "",
-            "label_name": "爆"
-          },
-          {
-            "rank": 20,
-            "title": "王鹤棣 拆cp",
-            "hot": "442718",
-            "flag_desc": "",
-            "label_name": "热"
-          },
-          {
-            "rank": 35,
-            "title": "肖战直播射箭",
-            "hot": "410204",
-            "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           }
         ]
       },
@@ -152,7 +166,7 @@
           {
             "rank": 1,
             "title": "家业收视率",
-            "hot": "426660",
+            "hot": "410605",
             "score": "",
             "platform": "",
             "cast": "",
@@ -193,26 +207,6 @@
           },
           {
             "rank": 3,
-            "title": "森中有林",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 4,
-            "title": "今晚正好",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 5,
             "title": "惊蛰无声",
             "score": "6.0",
             "rating_count": "",
@@ -222,8 +216,8 @@
             "actors": ""
           },
           {
-            "rank": 6,
-            "title": "错过了，遗憾吗？",
+            "rank": 4,
+            "title": "森中有林",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -232,27 +226,7 @@
             "actors": ""
           },
           {
-            "rank": 7,
-            "title": "一个男人和一个女人",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2024",
-            "actors": ""
-          },
-          {
-            "rank": 8,
-            "title": "群体",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 9,
+            "rank": 5,
             "title": "我，许可",
             "score": "8.3",
             "rating_count": "",
@@ -262,9 +236,49 @@
             "actors": ""
           },
           {
-            "rank": 10,
+            "rank": 6,
+            "title": "今晚正好",
+            "score": "0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 7,
             "title": "消失的人",
             "score": "7.4",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 8,
+            "title": "世界的主人",
+            "score": "9.1",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2025",
+            "actors": ""
+          },
+          {
+            "rank": 9,
+            "title": "绵羊侦探团",
+            "score": "0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 10,
+            "title": "群体",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -280,8 +294,8 @@
         "items": [
           {
             "rank": 1,
-            "title": "主角",
-            "score": "0",
+            "title": "乘风2026",
+            "score": "5.3",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -300,7 +314,7 @@
           },
           {
             "rank": 3,
-            "title": "雨霖铃",
+            "title": "主角",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -310,16 +324,6 @@
           },
           {
             "rank": 4,
-            "title": "歌手2026",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 5,
             "title": "低智商犯罪",
             "score": "8.0",
             "rating_count": "",
@@ -329,7 +333,27 @@
             "actors": ""
           },
           {
+            "rank": 5,
+            "title": "雨霖铃",
+            "score": "0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
             "rank": 6,
+            "title": "歌手2026",
+            "score": "0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 7,
             "title": "黑袍纠察队 第五季",
             "score": "6.8",
             "rating_count": "",
@@ -339,19 +363,9 @@
             "actors": ""
           },
           {
-            "rank": 7,
-            "title": "良陈美锦",
-            "score": "5.7",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
             "rank": 8,
-            "title": "我的王室死对头",
-            "score": "7.7",
+            "title": "校园之外 第一季",
+            "score": "8.2",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -360,8 +374,8 @@
           },
           {
             "rank": 9,
-            "title": "校园之外 第一季",
-            "score": "8.2",
+            "title": "良陈美锦",
+            "score": "5.7",
             "rating_count": "",
             "types": "",
             "regions": "",
