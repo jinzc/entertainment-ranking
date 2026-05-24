@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-25 05:59",
+  "update_time": "2026-05-25 07:07",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,180 +7,166 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 25,
+        "count": 23,
         "items": [
           {
             "rank": 1,
             "title": "浪姐排名",
-            "hot": "261088",
+            "hot": "647623",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 4,
             "title": "谢娜主持能力",
-            "hot": "147521",
+            "hot": "276359",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 11,
+            "rank": 6,
             "title": "王濛 我们就一个群",
-            "hot": "52249",
+            "hot": "153936",
             "flag_desc": "综艺",
             "label_name": "热"
-          },
-          {
-            "rank": 12,
-            "title": "折磨三天最后还是淘汰侯宇",
-            "hot": "52213",
-            "flag_desc": "综艺",
-            "label_name": ""
           },
           {
             "rank": 14,
+            "title": "折磨三天最后还是淘汰侯宇",
+            "hot": "137578",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 20,
             "title": "温峥嵘 可不可以我走",
-            "hot": "52171",
+            "hot": "134213",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 16,
-            "title": "王霏霏孟佳这段好强",
-            "hot": "52135",
+            "rank": 21,
+            "title": "侯宇淘汰",
+            "hot": "133092",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 18,
+            "rank": 23,
             "title": "刘浩存首部破万女主剧",
-            "hot": "48700",
+            "hot": "131671",
             "flag_desc": "剧集",
             "label_name": ""
           },
           {
-            "rank": 19,
-            "title": "侯宇淘汰",
-            "hot": "46252",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 24,
+            "rank": 26,
             "title": "缘分一道桥拿什么输",
-            "hot": "36926",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 27,
-            "title": "李小冉翻跟头",
-            "hot": "36639",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 28,
-            "title": "宝莲 麦好干",
-            "hot": "36635",
+            "hot": "129793",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 31,
-            "title": "张艺上淘汰",
-            "hot": "36629",
+            "title": "王霏霏孟佳这段好强",
+            "hot": "126468",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 32,
-            "title": "救救何宣林",
-            "hot": "36625",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 33,
-            "title": "黄圣依 初代浪姐不养闲人",
-            "hot": "36623",
+            "title": "张艺上淘汰",
+            "hot": "126127",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 34,
+            "title": "宝莲 麦好干",
+            "hot": "124676",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 41,
+            "title": "黄圣依 初代浪姐不养闲人",
+            "hot": "119930",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 43,
+            "title": "王濛团三公总票数",
+            "hot": "119050",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 44,
             "title": "何洁秒了",
-            "hot": "36621",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 37,
-            "title": "宝莲组dancebreak神了",
-            "hot": "36612",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 38,
-            "title": "浪姐改赛制",
-            "hot": "36608",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 40,
-            "title": "翟子路发了和刘浩存合照",
-            "hot": "36603",
-            "flag_desc": "剧集",
-            "label_name": ""
-          },
-          {
-            "rank": 47,
-            "title": "浪姐 辱追",
-            "hot": "36584",
+            "hot": "118200",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 3,
             "title": "直播神23发射",
-            "hot": "153371",
+            "hot": "363220",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 5,
+            "rank": 11,
+            "title": "王鹤棣直播人气",
+            "hot": "140039",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 13,
+            "title": "刘晓艳回应叮嘱高颜值女生视频走红",
+            "hot": "138304",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 16,
             "title": "王鹤棣风波后首度公开亮相",
-            "hot": "114381",
+            "hot": "136827",
             "flag_desc": "晚会",
             "label_name": "热"
           },
           {
-            "rank": 8,
+            "rank": 17,
+            "title": "李连杰回应换年轻武僧心脏",
+            "hot": "135656",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 19,
+            "title": "网红主播把假一赔万当成口号",
+            "hot": "134338",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 22,
+            "title": "68岁男子出轨90后生子称妻子同意",
+            "hot": "132312",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 24,
             "title": "白玉兰",
-            "hot": "52315",
+            "hot": "131581",
             "flag_desc": "盛典",
             "label_name": ""
           },
           {
-            "rank": 13,
-            "title": "68岁男子出轨90后生子称妻子同意",
-            "hot": "52185",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 17,
-            "title": "刘晓艳回应叮嘱高颜值女生视频走红",
-            "hot": "50953",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 20,
-            "title": "网红主播把假一赔万当成口号",
-            "hot": "45706",
+            "rank": 40,
+            "title": "内娱最有名的七字真言",
+            "hot": "120566",
             "flag_desc": "",
             "label_name": ""
           }
@@ -189,21 +175,12 @@
       {
         "key": "weibo_tv",
         "title": "剧集热度",
-        "count": 2,
+        "count": 1,
         "items": [
           {
             "rank": 1,
             "title": "刘浩存首部破万女主剧",
-            "hot": "48700",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
-          },
-          {
-            "rank": 2,
-            "title": "翟子路发了和刘浩存合照",
-            "hot": "36603",
+            "hot": "131671",
             "score": "",
             "platform": "",
             "cast": "",
@@ -274,16 +251,6 @@
           },
           {
             "rank": 6,
-            "title": "消失的人",
-            "score": "7.4",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 7,
             "title": "今晚正好",
             "score": "0",
             "rating_count": "",
@@ -293,7 +260,7 @@
             "actors": ""
           },
           {
-            "rank": 8,
+            "rank": 7,
             "title": "世界的主人",
             "score": "9.1",
             "rating_count": "",
@@ -303,9 +270,19 @@
             "actors": ""
           },
           {
+            "rank": 8,
+            "title": "消失的人",
+            "score": "7.4",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
             "rank": 9,
-            "title": "绵羊侦探团",
-            "score": "0",
+            "title": "挽救计划",
+            "score": "8.6",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -341,7 +318,7 @@
           },
           {
             "rank": 2,
-            "title": "家业",
+            "title": "主角",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -351,7 +328,7 @@
           },
           {
             "rank": 3,
-            "title": "主角",
+            "title": "家业",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -401,6 +378,16 @@
           },
           {
             "rank": 8,
+            "title": "努力克服自卑的我们",
+            "score": "8.6",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 9,
             "title": "超能路人甲",
             "score": "7.1",
             "rating_count": "",
@@ -410,19 +397,9 @@
             "actors": ""
           },
           {
-            "rank": 9,
+            "rank": 10,
             "title": "良陈美锦",
             "score": "5.7",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 10,
-            "title": "南部档案",
-            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
