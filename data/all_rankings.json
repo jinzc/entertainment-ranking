@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-24 13:04",
+  "update_time": "2026-05-24 16:34",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,194 +7,152 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 20,
+        "count": 19,
         "items": [
           {
-            "rank": 2,
-            "title": "大奉打更人",
-            "hot": "1623499",
-            "flag_desc": "剧集",
-            "label_name": "热"
-          },
-          {
-            "rank": 5,
-            "title": "李晨郑恺 不舒服",
-            "hot": "1057832",
+            "rank": 4,
+            "title": "王鹤棣 沈月",
+            "hot": "1310140",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
             "rank": 6,
-            "title": "给阿嬷的情书票房破十亿",
-            "hot": "850313",
-            "flag_desc": "电影",
-            "label_name": "新"
-          },
-          {
-            "rank": 12,
             "title": "李晨郑恺跑男停宣了",
-            "hot": "410577",
+            "hot": "1092738",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 16,
-            "title": "孙怡 女儿出名妈妈就有了名字",
-            "hot": "401300",
+            "rank": 12,
+            "title": "客栈官号放了王鹤棣徐志胜的切片",
+            "hot": "341756",
             "flag_desc": "综艺",
+            "label_name": "热"
+          },
+          {
+            "rank": 20,
+            "title": "孙怡 女儿出名妈妈就有了名字",
+            "hot": "329041",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 23,
+            "title": "鹿晗控诉五哈P图严重",
+            "hot": "324106",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 24,
+            "title": "EXO回忆参加快乐大本营",
+            "hot": "321746",
+            "flag_desc": "演出",
+            "label_name": ""
+          },
+          {
+            "rank": 33,
+            "title": "沈月涨粉量",
+            "hot": "307453",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 39,
+            "title": "周深回应成龙",
+            "hot": "298201",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 42,
+            "title": "给阿嬷的情书票房破十亿",
+            "hot": "293086",
+            "flag_desc": "电影",
+            "label_name": ""
+          },
+          {
+            "rank": 43,
+            "title": "伊能静体面",
+            "hot": "290392",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 9,
+            "title": "盒马60元一斤网红葡萄卖断货",
+            "hot": "434411",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 11,
+            "title": "苗苗转发李晨郑恺跑男停宣",
+            "hot": "343637",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 15,
+            "title": "BTS成员闵玧其插队被骂",
+            "hot": "337547",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 18,
+            "title": "五月天阿信道歉",
+            "hot": "331872",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 21,
+            "title": "曝杨紫在接触女君和熹",
+            "hot": "326622",
+            "flag_desc": "",
             "label_name": "新"
           },
           {
             "rank": 26,
-            "title": "主角的收视率",
-            "hot": "381772",
-            "flag_desc": "剧集",
-            "label_name": "新"
-          },
-          {
-            "rank": 39,
-            "title": "赵今麦流浪地球3杀青",
-            "hot": "355773",
-            "flag_desc": "电影",
-            "label_name": ""
-          },
-          {
-            "rank": 42,
-            "title": "董璇上半熟恋人紧张的是张维伊",
-            "hot": "350034",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 43,
-            "title": "浪姐 初心",
-            "hot": "347935",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 4,
-            "title": "王鹤棣和雅迪的摩登之夜",
-            "hot": "1213866",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 13,
-            "title": "王鹤棣沈月 再见朋友",
-            "hot": "407800",
-            "flag_desc": "",
-            "label_name": "热"
-          },
-          {
-            "rank": 17,
-            "title": "刘宇宁说因为粉丝和朋友产生隔阂很傻",
-            "hot": "399512",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 20,
-            "title": "张彬彬曾因王鹤棣脑震荡",
-            "hot": "393639",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 22,
-            "title": "沈月涨粉量",
-            "hot": "389699",
-            "flag_desc": "",
-            "label_name": "热"
-          },
-          {
-            "rank": 23,
-            "title": "张凌赫太多人的隐私就不发了",
-            "hot": "387592",
+            "title": "杨紫张一山军训合照",
+            "hot": "318256",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 32,
-            "title": "程涛为白鹿发声",
-            "hot": "369758",
+            "title": "刘宇宁说因为粉丝和朋友产生隔阂很傻",
+            "hot": "309210",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 34,
-            "title": "本周狗屎运最旺的星座",
-            "hot": "364820",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 38,
-            "title": "华为培训会是认识时代少年团",
-            "hot": "357121",
+            "rank": 36,
+            "title": "田嘉瑞去参加婚礼了",
+            "hot": "303182",
             "flag_desc": "",
             "label_name": "新"
           },
           {
-            "rank": 44,
-            "title": "宠物博主不一定要有猫",
-            "hot": "344710",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 48,
-            "title": "山西煤矿事故现场机器人参与搜救",
-            "hot": "338605",
+            "rank": 45,
+            "title": "张凌赫太多人的隐私就不发了",
+            "hot": "287885",
             "flag_desc": "",
             "label_name": ""
-          }
-        ]
-      },
-      {
-        "key": "weibo_tv",
-        "title": "剧集热度",
-        "count": 2,
-        "items": [
-          {
-            "rank": 1,
-            "title": "大奉打更人",
-            "hot": "1623499",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
-          },
-          {
-            "rank": 2,
-            "title": "主角的收视率",
-            "hot": "381772",
-            "score": "",
-            "platform": "",
-            "cast": "",
-            "source": "热搜"
           }
         ]
       },
       {
         "key": "weibo_movie",
         "title": "电影热度",
-        "count": 2,
+        "count": 1,
         "items": [
           {
             "rank": 1,
             "title": "给阿嬷的情书票房破十亿",
-            "hot": "850313",
-            "score": "",
-            "region": "",
-            "genre": "",
-            "cast": "",
-            "source": "热搜"
-          },
-          {
-            "rank": 2,
-            "title": "赵今麦流浪地球3杀青",
-            "hot": "355773",
+            "hot": "293086",
             "score": "",
             "region": "",
             "genre": "",
@@ -236,16 +194,6 @@
           },
           {
             "rank": 3,
-            "title": "惊蛰无声",
-            "score": "6.0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 4,
             "title": "森中有林",
             "score": "6.9",
             "rating_count": "",
@@ -255,9 +203,19 @@
             "actors": ""
           },
           {
+            "rank": 4,
+            "title": "惊蛰无声",
+            "score": "6.0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
             "rank": 5,
-            "title": "我，许可",
-            "score": "8.3",
+            "title": "峡湾",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -266,8 +224,8 @@
           },
           {
             "rank": 6,
-            "title": "今晚正好",
-            "score": "0",
+            "title": "我，许可",
+            "score": "8.3",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -286,17 +244,17 @@
           },
           {
             "rank": 8,
-            "title": "世界的主人",
-            "score": "9.1",
+            "title": "今晚正好",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
-            "release_date": "2025",
+            "release_date": "2026",
             "actors": ""
           },
           {
             "rank": 9,
-            "title": "群体",
+            "title": "突如其来",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -306,8 +264,8 @@
           },
           {
             "rank": 10,
-            "title": "挽救计划",
-            "score": "8.6",
+            "title": "绵羊侦探团",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -323,7 +281,7 @@
         "items": [
           {
             "rank": 1,
-            "title": "主角",
+            "title": "家业",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -333,7 +291,7 @@
           },
           {
             "rank": 2,
-            "title": "家业",
+            "title": "主角",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -363,16 +321,6 @@
           },
           {
             "rank": 5,
-            "title": "开始推理吧 第四季",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 6,
             "title": "歌手2026",
             "score": "0",
             "rating_count": "",
@@ -382,9 +330,9 @@
             "actors": ""
           },
           {
-            "rank": 7,
-            "title": "黑袍纠察队 第五季",
-            "score": "6.8",
+            "rank": 6,
+            "title": "耀眼",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -392,7 +340,7 @@
             "actors": ""
           },
           {
-            "rank": 8,
+            "rank": 7,
             "title": "校园之外 第一季",
             "score": "8.2",
             "rating_count": "",
@@ -402,7 +350,7 @@
             "actors": ""
           },
           {
-            "rank": 9,
+            "rank": 8,
             "title": "良陈美锦",
             "score": "5.7",
             "rating_count": "",
@@ -412,9 +360,19 @@
             "actors": ""
           },
           {
+            "rank": 9,
+            "title": "黑袍纠察队 第五季",
+            "score": "6.8",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
             "rank": 10,
-            "title": "我的王室死对头",
-            "score": "7.7",
+            "title": "超能路人甲",
+            "score": "7.1",
             "rating_count": "",
             "types": "",
             "regions": "",
