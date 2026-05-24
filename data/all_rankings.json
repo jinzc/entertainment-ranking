@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-24 16:34",
+  "update_time": "2026-05-24 18:43",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,155 +7,177 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 19,
+        "count": 21,
         "items": [
           {
             "rank": 4,
             "title": "王鹤棣 沈月",
-            "hot": "1310140",
+            "hot": "914744",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
             "rank": 6,
-            "title": "李晨郑恺跑男停宣了",
-            "hot": "1092738",
+            "title": "苗苗工作室回应",
+            "hot": "791894",
             "flag_desc": "综艺",
-            "label_name": "热"
+            "label_name": "新"
+          },
+          {
+            "rank": 8,
+            "title": "将门独后台词 你只是谢景行而已",
+            "hot": "703902",
+            "flag_desc": "剧集",
+            "label_name": "新"
           },
           {
             "rank": 12,
-            "title": "客栈官号放了王鹤棣徐志胜的切片",
-            "hot": "341756",
+            "title": "苗苗也不舒服了",
+            "hot": "8613218",
+            "flag_desc": "综艺",
+            "label_name": "爆"
+          },
+          {
+            "rank": 13,
+            "title": "李晨郑恺跑男停宣了",
+            "hot": "385558",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 20,
-            "title": "孙怡 女儿出名妈妈就有了名字",
-            "hot": "329041",
-            "flag_desc": "综艺",
-            "label_name": ""
+            "rank": 15,
+            "title": "以爱为营",
+            "hot": "381434",
+            "flag_desc": "剧集",
+            "label_name": "新"
           },
           {
-            "rank": 23,
-            "title": "鹿晗控诉五哈P图严重",
-            "hot": "324106",
+            "rank": 22,
+            "title": "张予曦的讨厌真的很明显",
+            "hot": "369181",
             "flag_desc": "综艺",
-            "label_name": ""
+            "label_name": "新"
           },
           {
-            "rank": 24,
-            "title": "EXO回忆参加快乐大本营",
-            "hot": "321746",
+            "rank": 27,
+            "title": "大眼音乐节现场全员开嚼",
+            "hot": "358788",
             "flag_desc": "演出",
-            "label_name": ""
+            "label_name": "新"
           },
           {
             "rank": 33,
-            "title": "沈月涨粉量",
-            "hot": "307453",
+            "title": "鹿晗控诉五哈P图严重",
+            "hot": "347434",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 39,
-            "title": "周深回应成龙",
-            "hot": "298201",
+            "title": "宝莲妆造",
+            "hot": "337050",
             "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 42,
-            "title": "给阿嬷的情书票房破十亿",
-            "hot": "293086",
-            "flag_desc": "电影",
             "label_name": ""
           },
           {
-            "rank": 43,
-            "title": "伊能静体面",
-            "hot": "290392",
+            "rank": 44,
+            "title": "孙怡 女儿出名妈妈就有了名字",
+            "hot": "326506",
             "flag_desc": "综艺",
-            "label_name": "新"
+            "label_name": ""
           },
           {
             "rank": 9,
-            "title": "盒马60元一斤网红葡萄卖断货",
-            "hot": "434411",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 11,
-            "title": "苗苗转发李晨郑恺跑男停宣",
-            "hot": "343637",
+            "title": "小猫等了28年终于被收养了",
+            "hot": "391778",
             "flag_desc": "",
             "label_name": "新"
           },
           {
-            "rank": 15,
-            "title": "BTS成员闵玧其插队被骂",
-            "hot": "337547",
+            "rank": 14,
+            "title": "68岁男子出轨90后生子称妻子同意",
+            "hot": "383175",
             "flag_desc": "",
-            "label_name": ""
+            "label_name": "新"
           },
           {
-            "rank": 18,
+            "rank": 19,
+            "title": "德国性侵案主犯直播作案过程",
+            "hot": "373350",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 20,
+            "title": "王鹤棣曾让沈月吸二手烟",
+            "hot": "371784",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 23,
             "title": "五月天阿信道歉",
-            "hot": "331872",
+            "hot": "365883",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 21,
-            "title": "曝杨紫在接触女君和熹",
-            "hot": "326622",
+            "rank": 25,
+            "title": "BTS成员闵玧其插队被骂",
+            "hot": "362023",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           },
           {
             "rank": 26,
-            "title": "杨紫张一山军训合照",
-            "hot": "318256",
+            "title": "刘诗诗越南活动",
+            "hot": "360845",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 32,
-            "title": "刘宇宁说因为粉丝和朋友产生隔阂很傻",
-            "hot": "309210",
+            "title": "曝杨紫在接触女君和熹",
+            "hot": "349103",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 36,
-            "title": "田嘉瑞去参加婚礼了",
-            "hot": "303182",
+            "rank": 34,
+            "title": "盒马60元一斤网红葡萄卖断货",
+            "hot": "345159",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 38,
+            "title": "杨紫又有一部大女主剧",
+            "hot": "338350",
             "flag_desc": "",
             "label_name": "新"
-          },
-          {
-            "rank": 45,
-            "title": "张凌赫太多人的隐私就不发了",
-            "hot": "287885",
-            "flag_desc": "",
-            "label_name": ""
           }
         ]
       },
       {
-        "key": "weibo_movie",
-        "title": "电影热度",
-        "count": 1,
+        "key": "weibo_tv",
+        "title": "剧集热度",
+        "count": 2,
         "items": [
           {
             "rank": 1,
-            "title": "给阿嬷的情书票房破十亿",
-            "hot": "293086",
+            "title": "将门独后台词 你只是谢景行而已",
+            "hot": "703902",
             "score": "",
-            "region": "",
-            "genre": "",
+            "platform": "",
+            "cast": "",
+            "source": "热搜"
+          },
+          {
+            "rank": 2,
+            "title": "以爱为营",
+            "hot": "381434",
+            "score": "",
+            "platform": "",
             "cast": "",
             "source": "热搜"
           }
@@ -214,16 +236,6 @@
           },
           {
             "rank": 5,
-            "title": "峡湾",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 6,
             "title": "我，许可",
             "score": "8.3",
             "rating_count": "",
@@ -233,7 +245,7 @@
             "actors": ""
           },
           {
-            "rank": 7,
+            "rank": 6,
             "title": "消失的人",
             "score": "7.4",
             "rating_count": "",
@@ -243,7 +255,7 @@
             "actors": ""
           },
           {
-            "rank": 8,
+            "rank": 7,
             "title": "今晚正好",
             "score": "0",
             "rating_count": "",
@@ -253,8 +265,18 @@
             "actors": ""
           },
           {
+            "rank": 8,
+            "title": "峡湾",
+            "score": "0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
             "rank": 9,
-            "title": "突如其来",
+            "title": "绵羊侦探团",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -264,12 +286,12 @@
           },
           {
             "rank": 10,
-            "title": "绵羊侦探团",
-            "score": "0",
+            "title": "世界的主人",
+            "score": "9.1",
             "rating_count": "",
             "types": "",
             "regions": "",
-            "release_date": "2026",
+            "release_date": "2025",
             "actors": ""
           }
         ]
