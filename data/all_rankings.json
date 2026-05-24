@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-24 20:02",
+  "update_time": "2026-05-24 22:26",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,126 +7,175 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 17,
+        "count": 24,
         "items": [
           {
             "rank": 4,
-            "title": "浪姐直播",
-            "hot": "709001",
+            "title": "温峥嵘 可不可以我走",
+            "hot": "971123",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
-            "rank": 7,
-            "title": "张予曦的讨厌真的很明显",
-            "hot": "411636",
+            "rank": 5,
+            "title": "浪姐改赛制",
+            "hot": "964838",
             "flag_desc": "综艺",
-            "label_name": ""
+            "label_name": "新"
           },
           {
-            "rank": 11,
-            "title": "苗苗也不舒服了",
-            "hot": "9457829",
+            "rank": 8,
+            "title": "李斯丹妮忘词",
+            "hot": "949594",
             "flag_desc": "综艺",
-            "label_name": "爆"
+            "label_name": "新"
           },
           {
-            "rank": 17,
-            "title": "李晨郑恺跑男停宣了",
-            "hot": "392175",
+            "rank": 18,
+            "title": "张艺上淘汰",
+            "hot": "906016",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 22,
+            "title": "何洁秒了",
+            "hot": "886291",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 22,
-            "title": "以爱为营",
-            "hot": "382115",
-            "flag_desc": "剧集",
-            "label_name": ""
+            "rank": 25,
+            "title": "黄圣依 初代浪姐不养闲人",
+            "hot": "873464",
+            "flag_desc": "综艺",
+            "label_name": "新"
           },
           {
             "rank": 28,
-            "title": "苗苗转发李晨郑恺跑男停宣",
-            "hot": "370707",
+            "title": "浪姐 辱追",
+            "hot": "859456",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 33,
-            "title": "主角",
-            "hot": "362281",
+            "rank": 30,
+            "title": "浪姐直播",
+            "hot": "848179",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 31,
+            "title": "浪姐票数",
+            "hot": "844670",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 34,
+            "title": "缘分一道桥拿什么输",
+            "hot": "827189",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 39,
+            "title": "主角热度破30000",
+            "hot": "805667",
+            "flag_desc": "剧集",
+            "label_name": "新"
+          },
+          {
+            "rank": 40,
+            "title": "张月团三公总分2574",
+            "hot": "801891",
+            "flag_desc": "综艺",
+            "label_name": "新"
+          },
+          {
+            "rank": 41,
+            "title": "韩东君突然出现在杨紫直播间",
+            "hot": "796797",
             "flag_desc": "剧集",
             "label_name": "新"
           },
           {
             "rank": 46,
-            "title": "鹿晗控诉五哈P图严重",
-            "hot": "336636",
+            "title": "浪姐每次都被票数气到",
+            "hot": "773710",
             "flag_desc": "综艺",
-            "label_name": ""
+            "label_name": "新"
           },
           {
-            "rank": 8,
-            "title": "小猫等了28年终于被收养了",
-            "hot": "411453",
+            "rank": 1,
+            "title": "白玉兰",
+            "hot": "1385809",
+            "flag_desc": "盛典",
+            "label_name": "新"
+          },
+          {
+            "rank": 3,
+            "title": "直播神23发射",
+            "hot": "976822",
             "flag_desc": "",
-            "label_name": ""
+            "label_name": "新"
           },
           {
-            "rank": 12,
-            "title": "王鹤棣曾让沈月吸二手烟",
-            "hot": "402527",
+            "rank": 13,
+            "title": "王鹤棣风波后首度公开亮相",
+            "hot": "929260",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 17,
+            "title": "内娱最有名的七字真言",
+            "hot": "909603",
             "flag_desc": "",
             "label_name": "热"
           },
           {
-            "rank": 13,
+            "rank": 19,
             "title": "68岁男子出轨90后生子称妻子同意",
-            "hot": "400991",
+            "hot": "899350",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 26,
-            "title": "杨紫直播",
-            "hot": "375311",
+            "rank": 20,
+            "title": "刘晓艳回应叮嘱高颜值女生视频走红",
+            "hot": "893442",
             "flag_desc": "",
             "label_name": "新"
           },
           {
-            "rank": 27,
-            "title": "假如我是王鹤棣工作室",
-            "hot": "373771",
+            "rank": 21,
+            "title": "迪丽热巴在我边上做头发",
+            "hot": "892299",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 24,
+            "title": "王鹤棣曾让沈月吸二手烟",
+            "hot": "878172",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 33,
+            "title": "李连杰回应换年轻武僧心脏",
+            "hot": "834476",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 36,
+            "title": "白鹿给湖南灾区捐赠100万",
+            "hot": "817889",
             "flag_desc": "",
             "label_name": "新"
-          },
-          {
-            "rank": 32,
-            "title": "刘诗诗旗袍簪花",
-            "hot": "363204",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 39,
-            "title": "五月天阿信道歉",
-            "hot": "350102",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 41,
-            "title": "BTS成员闵玧其插队被骂",
-            "hot": "346491",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 42,
-            "title": "曝杨紫在接触女君和熹",
-            "hot": "343448",
-            "flag_desc": "",
-            "label_name": ""
           }
         ]
       },
@@ -137,8 +186,8 @@
         "items": [
           {
             "rank": 1,
-            "title": "以爱为营",
-            "hot": "382115",
+            "title": "主角热度破30000",
+            "hot": "805667",
             "score": "",
             "platform": "",
             "cast": "",
@@ -146,8 +195,8 @@
           },
           {
             "rank": 2,
-            "title": "主角",
-            "hot": "362281",
+            "title": "韩东君突然出现在杨紫直播间",
+            "hot": "796797",
             "score": "",
             "platform": "",
             "cast": "",
@@ -188,8 +237,8 @@
           },
           {
             "rank": 3,
-            "title": "森中有林",
-            "score": "6.9",
+            "title": "惊蛰无声",
+            "score": "6.0",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -198,8 +247,8 @@
           },
           {
             "rank": 4,
-            "title": "惊蛰无声",
-            "score": "6.0",
+            "title": "森中有林",
+            "score": "6.9",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -238,12 +287,12 @@
           },
           {
             "rank": 8,
-            "title": "峡湾",
-            "score": "0",
+            "title": "世界的主人",
+            "score": "9.1",
             "rating_count": "",
             "types": "",
             "regions": "",
-            "release_date": "2026",
+            "release_date": "2025",
             "actors": ""
           },
           {
@@ -258,12 +307,12 @@
           },
           {
             "rank": 10,
-            "title": "世界的主人",
-            "score": "9.1",
+            "title": "峡湾",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
-            "release_date": "2025",
+            "release_date": "2026",
             "actors": ""
           }
         ]
@@ -275,6 +324,16 @@
         "items": [
           {
             "rank": 1,
+            "title": "乘风2026",
+            "score": "5.3",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 2,
             "title": "家业",
             "score": "0",
             "rating_count": "",
@@ -284,7 +343,7 @@
             "actors": ""
           },
           {
-            "rank": 2,
+            "rank": 3,
             "title": "主角",
             "score": "0",
             "rating_count": "",
@@ -294,7 +353,7 @@
             "actors": ""
           },
           {
-            "rank": 3,
+            "rank": 4,
             "title": "低智商犯罪",
             "score": "8.0",
             "rating_count": "",
@@ -304,7 +363,7 @@
             "actors": ""
           },
           {
-            "rank": 4,
+            "rank": 5,
             "title": "雨霖铃",
             "score": "0",
             "rating_count": "",
@@ -314,27 +373,7 @@
             "actors": ""
           },
           {
-            "rank": 5,
-            "title": "歌手2026",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
             "rank": 6,
-            "title": "耀眼",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 7,
             "title": "校园之外 第一季",
             "score": "8.2",
             "rating_count": "",
@@ -344,17 +383,7 @@
             "actors": ""
           },
           {
-            "rank": 8,
-            "title": "良陈美锦",
-            "score": "5.7",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 9,
+            "rank": 7,
             "title": "黑袍纠察队 第五季",
             "score": "6.7",
             "rating_count": "",
@@ -364,9 +393,29 @@
             "actors": ""
           },
           {
-            "rank": 10,
+            "rank": 8,
             "title": "超能路人甲",
             "score": "7.1",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 9,
+            "title": "良陈美锦",
+            "score": "5.7",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 10,
+            "title": "南部档案",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
