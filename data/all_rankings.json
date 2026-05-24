@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-24 18:43",
+  "update_time": "2026-05-24 20:02",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,154 +7,126 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 21,
+        "count": 17,
         "items": [
           {
             "rank": 4,
-            "title": "王鹤棣 沈月",
-            "hot": "914744",
-            "flag_desc": "综艺",
-            "label_name": "热"
-          },
-          {
-            "rank": 6,
-            "title": "苗苗工作室回应",
-            "hot": "791894",
+            "title": "浪姐直播",
+            "hot": "709001",
             "flag_desc": "综艺",
             "label_name": "新"
           },
           {
-            "rank": 8,
-            "title": "将门独后台词 你只是谢景行而已",
-            "hot": "703902",
-            "flag_desc": "剧集",
-            "label_name": "新"
+            "rank": 7,
+            "title": "张予曦的讨厌真的很明显",
+            "hot": "411636",
+            "flag_desc": "综艺",
+            "label_name": ""
           },
           {
-            "rank": 12,
+            "rank": 11,
             "title": "苗苗也不舒服了",
-            "hot": "8613218",
+            "hot": "9457829",
             "flag_desc": "综艺",
             "label_name": "爆"
           },
           {
-            "rank": 13,
+            "rank": 17,
             "title": "李晨郑恺跑男停宣了",
-            "hot": "385558",
+            "hot": "392175",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 15,
+            "rank": 22,
             "title": "以爱为营",
-            "hot": "381434",
+            "hot": "382115",
+            "flag_desc": "剧集",
+            "label_name": ""
+          },
+          {
+            "rank": 28,
+            "title": "苗苗转发李晨郑恺跑男停宣",
+            "hot": "370707",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 33,
+            "title": "主角",
+            "hot": "362281",
             "flag_desc": "剧集",
             "label_name": "新"
           },
           {
-            "rank": 22,
-            "title": "张予曦的讨厌真的很明显",
-            "hot": "369181",
-            "flag_desc": "综艺",
-            "label_name": "新"
-          },
-          {
-            "rank": 27,
-            "title": "大眼音乐节现场全员开嚼",
-            "hot": "358788",
-            "flag_desc": "演出",
-            "label_name": "新"
-          },
-          {
-            "rank": 33,
+            "rank": 46,
             "title": "鹿晗控诉五哈P图严重",
-            "hot": "347434",
+            "hot": "336636",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 39,
-            "title": "宝莲妆造",
-            "hot": "337050",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 44,
-            "title": "孙怡 女儿出名妈妈就有了名字",
-            "hot": "326506",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 9,
+            "rank": 8,
             "title": "小猫等了28年终于被收养了",
-            "hot": "391778",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 14,
-            "title": "68岁男子出轨90后生子称妻子同意",
-            "hot": "383175",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 19,
-            "title": "德国性侵案主犯直播作案过程",
-            "hot": "373350",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 20,
-            "title": "王鹤棣曾让沈月吸二手烟",
-            "hot": "371784",
-            "flag_desc": "",
-            "label_name": "新"
-          },
-          {
-            "rank": 23,
-            "title": "五月天阿信道歉",
-            "hot": "365883",
+            "hot": "411453",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 25,
-            "title": "BTS成员闵玧其插队被骂",
-            "hot": "362023",
+            "rank": 12,
+            "title": "王鹤棣曾让沈月吸二手烟",
+            "hot": "402527",
+            "flag_desc": "",
+            "label_name": "热"
+          },
+          {
+            "rank": 13,
+            "title": "68岁男子出轨90后生子称妻子同意",
+            "hot": "400991",
             "flag_desc": "",
             "label_name": ""
           },
           {
             "rank": 26,
-            "title": "刘诗诗越南活动",
-            "hot": "360845",
+            "title": "杨紫直播",
+            "hot": "375311",
             "flag_desc": "",
-            "label_name": ""
+            "label_name": "新"
+          },
+          {
+            "rank": 27,
+            "title": "假如我是王鹤棣工作室",
+            "hot": "373771",
+            "flag_desc": "",
+            "label_name": "新"
           },
           {
             "rank": 32,
-            "title": "曝杨紫在接触女君和熹",
-            "hot": "349103",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 34,
-            "title": "盒马60元一斤网红葡萄卖断货",
-            "hot": "345159",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 38,
-            "title": "杨紫又有一部大女主剧",
-            "hot": "338350",
+            "title": "刘诗诗旗袍簪花",
+            "hot": "363204",
             "flag_desc": "",
             "label_name": "新"
+          },
+          {
+            "rank": 39,
+            "title": "五月天阿信道歉",
+            "hot": "350102",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 41,
+            "title": "BTS成员闵玧其插队被骂",
+            "hot": "346491",
+            "flag_desc": "",
+            "label_name": ""
+          },
+          {
+            "rank": 42,
+            "title": "曝杨紫在接触女君和熹",
+            "hot": "343448",
+            "flag_desc": "",
+            "label_name": ""
           }
         ]
       },
@@ -165,8 +137,8 @@
         "items": [
           {
             "rank": 1,
-            "title": "将门独后台词 你只是谢景行而已",
-            "hot": "703902",
+            "title": "以爱为营",
+            "hot": "382115",
             "score": "",
             "platform": "",
             "cast": "",
@@ -174,8 +146,8 @@
           },
           {
             "rank": 2,
-            "title": "以爱为营",
-            "hot": "381434",
+            "title": "主角",
+            "hot": "362281",
             "score": "",
             "platform": "",
             "cast": "",
@@ -384,7 +356,7 @@
           {
             "rank": 9,
             "title": "黑袍纠察队 第五季",
-            "score": "6.8",
+            "score": "6.7",
             "rating_count": "",
             "types": "",
             "regions": "",
