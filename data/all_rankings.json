@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-24 06:00",
+  "update_time": "2026-05-24 08:00",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,152 +7,131 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 21,
+        "count": 18,
         "items": [
           {
-            "rank": 5,
-            "title": "王鹤棣对徐志胜的态度",
-            "hot": "143894",
+            "rank": 4,
+            "title": "李登科声援沈月",
+            "hot": "453411",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "title": "孙怡看到曾沛慈票数的表情",
-            "hot": "117091",
+            "hot": "282281",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 10,
-            "title": "浪姐最合理的一次",
-            "hot": "54893",
+            "rank": 11,
+            "title": "王鹤棣对徐志胜的态度",
+            "hot": "240906",
             "flag_desc": "综艺",
-            "label_name": ""
+            "label_name": "热"
           },
           {
-            "rank": 12,
-            "title": "伊能静疑似力挺庾澄庆",
-            "hot": "52387",
+            "rank": 14,
+            "title": "沈月工作室 你仅仅是沈月就很好",
+            "hot": "238059",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 15,
-            "title": "窦靖童小时候是王菲的挂件",
-            "hot": "50407",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 16,
-            "title": "单依纯终于原谅观众了",
-            "hot": "49240",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 17,
-            "title": "曾沛慈 踢馆歌手",
-            "hot": "48838",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 19,
-            "title": "张月队长solo秀第一名",
-            "hot": "47540",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 21,
-            "title": "王濛短道速滑 也许放弃才能靠近你",
-            "hot": "40156",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 23,
-            "title": "郭本尼唯爱孙怡",
-            "hot": "39276",
+            "title": "伊能静疑似力挺庾澄庆",
+            "hot": "236564",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 24,
-            "title": "成龙是有什么把柄在吴彤手上吗",
-            "hot": "38958",
+            "title": "单依纯终于原谅观众了",
+            "hot": "226338",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 29,
-            "title": "家业收视率",
-            "hot": "31393",
-            "flag_desc": "剧集",
+            "rank": 28,
+            "title": "曾沛慈 踢馆歌手",
+            "hot": "221412",
+            "flag_desc": "综艺",
             "label_name": ""
+          },
+          {
+            "rank": 30,
+            "title": "大奉打更人",
+            "hot": "218575",
+            "flag_desc": "剧集",
+            "label_name": "新"
           },
           {
             "rank": 31,
-            "title": "李昀锐撩的不是关晓彤是丁程鑫吧",
-            "hot": "27948",
+            "title": "窦靖童小时候是王菲的挂件",
+            "hot": "217829",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 32,
-            "title": "汪苏泷跳了三次误闯天家",
-            "hot": "27942",
-            "flag_desc": "演出",
+            "rank": 34,
+            "title": "李昀锐撩的不是关晓彤是丁程鑫吧",
+            "hot": "213511",
+            "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 36,
-            "title": "周深一开嗓票价就回本了",
-            "hot": "27902",
-            "flag_desc": "演出",
-            "label_name": ""
-          },
-          {
-            "rank": 49,
-            "title": "王源在我脸上饭撒了",
-            "hot": "27761",
-            "flag_desc": "演出",
-            "label_name": ""
-          },
-          {
-            "rank": 4,
-            "title": "王鹤棣和雅迪的摩登之夜",
-            "hot": "155865",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 22,
-            "title": "张国清赶赴留神峪煤矿事故现场",
-            "hot": "39997",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 33,
-            "title": "王者荣耀",
-            "hot": "27926",
-            "flag_desc": "",
+            "rank": 35,
+            "title": "王濛短道速滑 也许放弃才能靠近你",
+            "hot": "213377",
+            "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 38,
-            "title": "就说王源的演出少看一场会出事",
-            "hot": "27879",
-            "flag_desc": "晚会",
+            "title": "张月队长solo秀第一名",
+            "hot": "208811",
+            "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 39,
-            "title": "山西煤矿事故发布会现场默哀",
-            "hot": "27864",
+            "title": "棣月系超话头像变黑了",
+            "hot": "208093",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 42,
+            "title": "家业收视率",
+            "hot": "204055",
+            "flag_desc": "剧集",
+            "label_name": ""
+          },
+          {
+            "rank": 16,
+            "title": "男子回应结婚近两年从未同房",
+            "hot": "235698",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 21,
+            "title": "王鹤棣",
+            "hot": "229388",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 25,
+            "title": "婚后长期分居无亲密关系男方盼离婚",
+            "hot": "224424",
+            "flag_desc": "",
+            "label_name": "新"
+          },
+          {
+            "rank": 32,
+            "title": "张国清赶赴留神峪煤矿事故现场",
+            "hot": "216530",
             "flag_desc": "",
             "label_name": ""
           }
@@ -161,12 +140,21 @@
       {
         "key": "weibo_tv",
         "title": "剧集热度",
-        "count": 1,
+        "count": 2,
         "items": [
           {
             "rank": 1,
+            "title": "大奉打更人",
+            "hot": "218575",
+            "score": "",
+            "platform": "",
+            "cast": "",
+            "source": "热搜"
+          },
+          {
+            "rank": 2,
             "title": "家业收视率",
-            "hot": "31393",
+            "hot": "204055",
             "score": "",
             "platform": "",
             "cast": "",
@@ -267,7 +255,7 @@
           },
           {
             "rank": 9,
-            "title": "绵羊侦探团",
+            "title": "群体",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -277,8 +265,8 @@
           },
           {
             "rank": 10,
-            "title": "群体",
-            "score": "0",
+            "title": "挽救计划",
+            "score": "8.6",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -294,8 +282,8 @@
         "items": [
           {
             "rank": 1,
-            "title": "乘风2026",
-            "score": "5.3",
+            "title": "主角",
+            "score": "0",
             "rating_count": "",
             "types": "",
             "regions": "",
@@ -314,16 +302,6 @@
           },
           {
             "rank": 3,
-            "title": "主角",
-            "score": "0",
-            "rating_count": "",
-            "types": "",
-            "regions": "",
-            "release_date": "2026",
-            "actors": ""
-          },
-          {
-            "rank": 4,
             "title": "低智商犯罪",
             "score": "8.0",
             "rating_count": "",
@@ -333,8 +311,18 @@
             "actors": ""
           },
           {
-            "rank": 5,
+            "rank": 4,
             "title": "雨霖铃",
+            "score": "0",
+            "rating_count": "",
+            "types": "",
+            "regions": "",
+            "release_date": "2026",
+            "actors": ""
+          },
+          {
+            "rank": 5,
+            "title": "开始推理吧 第四季",
             "score": "0",
             "rating_count": "",
             "types": "",
@@ -384,8 +372,8 @@
           },
           {
             "rank": 10,
-            "title": "超能路人甲",
-            "score": "7.1",
+            "title": "我的王室死对头",
+            "score": "7.7",
             "rating_count": "",
             "types": "",
             "regions": "",
