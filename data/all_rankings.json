@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-25 04:08",
+  "update_time": "2026-05-25 05:59",
   "weibo": {
     "platform": "微博",
     "icon": "📱",
@@ -7,201 +7,203 @@
       {
         "key": "weibo_entertainment",
         "title": "文娱热搜",
-        "count": 26,
+        "count": 25,
         "items": [
           {
             "rank": 1,
             "title": "浪姐排名",
-            "hot": "120668",
+            "hot": "261088",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 5,
+            "rank": 4,
+            "title": "谢娜主持能力",
+            "hot": "147521",
+            "flag_desc": "综艺",
+            "label_name": "热"
+          },
+          {
+            "rank": 11,
             "title": "王濛 我们就一个群",
-            "hot": "68337",
+            "hot": "52249",
             "flag_desc": "综艺",
             "label_name": "热"
           },
           {
             "rank": 12,
-            "title": "谢娜主持能力",
-            "hot": "67402",
-            "flag_desc": "综艺",
-            "label_name": "热"
-          },
-          {
-            "rank": 13,
             "title": "折磨三天最后还是淘汰侯宇",
-            "hot": "67322",
+            "hot": "52213",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 14,
-            "title": "缘分一道桥拿什么输",
-            "hot": "67191",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 15,
-            "title": "王霏霏孟佳这段好强",
-            "hot": "67076",
+            "title": "温峥嵘 可不可以我走",
+            "hot": "52171",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 16,
-            "title": "温峥嵘 可不可以我走",
-            "hot": "56615",
+            "title": "王霏霏孟佳这段好强",
+            "hot": "52135",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 18,
             "title": "刘浩存首部破万女主剧",
-            "hot": "51519",
+            "hot": "48700",
             "flag_desc": "剧集",
             "label_name": ""
           },
           {
-            "rank": 24,
-            "title": "救救何宣林",
-            "hot": "42589",
+            "rank": 19,
+            "title": "侯宇淘汰",
+            "hot": "46252",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
-            "rank": 25,
-            "title": "侯宇淘汰",
-            "hot": "40988",
+            "rank": 24,
+            "title": "缘分一道桥拿什么输",
+            "hot": "36926",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 27,
             "title": "李小冉翻跟头",
-            "hot": "39097",
+            "hot": "36639",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 28,
             "title": "宝莲 麦好干",
-            "hot": "37781",
+            "hot": "36635",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 31,
+            "title": "张艺上淘汰",
+            "hot": "36629",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 32,
+            "title": "救救何宣林",
+            "hot": "36625",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 33,
-            "title": "宝莲组dancebreak神了",
-            "hot": "37328",
+            "title": "黄圣依 初代浪姐不养闲人",
+            "hot": "36623",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 34,
-            "title": "浪姐改赛制",
-            "hot": "37325",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 35,
-            "title": "浪姐 辱追",
-            "hot": "37323",
-            "flag_desc": "综艺",
-            "label_name": ""
-          },
-          {
-            "rank": 36,
             "title": "何洁秒了",
-            "hot": "37321",
+            "hot": "36621",
+            "flag_desc": "综艺",
+            "label_name": ""
+          },
+          {
+            "rank": 37,
+            "title": "宝莲组dancebreak神了",
+            "hot": "36612",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 38,
-            "title": "黄圣依 初代浪姐不养闲人",
-            "hot": "37311",
+            "title": "浪姐改赛制",
+            "hot": "36608",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 40,
-            "title": "李斯丹妮忘词",
-            "hot": "37305",
-            "flag_desc": "综艺",
+            "title": "翟子路发了和刘浩存合照",
+            "hot": "36603",
+            "flag_desc": "剧集",
             "label_name": ""
           },
           {
-            "rank": 46,
-            "title": "张艺上淘汰",
-            "hot": "37284",
+            "rank": 47,
+            "title": "浪姐 辱追",
+            "hot": "36584",
             "flag_desc": "综艺",
             "label_name": ""
           },
           {
             "rank": 3,
             "title": "直播神23发射",
-            "hot": "68588",
+            "hot": "153371",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 4,
+            "rank": 5,
             "title": "王鹤棣风波后首度公开亮相",
-            "hot": "68512",
+            "hot": "114381",
             "flag_desc": "晚会",
             "label_name": "热"
           },
           {
-            "rank": 6,
+            "rank": 8,
             "title": "白玉兰",
-            "hot": "68153",
+            "hot": "52315",
             "flag_desc": "盛典",
             "label_name": ""
           },
           {
-            "rank": 19,
+            "rank": 13,
             "title": "68岁男子出轨90后生子称妻子同意",
-            "hot": "46097",
+            "hot": "52185",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 21,
+            "rank": 17,
             "title": "刘晓艳回应叮嘱高颜值女生视频走红",
-            "hot": "44587",
+            "hot": "50953",
             "flag_desc": "",
             "label_name": ""
           },
           {
-            "rank": 41,
-            "title": "扁鹊原皮海报优化",
-            "hot": "37299",
-            "flag_desc": "",
-            "label_name": ""
-          },
-          {
-            "rank": 43,
+            "rank": 20,
             "title": "网红主播把假一赔万当成口号",
-            "hot": "37295",
+            "hot": "45706",
             "flag_desc": "",
-            "label_name": "新"
+            "label_name": ""
           }
         ]
       },
       {
         "key": "weibo_tv",
         "title": "剧集热度",
-        "count": 1,
+        "count": 2,
         "items": [
           {
             "rank": 1,
             "title": "刘浩存首部破万女主剧",
-            "hot": "51519",
+            "hot": "48700",
+            "score": "",
+            "platform": "",
+            "cast": "",
+            "source": "热搜"
+          },
+          {
+            "rank": 2,
+            "title": "翟子路发了和刘浩存合照",
+            "hot": "36603",
             "score": "",
             "platform": "",
             "cast": "",
