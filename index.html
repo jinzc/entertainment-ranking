@@ -1,201 +1,416 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>综合影视榜单</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f5f5f5;color:#333}
-.header{background:linear-gradient(135deg,#667eea,#764ba2);color:white;padding:20px;text-align:center}
-.header h1{font-size:24px;margin-bottom:6px}
-.header p{font-size:14px;opacity:.9}
-.update-time{text-align:center;padding:10px;background:#fff;border-bottom:1px solid #eee;font-size:13px;color:#666}
-.tabs{display:flex;background:#fff;border-bottom:1px solid #eee;overflow-x:auto}
-.tab{flex:1;min-width:80px;padding:14px 8px;text-align:center;cursor:pointer;border:none;background:none;font-size:14px;white-space:nowrap}
-.tab.active{color:#667eea;border-bottom:2px solid #667eea;font-weight:bold}
-.subtabs{display:flex;background:#fff;border-bottom:1px solid #eee;padding:0 10px}
-.subtab{padding:10px 14px;cursor:pointer;font-size:13px;color:#666;border:none;background:none}
-.subtab.active{color:#667eea;border-bottom:2px solid #667eea}
-.content{padding:15px;max-width:800px;margin:0 auto}
-.list{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.05)}
-.item{display:flex;align-items:center;padding:12px 15px;border-bottom:1px solid #f5f5f5}
-.item:hover{background:#fafafa}
-.num{width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:6px;font-weight:bold;font-size:14px;margin-right:12px;flex-shrink:0}
-.num.top3{background:linear-gradient(135deg,#ff6b6b,#ee5a5a);color:white}
-.num.normal{background:#f0f0f0;color:#666}
-.info{flex:1;min-width:0}
-.title{font-size:15px;color:#333;margin-bottom:3px;word-break:break-all}
-.meta{font-size:12px;color:#999}
-.meta span{margin-right:8px}
-.hot{font-size:12px;color:#ff6b6b;flex-shrink:0;margin-left:8px}
-.err{text-align:center;padding:40px 20px;color:#999}
-.err .icon{font-size:40px;margin-bottom:10px}
-.loading{text-align:center;padding:40px;color:#999}
-.spin{width:36px;height:36px;border:3px solid #f3f3f3;border-top:3px solid #667eea;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 12px}
-@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
-.cover{width:45px;height:60px;border-radius:4px;object-fit:cover;margin-right:10px;flex-shrink:0}
-.badge{display:inline-block;padding:1px 5px;background:#ff6b6b;color:white;border-radius:3px;font-size:11px;margin-left:6px}
-@media(max-width:600px){.header h1{font-size:20px}.item{padding:10px 12px}.title{font-size:14px}}
-</style>
-<base target="_blank">
-<meta name="referrer" content="no-referrer">
-</head>
-<body>
-<div class="header">
-<h1>综合影视榜单</h1>
-<p>微博 · 豆瓣 · 抖音 · 百度 影视热度聚合</p>
-</div>
-<div class="update-time" id="ut">加载中...</div>
-<div class="tabs" id="pt"></div>
-<div class="subtabs" id="st"></div>
-<div class="content" id="ct">
-<div class="loading"><div class="spin"></div><p>正在加载数据...</p></div>
-</div>
-
-<script>
-var D=null;
-var P="weibo";
-var T="weibo_entertainment";
-var C={weibo:{n:"微博",i:"1"},douban:{n:"豆瓣",i:"2"},douyin:{n:"抖音",i:"3"},baidu:{n:"百度",i:"4"}};
-
-function loadData(){
-  var ts="?t="+Date.now();var urls=["data/all_rankings.json"+ts,"./data/all_rankings.json"+ts,"/data/all_rankings.json"+ts,"all_rankings.json"+ts];
-  var r=null;
-  var le=null;
-  var i=0;
-  function tryNext(){
-    if(i>=urls.length){
-      if(!r){
-        showError("无法加载数据文件"+(le?": "+le.message:""));
-        return;
-      }
-      r.json().then(function(data){
-        D=data;
-        if(!D||!D.update_time){
-          showError("数据格式异常");
-          return;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文娱热榜聚合 | 全网文娱资讯一站掌握</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans SC', sans-serif; background: #f8fafc; }
+        .glass {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
-        document.getElementById("ut").textContent="更新时间："+D.update_time+"（北京时间）";
-        renderP();
-        renderS();
-        renderC();
-      }).catch(function(e){
-        showError("JSON解析失败: "+e.message);
-      });
-      return;
-    }
-    fetch(urls[i],{cache:"no-cache"}).then(function(x){
-      if(x.ok){
-        r=x;
-        i=urls.length;
-        tryNext();
-      }else{
-        i++;
-        tryNext();
-      }
-    }).catch(function(e){
-      le=e;
-      i++;
-      tryNext();
-    });
-  }
-  tryNext();
-}
+        .rank-1 { background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); color: white; box-shadow: 0 2px 8px rgba(255, 165, 0, 0.4); }
+        .rank-2 { background: linear-gradient(135deg, #C0C0C0 0%, #A0A0A0 100%); color: white; box-shadow: 0 2px 8px rgba(160, 160, 160, 0.4); }
+        .rank-3 { background: linear-gradient(135deg, #CD7F32 0%, #B87333 100%); color: white; box-shadow: 0 2px 8px rgba(184, 115, 51, 0.4); }
+        .card-enter {
+            animation: cardSlideUp 0.5s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        @keyframes cardSlideUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .pulse-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: #22c55e;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+        .nav-pill.active {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+        }
+        .source-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .source-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -8px rgba(0, 0, 0, 0.12);
+        }
+        .shimmer {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 glass shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-xl shadow-lg">
+                        🎭
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-black text-gray-900 tracking-tight">文娱热榜聚合</h1>
+                        <p class="text-xs text-gray-500 font-medium">全网文娱资讯一站掌握</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="hidden sm:flex items-center space-x-2 text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-full">
+                        <div class="pulse-dot"></div>
+                        <span id="update-time">加载中...</span>
+                    </div>
+                    <button onclick="loadData(true)" class="p-2 rounded-lg hover:bg-gray-100 transition-colors" title="刷新数据">
+                        <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
 
-function showError(msg){
-  console.error(msg);
-  document.getElementById("ct").innerHTML='<div class="err"><div class="icon">!</div><p>数据加载失败</p><p style="font-size:12px;color:#bbb;margin-top:8px">'+msg+'</p><p style="font-size:12px;color:#667eea;margin-top:12px;cursor:pointer;text-decoration:underline" onclick="location.reload(true)">点击刷新重试</p></div>';
-  document.getElementById("ut").textContent="加载失败";
-}
+    <!-- Category Nav -->
+    <nav class="bg-white border-b border-gray-200 sticky top-16 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center space-x-1 overflow-x-auto py-3 scrollbar-hide" id="nav-container">
+                <button onclick="filterCategory('all')" class="nav-pill active px-4 py-2 rounded-full text-sm font-bold transition-all whitespace-nowrap" data-category="all">
+                    📊 全部榜单
+                </button>
+                <button onclick="filterCategory('微博')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="微博">
+                    🔥 微博
+                </button>
+                <button onclick="filterCategory('抖音')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="抖音">
+                    🎵 抖音
+                </button>
+                <button onclick="filterCategory('百度')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="百度">
+                    🔍 百度
+                </button>
+                <button onclick="filterCategory('哔哩哔哩')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="哔哩哔哩">
+                    📺 B站
+                </button>
+                <button onclick="filterCategory('豆瓣')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="豆瓣">
+                    🎬 豆瓣
+                </button>
+            </div>
+        </div>
+    </nav>
 
-function renderP(){
-  var el=document.getElementById("pt");
-  el.innerHTML="";
-  var keys=Object.keys(C);
-  for(var i=0;i<keys.length;i++){
-    var k=keys[i];
-    var b=document.createElement("button");
-    b.className="tab"+(k===P?" active":"");
-    b.textContent=C[k].n;
-    b.onclick=(function(key){return function(){
-      P=key;
-      var x=D[key];
-      if(x&&x.tabs&&x.tabs.length)T=x.tabs[0].key;
-      renderP();renderS();renderC();
-    };})(k);
-    el.appendChild(b);
-  }
-}
+    <!-- Stats Bar -->
+    <div class="bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <div class="flex items-center justify-between text-sm">
+                <div class="flex items-center space-x-4 text-gray-600">
+                    <span id="stats-summary">正在统计...</span>
+                </div>
+                <div id="status-indicator" class="flex items-center space-x-2">
+                    <span class="w-2 h-2 rounded-full bg-gray-300"></span>
+                    <span class="text-gray-500 text-xs">等待数据</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
-function renderS(){
-  var el=document.getElementById("st");
-  el.innerHTML="";
-  if(!D||!D[P])return;
-  var tabs=D[P].tabs||[];
-  for(var i=0;i<tabs.length;i++){
-    var t=tabs[i];
-    var b=document.createElement("button");
-    b.className="subtab"+(t.key===T?" active":"");
-    b.textContent=t.title;
-    b.onclick=(function(key){return function(){T=key;renderS();renderC();};})(t.key);
-    el.appendChild(b);
-  }
-}
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Loading State -->
+        <div id="loading-state" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+            <!-- Skeleton cards generated by JS -->
+        </div>
 
-function renderC(){
-  var el=document.getElementById("ct");
-  if(!D||!D[P]){el.innerHTML='<div class="err"><div class="icon">?</div><p>暂无数据</p></div>';return}
-  var tabs=D[P].tabs||[];
-  var tab=null;
-  for(var i=0;i<tabs.length;i++)if(tabs[i].key===T){tab=tabs[i];break}
-  if(!tab){el.innerHTML='<div class="err"><div class="icon">?</div><p>暂无数据</p></div>';return}
-  if(tab.error){el.innerHTML='<div class="err"><div class="icon">!</div><p>'+tab.error+'</p></div>';return}
-  var items=tab.items||[];
-  if(!items.length){el.innerHTML='<div class="err"><div class="icon">?</div><p>本时段暂无数据</p></div>';return}
-  var h='<div class="list">';
-  for(var i=0;i<items.length;i++){
-    var item=items[i];
-    var top=i<3;
-    var cls=top?"top3":"normal";
-    var meta="";
-    var extra="";
-    if(P==="weibo"){
-      if(item.hot)extra+='<span class="hot">'+item.hot+'</span>';
-      if(item.platform)meta+='<span>'+item.platform+'</span>';
-      if(item.cast)meta+='<span>'+item.cast+'</span>';
-      if(item.score&&item.score!=="暂无")meta+='<span class="badge">'+item.score+'</span>';
-      if(item.source)meta+='<span style="color:#667eea">'+item.source+'</span>';
-    }else if(P==="douban"){
-      if(item.cover){extra='<img class="cover" src="'+item.cover+'" alt="" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">'}
-      if(item.score)meta+='<span class="badge">'+item.score+'</span>';
-      if(item.types)meta+='<span>'+item.types+'</span>';
-      if(item.actors)meta+='<span>'+item.actors+'</span>';
-      if(item.release_date)meta+='<span>'+item.release_date+'</span>';
-    }else if(P==="douyin"){
-      if(item.hot)extra+='<span class="hot">'+item.hot+'</span>';
-      if(item.score)meta+='<span class="badge">'+item.score+'</span>';
-      if(item.types)meta+='<span>'+item.types+'</span>';
-      if(item.actors)meta+='<span>'+item.actors+'</span>';
-    }else if(P==="baidu"){
-      if(item.hot_desc)extra+='<span class="hot">'+item.hot_desc+'</span>';
-      if(item.desc)meta+='<span>'+item.desc+'</span>';
-    }
-    h+='<div class="item">';
-    h+='<div class="num '+cls+'">'+(i+1)+'</div>';
-    if(extra&&P==="douban")h+=extra;
-    h+='<div class="info">';
-    h+='<div class="title">'+(item.title||"未知")+'</div>';
-    if(meta)h+='<div class="meta">'+meta+'</div>';
-    h+='</div>';
-    if(extra&&P!=="douban")h+=extra;
-    h+='</div>';
-  }
-  h+='</div>';
-  el.innerHTML=h;
-}
+        <!-- Content Area -->
+        <div id="content-area" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 hidden">
+            <!-- Content injected here -->
+        </div>
 
-document.addEventListener("DOMContentLoaded",loadData);
-</script>
+        <!-- Error State -->
+        <div id="error-state" class="hidden text-center py-20">
+            <div class="text-6xl mb-4">😵</div>
+            <h3 class="text-lg font-bold text-gray-900">数据加载失败</h3>
+            <p class="text-gray-500 mt-2 text-sm" id="error-message">请检查网络连接</p>
+            <button onclick="loadData(true)" class="mt-6 px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-medium hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200">
+                重新加载
+            </button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex flex-col sm:flex-row items-center justify-between text-sm text-gray-500">
+                <p>数据来源：tophub.today · 每小时自动更新</p>
+                <p class="mt-2 sm:mt-0">更新时间以北京时间为准</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let currentData = null;
+        let currentCategory = 'all';
+        let isLoading = false;
+
+        // 初始化加载
+        document.addEventListener('DOMContentLoaded', () => {
+            showSkeleton();
+            loadData();
+            // 每5分钟自动刷新
+            setInterval(() => loadData(), 5 * 60 * 1000);
+        });
+
+        function showSkeleton() {
+            const container = document.getElementById('loading-state');
+            container.innerHTML = '';
+            container.classList.remove('hidden');
+            document.getElementById('content-area').classList.add('hidden');
+            document.getElementById('error-state').classList.add('hidden');
+
+            for (let i = 0; i < 6; i++) {
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden';
+                card.innerHTML = `
+                    <div class="px-5 py-4 border-b border-gray-50">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 rounded-lg shimmer"></div>
+                            <div class="space-y-2">
+                                <div class="w-32 h-4 rounded shimmer"></div>
+                                <div class="w-20 h-3 rounded shimmer"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-3">
+                        ${Array(5).fill(0).map(() => `
+                            <div class="flex items-center space-x-3">
+                                <div class="w-6 h-6 rounded-full shimmer flex-shrink-0"></div>
+                                <div class="flex-1 space-y-1.5">
+                                    <div class="w-full h-3 rounded shimmer"></div>
+                                    <div class="w-2/3 h-2.5 rounded shimmer"></div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                container.appendChild(card);
+            }
+        }
+
+        async function loadData(force = false) {
+            if (isLoading && !force) return;
+            isLoading = true;
+
+            try {
+                const response = await fetch('data/entertainment_data.json?t=' + Date.now());
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+                currentData = await response.json();
+                render();
+                updateHeader();
+
+                document.getElementById('loading-state').classList.add('hidden');
+                document.getElementById('content-area').classList.remove('hidden');
+                document.getElementById('error-state').classList.add('hidden');
+            } catch (error) {
+                console.error('Load error:', error);
+                document.getElementById('loading-state').classList.add('hidden');
+                document.getElementById('content-area').classList.add('hidden');
+                document.getElementById('error-state').classList.remove('hidden');
+                document.getElementById('error-message').textContent = error.message;
+
+                document.getElementById('status-indicator').innerHTML = `
+                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                    <span class="text-red-600 text-xs font-medium">加载失败</span>
+                `;
+            } finally {
+                isLoading = false;
+            }
+        }
+
+        function updateHeader() {
+            if (!currentData) return;
+
+            const updateTime = currentData.update_time;
+            document.getElementById('update-time').textContent = updateTime || '未知';
+
+            let success = 0, failed = 0, totalItems = 0;
+            Object.values(currentData.sources).forEach(source => {
+                if (source.error) failed++;
+                else {
+                    success++;
+                    totalItems += source.item_count || 0;
+                }
+            });
+
+            document.getElementById('stats-summary').textContent = 
+                `共 ${success} 个榜单正常 · ${totalItems} 条内容 · ${failed} 个失败`;
+
+            const indicator = document.getElementById('status-indicator');
+            if (failed === 0) {
+                indicator.innerHTML = `
+                    <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                    <span class="text-green-700 text-xs font-medium">全部正常</span>
+                `;
+            } else if (success === 0) {
+                indicator.innerHTML = `
+                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                    <span class="text-red-600 text-xs font-medium">全部失败</span>
+                `;
+            } else {
+                indicator.innerHTML = `
+                    <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
+                    <span class="text-yellow-700 text-xs font-medium">部分失败 (${failed})</span>
+                `;
+            }
+        }
+
+        function filterCategory(category) {
+            currentCategory = category;
+
+            document.querySelectorAll('.nav-pill').forEach(btn => {
+                if (btn.dataset.category === category) {
+                    btn.classList.add('active');
+                    btn.classList.remove('text-gray-600', 'hover:bg-gray-100');
+                } else {
+                    btn.classList.remove('active');
+                    btn.classList.add('text-gray-600', 'hover:bg-gray-100');
+                }
+            });
+
+            render();
+        }
+
+        function render() {
+            if (!currentData) return;
+
+            const container = document.getElementById('content-area');
+            container.innerHTML = '';
+
+            const sources = Object.values(currentData.sources);
+            let delay = 0;
+
+            sources.forEach((source, index) => {
+                if (currentCategory !== 'all' && source.category !== currentCategory) return;
+
+                const card = createSourceCard(source, delay);
+                container.appendChild(card);
+                delay += 0.08;
+            });
+
+            if (container.children.length === 0) {
+                container.innerHTML = `
+                    <div class="col-span-full text-center py-16">
+                        <div class="text-5xl mb-3">🔍</div>
+                        <p class="text-gray-500">该分类下暂无数据</p>
+                    </div>
+                `;
+            }
+        }
+
+        function createSourceCard(source, delay) {
+            const div = document.createElement('div');
+            div.className = 'source-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden card-enter';
+            div.style.animationDelay = delay + 's';
+
+            const hasError = source.error;
+            const itemCount = source.item_count || 0;
+            const sourceColor = source.color || '#4f46e5';
+
+            let itemsHtml = '';
+            if (hasError) {
+                itemsHtml = `
+                    <div class="p-8 text-center">
+                        <div class="w-16 h-16 mx-auto mb-3 rounded-2xl bg-red-50 flex items-center justify-center text-3xl">⚠️</div>
+                        <p class="text-sm font-bold text-red-600">抓取失败</p>
+                        <p class="text-xs text-gray-400 mt-2 max-w-xs mx-auto">${source.error}</p>
+                        <p class="text-xs text-gray-400 mt-3">请检查网络或稍后重试</p>
+                    </div>
+                `;
+            } else if (itemCount === 0) {
+                itemsHtml = `
+                    <div class="p-8 text-center">
+                        <div class="w-16 h-16 mx-auto mb-3 rounded-2xl bg-gray-50 flex items-center justify-center text-3xl">📭</div>
+                        <p class="text-sm font-medium text-gray-500">暂无数据</p>
+                        <p class="text-xs text-gray-400 mt-1">该时段榜单为空</p>
+                    </div>
+                `;
+            } else {
+                const listItems = source.items.slice(0, 20).map((item, idx) => {
+                    const rankClass = item.rank <= 3 ? `rank-${item.rank}` : 'bg-gray-100 text-gray-600';
+                    const titleDisplay = item.title.length > 32 ? item.title.substring(0, 32) + '...' : item.title;
+
+                    return `
+                        <div class="group flex items-start space-x-3 p-3 hover:bg-gray-50 transition-all duration-200 rounded-xl cursor-pointer ${idx !== 0 ? 'border-t border-gray-50' : ''}"
+                             onclick="window.open('${item.url || '#'}', '_blank')">
+                            <div class="flex-shrink-0 w-7 h-7 rounded-lg flex items-center justify-center text-xs font-black ${rankClass} mt-0.5">
+                                ${item.rank}
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <p class="text-sm font-medium text-gray-900 group-hover:text-indigo-600 transition-colors line-clamp-2 leading-relaxed">
+                                    ${titleDisplay}
+                                </p>
+                                ${item.heat ? `<p class="text-xs text-gray-400 mt-1 font-medium">${item.heat}</p>` : ''}
+                            </div>
+                            <div class="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                itemsHtml = `<div class="p-2">${listItems}</div>`;
+            }
+
+            div.innerHTML = `
+                <div class="px-5 py-4 border-b border-gray-100 bg-gradient-to-r from-gray-50/50 to-white">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-xl flex items-center justify-center text-xl shadow-sm" style="background: ${sourceColor}15;">
+                                ${source.icon}
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 text-sm">${source.source_name}</h3>
+                                <div class="flex items-center space-x-2 mt-0.5">
+                                    <span class="text-xs text-gray-500">${source.category}</span>
+                                    <span class="w-1 h-1 rounded-full bg-gray-300"></span>
+                                    <span class="text-xs ${hasError ? 'text-red-500' : 'text-gray-500'}">${hasError ? '抓取失败' : itemCount + '条内容'}</span>
+                                </div>
+                            </div>
+                        </div>
+                        ${source.update_time ? `<span class="text-xs text-gray-400 font-mono">${source.update_time.split(' ')[1]}</span>` : ''}
+                    </div>
+                </div>
+                <div class="max-h-[520px] overflow-y-auto scrollbar-hide">
+                    ${itemsHtml}
+                </div>
+            `;
+
+            return div;
+        }
+    </script>
 </body>
 </html>
