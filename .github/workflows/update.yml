@@ -1,0 +1,35 @@
+name: Update Entertainment Ranking
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时整点运行（UTC时间）
+  workflow_dispatch:      # 支持手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Run update script
+        run: python scripts/fetch_entertainment.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/entertainment_data.json
+          git diff --cached --quiet || git commit -m "Update entertainment ranking $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
