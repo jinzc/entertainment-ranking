@@ -64,6 +64,14 @@
             0% { background-position: 200% 0; }
             100% { background-position: -200% 0; }
         }
+        .tag-original {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            color: #1e40af;
+        }
+        .tag-tophub {
+            background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+            color: #6b21a8;
+        }
     </style>
 </head>
 <body class="min-h-screen">
@@ -77,7 +85,7 @@
                     </div>
                     <div>
                         <h1 class="text-xl font-black text-gray-900 tracking-tight">文娱热榜聚合</h1>
-                        <p class="text-xs text-gray-500 font-medium">全网文娱资讯一站掌握</p>
+                        <p class="text-xs text-gray-500 font-medium">全网文娱资讯一站掌握 · 双源自动切换</p>
                     </div>
                 </div>
                 <div class="flex items-center space-x-4">
@@ -163,7 +171,7 @@
     <footer class="bg-white border-t border-gray-200 mt-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div class="flex flex-col sm:flex-row items-center justify-between text-sm text-gray-500">
-                <p>数据来源：tophub.today · 每小时自动更新</p>
+                <p>数据来源：tophub.today / 各平台官方 · 每小时自动更新 · 双源自动切换</p>
                 <p class="mt-2 sm:mt-0">更新时间以北京时间为准</p>
             </div>
         </div>
@@ -174,11 +182,9 @@
         let currentCategory = 'all';
         let isLoading = false;
 
-        // 初始化加载
         document.addEventListener('DOMContentLoaded', () => {
             showSkeleton();
             loadData();
-            // 每5分钟自动刷新
             setInterval(() => loadData(), 5 * 60 * 1000);
         });
 
@@ -255,17 +261,23 @@
             const updateTime = currentData.update_time;
             document.getElementById('update-time').textContent = updateTime || '未知';
 
-            let success = 0, failed = 0, totalItems = 0;
+            let success = 0, failed = 0, totalItems = 0, tophubCount = 0, originalCount = 0;
             Object.values(currentData.sources).forEach(source => {
                 if (source.error) failed++;
                 else {
                     success++;
                     totalItems += source.item_count || 0;
+                    if (source.source_used === 'tophub') tophubCount++;
+                    else if (source.source_used === 'original') originalCount++;
                 }
             });
 
+            let sourceInfo = '';
+            if (tophubCount > 0) sourceInfo += `${tophubCount}个tophub `;
+            if (originalCount > 0) sourceInfo += `${originalCount}个直连`;
+
             document.getElementById('stats-summary').textContent = 
-                `共 ${success} 个榜单正常 · ${totalItems} 条内容 · ${failed} 个失败`;
+                `共 ${success} 个榜单正常 · ${totalItems} 条内容 · ${failed} 个失败` + (sourceInfo ? ` · ${sourceInfo}` : '');
 
             const indicator = document.getElementById('status-indicator');
             if (failed === 0) {
@@ -337,6 +349,14 @@
             const hasError = source.error;
             const itemCount = source.item_count || 0;
             const sourceColor = source.color || '#4f46e5';
+            const sourceUsed = source.source_used || 'tophub';
+
+            // 数据来源标签
+            const sourceTag = !hasError && itemCount > 0 ? `
+                <span class="ml-2 px-2 py-0.5 rounded text-[10px] font-bold ${sourceUsed === 'original' ? 'tag-original' : 'tag-tophub'}">
+                    ${sourceUsed === 'original' ? '直连' : 'tophub'}
+                </span>
+            ` : '';
 
             let itemsHtml = '';
             if (hasError) {
@@ -345,7 +365,7 @@
                         <div class="w-16 h-16 mx-auto mb-3 rounded-2xl bg-red-50 flex items-center justify-center text-3xl">⚠️</div>
                         <p class="text-sm font-bold text-red-600">抓取失败</p>
                         <p class="text-xs text-gray-400 mt-2 max-w-xs mx-auto">${source.error}</p>
-                        <p class="text-xs text-gray-400 mt-3">请检查网络或稍后重试</p>
+                        <p class="text-xs text-gray-400 mt-3">已尝试 tophub + 原始平台双源抓取</p>
                     </div>
                 `;
             } else if (itemCount === 0) {
@@ -393,7 +413,10 @@
                                 ${source.icon}
                             </div>
                             <div>
-                                <h3 class="font-bold text-gray-900 text-sm">${source.source_name}</h3>
+                                <div class="flex items-center">
+                                    <h3 class="font-bold text-gray-900 text-sm">${source.source_name}</h3>
+                                    ${sourceTag}
+                                </div>
                                 <div class="flex items-center space-x-2 mt-0.5">
                                     <span class="text-xs text-gray-500">${source.category}</span>
                                     <span class="w-1 h-1 rounded-full bg-gray-300"></span>
