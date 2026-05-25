@@ -75,10 +75,9 @@ class TopHubSession:
             resp = self.session.get(url, timeout=20)
             resp.raise_for_status()
             resp.encoding = "utf-8"
-            return resp.text
+            return resp.text, None
         except Exception as e:
             return None, str(e)
-        return resp.text, None
 
 
 def parse_tophub(html, source_name):
