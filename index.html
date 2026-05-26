@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>文娱热榜聚合</title>
+    <title>文娱热榜聚合 | 全网文娱资讯一站掌握</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <style>
@@ -45,11 +45,18 @@
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
         .nav-pill {
             transition: all 0.25s ease;
+            border: 1.5px solid transparent;
         }
         .nav-pill.active {
             background: #1e293b;
             color: white;
-            box-shadow: 0 2px 8px rgba(30, 41, 59, 0.2);
+            box-shadow: 0 2px 12px rgba(30, 41, 59, 0.25);
+            border-color: #1e293b;
+            font-weight: 700;
+        }
+        .nav-pill:hover:not(.active) {
+            background: #f8fafc;
+            border-color: #e2e8f0;
         }
         .source-card {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -81,6 +88,7 @@
                     </div>
                     <div>
                         <h1 class="text-xl font-black text-slate-800 tracking-tight">文娱热榜聚合</h1>
+                        <p class="text-xs text-slate-500 font-medium">全网文娱资讯一站掌握</p>
                     </div>
                 </div>
                 <div class="flex items-center">
@@ -100,19 +108,19 @@
                 <button onclick="filterCategory('all')" class="nav-pill active px-4 py-2 rounded-full text-sm font-bold whitespace-nowrap" data-category="all">
                     📊 全部榜单
                 </button>
-                <button onclick="filterCategory('微博')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="微博">
+                <button onclick="filterCategory('微博')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 whitespace-nowrap" data-category="微博">
                     🔥 微博
                 </button>
-                <button onclick="filterCategory('抖音')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="抖音">
+                <button onclick="filterCategory('抖音')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 whitespace-nowrap" data-category="抖音">
                     🎵 抖音
                 </button>
-                <button onclick="filterCategory('百度')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="百度">
+                <button onclick="filterCategory('百度')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 whitespace-nowrap" data-category="百度">
                     🔍 百度
                 </button>
-                <button onclick="filterCategory('哔哩哔哩')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="哔哩哔哩">
+                <button onclick="filterCategory('哔哩哔哩')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 whitespace-nowrap" data-category="哔哩哔哩">
                     📺 B站
                 </button>
-                <button onclick="filterCategory('豆瓣')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="豆瓣">
+                <button onclick="filterCategory('豆瓣')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 whitespace-nowrap" data-category="豆瓣">
                     🎬 豆瓣
                 </button>
             </div>
@@ -122,13 +130,13 @@
     <!-- Stats Bar -->
     <div class="bg-white border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-            <div class="flex items-center justify-between text-sm">
-                <div class="flex items-center space-x-4 text-slate-600">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4 text-sm text-slate-600">
                     <span id="stats-summary">正在统计...</span>
                 </div>
-                <div id="status-indicator" class="flex items-center space-x-2">
+                <div id="status-indicator" class="flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-50">
                     <span class="w-2 h-2 rounded-full bg-slate-300"></span>
-                    <span class="text-slate-500 text-xs">等待数据</span>
+                    <span class="text-slate-500 text-xs font-medium">等待数据</span>
                 </div>
             </div>
         </div>
@@ -234,7 +242,9 @@
                 document.getElementById('error-state').classList.remove('hidden');
                 document.getElementById('error-message').textContent = error.message;
                 
-                document.getElementById('status-indicator').innerHTML = `
+                const errIndicator = document.getElementById('status-indicator');
+                errIndicator.className = 'flex items-center space-x-2 px-3 py-1 rounded-full bg-rose-50';
+                errIndicator.innerHTML = `
                     <span class="w-2 h-2 rounded-full bg-rose-500"></span>
                     <span class="text-rose-600 text-xs font-medium">加载失败</span>
                 `;
@@ -263,16 +273,19 @@
             
             const indicator = document.getElementById('status-indicator');
             if (failed === 0) {
+                indicator.className = 'flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-50';
                 indicator.innerHTML = `
                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
                     <span class="text-emerald-700 text-xs font-medium">全部正常</span>
                 `;
             } else if (success === 0) {
+                indicator.className = 'flex items-center space-x-2 px-3 py-1 rounded-full bg-rose-50';
                 indicator.innerHTML = `
                     <span class="w-2 h-2 rounded-full bg-rose-500"></span>
                     <span class="text-rose-600 text-xs font-medium">全部失败</span>
                 `;
             } else {
+                indicator.className = 'flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-50';
                 indicator.innerHTML = `
                     <span class="w-2 h-2 rounded-full bg-amber-500"></span>
                     <span class="text-amber-700 text-xs font-medium">部分失败 (${failed})</span>
@@ -286,10 +299,10 @@
             document.querySelectorAll('.nav-pill').forEach(btn => {
                 if (btn.dataset.category === category) {
                     btn.classList.add('active');
-                    btn.classList.remove('text-slate-600', 'hover:bg-slate-50');
+                    btn.classList.remove('text-slate-600');
                 } else {
                     btn.classList.remove('active');
-                    btn.classList.add('text-slate-600', 'hover:bg-slate-50');
+                    btn.classList.add('text-slate-600');
                 }
             });
             
@@ -326,6 +339,7 @@
         function createSourceCard(source, delay) {
             const div = document.createElement('div');
             div.className = 'source-card rounded-2xl shadow-sm border border-slate-100 overflow-hidden card-enter';
+            div.style.borderLeft = '4px solid ' + sourceColor;
             div.style.animationDelay = delay + 's';
             
             const hasError = source.error;
@@ -379,7 +393,7 @@
                 <div class="px-5 py-4 border-b border-slate-100 bg-white">
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-3">
-                            <div class="w-10 h-10 rounded-xl flex items-center justify-center text-xl" style="background: ${sourceColor}12; color: ${sourceColor};">
+                            <div class="w-11 h-11 rounded-xl flex items-center justify-center text-2xl flex-shrink-0" style="background: ${sourceColor}18; color: ${sourceColor};">
                                 ${source.icon}
                             </div>
                             <div>
