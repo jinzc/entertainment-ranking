@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>文娱热榜聚合 | 全网文娱资讯一站掌握</title>
+    <title>文娱热榜聚合</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Noto Sans SC', sans-serif; background: #f8fafc; }
+        body { 
+            font-family: 'Noto Sans SC', sans-serif; 
+            background: #f5f7fa;
+        }
         .glass {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.04);
         }
         .card-enter {
             animation: cardSlideUp 0.5s ease-out forwards;
@@ -25,7 +28,7 @@
         .pulse-dot {
             width: 8px; height: 8px;
             border-radius: 50%;
-            background: #22c55e;
+            background: #10b981;
             animation: pulse 2s infinite;
         }
         @keyframes pulse {
@@ -40,34 +43,30 @@
         }
         .scrollbar-hide::-webkit-scrollbar { display: none; }
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+        .nav-pill {
+            transition: all 0.25s ease;
+        }
         .nav-pill.active {
-            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            background: #1e293b;
             color: white;
-            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+            box-shadow: 0 2px 8px rgba(30, 41, 59, 0.2);
         }
         .source-card {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background: white;
         }
         .source-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 40px -8px rgba(0, 0, 0, 0.12);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px -6px rgba(0, 0, 0, 0.08);
         }
         .shimmer {
-            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
             background-size: 200% 100%;
             animation: shimmer 1.5s infinite;
         }
         @keyframes shimmer {
             0% { background-position: 200% 0; }
             100% { background-position: -200% 0; }
-        }
-        .tag-original {
-            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
-            color: #1e40af;
-        }
-        .tag-tophub {
-            background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
-            color: #6b21a8;
         }
     </style>
 </head>
@@ -77,16 +76,15 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-xl shadow-lg">
+                    <div class="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center text-white text-xl shadow-md">
                         🎭
                     </div>
                     <div>
-                        <h1 class="text-xl font-black text-gray-900 tracking-tight">文娱热榜聚合</h1>
-                        <p class="text-xs text-gray-500 font-medium">全网文娱资讯一站掌握 · 双源自动切换</p>
+                        <h1 class="text-xl font-black text-slate-800 tracking-tight">文娱热榜聚合</h1>
                     </div>
                 </div>
                 <div class="flex items-center">
-                    <div class="hidden sm:flex items-center space-x-2 text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-full">
+                    <div class="hidden sm:flex items-center space-x-2 text-sm text-slate-600 bg-slate-100 px-3 py-1.5 rounded-full">
                         <div class="pulse-dot"></div>
                         <span id="update-time">加载中...</span>
                     </div>
@@ -96,25 +94,25 @@
     </header>
 
     <!-- Category Nav -->
-    <nav class="bg-white border-b border-gray-200 sticky top-16 z-40">
+    <nav class="bg-white border-b border-slate-100 sticky top-16 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center space-x-1 overflow-x-auto py-3 scrollbar-hide" id="nav-container">
-                <button onclick="filterCategory('all')" class="nav-pill active px-4 py-2 rounded-full text-sm font-bold transition-all whitespace-nowrap" data-category="all">
+                <button onclick="filterCategory('all')" class="nav-pill active px-4 py-2 rounded-full text-sm font-bold whitespace-nowrap" data-category="all">
                     📊 全部榜单
                 </button>
-                <button onclick="filterCategory('微博')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="微博">
+                <button onclick="filterCategory('微博')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="微博">
                     🔥 微博
                 </button>
-                <button onclick="filterCategory('抖音')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="抖音">
+                <button onclick="filterCategory('抖音')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="抖音">
                     🎵 抖音
                 </button>
-                <button onclick="filterCategory('百度')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="百度">
+                <button onclick="filterCategory('百度')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="百度">
                     🔍 百度
                 </button>
-                <button onclick="filterCategory('哔哩哔哩')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="哔哩哔哩">
+                <button onclick="filterCategory('哔哩哔哩')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="哔哩哔哩">
                     📺 B站
                 </button>
-                <button onclick="filterCategory('豆瓣')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-all whitespace-nowrap" data-category="豆瓣">
+                <button onclick="filterCategory('豆瓣')" class="nav-pill px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-50 whitespace-nowrap" data-category="豆瓣">
                     🎬 豆瓣
                 </button>
             </div>
@@ -122,15 +120,15 @@
     </nav>
 
     <!-- Stats Bar -->
-    <div class="bg-white border-b border-gray-100">
+    <div class="bg-white border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
             <div class="flex items-center justify-between text-sm">
-                <div class="flex items-center space-x-4 text-gray-600">
+                <div class="flex items-center space-x-4 text-slate-600">
                     <span id="stats-summary">正在统计...</span>
                 </div>
                 <div id="status-indicator" class="flex items-center space-x-2">
-                    <span class="w-2 h-2 rounded-full bg-gray-300"></span>
-                    <span class="text-gray-500 text-xs">等待数据</span>
+                    <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                    <span class="text-slate-500 text-xs">等待数据</span>
                 </div>
             </div>
         </div>
@@ -140,30 +138,28 @@
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <!-- Loading State -->
         <div id="loading-state" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-            <!-- Skeleton cards generated by JS -->
         </div>
 
         <!-- Content Area -->
         <div id="content-area" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 hidden">
-            <!-- Content injected here -->
         </div>
 
         <!-- Error State -->
         <div id="error-state" class="hidden text-center py-20">
             <div class="text-6xl mb-4">😵</div>
-            <h3 class="text-lg font-bold text-gray-900">数据加载失败</h3>
-            <p class="text-gray-500 mt-2 text-sm" id="error-message">请检查网络连接</p>
-            <button onclick="loadData(true)" class="mt-6 px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-medium hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200">
+            <h3 class="text-lg font-bold text-slate-800">数据加载失败</h3>
+            <p class="text-slate-500 mt-2 text-sm" id="error-message">请检查网络连接</p>
+            <button onclick="loadData(true)" class="mt-6 px-6 py-2.5 bg-slate-800 text-white rounded-xl font-medium hover:bg-slate-700 transition-colors shadow-lg shadow-slate-200">
                 重新加载
             </button>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white border-t border-gray-200 mt-12">
+    <footer class="bg-white border-t border-slate-100 mt-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <div class="flex flex-col sm:flex-row items-center justify-between text-sm text-gray-500">
-                <p>数据来源：tophub.today / 各平台官方 · 每小时自动更新 · 双源自动切换</p>
+            <div class="flex flex-col sm:flex-row items-center justify-between text-sm text-slate-500">
+                <p>数据来源：各平台官方 · 每小时自动更新</p>
                 <p class="mt-2 sm:mt-0">更新时间以北京时间为准</p>
             </div>
         </div>
@@ -189,9 +185,9 @@
             
             for (let i = 0; i < 6; i++) {
                 const card = document.createElement('div');
-                card.className = 'bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden';
+                card.className = 'bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden';
                 card.innerHTML = `
-                    <div class="px-5 py-4 border-b border-gray-50">
+                    <div class="px-5 py-4 border-b border-slate-50">
                         <div class="flex items-center space-x-3">
                             <div class="w-8 h-8 rounded-lg shimmer"></div>
                             <div class="space-y-2">
@@ -239,8 +235,8 @@
                 document.getElementById('error-message').textContent = error.message;
                 
                 document.getElementById('status-indicator').innerHTML = `
-                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
-                    <span class="text-red-600 text-xs font-medium">加载失败</span>
+                    <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+                    <span class="text-rose-600 text-xs font-medium">加载失败</span>
                 `;
             } finally {
                 isLoading = false;
@@ -253,39 +249,33 @@
             const updateTime = currentData.update_time;
             document.getElementById('update-time').textContent = updateTime || '未知';
             
-            let success = 0, failed = 0, totalItems = 0, tophubCount = 0, originalCount = 0;
+            let success = 0, failed = 0, totalItems = 0;
             Object.values(currentData.sources).forEach(source => {
                 if (source.error) failed++;
                 else {
                     success++;
                     totalItems += source.item_count || 0;
-                    if (source.source_used === 'tophub') tophubCount++;
-                    else if (source.source_used === 'original') originalCount++;
                 }
             });
             
-            let sourceInfo = '';
-            if (tophubCount > 0) sourceInfo += `${tophubCount}个tophub `;
-            if (originalCount > 0) sourceInfo += `${originalCount}个直连`;
-            
             document.getElementById('stats-summary').textContent = 
-                `共 ${success} 个榜单正常 · ${totalItems} 条内容 · ${failed} 个失败` + (sourceInfo ? ` · ${sourceInfo}` : '');
+                `共 ${success} 个榜单正常 · ${totalItems} 条内容 · ${failed} 个失败`;
             
             const indicator = document.getElementById('status-indicator');
             if (failed === 0) {
                 indicator.innerHTML = `
-                    <span class="w-2 h-2 rounded-full bg-green-500"></span>
-                    <span class="text-green-700 text-xs font-medium">全部正常</span>
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    <span class="text-emerald-700 text-xs font-medium">全部正常</span>
                 `;
             } else if (success === 0) {
                 indicator.innerHTML = `
-                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
-                    <span class="text-red-600 text-xs font-medium">全部失败</span>
+                    <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+                    <span class="text-rose-600 text-xs font-medium">全部失败</span>
                 `;
             } else {
                 indicator.innerHTML = `
-                    <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
-                    <span class="text-yellow-700 text-xs font-medium">部分失败 (${failed})</span>
+                    <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+                    <span class="text-amber-700 text-xs font-medium">部分失败 (${failed})</span>
                 `;
             }
         }
@@ -296,10 +286,10 @@
             document.querySelectorAll('.nav-pill').forEach(btn => {
                 if (btn.dataset.category === category) {
                     btn.classList.add('active');
-                    btn.classList.remove('text-gray-600', 'hover:bg-gray-100');
+                    btn.classList.remove('text-slate-600', 'hover:bg-slate-50');
                 } else {
                     btn.classList.remove('active');
-                    btn.classList.add('text-gray-600', 'hover:bg-gray-100');
+                    btn.classList.add('text-slate-600', 'hover:bg-slate-50');
                 }
             });
             
@@ -327,7 +317,7 @@
                 container.innerHTML = `
                     <div class="col-span-full text-center py-16">
                         <div class="text-5xl mb-3">🔍</div>
-                        <p class="text-gray-500">该分类下暂无数据</p>
+                        <p class="text-slate-500">该分类下暂无数据</p>
                     </div>
                 `;
             }
@@ -335,37 +325,29 @@
 
         function createSourceCard(source, delay) {
             const div = document.createElement('div');
-            div.className = 'source-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden card-enter';
+            div.className = 'source-card rounded-2xl shadow-sm border border-slate-100 overflow-hidden card-enter';
             div.style.animationDelay = delay + 's';
             
             const hasError = source.error;
             const itemCount = source.item_count || 0;
-            const sourceColor = source.color || '#4f46e5';
-            const sourceUsed = source.source_used || 'tophub';
-            
-            // 数据来源标签
-            const sourceTag = !hasError && itemCount > 0 ? `
-                <span class="ml-2 px-2 py-0.5 rounded text-[10px] font-bold ${sourceUsed === 'original' ? 'tag-original' : 'tag-tophub'}">
-                    ${sourceUsed === 'original' ? '直连' : 'tophub'}
-                </span>
-            ` : '';
+            const sourceColor = source.color || '#475569';
             
             let itemsHtml = '';
             if (hasError) {
                 itemsHtml = `
                     <div class="p-8 text-center">
-                        <div class="w-16 h-16 mx-auto mb-3 rounded-2xl bg-red-50 flex items-center justify-center text-3xl">⚠️</div>
-                        <p class="text-sm font-bold text-red-600">抓取失败</p>
-                        <p class="text-xs text-gray-400 mt-2 max-w-xs mx-auto">${source.error}</p>
-                        <p class="text-xs text-gray-400 mt-3">已尝试 tophub + 原始平台双源抓取</p>
+                        <div class="w-16 h-16 mx-auto mb-3 rounded-2xl bg-rose-50 flex items-center justify-center text-3xl">⚠️</div>
+                        <p class="text-sm font-bold text-rose-600">抓取失败</p>
+                        <p class="text-xs text-slate-400 mt-2 max-w-xs mx-auto">${source.error}</p>
+                        <p class="text-xs text-slate-400 mt-3">已尝试多源抓取</p>
                     </div>
                 `;
             } else if (itemCount === 0) {
                 itemsHtml = `
                     <div class="p-8 text-center">
-                        <div class="w-16 h-16 mx-auto mb-3 rounded-2xl bg-gray-50 flex items-center justify-center text-3xl">📭</div>
-                        <p class="text-sm font-medium text-gray-500">暂无数据</p>
-                        <p class="text-xs text-gray-400 mt-1">该时段榜单为空</p>
+                        <div class="w-16 h-16 mx-auto mb-3 rounded-2xl bg-slate-50 flex items-center justify-center text-3xl">📭</div>
+                        <p class="text-sm font-medium text-slate-500">暂无数据</p>
+                        <p class="text-xs text-slate-400 mt-1">该时段榜单为空</p>
                     </div>
                 `;
             } else {
@@ -373,16 +355,16 @@
                     const titleDisplay = item.title.length > 36 ? item.title.substring(0, 36) + '...' : item.title;
                     
                     return `
-                        <div class="group flex items-start space-x-3 p-3 hover:bg-gray-50 transition-all duration-200 rounded-xl cursor-pointer ${idx !== 0 ? 'border-t border-gray-50' : ''}"
+                        <div class="group flex items-start space-x-3 p-3 hover:bg-slate-50 transition-all duration-200 rounded-xl cursor-pointer ${idx !== 0 ? 'border-t border-slate-50' : ''}"
                              onclick="window.open('${item.url || '#'}', '_blank')">
                             <div class="flex-1 min-w-0">
-                                <p class="text-sm font-medium text-gray-900 group-hover:text-indigo-600 transition-colors line-clamp-2 leading-relaxed">
+                                <p class="text-sm font-medium text-slate-800 group-hover:text-slate-900 transition-colors line-clamp-2 leading-relaxed">
                                     ${titleDisplay}
                                 </p>
-                                ${item.heat ? `<p class="text-xs text-gray-400 mt-1 font-medium">${item.heat}</p>` : ''}
+                                ${item.heat ? `<p class="text-xs text-slate-400 mt-1 font-medium">${item.heat}</p>` : ''}
                             </div>
                             <div class="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity pt-1">
-                                <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                                 </svg>
                             </div>
@@ -394,28 +376,25 @@
             }
             
             div.innerHTML = `
-                <div class="px-5 py-4 border-b border-gray-100 bg-gradient-to-r from-gray-50/50 to-white">
+                <div class="px-5 py-4 border-b border-slate-100 bg-white">
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-3">
-                            <div class="w-10 h-10 rounded-xl flex items-center justify-center text-xl shadow-sm" style="background: ${sourceColor}15;">
+                            <div class="w-10 h-10 rounded-xl flex items-center justify-center text-xl" style="background: ${sourceColor}12; color: ${sourceColor};">
                                 ${source.icon}
                             </div>
                             <div>
-                                <div class="flex items-center">
-                                    <h3 class="font-bold text-gray-900 text-sm">${source.source_name}</h3>
-                                    ${sourceTag}
-                                </div>
+                                <h3 class="font-bold text-slate-800 text-sm">${source.source_name}</h3>
                                 <div class="flex items-center space-x-2 mt-0.5">
-                                    <span class="text-xs text-gray-500">${source.category}</span>
-                                    <span class="w-1 h-1 rounded-full bg-gray-300"></span>
-                                    <span class="text-xs ${hasError ? 'text-red-500' : 'text-gray-500'}">${hasError ? '抓取失败' : itemCount + '条内容'}</span>
+                                    <span class="text-xs text-slate-500">${source.category}</span>
+                                    <span class="w-1 h-1 rounded-full bg-slate-300"></span>
+                                    <span class="text-xs ${hasError ? 'text-rose-500' : 'text-slate-500'}">${hasError ? '抓取失败' : itemCount + '条内容'}</span>
                                 </div>
                             </div>
                         </div>
-                        ${source.update_time ? `<span class="text-xs text-gray-400 font-mono">${source.update_time.split(' ')[1]}</span>` : ''}
+                        ${source.update_time ? `<span class="text-xs text-slate-400 font-mono">${source.update_time.split(' ')[1]}</span>` : ''}
                     </div>
                 </div>
-                <div class="max-h-[520px] overflow-y-auto scrollbar-hide">
+                <div class="max-h-[520px] overflow-y-auto scrollbar-hide bg-white">
                     ${itemsHtml}
                 </div>
             `;
