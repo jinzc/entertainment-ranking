@@ -437,7 +437,7 @@ SOURCES = {
         "name": "微博·文娱榜",
         "category": "微博",
         "icon": "🔥",
-        "color": "#E6162D",
+        "color": "#DC2626",  # 鲜红
         "tophub_url": "https://tophub.today/n/3QeLwJEd7k",
         "fallback": fetch_weibo_entertainment,
     },
@@ -445,7 +445,7 @@ SOURCES = {
         "name": "抖音·娱乐榜",
         "category": "抖音",
         "icon": "🎵",
-        "color": "#000000",
+        "color": "#111827",  # 深黑灰
         "tophub_url": "https://tophub.today/n/2me33NBewj",
         "fallback": fetch_douyin_hot,
     },
@@ -453,7 +453,7 @@ SOURCES = {
         "name": "抖音·明星榜",
         "category": "抖音",
         "icon": "⭐",
-        "color": "#000000",
+        "color": "#111827",  # 深黑灰
         "tophub_url": "https://tophub.today/n/RrvWy7Re5z",
         "fallback": fetch_douyin_hot,
     },
@@ -461,7 +461,7 @@ SOURCES = {
         "name": "百度·电影榜",
         "category": "百度",
         "icon": "🎬",
-        "color": "#2932E1",
+        "color": "#2563EB",  # 明亮蓝
         "tophub_url": "https://tophub.today/n/4KvxRL1ekx",
         "fallback": lambda: fetch_baidu_board("movie"),
     },
@@ -469,7 +469,7 @@ SOURCES = {
         "name": "百度·电视剧榜",
         "category": "百度",
         "icon": "📺",
-        "color": "#2932E1",
+        "color": "#2563EB",  # 明亮蓝
         "tophub_url": "https://tophub.today/n/ENeYp23dY4",
         "fallback": lambda: fetch_baidu_board("teleplay"),
     },
@@ -477,7 +477,7 @@ SOURCES = {
         "name": "哔哩哔哩·影视榜",
         "category": "哔哩哔哩",
         "icon": "📽️",
-        "color": "#FB7299",
+        "color": "#EC4899",  # 粉红
         "tophub_url": "https://tophub.today/n/MZd77ypdrO",
         "fallback": fetch_bilibili_search_hot,
     },
@@ -485,7 +485,7 @@ SOURCES = {
         "name": "哔哩哔哩·娱乐榜",
         "category": "哔哩哔哩",
         "icon": "🎮",
-        "color": "#FB7299",
+        "color": "#EC4899",  # 粉红
         "tophub_url": "https://tophub.today/n/YKd67qneaP",
         "fallback": fetch_bilibili_search_hot,
     },
@@ -493,7 +493,7 @@ SOURCES = {
         "name": "豆瓣·新片榜",
         "category": "豆瓣",
         "icon": "🆕",
-        "color": "#007722",
+        "color": "#059669",  # 翠绿
         "tophub_url": "https://tophub.today/n/mDOvnyBoEB",
         "fallback": lambda: fetch_douban_chart("new"),
     },
@@ -501,7 +501,7 @@ SOURCES = {
         "name": "豆瓣·正在上映",
         "category": "豆瓣",
         "icon": "🎟️",
-        "color": "#007722",
+        "color": "#059669",  # 翠绿
         "tophub_url": "https://tophub.today/n/m4ejbjyexE",
         "fallback": lambda: fetch_douban_chart("nowplaying"),
     },
@@ -509,7 +509,7 @@ SOURCES = {
         "name": "豆瓣·热门剧集",
         "category": "豆瓣",
         "icon": "📺",
-        "color": "#007722",
+        "color": "#059669",  # 翠绿
         "tophub_url": "https://tophub.today/n/nBe0JLBv37",
         "fallback": lambda: fetch_douban_chart("tv"),
     },
