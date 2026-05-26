@@ -2,7 +2,7 @@ name: Update Entertainment Ranking
 
 on:
   schedule:
-    - cron: '0,30 * * * *'  # 每30分钟执行一次（0分和30分），避免整点跳过
+    - cron: '0,30 * * * *'  # 每30分钟执行一次，避免整点跳过
   workflow_dispatch:
 
 jobs:
