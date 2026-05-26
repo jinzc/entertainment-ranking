@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-26 21:15:23",
+  "update_time": "2026-05-26 21:20:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:25"
+      "update_time": "2026-05-26 21:20:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:27"
+      "update_time": "2026-05-26 21:20:26"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:30"
+      "update_time": "2026-05-26 21:20:28"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:32"
+      "update_time": "2026-05-26 21:20:30"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:34"
+      "update_time": "2026-05-26 21:20:32"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -880,17 +880,17 @@
         },
         {
           "rank": 14,
-          "title": "《黑袍》输了！但阿祖没有输！",
+          "title": "陈翔六点半：当所有人能听见我的心声",
           "author": "",
           "heat": "7.",
-          "url": "https://www.bilibili.com/video/av116623461585339/"
+          "url": "https://www.bilibili.com/video/av116629098729878/"
         },
         {
           "rank": 16,
-          "title": "陈翔六点半：当所有人能听见我的心声",
+          "title": "《黑袍》输了！但阿祖没有输！",
           "author": "",
           "heat": "8.",
-          "url": "https://www.bilibili.com/video/av116629098729878/"
+          "url": "https://www.bilibili.com/video/av116623461585339/"
         },
         {
           "rank": 18,
@@ -915,87 +915,87 @@
         },
         {
           "rank": 24,
-          "title": "开局42杀！节奏快到起飞，唐朝探案悬疑新剧，万字细嗦《大唐迷雾》第一案 引子+鬼来信（上）",
-          "author": "",
-          "heat": "12.",
-          "url": "https://www.bilibili.com/video/av116627119146092/"
-        },
-        {
-          "rank": 26,
           "title": "被谷歌翻译20次的《百万英镑》：感谢你是个倭瓜。这张票券不是真的就是假的。",
           "author": "",
-          "heat": "13.",
+          "heat": "12.",
           "url": "https://www.bilibili.com/video/av116627957880002/"
         },
         {
+          "rank": 26,
+          "title": "开局42杀！节奏快到起飞，唐朝探案悬疑新剧，万字细嗦《大唐迷雾》第一案 引子+鬼来信（上）",
+          "author": "",
+          "heat": "13.",
+          "url": "https://www.bilibili.com/video/av116627119146092/"
+        },
+        {
           "rank": 28,
-          "title": "豆瓣58万人打出9.1分！全网吹爆！《给阿嬷的情书》到底好看吗",
-          "author": "",
-          "heat": "14.",
-          "url": "https://www.bilibili.com/video/av116623545467598/"
-        },
-        {
-          "rank": 30,
-          "title": "黑人竞选英国首相，竟被杀手3秒爆头？开局高能，持续反转！《真相捕捉3》上",
-          "author": "",
-          "heat": "15.",
-          "url": "https://www.bilibili.com/video/av116617405007635/"
-        },
-        {
-          "rank": 32,
           "title": "⚡⚡逆天星球大战⚡⚡",
           "author": "",
-          "heat": "16.",
+          "heat": "14.",
           "url": "https://www.bilibili.com/video/av116623428032740/"
         },
         {
-          "rank": 34,
-          "title": "选一条路，决定你接下来的旅途",
-          "author": "",
-          "heat": "17.",
-          "url": "https://www.bilibili.com/video/av116623713240860/"
-        },
-        {
-          "rank": 36,
+          "rank": 30,
           "title": "【溯光记】最新视频上线，求关注！",
           "author": "",
-          "heat": "18.",
+          "heat": "15.",
           "url": "https://www.bilibili.com/video/av116626615765960/"
         },
         {
-          "rank": 38,
+          "rank": 32,
+          "title": "黑人竞选英国首相，竟被杀手3秒爆头？开局高能，持续反转！《真相捕捉3》上",
+          "author": "",
+          "heat": "16.",
+          "url": "https://www.bilibili.com/video/av116617405007635/"
+        },
+        {
+          "rank": 34,
+          "title": "豆瓣58万人打出9.1分！全网吹爆！《给阿嬷的情书》到底好看吗",
+          "author": "",
+          "heat": "17.",
+          "url": "https://www.bilibili.com/video/av116623545467598/"
+        },
+        {
+          "rank": 36,
           "title": "“2004年雅典奥运会开幕式，奥林匹克回到了它的家乡”",
           "author": "",
-          "heat": "19.",
+          "heat": "18.",
           "url": "https://www.bilibili.com/video/av116613512693754/"
         },
         {
-          "rank": 40,
-          "title": "“至此，所有超人类都得到了他们该有的结局！”",
+          "rank": 38,
+          "title": "选一条路，决定你接下来的旅途",
           "author": "",
-          "heat": "20.",
-          "url": "https://www.bilibili.com/video/av116618411645454/"
+          "heat": "19.",
+          "url": "https://www.bilibili.com/video/av116623713240860/"
         },
         {
-          "rank": 42,
+          "rank": 40,
           "title": "富二代参加变形计，30天吃胖14斤，村民：这孩子没吃过饭吗？",
           "author": "",
-          "heat": "21.",
+          "heat": "20.",
           "url": "https://www.bilibili.com/video/av116612053076912/"
         },
         {
+          "rank": 42,
+          "title": "“至此，所有超人类都得到了他们该有的结局！”",
+          "author": "",
+          "heat": "21.",
+          "url": "https://www.bilibili.com/video/av116618411645454/"
+        },
+        {
           "rank": 44,
-          "title": "18岁美少女杀死《锻刀大赛》！老天爷追着喂饭吃 天纵奇才",
+          "title": "死亡房间吞噬56条人命！推开房门就是地狱循环！万字拆解《1408幻影凶间》",
           "author": "",
           "heat": "22.",
-          "url": "https://www.bilibili.com/video/av116621280678298/"
+          "url": "https://www.bilibili.com/video/av116628763186478/"
         },
         {
           "rank": 46,
-          "title": "死亡房间吞噬56条人命！推开房门就是地狱循环！万字拆解《1408幻影凶间》",
+          "title": "18岁美少女杀死《锻刀大赛》！老天爷追着喂饭吃 天纵奇才",
           "author": "",
           "heat": "23.",
-          "url": "https://www.bilibili.com/video/av116628763186478/"
+          "url": "https://www.bilibili.com/video/av116621280678298/"
         },
         {
           "rank": 48,
@@ -1015,7 +1015,7 @@
       "error": null,
       "item_count": 25,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:36"
+      "update_time": "2026-05-26 21:20:35"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1075,24 +1075,24 @@
         },
         {
           "rank": 16,
-          "title": "吴镇宇简直是表情模仿大师",
-          "author": "",
-          "heat": "8.",
-          "url": "https://www.bilibili.com/video/av116617455410124/"
-        },
-        {
-          "rank": 18,
           "title": "内娱团欺学正式出炉",
           "author": "",
-          "heat": "9.",
+          "heat": "8.",
           "url": "https://www.bilibili.com/video/av116626447929235/"
         },
         {
-          "rank": 20,
+          "rank": 18,
           "title": "跑男《豪车事件》梳理",
           "author": "",
-          "heat": "10.",
+          "heat": "9.",
           "url": "https://www.bilibili.com/video/av116626582150094/"
+        },
+        {
+          "rank": 20,
+          "title": "吴镇宇简直是表情模仿大师",
+          "author": "",
+          "heat": "10.",
+          "url": "https://www.bilibili.com/video/av116617455410124/"
         },
         {
           "rank": 22,
@@ -1203,7 +1203,7 @@
       "error": null,
       "item_count": 25,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:38"
+      "update_time": "2026-05-26 21:20:37"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1286,7 +1286,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:40"
+      "update_time": "2026-05-26 21:20:39"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1649,7 +1649,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:43"
+      "update_time": "2026-05-26 21:20:41"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -1837,7 +1837,7 @@
       "error": null,
       "item_count": 25,
       "source_used": "tophub",
-      "update_time": "2026-05-26 21:15:45"
+      "update_time": "2026-05-26 21:20:43"
     }
   }
 }
