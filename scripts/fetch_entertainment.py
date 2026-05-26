@@ -56,7 +56,7 @@ class TopHubSession:
             "Cache-Control": "max-age=0",
         })
         self._initialized = False
-
+    
     def init(self):
         """先访问首页建立会话和 cookie"""
         if self._initialized:
@@ -85,9 +85,9 @@ def parse_tophub(html, source_name):
     items = []
     if not html:
         return items
-
+    
     soup = BeautifulSoup(html, "html.parser")
-
+    
     # 策略1：精确匹配 td.al（参考 CSDN 成功案例）
     al_tds = soup.select("td.al")
     if al_tds:
@@ -98,9 +98,10 @@ def parse_tophub(html, source_name):
                 continue
             title = clean_text(a_tag.get_text())
             link = a_tag.get("href", "")
-
+            
             # 获取热度：找父级 tr 中的所有 td，取非标题/非排名的那一列
             heat = ""
+            author = ""
             parent_tr = td.find_parent("tr")
             if parent_tr:
                 all_tds = parent_tr.find_all("td")
@@ -112,17 +113,18 @@ def parse_tophub(html, source_name):
                         if re.search(r'[0-9万亿]', txt):
                             heat = txt
                             break
-                    elif txt.isdigit() and int(txt) > 100:
-                        heat = txt
-
+                        elif txt.isdigit() and int(txt) > 100:
+                            heat = txt
+            
             if title and len(title) > 1 and title not in ["更多", "下一页", "上一页"]:
                 items.append({
                     "rank": idx,
                     "title": title,
+                    "author": author,
                     "heat": heat,
                     "url": link if link.startswith("http") else f"https://tophub.today{link}"
                 })
-
+    
     # 策略2：标准 table 结构
     if not items:
         table = soup.select_one("table.table") or soup.select_one("table")
@@ -137,7 +139,7 @@ def parse_tophub(html, source_name):
                         rank = int(rank_text)
                     except:
                         rank = idx
-
+                    
                     title_td = tds[1]
                     a_tag = title_td.find("a", href=True)
                     if a_tag:
@@ -146,17 +148,46 @@ def parse_tophub(html, source_name):
                     else:
                         title = clean_text(title_td.get_text())
                         link = ""
-
-                    heat = clean_text(tds[-1].get_text()) if len(tds) >= 3 else ""
-
+                    
+                    # 提取热度（最后一列）和账号名（中间列）
+                    heat = ""
+                    author = ""
+                    if len(tds) >= 3:
+                        heat = clean_text(tds[-1].get_text())
+                        # 如果有多于3个td，中间的可能是账号名
+                        # 或者如果倒数第二个不是标题且不是排名，可能是作者
+                        if len(tds) >= 4:
+                            # 有4+列：排名、标题、作者、热度
+                            author = clean_text(tds[2].get_text())
+                        elif len(tds) == 3:
+                            # 3列：检查中间列是否像热度（纯数字/含万/亿）
+                            mid_text = clean_text(tds[1].get_text())
+                            # 如果标题在tds[1]的a标签里，tds[1]的其他文本可能是作者
+                            # 尝试提取tds[1]中除a标签外的文本
+                            title_td = tds[1]
+                            # 克隆td，移除a标签，看剩余文本
+                            td_clone = BeautifulSoup(str(title_td), "html.parser").find("td")
+                            if td_clone:
+                                a_in_clone = td_clone.find("a")
+                                if a_in_clone:
+                                    a_in_clone.extract()
+                                remaining = clean_text(td_clone.get_text())
+                                if remaining and remaining != title:
+                                    author = remaining
+                    
+                    # 清理链接
+                    if link and not link.startswith("http"):
+                        link = "https://tophub.today" + link
+                    
                     if title and len(title) > 1:
                         items.append({
                             "rank": rank,
                             "title": title,
+                            "author": author,
                             "heat": heat,
-                            "url": link if link.startswith("http") else f"https://tophub.today{link}"
+                            "url": link
                         })
-
+    
     # 策略3：cc-cd 卡片
     if not items:
         cards = soup.select(".cc-cd")
@@ -167,14 +198,22 @@ def parse_tophub(html, source_name):
                 if a_tag:
                     title = clean_text(a_tag.get_text())
                     link = a_tag.get("href", "")
+                    
+                    # 尝试提取作者（在卡片中的其他元素）
+                    author = ""
+                    author_elem = card.select_one(".author, .user, .name, .subtitle")
+                    if author_elem:
+                        author = clean_text(author_elem.get_text())
+                    
                     if title and len(title) > 1:
                         items.append({
                             "rank": idx,
                             "title": title,
+                            "author": author,
                             "heat": "",
                             "url": link if link.startswith("http") else f"https://tophub.today{link}"
                         })
-
+    
     return items
 
 
@@ -195,7 +234,7 @@ def fetch_weibo_entertainment():
         resp = requests.get(url, headers=headers, timeout=15)
         resp.encoding = "utf-8"
         soup = BeautifulSoup(resp.text, "html.parser")
-
+        
         # 微博文娱榜结构
         rows = soup.select("#pl_top_realtimehot tbody tr") or soup.select(".ranklist tbody tr") or soup.select("table tbody tr")
         for row in rows[:50]:
@@ -210,6 +249,7 @@ def fetch_weibo_entertainment():
                     items.append({
                         "rank": rank if rank else len(items)+1,
                         "title": title,
+                        "author": "",
                         "heat": heat,
                         "url": f"https://s.weibo.com{link}" if link and not link.startswith("http") else link
                     })
@@ -233,7 +273,7 @@ def fetch_baidu_board(tab):
         }
         resp = requests.get(url, headers=headers, timeout=15)
         data = resp.json()
-
+        
         if data.get("data") and data["data"].get("cards"):
             card = data["data"]["cards"][0]
             for idx, item in enumerate(card.get("content", [])[:50], 1):
@@ -244,6 +284,7 @@ def fetch_baidu_board(tab):
                     items.append({
                         "rank": idx,
                         "title": title,
+                        "author": "",
                         "heat": heat,
                         "url": url_link
                     })
@@ -266,7 +307,7 @@ def fetch_bilibili_search_hot():
         }
         resp = requests.get(url, headers=headers, timeout=15)
         data = resp.json()
-
+        
         if data.get("data") and data["data"].get("trending"):
             hot_list = data["data"]["trending"].get("list", [])
             for idx, item in enumerate(hot_list[:50], 1):
@@ -277,6 +318,7 @@ def fetch_bilibili_search_hot():
                     items.append({
                         "rank": idx,
                         "title": show_name,
+                        "author": "",
                         "heat": "",
                         "url": url_link if url_link else f"https://search.bilibili.com/all?keyword={keyword}"
                     })
@@ -300,14 +342,14 @@ def fetch_douban_chart(chart_type):
             url = "https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=50&page_start=0"
         else:
             return items, "未知豆瓣榜单类型"
-
+        
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "zh-CN,zh;q=0.9",
             "Referer": "https://movie.douban.com/",
         }
-
+        
         if chart_type == "tv":
             # TV 使用 JSON API
             resp = requests.get(url, headers=headers, timeout=15)
@@ -320,6 +362,7 @@ def fetch_douban_chart(chart_type):
                     items.append({
                         "rank": idx,
                         "title": title,
+                        "author": "",
                         "heat": rating,
                         "url": link
                     })
@@ -327,7 +370,7 @@ def fetch_douban_chart(chart_type):
             resp = requests.get(url, headers=headers, timeout=15)
             resp.encoding = "utf-8"
             soup = BeautifulSoup(resp.text, "html.parser")
-
+            
             if chart_type == "new":
                 # 新片榜
                 rows = soup.select(".chart-dv-table tr") or soup.select("table tr")
@@ -345,10 +388,11 @@ def fetch_douban_chart(chart_type):
                         items.append({
                             "rank": idx-1,
                             "title": title,
+                            "author": "",
                             "heat": rating,
                             "url": link
                         })
-
+            
             elif chart_type == "nowplaying":
                 # 正在上映
                 movies = soup.select("#nowplaying .list-item") or soup.select(".list-item")
@@ -364,10 +408,11 @@ def fetch_douban_chart(chart_type):
                         items.append({
                             "rank": idx,
                             "title": title,
+                            "author": "",
                             "heat": rating,
                             "url": f"https://movie.douban.com{link}" if link and not link.startswith("http") else link
                         })
-
+        
         print(f"    [douban] chart={chart_type} 直接抓取成功: {len(items)} 条")
     except Exception as e:
         error = f"豆瓣直接抓取失败: {e}"
@@ -390,10 +435,10 @@ def fetch_douyin_hot():
         resp = requests.get(url, headers=headers, timeout=15)
         resp.encoding = "utf-8"
         soup = BeautifulSoup(resp.text, "html.parser")
-
+        
         # 抖音热榜页面结构（可能变化）
         hot_items = soup.select("[data-e2e='hot-list-item']") or soup.select(".hot-list-item") or soup.select(".challenge-item")
-
+        
         if not hot_items:
             # 尝试通用 a 标签匹配，限制在主要内容区
             main_area = soup.select_one("main") or soup.select_one("[class*='hot']") or soup.body
@@ -407,6 +452,7 @@ def fetch_douyin_hot():
                         items.append({
                             "rank": len(items)+1,
                             "title": title,
+                            "author": "",
                             "heat": "",
                             "url": a.get("href", "") if a.get("href", "").startswith("http") else f"https://www.douyin.com{a.get('href', '')}"
                         })
@@ -420,10 +466,11 @@ def fetch_douyin_hot():
                         items.append({
                             "rank": idx,
                             "title": title,
+                            "author": "",
                             "heat": "",
                             "url": link if link.startswith("http") else f"https://www.douyin.com{link}"
                         })
-
+        
         print(f"    [douyin] 直接抓取成功: {len(items)} 条")
     except Exception as e:
         error = f"抖音直接抓取失败: {e}"
@@ -437,7 +484,7 @@ SOURCES = {
         "name": "微博·文娱榜",
         "category": "微博",
         "icon": "🔥",
-        "color": "#DC2626",  # 鲜红
+        "color": "#DC2626",
         "tophub_url": "https://tophub.today/n/3QeLwJEd7k",
         "fallback": fetch_weibo_entertainment,
     },
@@ -445,7 +492,7 @@ SOURCES = {
         "name": "抖音·娱乐榜",
         "category": "抖音",
         "icon": "🎵",
-        "color": "#111827",  # 深黑灰
+        "color": "#F59E0B",
         "tophub_url": "https://tophub.today/n/2me33NBewj",
         "fallback": fetch_douyin_hot,
     },
@@ -453,7 +500,7 @@ SOURCES = {
         "name": "抖音·明星榜",
         "category": "抖音",
         "icon": "⭐",
-        "color": "#111827",  # 深黑灰
+        "color": "#F59E0B",
         "tophub_url": "https://tophub.today/n/RrvWy7Re5z",
         "fallback": fetch_douyin_hot,
     },
@@ -461,7 +508,7 @@ SOURCES = {
         "name": "百度·电影榜",
         "category": "百度",
         "icon": "🎬",
-        "color": "#2563EB",  # 明亮蓝
+        "color": "#3B82F6",
         "tophub_url": "https://tophub.today/n/4KvxRL1ekx",
         "fallback": lambda: fetch_baidu_board("movie"),
     },
@@ -469,7 +516,7 @@ SOURCES = {
         "name": "百度·电视剧榜",
         "category": "百度",
         "icon": "📺",
-        "color": "#2563EB",  # 明亮蓝
+        "color": "#3B82F6",
         "tophub_url": "https://tophub.today/n/ENeYp23dY4",
         "fallback": lambda: fetch_baidu_board("teleplay"),
     },
@@ -477,7 +524,7 @@ SOURCES = {
         "name": "哔哩哔哩·影视榜",
         "category": "哔哩哔哩",
         "icon": "📽️",
-        "color": "#EC4899",  # 粉红
+        "color": "#EC4899",
         "tophub_url": "https://tophub.today/n/MZd77ypdrO",
         "fallback": fetch_bilibili_search_hot,
     },
@@ -485,7 +532,7 @@ SOURCES = {
         "name": "哔哩哔哩·娱乐榜",
         "category": "哔哩哔哩",
         "icon": "🎮",
-        "color": "#EC4899",  # 粉红
+        "color": "#EC4899",
         "tophub_url": "https://tophub.today/n/YKd67qneaP",
         "fallback": fetch_bilibili_search_hot,
     },
@@ -493,7 +540,7 @@ SOURCES = {
         "name": "豆瓣·新片榜",
         "category": "豆瓣",
         "icon": "🆕",
-        "color": "#059669",  # 翠绿
+        "color": "#10B981",
         "tophub_url": "https://tophub.today/n/mDOvnyBoEB",
         "fallback": lambda: fetch_douban_chart("new"),
     },
@@ -501,7 +548,7 @@ SOURCES = {
         "name": "豆瓣·正在上映",
         "category": "豆瓣",
         "icon": "🎟️",
-        "color": "#059669",  # 翠绿
+        "color": "#10B981",
         "tophub_url": "https://tophub.today/n/m4ejbjyexE",
         "fallback": lambda: fetch_douban_chart("nowplaying"),
     },
@@ -509,7 +556,7 @@ SOURCES = {
         "name": "豆瓣·热门剧集",
         "category": "豆瓣",
         "icon": "📺",
-        "color": "#059669",  # 翠绿
+        "color": "#10B981",
         "tophub_url": "https://tophub.today/n/nBe0JLBv37",
         "fallback": lambda: fetch_douban_chart("tv"),
     },
@@ -519,18 +566,18 @@ SOURCES = {
 def fetch_single_source(tophub_session, key, config):
     """抓取单个榜单：先 tophub，失败则 fallback 到原始平台"""
     print(f"\n  → [{config['name']}] 开始抓取...")
-
+    
     items = []
     error = None
     source_used = "tophub"
-
+    
     # ===== 第一步：尝试 tophub.today =====
     try:
         html, err = tophub_session.fetch(config["tophub_url"])
         if html:
             items = parse_tophub(html, config["name"])
             print(f"    [tophub] 解析到 {len(items)} 条")
-
+            
             # 检测假数据
             if is_fake_data(items):
                 print(f"    ⚠️ 检测到假数据（反爬拦截），切换到原始平台...")
@@ -547,7 +594,7 @@ def fetch_single_source(tophub_session, key, config):
     except Exception as e:
         print(f"    ⚠️ tophub 异常: {e}，切换到原始平台...")
         error = f"tophub异常: {e}"
-
+    
     # ===== 第二步：fallback 到原始平台 =====
     if not items and config.get("fallback"):
         try:
@@ -567,7 +614,7 @@ def fetch_single_source(tophub_session, key, config):
                 error += f" | fallback异常: {e}"
             else:
                 error = f"fallback异常: {e}"
-
+    
     return {
         "source_key": key,
         "source_name": config["name"],
@@ -585,40 +632,40 @@ def fetch_single_source(tophub_session, key, config):
 def main():
     print(f"[{datetime.now(BEIJING_TZ).strftime('%H:%M:%S')}] 开始抓取文娱榜单 (改进版)...")
     print("=" * 60)
-
+    
     tophub_session = TopHubSession()
     data = {
         "update_time": datetime.now(BEIJING_TZ).strftime("%Y-%m-%d %H:%M:%S"),
         "sources": {}
     }
-
+    
     success_count = 0
     fail_count = 0
-
+    
     for key, config in SOURCES.items():
         result = fetch_single_source(tophub_session, key, config)
         data["sources"][key] = result
-
+        
         if result["error"] or result["item_count"] == 0:
             fail_count += 1
             print(f"  ❌ 最终结果: 失败 - {result['error']}")
         else:
             success_count += 1
             print(f"  ✅ 最终结果: 成功 ({result['item_count']} 条, 来源: {result['source_used']})")
-
+        
         time.sleep(2)  # 礼貌延迟
-
+    
     print("\n" + "=" * 60)
     print(f"抓取完成: 成功 {success_count} / 失败 {fail_count}")
-
+    
     # 写入数据
     os.makedirs("data", exist_ok=True)
     output_path = "data/entertainment_data.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
+    
     print(f"数据已保存至: {output_path}")
-
+    
     # 如果有失败项，返回非零退出码（可选，用于 GitHub Actions 告警）
     if fail_count > 0:
         print(f"\n注意: {fail_count} 个榜单抓取失败，已记录错误信息")
