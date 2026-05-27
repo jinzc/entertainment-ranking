@@ -88,122 +88,126 @@ def parse_tophub(html, source_name):
     
     soup = BeautifulSoup(html, "html.parser")
     
-    # 策略1：精确匹配 td.al（参考 CSDN 成功案例）
-    al_tds = soup.select("td.al")
-    if al_tds:
-        print(f"    [tophub] 使用 td.al 精确匹配，找到 {len(al_tds)} 个")
-        for idx, td in enumerate(al_tds[:50], 1):
-            a_tag = td.find("a", href=True)
-            if not a_tag:
+    # 策略1：标准 table tbody tr（抖音等大部分榜单用这个结构）
+    rows = soup.select("table tbody tr")
+    if rows:
+        print(f"    [tophub] table tbody tr 匹配到 {len(rows)} 行")
+        for idx, row in enumerate(rows[:50], 1):
+            tds = row.find_all("td")
+            if len(tds) < 2:
                 continue
-            title = clean_text(a_tag.get_text())
-            link = a_tag.get("href", "")
             
-            # 获取热度：找父级 tr 中的所有 td，取非标题/非排名的那一列
-            heat = ""
+            # 第0列：排名
+            rank_text = clean_text(tds[0].get_text())
+            try:
+                rank = int(rank_text.rstrip('.'))  # 处理 "1." 这种格式
+            except:
+                rank = idx
+            
+            # 找到包含标题的 td（通常有 class="al" 且包含 a 标签）
+            title_td = None
+            for td in tds:
+                if td.find("a", href=True):
+                    title_td = td
+                    break
+            
+            if not title_td:
+                continue
+            
+            a_tag = title_td.find("a", href=True)
+            title = clean_text(a_tag.get_text()) if a_tag else clean_text(title_td.get_text())
+            link = a_tag.get("href", "") if a_tag else ""
+            
+            # 提取作者：优先从 .item-desc 提取（抖音结构）
             author = ""
-            parent_tr = td.find_parent("tr")
-            if parent_tr:
-                all_tds = parent_tr.find_all("td")
-                for t in all_tds:
-                    txt = clean_text(t.get_text())
-                    # 排除排名数字和标题本身
-                    if txt and txt != title and not txt.isdigit() and len(txt) > 1:
-                        # 热度通常包含数字和文字（如 "123万"、"12345"）
-                        if re.search(r'[0-9万亿]', txt):
-                            heat = txt
-                            break
-                        elif txt.isdigit() and int(txt) > 100:
-                            heat = txt
+            desc_div = title_td.select_one(".item-desc")
+            if desc_div:
+                author = clean_text(desc_div.get_text())
             
-            if title and len(title) > 1 and title not in ["更多", "下一页", "上一页"]:
+            # 提取热度/播放量：优先从 .item-extra 提取
+            heat = ""
+            extra_div = title_td.select_one(".item-extra")
+            if extra_div:
+                heat = clean_text(extra_div.get_text())
+            
+            # 如果 .item-desc 没找到，尝试从 td 中除标题外的其他 div 提取
+            if not author:
+                for div in title_td.find_all("div"):
+                    div_text = clean_text(div.get_text())
+                    if div_text and div_text != title and len(div_text) < 30:
+                        # 排除像播放量的数字文本
+                        if not re.search(r'\d+次播放', div_text) and not re.search(r'^\d+$', div_text):
+                            author = div_text
+                            break
+            
+            # 如果 .item-extra 没找到，从其他 td 找热度
+            if not heat:
+                for td in tds:
+                    txt = clean_text(td.get_text())
+                    if txt and txt != title and txt != author and (re.search(r'\d+[万亿次]', txt) or (txt.isdigit() and int(txt) > 100)):
+                        heat = txt
+                        break
+            
+            if link and not link.startswith("http"):
+                link = "https://tophub.today" + link
+            
+            if title and len(title) > 1:
                 items.append({
-                    "rank": idx,
+                    "rank": rank,
                     "title": title,
                     "author": author,
                     "heat": heat,
-                    "url": link if link.startswith("http") else f"https://tophub.today{link}"
+                    "url": link
                 })
+                if idx <= 3:
+                    print(f"    [tophub-debug] 提取: title='{title[:25]}' author='{author}' heat='{heat[:20]}'")
     
-    # 策略2：标准 table 结构
+    # 策略2：td.al 精确匹配（备用）
     if not items:
-        table = soup.select_one("table.table") or soup.select_one("table")
-        if table:
-            rows = table.select("tbody tr")
-            print(f"    [tophub] 使用标准 table 匹配，找到 {len(rows)} 行")
-            for idx, row in enumerate(rows[:50], 1):
-                tds = row.find_all("td")
-                if len(tds) >= 2:
-                    rank_text = clean_text(tds[0].get_text())
-                    try:
-                        rank = int(rank_text)
-                    except:
-                        rank = idx
-                    
-                    title_td = tds[1]
-                    a_tag = title_td.find("a", href=True)
-                    if a_tag:
-                        title = clean_text(a_tag.get_text())
-                        link = a_tag.get("href", "")
-                    else:
-                        title = clean_text(title_td.get_text())
-                        link = ""
-                    
-                    # 提取热度（最后一列）和账号名（中间列）
-                    heat = ""
-                    author = ""
-                    if len(tds) >= 3:
-                        heat = clean_text(tds[-1].get_text())
-                        # 如果有多于3个td，中间的可能是账号名
-                        # 或者如果倒数第二个不是标题且不是排名，可能是作者
-                        if len(tds) >= 4:
-                            # 有4+列：排名、标题、作者、热度
-                            author = clean_text(tds[2].get_text())
-                        elif len(tds) == 3:
-                            # 3列：检查中间列是否像热度（纯数字/含万/亿）
-                            mid_text = clean_text(tds[1].get_text())
-                            # 如果标题在tds[1]的a标签里，tds[1]的其他文本可能是作者
-                            # 尝试提取tds[1]中除a标签外的文本
-                            title_td = tds[1]
-                            # 克隆td，移除a标签，看剩余文本
-                            td_clone = BeautifulSoup(str(title_td), "html.parser").find("td")
-                            if td_clone:
-                                a_in_clone = td_clone.find("a")
-                                if a_in_clone:
-                                    a_in_clone.extract()
-                                remaining = clean_text(td_clone.get_text())
-                                if remaining and remaining != title:
-                                    author = remaining
-                    
-                    # 清理链接
-                    if link and not link.startswith("http"):
-                        link = "https://tophub.today" + link
-                    
-                    if title and len(title) > 1:
-                        items.append({
-                            "rank": rank,
-                            "title": title,
-                            "author": author,
-                            "heat": heat,
-                            "url": link
-                        })
+        al_tds = soup.select("td.al")
+        if al_tds:
+            print(f"    [tophub] td.al 匹配到 {len(al_tds)} 个")
+            for idx, td in enumerate(al_tds[:50], 1):
+                a_tag = td.find("a", href=True)
+                if not a_tag:
+                    continue
+                title = clean_text(a_tag.get_text())
+                link = a_tag.get("href", "")
+                
+                author = ""
+                desc_div = td.select_one(".item-desc")
+                if desc_div:
+                    author = clean_text(desc_div.get_text())
+                
+                heat = ""
+                extra_div = td.select_one(".item-extra")
+                if extra_div:
+                    heat = clean_text(extra_div.get_text())
+                
+                if title and len(title) > 1:
+                    items.append({
+                        "rank": idx,
+                        "title": title,
+                        "author": author,
+                        "heat": heat,
+                        "url": link if link.startswith("http") else f"https://tophub.today{link}"
+                    })
     
-    # 策略3：cc-cd 卡片
+    # 策略3：cc-cd 卡片（备用）
     if not items:
         cards = soup.select(".cc-cd")
         if cards:
-            print(f"    [tophub] 使用 cc-cd 卡片匹配，找到 {len(cards)} 个")
+            print(f"    [tophub] cc-cd 匹配到 {len(cards)} 个")
             for idx, card in enumerate(cards[:50], 1):
                 a_tag = card.find("a", href=True)
                 if a_tag:
                     title = clean_text(a_tag.get_text())
                     link = a_tag.get("href", "")
                     
-                    # 尝试提取作者（在卡片中的其他元素）
                     author = ""
-                    author_elem = card.select_one(".author, .user, .name, .subtitle")
-                    if author_elem:
-                        author = clean_text(author_elem.get_text())
+                    desc_div = card.select_one(".item-desc")
+                    if desc_div:
+                        author = clean_text(desc_div.get_text())
                     
                     if title and len(title) > 1:
                         items.append({
@@ -214,6 +218,7 @@ def parse_tophub(html, source_name):
                             "url": link if link.startswith("http") else f"https://tophub.today{link}"
                         })
     
+    print(f"    [tophub] 最终提取 {len(items)} 条")
     return items
 
 
@@ -235,7 +240,6 @@ def fetch_weibo_entertainment():
         resp.encoding = "utf-8"
         soup = BeautifulSoup(resp.text, "html.parser")
         
-        # 微博文娱榜结构
         rows = soup.select("#pl_top_realtimehot tbody tr") or soup.select(".ranklist tbody tr") or soup.select("table tbody tr")
         for row in rows[:50]:
             tds = row.find_all("td")
@@ -264,7 +268,6 @@ def fetch_baidu_board(tab):
     items = []
     error = None
     try:
-        # 百度热搜 API
         url = f"https://top.baidu.com/api/board?platform=wise&tab={tab}"
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -338,7 +341,6 @@ def fetch_douban_chart(chart_type):
         elif chart_type == "nowplaying":
             url = "https://movie.douban.com/cinema/nowplaying/"
         elif chart_type == "tv":
-            # 豆瓣热门剧集使用 API
             url = "https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=50&page_start=0"
         else:
             return items, "未知豆瓣榜单类型"
@@ -351,7 +353,6 @@ def fetch_douban_chart(chart_type):
         }
         
         if chart_type == "tv":
-            # TV 使用 JSON API
             resp = requests.get(url, headers=headers, timeout=15)
             data = resp.json()
             for idx, item in enumerate(data.get("subjects", [])[:50], 1):
@@ -372,11 +373,10 @@ def fetch_douban_chart(chart_type):
             soup = BeautifulSoup(resp.text, "html.parser")
             
             if chart_type == "new":
-                # 新片榜
                 rows = soup.select(".chart-dv-table tr") or soup.select("table tr")
                 for idx, row in enumerate(rows[:50], 1):
                     if idx == 1:
-                        continue  # 跳过表头
+                        continue
                     title_a = row.select_one(".pl2 a")
                     if title_a:
                         title = clean_text(title_a.get_text())
@@ -394,7 +394,6 @@ def fetch_douban_chart(chart_type):
                         })
             
             elif chart_type == "nowplaying":
-                # 正在上映
                 movies = soup.select("#nowplaying .list-item") or soup.select(".list-item")
                 for idx, movie in enumerate(movies[:50], 1):
                     title_a = movie.select_one(".stitle a") or movie.select_one("a")
@@ -424,7 +423,6 @@ def fetch_douyin_hot():
     items = []
     error = None
     try:
-        # 抖音网页版热榜
         url = "https://www.douyin.com/hot"
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
@@ -436,11 +434,9 @@ def fetch_douyin_hot():
         resp.encoding = "utf-8"
         soup = BeautifulSoup(resp.text, "html.parser")
         
-        # 抖音热榜页面结构（可能变化）
         hot_items = soup.select("[data-e2e='hot-list-item']") or soup.select(".hot-list-item") or soup.select(".challenge-item")
         
         if not hot_items:
-            # 尝试通用 a 标签匹配，限制在主要内容区
             main_area = soup.select_one("main") or soup.select_one("[class*='hot']") or soup.body
             if main_area:
                 links = main_area.find_all("a", href=True)
@@ -653,12 +649,11 @@ def main():
             success_count += 1
             print(f"  ✅ 最终结果: 成功 ({result['item_count']} 条, 来源: {result['source_used']})")
         
-        time.sleep(2)  # 礼貌延迟
+        time.sleep(2)
     
     print("\n" + "=" * 60)
     print(f"抓取完成: 成功 {success_count} / 失败 {fail_count}")
     
-    # 写入数据
     os.makedirs("data", exist_ok=True)
     output_path = "data/entertainment_data.json"
     with open(output_path, "w", encoding="utf-8") as f:
@@ -666,7 +661,6 @@ def main():
     
     print(f"数据已保存至: {output_path}")
     
-    # 如果有失败项，返回非零退出码（可选，用于 GitHub Actions 告警）
     if fail_count > 0:
         print(f"\n注意: {fail_count} 个榜单抓取失败，已记录错误信息")
 
