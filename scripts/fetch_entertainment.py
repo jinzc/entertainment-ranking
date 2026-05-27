@@ -118,33 +118,51 @@ def parse_tophub(html, source_name):
             title = clean_text(a_tag.get_text()) if a_tag else clean_text(title_td.get_text())
             link = a_tag.get("href", "") if a_tag else ""
             
-            # 提取作者：优先从 .item-desc 提取（抖音结构）
+            # 智能提取 author 和 heat
+            # tophub 不同榜单结构不同：
+            # 抖音：.item-desc=作者名, .item-extra=播放量
+            # B站：.item-desc=播放量, .item-extra=重复标题
             author = ""
-            desc_div = title_td.select_one(".item-desc")
-            if desc_div:
-                author = clean_text(desc_div.get_text())
-            
-            # 提取热度/播放量：优先从 .item-extra 提取
             heat = ""
-            extra_div = title_td.select_one(".item-extra")
-            if extra_div:
-                heat = clean_text(extra_div.get_text())
             
-            # 如果 .item-desc 没找到，尝试从 td 中除标题外的其他 div 提取
+            desc_div = title_td.select_one(".item-desc")
+            extra_div = title_td.select_one(".item-extra")
+            
+            desc_text = clean_text(desc_div.get_text()) if desc_div else ""
+            extra_text = clean_text(extra_div.get_text()) if extra_div else ""
+            
+            # 判断 desc 是播放量还是作者
+            def is_heat_text(text):
+                return bool(re.search(r'\d+\.?\d*[万亿]', text) or re.search(r'\d+次播放', text) or re.search(r'^\d+\.?\d*$', text))
+            
+            if desc_text:
+                if is_heat_text(desc_text):
+                    heat = desc_text
+                else:
+                    author = desc_text
+            
+            if extra_text:
+                if is_heat_text(extra_text):
+                    heat = extra_text
+                elif extra_text != title and len(extra_text) < 30:
+                    # 如果 author 还没找到，extra 可能是作者
+                    if not author:
+                        author = extra_text
+            
+            # 兜底：从 td 中其他 div 找遗漏的 author
             if not author:
                 for div in title_td.find_all("div"):
                     div_text = clean_text(div.get_text())
-                    if div_text and div_text != title and len(div_text) < 30:
-                        # 排除像播放量的数字文本
-                        if not re.search(r'\d+次播放', div_text) and not re.search(r'^\d+$', div_text):
+                    if div_text and div_text != title and div_text != heat and len(div_text) < 30:
+                        if not is_heat_text(div_text):
                             author = div_text
                             break
             
-            # 如果 .item-extra 没找到，从其他 td 找热度
+            # 兜底：从其他 td 找遗漏的 heat
             if not heat:
                 for td in tds:
                     txt = clean_text(td.get_text())
-                    if txt and txt != title and txt != author and (re.search(r'\d+[万亿次]', txt) or (txt.isdigit() and int(txt) > 100)):
+                    if txt and txt != title and txt != author and is_heat_text(txt):
                         heat = txt
                         break
             
@@ -175,14 +193,21 @@ def parse_tophub(html, source_name):
                 link = a_tag.get("href", "")
                 
                 author = ""
-                desc_div = td.select_one(".item-desc")
-                if desc_div:
-                    author = clean_text(desc_div.get_text())
-                
                 heat = ""
+                desc_div = td.select_one(".item-desc")
                 extra_div = td.select_one(".item-extra")
+                
+                if desc_div:
+                    desc_text = clean_text(desc_div.get_text())
+                    if re.search(r'\d+\.?\d*[万亿]', desc_text) or re.search(r'\d+次播放', desc_text):
+                        heat = desc_text
+                    else:
+                        author = desc_text
+                
                 if extra_div:
-                    heat = clean_text(extra_div.get_text())
+                    extra_text = clean_text(extra_div.get_text())
+                    if re.search(r'\d+\.?\d*[万亿]', extra_text) or re.search(r'\d+次播放', extra_text):
+                        heat = extra_text
                 
                 if title and len(title) > 1:
                     items.append({
@@ -207,7 +232,9 @@ def parse_tophub(html, source_name):
                     author = ""
                     desc_div = card.select_one(".item-desc")
                     if desc_div:
-                        author = clean_text(desc_div.get_text())
+                        desc_text = clean_text(desc_div.get_text())
+                        if not re.search(r'\d+\.?\d*[万亿]', desc_text) and not re.search(r'\d+次播放', desc_text):
+                            author = desc_text
                     
                     if title and len(title) > 1:
                         items.append({
