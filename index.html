@@ -366,17 +366,25 @@
                 `;
             } else {
                 const isDouyin = source.category === '抖音';
+                const isBilibili = source.category === '哔哩哔哩';
                 
                 const listItems = source.items.slice(0, 20).map((item, idx) => {
                     const titleDisplay = item.title.length > 36 ? item.title.substring(0, 36) + '...' : item.title;
-                    // 只展示有意义的 author：非空、非重复标题、长度适中
+                    
+                    // 智能展示 author：
+                    // - 抖音：展示真正的作者名
+                    // - 哔哩哔哩：不展示 author（没有作者名概念）
+                    // - 其他：只展示非重复、非播放量的有意义 author
                     let authorDisplay = '';
                     if (item.author && item.author.length > 1 && item.author.length < 30) {
-                        const authorLower = item.author.toLowerCase().trim();
-                        const titleLower = item.title.toLowerCase().trim();
-                        // 如果 author 和 title 相同或包含关系，视为重复标题，不展示
-                        if (authorLower !== titleLower && !titleLower.includes(authorLower) && !authorLower.includes(titleLower)) {
+                        if (isDouyin) {
                             authorDisplay = item.author;
+                        } else if (!isBilibili) {
+                            const authorLower = item.author.toLowerCase().trim();
+                            const titleLower = item.title.toLowerCase().trim();
+                            if (authorLower !== titleLower && !titleLower.includes(authorLower) && !authorLower.includes(titleLower)) {
+                                authorDisplay = item.author;
+                            }
                         }
                     }
                     
