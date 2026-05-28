@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-28 13:05:20",
+  "update_time": "2026-05-28 13:10:21",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:23"
+      "update_time": "2026-05-28 13:10:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:25"
+      "update_time": "2026-05-28 13:10:26"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -582,83 +582,76 @@
         },
         {
           "rank": 9,
-          "title": "不信你们就试试#一见秦辛",
-          "author": "辛雨锡",
-          "heat": "4828064次播放",
-          "url": "https://www.douyin.com/video/7644478811605929851"
-        },
-        {
-          "rank": 10,
           "title": "真兄弟 摇起来 #中巴情长 #抖音潮流舞蹈大赛",
           "author": "张艺兴",
           "heat": "4407092次播放",
           "url": "https://www.douyin.com/video/7644178211471677786"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "title": "全力以赴，希望#火遮眼 不负期待！",
           "author": "谢苗",
           "heat": "4047369次播放",
           "url": "https://www.douyin.com/video/7644289282953852660"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "title": "好吃又低脂的希腊酸奶健康餐😋清清爽爽太适合夏天了！#首届下饭酱大赛 #野生挑战赛#吃瘦不饿瘦#减脂餐#秋秋餐厅",
           "author": "秋瓷炫",
           "heat": "3834778次播放",
           "url": "https://www.douyin.com/video/7644003407765991346"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "title": "#刘浩存 #刘浩存的音乐电台",
           "author": "刘浩存",
           "heat": "3777112次播放",
           "url": "https://www.douyin.com/video/7643711153307019707"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "奖池还在叠加#一见秦辛 #一见倾辛",
           "author": "辛雨锡",
           "heat": "3764812次播放",
           "url": "https://www.douyin.com/video/7644161541768576955"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "被我女儿的表情笑死了😂#萨摩耶 #滑板耶耶@滑板耶耶",
           "author": "z..",
           "heat": "3695876次播放",
           "url": "https://www.douyin.com/video/7643273441018358633"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "#杨紫 #杨紫董竹君 跟着#董竹君 君君@杨紫 一起云逛下#玉兰花开君再来 片场吧✌🏻️#杨紫玉兰花开君再来",
           "author": "杨紫工作室",
           "heat": "3586679次播放",
           "url": "https://www.douyin.com/video/7644528936253311331"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "跳舞～🧚💛🩵 出发前跳一下#时尚风格之夜 #粉彩系 #嘉人 #抖音",
           "author": "张雪迎Sophie",
           "heat": "3517597次播放",
           "url": "https://www.douyin.com/video/7643072742845147313"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "老婆看了张仁杰也生气 哎，以后尽量演好人吧！",
           "author": "演员褚峰",
           "heat": "3415912次播放",
           "url": "https://www.douyin.com/video/7644156555810784842"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "配上《虞兮叹》舞一曲 #万物告白手册#音乐MV共创计划#把日常拍成MV #虞兮叹",
           "author": "李依晓",
           "heat": "3362976次播放",
           "url": "https://www.douyin.com/video/7642997713441124262"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "稻田里的颜霸！意气风发孟弗渊 李现雾里青",
           "author": "蓝心💙李现ing",
           "heat": "3255905次播放",
@@ -666,9 +659,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:27"
+      "update_time": "2026-05-28 13:10:28"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:29"
+      "update_time": "2026-05-28 13:10:30"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:31"
+      "update_time": "2026-05-28 13:10:33"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:34"
+      "update_time": "2026-05-28 13:10:35"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:36"
+      "update_time": "2026-05-28 13:10:37"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:38"
+      "update_time": "2026-05-28 13:10:39"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:40"
+      "update_time": "2026-05-28 13:10:41"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-28 13:05:43"
+      "update_time": "2026-05-28 13:10:44"
     }
   }
 }
