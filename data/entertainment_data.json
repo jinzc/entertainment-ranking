@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-31 04:00:29",
+  "update_time": "2026-05-31 04:05:17",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:31"
+      "update_time": "2026-05-31 04:05:19"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:33"
+      "update_time": "2026-05-31 04:05:21"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:35"
+      "update_time": "2026-05-31 04:05:24"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:37"
+      "update_time": "2026-05-31 04:05:26"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:39"
+      "update_time": "2026-05-31 04:05:28"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:41"
+      "update_time": "2026-05-31 04:05:30"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:44"
+      "update_time": "2026-05-31 04:05:32"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:46"
+      "update_time": "2026-05-31 04:05:34"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1668,59 +1668,59 @@
         },
         {
           "rank": 3,
-          "title": "钟馗",
-          "author": "",
-          "heat": "3.",
-          "url": "https://movie.douban.com/subject/30226070"
-        },
-        {
-          "rank": 4,
           "title": "星球大战：曼达洛人与古古",
           "author": "",
-          "heat": "4.",
+          "heat": "3.",
           "url": "https://movie.douban.com/subject/36723035"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "森中有林",
           "author": "",
-          "heat": "5.",
+          "heat": "4.",
           "url": "https://movie.douban.com/subject/36372941"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "今晚正好",
           "author": "",
-          "heat": "6.",
+          "heat": "5.",
           "url": "https://movie.douban.com/subject/37317133"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "消失的人",
           "author": "",
-          "heat": "7.",
+          "heat": "6.",
           "url": "https://movie.douban.com/subject/36965301"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "绵羊侦探团",
           "author": "",
-          "heat": "8.",
+          "heat": "7.",
           "url": "https://movie.douban.com/subject/36918069"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "一个男人和一个女人",
           "author": "",
-          "heat": "9.",
+          "heat": "8.",
           "url": "https://movie.douban.com/subject/36311696"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "纵横四海",
           "author": "",
-          "heat": "10.",
+          "heat": "9.",
           "url": "https://movie.douban.com/subject/1295409"
+        },
+        {
+          "rank": 10,
+          "title": "钟馗",
+          "author": "",
+          "heat": "10.",
+          "url": "https://movie.douban.com/subject/30226070"
         },
         {
           "rank": 11,
@@ -1836,17 +1836,17 @@
         },
         {
           "rank": 27,
-          "title": "超级马力欧银河大电影",
+          "title": "午夜怨灵",
           "author": "",
           "heat": "27.",
-          "url": "https://movie.douban.com/subject/36806351"
+          "url": "https://movie.douban.com/subject/37184192"
         },
         {
           "rank": 28,
-          "title": "午夜怨灵",
+          "title": "超级马力欧银河大电影",
           "author": "",
           "heat": "28.",
-          "url": "https://movie.douban.com/subject/37184192"
+          "url": "https://movie.douban.com/subject/36806351"
         },
         {
           "rank": 29,
@@ -1871,17 +1871,17 @@
         },
         {
           "rank": 32,
-          "title": "燃比娃",
+          "title": "烈刃之怒",
           "author": "",
           "heat": "32.",
-          "url": "https://movie.douban.com/subject/35516786"
+          "url": "https://movie.douban.com/subject/35192382"
         },
         {
           "rank": 33,
-          "title": "烈刃之怒",
+          "title": "燃比娃",
           "author": "",
           "heat": "33.",
-          "url": "https://movie.douban.com/subject/35192382"
+          "url": "https://movie.douban.com/subject/35516786"
         },
         {
           "rank": 34,
@@ -1906,17 +1906,17 @@
         },
         {
           "rank": 37,
-          "title": "爱情城事",
+          "title": "非穷尽列举",
           "author": "",
           "heat": "37.",
-          "url": "https://movie.douban.com/subject/36539561"
+          "url": "https://movie.douban.com/subject/37293378"
         },
         {
           "rank": 38,
-          "title": "非穷尽列举",
+          "title": "爱情城事",
           "author": "",
           "heat": "38.",
-          "url": "https://movie.douban.com/subject/37293378"
+          "url": "https://movie.douban.com/subject/36539561"
         },
         {
           "rank": 39,
@@ -1948,45 +1948,45 @@
         },
         {
           "rank": 43,
-          "title": "登月(第一部)",
-          "author": "",
-          "heat": "43.",
-          "url": "https://movie.douban.com/subject/38362649"
-        },
-        {
-          "rank": 44,
           "title": "记忆碎片",
           "author": "",
-          "heat": "44.",
+          "heat": "43.",
           "url": "https://movie.douban.com/subject/26666400"
         },
         {
-          "rank": 45,
-          "title": "阳光女子合唱团",
+          "rank": 44,
+          "title": "登月(第一部)",
           "author": "",
-          "heat": "45.",
-          "url": "https://movie.douban.com/subject/37193250"
+          "heat": "44.",
+          "url": "https://movie.douban.com/subject/38362649"
         },
         {
-          "rank": 46,
+          "rank": 45,
           "title": "钢的琴",
           "author": "",
-          "heat": "46.",
+          "heat": "45.",
           "url": "https://movie.douban.com/subject/4876722"
         },
         {
-          "rank": 47,
+          "rank": 46,
           "title": "去年在马里昂巴德",
           "author": "",
-          "heat": "47.",
+          "heat": "46.",
           "url": "https://movie.douban.com/subject/1400240"
         },
         {
-          "rank": 48,
+          "rank": 47,
           "title": "凌晨两点半4",
           "author": "",
-          "heat": "48.",
+          "heat": "47.",
           "url": "https://movie.douban.com/subject/37434315"
+        },
+        {
+          "rank": 48,
+          "title": "阳光女子合唱团",
+          "author": "",
+          "heat": "48.",
+          "url": "https://movie.douban.com/subject/37193250"
         },
         {
           "rank": 49,
@@ -2006,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:48"
+      "update_time": "2026-05-31 04:05:37"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-05-31 04:00:50"
+      "update_time": "2026-05-31 04:05:39"
     }
   }
 }
