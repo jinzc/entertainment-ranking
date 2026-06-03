@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-04 03:45:27",
+  "update_time": "2026-06-04 03:50:25",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:29"
+      "update_time": "2026-06-04 03:50:28"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:31"
+      "update_time": "2026-06-04 03:50:30"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:33"
+      "update_time": "2026-06-04 03:50:33"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:35"
+      "update_time": "2026-06-04 03:50:36"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:37"
+      "update_time": "2026-06-04 03:50:51"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -835,362 +835,11 @@
       "category": "哔哩哔哩",
       "icon": "📽️",
       "color": "#EC4899",
-      "items": [
-        {
-          "rank": 1,
-          "title": "不止抽象！内娱唯一的硬汉！盘点嘎子谢孟伟职业生涯高光演技",
-          "author": "",
-          "heat": "203.2万",
-          "url": "https://www.bilibili.com/video/av116667149517318/"
-        },
-        {
-          "rank": 2,
-          "title": "演员魏宗万于6月1日去世，享年89岁",
-          "author": "",
-          "heat": "90.1万",
-          "url": "https://www.bilibili.com/video/av116680621561843/"
-        },
-        {
-          "rank": 3,
-          "title": "期末到了，你们寝室准备好应对之策了吗",
-          "author": "",
-          "heat": "125.1万",
-          "url": "https://www.bilibili.com/video/av116673323603460/"
-        },
-        {
-          "rank": 4,
-          "title": "什么红色呀？小鸡不知道",
-          "author": "",
-          "heat": "195.6万",
-          "url": "https://www.bilibili.com/video/av116668021936530/"
-        },
-        {
-          "rank": 5,
-          "title": "星光入团时每天都是噩梦，是梅芙阻止了那些渣子，但她的结局却极为炸裂",
-          "author": "",
-          "heat": "140.5万",
-          "url": "https://www.bilibili.com/video/av116667099125262/"
-        },
-        {
-          "rank": 6,
-          "title": "MEOVV - ‘DDI RO RI’ M/V OUT NOW!",
-          "author": "",
-          "heat": "41.0万",
-          "url": "https://www.bilibili.com/video/av116674497874885/"
-        },
-        {
-          "rank": 7,
-          "title": "楚人美游记1-15集合集 纯净版",
-          "author": "",
-          "heat": "325.2万",
-          "url": "https://www.bilibili.com/video/av116655556396690/"
-        },
-        {
-          "rank": 8,
-          "title": "《锻刀大赛》穷疯了？钢丝球锻刀 批量生产善良之刃！",
-          "author": "",
-          "heat": "102.0万",
-          "url": "https://www.bilibili.com/video/av116669364048903/"
-        },
-        {
-          "rank": 9,
-          "title": "“整整五小时，封存着我们最珍贵的童年回忆！”",
-          "author": "",
-          "heat": "22.6万",
-          "url": "https://www.bilibili.com/video/av116670404233951/"
-        },
-        {
-          "rank": 10,
-          "title": "只是一朵像蘑菇的云，可却要了草原上所有人的命。",
-          "author": "",
-          "heat": "68.4万",
-          "url": "https://www.bilibili.com/video/av116673474467017/"
-        },
-        {
-          "rank": 11,
-          "title": "许愿割喉、恶灵诅咒、萨满术法，不降智的恐怖剧有多爽！韩国恐怖剧《夺命许愿》上",
-          "author": "",
-          "heat": "62.5万",
-          "url": "https://www.bilibili.com/video/av116656630139855/"
-        },
-        {
-          "rank": 12,
-          "title": "影史上最爽的一颗大果",
-          "author": "",
-          "heat": "65.4万",
-          "url": "https://www.bilibili.com/video/av116667048793231/"
-        },
-        {
-          "rank": 13,
-          "title": "猎户家的小福女_1",
-          "author": "",
-          "heat": "70.3万",
-          "url": "https://www.bilibili.com/video/av116661462046724/"
-        },
-        {
-          "rank": 14,
-          "title": "终于有女主面对灭门之仇第一反应不是质问爱，而是直接杀了他，她真的用眼神演出了极致的恨！！！",
-          "author": "",
-          "heat": "49.7万",
-          "url": "https://www.bilibili.com/video/av116678759418431/"
-        },
-        {
-          "rank": 15,
-          "title": "陈翔六点半:废品江湖之群雄乱斗",
-          "author": "",
-          "heat": "63.7万",
-          "url": "https://www.bilibili.com/video/av116680101533226/"
-        },
-        {
-          "rank": 16,
-          "title": "千万级大场面的廉价拍摄方式！别人狠砸半个亿，你十几万就搞定了？",
-          "author": "",
-          "heat": "40.4万",
-          "url": "https://www.bilibili.com/video/av116685101074131/"
-        },
-        {
-          "rank": 17,
-          "title": "弱智吧仙人拷打弱智视频泄露流出！",
-          "author": "",
-          "heat": "50.6万",
-          "url": "https://www.bilibili.com/video/av116679531038221/"
-        },
-        {
-          "rank": 18,
-          "title": "经典动作电影《尖峰时刻》，成龙幽默电影的天花板，成了好莱坞最卖座的电影！",
-          "author": "",
-          "heat": "46.3万",
-          "url": "https://www.bilibili.com/video/av116679027787638/"
-        },
-        {
-          "rank": 19,
-          "title": "【纸牌屋】谁毁了这部剧，又是谁毁了凯文史派西",
-          "author": "",
-          "heat": "38.4万",
-          "url": "https://www.bilibili.com/video/av116673910674665/"
-        },
-        {
-          "rank": 20,
-          "title": "玛雅预言轰动世界引起恐慌，灾难片的里程碑，时隔14年再看依然震撼",
-          "author": "",
-          "heat": "31.6万",
-          "url": "https://www.bilibili.com/video/av116663005483324/"
-        },
-        {
-          "rank": 21,
-          "title": "“历代驰名第一妖”",
-          "author": "",
-          "heat": "191.3万",
-          "url": "https://www.bilibili.com/video/av116646983307232/"
-        },
-        {
-          "rank": 22,
-          "title": "红茶索命、画像杀人、驿站食人魔！最狠唐诡三连案！《唐诡第一季》第一期：长安红茶➕石桥图➕甘棠驿",
-          "author": "",
-          "heat": "27.4万",
-          "url": "https://www.bilibili.com/video/av116673726317176/"
-        },
-        {
-          "rank": 23,
-          "title": "砍腿割喉爆头虐杀！影史最强动作片之一？它算一个！万字拆解《突袭》",
-          "author": "",
-          "heat": "45.7万",
-          "url": "https://www.bilibili.com/video/av116667199787388/"
-        },
-        {
-          "rank": 24,
-          "title": "男人斩杀恶龙以血浴身，获得不死之躯刀枪不入，不料却有一处致命弱点！一口气看完奇幻巨制《尼伯龙根：王国之战》",
-          "author": "",
-          "heat": "37.7万",
-          "url": "https://www.bilibili.com/video/av116674078578367/"
-        },
-        {
-          "rank": 25,
-          "title": "爆笑喜剧！男人坚信努力工作根本发不了财，所以想方设法傍富婆吃软饭，结果遇到了同行！",
-          "author": "",
-          "heat": "31.2万",
-          "url": "https://www.bilibili.com/video/av116674229443485/"
-        },
-        {
-          "rank": 26,
-          "title": "全世界被海水淹没，地球只剩我一人",
-          "author": "",
-          "heat": "20.0万",
-          "url": "https://www.bilibili.com/video/av116674917308072/"
-        },
-        {
-          "rank": 27,
-          "title": "【普朗特】美国近代最诡异的谋杀案？",
-          "author": "",
-          "heat": "32.2万",
-          "url": "https://www.bilibili.com/video/av116666998458299/"
-        },
-        {
-          "rank": 28,
-          "title": "李小冉：漂亮女孩不会交朋友【女主角和女演员02】",
-          "author": "",
-          "heat": "26.8万",
-          "url": "https://www.bilibili.com/video/av116672669159870/"
-        },
-        {
-          "rank": 29,
-          "title": "第十集：锦衣卫副千户·密见天颜",
-          "author": "",
-          "heat": "31.8万",
-          "url": "https://www.bilibili.com/video/av116672702842973/"
-        },
-        {
-          "rank": 30,
-          "title": "【人民的名义26】赵东来都获得了哪些突破性的进展？",
-          "author": "",
-          "heat": "28.0万",
-          "url": "https://www.bilibili.com/video/av116678507632495/"
-        },
-        {
-          "rank": 31,
-          "title": "2026年过半，但年度最佳电影就是它了！《给阿嬷的情书》浅度解读",
-          "author": "",
-          "heat": "23.4万",
-          "url": "https://www.bilibili.com/video/av116663324379971/"
-        },
-        {
-          "rank": 32,
-          "title": "史上最过誉的电影。",
-          "author": "",
-          "heat": "20.9万",
-          "url": "https://www.bilibili.com/video/av116656714029955/"
-        },
-        {
-          "rank": 33,
-          "title": "摩托佬误闯《暴力摩托》赛场",
-          "author": "",
-          "heat": "127.3万",
-          "url": "https://www.bilibili.com/video/av116662284060264/"
-        },
-        {
-          "rank": 34,
-          "title": "【影Sir】简直人性惊悚片！婚前坦白局，霸凌未婚妻，A24新片《爱情抓马》赞达亚+罗伯特婚礼闹剧",
-          "author": "",
-          "heat": "23.7万",
-          "url": "https://www.bilibili.com/video/av116664096001005/"
-        },
-        {
-          "rank": 35,
-          "title": "当你把黑袍结局祖国人的声音换成千早爱音",
-          "author": "",
-          "heat": "20.9万",
-          "url": "https://www.bilibili.com/video/av116674196084614/"
-        },
-        {
-          "rank": 36,
-          "title": "【HP】多比之死为何让哈利完成最终觉醒，为什么“爱”才是击败伏地魔的关键？|《死亡圣器》原著细节盘点【哈利波特十级学者】",
-          "author": "",
-          "heat": "31.7万",
-          "url": "https://www.bilibili.com/video/av116669045277923/"
-        },
-        {
-          "rank": 37,
-          "title": "超越《昆池岩》成为韩恐第一？真实灵异禁地「杀木池」改编 | 夜班老司机《杀木池》",
-          "author": "",
-          "heat": "94.5万",
-          "url": "https://www.bilibili.com/video/av116657183790513/"
-        },
-        {
-          "rank": 38,
-          "title": "太抽象了！金基德《漂流欲室》：游离在爱与性的边缘...",
-          "author": "",
-          "heat": "15.4万",
-          "url": "https://www.bilibili.com/video/av116680017578516/"
-        },
-        {
-          "rank": 39,
-          "title": "炸弹视野：不好意思，叔叔那天拿错了",
-          "author": "",
-          "heat": "22.4万",
-          "url": "https://www.bilibili.com/video/av116681292651486/"
-        },
-        {
-          "rank": 40,
-          "title": "长期饱受校园欺凌，压抑怒火彻底爆发，少年险些用热视线灼伤全场",
-          "author": "",
-          "heat": "362.2万",
-          "url": "https://www.bilibili.com/video/av116618210447729/"
-        },
-        {
-          "rank": 41,
-          "title": "周处除三害之火影漂泊带土 能反应子弹的老弟，喜欢闪光虚化忍者吗？火影忍者手游#漂带",
-          "author": "",
-          "heat": "16.4万",
-          "url": "https://www.bilibili.com/video/av116668575517691/"
-        },
-        {
-          "rank": 42,
-          "title": "机械忠魂第一集 — 本视频由 #CineART 创作",
-          "author": "",
-          "heat": "112.1万",
-          "url": "https://www.bilibili.com/video/av116661646529714/"
-        },
-        {
-          "rank": 43,
-          "title": "3分钟一镜到底｜《镖人》动画电影首支先行预告片",
-          "author": "",
-          "heat": "23.8万",
-          "url": "https://www.bilibili.com/video/av116673541641910/"
-        },
-        {
-          "rank": 44,
-          "title": "自制AI小妞电影，和最讨厌的人灵魂互换了",
-          "author": "",
-          "heat": "32.1万",
-          "url": "https://www.bilibili.com/video/av116660975442763/"
-        },
-        {
-          "rank": 45,
-          "title": "爆肝84小时制作！还原上美经典《镜花缘：女儿国》真人版大电影 博主这演技吊打！不点赞就对不起博主！",
-          "author": "",
-          "heat": "56.8万",
-          "url": "https://www.bilibili.com/video/av116662837712382/"
-        },
-        {
-          "rank": 46,
-          "title": "AI手搓幻系精灵王和冰晶虎",
-          "author": "",
-          "heat": "23.6万",
-          "url": "https://www.bilibili.com/video/av116678407096923/"
-        },
-        {
-          "rank": 47,
-          "title": "不朽神作！全员恶人？全世界只能用一次的诡计！看完结局头皮发麻！深度解析《东方快车谋杀案》",
-          "author": "",
-          "heat": "46.7万",
-          "url": "https://www.bilibili.com/video/av116669162718222/"
-        },
-        {
-          "rank": 48,
-          "title": "【溯光记】新作上线，快来看看！",
-          "author": "",
-          "heat": "15.8万",
-          "url": "https://www.bilibili.com/video/av116673306887177/"
-        },
-        {
-          "rank": 49,
-          "title": "“12岁长了一张干翻六国的脸，这气质至今无代餐”",
-          "author": "",
-          "heat": "41.4万",
-          "url": "https://www.bilibili.com/video/av116558701531102/"
-        },
-        {
-          "rank": 50,
-          "title": "人类亲手撕开了世界的BUG！《后室》远比你想象的恐怖！",
-          "author": "",
-          "heat": "105.2万",
-          "url": "https://www.bilibili.com/video/av116649466269447/"
-        }
-      ],
-      "error": null,
-      "item_count": 50,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:39"
+      "update_time": "2026-06-04 03:51:14"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1202,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:42"
+      "update_time": "2026-06-04 03:51:17"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1285,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:44"
+      "update_time": "2026-06-04 03:51:19"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1648,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:46"
+      "update_time": "2026-06-04 03:51:21"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2011,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:45:48"
+      "update_time": "2026-06-04 03:51:23"
     }
   }
 }
