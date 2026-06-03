@@ -170,6 +170,25 @@
                 <p>数据来源：各平台官方 · 每小时自动更新</p>
                 <p class="mt-2 sm:mt-0">更新时间以北京时间为准</p>
             </div>
+            <!-- 访问统计 -->
+            <div class="mt-4 pt-4 border-t border-slate-50 flex items-center justify-center space-x-6">
+                <div class="flex items-center space-x-2 text-xs text-slate-400">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                    </svg>
+                    <span>今日访问</span>
+                    <span id="today-visits" class="font-bold text-slate-600">0</span>
+                </div>
+                <span class="w-px h-3 bg-slate-200"></span>
+                <div class="flex items-center space-x-2 text-xs text-slate-400">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                    </svg>
+                    <span>累计访问</span>
+                    <span id="total-visits" class="font-bold text-slate-600">0</span>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -343,7 +362,7 @@
             
             const div = document.createElement('div');
             div.className = 'source-card rounded-2xl shadow-sm overflow-hidden card-enter';
-            div.style.border = '4px solid ' + sourceColor + '35';
+            div.style.border = '1.5px solid ' + sourceColor + '35';
             div.style.animationDelay = delay + 's';
             
             let itemsHtml = '';
@@ -436,6 +455,38 @@
             
             return div;
         }
+
+        // 访问统计
+        function initVisitStats() {
+            const today = new Date().toISOString().split('T')[0];
+            const storageKey = 'ent_ranking_visits';
+            
+            // 读取数据
+            let data = JSON.parse(localStorage.getItem(storageKey) || '{"total":0,"daily":{}}');
+            
+            // 更新累计
+            data.total = (data.total || 0) + 1;
+            
+            // 更新当天
+            if (!data.daily) data.daily = {};
+            if (!data.daily[today]) data.daily[today] = 0;
+            data.daily[today] += 1;
+            
+            // 保存
+            localStorage.setItem(storageKey, JSON.stringify(data));
+            
+            // 展示
+            const todayEl = document.getElementById('today-visits');
+            const totalEl = document.getElementById('total-visits');
+            if (todayEl) todayEl.textContent = data.daily[today].toLocaleString();
+            if (totalEl) totalEl.textContent = data.total.toLocaleString();
+        }
+        
+        // 页面加载完成后初始化统计
+        document.addEventListener('DOMContentLoaded', () => {
+            // 等页面其他内容加载完再统计
+            setTimeout(initVisitStats, 500);
+        });
     </script>
 </body>
 </html>
