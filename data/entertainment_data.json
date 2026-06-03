@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-03 18:50:22",
+  "update_time": "2026-06-03 18:55:24",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:24"
+      "update_time": "2026-06-03 18:55:26"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:26"
+      "update_time": "2026-06-03 18:55:28"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -603,62 +603,55 @@
         },
         {
           "rank": 12,
-          "title": "离谱！鸡翅煮到糊底，锅还是干干净净！#不粘锅 #可乐鸡翅 #我的厨房日记",
-          "author": "程莉莎",
-          "heat": "7528265次播放",
-          "url": "https://www.douyin.com/video/7646070755062582666"
-        },
-        {
-          "rank": 13,
           "title": "重回我的“快乐老家”～那么多年的爱意都被它私藏了～#婚房 #回忆最初的我们 #抖抖好生活",
           "author": "杜若溪",
           "heat": "6830247次播放",
           "url": "https://www.douyin.com/video/7646727586924723647"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "终于，带爸爸去了他30年没有回去过的家乡 #记录真实生活#女演员的日常#回家",
           "author": "王一楠",
           "heat": "6084529次播放",
           "url": "https://www.douyin.com/video/7646684962321665343"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "蹦蹦跳跳过六一🎈@虞书欣Esther #虞书欣 #林晚星 #灿如繁星 #云初 #云初令",
           "author": "虞书欣工作室",
           "heat": "5513081次播放",
           "url": "https://www.douyin.com/video/7646434333486813627"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "#许你星河千里官宣 还不快跟上，巴云野可不会等你#剧剧抖有戏 #许你星河千里",
           "author": "沈羽洁Sylvi",
           "heat": "5280749次播放",
           "url": "https://www.douyin.com/video/7646482206424059170"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "做妈妈，我不后悔#反差 #当妈前vs当妈后 #罗海琼",
           "author": "罗海琼",
           "heat": "4982401次播放",
           "url": "https://www.douyin.com/video/7644882447540276506"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "贝儿浅唱一下，为老胡叔叔打call🐯🐯 #你要的全拿走 #清唱 #歌手2026",
           "author": "陆毅",
           "heat": "4921002次播放",
           "url": "https://www.douyin.com/video/7645248512096413349"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "👂#ecoutecherie #écoutechérie #星动营业中",
           "author": "薛凯琪",
           "heat": "4673902次播放",
           "url": "https://www.douyin.com/video/7638162077949195185"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "大家帮我看看穿这套去女儿应该满意了吧 #一定要看到最后 #搞笑 #父女日常#真实内容分享计划",
           "author": "杜玉明",
           "heat": "4529026次播放",
@@ -666,9 +659,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:29"
+      "update_time": "2026-06-03 18:55:30"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:31"
+      "update_time": "2026-06-03 18:55:32"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:33"
+      "update_time": "2026-06-03 18:55:34"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:35"
+      "update_time": "2026-06-03 18:55:36"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:37"
+      "update_time": "2026-06-03 18:55:38"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:40"
+      "update_time": "2026-06-03 18:55:40"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:42"
+      "update_time": "2026-06-03 18:55:42"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-03 18:50:44"
+      "update_time": "2026-06-03 18:55:44"
     }
   }
 }
