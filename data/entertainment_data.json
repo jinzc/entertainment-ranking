@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-04 03:20:30",
+  "update_time": "2026-06-04 03:25:21",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:32"
+      "update_time": "2026-06-04 03:25:26"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -370,152 +370,11 @@
       "category": "抖音",
       "icon": "🎵",
       "color": "#F59E0B",
-      "items": [
-        {
-          "rank": 1,
-          "title": "狂鲨来袭，小镇居民惊险逃生2026新剧狂鲨风暴 #抖音精选#了不起的精讲团",
-          "author": "小帅影探",
-          "heat": "6316662次播放",
-          "url": "https://www.douyin.com/video/7645238076477951284"
-        },
-        {
-          "rank": 2,
-          "title": "在广州地铁偶遇摆摊卖书的九旬爷爷，一个箱子，一张凳子，心中有爱永远年轻！#林宝山 #人间观察计划 #签售 #林宝山广州卖书老爷爷#林宝山爷爷为热爱摆摊",
-          "author": "迪丽若男",
-          "heat": "6254496次播放",
-          "url": "https://www.douyin.com/video/7645635153214524409"
-        },
-        {
-          "rank": 3,
-          "title": "“人在广东已经漂泊十年”coke线下首唱《广东爱情故事》 #coke #广东爱情故事",
-          "author": "难 忘",
-          "heat": "5876279次播放",
-          "url": "https://www.douyin.com/video/7646399472322992335"
-        },
-        {
-          "rank": 4,
-          "title": "英子这样的老师我怎么没遇到 #那英 #万妮达 #想要问问你敢不敢",
-          "author": "摸娱十级学者",
-          "heat": "5607327次播放",
-          "url": "https://www.douyin.com/video/7646388900243524904"
-        },
-        {
-          "rank": 5,
-          "title": "别说汪苏泷和小泷包了，谁看了都不舒服 #汪苏泷 #演唱会 #点歌 #不舒服",
-          "author": "姑苏慕容火",
-          "heat": "5458680次播放",
-          "url": "https://www.douyin.com/video/7646360731394247974"
-        },
-        {
-          "rank": 6,
-          "title": "詹俊：刚才天空中飞过的，那只鸽子是来自澳大利亚丹东农场，他曾在澳超第21轮墨尔本城对阵阿德莱德连的比赛当中飞过一次 #英超 #世界杯 #欧冠 #足球",
-          "author": "放映厅不停",
-          "heat": "5266687次播放",
-          "url": "https://www.douyin.com/video/7646765137998662952"
-        },
-        {
-          "rank": 7,
-          "title": "最纯爱那年 233米的澳门塔见证你们的勇敢 #奚梦瑶 #何猷君 #爱情 #cp #想要问问你敢不敢",
-          "author": "会火大明星",
-          "heat": "5186497次播放",
-          "url": "https://www.douyin.com/video/7646735964018127770"
-        },
-        {
-          "rank": 8,
-          "title": "有了男朋友，就不能有男闺蜜吗？ #陈翔六点半",
-          "author": "陈翔六点半",
-          "heat": "4886967次播放",
-          "url": "https://www.douyin.com/video/7646371258153651482"
-        },
-        {
-          "rank": 9,
-          "title": "呜呜呜 #陈都灵#楚朝#翘楚#第一个虎塑陈都灵的是天才",
-          "author": "璟思an",
-          "heat": "4881427次播放",
-          "url": "https://www.douyin.com/video/7646640763946810803"
-        },
-        {
-          "rank": 10,
-          "title": "信人还是信狗压力给到你们了#智利 #警犬 #万万没想到 #狗狗 #训导员",
-          "author": "娱小白",
-          "heat": "4828261次播放",
-          "url": "https://www.douyin.com/video/7646366354404134182"
-        },
-        {
-          "rank": 11,
-          "title": "这到底是发布会还是童话世界#Lolita #芭蕾 #童话 #人偶 #小蛋糕",
-          "author": "奈小妹",
-          "heat": "4781751次播放",
-          "url": "https://www.douyin.com/video/7646628852118809270"
-        },
-        {
-          "rank": 12,
-          "title": "戒烟的最高境界，想抽就抽，想不起来抽就不抽！ #戒烟 #健康 #清醒 #通透 #生活感悟",
-          "author": "胖猫痴娱",
-          "heat": "4752216次播放",
-          "url": "https://www.douyin.com/video/7646384136692698387"
-        },
-        {
-          "rank": 13,
-          "title": "《守护解放西6》只能说文明社会救了他 #守护解放西6 #守护解放西 #每周B看",
-          "author": "梗小昊",
-          "heat": "4714950次播放",
-          "url": "https://www.douyin.com/video/7646351324694465842"
-        },
-        {
-          "rank": 14,
-          "title": "神作之下第二名，千禧年的国漫杀疯了！ #动漫 #童年动画 #童年回忆 #二次元 #动漫编年史",
-          "author": "口嗨品剧",
-          "heat": "4667734次播放",
-          "url": "https://www.douyin.com/video/7642964217892556066"
-        },
-        {
-          "rank": 15,
-          "title": "所有韩国爱豆的敏感肌启动启动启动！ #kpop #李泳知 #黄铉辰 #多荣 #爱豆",
-          "author": "娱金香",
-          "heat": "4499931次播放",
-          "url": "https://www.douyin.com/video/7646380793492671779"
-        },
-        {
-          "rank": 16,
-          "title": "《守护解放西6》有种巴掌伸不进屏幕的无力感，22岁男子在店殴 打9岁小孩，家长居然选择原谅了 #守护解放西6 #每周B看 #守护解放西",
-          "author": "动漫发电站",
-          "heat": "4458727次播放",
-          "url": "https://www.douyin.com/video/7646700971208215858"
-        },
-        {
-          "rank": 17,
-          "title": "老大我们没有隐晦一点的方式了吗#哈马斯 #万万没想到 #国际新闻 #以色列 #语言艺术",
-          "author": "摸娱少女",
-          "heat": "4278420次播放",
-          "url": "https://www.douyin.com/video/7646474045508029696"
-        },
-        {
-          "rank": 18,
-          "title": "#奚梦瑶 #何猷君 晒婚礼照片！一家四口也一起合照好幸福！#王嘉尔 #谷爱凌 #何超莲",
-          "author": "明星娱乐一线",
-          "heat": "4259991次播放",
-          "url": "https://www.douyin.com/video/7646604844132467129"
-        },
-        {
-          "rank": 19,
-          "title": "爱上薛凯琪完全人之常情啊！#薛凯琪 #奔跑吧 #颜值 #考古",
-          "author": "是剧剧呀",
-          "heat": "4168175次播放",
-          "url": "https://www.douyin.com/video/7646362117087431951"
-        },
-        {
-          "rank": 20,
-          "title": "今年燃爆全场的一部国产动作犯罪猛片！ #动作 #冒险 #好看电影推荐",
-          "author": "飞鱼影库",
-          "heat": "4075157次播放",
-          "url": "https://www.douyin.com/video/7639625837125389574"
-        }
-      ],
-      "error": null,
-      "item_count": 20,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:34"
+      "update_time": "2026-06-04 03:25:50"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -523,145 +382,11 @@
       "category": "抖音",
       "icon": "⭐",
       "color": "#F59E0B",
-      "items": [
-        {
-          "rank": 1,
-          "title": "被天使吻过的孩子#公益医疗行动 #嫣然天使儿童医院 #六一儿童节",
-          "author": "李亚鹏",
-          "heat": "48847847次播放",
-          "url": "https://www.douyin.com/video/7646294080116539115"
-        },
-        {
-          "rank": 2,
-          "title": "看起来我们两个更想过儿童节？ #很蓝不分享的生活 #六一儿童节 #家庭日常",
-          "author": "王祖蓝",
-          "heat": "34025542次播放",
-          "url": "https://www.douyin.com/video/7646281761442764539"
-        },
-        {
-          "rank": 3,
-          "title": "抖来了都来了#好绝一男的 #双子 #抖抖好生活 #星趣研究所",
-          "author": "范丞丞",
-          "heat": "18487188次播放",
-          "url": "https://www.douyin.com/video/7646668774565241670"
-        },
-        {
-          "rank": 4,
-          "title": "五星好评 重磅来袭！ #乘风2026",
-          "author": "黄灿灿acan",
-          "heat": "11704735次播放",
-          "url": "https://www.douyin.com/video/7646669802837223232"
-        },
-        {
-          "rank": 5,
-          "title": "结婚31年了，谢谢你还愿意陪着我玩儿～也祝大家六一儿童节快乐！希望我们童心永驻🥰😝🌷🌷💗#夫妻日常 #最浪漫的事情是和你在一起 #记录这无法复刻的浪漫瞬间 #六一儿童节",
-          "author": "林依轮",
-          "heat": "11232113次播放",
-          "url": "https://www.douyin.com/video/7646349632134960232"
-        },
-        {
-          "rank": 6,
-          "title": "灵摆十年里面真有我，明儿可别忘了看啊！ #杨志刚 #黑马计划 #灵魂摆渡",
-          "author": "演员杨志刚",
-          "heat": "10504991次播放",
-          "url": "https://www.douyin.com/video/7646360567234574282"
-        },
-        {
-          "rank": 7,
-          "title": "🎉🎉。Ming和Mario要一辈子幸福呀！！ 誓词的时候真的热泪盈眶，愿你们岁岁年年 甜甜蜜蜜❤️ （ps 能够同一天婚礼纪念日也是一种幸福的缘分 以后能一起过哈哈哈哈） #何猷君 #奚梦瑶 #丁佳敏annie",
-          "author": "丁佳敏Annie",
-          "heat": "9891822次播放",
-          "url": "https://www.douyin.com/video/7646719777402946534"
-        },
-        {
-          "rank": 8,
-          "title": "Hi，芭比爹地，你抢我镜头了 #哈哈哈哈哈 #张雨霏",
-          "author": "张雨霏",
-          "heat": "8695689次播放",
-          "url": "https://www.douyin.com/video/7646030380403154609"
-        },
-        {
-          "rank": 9,
-          "title": "#翘楚开播 倘若有重生一次的机会……#翘楚",
-          "author": "陈都灵",
-          "heat": "7811462次播放",
-          "url": "https://www.douyin.com/video/7646612634578841778"
-        },
-        {
-          "rank": 10,
-          "title": "跟我一起回家 #耀眼",
-          "author": "李昀锐Lin",
-          "heat": "7794281次播放",
-          "url": "https://www.douyin.com/video/7645962661784301745"
-        },
-        {
-          "rank": 11,
-          "title": "祝大家六一儿童节快乐！",
-          "author": "刘浩存",
-          "heat": "7595816次播放",
-          "url": "https://www.douyin.com/video/7646288863849464570"
-        },
-        {
-          "rank": 12,
-          "title": "重回我的“快乐老家”～那么多年的爱意都被它私藏了～#婚房 #回忆最初的我们 #抖抖好生活",
-          "author": "杜若溪",
-          "heat": "6830247次播放",
-          "url": "https://www.douyin.com/video/7646727586924723647"
-        },
-        {
-          "rank": 13,
-          "title": "终于，带爸爸去了他30年没有回去过的家乡 #记录真实生活#女演员的日常#回家",
-          "author": "王一楠",
-          "heat": "6084529次播放",
-          "url": "https://www.douyin.com/video/7646684962321665343"
-        },
-        {
-          "rank": 14,
-          "title": "蹦蹦跳跳过六一🎈@虞书欣Esther #虞书欣 #林晚星 #灿如繁星 #云初 #云初令",
-          "author": "虞书欣工作室",
-          "heat": "5513081次播放",
-          "url": "https://www.douyin.com/video/7646434333486813627"
-        },
-        {
-          "rank": 15,
-          "title": "#许你星河千里官宣 还不快跟上，巴云野可不会等你#剧剧抖有戏 #许你星河千里",
-          "author": "沈羽洁Sylvi",
-          "heat": "5280749次播放",
-          "url": "https://www.douyin.com/video/7646482206424059170"
-        },
-        {
-          "rank": 16,
-          "title": "做妈妈，我不后悔#反差 #当妈前vs当妈后 #罗海琼",
-          "author": "罗海琼",
-          "heat": "4982401次播放",
-          "url": "https://www.douyin.com/video/7644882447540276506"
-        },
-        {
-          "rank": 17,
-          "title": "贝儿浅唱一下，为老胡叔叔打call🐯🐯 #你要的全拿走 #清唱 #歌手2026",
-          "author": "陆毅",
-          "heat": "4921002次播放",
-          "url": "https://www.douyin.com/video/7645248512096413349"
-        },
-        {
-          "rank": 18,
-          "title": "👂#ecoutecherie #écoutechérie #星动营业中",
-          "author": "薛凯琪",
-          "heat": "4673902次播放",
-          "url": "https://www.douyin.com/video/7638162077949195185"
-        },
-        {
-          "rank": 19,
-          "title": "大家帮我看看穿这套去女儿应该满意了吧 #一定要看到最后 #搞笑 #父女日常#真实内容分享计划",
-          "author": "杜玉明",
-          "heat": "4529026次播放",
-          "url": "https://www.douyin.com/video/7644858893813708916"
-        }
-      ],
-      "error": null,
-      "item_count": 19,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:37"
+      "update_time": "2026-06-04 03:26:14"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +469,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:39"
+      "update_time": "2026-06-04 03:26:16"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +552,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:41"
+      "update_time": "2026-06-04 03:26:19"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +915,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:43"
+      "update_time": "2026-06-04 03:26:21"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1278,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:46"
+      "update_time": "2026-06-04 03:26:24"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1361,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:48"
+      "update_time": "2026-06-04 03:26:26"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1724,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:50"
+      "update_time": "2026-06-04 03:26:29"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2087,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-04 03:20:52"
+      "update_time": "2026-06-04 03:26:31"
     }
   }
 }
