@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-07 01:30:26",
+  "update_time": "2026-06-07 01:35:20",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:28"
+      "update_time": "2026-06-07 01:35:22"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:30"
+      "update_time": "2026-06-07 01:35:24"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -654,7 +654,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:32"
+      "update_time": "2026-06-07 01:35:26"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:35"
+      "update_time": "2026-06-07 01:35:28"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:37"
+      "update_time": "2026-06-07 01:35:30"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:39"
+      "update_time": "2026-06-07 01:35:32"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:41"
+      "update_time": "2026-06-07 01:35:34"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:43"
+      "update_time": "2026-06-07 01:35:36"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1654,45 +1654,45 @@
         },
         {
           "rank": 3,
-          "title": "诺曼底72小时",
-          "author": "",
-          "heat": "3.",
-          "url": "https://movie.douban.com/subject/36916000"
-        },
-        {
-          "rank": 4,
           "title": "给阿嬷的情书",
           "author": "",
-          "heat": "4.",
+          "heat": "3.",
           "url": "https://movie.douban.com/subject/37116446"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "一个男人和一个女人",
           "author": "",
-          "heat": "5.",
+          "heat": "4.",
           "url": "https://movie.douban.com/subject/36311696"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "家弑服务",
           "author": "",
-          "heat": "6.",
+          "heat": "5.",
           "url": "https://movie.douban.com/subject/36367195"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "星球大战：曼达洛人与古古",
           "author": "",
-          "heat": "7.",
+          "heat": "6.",
           "url": "https://movie.douban.com/subject/36723035"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "危险动物",
           "author": "",
-          "heat": "8.",
+          "heat": "7.",
           "url": "https://movie.douban.com/subject/36883048"
+        },
+        {
+          "rank": 8,
+          "title": "诺曼底72小时",
+          "author": "",
+          "heat": "8.",
+          "url": "https://movie.douban.com/subject/36916000"
         },
         {
           "rank": 9,
@@ -1759,17 +1759,17 @@
         },
         {
           "rank": 18,
-          "title": "穿普拉达的女王2",
+          "title": "真人快打2",
           "author": "",
           "heat": "18.",
-          "url": "https://movie.douban.com/subject/36956594"
+          "url": "https://movie.douban.com/subject/35754057"
         },
         {
           "rank": 19,
-          "title": "真人快打2",
+          "title": "穿普拉达的女王2",
           "author": "",
           "heat": "19.",
-          "url": "https://movie.douban.com/subject/35754057"
+          "url": "https://movie.douban.com/subject/36956594"
         },
         {
           "rank": 20,
@@ -1976,23 +1976,23 @@
         },
         {
           "rank": 49,
-          "title": "燃比娃",
+          "title": "钢的琴",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/35516786"
+          "url": "https://movie.douban.com/subject/4876722"
         },
         {
           "rank": 50,
-          "title": "钢的琴",
+          "title": "燃比娃",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/4876722"
+          "url": "https://movie.douban.com/subject/35516786"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:46"
+      "update_time": "2026-06-07 01:35:39"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-07 01:30:48"
+      "update_time": "2026-06-07 01:35:41"
     }
   }
 }
