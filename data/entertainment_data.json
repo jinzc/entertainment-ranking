@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-20 01:35:23",
+  "update_time": "2026-06-20 01:40:30",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:26"
+      "update_time": "2026-06-20 01:40:32"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -443,69 +443,62 @@
         },
         {
           "rank": 11,
-          "title": "老乌龟突然开口说话，内容震惊主人 #老龟开口我囤满物资度末世 #掌阅短剧 #好剧推荐",
-          "author": "呓语三郎",
-          "heat": "5114753次播放",
-          "url": "https://www.douyin.com/video/7652324914032886894"
-        },
-        {
-          "rank": 12,
           "title": "朋友们 敬请期待今晚你罗总的精彩表现吧！ （未用任何本届世界杯赛事画面 官方大大明查！）#C罗 #梅西 #姆巴佩 #哈兰德 #压力",
           "author": "摸娱少女",
           "heat": "5035553次播放",
           "url": "https://www.douyin.com/video/7652335113975516452"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "title": "闺蜜我说不清楚 你自己来看吧#男排 #热身 #拉伸 #体育生",
           "author": "饭桶TV",
           "heat": "4989604次播放",
           "url": "https://www.douyin.com/video/7652668670266674458"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "现在是真的可以说我奶来了都比你打得好了！#娟姨 #donk #csgo #游戏 #电竞",
           "author": "爱豆鸭",
           "heat": "4953887次播放",
           "url": "https://www.douyin.com/video/7652620172931007990"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "终于懂为什么这么多人喜欢看足球了(未用世界杯任何画面) #欧冠小组赛 #姆巴佩 #足球 #佛得角",
           "author": "娱圈小甜甜",
           "heat": "4891638次播放",
           "url": "https://www.douyin.com/video/7652294356837158178"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "#丁禹兮清唱答案 在现场就这样被小丁的歌声俘获！#丁禹兮 #南部档案 #南部档案抖音追剧团",
           "author": "芒果妈妈",
           "heat": "4889094次播放",
           "url": "https://www.douyin.com/video/7652608147844074778"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "狗子：我知道你的出发点是好的，但是能不能先不出发 #坚强 #小狗 #万万没想到 #内容启发搜索（素材来源于网络且内容为个人观点，仅供娱乐）",
           "author": "赛博洞察司徒风",
           "heat": "4876508次播放",
           "url": "https://www.douyin.com/video/7652631849998601524"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "刘亦菲真的是美，内娱毋庸置疑的神仙姐姐，气质太绝了！#女神刘亦菲 #刘亦菲 #剪映",
           "author": "樊拍凯摄",
           "heat": "4865892次播放",
           "url": "https://www.douyin.com/video/7652375550468592506"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "给你立了这么大的功，放生了吧#小龙虾 #搞笑 #抽象",
           "author": "娱圈蒸有料",
           "heat": "4834641次播放",
           "url": "https://www.douyin.com/video/7652328984474127679"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "姐姐们要这么演我可就感兴趣了！#昨夜将至 #王佳佳 #江疏影 #佟大为 #昨夜将至全员狠人局",
           "author": "剧荒不慌",
           "heat": "4720804次播放",
@@ -513,9 +506,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:28"
+      "update_time": "2026-06-20 01:40:34"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -654,7 +647,7 @@
       "error": null,
       "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:30"
+      "update_time": "2026-06-20 01:40:36"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +730,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:33"
+      "update_time": "2026-06-20 01:40:38"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +813,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:35"
+      "update_time": "2026-06-20 01:40:40"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1176,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:37"
+      "update_time": "2026-06-20 01:40:42"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1539,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:39"
+      "update_time": "2026-06-20 01:40:44"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1622,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:41"
+      "update_time": "2026-06-20 01:40:46"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1852,7 +1845,7 @@
       "error": null,
       "item_count": 30,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:44"
+      "update_time": "2026-06-20 01:40:48"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2215,7 +2208,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 01:35:46"
+      "update_time": "2026-06-20 01:40:50"
     }
   }
 }
