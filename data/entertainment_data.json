@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-20 08:50:29",
+  "update_time": "2026-06-20 08:55:21",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:31"
+      "update_time": "2026-06-20 08:55:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:33"
+      "update_time": "2026-06-20 08:55:26"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -518,136 +518,143 @@
       "color": "#F59E0B",
       "items": [
         {
+          "rank": 1,
+          "title": "一千多一份粥还能谈得上性价比真的挺奇怪的#日常vlog",
+          "author": "王宁",
+          "heat": "17625266次播放",
+          "url": "https://www.douyin.com/video/7652928750232932209"
+        },
+        {
           "rank": 2,
-          "title": "“把世界交给世界，把自己还给自己” 在角色的世界里全情投入，在现实的生活中自由呼吸。大唐，不只是出行的座驾，更是一个让我心安的百变空间。#张若昀代言比亚迪大唐 @比亚迪汽车 @比亚迪王朝",
-          "author": "张若昀STUDIO",
-          "heat": "12992305次播放",
-          "url": "https://www.douyin.com/video/7652269713330603938"
+          "title": "周五好！#抖抖好生活 #抽象 #爱情鸟",
+          "author": "景甜",
+          "heat": "13617998次播放",
+          "url": "https://www.douyin.com/video/7652926281810599658"
         },
         {
           "rank": 3,
-          "title": "有人懂你奇奇怪怪 有人陪你可可爱爱",
-          "author": "白鹿my",
-          "heat": "12799366次播放",
-          "url": "https://www.douyin.com/video/7652348821833693071"
+          "title": "欢迎来到浩存的音乐电台，祝大家端午安康，端来好运。#刘浩存 #刘浩存音乐电台",
+          "author": "刘浩存",
+          "heat": "10880304次播放",
+          "url": "https://www.douyin.com/video/7652939599955112825"
         },
         {
           "rank": 4,
-          "title": "我不是花，是叶子🍃",
-          "author": "刘萌萌",
-          "heat": "12161636次播放",
-          "url": "https://www.douyin.com/video/7652550138896998537"
-        },
-        {
-          "rank": 5,
-          "title": "请回答520+99=？？？ 都懂我意思吧嘿嘿嘿 ❤️💢😡",
-          "author": "王玉雯U.Vin",
-          "heat": "11641443次播放",
-          "url": "https://www.douyin.com/video/7652337333241562353"
-        },
-        {
-          "rank": 6,
-          "title": "新剧大家看了没？母女对手戏真的很带感啊！#黄奕 #周柯宇 #包上恩 #炽夏",
-          "author": "黄奕",
-          "heat": "7679925次播放",
-          "url": "https://www.douyin.com/video/7652568853175618850"
-        },
-        {
-          "rank": 8,
-          "title": "建模实在是太顶了😍什么发型都驾驭得非常完美🥰#孙俪",
-          "author": "孙俪工作室",
-          "heat": "6250995次播放",
-          "url": "https://www.douyin.com/video/7652553433929610363"
-        },
-        {
-          "rank": 9,
           "title": "筹备许久的 MV 终于和大家见面了。这首歌藏着我们最真实的情绪，希望屏幕前的你，能在旋律里找到共鸣。《逍遥仙》，愿歌声温暖你。@MovieFlow #筷子兄弟逍遥仙MV上线",
           "author": "筷子兄弟",
-          "heat": "6109894次播放",
+          "heat": "9109568次播放",
           "url": "https://www.douyin.com/video/7651260573616048232"
         },
         {
+          "rank": 5,
+          "title": "女儿的高中毕业典礼，我比她还激动 #毕业 #毕业季 #新青年的新世界 #不再依赖校园算长大了吗 #新青年的毕业照",
+          "author": "翁虹",
+          "heat": "8204658次播放",
+          "url": "https://www.douyin.com/video/7652951342276824356"
+        },
+        {
+          "rank": 6,
+          "title": "有人懂你奇奇怪怪 有人陪你可可爱爱",
+          "author": "白鹿my",
+          "heat": "7354413次播放",
+          "url": "https://www.douyin.com/video/7652348821833693071"
+        },
+        {
+          "rank": 7,
+          "title": "预祝大家端午节快乐！😘 明晚演唱会见！(づ￣3￣)づ╭❤～ #齐迹2026 #任贤齐演唱会 #成都 #端午安康粽子香",
+          "author": "任贤齐",
+          "heat": "6447059次播放",
+          "url": "https://www.douyin.com/video/7652733807078652288"
+        },
+        {
+          "rank": 8,
+          "title": "召唤一下#小嗷 😏 #王一博小嗷aoo全球代言人 #王一博召唤小嗷",
+          "author": "王一博",
+          "heat": "6065515次播放",
+          "url": "https://www.douyin.com/video/7652951429896432335"
+        },
+        {
+          "rank": 9,
+          "title": "今天画了个妆 虽然下雨了 看不到日落和大海 但也一定出门 虽然不能当饭吃，但可以喂养无趣的灵魂。#抖音时尚设计师大赛",
+          "author": "林允Jelly",
+          "heat": "5922526次播放",
+          "url": "https://www.douyin.com/video/7652726873357735345"
+        },
+        {
           "rank": 10,
-          "title": "后天就过端午节了，时间过得好快哦，半年又过去了#美味的粽子 #抖音助力",
-          "author": "实话实说🌈",
-          "heat": "5723063次播放",
-          "url": "https://www.douyin.com/video/7652133642207041785"
+          "title": "请回答520+99=？？？ 都懂我意思吧嘿嘿嘿 ❤️💢😡",
+          "author": "王玉雯U.Vin",
+          "heat": "5508432次播放",
+          "url": "https://www.douyin.com/video/7652337333241562353"
         },
         {
           "rank": 11,
-          "title": "蓄⃠谋⃠筹备已久的 MV Ⅱ，终于跟大家见面了，用最真挚的画面，柔情似水的鞭⃠打⃠打动你我，在旋律里找共鸣，在画面里乐逍遥，《逍遥仙》愿歌声陪伴你。",
-          "author": "筷子兄弟",
-          "heat": "5454156次播放",
-          "url": "https://www.douyin.com/video/7651635853324643555"
-        },
-        {
-          "rank": 12,
-          "title": "爱忘拿谁古拜？ #张真源 #张真源进行曲 #我的天空 #抖音潮流舞蹈大赛",
-          "author": "罗杰_RL",
-          "heat": "5427830次播放",
-          "url": "https://www.douyin.com/video/7652367586923757474"
+          "title": "『金瑛小课堂』之我们学化妆第一期终于来了！！！ #化妆零基础入门 #化妆教程",
+          "author": "金九粒",
+          "heat": "5276782次播放",
+          "url": "https://www.douyin.com/video/7652693637013554858"
         },
         {
           "rank": 13,
-          "title": "山艺歌手大赛《答案》 去年的《兄弟抱一下》的兄弟俩又带着新歌来参赛了，满满的松弛主打一个“活人感”硬是把比赛唱成了“个唱”#山东艺术学院 #济南 #毕业季 #大学生 #翻唱 @山东艺术学院 @生活帮 @闪电乐队（生活帮音乐会）",
-          "author": "主持人其楷",
-          "heat": "5392256次播放",
-          "url": "https://www.douyin.com/video/7652155980067866548"
+          "title": "「请你参与我的夏天」🍃",
+          "author": "包上恩",
+          "heat": "4954427次播放",
+          "url": "https://www.douyin.com/video/7652838239242253937"
         },
         {
           "rank": 14,
-          "title": "闺女的高中毕业就是一家人的大事件 #记录真实生活#女演员的日常#毕业季#sk2神仙水",
-          "author": "王一楠",
-          "heat": "5123981次播放",
-          "url": "https://www.douyin.com/video/7650415808698518784"
+          "title": "蓄⃠谋⃠筹备已久的 MV Ⅱ，终于跟大家见面了，用最真挚的画面，柔情似水的鞭⃠打⃠打动你我，在旋律里找共鸣，在画面里乐逍遥，《逍遥仙》愿歌声陪伴你。",
+          "author": "筷子兄弟",
+          "heat": "4648546次播放",
+          "url": "https://www.douyin.com/video/7651635853324643555"
         },
         {
           "rank": 15,
-          "title": "一曲痴狂，那是我的来时路 #为爱痴狂dj版",
-          "author": "金志文-GT",
-          "heat": "5070428次播放",
-          "url": "https://www.douyin.com/video/7651925777180629190"
+          "title": "生日快乐，我们30岁的好老板！ 人生从来不是个数字 ！最紧要好玩！ #任贤齐 #齐迹2026 #生日快乐",
+          "author": "任贤齐",
+          "heat": "4623693次播放",
+          "url": "https://www.douyin.com/video/7652979048448052515"
         },
         {
           "rank": 16,
-          "title": "“机车女神”的速度与激情 #机车女神 #速度与激情 #重庆落地签",
-          "author": "金九粒",
-          "heat": "5007365次播放",
-          "url": "https://www.douyin.com/video/7652349951225633222"
+          "title": "挽一缕红纱，覆一段年华，这首歌唱给大家听！#龚琳娜张云雷新歌挽红纱 #歌曲挽红纱",
+          "author": "龚琳娜",
+          "heat": "4451880次播放",
+          "url": "https://www.douyin.com/video/7652644099530525994"
         },
         {
           "rank": 17,
-          "title": "一切的相遇都是缘，且行且珍惜#张庭 #抖抖好生活 #唱歌",
-          "author": "张庭",
-          "heat": "4469939次播放",
-          "url": "https://www.douyin.com/video/7652432171793173787"
+          "title": "原来是现在的我 。",
+          "author": "虞书欣Esther",
+          "heat": "4265809次播放",
+          "url": "https://www.douyin.com/video/7653075679177843365"
         },
         {
           "rank": 18,
-          "title": "想转场？力度要够！#拍摄无止晋 #两栖户外人先感受夏天",
-          "author": "张晋max",
-          "heat": "4461230次播放",
-          "url": "https://www.douyin.com/video/7652293229543600613"
+          "title": "我不是花，是叶子🍃",
+          "author": "刘萌萌",
+          "heat": "4249429次播放",
+          "url": "https://www.douyin.com/video/7652550138896998537"
         },
         {
           "rank": 19,
-          "title": "朝朝暮暮共白头#岁月如笔写春秋 #翻唱 #杨西音子",
-          "author": "杨西音",
-          "heat": "4277542次播放",
-          "url": "https://www.douyin.com/video/7652307689331324145"
+          "title": "奔赴大唐之约，体验旗舰座驾。#张若昀代言比亚迪大唐 #汽车明星嘉年华",
+          "author": "张若昀STUDIO",
+          "heat": "3883028次播放",
+          "url": "https://www.douyin.com/video/7652722937036764303"
         },
         {
           "rank": 20,
-          "title": "#陈伟霆 和刘亦菲在w电影之夜活动上打招呼合影#上海 #王志诚 #陈伟霆九门 #张启山",
-          "author": "陈伟霆的tada",
-          "heat": "4274250次播放",
-          "url": "https://www.douyin.com/video/7652335149476298851"
+          "title": "#谭松韵王铮亮小半对唱 想你时候的心理活动都唱在《小半》里了，你听出来了吗？#天赐的声音",
+          "author": "王铮亮",
+          "heat": "3763021次播放",
+          "url": "https://www.douyin.com/video/7653010376195453809"
         }
       ],
       "error": null,
-      "item_count": 18,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:35"
+      "update_time": "2026-06-20 08:55:28"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -730,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:37"
+      "update_time": "2026-06-20 08:55:31"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -813,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:39"
+      "update_time": "2026-06-20 08:55:33"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1176,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:41"
+      "update_time": "2026-06-20 08:55:35"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1539,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:43"
+      "update_time": "2026-06-20 08:55:37"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1622,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:45"
+      "update_time": "2026-06-20 08:55:39"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1985,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:47"
+      "update_time": "2026-06-20 08:55:42"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2348,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-20 08:50:50"
+      "update_time": "2026-06-20 08:55:44"
     }
   }
 }
