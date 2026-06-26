@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-26 08:55:23",
+  "update_time": "2026-06-26 09:00:42",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:24"
+      "update_time": "2026-06-26 09:00:44"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:26"
+      "update_time": "2026-06-26 09:00:47"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -519,135 +519,142 @@
       "items": [
         {
           "rank": 1,
-          "title": "感谢闺女，不仅态度好，还免费！#跳水 #体育 #三亚 #父女日常",
-          "author": "田亮26号早8点袋鼠妈妈新品代言人机制！",
-          "heat": "27715884次播放",
-          "url": "https://www.douyin.com/video/7654751225137287338"
+          "title": "process PFW prep #王嘉尔 #巴黎时装周",
+          "author": "王嘉尔",
+          "heat": "83667339次播放",
+          "url": "https://www.douyin.com/video/7655032750538011579"
         },
         {
           "rank": 2,
-          "title": "伸手不打笑脸人 #包无趣的日常 #我的变脸速度belike #搞笑#反转",
-          "author": "包贝尔",
-          "heat": "12098371次播放",
-          "url": "https://www.douyin.com/video/7654553961689667707"
-        },
-        {
-          "rank": 3,
-          "title": "A little chaos.🧔🏻 A little LV.👜 Paris, I’m here.🏃🏻💨🇫🇷 #王嘉尔 #巴黎时装周",
-          "author": "王嘉尔",
-          "heat": "9565036次播放",
-          "url": "https://www.douyin.com/video/7654643993766960361"
-        },
-        {
-          "rank": 4,
-          "title": "小展拳脚中哈哈哈！#鼠牛功夫高虎兔胆气豪 #抖抖好生活",
-          "author": "卢昱晓",
-          "heat": "8918805次播放",
-          "url": "https://www.douyin.com/video/7654864098387879338"
-        },
-        {
-          "rank": 5,
-          "title": "宣布个事儿。 所有粉丝平移到@王勉 账号",
-          "author": "王影璐_",
-          "heat": "7181573次播放",
-          "url": "https://www.douyin.com/video/7654847919275605617"
-        },
-        {
-          "rank": 7,
-          "title": "这次，我们在乌英，建了一间永不毕业的图书馆…她们走不出大山，我们就把世界，搬到她们面前！ #吴克群的巡演看世界 #人间观察计划",
-          "author": "吴克群",
-          "heat": "6500070次播放",
-          "url": "https://www.douyin.com/video/7654559802504367205"
-        },
-        {
-          "rank": 8,
-          "title": "筹备许久的 MV 终于和大家见面了。这首歌藏着我们最真实的情绪，希望屏幕前的你，能在旋律里找到共鸣。《逍遥仙》，愿歌声温暖你。@MovieFlow #筷子兄弟逍遥仙MV上线",
-          "author": "筷子兄弟",
-          "heat": "6245907次播放",
-          "url": "https://www.douyin.com/video/7651260573616048232"
-        },
-        {
-          "rank": 9,
-          "title": "🖤 @魏笑smile 专门给你选的配乐 你肯定喜欢",
-          "author": "赵露思",
-          "heat": "5845780次播放",
-          "url": "https://www.douyin.com/video/7654930078925530344"
-        },
-        {
-          "rank": 10,
-          "title": "外卖测评第二期，这次吃的是杭州！ #外卖分享 #赤赤赫赫的vlog #杭州美食",
-          "author": "陈赫",
-          "heat": "4853612次播放",
-          "url": "https://www.douyin.com/video/7654532039995149577"
-        },
-        {
-          "rank": 11,
-          "title": "被看见很幸运，接下来，也一起往前吧！#看见音乐计划年度盛典 #看见音乐计划",
-          "author": "丁禹兮",
-          "heat": "4730682次播放",
-          "url": "https://www.douyin.com/video/7654840336351196083"
-        },
-        {
-          "rank": 12,
-          "title": "天王刘德华现身开会，尽显偶像担当！ #刘德华",
-          "author": "刘德华站",
-          "heat": "4302262次播放",
-          "url": "https://www.douyin.com/video/7654890840221854953"
-        },
-        {
-          "rank": 13,
-          "title": "千万别跟人较劲，否则你会耗尽所有的精力！ 何洁揭秘人际关系的残酷真相：承受不合理，是变强大的开始@何洁 #个人成长 #认知 #社交 #人际关系 #何洁",
-          "author": "陈正飞Andy",
-          "heat": "4085418次播放",
-          "url": "https://www.douyin.com/video/7654478936293772570"
-        },
-        {
-          "rank": 14,
-          "title": "手搓BGM限时返场，忍不住又唱了起来！#最炫民族风手势舞 #抖音潮流舞蹈大赛",
-          "author": "张艺凡ZYF",
-          "heat": "3707805次播放",
-          "url": "https://www.douyin.com/video/7654906833471130932"
-        },
-        {
-          "rank": 15,
-          "title": "当赵吏突然想到灵摆十年自己只有三场戏时 #灵魂摆渡十年 #灵魂摆渡 #赵吏",
-          "author": "于毅",
-          "heat": "3569394次播放",
-          "url": "https://www.douyin.com/video/7654142922134811121"
-        },
-        {
-          "rank": 16,
-          "title": "“许愿幸福降临手心，于是你出现在了我的生活。”#剧剧抖有戏",
-          "author": "周柯宇",
-          "heat": "3464950次播放",
-          "url": "https://www.douyin.com/video/7654791401482058858"
-        },
-        {
-          "rank": 17,
-          "title": "夏天的新疆在呼唤我☀️#summer #旅行转场 #森林氧吧 #抖抖好生活",
-          "author": "徐璐LULU",
-          "heat": "3428060次播放",
-          "url": "https://www.douyin.com/video/7654528532143541554"
-        },
-        {
-          "rank": 18,
           "title": "带老婆来山西这景区玩，没想到顿顿免费，还报了些高速费#来司徒小镇花小钱过大瘾 #心动目的地 #心动1001夜",
           "author": "演员郭涛",
-          "heat": "3423677次播放",
+          "heat": "10544710次播放",
           "url": "https://www.douyin.com/video/7652244005748631194"
         },
         {
+          "rank": 3,
+          "title": "这次，我们在乌英，建了一间永不毕业的图书馆…她们走不出大山，我们就把世界，搬到她们面前！ #吴克群的巡演看世界 #人间观察计划",
+          "author": "吴克群",
+          "heat": "8096542次播放",
+          "url": "https://www.douyin.com/video/7654559802504367205"
+        },
+        {
+          "rank": 4,
+          "title": "《写故事的人》MV正式上线 #汪苏泷宋雨琦写故事的人MV",
+          "author": "汪苏泷",
+          "heat": "6693718次播放",
+          "url": "https://www.douyin.com/video/7654999267446290917"
+        },
+        {
+          "rank": 5,
+          "title": "肠粉也能卖出这个价格，并且里面还没有花胶#日常vlog",
+          "author": "王宁",
+          "heat": "6442921次播放",
+          "url": "https://www.douyin.com/video/7655159065437461105"
+        },
+        {
+          "rank": 6,
+          "title": "自然光第二集 #窦文涛 #papi酱 #聊客 #大有学问 #窦文涛的聊客",
+          "author": "窦文涛",
+          "heat": "6062278次播放",
+          "url": "https://www.douyin.com/video/7655178770713709870"
+        },
+        {
+          "rank": 7,
+          "title": "A little chaos.🧔🏻 A little LV.👜 Paris, I’m here.🏃🏻💨🇫🇷 #王嘉尔 #巴黎时装周",
+          "author": "王嘉尔",
+          "heat": "5874260次播放",
+          "url": "https://www.douyin.com/video/7654643993766960361"
+        },
+        {
+          "rank": 8,
+          "title": "真是海绵宝宝 #犯罪悬疑剧 #昨夜将至 #演员任重 #迷雾剧场",
+          "author": "演员任重",
+          "heat": "5570222次播放",
+          "url": "https://www.douyin.com/video/7655186086361489850"
+        },
+        {
+          "rank": 9,
+          "title": "筹备许久的 MV 终于和大家见面了。这首歌藏着我们最真实的情绪，希望屏幕前的你，能在旋律里找到共鸣。《逍遥仙》，愿歌声温暖你。@MovieFlow #筷子兄弟逍遥仙MV上线",
+          "author": "筷子兄弟",
+          "heat": "5399906次播放",
+          "url": "https://www.douyin.com/video/7651260573616048232"
+        },
+        {
+          "rank": 10,
+          "title": "总会带给你意想不到的走向 #网剧照殿花开",
+          "author": "肖凯中KEVIN",
+          "heat": "4925779次播放",
+          "url": "https://www.douyin.com/video/7654958953127169512"
+        },
+        {
+          "rank": 11,
+          "title": "🖤 @魏笑smile 专门给你选的配乐 你肯定喜欢",
+          "author": "赵露思",
+          "heat": "4897967次播放",
+          "url": "https://www.douyin.com/video/7654930078925530344"
+        },
+        {
+          "rank": 12,
+          "title": "小展拳脚中哈哈哈！#鼠牛功夫高虎兔胆气豪 #抖抖好生活",
+          "author": "卢昱晓",
+          "heat": "4835298次播放",
+          "url": "https://www.douyin.com/video/7654864098387879338"
+        },
+        {
+          "rank": 13,
+          "title": "你们是从什么时候认识我#我要去找从前那个我 #港风回忆杀 #经典港片 #青春",
+          "author": "骆达华",
+          "heat": "4828089次播放",
+          "url": "https://www.douyin.com/video/7655262461814446833"
+        },
+        {
+          "rank": 14,
+          "title": "伸手不打笑脸人 #包无趣的日常 #我的变脸速度belike #搞笑#反转",
+          "author": "包贝尔",
+          "heat": "4735062次播放",
+          "url": "https://www.douyin.com/video/7654553961689667707"
+        },
+        {
+          "rank": 15,
+          "title": "#吴磊 燥侯大男主！！！！谁懂这个全阵容官宣选角啊！太牛了。",
+          "author": "LEO-半知",
+          "heat": "4464665次播放",
+          "url": "https://www.douyin.com/video/7654944202031713266"
+        },
+        {
+          "rank": 16,
+          "title": "一键回到小时候📷 #今天是父亲节 #转场",
+          "author": "Loong9张镐濂",
+          "heat": "3916680次播放",
+          "url": "https://www.douyin.com/video/7653703590921396849"
+        },
+        {
+          "rank": 17,
+          "title": "谐音歌词版WAIYA，会有更多朋友知道发音唱吗 ～ #歌手2026 #谐音歌曲 #七溜八溜waiya",
+          "author": "万妮达Vinida",
+          "heat": "3878486次播放",
+          "url": "https://www.douyin.com/video/7653403014007668179"
+        },
+        {
+          "rank": 18,
+          "title": "#依然的喜事 春光巷相亲相爱一家人？全员摊牌，谁也别演了🤪#抽象 #剧情",
+          "author": "黄小蕾",
+          "heat": "3824301次播放",
+          "url": "https://www.douyin.com/video/7654946411968400777"
+        },
+        {
           "rank": 19,
-          "title": "老公加油。今晚坐等老公进球⚽️ #c罗 #老公 #葡萄牙 #世界杯 #球王c罗",
-          "author": "李彩桦 Rainli",
-          "heat": "3158806次播放",
-          "url": "https://www.douyin.com/video/7654503933751473893"
+          "title": "MAGICMAN 2 世界巡演 2026-2027 圣地亚哥站 Recap Video . #王嘉尔MAGICMAN2世界巡演 #JACKSONWANGWORLDTOUR #MAGICMAN2 #JACKSONWANG #王嘉尔",
+          "author": "王嘉尔",
+          "heat": "3767610次播放",
+          "url": "https://www.douyin.com/video/7635639068126638163"
         }
       ],
       "error": null,
-      "item_count": 18,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:28"
+      "update_time": "2026-06-26 09:00:49"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -730,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:31"
+      "update_time": "2026-06-26 09:00:51"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -813,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:33"
+      "update_time": "2026-06-26 09:00:53"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1176,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:35"
+      "update_time": "2026-06-26 09:00:55"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1539,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:37"
+      "update_time": "2026-06-26 09:00:58"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1622,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:39"
+      "update_time": "2026-06-26 09:01:00"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1985,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:41"
+      "update_time": "2026-06-26 09:01:02"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2348,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-26 08:55:43"
+      "update_time": "2026-06-26 09:01:04"
     }
   }
 }
