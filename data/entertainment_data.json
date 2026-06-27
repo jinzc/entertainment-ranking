@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-28 00:30:34",
+  "update_time": "2026-06-28 00:35:21",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:37"
+      "update_time": "2026-06-28 00:35:23"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:39"
+      "update_time": "2026-06-28 00:35:25"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:41"
+      "update_time": "2026-06-28 00:35:27"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:43"
+      "update_time": "2026-06-28 00:35:30"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:46"
+      "update_time": "2026-06-28 00:35:32"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:48"
+      "update_time": "2026-06-28 00:35:34"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:50"
+      "update_time": "2026-06-28 00:35:36"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:52"
+      "update_time": "2026-06-28 00:35:38"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1787,79 +1787,79 @@
         },
         {
           "rank": 20,
-          "title": "续范亭将军",
-          "author": "",
-          "heat": "20.",
-          "url": "https://movie.douban.com/subject/37234431"
-        },
-        {
-          "rank": 21,
           "title": "我们的名字",
           "author": "",
-          "heat": "21.",
+          "heat": "20.",
           "url": "https://movie.douban.com/subject/37260227"
         },
         {
-          "rank": 22,
+          "rank": 21,
           "title": "蓝蓝的天上白云飘",
           "author": "",
-          "heat": "22.",
+          "heat": "21.",
           "url": "https://movie.douban.com/subject/35619616"
         },
         {
-          "rank": 23,
+          "rank": 22,
           "title": "特立独行",
           "author": "",
-          "heat": "23.",
+          "heat": "22.",
           "url": "https://movie.douban.com/subject/36953973"
         },
         {
-          "rank": 24,
+          "rank": 23,
           "title": "小黄人与大怪兽",
           "author": "",
-          "heat": "24.",
+          "heat": "23.",
           "url": "https://movie.douban.com/subject/36962219"
         },
         {
-          "rank": 25,
+          "rank": 24,
           "title": "魔方小姐",
           "author": "",
-          "heat": "25.",
+          "heat": "24.",
           "url": "https://movie.douban.com/subject/36808520"
         },
         {
-          "rank": 26,
+          "rank": 25,
           "title": "开个玩笑",
           "author": "",
-          "heat": "26.",
+          "heat": "25.",
           "url": "https://movie.douban.com/subject/37942006"
         },
         {
-          "rank": 27,
+          "rank": 26,
           "title": "三国第一部：争洛阳",
           "author": "",
-          "heat": "27.",
+          "heat": "26.",
           "url": "https://movie.douban.com/subject/36752981"
         },
         {
-          "rank": 28,
+          "rank": 27,
           "title": "海洋奇缘：启航",
           "author": "",
-          "heat": "28.",
+          "heat": "27.",
           "url": "https://movie.douban.com/subject/36343469"
         },
         {
-          "rank": 29,
+          "rank": 28,
           "title": "大圣崛起",
           "author": "",
-          "heat": "29.",
+          "heat": "28.",
           "url": "https://movie.douban.com/subject/26822087"
+        },
+        {
+          "rank": 29,
+          "title": "命抉",
+          "author": "",
+          "heat": "29.",
+          "url": "https://movie.douban.com/subject/35498099"
         }
       ],
       "error": null,
       "item_count": 29,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:54"
+      "update_time": "2026-06-28 00:35:41"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2222,7 +2222,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-06-28 00:30:57"
+      "update_time": "2026-06-28 00:35:43"
     }
   }
 }
