@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-04 14:50:29",
+  "update_time": "2026-07-04 14:55:19",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:31"
+      "update_time": "2026-07-04 14:55:21"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:34"
+      "update_time": "2026-07-04 14:55:23"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -575,90 +575,83 @@
         },
         {
           "rank": 8,
-          "title": "有多少“大朋友”还记得这句话呀？ #亲爱的大朋友小朋友们 #陪伴 #初心 #护肤 #百雀羚",
-          "author": "月亮姐姐",
-          "heat": "5927359次播放",
-          "url": "https://www.douyin.com/video/7657092324380089571"
-        },
-        {
-          "rank": 9,
           "title": "璇姐不在，璇姐安排了一切",
           "author": "徐可",
           "heat": "5566462次播放",
           "url": "https://www.douyin.com/video/7658133787998787475"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "GG EZ😎In Hong Kong#雨琦的citydance #ggez #活人感一夏",
           "author": "宋雨琦_i-dle",
           "heat": "5162314次播放",
           "url": "https://www.douyin.com/video/7657774683777459572"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "title": "AI来了，时代变了 #黄西 #脱口秀",
           "author": "黄西",
           "heat": "5028044次播放",
           "url": "https://www.douyin.com/video/7658218761882701083"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "title": "动作越大，出片越炸#活人感一夏",
           "author": "张予曦",
           "heat": "4947993次播放",
           "url": "https://www.douyin.com/video/7658223925495999419"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "title": "当我说想要一个酷酷亮相😎#活人感一夏",
           "author": "王楚然",
           "heat": "4512515次播放",
           "url": "https://www.douyin.com/video/7658221424843409657"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "这智商！",
           "author": "韩兆导演（条子哥）",
           "heat": "4511480次播放",
           "url": "https://www.douyin.com/video/7658149308990930681"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "还没有正式宣传过 我的演唱会要来了 到时见",
           "author": "黄子韬",
           "heat": "4199377次播放",
           "url": "https://www.douyin.com/video/7657853006175571215"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "“艾特你身边的吴彦祖！”#吴彦祖",
           "author": "大白cut",
           "heat": "3931489次播放",
           "url": "https://www.douyin.com/video/7657912146302666100"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "不知不觉，慢慢变老了 #慕容晓晓 #姑娘爱情郎",
           "author": "慕容晓晓",
           "heat": "3888703次播放",
           "url": "https://www.douyin.com/video/7657488284016608251"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "救救我 我被她一顿说… 我扛不住了 还逼着我拍那个猫咪的",
           "author": "黄子韬",
           "heat": "3857995次播放",
           "url": "https://www.douyin.com/video/7656833762907285903"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "要知道马斯克距离一个小目标比我们更远#马斯克 #钱 #首富 #抽象",
           "author": "娱乐西施王美丽",
           "heat": "3839386次播放",
           "url": "https://www.douyin.com/video/7658199617342901539"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "和我的“铁哥们”再次来到成都，这次加大火力，继续全开！#王力宏最好的地方巡回演唱会 #巡演日记 #王力宏巡演日记",
           "author": "王力宏",
           "heat": "3500868次播放",
@@ -666,9 +659,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:36"
+      "update_time": "2026-07-04 14:55:25"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:38"
+      "update_time": "2026-07-04 14:55:28"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:40"
+      "update_time": "2026-07-04 14:55:30"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:42"
+      "update_time": "2026-07-04 14:55:32"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:44"
+      "update_time": "2026-07-04 14:55:34"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:46"
+      "update_time": "2026-07-04 14:55:37"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:48"
+      "update_time": "2026-07-04 14:55:39"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-04 14:50:51"
+      "update_time": "2026-07-04 14:55:41"
     }
   }
 }
