@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-07 06:20:27",
+  "update_time": "2026-07-07 06:25:20",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:29"
+      "update_time": "2026-07-07 06:25:21"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:31"
+      "update_time": "2026-07-07 06:25:24"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -526,135 +526,149 @@
       "items": [
         {
           "rank": 1,
-          "title": "我们五个人点一盘菜我觉得都得打包，之前还感觉自己挺能吃的#日常vlog",
-          "author": "王宁",
-          "heat": "11672191次播放",
-          "url": "https://www.douyin.com/video/7658876697017766373"
+          "title": "哈兰德 太猛了！！",
+          "author": "陈赫",
+          "heat": "33109645次播放",
+          "url": "https://www.douyin.com/video/7659173449213960063"
         },
         {
           "rank": 2,
           "title": "欢迎收看《我的妹妹生日快乐》",
           "author": "韩昊霖Finn",
-          "heat": "10415064次播放",
+          "heat": "10372165次播放",
           "url": "https://www.douyin.com/video/7658997558120095610"
         },
         {
           "rank": 3,
-          "title": "#野狗骨头开播 等藤城一场雨 #野狗骨头 #宋威龙 #陈异",
-          "author": "宋威龙",
-          "heat": "7012945次播放",
-          "url": "https://www.douyin.com/video/7658892212978253937"
+          "title": "中国海军成功发射潜射导弹，日本记者问：导弹目的地是哪里？ #全球创作者计划 #日本 #高市早苗",
+          "author": "苑庆攀",
+          "heat": "6641658次播放",
+          "url": "https://www.douyin.com/video/7659343489155453361"
         },
         {
           "rank": 4,
-          "title": "小心震荡❗️#迷核手势舞",
-          "author": "黄明昊Justin",
-          "heat": "6771493次播放",
-          "url": "https://www.douyin.com/video/7658961606815037413"
-        },
-        {
-          "rank": 5,
-          "title": "快告诉@虞书欣Esther ，这支视频和足球传到哪去了？待会儿见！#虞书欣 #林晚星 #灿如繁星",
-          "author": "虞书欣工作室",
-          "heat": "6680140次播放",
-          "url": "https://www.douyin.com/video/7658876749296024761"
-        },
-        {
-          "rank": 6,
-          "title": "苏州 Day2 #李荣浩巡演日记",
-          "author": "李荣浩",
-          "heat": "6554286次播放",
-          "url": "https://www.douyin.com/video/7658584482459482277"
-        },
-        {
-          "rank": 7,
-          "title": "#野狗骨头开播 涂莉的藤城落地签已安排上！ #野狗骨头 #落地签",
-          "author": "何瑞贤",
-          "heat": "6504306次播放",
-          "url": "https://www.douyin.com/video/7658859362602410906"
-        },
-        {
-          "rank": 8,
-          "title": "从被人歧视的黄毛变成向日葵，把光带进了饺子馆🌻 #吴克群的巡演看世界 #人间观察计划",
-          "author": "吴克群",
-          "heat": "6008877次播放",
-          "url": "https://www.douyin.com/video/7658858651889222031"
-        },
-        {
-          "rank": 9,
-          "title": "刚到陕西咸阳淳化县！淳化反诈宣传做的很好#欢迎 大家来到陕西咸阳淳化县玩#演员李嘉明 #正能量传递 #反诈骗宣传",
-          "author": "演员李嘉明",
-          "heat": "5977913次播放",
-          "url": "https://www.douyin.com/video/7658891227663929521"
-        },
-        {
-          "rank": 10,
-          "title": "这就是被撩的感觉吗☺️#活人感一夏 #夫妻日常 #婚后生活",
-          "author": "熊黛林 Lynn Xiong",
-          "heat": "5708672次播放",
-          "url": "https://www.douyin.com/video/7658972762136137819"
-        },
-        {
-          "rank": 11,
-          "title": "一不小心又被老板@郑恺 帅到了！在线解锁本周花絮之胜利归来🎁～ #郑恺 #奔跑吧 #小郑青年 #活人感一夏 #装备党",
-          "author": "郑恺工作室",
-          "heat": "5547756次播放",
-          "url": "https://www.douyin.com/video/7658308743956506289"
-        },
-        {
-          "rank": 12,
-          "title": "估计最近空调卖家要发财了😄 #精神状态belike #欧洲 #空调 #养猪",
-          "author": "芮丹尼",
-          "heat": "5385328次播放",
-          "url": "https://www.douyin.com/video/7657515302116707250"
-        },
-        {
-          "rank": 13,
           "title": "每天早上起来第一件事: #活人感一夏 #显化 #高能量 #吸引力法则",
           "author": "蓝盈莹Lyric",
-          "heat": "5344510次播放",
+          "heat": "5589567次播放",
           "url": "https://www.douyin.com/video/7658968029859412913"
         },
         {
-          "rank": 14,
-          "title": "苏州 Day3",
+          "rank": 5,
+          "title": "想要一个满是遗憾的评论～",
+          "author": "侍宣如",
+          "heat": "5525959次播放",
+          "url": "https://www.douyin.com/video/7659246654076437339"
+        },
+        {
+          "rank": 6,
+          "title": "特惠车拒开空调合理吗？ #打车#内耗#剧情#未来导演计划",
+          "author": "孙大聪明",
+          "heat": "5276139次播放",
+          "url": "https://www.douyin.com/video/7659303291058179369"
+        },
+        {
+          "rank": 7,
+          "title": "这一锅，有十几年的功力。#徐良太原演唱会",
+          "author": "徐良",
+          "heat": "4018285次播放",
+          "url": "https://www.douyin.com/video/7659342250141038322"
+        },
+        {
+          "rank": 8,
+          "title": "哎呀！！本体出现🐽🐽 #活人感一夏 #西瓜猪鼻子拍照",
+          "author": "黄羿",
+          "heat": "4002805次播放",
+          "url": "https://www.douyin.com/video/7659065603714203066"
+        },
+        {
+          "rank": 9,
+          "title": "蛋黄到底能不能吃，一天吃几个？反式脂肪从哪里来，它的危害有多大？关于血脂与饮食的那些问题，一条视频讲清楚！#视频播客扶持计划#抖来聊聊#健康科普知识破圈#降血脂#冷知识",
+          "author": "主持人李静｜21天打卡进行中",
+          "heat": "3940757次播放",
+          "url": "https://www.douyin.com/video/7659275292652883240"
+        },
+        {
+          "rank": 10,
+          "title": "小心震荡❗️#迷核手势舞",
+          "author": "黄明昊Justin",
+          "heat": "3766242次播放",
+          "url": "https://www.douyin.com/video/7658961606815037413"
+        },
+        {
+          "rank": 11,
+          "title": "一起得意！#得意的笑 #得意舞挑战 #国乐无双",
+          "author": "李宇春",
+          "heat": "3415933次播放",
+          "url": "https://www.douyin.com/video/7658984998372996794"
+        },
+        {
+          "rank": 12,
+          "title": "#野狗骨头开播 等藤城一场雨 #野狗骨头 #宋威龙 #陈异",
+          "author": "宋威龙",
+          "heat": "3269061次播放",
+          "url": "https://www.douyin.com/video/7658892212978253937"
+        },
+        {
+          "rank": 13,
+          "title": "我可太喜欢这狗了",
           "author": "李荣浩",
-          "heat": "5334832次播放",
-          "url": "https://www.douyin.com/video/7658953212967920881"
+          "heat": "3242389次播放",
+          "url": "https://www.douyin.com/video/7659333329661134309"
+        },
+        {
+          "rank": 14,
+          "title": "这个保洁服有点贵 #徐洁儿 #阚清子 #搞笑",
+          "author": "To不彤",
+          "heat": "3217483次播放",
+          "url": "https://www.douyin.com/video/7659084546500347618"
         },
         {
           "rank": 15,
-          "title": "在高考状元林晚星@虞书欣Esther 的字典里，没有“极限”二字，只有“不过如此”😎#虞书欣 #林晚星 #灿如繁星",
-          "author": "虞书欣工作室",
-          "heat": "5081650次播放",
-          "url": "https://www.douyin.com/video/7658929039088531045"
+          "title": "答应你们的🩵 #星动营业中 #走路带风 #开心面对每一天",
+          "author": "张月YueZhang",
+          "heat": "3204938次播放",
+          "url": "https://www.douyin.com/video/7659280199665704049"
         },
         {
           "rank": 16,
-          "title": "新鸳鸯蝴蝶梦 #齐迹2026 #任贤齐 #合肥演唱会",
-          "author": "任贤齐",
-          "heat": "4904434次播放",
-          "url": "https://www.douyin.com/video/7658683999988108587"
+          "title": "晒出「背基尼」怎么办？👙 #吴克群的巡演看世界 #人间观察计划",
+          "author": "吴克群",
+          "heat": "3150229次播放",
+          "url": "https://www.douyin.com/video/7652156339510272378"
         },
         {
           "rank": 17,
-          "title": "𝗕𝗚𝗠一响，夏天登场～#开启地球夏日online #这是夏天的第一个夏天",
-          "author": "Dear-迪丽热巴",
-          "heat": "4831474次播放",
-          "url": "https://www.douyin.com/video/7658613049339859299"
+          "title": "痛感在上台的这一刻消失了，因为你的爱是良药，我们永远在舞台上见！#王力宏最好的地方巡回演唱会 #王力宏巡演日记 #巡演日记",
+          "author": "王力宏",
+          "heat": "3116588次播放",
+          "url": "https://www.douyin.com/video/7659076929173871539"
         },
         {
           "rank": 18,
-          "title": "思念大家是一种职业病🥹",
-          "author": "赵昭仪",
-          "heat": "4779146次播放",
-          "url": "https://www.douyin.com/video/7658927855438495476"
+          "title": "鸡有里脊吗？ #猪里脊 #鸡里脊#剧情#未来导演计划",
+          "author": "孙大聪明",
+          "heat": "2977687次播放",
+          "url": "https://www.douyin.com/video/7658196063437851954"
+        },
+        {
+          "rank": 19,
+          "title": "变成一对差点缘分 装成朋友少点天分",
+          "author": "几年夏",
+          "heat": "2860297次播放",
+          "url": "https://www.douyin.com/video/7659259889063071003"
+        },
+        {
+          "rank": 20,
+          "title": "coco姐，你是我爱过最久最久的女歌手，过去未来都是，我会带着你对我的鼓励一直唱下去，我爱你。#你留下的爱 #coco李玟",
+          "author": "锤娜丽莎",
+          "heat": "2821601次播放",
+          "url": "https://www.douyin.com/video/7659032281538334307"
         }
       ],
       "error": null,
-      "item_count": 18,
+      "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:34"
+      "update_time": "2026-07-07 06:25:26"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:36"
+      "update_time": "2026-07-07 06:25:28"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:38"
+      "update_time": "2026-07-07 06:25:30"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:40"
+      "update_time": "2026-07-07 06:25:32"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:42"
+      "update_time": "2026-07-07 06:25:34"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:44"
+      "update_time": "2026-07-07 06:25:36"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1992,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:47"
+      "update_time": "2026-07-07 06:25:38"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-07 06:20:49"
+      "update_time": "2026-07-07 06:25:40"
     }
   }
 }
