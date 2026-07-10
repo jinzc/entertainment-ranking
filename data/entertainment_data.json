@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-11 00:10:32",
+  "update_time": "2026-07-11 00:15:23",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -10,31 +10,31 @@
       "items": [
         {
           "rank": 1,
-          "title": "歌手排名",
-          "author": "",
-          "heat": "1.",
-          "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D&t=152&Refer=top"
-        },
-        {
-          "rank": 2,
           "title": "杜江发声视频屡遭下架",
           "author": "",
-          "heat": "2.",
+          "heat": "1.",
           "url": "https://s.weibo.com/weibo?q=%E6%9D%9C%E6%B1%9F%E5%8F%91%E5%A3%B0%E8%A7%86%E9%A2%91%E5%B1%A1%E9%81%AD%E4%B8%8B%E6%9E%B6&t=152&Refer=top"
         },
         {
+          "rank": 2,
+          "title": "歌手排名",
+          "author": "",
+          "heat": "2.",
+          "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D&t=152&Refer=top"
+        },
+        {
           "rank": 3,
-          "title": "霍思燕家的鸟又夺冠了",
+          "title": "助理刘文耀",
           "author": "",
           "heat": "3.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E6%80%9D%E7%87%95%E5%AE%B6%E7%9A%84%E9%B8%9F%E5%8F%88%E5%A4%BA%E5%86%A0%E4%BA%86%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%8A%A9%E7%90%86%E5%88%98%E6%96%87%E8%80%80&t=152&Refer=top"
         },
         {
           "rank": 4,
-          "title": "助理刘文耀",
+          "title": "霍思燕家的鸟又夺冠了",
           "author": "",
           "heat": "4.",
-          "url": "https://s.weibo.com/weibo?q=%E5%8A%A9%E7%90%86%E5%88%98%E6%96%87%E8%80%80&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E6%80%9D%E7%87%95%E5%AE%B6%E7%9A%84%E9%B8%9F%E5%8F%88%E5%A4%BA%E5%86%A0%E4%BA%86%23&t=152&Refer=top"
         },
         {
           "rank": 5,
@@ -45,52 +45,52 @@
         },
         {
           "rank": 6,
-          "title": "宋承炫宣布得子",
-          "author": "",
-          "heat": "6.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E6%89%BF%E7%82%AB%E5%AE%A3%E5%B8%83%E5%BE%97%E5%AD%90%23&t=152&Refer=top"
-        },
-        {
-          "rank": 7,
-          "title": "迪丽热巴大腿肌踢成巨肌了",
-          "author": "",
-          "heat": "7.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%A4%A7%E8%85%BF%E8%82%8C%E8%B8%A2%E6%88%90%E5%B7%A8%E8%82%8C%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 8,
-          "title": "白鹿每次憋哭就这样",
-          "author": "",
-          "heat": "8.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E6%AF%8F%E6%AC%A1%E6%86%8B%E5%93%AD%E5%B0%B1%E8%BF%99%E6%A0%B7%23&t=152&Refer=top"
-        },
-        {
-          "rank": 9,
-          "title": "刘大锤聊杨洋宋茜分手时不愉快",
-          "author": "",
-          "heat": "9.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%A4%A7%E9%94%A4%E8%81%8A%E6%9D%A8%E6%B4%8B%E5%AE%8B%E8%8C%9C%E5%88%86%E6%89%8B%E6%97%B6%E4%B8%8D%E6%84%89%E5%BF%AB%23&t=152&Refer=top"
-        },
-        {
-          "rank": 10,
           "title": "宋威龙工作室有仙人吧",
           "author": "",
-          "heat": "10.",
+          "heat": "6.",
           "url": "https://s.weibo.com/weibo?q=%E5%AE%8B%E5%A8%81%E9%BE%99%E5%B7%A5%E4%BD%9C%E5%AE%A4%E6%9C%89%E4%BB%99%E4%BA%BA%E5%90%A7&t=152&Refer=top"
         },
         {
+          "rank": 7,
+          "title": "宋承炫宣布得子",
+          "author": "",
+          "heat": "7.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E6%89%BF%E7%82%AB%E5%AE%A3%E5%B8%83%E5%BE%97%E5%AD%90%23&t=152&Refer=top"
+        },
+        {
+          "rank": 8,
+          "title": "黄晓明在田曦薇素人时期刷过礼物",
+          "author": "",
+          "heat": "8.",
+          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E6%99%93%E6%98%8E%E5%9C%A8%E7%94%B0%E6%9B%A6%E8%96%87%E7%B4%A0%E4%BA%BA%E6%97%B6%E6%9C%9F%E5%88%B7%E8%BF%87%E7%A4%BC%E7%89%A9&t=152&Refer=top"
+        },
+        {
+          "rank": 9,
+          "title": "迪丽热巴大腿肌踢成巨肌了",
+          "author": "",
+          "heat": "9.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%A4%A7%E8%85%BF%E8%82%8C%E8%B8%A2%E6%88%90%E5%B7%A8%E8%82%8C%E4%BA%86%23&t=152&Refer=top"
+        },
+        {
+          "rank": 10,
+          "title": "白鹿每次憋哭就这样",
+          "author": "",
+          "heat": "10.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E6%AF%8F%E6%AC%A1%E6%86%8B%E5%93%AD%E5%B0%B1%E8%BF%99%E6%A0%B7%23&t=152&Refer=top"
+        },
+        {
           "rank": 11,
-          "title": "昀牵孟绕",
+          "title": "刘大锤聊杨洋宋茜分手时不愉快",
           "author": "",
           "heat": "11.",
-          "url": "https://s.weibo.com/weibo?q=%E6%98%80%E7%89%B5%E5%AD%9F%E7%BB%95&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%A4%A7%E9%94%A4%E8%81%8A%E6%9D%A8%E6%B4%8B%E5%AE%8B%E8%8C%9C%E5%88%86%E6%89%8B%E6%97%B6%E4%B8%8D%E6%84%89%E5%BF%AB%23&t=152&Refer=top"
         },
         {
           "rank": 12,
-          "title": "李钟硕多次向IU求婚",
+          "title": "周星驰口碑",
           "author": "",
           "heat": "12.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E9%92%9F%E7%A1%95%E5%A4%9A%E6%AC%A1%E5%90%91IU%E6%B1%82%E5%A9%9A%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E6%98%9F%E9%A9%B0%E5%8F%A3%E7%A2%91&t=152&Refer=top"
         },
         {
           "rank": 13,
@@ -101,157 +101,157 @@
         },
         {
           "rank": 14,
-          "title": "wpp",
+          "title": "昀牵孟绕",
           "author": "",
           "heat": "14.",
-          "url": "https://s.weibo.com/weibo?q=wpp&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%98%80%E7%89%B5%E5%AD%9F%E7%BB%95&t=152&Refer=top"
         },
         {
           "rank": 15,
-          "title": "迪丽热巴这动作把我腿掰折也做不到",
+          "title": "李钟硕多次向IU求婚",
           "author": "",
           "heat": "15.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E8%BF%99%E5%8A%A8%E4%BD%9C%E6%8A%8A%E6%88%91%E8%85%BF%E6%8E%B0%E6%8A%98%E4%B9%9F%E5%81%9A%E4%B8%8D%E5%88%B0%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E9%92%9F%E7%A1%95%E5%A4%9A%E6%AC%A1%E5%90%91IU%E6%B1%82%E5%A9%9A%23&t=152&Refer=top"
         },
         {
           "rank": 16,
-          "title": "黄晓明在田曦薇素人时期刷过礼物",
+          "title": "wpp",
           "author": "",
           "heat": "16.",
-          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E6%99%93%E6%98%8E%E5%9C%A8%E7%94%B0%E6%9B%A6%E8%96%87%E7%B4%A0%E4%BA%BA%E6%97%B6%E6%9C%9F%E5%88%B7%E8%BF%87%E7%A4%BC%E7%89%A9&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=wpp&t=152&Refer=top"
         },
         {
           "rank": 17,
-          "title": "周星驰口碑",
+          "title": "迪丽热巴这动作把我腿掰折也做不到",
           "author": "",
           "heat": "17.",
-          "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E6%98%9F%E9%A9%B0%E5%8F%A3%E7%A2%91&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E8%BF%99%E5%8A%A8%E4%BD%9C%E6%8A%8A%E6%88%91%E8%85%BF%E6%8E%B0%E6%8A%98%E4%B9%9F%E5%81%9A%E4%B8%8D%E5%88%B0%23&t=152&Refer=top"
         },
         {
           "rank": 18,
-          "title": "功夫女足",
-          "author": "",
-          "heat": "18.",
-          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3&t=152&Refer=top"
-        },
-        {
-          "rank": 19,
-          "title": "万妮达淘汰",
-          "author": "",
-          "heat": "19.",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%87%E5%A6%AE%E8%BE%BE%E6%B7%98%E6%B1%B0&t=152&Refer=top"
-        },
-        {
-          "rank": 20,
-          "title": "孟子义李昀锐你俩在娇羞啥",
-          "author": "",
-          "heat": "20.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E4%BD%A0%E4%BF%A9%E5%9C%A8%E5%A8%87%E7%BE%9E%E5%95%A5%23&t=152&Refer=top"
-        },
-        {
-          "rank": 21,
           "title": "冉莹颖自曝处在丧偶式婚姻",
           "author": "",
-          "heat": "21.",
+          "heat": "18.",
           "url": "https://s.weibo.com/weibo?q=%23%E5%86%89%E8%8E%B9%E9%A2%96%E8%87%AA%E6%9B%9D%E5%A4%84%E5%9C%A8%E4%B8%A7%E5%81%B6%E5%BC%8F%E5%A9%9A%E5%A7%BB%23&t=152&Refer=top"
         },
         {
-          "rank": 22,
-          "title": "薛之谦演唱会",
-          "author": "",
-          "heat": "22.",
-          "url": "https://s.weibo.com/weibo?q=%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%BC%94%E5%94%B1%E4%BC%9A&t=152&Refer=top"
-        },
-        {
-          "rank": 23,
-          "title": "刘惜君淘汰",
-          "author": "",
-          "heat": "23.",
-          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%83%9C%E5%90%9B%E6%B7%98%E6%B1%B0&t=152&Refer=top"
-        },
-        {
-          "rank": 24,
+          "rank": 19,
           "title": "黄晓明因为小海绵全家搬到上海",
           "author": "",
-          "heat": "24.",
+          "heat": "19.",
           "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E6%99%93%E6%98%8E%E5%9B%A0%E4%B8%BA%E5%B0%8F%E6%B5%B7%E7%BB%B5%E5%85%A8%E5%AE%B6%E6%90%AC%E5%88%B0%E4%B8%8A%E6%B5%B7%23&t=152&Refer=top"
         },
         {
-          "rank": 25,
-          "title": "李钟硕IU宣布分手",
+          "rank": 20,
+          "title": "魏如萱下周突围赛见",
           "author": "",
-          "heat": "25.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E9%92%9F%E7%A1%95IU%E5%AE%A3%E5%B8%83%E5%88%86%E6%89%8B%23&t=152&Refer=top"
+          "heat": "20.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%AD%8F%E5%A6%82%E8%90%B1%E4%B8%8B%E5%91%A8%E7%AA%81%E5%9B%B4%E8%B5%9B%E8%A7%81%23&t=152&Refer=top"
         },
         {
-          "rank": 26,
-          "title": "功夫女足票房表现",
+          "rank": 21,
+          "title": "万妮达淘汰",
           "author": "",
-          "heat": "26.",
-          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%A5%A8%E6%88%BF%E8%A1%A8%E7%8E%B0&t=152&Refer=top"
+          "heat": "21.",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%87%E5%A6%AE%E8%BE%BE%E6%B7%98%E6%B1%B0&t=152&Refer=top"
         },
         {
-          "rank": 27,
+          "rank": 22,
+          "title": "功夫女足",
+          "author": "",
+          "heat": "22.",
+          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3&t=152&Refer=top"
+        },
+        {
+          "rank": 23,
+          "title": "孟子义李昀锐你俩在娇羞啥",
+          "author": "",
+          "heat": "23.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E4%BD%A0%E4%BF%A9%E5%9C%A8%E5%A8%87%E7%BE%9E%E5%95%A5%23&t=152&Refer=top"
+        },
+        {
+          "rank": 24,
           "title": "张桂源羡慕朱志鑫苏新皓默契",
           "author": "",
-          "heat": "27.",
+          "heat": "24.",
           "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%A1%82%E6%BA%90%E7%BE%A1%E6%85%95%E6%9C%B1%E5%BF%97%E9%91%AB%E8%8B%8F%E6%96%B0%E7%9A%93%E9%BB%98%E5%A5%91&t=152&Refer=top"
         },
         {
-          "rank": 28,
-          "title": "曝易易紫虞书欣疑似因男生闹掰",
+          "rank": 25,
+          "title": "功夫女足票房表现",
           "author": "",
-          "heat": "28.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E6%98%93%E6%98%93%E7%B4%AB%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%96%91%E4%BC%BC%E5%9B%A0%E7%94%B7%E7%94%9F%E9%97%B9%E6%8E%B0%23&t=152&Refer=top"
+          "heat": "25.",
+          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%A5%A8%E6%88%BF%E8%A1%A8%E7%8E%B0&t=152&Refer=top"
         },
         {
-          "rank": 29,
-          "title": "多位演员无戏可演回家卖菜",
-          "author": "",
-          "heat": "29.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E4%BD%8D%E6%BC%94%E5%91%98%E6%97%A0%E6%88%8F%E5%8F%AF%E6%BC%94%E5%9B%9E%E5%AE%B6%E5%8D%96%E8%8F%9C%23&t=152&Refer=top"
-        },
-        {
-          "rank": 30,
+          "rank": 26,
           "title": "耳帝 胡彦斌唱得最不好的一次",
           "author": "",
-          "heat": "30.",
+          "heat": "26.",
           "url": "https://s.weibo.com/weibo?q=%E8%80%B3%E5%B8%9D%20%E8%83%A1%E5%BD%A6%E6%96%8C%E5%94%B1%E5%BE%97%E6%9C%80%E4%B8%8D%E5%A5%BD%E7%9A%84%E4%B8%80%E6%AC%A1&t=152&Refer=top"
         },
         {
+          "rank": 27,
+          "title": "薛之谦演唱会",
+          "author": "",
+          "heat": "27.",
+          "url": "https://s.weibo.com/weibo?q=%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%BC%94%E5%94%B1%E4%BC%9A&t=152&Refer=top"
+        },
+        {
+          "rank": 28,
+          "title": "刘惜君淘汰",
+          "author": "",
+          "heat": "28.",
+          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%83%9C%E5%90%9B%E6%B7%98%E6%B1%B0&t=152&Refer=top"
+        },
+        {
+          "rank": 29,
+          "title": "李钟硕IU宣布分手",
+          "author": "",
+          "heat": "29.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E9%92%9F%E7%A1%95IU%E5%AE%A3%E5%B8%83%E5%88%86%E6%89%8B%23&t=152&Refer=top"
+        },
+        {
+          "rank": 30,
+          "title": "曝易易紫虞书欣疑似因男生闹掰",
+          "author": "",
+          "heat": "30.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E6%98%93%E6%98%93%E7%B4%AB%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%96%91%E4%BC%BC%E5%9B%A0%E7%94%B7%E7%94%9F%E9%97%B9%E6%8E%B0%23&t=152&Refer=top"
+        },
+        {
           "rank": 31,
-          "title": "开推为迪丽热巴功夫女足打call",
+          "title": "多位演员无戏可演回家卖菜",
           "author": "",
           "heat": "31.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%80%E6%8E%A8%E4%B8%BA%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E6%89%93call%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E4%BD%8D%E6%BC%94%E5%91%98%E6%97%A0%E6%88%8F%E5%8F%AF%E6%BC%94%E5%9B%9E%E5%AE%B6%E5%8D%96%E8%8F%9C%23&t=152&Refer=top"
         },
         {
           "rank": 32,
-          "title": "庙堂之外",
+          "title": "开推为迪丽热巴功夫女足打call",
           "author": "",
           "heat": "32.",
-          "url": "https://s.weibo.com/weibo?q=%E5%BA%99%E5%A0%82%E4%B9%8B%E5%A4%96&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%80%E6%8E%A8%E4%B8%BA%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E6%89%93call%23&t=152&Refer=top"
         },
         {
           "rank": 33,
-          "title": "歌手突围赛",
+          "title": "庙堂之外",
           "author": "",
           "heat": "33.",
-          "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E7%AA%81%E5%9B%B4%E8%B5%9B&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%BA%99%E5%A0%82%E4%B9%8B%E5%A4%96&t=152&Refer=top"
         },
         {
           "rank": 34,
-          "title": "尤长靖回应邓紫棋",
+          "title": "八仙",
           "author": "",
           "heat": "34.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%A4%E9%95%BF%E9%9D%96%E5%9B%9E%E5%BA%94%E9%82%93%E7%B4%AB%E6%A3%8B%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%85%AB%E4%BB%99&t=152&Refer=top"
         },
         {
           "rank": 35,
-          "title": "胡彦斌 神编曲鬼嗓子",
+          "title": "歌手突围赛",
           "author": "",
           "heat": "35.",
-          "url": "https://s.weibo.com/weibo?q=%E8%83%A1%E5%BD%A6%E6%96%8C%20%E7%A5%9E%E7%BC%96%E6%9B%B2%E9%AC%BC%E5%97%93%E5%AD%90&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E7%AA%81%E5%9B%B4%E8%B5%9B&t=152&Refer=top"
         },
         {
           "rank": 36,
@@ -262,80 +262,80 @@
         },
         {
           "rank": 37,
-          "title": "演员署名正式告别艺名",
+          "title": "尤长靖回应邓紫棋",
           "author": "",
           "heat": "37.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%BC%94%E5%91%98%E7%BD%B2%E5%90%8D%E6%AD%A3%E5%BC%8F%E5%91%8A%E5%88%AB%E8%89%BA%E5%90%8D%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%A4%E9%95%BF%E9%9D%96%E5%9B%9E%E5%BA%94%E9%82%93%E7%B4%AB%E6%A3%8B%23&t=152&Refer=top"
         },
         {
           "rank": 38,
-          "title": "陈楚生庙堂之外",
+          "title": "胡彦斌 神编曲鬼嗓子",
           "author": "",
           "heat": "38.",
-          "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%A5%9A%E7%94%9F%E5%BA%99%E5%A0%82%E4%B9%8B%E5%A4%96&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E8%83%A1%E5%BD%A6%E6%96%8C%20%E7%A5%9E%E7%BC%96%E6%9B%B2%E9%AC%BC%E5%97%93%E5%AD%90&t=152&Refer=top"
         },
         {
           "rank": 39,
-          "title": "八仙",
-          "author": "",
-          "heat": "39.",
-          "url": "https://s.weibo.com/weibo?q=%E5%85%AB%E4%BB%99&t=152&Refer=top"
-        },
-        {
-          "rank": 40,
-          "title": "张婧仪雾里青剧组庆生",
-          "author": "",
-          "heat": "40.",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%A9%A7%E4%BB%AA%E9%9B%BE%E9%87%8C%E9%9D%92%E5%89%A7%E7%BB%84%E5%BA%86%E7%94%9F&t=152&Refer=top"
-        },
-        {
-          "rank": 41,
-          "title": "张真源邓恩熙粉丝",
-          "author": "",
-          "heat": "41.",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E7%9C%9F%E6%BA%90%E9%82%93%E6%81%A9%E7%86%99%E7%B2%89%E4%B8%9D&t=152&Refer=top"
-        },
-        {
-          "rank": 42,
           "title": "程潇黑裙好美",
           "author": "",
-          "heat": "42.",
+          "heat": "39.",
           "url": "https://s.weibo.com/weibo?q=%E7%A8%8B%E6%BD%87%E9%BB%91%E8%A3%99%E5%A5%BD%E7%BE%8E&t=152&Refer=top"
         },
         {
-          "rank": 43,
-          "title": "穆祉丞常州站延期",
+          "rank": 40,
+          "title": "陈楚生庙堂之外",
           "author": "",
-          "heat": "43.",
-          "url": "https://s.weibo.com/weibo?q=%E7%A9%86%E7%A5%89%E4%B8%9E%E5%B8%B8%E5%B7%9E%E7%AB%99%E5%BB%B6%E6%9C%9F&t=152&Refer=top"
+          "heat": "40.",
+          "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%A5%9A%E7%94%9F%E5%BA%99%E5%A0%82%E4%B9%8B%E5%A4%96&t=152&Refer=top"
         },
         {
-          "rank": 44,
+          "rank": 41,
           "title": "白鹿说妈我带你上电视了",
           "author": "",
-          "heat": "44.",
+          "heat": "41.",
           "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E8%AF%B4%E5%A6%88%E6%88%91%E5%B8%A6%E4%BD%A0%E4%B8%8A%E7%94%B5%E8%A7%86%E4%BA%86%23&t=152&Refer=top"
         },
         {
-          "rank": 45,
+          "rank": 42,
           "title": "程潇给张月涂口红",
           "author": "",
-          "heat": "45.",
+          "heat": "42.",
           "url": "https://s.weibo.com/weibo?q=%E7%A8%8B%E6%BD%87%E7%BB%99%E5%BC%A0%E6%9C%88%E6%B6%82%E5%8F%A3%E7%BA%A2&t=152&Refer=top"
         },
         {
+          "rank": 43,
+          "title": "演员署名正式告别艺名",
+          "author": "",
+          "heat": "43.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%BC%94%E5%91%98%E7%BD%B2%E5%90%8D%E6%AD%A3%E5%BC%8F%E5%91%8A%E5%88%AB%E8%89%BA%E5%90%8D%23&t=152&Refer=top"
+        },
+        {
+          "rank": 44,
+          "title": "张真源邓恩熙粉丝",
+          "author": "",
+          "heat": "44.",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E7%9C%9F%E6%BA%90%E9%82%93%E6%81%A9%E7%86%99%E7%B2%89%E4%B8%9D&t=152&Refer=top"
+        },
+        {
+          "rank": 45,
+          "title": "霍思燕去当男足教练吧",
+          "author": "",
+          "heat": "45.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E6%80%9D%E7%87%95%E5%8E%BB%E5%BD%93%E7%94%B7%E8%B6%B3%E6%95%99%E7%BB%83%E5%90%A7%23&t=152&Refer=top"
+        },
+        {
           "rank": 46,
-          "title": "金靖谢谢金繁但是我有高凡了",
+          "title": "张婧仪雾里青剧组庆生",
           "author": "",
           "heat": "46.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E9%9D%96%E8%B0%A2%E8%B0%A2%E9%87%91%E7%B9%81%E4%BD%86%E6%98%AF%E6%88%91%E6%9C%89%E9%AB%98%E5%87%A1%E4%BA%86%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%A9%A7%E4%BB%AA%E9%9B%BE%E9%87%8C%E9%9D%92%E5%89%A7%E7%BB%84%E5%BA%86%E7%94%9F&t=152&Refer=top"
         },
         {
           "rank": 47,
-          "title": "霍思燕去当男足教练吧",
+          "title": "丁程鑫见到王俊凯一秒坐直",
           "author": "",
           "heat": "47.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E6%80%9D%E7%87%95%E5%8E%BB%E5%BD%93%E7%94%B7%E8%B6%B3%E6%95%99%E7%BB%83%E5%90%A7%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%81%E7%A8%8B%E9%91%AB%E8%A7%81%E5%88%B0%E7%8E%8B%E4%BF%8A%E5%87%AF%E4%B8%80%E7%A7%92%E5%9D%90%E7%9B%B4%23&t=152&Refer=top"
         },
         {
           "rank": 48,
@@ -346,23 +346,23 @@
         },
         {
           "rank": 49,
-          "title": "丁程鑫见到王俊凯一秒坐直",
+          "title": "穆祉丞常州站延期",
           "author": "",
           "heat": "49.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%81%E7%A8%8B%E9%91%AB%E8%A7%81%E5%88%B0%E7%8E%8B%E4%BF%8A%E5%87%AF%E4%B8%80%E7%A7%92%E5%9D%90%E7%9B%B4%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E7%A9%86%E7%A5%89%E4%B8%9E%E5%B8%B8%E5%B7%9E%E7%AB%99%E5%BB%B6%E6%9C%9F&t=152&Refer=top"
         },
         {
           "rank": 50,
-          "title": "孟子义徐正溪 花琉璃轶闻",
+          "title": "邓紫棋直播提及汪苏泷",
           "author": "",
           "heat": "50.",
-          "url": "https://s.weibo.com/weibo?q=%E5%AD%9F%E5%AD%90%E4%B9%89%E5%BE%90%E6%AD%A3%E6%BA%AA%20%E8%8A%B1%E7%90%89%E7%92%83%E8%BD%B6%E9%97%BB&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%82%93%E7%B4%AB%E6%A3%8B%E7%9B%B4%E6%92%AD%E6%8F%90%E5%8F%8A%E6%B1%AA%E8%8B%8F%E6%B3%B7%23&t=152&Refer=top"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:34"
+      "update_time": "2026-07-11 00:15:25"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:36"
+      "update_time": "2026-07-11 00:15:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:38"
+      "update_time": "2026-07-11 00:15:30"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:40"
+      "update_time": "2026-07-11 00:15:32"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:42"
+      "update_time": "2026-07-11 00:15:34"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -847,357 +847,357 @@
           "rank": 1,
           "title": "多动症版甄嬛传2-感人泪下的甄氏父女情【AI全民制作人】",
           "author": "",
-          "heat": "162.4万",
+          "heat": "165.1万",
           "url": "https://www.bilibili.com/video/av116883592316911/"
         },
         {
           "rank": 2,
           "title": "“ 中 年 人 脑 门 一 热 创 业 实 力 排 行 ”",
           "author": "",
-          "heat": "170.5万",
+          "heat": "175.1万",
           "url": "https://www.bilibili.com/video/av116884011750852/"
         },
         {
           "rank": 3,
           "title": "这些人情世故你看懂了吗",
           "author": "",
-          "heat": "103.4万",
+          "heat": "103.6万",
           "url": "https://www.bilibili.com/video/av116871495946582/"
         },
         {
           "rank": 4,
           "title": "\"她不是天生邪恶，她只是被爱伤过！\"",
           "author": "",
-          "heat": "92.6万",
+          "heat": "93.4万",
           "url": "https://www.bilibili.com/video/av116881528723621/"
         },
         {
           "rank": 5,
           "title": "《安宁大厦生存守则》骑手篇",
           "author": "",
-          "heat": "53.2万",
+          "heat": "53.6万",
           "url": "https://www.bilibili.com/video/av116877133159925/"
         },
         {
           "rank": 6,
           "title": "80年代夫妻自制假糖果售卖的一天。【AI全民制作人】",
           "author": "",
-          "heat": "207.5万",
+          "heat": "208.3万",
           "url": "https://www.bilibili.com/video/av116878273939267/"
         },
         {
           "rank": 7,
-          "title": "\"人若可以如风一般自由。\"",
+          "title": "当我挑战翻拍不同年代的结婚录像。。。我感觉自己好像穿越了。。。",
           "author": "",
-          "heat": "31.9万",
-          "url": "https://www.bilibili.com/video/av116889296572709/"
+          "heat": "90.3万",
+          "url": "https://www.bilibili.com/video/av116890001215671/"
         },
         {
           "rank": 8,
-          "title": "当我挑战翻拍不同年代的结婚录像。。。我感觉自己好像穿越了。。。",
+          "title": "\"人若可以如风一般自由。\"",
           "author": "",
-          "heat": "84.0万",
-          "url": "https://www.bilibili.com/video/av116890001215671/"
+          "heat": "32.7万",
+          "url": "https://www.bilibili.com/video/av116889296572709/"
         },
         {
           "rank": 9,
           "title": "这个男人简直太狠了，为了做实验，竟如此不择手段！《神秘失踪》",
           "author": "",
-          "heat": "196.5万",
+          "heat": "199.1万",
           "url": "https://www.bilibili.com/video/av116877552524974/"
         },
         {
           "rank": 10,
           "title": "一口气看完《末日山宿》4K 超清完整版，爆肝千小时耗资上万！",
           "author": "",
-          "heat": "348.7万",
+          "heat": "351.6万",
           "url": "https://www.bilibili.com/video/av116860305542484/"
         },
         {
           "rank": 11,
-          "title": "麻辣教师，但女特工版【UP动画】",
+          "title": "《和最讨厌的人灵魂互换了》完整版",
           "author": "",
-          "heat": "21.0万",
-          "url": "https://www.bilibili.com/video/av116889095242962/"
+          "heat": "63.1万",
+          "url": "https://www.bilibili.com/video/av116887383971885/"
         },
         {
           "rank": 12,
           "title": "硬汉与抽象の顶点！疑似嘎子《嘎曲》MV流出",
           "author": "",
-          "heat": "48.2万",
+          "heat": "48.9万",
           "url": "https://www.bilibili.com/video/av116883541986169/"
         },
         {
           "rank": 13,
-          "title": "《和最讨厌的人灵魂互换了》完整版",
-          "author": "",
-          "heat": "57.5万",
-          "url": "https://www.bilibili.com/video/av116887383971885/"
-        },
-        {
-          "rank": 14,
           "title": "19岁中国大学生，用饺子征服国外评委，首位盲人选手惊艳四座",
           "author": "",
-          "heat": "56.5万",
+          "heat": "57.2万",
           "url": "https://www.bilibili.com/video/av116878206829689/"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "【万字拆解】毁灭还是重生？宇宙恐怖《湮灭》越美丽越恐怖！所有进入X区域的人，都来迎接未知的进化吧~",
           "author": "",
-          "heat": "49.1万",
+          "heat": "49.8万",
           "url": "https://www.bilibili.com/video/av116882233433465/"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "打个地铺而已，为什么被大家记了这么多年？【十级学者详解武林外传42-1】",
           "author": "",
-          "heat": "57.7万",
+          "heat": "58.8万",
           "url": "https://www.bilibili.com/video/av116879934887258/"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "细读经典：从票房惨案到邪典神作，一锅乱炖天马行空的《东方三侠》",
           "author": "",
-          "heat": "43.0万",
+          "heat": "43.6万",
           "url": "https://www.bilibili.com/video/av116877955243609/"
+        },
+        {
+          "rank": 17,
+          "title": "《锻刀大赛》纯刁难人！手锻1000层大马士革 奥恩下凡也白费",
+          "author": "",
+          "heat": "42.7万",
+          "url": "https://www.bilibili.com/video/av116891242732341/"
         },
         {
           "rank": 18,
           "title": "大家小时候有没有挨过毒打呢？",
           "author": "",
-          "heat": "101.3万",
+          "heat": "101.7万",
           "url": "https://www.bilibili.com/video/av116872234143044/"
         },
         {
           "rank": 19,
           "title": "臭水沟里办婚礼，绝了！雷霆神剧《炽夏》全集吐槽",
           "author": "",
-          "heat": "66.0万",
+          "heat": "66.6万",
           "url": "https://www.bilibili.com/video/av116877938395420/"
         },
         {
           "rank": 20,
           "title": "2026超爽悬疑美剧！男人因谋杀入狱，五年后死者离奇复活，背后真相令人毛骨悚然！",
           "author": "",
-          "heat": "419.3万",
+          "heat": "422.7万",
           "url": "https://www.bilibili.com/video/av116866093681015/"
         },
         {
           "rank": 21,
-          "title": "《锻刀大赛》纯刁难人！手锻1000层大马士革 奥恩下凡也白费",
-          "author": "",
-          "heat": "40.5万",
-          "url": "https://www.bilibili.com/video/av116891242732341/"
-        },
-        {
-          "rank": 22,
           "title": "世界第一运动？现代最佳宗教！世界杯现场，爽！",
           "author": "",
-          "heat": "242.9万",
+          "heat": "244.0万",
           "url": "https://www.bilibili.com/video/av116877770627807/"
         },
         {
-          "rank": 23,
-          "title": "她怎么这么可爱",
+          "rank": 22,
+          "title": "麻辣教师，但女特工版【UP动画】",
           "author": "",
-          "heat": "55.4万",
-          "url": "https://www.bilibili.com/video/av116877468768104/"
+          "heat": "23.3万",
+          "url": "https://www.bilibili.com/video/av116889095242962/"
         },
         {
-          "rank": 24,
+          "rank": 23,
           "title": "1500万公关失败？这部让整个钻石业颤抖的电影，到底揭露了什么？8.7分《血钻》",
           "author": "",
-          "heat": "40.4万",
+          "heat": "41.5万",
           "url": "https://www.bilibili.com/video/av116889363682481/"
         },
         {
-          "rank": 25,
-          "title": "科恩兄弟+盖·里奇式荒诞，飞来横财100万，杀净所有贪婪人！《逃离抢钱镇》【墨菲】",
+          "rank": 24,
+          "title": "她怎么这么可爱",
           "author": "",
-          "heat": "35.3万",
-          "url": "https://www.bilibili.com/video/av116882870902449/"
+          "heat": "55.7万",
+          "url": "https://www.bilibili.com/video/av116877468768104/"
         },
         {
-          "rank": 26,
+          "rank": 25,
           "title": "7月10日的江浙沪人belike：",
           "author": "",
-          "heat": "46.0万",
+          "heat": "47.6万",
           "url": "https://www.bilibili.com/video/av116888340403628/"
         },
         {
+          "rank": 26,
+          "title": "科恩兄弟+盖·里奇式荒诞，飞来横财100万，杀净所有贪婪人！《逃离抢钱镇》【墨菲】",
+          "author": "",
+          "heat": "36.0万",
+          "url": "https://www.bilibili.com/video/av116882870902449/"
+        },
+        {
           "rank": 27,
+          "title": "片尾曲一响，电影封神了！盘点好电影的那些散场神曲【狗蛋唠唠嗑】",
+          "author": "",
+          "heat": "34.9万",
+          "url": "https://www.bilibili.com/video/av116890286493065/"
+        },
+        {
+          "rank": 28,
           "title": "起猛了！竟然看见孙悟空和如来在踢世界杯？😱",
           "author": "",
           "heat": "33.8万",
           "url": "https://www.bilibili.com/video/av116878190119139/"
         },
         {
-          "rank": 28,
-          "title": "片尾曲一响，电影封神了！盘点好电影的那些散场神曲【狗蛋唠唠嗑】",
-          "author": "",
-          "heat": "31.9万",
-          "url": "https://www.bilibili.com/video/av116890286493065/"
-        },
-        {
           "rank": 29,
-          "title": "歌剧技能突然上线",
-          "author": "",
-          "heat": "49.6万",
-          "url": "https://www.bilibili.com/video/av116872687261798/"
-        },
-        {
-          "rank": 30,
           "title": "为啥老玩家弹挂要空两格#暗区突围",
           "author": "",
-          "heat": "62.3万",
+          "heat": "63.5万",
           "url": "https://www.bilibili.com/video/av116876680173201/"
         },
         {
-          "rank": 31,
-          "title": "【人民的名义42】魏彩霞是如何靠奇葩走位把所有事情都抖出来的？",
-          "author": "",
-          "heat": "36.6万",
-          "url": "https://www.bilibili.com/video/av116883541991006/"
-        },
-        {
-          "rank": 32,
+          "rank": 30,
           "title": "“至此，神性已成！！！”",
           "author": "",
-          "heat": "37.0万",
+          "heat": "37.7万",
           "url": "https://www.bilibili.com/video/av116883491652434/"
         },
         {
+          "rank": 31,
+          "title": "歌剧技能突然上线",
+          "author": "",
+          "heat": "49.9万",
+          "url": "https://www.bilibili.com/video/av116872687261798/"
+        },
+        {
+          "rank": 32,
+          "title": "【人民的名义42】魏彩霞是如何靠奇葩走位把所有事情都抖出来的？",
+          "author": "",
+          "heat": "36.9万",
+          "url": "https://www.bilibili.com/video/av116883541991006/"
+        },
+        {
           "rank": 33,
+          "title": "“宗门老祖，现场猿辅导”",
+          "author": "",
+          "heat": "33.3万",
+          "url": "https://www.bilibili.com/video/av116872536135440/"
+        },
+        {
+          "rank": 34,
+          "title": "主角就一定都是对的？我觉得人反派大哥说地没毛病啊！",
+          "author": "",
+          "heat": "29.0万",
+          "url": "https://www.bilibili.com/video/av116894531127122/"
+        },
+        {
+          "rank": 35,
+          "title": "原本以为这只是一次普通的1000人荒岛求生竞赛...",
+          "author": "",
+          "heat": "374.9万",
+          "url": "https://www.bilibili.com/video/av116887484633539/"
+        },
+        {
+          "rank": 36,
           "title": "小伙能听懂动物心声 凶悍猛兽全是粘人小家伙 #红龙动物园：万兽救援日记",
           "author": "",
           "heat": "34.9万",
           "url": "https://www.bilibili.com/video/av116876025793509/"
         },
         {
-          "rank": 34,
-          "title": "真实事件改编，一纸托付，铭记终身！",
-          "author": "",
-          "heat": "143.2万",
-          "url": "https://www.bilibili.com/video/av116859433131397/"
-        },
-        {
-          "rank": 35,
-          "title": "原本以为这只是一次普通的1000人荒岛求生竞赛...",
-          "author": "",
-          "heat": "374.1万",
-          "url": "https://www.bilibili.com/video/av116887484633539/"
-        },
-        {
-          "rank": 36,
+          "rank": 37,
           "title": "又十年，我再也不会期待《大鱼海棠2》了",
           "author": "",
-          "heat": "42.4万",
+          "heat": "43.0万",
           "url": "https://www.bilibili.com/video/av116884414404285/"
-        },
-        {
-          "rank": 37,
-          "title": "“宗门老祖，现场猿辅导”",
-          "author": "",
-          "heat": "31.7万",
-          "url": "https://www.bilibili.com/video/av116872536135440/"
         },
         {
           "rank": 38,
           "title": "爱情就是要够疯敢疯！经典国产大尺度神剧《错爱2》，拍的好疯、好真实~~",
           "author": "",
-          "heat": "34.3万",
+          "heat": "34.7万",
           "url": "https://www.bilibili.com/video/av116881797290201/"
         },
         {
           "rank": 39,
-          "title": "吃人那点事！高分日剧《噬亡村Ⅰ》：警员失踪之谜、后藤家秘密、女儿失语真相...",
-          "author": "",
-          "heat": "51.8万",
-          "url": "https://www.bilibili.com/video/av116873593228089/"
-        },
-        {
-          "rank": 40,
           "title": "六月癫剧之最《炽夏》：拍成这样应该留到春晚看的！",
           "author": "",
-          "heat": "33.2万",
+          "heat": "33.5万",
           "url": "https://www.bilibili.com/video/av116882115922878/"
         },
         {
-          "rank": 41,
+          "rank": 40,
           "title": "我们就这样，各自奔天涯。",
           "author": "",
-          "heat": "90.6万",
+          "heat": "90.9万",
           "url": "https://www.bilibili.com/video/av116877988726492/"
         },
         {
-          "rank": 42,
-          "title": "为什么假面骑士零号每次变身都要消耗一张显卡？",
+          "rank": 41,
+          "title": "真实事件改编，一纸托付，铭记终身！",
           "author": "",
-          "heat": "64.4万",
-          "url": "https://www.bilibili.com/video/av116867251307736/"
+          "heat": "143.7万",
+          "url": "https://www.bilibili.com/video/av116859433131397/"
+        },
+        {
+          "rank": 42,
+          "title": "新三国up锐评三国争洛阳：比星三国英雄十倍",
+          "author": "",
+          "heat": "27.9万",
+          "url": "https://www.bilibili.com/video/av116884632503528/"
         },
         {
           "rank": 43,
           "title": "陈翔六点半：我的氪金人生",
           "author": "",
-          "heat": "100.3万",
+          "heat": "101.1万",
           "url": "https://www.bilibili.com/video/av116883256776491/"
         },
         {
           "rank": 44,
-          "title": "新三国up锐评三国争洛阳：比星三国英雄十倍",
+          "title": "为什么假面骑士零号每次变身都要消耗一张显卡？",
           "author": "",
-          "heat": "27.0万",
-          "url": "https://www.bilibili.com/video/av116884632503528/"
+          "heat": "65.2万",
+          "url": "https://www.bilibili.com/video/av116867251307736/"
         },
         {
           "rank": 45,
-          "title": "荣老板翻局篇一：弄堂流水席全烧糊了，他一锅火腿焖饭救回二十桌【AI全民制作人】",
+          "title": "吃人那点事！高分日剧《噬亡村Ⅰ》：警员失踪之谜、后藤家秘密、女儿失语真相...",
           "author": "",
           "heat": "52.3万",
-          "url": "https://www.bilibili.com/video/av116876344623962/"
+          "url": "https://www.bilibili.com/video/av116873593228089/"
         },
         {
           "rank": 46,
           "title": "《 三 体 选 角，但 是 老 一 辈 版 ！ 》2.0版本",
           "author": "",
-          "heat": "100.5万",
+          "heat": "101.5万",
           "url": "https://www.bilibili.com/video/av116859366020633/"
         },
         {
           "rank": 47,
-          "title": "谁的青春不神戳戳｜第七期",
+          "title": "80年代猴王丹厂女工的一天",
           "author": "",
-          "heat": "96.0万",
-          "url": "https://www.bilibili.com/video/av116859969996515/"
+          "heat": "41.1万",
+          "url": "https://www.bilibili.com/video/av116884196301377/"
         },
         {
           "rank": 48,
-          "title": "主角就一定都是对的？我觉得人反派大哥说地没毛病啊！",
+          "title": "谁的青春不神戳戳｜第七期",
           "author": "",
-          "heat": "24.5万",
-          "url": "https://www.bilibili.com/video/av116894531127122/"
+          "heat": "98.3万",
+          "url": "https://www.bilibili.com/video/av116859969996515/"
         },
         {
           "rank": 49,
           "title": "小伙熟读兵法误入歧途！",
           "author": "",
-          "heat": "49.5万",
+          "heat": "49.8万",
           "url": "https://www.bilibili.com/video/av116873022676661/"
         },
         {
           "rank": 50,
-          "title": "80年代猴王丹厂女工的一天",
+          "title": "“父爱如山，无关智商！”",
           "author": "",
-          "heat": "40.5万",
-          "url": "https://www.bilibili.com/video/av116884196301377/"
+          "heat": "49.9万",
+          "url": "https://www.bilibili.com/video/av116884582173498/"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:45"
+      "update_time": "2026-07-11 00:15:36"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1210,211 +1210,211 @@
           "rank": 1,
           "title": "【TF家族练习生】《全世界陪我出发》集训特别版MV",
           "author": "",
-          "heat": "103.5万",
+          "heat": "104.0万",
           "url": "https://www.bilibili.com/video/av116872032880326/"
         },
         {
           "rank": 2,
           "title": "【5代前瞻版】TF家族的花语是繁殖，套娃的人数已失去控制",
           "author": "",
-          "heat": "116.6万",
+          "heat": "117.8万",
           "url": "https://www.bilibili.com/video/av116882283693220/"
         },
         {
           "rank": 3,
           "title": "【吃瓜】根据司晓迪爆料截图，按时间线鹿晗是否劈腿…这瓜好脏，关晓彤确实太惨了！",
           "author": "",
-          "heat": "161.1万",
+          "heat": "162.4万",
           "url": "https://www.bilibili.com/video/av116879683228070/"
         },
         {
           "rank": 4,
           "title": "[GOING SEVENTEEN] EP.150 泥滩上狼狈不尴尬游戏大挑战 #1",
           "author": "",
-          "heat": "42.0万",
+          "heat": "42.3万",
           "url": "https://www.bilibili.com/video/av116882451465745/"
         },
         {
           "rank": 5,
           "title": "什么？！何润东入驻B站了！那么以后我的梗就由我本人来接咯~",
           "author": "",
-          "heat": "51.2万",
+          "heat": "51.7万",
           "url": "https://www.bilibili.com/video/av116887551745380/"
         },
         {
           "rank": 6,
           "title": "毕业不焦虑⚡️来海底捞捞唠",
           "author": "",
-          "heat": "80.9万",
+          "heat": "83.3万",
           "url": "https://www.bilibili.com/video/av116884968052683/"
         },
         {
           "rank": 7,
           "title": "it's time to ACAI",
           "author": "",
-          "heat": "26.9万",
+          "heat": "27.1万",
           "url": "https://www.bilibili.com/video/av116877686806336/"
         },
         {
           "rank": 8,
           "title": "司晓迪再“锤”鹿晗疑似出轨，内娱梦女粉丝迎来最严厉的嫂子！",
           "author": "",
-          "heat": "229.6万",
+          "heat": "230.1万",
           "url": "https://www.bilibili.com/video/av116873005897369/"
         },
         {
           "rank": 9,
           "title": "《抓特务》巨亏，华谊破产，冯小刚和京圈为何没落？【银幕黑金档案03】",
           "author": "",
-          "heat": "40.0万",
+          "heat": "47.7万",
           "url": "https://www.bilibili.com/video/av116893289553700/"
         },
         {
           "rank": 10,
           "title": "司晓迪鹿晗全复盘，舔狗式倒贴狂追，时间线直指出轨，粉丝要锤得锤!",
           "author": "",
-          "heat": "45.9万",
+          "heat": "46.1万",
           "url": "https://www.bilibili.com/video/av116878341052001/"
         },
         {
           "rank": 11,
           "title": "为什么外网狂喷霉霉的世纪婚礼？",
           "author": "",
-          "heat": "56.1万",
+          "heat": "56.6万",
           "url": "https://www.bilibili.com/video/av116880656306637/"
         },
         {
           "rank": 12,
           "title": "司晓迪大点兵2.0，锤死鹿晗劈腿，一鹿彤行分手时间线盘出来了",
           "author": "",
-          "heat": "101.5万",
+          "heat": "102.3万",
           "url": "https://www.bilibili.com/video/av116878257230136/"
         },
         {
           "rank": 13,
           "title": "巴黎时装周撞上极端高温 ，陈星旭参加巴黎时装周到处蹭冷气",
           "author": "",
-          "heat": "56.6万",
+          "heat": "56.7万",
           "url": "https://www.bilibili.com/video/av116877468633309/"
         },
         {
           "rank": 14,
           "title": "再度暴雷疑似出轨！司晓迪！你是要毁了鹿晗吗！！！",
           "author": "",
-          "heat": "33.2万",
+          "heat": "33.8万",
           "url": "https://www.bilibili.com/video/av116882820630107/"
         },
         {
           "rank": 15,
           "title": "深度复盘鹿晗到底有几次疑似出轨",
           "author": "",
-          "heat": "30.2万",
+          "heat": "31.3万",
           "url": "https://www.bilibili.com/video/av116886830318658/"
         },
         {
           "rank": 16,
           "title": "长沙三进三出！浪姐这次参与非常圆满了！《乘风2026》最后的vlog",
           "author": "",
-          "heat": "18.9万",
+          "heat": "19.3万",
           "url": "https://www.bilibili.com/video/av116889665740632/"
         },
         {
           "rank": 17,
           "title": "艺人岳明辉被私生追到登机口 直接气到扔了杯咖啡 波及路人后立刻道歉 还打扫了地面 出道8年长期受私生骚扰 曾被跟踪到厕所",
           "author": "",
-          "heat": "299.6万",
+          "heat": "299.9万",
           "url": "https://www.bilibili.com/video/av116867469411919/"
         },
         {
           "rank": 18,
           "title": "[TWS:CLUB] 团建啦~猜猜都有谁~？🕺 虽然玩游戏有点菜，但团队凝聚力可是棒棒哒 | 42公司 | EP.59",
           "author": "",
-          "heat": "14.2万",
+          "heat": "14.4万",
           "url": "https://www.bilibili.com/video/av116877820954958/"
         },
         {
           "rank": 19,
           "title": "你懂白鹿吗？——内娱嘉欣",
           "author": "",
-          "heat": "1285.1万",
+          "heat": "1285.9万",
           "url": "https://www.bilibili.com/video/av116747445208084/"
         },
         {
           "rank": 20,
           "title": "至此，胆小鬼界迎来了它的四位真神！既上窜下跪旱地游泳之后，又来了一位碎嘴的鸵鸟！已经可以想到以后笔笔一拖五的场面了！",
           "author": "",
-          "heat": "18.1万",
+          "heat": "18.3万",
           "url": "https://www.bilibili.com/video/av116883525212227/"
         },
         {
           "rank": 21,
           "title": "【登陆少年】《TOP登陆少年组合日常角》 67",
           "author": "",
-          "heat": "15.2万",
+          "heat": "15.4万",
           "url": "https://www.bilibili.com/video/av116883357436120/"
         },
         {
           "rank": 22,
           "title": "【吃瓜sp】时代峰峻四代突围考核，惨不忍睹！",
           "author": "",
-          "heat": "27.0万",
+          "heat": "27.5万",
           "url": "https://www.bilibili.com/video/av116883743579736/"
         },
         {
           "rank": 23,
           "title": "TRANG PHÁP庄法 | 乘风2026 幕后花絮《心引力》x《怎么说我不爱你》[第二篇]",
           "author": "",
-          "heat": "5.5万",
+          "heat": "5.6万",
           "url": "https://www.bilibili.com/video/av116890873698824/"
         },
         {
           "rank": 24,
           "title": "【TF_ING】童禹坤二十岁生日记录",
           "author": "",
-          "heat": "9.7万",
+          "heat": "9.8万",
           "url": "https://www.bilibili.com/video/av116884380849758/"
         },
         {
           "rank": 25,
-          "title": "黄晓明：“很多人都觉得baby配不上我”",
+          "title": "【RIIZE】《盘点那些中文水平迎来了史诗级加强的瞬间》｜「RIIZE中文课堂开课哩」预告",
           "author": "",
-          "heat": "68.6万",
-          "url": "https://www.bilibili.com/video/av116844551736579/"
+          "heat": "12.5万",
+          "url": "https://www.bilibili.com/video/av116889095247422/"
         },
         {
           "rank": 26,
-          "title": "【RIIZE】《盘点那些中文水平迎来了史诗级加强的瞬间》｜「RIIZE中文课堂开课哩」预告",
+          "title": "黄晓明：“很多人都觉得baby配不上我”",
           "author": "",
-          "heat": "12.2万",
-          "url": "https://www.bilibili.com/video/av116889095247422/"
+          "heat": "69.0万",
+          "url": "https://www.bilibili.com/video/av116844551736579/"
         },
         {
           "rank": 27,
           "title": "群居养老体验综艺？6个嘉宾5个主持人，梗就没掉下来过【快乐老家】【高战士】",
           "author": "",
-          "heat": "31.4万",
+          "heat": "31.9万",
           "url": "https://www.bilibili.com/video/av116878055836526/"
         },
         {
           "rank": 28,
           "title": "男星翻跳GGEZ谁赢了（追星别进）",
           "author": "",
-          "heat": "131.4万",
+          "heat": "131.9万",
           "url": "https://www.bilibili.com/video/av116855893136758/"
         },
         {
           "rank": 29,
-          "title": "录跑男没签保咪协议的下场~~~",
+          "title": "司晓迪事件梳理：多人、内娱、暧昧…司晓迪又大发疯，狂晒和多明星聊天记录！",
           "author": "",
-          "heat": "34.3万",
-          "url": "https://www.bilibili.com/video/av116871143628512/"
+          "heat": "12.7万",
+          "url": "https://www.bilibili.com/video/av116883424548537/"
         },
         {
           "rank": 30,
-          "title": "司晓迪事件梳理：多人、内娱、暧昧…司晓迪又大发疯，狂晒和多明星聊天记录！",
+          "title": "录跑男没签保咪协议的下场~~~",
           "author": "",
-          "heat": "12.2万",
-          "url": "https://www.bilibili.com/video/av116883424548537/"
+          "heat": "34.4万",
+          "url": "https://www.bilibili.com/video/av116871143628512/"
         },
         {
           "rank": 31,
@@ -1427,140 +1427,140 @@
           "rank": 32,
           "title": "Reaction第5期上｜迷之操作，魅魔缺爱还是单纯人怪？",
           "author": "",
-          "heat": "14.2万",
+          "heat": "14.3万",
           "url": "https://www.bilibili.com/video/av116877183426267/"
         },
         {
           "rank": 33,
           "title": "雷霆进球，魔法对轰，诸神早8，抽象圣体 ……【世界杯周边乐子盘点】",
           "author": "",
-          "heat": "517.8万",
+          "heat": "518.2万",
           "url": "https://www.bilibili.com/video/av116847789738412/"
         },
         {
           "rank": 34,
-          "title": "美国警察丢脸现场！全方位被碾压！《力量战争》",
-          "author": "",
-          "heat": "18.3万",
-          "url": "https://www.bilibili.com/video/av116856379673538/"
-        },
-        {
-          "rank": 35,
           "title": "为什么当年爆火全网的诸葛大力，这几年很少看到了！",
           "author": "",
-          "heat": "13.8万",
+          "heat": "14.2万",
           "url": "https://www.bilibili.com/video/av116883676339591/"
         },
         {
-          "rank": 36,
-          "title": "司晓迪再次可汗大点兵：之前辟谣的鹿晗、范丞丞为啥不起诉她？",
+          "rank": 35,
+          "title": "美国警察丢脸现场！全方位被碾压！《力量战争》",
           "author": "",
-          "heat": "21.1万",
-          "url": "https://www.bilibili.com/video/av116872854964135/"
+          "heat": "18.4万",
+          "url": "https://www.bilibili.com/video/av116856379673538/"
         },
         {
-          "rank": 37,
+          "rank": 36,
           "title": "全体甄学家集合了，这次来猜物品",
           "author": "",
-          "heat": "6.0万",
+          "heat": "6.1万",
           "url": "https://www.bilibili.com/video/av116883491723321/"
         },
         {
-          "rank": 38,
-          "title": "成龙韩红到底是哪里人？（详细解析版）",
+          "rank": 37,
+          "title": "司晓迪再次可汗大点兵：之前辟谣的鹿晗、范丞丞为啥不起诉她？",
           "author": "",
-          "heat": "13.8万",
-          "url": "https://www.bilibili.com/video/av116873442236935/"
+          "heat": "21.2万",
+          "url": "https://www.bilibili.com/video/av116872854964135/"
         },
         {
-          "rank": 39,
+          "rank": 38,
           "title": "【kpop团魂】组合糊了之后就不装了~",
           "author": "",
-          "heat": "8.8万",
+          "heat": "9.2万",
           "url": "https://www.bilibili.com/video/av116889145577819/"
         },
         {
-          "rank": 40,
-          "title": "好莱坞审美也在降级，但这姐怀孕后简直美出了神性！",
+          "rank": 39,
+          "title": "武亮人物志",
           "author": "",
-          "heat": "14.4万",
-          "url": "https://www.bilibili.com/video/av116883927861629/"
+          "heat": "6.9万",
+          "url": "https://www.bilibili.com/video/av116889900681844/"
+        },
+        {
+          "rank": 40,
+          "title": "成龙韩红到底是哪里人？（详细解析版）",
+          "author": "",
+          "heat": "13.9万",
+          "url": "https://www.bilibili.com/video/av116873442236935/"
         },
         {
           "rank": 41,
-          "title": "【回顾明侦S2E11】前六季唯一零票逃脱的凶手，还有一句话封神的梗王，这期也太顶了！",
+          "title": "好莱坞审美也在降级，但这姐怀孕后简直美出了神性！",
           "author": "",
-          "heat": "7.8万",
-          "url": "https://www.bilibili.com/video/av116877451859667/"
+          "heat": "14.8万",
+          "url": "https://www.bilibili.com/video/av116883927861629/"
         },
         {
           "rank": 42,
-          "title": "白鹿十周年惊艳唱跳，炽夏雷霆现偶，楼孩惜败私生...七月乐子来袭！",
+          "title": "【回顾明侦S2E11】前六季唯一零票逃脱的凶手，还有一句话封神的梗王，这期也太顶了！",
           "author": "",
-          "heat": "65.3万",
-          "url": "https://www.bilibili.com/video/av116865741358711/"
+          "heat": "8.0万",
+          "url": "https://www.bilibili.com/video/av116877451859667/"
         },
         {
           "rank": 43,
+          "title": "白鹿十周年惊艳唱跳，炽夏雷霆现偶，楼孩惜败私生...七月乐子来袭！",
+          "author": "",
+          "heat": "65.5万",
+          "url": "https://www.bilibili.com/video/av116865741358711/"
+        },
+        {
+          "rank": 44,
           "title": "弟弟z现在自由了 | 弟弟z的暑假日记预告",
           "author": "",
           "heat": "5.2万",
           "url": "https://www.bilibili.com/video/av116872167102505/"
         },
         {
-          "rank": 44,
+          "rank": 45,
+          "title": "赖伟明高铁上脱鞋有臭味？经纪公司严正声明：艺人正常休息，没有影响别的乘客，私生偷拍、谣言中伤已侵权，将维权",
+          "author": "",
+          "heat": "186.5万",
+          "url": "https://www.bilibili.com/video/av116844652598573/"
+        },
+        {
+          "rank": 46,
           "title": "【近期内娱大瓜】出轨家暴消费亡女？一句话引发全网抵制？演唱会互动要钱？李现穿搭引争议？海来阿木 / 韩红 / 李现 / 李荣浩，四场舆论风波！",
           "author": "",
           "heat": "9.6万",
           "url": "https://www.bilibili.com/video/av116873995817404/"
         },
         {
-          "rank": 45,
-          "title": "武亮人物志",
-          "author": "",
-          "heat": "6.1万",
-          "url": "https://www.bilibili.com/video/av116889900681844/"
-        },
-        {
-          "rank": 46,
-          "title": "赖伟明高铁上脱鞋有臭味？经纪公司严正声明：艺人正常休息，没有影响别的乘客，私生偷拍、谣言中伤已侵权，将维权",
-          "author": "",
-          "heat": "185.8万",
-          "url": "https://www.bilibili.com/video/av116844652598573/"
-        },
-        {
           "rank": 47,
-          "title": "嫂子大点兵！2026开年第一大瓜最新进展速速来赏！",
-          "author": "",
-          "heat": "196.9万",
-          "url": "https://www.bilibili.com/video/av115864661656251/"
-        },
-        {
-          "rank": 48,
-          "title": "出生顺序调换，金智秀就不可能成为BLACKPINK成员：Jisoo金智秀心理底层逻辑拆解｜K型养育",
-          "author": "",
-          "heat": "28.5万",
-          "url": "https://www.bilibili.com/video/av116867335195095/"
-        },
-        {
-          "rank": 49,
           "title": "娃的地位已经到了非常尴尬的地步",
           "author": "",
-          "heat": "6.4万",
+          "heat": "6.5万",
           "url": "https://www.bilibili.com/video/av116889313348210/"
         },
         {
-          "rank": 50,
+          "rank": 48,
           "title": "当我上课的时候black pink：",
           "author": "",
-          "heat": "5.3万",
+          "heat": "5.4万",
           "url": "https://www.bilibili.com/video/av116885169380802/"
+        },
+        {
+          "rank": 49,
+          "title": "嫂子大点兵！2026开年第一大瓜最新进展速速来赏！",
+          "author": "",
+          "heat": "197.0万",
+          "url": "https://www.bilibili.com/video/av115864661656251/"
+        },
+        {
+          "rank": 50,
+          "title": "校暴，逃税，药物，爱豆恋爱分手，佳豪型爱豆横空出世，韩娱六月吃瓜总结",
+          "author": "",
+          "heat": "15.4万",
+          "url": "https://www.bilibili.com/video/av116872670353208/"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:47"
+      "update_time": "2026-07-11 00:15:39"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:49"
+      "update_time": "2026-07-11 00:15:41"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:51"
+      "update_time": "2026-07-11 00:15:43"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 00:10:53"
+      "update_time": "2026-07-11 00:15:45"
     }
   }
 }
