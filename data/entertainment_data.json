@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-11 02:30:37",
+  "update_time": "2026-07-11 02:35:26",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:39"
+      "update_time": "2026-07-11 02:35:28"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:41"
+      "update_time": "2026-07-11 02:35:30"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:43"
+      "update_time": "2026-07-11 02:35:32"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:46"
+      "update_time": "2026-07-11 02:35:34"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:48"
+      "update_time": "2026-07-11 02:35:36"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:50"
+      "update_time": "2026-07-11 02:35:39"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:52"
+      "update_time": "2026-07-11 02:35:41"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:54"
+      "update_time": "2026-07-11 02:35:43"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1717,142 +1717,296 @@
         },
         {
           "rank": 10,
-          "title": "超级少女",
+          "title": "爸爸",
           "author": "",
           "heat": "10.",
-          "url": "https://movie.douban.com/subject/36225840"
+          "url": "https://movie.douban.com/subject/36315000"
         },
         {
           "rank": 11,
-          "title": "给阿嬷的情书",
+          "title": "不成功穿越指南",
           "author": "",
           "heat": "11.",
-          "url": "https://movie.douban.com/subject/37116446"
+          "url": "https://movie.douban.com/subject/36823889"
         },
         {
           "rank": 12,
-          "title": "爱是愤怒",
+          "title": "诺曼底72小时",
           "author": "",
           "heat": "12.",
-          "url": "https://movie.douban.com/subject/37152802"
+          "url": "https://movie.douban.com/subject/36916000"
         },
         {
           "rank": 13,
-          "title": "小气鬼",
+          "title": "揭秘日",
           "author": "",
           "heat": "13.",
-          "url": "https://movie.douban.com/subject/37457160"
+          "url": "https://movie.douban.com/subject/36860212"
         },
         {
           "rank": 14,
-          "title": "续范亭将军",
+          "title": "一个部门的诞生",
           "author": "",
           "heat": "14.",
-          "url": "https://movie.douban.com/subject/37234431"
+          "url": "https://movie.douban.com/subject/36937765"
         },
         {
           "rank": 15,
-          "title": "消失的人",
+          "title": "超级少女",
           "author": "",
           "heat": "15.",
-          "url": "https://movie.douban.com/subject/36965301"
+          "url": "https://movie.douban.com/subject/36225840"
         },
         {
           "rank": 16,
-          "title": "阴风诡影",
+          "title": "给阿嬷的情书",
           "author": "",
           "heat": "16.",
-          "url": "https://movie.douban.com/subject/38491047"
+          "url": "https://movie.douban.com/subject/37116446"
         },
         {
           "rank": 17,
-          "title": "我的爱人",
+          "title": "爱是愤怒",
           "author": "",
           "heat": "17.",
-          "url": "https://movie.douban.com/subject/37474709"
+          "url": "https://movie.douban.com/subject/37152802"
         },
         {
           "rank": 18,
-          "title": "登月(第一部)",
+          "title": "记忆碎片",
           "author": "",
           "heat": "18.",
-          "url": "https://movie.douban.com/subject/38362649"
+          "url": "https://movie.douban.com/subject/1304447"
         },
         {
           "rank": 19,
-          "title": "恐怖游轮",
+          "title": "小气鬼",
           "author": "",
           "heat": "19.",
-          "url": "https://movie.douban.com/subject/3011051"
+          "url": "https://movie.douban.com/subject/37457160"
         },
         {
           "rank": 20,
-          "title": "想你了",
+          "title": "绵羊侦探团",
           "author": "",
           "heat": "20.",
-          "url": "https://movie.douban.com/subject/37021936"
+          "url": "https://movie.douban.com/subject/36918069"
         },
         {
           "rank": 21,
-          "title": "林家宅37号",
+          "title": "我看见两朵一样的云",
           "author": "",
           "heat": "21.",
-          "url": "https://movie.douban.com/subject/37435260"
+          "url": "https://movie.douban.com/subject/35211447"
         },
         {
           "rank": 22,
-          "title": "哈姆雷特",
+          "title": "星球大战：曼达洛人与古古",
           "author": "",
           "heat": "22.",
-          "url": "https://movie.douban.com/subject/26588017"
+          "url": "https://movie.douban.com/subject/36723035"
         },
         {
           "rank": 23,
-          "title": "八仙！",
+          "title": "挽救计划",
           "author": "",
           "heat": "23.",
-          "url": "https://movie.douban.com/subject/36882191"
+          "url": "https://movie.douban.com/subject/35010610"
         },
         {
           "rank": 24,
-          "title": "澎湖海战",
+          "title": "关索岭",
           "author": "",
           "heat": "24.",
-          "url": "https://movie.douban.com/subject/35558234"
+          "url": "https://movie.douban.com/subject/34786813"
         },
         {
           "rank": 25,
-          "title": "蜘蛛侠：崭新之日",
+          "title": "北回归线以北",
           "author": "",
           "heat": "25.",
-          "url": "https://movie.douban.com/subject/36246195"
+          "url": "https://movie.douban.com/subject/36941236"
         },
         {
           "rank": 26,
-          "title": "群星闪耀时",
+          "title": "续范亭将军",
           "author": "",
           "heat": "26.",
-          "url": "https://movie.douban.com/subject/35875462"
+          "url": "https://movie.douban.com/subject/37234431"
         },
         {
           "rank": 27,
-          "title": "杀死比尔：血色全传",
+          "title": "消失的人",
           "author": "",
           "heat": "27.",
-          "url": "https://movie.douban.com/subject/10756537"
+          "url": "https://movie.douban.com/subject/36965301"
         },
         {
           "rank": 28,
-          "title": "年会不能停2！",
+          "title": "阴风诡影",
           "author": "",
           "heat": "28.",
-          "url": "https://movie.douban.com/subject/36850814"
+          "url": "https://movie.douban.com/subject/38491047"
+        },
+        {
+          "rank": 29,
+          "title": "晒后假日",
+          "author": "",
+          "heat": "29.",
+          "url": "https://movie.douban.com/subject/35876302"
+        },
+        {
+          "rank": 30,
+          "title": "迈克尔·杰克逊：巨星之路",
+          "author": "",
+          "heat": "30.",
+          "url": "https://movie.douban.com/subject/35948919"
+        },
+        {
+          "rank": 31,
+          "title": "过春天",
+          "author": "",
+          "heat": "31.",
+          "url": "https://movie.douban.com/subject/27191431"
+        },
+        {
+          "rank": 32,
+          "title": "寂静的朋友",
+          "author": "",
+          "heat": "32.",
+          "url": "https://movie.douban.com/subject/26967871"
+        },
+        {
+          "rank": 33,
+          "title": "超级马力欧银河大电影",
+          "author": "",
+          "heat": "33.",
+          "url": "https://movie.douban.com/subject/36806351"
+        },
+        {
+          "rank": 34,
+          "title": "独自在夜晚的海边",
+          "author": "",
+          "heat": "34.",
+          "url": "https://movie.douban.com/subject/26718282"
+        },
+        {
+          "rank": 35,
+          "title": "蓝白红三部曲之红",
+          "author": "",
+          "heat": "35.",
+          "url": "https://movie.douban.com/subject/1292047"
+        },
+        {
+          "rank": 36,
+          "title": "碧海蓝天",
+          "author": "",
+          "heat": "36.",
+          "url": "https://movie.douban.com/subject/1300960"
+        },
+        {
+          "rank": 37,
+          "title": "钢的琴",
+          "author": "",
+          "heat": "37.",
+          "url": "https://movie.douban.com/subject/4876722"
+        },
+        {
+          "rank": 38,
+          "title": "目中无人2",
+          "author": "",
+          "heat": "38.",
+          "url": "https://movie.douban.com/subject/36212386"
+        },
+        {
+          "rank": 39,
+          "title": "法外之徒",
+          "author": "",
+          "heat": "39.",
+          "url": "https://movie.douban.com/subject/1401588"
+        },
+        {
+          "rank": 40,
+          "title": "胭脂扣",
+          "author": "",
+          "heat": "40.",
+          "url": "https://movie.douban.com/subject/1299288"
+        },
+        {
+          "rank": 41,
+          "title": "毕业生",
+          "author": "",
+          "heat": "41.",
+          "url": "https://movie.douban.com/subject/1292271"
+        },
+        {
+          "rank": 42,
+          "title": "祖与占",
+          "author": "",
+          "heat": "42.",
+          "url": "https://movie.douban.com/subject/1292338"
+        },
+        {
+          "rank": 43,
+          "title": "坏血",
+          "author": "",
+          "heat": "43.",
+          "url": "https://movie.douban.com/subject/1301678"
+        },
+        {
+          "rank": 44,
+          "title": "白蛇：缘起",
+          "author": "",
+          "heat": "44.",
+          "url": "https://movie.douban.com/subject/30331149"
+        },
+        {
+          "rank": 45,
+          "title": "亚利桑那之梦",
+          "author": "",
+          "heat": "45.",
+          "url": "https://movie.douban.com/subject/1293191"
+        },
+        {
+          "rank": 46,
+          "title": "秋天的童话",
+          "author": "",
+          "heat": "46.",
+          "url": "https://movie.douban.com/subject/1301912"
+        },
+        {
+          "rank": 47,
+          "title": "去年在马里昂巴德",
+          "author": "",
+          "heat": "47.",
+          "url": "https://movie.douban.com/subject/1400240"
+        },
+        {
+          "rank": 48,
+          "title": "新神榜：杨戬",
+          "author": "",
+          "heat": "48.",
+          "url": "https://movie.douban.com/subject/35360684"
+        },
+        {
+          "rank": 49,
+          "title": "探戈课",
+          "author": "",
+          "heat": "49.",
+          "url": "https://movie.douban.com/subject/1306960"
+        },
+        {
+          "rank": 50,
+          "title": "火山边缘之恋",
+          "author": "",
+          "heat": "50.",
+          "url": "https://movie.douban.com/subject/1294382"
         }
       ],
       "error": null,
-      "item_count": 28,
+      "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:56"
+      "update_time": "2026-07-11 02:35:45"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2215,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-11 02:30:59"
+      "update_time": "2026-07-11 02:35:47"
     }
   }
 }
