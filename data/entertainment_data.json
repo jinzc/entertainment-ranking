@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-17 20:10:26",
+  "update_time": "2026-07-17 20:15:25",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:28"
+      "update_time": "2026-07-17 20:15:27"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:30"
+      "update_time": "2026-07-17 20:15:30"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -526,7 +526,7 @@
       "items": [
         {
           "rank": 1,
-          "title": "周星驰导演的兵申请出战 #电影功夫女足",
+          "title": "#电影功夫女足 周星驰导演的兵申请出战",
           "author": "张艺兴",
           "heat": "24702592次播放",
           "url": "https://www.douyin.com/video/7662633377555900634"
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:32"
+      "update_time": "2026-07-17 20:15:32"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:34"
+      "update_time": "2026-07-17 20:15:34"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:36"
+      "update_time": "2026-07-17 20:15:36"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:38"
+      "update_time": "2026-07-17 20:15:39"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1210,147 +1210,147 @@
           "rank": 1,
           "title": "【TF家族练习生】《突围II破局》EP03：加更",
           "author": "",
-          "heat": "115.6万",
+          "heat": "116.8万",
           "url": "https://www.bilibili.com/video/av116922716785023/"
         },
         {
           "rank": 2,
           "title": "露思直播亏钱学，鹿晗霸榜热搜夜，三代又再次暴击时尚界",
           "author": "",
-          "heat": "85.2万",
+          "heat": "86.3万",
           "url": "https://www.bilibili.com/video/av116923085883978/"
         },
         {
           "rank": 3,
           "title": "求求了别心疼这个那个了，多心疼心疼自己吧",
           "author": "",
-          "heat": "74.8万",
+          "heat": "77.1万",
           "url": "https://www.bilibili.com/video/av116924142983852/"
         },
         {
           "rank": 4,
           "title": "邹市明冉莹颖你们就别演了！",
           "author": "",
-          "heat": "94.4万",
+          "heat": "95.2万",
           "url": "https://www.bilibili.com/video/av116912113583961/"
         },
         {
           "rank": 5,
           "title": "[TWS:CLUB] 韩振蘸料究竟是怎么调的 Thanks to 海底捞🥢 | 自由时间 | EP.60",
           "author": "",
-          "heat": "24.8万",
+          "heat": "25.0万",
           "url": "https://www.bilibili.com/video/av116917968833267/"
         },
         {
           "rank": 6,
           "title": "【时代少年团】《浅炸一下吧！》80：一起充能冲冲冲！",
           "author": "",
-          "heat": "27.4万",
+          "heat": "28.1万",
           "url": "https://www.bilibili.com/video/av116928169383356/"
         },
         {
           "rank": 7,
           "title": "【吃瓜报告】鹿晗再被锤、邹市明冉莹颖7年亏2亿、TF四代考核再来袭！7月热门娱乐内容复盘",
           "author": "",
-          "heat": "37.3万",
+          "heat": "38.0万",
           "url": "https://www.bilibili.com/video/av116923287279634/"
         },
         {
           "rank": 8,
           "title": "[GOING SEVENTEEN] EP.151 泥滩上狼狈不尴尬游戏大挑战 #2",
           "author": "",
-          "heat": "22.1万",
+          "heat": "22.4万",
           "url": "https://www.bilibili.com/video/av116922750340599/"
         },
         {
           "rank": 9,
-          "title": "怎么选的嘉宾？遍地百灵鸟！袜子流泥汤！笑料像线面一样繁殖！《地球超新鲜2》",
-          "author": "",
-          "heat": "44.6万",
-          "url": "https://www.bilibili.com/video/av116917733952204/"
-        },
-        {
-          "rank": 10,
           "title": "赵露思开创美妆品牌？白鹿新妆容翻车？黄子韬直播怼网友？【7月吃瓜盘点1】",
           "author": "",
-          "heat": "21.5万",
+          "heat": "21.7万",
           "url": "https://www.bilibili.com/video/av116918690256814/"
         },
         {
-          "rank": 11,
-          "title": "负债2亿，一直备孕，训斥父母，一家之主？《姐姐当家2》：故事够精彩，样本够丰富！",
+          "rank": 10,
+          "title": "怎么选的嘉宾？遍地百灵鸟！袜子流泥汤！笑料像线面一样繁殖！《地球超新鲜2》",
           "author": "",
-          "heat": "78.5万",
-          "url": "https://www.bilibili.com/video/av116911643891952/"
+          "heat": "45.2万",
+          "url": "https://www.bilibili.com/video/av116917733952204/"
+        },
+        {
+          "rank": 11,
+          "title": "这才是治愈啊~ 宇破z的人生第一次露营日志 | 弟弟z的暑假日记 EP.1",
+          "author": "",
+          "heat": "9.0万",
+          "url": "https://www.bilibili.com/video/av116923388073460/"
         },
         {
           "rank": 12,
-          "title": "这才是治愈啊~ 宇破z的人生第一次露营日志 | 弟弟z的暑假日记 EP.1",
+          "title": "负债2亿，一直备孕，训斥父母，一家之主？《姐姐当家2》：故事够精彩，样本够丰富！",
           "author": "",
-          "heat": "8.9万",
-          "url": "https://www.bilibili.com/video/av116923388073460/"
+          "heat": "79.1万",
+          "url": "https://www.bilibili.com/video/av116911643891952/"
         },
         {
           "rank": 13,
           "title": "【中餐厅】张雅琪成争议中心！王俊凯被坑端错桌好心累…姜妍做潦草蛋糕，林大厨还是太能扛了！",
           "author": "",
-          "heat": "34.6万",
+          "heat": "35.1万",
           "url": "https://www.bilibili.com/video/av116922213470497/"
         },
         {
           "rank": 14,
           "title": "【登陆少年】《TOP登陆少年组合日常角》 68",
           "author": "",
-          "heat": "18.8万",
+          "heat": "19.0万",
           "url": "https://www.bilibili.com/video/av116922951666349/"
         },
         {
           "rank": 15,
           "title": "甩锅、偷懒、立人设，盘点“高精力”的张雅琪在《中餐厅》的翻车场面",
           "author": "",
-          "heat": "33.6万",
+          "heat": "34.0万",
           "url": "https://www.bilibili.com/video/av116918136603685/"
         },
         {
           "rank": 16,
-          "title": "《抓特务》巨亏，华谊破产，冯小刚和京圈为何没落？【银幕黑金档案03】",
+          "title": "阴得没边了！邹市明冉莹颖的干婚生活【姐姐当家第二季】【高战士】",
           "author": "",
-          "heat": "342.4万",
-          "url": "https://www.bilibili.com/video/av116893289553700/"
+          "heat": "20.1万",
+          "url": "https://www.bilibili.com/video/av116918354840215/"
         },
         {
           "rank": 17,
-          "title": "阴得没边了！邹市明冉莹颖的干婚生活【姐姐当家第二季】【高战士】",
+          "title": "《抓特务》巨亏，华谊破产，冯小刚和京圈为何没落？【银幕黑金档案03】",
           "author": "",
-          "heat": "19.9万",
-          "url": "https://www.bilibili.com/video/av116918354840215/"
+          "heat": "343.1万",
+          "url": "https://www.bilibili.com/video/av116893289553700/"
         },
         {
           "rank": 18,
           "title": "黄晓明：“很多人都觉得baby配不上我”",
           "author": "",
-          "heat": "120.2万",
+          "heat": "120.6万",
           "url": "https://www.bilibili.com/video/av116844551736579/"
         },
         {
           "rank": 19,
           "title": "韩国现象级爆红！RESCENE 凭啥火过大公司团？",
           "author": "",
-          "heat": "17.3万",
+          "heat": "17.5万",
           "url": "https://www.bilibili.com/video/av116923824080710/"
         },
         {
           "rank": 20,
           "title": "你懂白鹿吗？——内娱嘉欣",
           "author": "",
-          "heat": "1387.2万",
+          "heat": "1388.1万",
           "url": "https://www.bilibili.com/video/av116747445208084/"
         },
         {
           "rank": 21,
           "title": "他是全网最抠门的魔术师，视频剪辑不舍得花钱，背景音乐都靠自己嘴唱。可就是这样一个抠到极致的年轻人，却舍得把自己做互联网5年攒下的全部积蓄，换成文具、本子、拖鞋、",
           "author": "",
-          "heat": "114.6万",
+          "heat": "114.7万",
           "url": "https://www.bilibili.com/video/av116890689080068/"
         },
         {
@@ -1364,120 +1364,120 @@
           "rank": 23,
           "title": "Reaction第6期上｜“只挨一边打”，要谄媚也要谄媚到底！",
           "author": "",
-          "heat": "14.3万",
+          "heat": "14.4万",
           "url": "https://www.bilibili.com/video/av116917046090690/"
         },
         {
           "rank": 24,
           "title": "专科精神小妹，逆袭高干文女主，白鹿人生完全爽文来的吧？！",
           "author": "",
-          "heat": "707.0万",
+          "heat": "707.5万",
           "url": "https://www.bilibili.com/video/av116802608695925/"
         },
         {
           "rank": 25,
-          "title": "男星翻跳GGEZ谁赢了（追星别进）",
-          "author": "",
-          "heat": "175.7万",
-          "url": "https://www.bilibili.com/video/av116855893136758/"
-        },
-        {
-          "rank": 26,
-          "title": "善意传来回响！两年前救人的小伙收到偶像薛之谦演唱会邀请，他一直记着老薛说过的话“台下的少年长大了，记得拯救世界”。",
-          "author": "",
-          "heat": "15.6万",
-          "url": "https://www.bilibili.com/video/av116917062867783/"
-        },
-        {
-          "rank": 27,
-          "title": "跑男你到底还有多少片段是没扒到的",
-          "author": "",
-          "heat": "12.1万",
-          "url": "https://www.bilibili.com/video/av116917046219835/"
-        },
-        {
-          "rank": 28,
-          "title": "念肥师（小肥震惊第一视角版）",
-          "author": "",
-          "heat": "15.9万",
-          "url": "https://www.bilibili.com/video/av116913774531724/"
-        },
-        {
-          "rank": 29,
           "title": "【近期迷惑行为大赏】：OMG你们吓到我啦，没有一个正常的人啊！",
           "author": "",
-          "heat": "9.1万",
+          "heat": "10.7万",
           "url": "https://www.bilibili.com/video/av116933739416472/"
         },
         {
-          "rank": 30,
+          "rank": 26,
+          "title": "男星翻跳GGEZ谁赢了（追星别进）",
+          "author": "",
+          "heat": "176.1万",
+          "url": "https://www.bilibili.com/video/av116855893136758/"
+        },
+        {
+          "rank": 27,
+          "title": "善意传来回响！两年前救人的小伙收到偶像薛之谦演唱会邀请，他一直记着老薛说过的话“台下的少年长大了，记得拯救世界”。",
+          "author": "",
+          "heat": "15.7万",
+          "url": "https://www.bilibili.com/video/av116917062867783/"
+        },
+        {
+          "rank": 28,
+          "title": "跑男你到底还有多少片段是没扒到的",
+          "author": "",
+          "heat": "12.2万",
+          "url": "https://www.bilibili.com/video/av116917046219835/"
+        },
+        {
+          "rank": 29,
           "title": "【I-DLE】吃尽了时代红利",
           "author": "",
-          "heat": "9.5万",
+          "heat": "9.7万",
           "url": "https://www.bilibili.com/video/av116924176537564/"
         },
         {
-          "rank": 31,
-          "title": "见过但是没聊过，这次破冰比想象中快得多！",
+          "rank": 30,
+          "title": "【余宇涵】《2026TF家族夏日运动会》DAY1全程 4K超清（更新至P3）",
           "author": "",
-          "heat": "13.1万",
-          "url": "https://www.bilibili.com/video/av116917582956100/"
+          "heat": "7.9万",
+          "url": "https://www.bilibili.com/video/av116930031651320/"
+        },
+        {
+          "rank": 31,
+          "title": "念肥师（小肥震惊第一视角版）",
+          "author": "",
+          "heat": "16.0万",
+          "url": "https://www.bilibili.com/video/av116913774531724/"
         },
         {
           "rank": 32,
+          "title": "见过但是没聊过，这次破冰比想象中快得多！",
+          "author": "",
+          "heat": "13.2万",
+          "url": "https://www.bilibili.com/video/av116917582956100/"
+        },
+        {
+          "rank": 33,
+          "title": "关于秀才侃娱乐、主持人林海、新京报评功夫女足风波！",
+          "author": "",
+          "heat": "6.0万",
+          "url": "https://www.bilibili.com/video/av116928504927245/"
+        },
+        {
+          "rank": 34,
+          "title": "大S遗产大戏反转！具俊晔当初主动放弃继承，如今为何翻脸要回？解析S家遗产争夺战的底层逻辑",
+          "author": "",
+          "heat": "8.8万",
+          "url": "https://www.bilibili.com/video/av116927682844612/"
+        },
+        {
+          "rank": 35,
+          "title": "【TF家族】20260716｜2026夏日运动会DAY1",
+          "author": "",
+          "heat": "7.4万",
+          "url": "https://www.bilibili.com/video/av116928689472672/"
+        },
+        {
+          "rank": 36,
           "title": "【SNH48】新人王之争愈演愈烈？中报来袭！水朱之争谁会赢？",
           "author": "",
           "heat": "14.0万",
           "url": "https://www.bilibili.com/video/av116917264258619/"
         },
         {
-          "rank": 33,
-          "title": "【余宇涵】《2026TF家族夏日运动会》DAY1全程 4K超清（更新至P3）",
-          "author": "",
-          "heat": "7.4万",
-          "url": "https://www.bilibili.com/video/av116930031651320/"
-        },
-        {
-          "rank": 34,
-          "title": "大S遗产大戏反转！具俊晔当初主动放弃继承，如今为何翻脸要回？解析S家遗产争夺战的底层逻辑",
-          "author": "",
-          "heat": "8.6万",
-          "url": "https://www.bilibili.com/video/av116927682844612/"
-        },
-        {
-          "rank": 35,
-          "title": "关于秀才侃娱乐、主持人林海、新京报评功夫女足风波！",
-          "author": "",
-          "heat": "5.8万",
-          "url": "https://www.bilibili.com/video/av116928504927245/"
-        },
-        {
-          "rank": 36,
-          "title": "【TF家族】20260716｜2026夏日运动会DAY1",
-          "author": "",
-          "heat": "7.3万",
-          "url": "https://www.bilibili.com/video/av116928689472672/"
-        },
-        {
           "rank": 37,
+          "title": "Let's go学习！张雅琪偷懒摸鱼是一种艺术，不是不摸鱼是有节奏的摸！有规律的摸！让人抓不到把柄的摸！职场老油条了感觉哈哈哈哈哈",
+          "author": "",
+          "heat": "9.0万",
+          "url": "https://www.bilibili.com/video/av116929478006462/"
+        },
+        {
+          "rank": 38,
           "title": "北京到底有谁在啊！ 我赌你绝对猜不到我见到了谁！",
           "author": "",
           "heat": "6.7万",
           "url": "https://www.bilibili.com/video/av116922750343001/"
         },
         {
-          "rank": 38,
+          "rank": 39,
           "title": "coke老师相亲了，猜猜选的谁...痞帅神临万岁山",
           "author": "",
           "heat": "11.4万",
           "url": "https://www.bilibili.com/video/av116798313732843/"
-        },
-        {
-          "rank": 39,
-          "title": "Let's go学习！张雅琪偷懒摸鱼是一种艺术，不是不摸鱼是有节奏的摸！有规律的摸！让人抓不到把柄的摸！职场老油条了感觉哈哈哈哈哈",
-          "author": "",
-          "heat": "8.4万",
-          "url": "https://www.bilibili.com/video/av116929478006462/"
         },
         {
           "rank": 40,
@@ -1488,79 +1488,79 @@
         },
         {
           "rank": 41,
-          "title": "皮包骨算微胖、胳膊比扫把细，Kpop完全瘦疯了！吉赛尔、moka、minju....",
-          "author": "",
-          "heat": "62.1万",
-          "url": "https://www.bilibili.com/video/av116893742532967/"
-        },
-        {
-          "rank": 42,
-          "title": "我和先锋炸控和好了",
-          "author": "",
-          "heat": "7.4万",
-          "url": "https://www.bilibili.com/video/av116921005508566/"
-        },
-        {
-          "rank": 43,
-          "title": "亚洲大胃袋乱斗 吴半饱强势参赛！展露真实实力！《胃袋挑战》",
-          "author": "",
-          "heat": "71.3万",
-          "url": "https://www.bilibili.com/video/av116894380132137/"
-        },
-        {
-          "rank": 44,
-          "title": "白鹿不续约欢娱，于正发小作文：一句“清清白白”给我们整笑了",
-          "author": "",
-          "heat": "8.2万",
-          "url": "https://www.bilibili.com/video/av116929746502548/"
-        },
-        {
-          "rank": 45,
           "title": "不站C位，仍在中心。",
           "author": "",
           "heat": "1.4万",
           "url": "https://www.bilibili.com/video/av116916274338778/"
         },
         {
-          "rank": 46,
+          "rank": 42,
           "title": "【TF家族】2026TF家族运动会DAY1全程完整版",
           "author": "",
-          "heat": "5.9万",
+          "heat": "6.5万",
           "url": "https://www.bilibili.com/video/av116930803402385/"
+        },
+        {
+          "rank": 43,
+          "title": "我和先锋炸控和好了",
+          "author": "",
+          "heat": "7.5万",
+          "url": "https://www.bilibili.com/video/av116921005508566/"
+        },
+        {
+          "rank": 44,
+          "title": "皮包骨算微胖、胳膊比扫把细，Kpop完全瘦疯了！吉赛尔、moka、minju....",
+          "author": "",
+          "heat": "62.3万",
+          "url": "https://www.bilibili.com/video/av116893742532967/"
+        },
+        {
+          "rank": 45,
+          "title": "亚洲大胃袋乱斗 吴半饱强势参赛！展露真实实力！《胃袋挑战》",
+          "author": "",
+          "heat": "71.5万",
+          "url": "https://www.bilibili.com/video/av116894380132137/"
+        },
+        {
+          "rank": 46,
+          "title": "白鹿不续约欢娱，于正发小作文：一句“清清白白”给我们整笑了",
+          "author": "",
+          "heat": "8.4万",
+          "url": "https://www.bilibili.com/video/av116929746502548/"
         },
         {
           "rank": 47,
           "title": "全世界陪我出发丨张桂源丨双机位4K直拍",
           "author": "",
-          "heat": "1.5万",
+          "heat": "1.6万",
           "url": "https://www.bilibili.com/video/av116929226344167/"
         },
         {
           "rank": 48,
           "title": "挑战缺牙齿！",
           "author": "",
-          "heat": "868.5万",
+          "heat": "868.7万",
           "url": "https://www.bilibili.com/video/av115978528622005/"
         },
         {
           "rank": 49,
           "title": "it's time to ACAI",
           "author": "",
-          "heat": "50.7万",
+          "heat": "50.8万",
           "url": "https://www.bilibili.com/video/av116877686806336/"
         },
         {
           "rank": 50,
           "title": "EP01 刘旸教主&松天硕：当健身狂魔遇上戏曲武生｜死肌肉大挑战！",
           "author": "",
-          "heat": "111.6万",
+          "heat": "111.8万",
           "url": "https://www.bilibili.com/video/av116888659040277/"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:41"
+      "update_time": "2026-07-17 20:15:41"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:43"
+      "update_time": "2026-07-17 20:15:43"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:45"
+      "update_time": "2026-07-17 20:15:45"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-17 20:10:47"
+      "update_time": "2026-07-17 20:15:48"
     }
   }
 }
