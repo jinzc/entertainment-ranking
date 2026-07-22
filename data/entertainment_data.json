@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-22 13:30:33",
+  "update_time": "2026-07-22 13:35:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:35"
+      "update_time": "2026-07-22 13:35:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:37"
+      "update_time": "2026-07-22 13:35:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -527,7 +527,7 @@
       "error": "tophub返回虚假数据",
       "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:40"
+      "update_time": "2026-07-22 13:35:30"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -610,7 +610,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:42"
+      "update_time": "2026-07-22 13:35:32"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -693,7 +693,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:45"
+      "update_time": "2026-07-22 13:35:34"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1056,7 +1056,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:47"
+      "update_time": "2026-07-22 13:35:37"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1419,7 +1419,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:49"
+      "update_time": "2026-07-22 13:35:39"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1502,7 +1502,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:51"
+      "update_time": "2026-07-22 13:35:41"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1758,114 +1758,114 @@
         },
         {
           "rank": 36,
-          "title": "幻影游船",
+          "title": "阴风诡影",
           "author": "",
           "heat": "36.",
-          "url": "https://movie.douban.com/subject/38455489"
+          "url": "https://movie.douban.com/subject/38491047"
         },
         {
           "rank": 37,
-          "title": "祖与占",
+          "title": "幻影游船",
           "author": "",
           "heat": "37.",
-          "url": "https://movie.douban.com/subject/1292338"
+          "url": "https://movie.douban.com/subject/38455489"
         },
         {
           "rank": 38,
-          "title": "秋天的童话",
+          "title": "祖与占",
           "author": "",
           "heat": "38.",
-          "url": "https://movie.douban.com/subject/1301912"
+          "url": "https://movie.douban.com/subject/1292338"
         },
         {
           "rank": 39,
-          "title": "法外之徒",
+          "title": "秋天的童话",
           "author": "",
           "heat": "39.",
-          "url": "https://movie.douban.com/subject/1401588"
+          "url": "https://movie.douban.com/subject/1301912"
         },
         {
           "rank": 40,
-          "title": "去年在马里昂巴德",
+          "title": "法外之徒",
           "author": "",
           "heat": "40.",
-          "url": "https://movie.douban.com/subject/1400240"
+          "url": "https://movie.douban.com/subject/1401588"
         },
         {
           "rank": 41,
-          "title": "坏血",
+          "title": "去年在马里昂巴德",
           "author": "",
           "heat": "41.",
-          "url": "https://movie.douban.com/subject/1301678"
+          "url": "https://movie.douban.com/subject/1400240"
         },
         {
           "rank": 42,
-          "title": "探戈课",
+          "title": "坏血",
           "author": "",
           "heat": "42.",
-          "url": "https://movie.douban.com/subject/1306960"
+          "url": "https://movie.douban.com/subject/1301678"
         },
         {
           "rank": 43,
-          "title": "飓风",
+          "title": "探戈课",
           "author": "",
           "heat": "43.",
-          "url": "https://movie.douban.com/subject/1294497"
+          "url": "https://movie.douban.com/subject/1306960"
         },
         {
           "rank": 44,
-          "title": "青铜葵花",
+          "title": "飓风",
           "author": "",
           "heat": "44.",
-          "url": "https://movie.douban.com/subject/36500314"
+          "url": "https://movie.douban.com/subject/1294497"
         },
         {
           "rank": 45,
-          "title": "登月(第一部)",
+          "title": "青铜葵花",
           "author": "",
           "heat": "45.",
-          "url": "https://movie.douban.com/subject/38362649"
+          "url": "https://movie.douban.com/subject/36500314"
         },
         {
           "rank": 46,
-          "title": "海洋之谜",
+          "title": "登月(第一部)",
           "author": "",
           "heat": "46.",
-          "url": "https://movie.douban.com/subject/36827764"
+          "url": "https://movie.douban.com/subject/38362649"
         },
         {
           "rank": 47,
-          "title": "赵氏孤儿(京剧)",
+          "title": "海洋之谜",
           "author": "",
           "heat": "47.",
-          "url": "https://movie.douban.com/subject/27005362"
+          "url": "https://movie.douban.com/subject/36827764"
         },
         {
           "rank": 48,
-          "title": "太湖英雄",
+          "title": "赵氏孤儿(京剧)",
           "author": "",
           "heat": "48.",
-          "url": "https://movie.douban.com/subject/38458879"
+          "url": "https://movie.douban.com/subject/27005362"
         },
         {
           "rank": 49,
-          "title": "时光列车",
+          "title": "太湖英雄",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/38424188"
+          "url": "https://movie.douban.com/subject/38458879"
         },
         {
           "rank": 50,
-          "title": "痴迷",
+          "title": "时光列车",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/37450627"
+          "url": "https://movie.douban.com/subject/38424188"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:53"
+      "update_time": "2026-07-22 13:35:43"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2228,7 +2228,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-22 13:30:55"
+      "update_time": "2026-07-22 13:35:45"
     }
   }
 }
