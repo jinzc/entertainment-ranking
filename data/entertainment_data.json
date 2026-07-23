@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-23 09:20:23",
+  "update_time": "2026-07-23 09:25:20",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:26"
+      "update_time": "2026-07-23 09:25:22"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:28"
+      "update_time": "2026-07-23 09:25:25"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -523,11 +523,145 @@
       "category": "抖音",
       "icon": "⭐",
       "color": "#F59E0B",
-      "items": [],
-      "error": "tophub返回虚假数据",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "丧彪太猛了 @胡予安Angel🌊✨ #功夫女足 #周星驰 #许君聪",
+          "author": "许君聪",
+          "heat": "27047069次播放",
+          "url": "https://www.douyin.com/video/7665245349271433467"
+        },
+        {
+          "rank": 2,
+          "title": "断舍离上篇，自己看着办～ #演员夫妻日常 #断舍离",
+          "author": "陈紫函",
+          "heat": "19740205次播放",
+          "url": "https://www.douyin.com/video/7664921178670140726"
+        },
+        {
+          "rank": 3,
+          "title": "谢贤去世，狄波拉携谢婷婷现身神情哀伤#谢贤#狄波拉#谢婷婷",
+          "author": "华语明星",
+          "heat": "18200947次播放",
+          "url": "https://www.douyin.com/video/7665007416279368147"
+        },
+        {
+          "rank": 4,
+          "title": "探班舞台剧《大话西游》啦～ 张导演、张编剧、张演员辛苦啦，必须给到夯#vlog日常 #记录真实生活",
+          "author": "董璇",
+          "heat": "11938900次播放",
+          "url": "https://www.douyin.com/video/7665271765397328763"
+        },
+        {
+          "rank": 5,
+          "title": "让河南的甜 一直传下去 #吴克群的巡演看世界 #人间观察计划",
+          "author": "吴克群",
+          "heat": "11050807次播放",
+          "url": "https://www.douyin.com/video/7665247297051137195"
+        },
+        {
+          "rank": 6,
+          "title": "我会承担一切后果#演员李嘉明 #街头随拍 #实话实说传递正能量",
+          "author": "演员李嘉明",
+          "heat": "9093468次播放",
+          "url": "https://www.douyin.com/video/7665218175244918769"
+        },
+        {
+          "rank": 7,
+          "title": "我的空间，随心所欲 在我的专属角落，时间由我设定。 不用急着被定义，下一秒又将探索新角色。 欢迎来到我的房间， 与 @CHARLES & KEITH 一起 随我成为 #小ck随我成为 #ImWithCharlesKeith #CharlesKeith品牌代言人赵今麦",
+          "author": "赵今麦angel",
+          "heat": "7189137次播放",
+          "url": "https://www.douyin.com/video/7665202504716103030"
+        },
+        {
+          "rank": 8,
+          "title": "蹦蹦跳跳🫟",
+          "author": "包上恩",
+          "heat": "6735394次播放",
+          "url": "https://www.douyin.com/video/7665200247849853681"
+        },
+        {
+          "rank": 9,
+          "title": "#电影功夫女足 周星驰导演的兵申请出战",
+          "author": "张艺兴",
+          "heat": "6620889次播放",
+          "url": "https://www.douyin.com/video/7662633377555900634"
+        },
+        {
+          "rank": 10,
+          "title": "苗金凤设灵，田启文到场送别最后一程#苗金凤 #田启文",
+          "author": "华语明星",
+          "heat": "6099831次播放",
+          "url": "https://www.douyin.com/video/7665115760901034623"
+        },
+        {
+          "rank": 11,
+          "title": "就一直翻 #片场花絮",
+          "author": "张晋max",
+          "heat": "5647515次播放",
+          "url": "https://www.douyin.com/video/7665283100545514658"
+        },
+        {
+          "rank": 13,
+          "title": "身陷困境，在线求助如何破局！ #父女日常 #搞笑 #一定看到最后 #杜玉明",
+          "author": "杜玉明",
+          "heat": "4959759次播放",
+          "url": "https://www.douyin.com/video/7664192948528322368"
+        },
+        {
+          "rank": 14,
+          "title": "我们相识的十五年🤗。#闺蜜 #友谊#恋人怀中樱花草",
+          "author": "张籽沐",
+          "heat": "4861840次播放",
+          "url": "https://www.douyin.com/video/7664906530064240475"
+        },
+        {
+          "rank": 15,
+          "title": "#灿如繁星 我们一直斗争到底，是与生俱来的，不愿放弃的能力 @虞书欣Esther #虞书欣 #林晚星 #谁的青春不灿如繁星",
+          "author": "虞书欣工作室",
+          "heat": "4637803次播放",
+          "url": "https://www.douyin.com/video/7664562764857297403"
+        },
+        {
+          "rank": 16,
+          "title": "黄果树瀑布连出口都是权威 景区比市区还划算，怎么做到的！#黄果树瀑布 #旅游 #贵州 #安利",
+          "author": "会火全娱乐",
+          "heat": "4555008次播放",
+          "url": "https://www.douyin.com/video/7665005755549277563"
+        },
+        {
+          "rank": 17,
+          "title": "出门忘记带耳机了怎么办？没关系，我们有@张柏芝 牌“播放器”😎#张柏芝",
+          "author": "张柏芝工作室",
+          "heat": "4484217次播放",
+          "url": "https://www.douyin.com/video/7657122488698620914"
+        },
+        {
+          "rank": 18,
+          "title": "三只好奇猫🐱#彭冠英",
+          "author": "Tsuki",
+          "heat": "4350627次播放",
+          "url": "https://www.douyin.com/video/7665220970852144754"
+        },
+        {
+          "rank": 19,
+          "title": "🤭#千香",
+          "author": "鞠婧祎",
+          "heat": "4268684次播放",
+          "url": "https://www.douyin.com/video/7664969240390700522"
+        },
+        {
+          "rank": 20,
+          "title": "免费吃瓜通知📢7月22号河南见！ #吴克群的巡演看世界 #人间观察计划",
+          "author": "吴克群",
+          "heat": "3967902次播放",
+          "url": "https://www.douyin.com/video/7664455952683073009"
+        }
+      ],
+      "error": null,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:31"
+      "update_time": "2026-07-23 09:25:27"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -610,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:33"
+      "update_time": "2026-07-23 09:25:29"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -693,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:36"
+      "update_time": "2026-07-23 09:25:31"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1056,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:38"
+      "update_time": "2026-07-23 09:25:34"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1419,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:40"
+      "update_time": "2026-07-23 09:25:36"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1502,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:42"
+      "update_time": "2026-07-23 09:25:38"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1865,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:45"
+      "update_time": "2026-07-23 09:25:40"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2228,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-23 09:20:47"
+      "update_time": "2026-07-23 09:25:42"
     }
   }
 }
