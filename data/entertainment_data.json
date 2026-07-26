@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-26 08:00:40",
+  "update_time": "2026-07-26 08:05:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:42"
+      "update_time": "2026-07-26 08:05:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:44"
+      "update_time": "2026-07-26 08:05:26"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -528,133 +528,147 @@
           "rank": 1,
           "title": "一次失败的理发经历，愿每个人都能遇见 属于你自己，生命中的托尼！",
           "author": "李佳航MVP",
-          "heat": "25056151次播放",
+          "heat": "17215567次播放",
           "url": "https://www.douyin.com/video/7665924905972392585"
         },
         {
           "rank": 2,
-          "title": "一个说到做到的男人。#徐良合肥演唱会",
-          "author": "徐良",
-          "heat": "24171160次播放",
-          "url": "https://www.douyin.com/video/7666024009629406193"
-        },
-        {
-          "rank": 3,
-          "title": "解锁新发型啦💇‍♀️终于对长发下手啦！ #短发#日常vlog#自己剪头发",
-          "author": "苗苗",
-          "heat": "23130554次播放",
-          "url": "https://www.douyin.com/video/7665858925540193088"
-        },
-        {
-          "rank": 4,
-          "title": "“功夫女足”广州路演，终于见到星爷了！#黄一山 #周星驰 #功夫女足 #电影路演",
-          "author": "黄一山",
-          "heat": "7964991次播放",
-          "url": "https://www.douyin.com/video/7666022205998643569"
-        },
-        {
-          "rank": 5,
-          "title": "#电视剧攻玉 #曾舜晞蔺承佑 他山之石，可以攻玉。杀青快乐！",
-          "author": "曾舜晞",
-          "heat": "7458411次播放",
-          "url": "https://www.douyin.com/video/7665672853064573605"
-        },
-        {
-          "rank": 6,
-          "title": "谁救救我？？？太多小孩了……晕了…😮‍💨😮‍💨😮‍💨😮‍💨",
-          "author": "陈赫",
-          "heat": "6409355次播放",
-          "url": "https://www.douyin.com/video/7665649846825292139"
-        },
-        {
-          "rank": 7,
-          "title": "丧彪太猛了 @胡予安Angel🌊✨ #功夫女足 #周星驰 #许君聪",
-          "author": "许君聪",
-          "heat": "6361127次播放",
-          "url": "https://www.douyin.com/video/7665245349271433467"
-        },
-        {
-          "rank": 8,
-          "title": "🐈 #对镜拍",
-          "author": "赵露思",
-          "heat": "6264962次播放",
-          "url": "https://www.douyin.com/video/7665617872253780175"
-        },
-        {
-          "rank": 10,
           "title": "功夫女足我喜欢#温兆伦#功夫女足",
           "author": "温兆伦",
-          "heat": "5583168次播放",
+          "heat": "14166593次播放",
           "url": "https://www.douyin.com/video/7666023511734930383"
         },
         {
+          "rank": 3,
+          "title": "铂智7×王心凌 共创担曲《DADADA×担担担》上线 广汽丰田把“担”字背后的力量 从合同条款里唱出来、跳出来 #丰田铂智7首个承诺电池事故起火赔付 #心有凌犀选铂智7",
+          "author": "王心凌",
+          "heat": "13049916次播放",
+          "url": "https://www.douyin.com/video/7666079392141607611"
+        },
+        {
+          "rank": 4,
+          "title": "天才未必不修边幅，也有可能是完美hotnerd#王虹 #菲尔兹奖 #hotnerd #智性恋",
+          "author": "会火全娱乐",
+          "heat": "12211378次播放",
+          "url": "https://www.douyin.com/video/7666076969632664873"
+        },
+        {
+          "rank": 5,
+          "title": "谢谢你们，找到我。#剧剧抖有戏",
+          "author": "宋威龙",
+          "heat": "11004738次播放",
+          "url": "https://www.douyin.com/video/7666298610023662843"
+        },
+        {
+          "rank": 6,
+          "title": "上海这家汉堡可能是我吃过味道最顶的汉堡了，但咱就别聊性价比了#日常vlog",
+          "author": "王宁",
+          "heat": "9637911次播放",
+          "url": "https://www.douyin.com/video/7665932811417740017"
+        },
+        {
+          "rank": 7,
+          "title": "🔑。精力是有限的 所以想尽可能放在值得的地方 每个人的“值得”定义不同 起码别被“不值得”的事情耽误了值得快乐的时间💕",
+          "author": "赵露思",
+          "heat": "8653344次播放",
+          "url": "https://www.douyin.com/video/7666432200305086882"
+        },
+        {
+          "rank": 8,
+          "title": "有空你玩抖音吗？",
+          "author": "演员李明",
+          "heat": "8636386次播放",
+          "url": "https://www.douyin.com/video/7666048032581307131"
+        },
+        {
+          "rank": 9,
+          "title": "当我认识了两个E人朋友🫪 我最近在#伦敦合伙人 认识了@赵昭仪 和@颜安 两个E人朋友，我觉得我也开始变得更打开自己！ #米卡 #i人和e人 #i人和e人的对比好明显",
+          "author": "米卡MIKA",
+          "heat": "7266283次播放",
+          "url": "https://www.douyin.com/video/7666089694329225289"
+        },
+        {
+          "rank": 10,
+          "title": "解锁新发型啦💇‍♀️终于对长发下手啦！ #短发#日常vlog#自己剪头发",
+          "author": "苗苗",
+          "heat": "6467827次播放",
+          "url": "https://www.douyin.com/video/7665858925540193088"
+        },
+        {
           "rank": 11,
-          "title": "多谢你们的支持！#电影功夫女足",
-          "author": "张艺兴",
-          "heat": "5196301次播放",
-          "url": "https://www.douyin.com/video/7665673728763937966"
+          "title": "你当26年的薛之谦累不累。 #薛之谦 #薛之谦万兽之王演唱会 #薛之谦北京演唱会 #谦友",
+          "author": "薛谦今天营业了吗❄️",
+          "heat": "6300921次播放",
+          "url": "https://www.douyin.com/video/7666103237384469425"
         },
         {
           "rank": 12,
-          "title": "爸爸加油！🚴",
-          "author": "郑恺",
-          "heat": "5169800次播放",
-          "url": "https://www.douyin.com/video/7665959231644954280"
+          "title": "喵⋆🐾 #aespa #KARINA #GISELLE #KISSNTELL",
+          "author": "aespa",
+          "heat": "6150795次播放",
+          "url": "https://www.douyin.com/video/7665950008910665061"
         },
         {
           "rank": 13,
-          "title": "一碗水怎么端平 我愿意为了哥哥歪一点 #蝴蝶宝贝 #家人 #感人 #泪目 #正能量",
-          "author": "抓马课代表",
-          "heat": "5030742次播放",
-          "url": "https://www.douyin.com/video/7665714252421942580"
+          "title": "#火山拍作品分10万 #暴雨积水现场",
+          "author": "落叶知秋一",
+          "heat": "5753039次播放",
+          "url": "https://www.douyin.com/video/7666031132437155082"
         },
         {
           "rank": 14,
-          "title": "在拉斯维加斯的巨型球里看一场演唱会，是什么体验",
-          "author": "徐可",
-          "heat": "4995333次播放",
-          "url": "https://www.douyin.com/video/7665553285558459114"
+          "title": "咳咳！#印尼咳嗽舞挑战 #活人感一夏 （停车后于安全区域内拍摄🚗）",
+          "author": "彭昱畅",
+          "heat": "5251319次播放",
+          "url": "https://www.douyin.com/video/7666414200407062619"
         },
         {
           "rank": 15,
-          "title": "魅 力 双 子 星 #韩素希 #全钟瑞 #不一定斩男但一定斩女",
-          "author": "木昜",
-          "heat": "4793173次播放",
-          "url": "https://www.douyin.com/video/7665366744864738570"
+          "title": "关于艺人如何使用自媒体 以我为例 自我宣传 黄金级 互动玩梗 星耀级 反黑变现 大家评级 希望所有关注且支持我自媒体的朋友们都天天开心 生活如意🌹❤️#醒来说 #未来导演扶持计划 #自制综艺",
+          "author": "苏醒AllenSu",
+          "heat": "5232701次播放",
+          "url": "https://www.douyin.com/video/7666131821453047478"
         },
         {
           "rank": 16,
-          "title": "#电影功夫女足 周星驰导演的兵申请出战",
-          "author": "张艺兴",
-          "heat": "4731674次播放",
-          "url": "https://www.douyin.com/video/7662633377555900634"
+          "title": "灵魂摆渡十年播完了，去司徒小镇找老周给自己放个假吧！吃饱了才能瘦回第一季，瘦回第二季也行。7月26日，和大家司徒小镇见！#司徒小镇 #山西到底哪凉快 #山西好玩的地方 #赵吏 #灵魂摆渡",
+          "author": "于毅",
+          "heat": "5065728次播放",
+          "url": "https://www.douyin.com/video/7664879169331252409"
+        },
+        {
+          "rank": 17,
+          "title": "糟糕 一不小心摔出神图#王楚然#任素素 #这一秒过火#浮生#裟椤",
+          "author": "我的小猫妮很可爱（灿如繁星爱奇艺热播中）",
+          "heat": "5047148次播放",
+          "url": "https://www.douyin.com/video/7666103138336723313"
         },
         {
           "rank": 18,
-          "title": "咳咳咳 #印尼咳嗽舞挑战",
-          "author": "王菊Naomi",
-          "heat": "4524757次播放",
-          "url": "https://www.douyin.com/video/7665662479498154345"
+          "title": "看完#功夫女足 走到哪都想跳一段#致敬星爷经典 #舞蹈 #不一样的出场方式 #致敬了不起",
+          "author": "演员李勤勤",
+          "heat": "4961682次播放",
+          "url": "https://www.douyin.com/video/7666301203538576805"
         },
         {
           "rank": 19,
-          "title": "出国了…又好像没出",
-          "author": "徐可",
-          "heat": "4467884次播放",
-          "url": "https://www.douyin.com/video/7665970112458359972"
+          "title": "哪一杯更好听？ #徐良合肥演唱会",
+          "author": "徐良",
+          "heat": "4958837次播放",
+          "url": "https://www.douyin.com/video/7666393748964871562"
         },
         {
           "rank": 20,
-          "title": "双 旦 同 台 #韩素希 #全钟瑞 #不一定斩男但一定斩女",
-          "author": "木昜",
-          "heat": "4380611次播放",
-          "url": "https://www.douyin.com/video/7665870281306656042"
+          "title": "咳咳咳咳咳 #咳嗽舞 #搞笑女 #内向社恐腼腆文静小女生 #萌",
+          "author": "艾米",
+          "heat": "4803563次播放",
+          "url": "https://www.douyin.com/video/7666414558312183139"
         }
       ],
       "error": null,
-      "item_count": 18,
+      "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:46"
+      "update_time": "2026-07-26 08:05:28"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:48"
+      "update_time": "2026-07-26 08:05:31"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:50"
+      "update_time": "2026-07-26 08:05:33"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:53"
+      "update_time": "2026-07-26 08:05:35"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:55"
+      "update_time": "2026-07-26 08:05:37"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:57"
+      "update_time": "2026-07-26 08:05:39"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1992,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:00:59"
+      "update_time": "2026-07-26 08:05:41"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-26 08:01:01"
+      "update_time": "2026-07-26 08:05:43"
     }
   }
 }
