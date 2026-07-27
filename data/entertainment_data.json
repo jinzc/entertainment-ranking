@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-28 03:40:30",
+  "update_time": "2026-07-28 03:45:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:32"
+      "update_time": "2026-07-28 03:45:25"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:34"
+      "update_time": "2026-07-28 03:45:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -624,41 +624,34 @@
         },
         {
           "rank": 15,
-          "title": "想要一个满是遗憾的评论 越短越好… #侍宣如",
-          "author": "侍宣如",
-          "heat": "4964324次播放",
-          "url": "https://www.douyin.com/video/7666696026300932570"
-        },
-        {
-          "rank": 16,
           "title": "咳咳咳咳咳 #咳嗽舞 #搞笑女 #内向社恐腼腆文静小女生 #萌",
           "author": "艾米",
           "heat": "4912362次播放",
           "url": "https://www.douyin.com/video/7666414558312183139"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "都哥们儿😎😎😎 #刑天小队回归 #铠甲勇士 #铠甲勇士刑天",
           "author": "吴昊泽",
           "heat": "4471984次播放",
           "url": "https://www.douyin.com/video/7666432890902182822"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "#电影功夫女足 周星驰导演的兵申请出战",
           "author": "张艺兴",
           "heat": "3927651次播放",
           "url": "https://www.douyin.com/video/7662633377555900634"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "打什么马赛克啊诡蜜，直接发啊#一见秦辛",
           "author": "辛雨锡（8.1杭州见面会版）",
           "heat": "3636190次播放",
           "url": "https://www.douyin.com/video/7666769108017511097"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "所有人 感受🤫🤫🤫 #2026gapday音乐节 #鹿晗gapday音乐节 #鹿晗",
           "author": "鹿晗工作室",
           "heat": "3562985次播放",
@@ -666,9 +659,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:37"
+      "update_time": "2026-07-28 03:45:29"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:39"
+      "update_time": "2026-07-28 03:45:31"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:41"
+      "update_time": "2026-07-28 03:45:34"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:43"
+      "update_time": "2026-07-28 03:45:36"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:45"
+      "update_time": "2026-07-28 03:45:38"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:48"
+      "update_time": "2026-07-28 03:45:40"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1992,7 +1985,7 @@
       "error": null,
       "item_count": 48,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:50"
+      "update_time": "2026-07-28 03:45:42"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2348,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-28 03:40:52"
+      "update_time": "2026-07-28 03:45:45"
     }
   }
 }
