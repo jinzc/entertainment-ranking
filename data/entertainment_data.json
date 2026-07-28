@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-29 00:30:40",
+  "update_time": "2026-07-29 00:35:28",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:42"
+      "update_time": "2026-07-29 00:35:31"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:44"
+      "update_time": "2026-07-29 00:35:34"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:46"
+      "update_time": "2026-07-29 00:35:36"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:48"
+      "update_time": "2026-07-29 00:35:38"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:51"
+      "update_time": "2026-07-29 00:35:40"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:53"
+      "update_time": "2026-07-29 00:35:43"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:55"
+      "update_time": "2026-07-29 00:35:45"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:57"
+      "update_time": "2026-07-29 00:35:47"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1934,72 +1934,72 @@
         },
         {
           "rank": 42,
-          "title": "蜘蛛侠：崭新之日",
-          "author": "",
-          "heat": "42.",
-          "url": "https://movie.douban.com/subject/36246195"
-        },
-        {
-          "rank": 43,
           "title": "年会不能停2！",
           "author": "",
-          "heat": "43.",
+          "heat": "42.",
           "url": "https://movie.douban.com/subject/36850814"
         },
         {
-          "rank": 44,
+          "rank": 43,
           "title": "杀死比尔：血色全传",
           "author": "",
-          "heat": "44.",
+          "heat": "43.",
           "url": "https://movie.douban.com/subject/10756537"
         },
         {
-          "rank": 45,
+          "rank": 44,
           "title": "林家宅37号",
           "author": "",
-          "heat": "45.",
+          "heat": "44.",
           "url": "https://movie.douban.com/subject/37435260"
         },
         {
-          "rank": 46,
+          "rank": 45,
           "title": "大唐妖探",
           "author": "",
-          "heat": "46.",
+          "heat": "45.",
           "url": "https://movie.douban.com/subject/35464353"
         },
         {
-          "rank": 47,
+          "rank": 46,
           "title": "汪汪队立大功大电影3：勇闯恐龙岛",
           "author": "",
-          "heat": "47.",
+          "heat": "46.",
           "url": "https://movie.douban.com/subject/36791178"
         },
         {
-          "rank": 48,
+          "rank": 47,
           "title": "奥德赛",
           "author": "",
-          "heat": "48.",
+          "heat": "47.",
           "url": "https://movie.douban.com/subject/36808876"
         },
         {
-          "rank": 49,
+          "rank": 48,
           "title": "逃出绝命街",
           "author": "",
-          "heat": "49.",
+          "heat": "48.",
           "url": "https://movie.douban.com/subject/36318703"
         },
         {
-          "rank": 50,
+          "rank": 49,
           "title": "猫猫的奇幻漂流",
           "author": "",
-          "heat": "50.",
+          "heat": "49.",
           "url": "https://movie.douban.com/subject/35603727"
+        },
+        {
+          "rank": 50,
+          "title": "去你的岛",
+          "author": "",
+          "heat": "50.",
+          "url": "https://movie.douban.com/subject/35275131"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:30:59"
+      "update_time": "2026-07-29 00:35:49"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 00:31:02"
+      "update_time": "2026-07-29 00:35:52"
     }
   }
 }
