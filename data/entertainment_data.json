@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-29 10:00:37",
+  "update_time": "2026-07-29 10:05:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:40"
+      "update_time": "2026-07-29 10:05:25"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:42"
+      "update_time": "2026-07-29 10:05:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:44"
+      "update_time": "2026-07-29 10:05:29"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:46"
+      "update_time": "2026-07-29 10:05:31"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:48"
+      "update_time": "2026-07-29 10:05:33"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:51"
+      "update_time": "2026-07-29 10:05:35"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:53"
+      "update_time": "2026-07-29 10:05:38"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:55"
+      "update_time": "2026-07-29 10:05:40"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1647,10 +1647,10 @@
       "items": [
         {
           "rank": 1,
-          "title": "群星闪耀时",
+          "title": "痴迷",
           "author": "",
           "heat": "1.",
-          "url": "https://movie.douban.com/subject/35875462"
+          "url": "https://movie.douban.com/subject/37450627"
         },
         {
           "rank": 2,
@@ -1668,10 +1668,10 @@
         },
         {
           "rank": 4,
-          "title": "痴迷",
+          "title": "群星闪耀时",
           "author": "",
           "heat": "4.",
-          "url": "https://movie.douban.com/subject/37450627"
+          "url": "https://movie.douban.com/subject/35875462"
         },
         {
           "rank": 5,
@@ -1731,17 +1731,17 @@
         },
         {
           "rank": 13,
-          "title": "特立独行",
+          "title": "火遮眼",
           "author": "",
           "heat": "13.",
-          "url": "https://movie.douban.com/subject/36953973"
+          "url": "https://movie.douban.com/subject/36877245"
         },
         {
           "rank": 14,
-          "title": "火遮眼",
+          "title": "特立独行",
           "author": "",
           "heat": "14.",
-          "url": "https://movie.douban.com/subject/36877245"
+          "url": "https://movie.douban.com/subject/36953973"
         },
         {
           "rank": 15,
@@ -1773,24 +1773,24 @@
         },
         {
           "rank": 19,
-          "title": "魔方小姐",
-          "author": "",
-          "heat": "19.",
-          "url": "https://movie.douban.com/subject/36808520"
-        },
-        {
-          "rank": 20,
           "title": "诺曼底72小时",
           "author": "",
-          "heat": "20.",
+          "heat": "19.",
           "url": "https://movie.douban.com/subject/36916000"
         },
         {
-          "rank": 21,
+          "rank": 20,
           "title": "海洋奇缘：启航",
           "author": "",
-          "heat": "21.",
+          "heat": "20.",
           "url": "https://movie.douban.com/subject/36343469"
+        },
+        {
+          "rank": 21,
+          "title": "魔方小姐",
+          "author": "",
+          "heat": "21.",
+          "url": "https://movie.douban.com/subject/36808520"
         },
         {
           "rank": 22,
@@ -1815,31 +1815,31 @@
         },
         {
           "rank": 25,
-          "title": "续范亭将军",
-          "author": "",
-          "heat": "25.",
-          "url": "https://movie.douban.com/subject/37234431"
-        },
-        {
-          "rank": 26,
           "title": "超级马力欧银河大电影",
           "author": "",
-          "heat": "26.",
+          "heat": "25.",
           "url": "https://movie.douban.com/subject/36806351"
         },
         {
+          "rank": 26,
+          "title": "续范亭将军",
+          "author": "",
+          "heat": "26.",
+          "url": "https://movie.douban.com/subject/37234431"
+        },
+        {
           "rank": 27,
-          "title": "钢的琴",
+          "title": "蓝白红三部曲之红",
           "author": "",
           "heat": "27.",
-          "url": "https://movie.douban.com/subject/4876722"
+          "url": "https://movie.douban.com/subject/1292047"
         },
         {
           "rank": 28,
-          "title": "蓝白红三部曲之红",
+          "title": "钢的琴",
           "author": "",
           "heat": "28.",
-          "url": "https://movie.douban.com/subject/1292047"
+          "url": "https://movie.douban.com/subject/4876722"
         },
         {
           "rank": 29,
@@ -1850,17 +1850,17 @@
         },
         {
           "rank": 30,
-          "title": "去年在马里昂巴德",
+          "title": "时光列车",
           "author": "",
           "heat": "30.",
-          "url": "https://movie.douban.com/subject/1400240"
+          "url": "https://movie.douban.com/subject/38424188"
         },
         {
           "rank": 31,
-          "title": "时光列车",
+          "title": "去年在马里昂巴德",
           "author": "",
           "heat": "31.",
-          "url": "https://movie.douban.com/subject/38424188"
+          "url": "https://movie.douban.com/subject/1400240"
         },
         {
           "rank": 32,
@@ -1971,7 +1971,7 @@
       "error": null,
       "item_count": 46,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:57"
+      "update_time": "2026-07-29 10:05:42"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2334,7 +2334,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-07-29 10:00:59"
+      "update_time": "2026-07-29 10:05:44"
     }
   }
 }
