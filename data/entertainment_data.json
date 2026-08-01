@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-02 01:30:28",
+  "update_time": "2026-08-02 01:35:19",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:30"
+      "update_time": "2026-08-02 01:35:22"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:33"
+      "update_time": "2026-08-02 01:35:24"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:35"
+      "update_time": "2026-08-02 01:35:26"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:37"
+      "update_time": "2026-08-02 01:35:28"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:39"
+      "update_time": "2026-08-02 01:35:30"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:41"
+      "update_time": "2026-08-02 01:35:32"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:43"
+      "update_time": "2026-08-02 01:35:34"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:45"
+      "update_time": "2026-08-02 01:35:36"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1668,17 +1668,17 @@
         },
         {
           "rank": 3,
-          "title": "年会不能停！2",
+          "title": "八仙！",
           "author": "",
           "heat": "3.",
-          "url": "https://movie.douban.com/subject/36850814"
+          "url": "https://movie.douban.com/subject/36882191"
         },
         {
           "rank": 4,
-          "title": "八仙！",
+          "title": "年会不能停！2",
           "author": "",
           "heat": "4.",
-          "url": "https://movie.douban.com/subject/36882191"
+          "url": "https://movie.douban.com/subject/36850814"
         },
         {
           "rank": 5,
@@ -1759,17 +1759,17 @@
         },
         {
           "rank": 16,
-          "title": "火遮眼",
+          "title": "特立独行",
           "author": "",
           "heat": "16.",
-          "url": "https://movie.douban.com/subject/36877245"
+          "url": "https://movie.douban.com/subject/36953973"
         },
         {
           "rank": 17,
-          "title": "特立独行",
+          "title": "火遮眼",
           "author": "",
           "heat": "17.",
-          "url": "https://movie.douban.com/subject/36953973"
+          "url": "https://movie.douban.com/subject/36877245"
         },
         {
           "rank": 18,
@@ -1885,128 +1885,128 @@
         },
         {
           "rank": 34,
-          "title": "幻影游船",
-          "author": "",
-          "heat": "34.",
-          "url": "https://movie.douban.com/subject/38455489"
-        },
-        {
-          "rank": 35,
           "title": "法外之徒",
           "author": "",
-          "heat": "35.",
+          "heat": "34.",
           "url": "https://movie.douban.com/subject/1401588"
         },
         {
-          "rank": 36,
+          "rank": 35,
           "title": "祖与占",
           "author": "",
-          "heat": "36.",
+          "heat": "35.",
           "url": "https://movie.douban.com/subject/1292338"
         },
         {
-          "rank": 37,
+          "rank": 36,
           "title": "坏血",
           "author": "",
-          "heat": "37.",
+          "heat": "36.",
           "url": "https://movie.douban.com/subject/1301678"
         },
         {
-          "rank": 38,
+          "rank": 37,
           "title": "去年在马里昂巴德",
           "author": "",
-          "heat": "38.",
+          "heat": "37.",
           "url": "https://movie.douban.com/subject/1400240"
         },
         {
-          "rank": 39,
+          "rank": 38,
           "title": "秋天的童话",
           "author": "",
-          "heat": "39.",
+          "heat": "38.",
           "url": "https://movie.douban.com/subject/1301912"
         },
         {
-          "rank": 40,
+          "rank": 39,
           "title": "亚利桑那之梦",
           "author": "",
-          "heat": "40.",
+          "heat": "39.",
           "url": "https://movie.douban.com/subject/1293191"
         },
         {
-          "rank": 41,
+          "rank": 40,
           "title": "探戈课",
           "author": "",
-          "heat": "41.",
+          "heat": "40.",
           "url": "https://movie.douban.com/subject/1306960"
         },
         {
-          "rank": 42,
+          "rank": 41,
           "title": "庐山恋",
           "author": "",
-          "heat": "42.",
+          "heat": "41.",
           "url": "https://movie.douban.com/subject/1422067"
         },
         {
-          "rank": 43,
+          "rank": 42,
           "title": "火山边缘之恋",
           "author": "",
-          "heat": "43.",
+          "heat": "42.",
           "url": "https://movie.douban.com/subject/1294382"
         },
         {
-          "rank": 44,
+          "rank": 43,
           "title": "蓝鲸：庞然大物归来",
           "author": "",
-          "heat": "44.",
+          "heat": "43.",
           "url": "https://movie.douban.com/subject/36761980"
         },
         {
-          "rank": 45,
+          "rank": 44,
           "title": "维米尔·旷世大展",
           "author": "",
-          "heat": "45.",
+          "heat": "44.",
           "url": "https://movie.douban.com/subject/36594974"
         },
         {
-          "rank": 46,
-          "title": "塞伦盖提大草原",
-          "author": "",
-          "heat": "46.",
-          "url": "https://movie.douban.com/subject/36745791"
-        },
-        {
-          "rank": 47,
+          "rank": 45,
           "title": "太湖英雄",
           "author": "",
-          "heat": "47.",
+          "heat": "45.",
           "url": "https://movie.douban.com/subject/38458879"
         },
         {
-          "rank": 48,
+          "rank": 46,
           "title": "海洋之谜",
           "author": "",
-          "heat": "48.",
+          "heat": "46.",
           "url": "https://movie.douban.com/subject/36827764"
         },
         {
-          "rank": 49,
+          "rank": 47,
           "title": "冬旅人",
           "author": "",
-          "heat": "49.",
+          "heat": "47.",
           "url": "https://movie.douban.com/subject/35201478"
         },
         {
-          "rank": 50,
+          "rank": 48,
           "title": "林家宅37号",
           "author": "",
-          "heat": "50.",
+          "heat": "48.",
           "url": "https://movie.douban.com/subject/37435260"
+        },
+        {
+          "rank": 49,
+          "title": "大唐妖探",
+          "author": "",
+          "heat": "49.",
+          "url": "https://movie.douban.com/subject/35464353"
+        },
+        {
+          "rank": 50,
+          "title": "汪汪队立大功大电影3：勇闯恐龙岛",
+          "author": "",
+          "heat": "50.",
+          "url": "https://movie.douban.com/subject/36791178"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:48"
+      "update_time": "2026-08-02 01:35:39"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-02 01:30:50"
+      "update_time": "2026-08-02 01:35:41"
     }
   }
 }
