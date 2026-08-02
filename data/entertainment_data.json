@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-03 05:00:36",
+  "update_time": "2026-08-03 05:05:26",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:38"
+      "update_time": "2026-08-03 05:05:28"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:40"
+      "update_time": "2026-08-03 05:05:30"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:43"
+      "update_time": "2026-08-03 05:05:32"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:45"
+      "update_time": "2026-08-03 05:05:34"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:47"
+      "update_time": "2026-08-03 05:05:37"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:49"
+      "update_time": "2026-08-03 05:05:39"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:51"
+      "update_time": "2026-08-03 05:05:41"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:53"
+      "update_time": "2026-08-03 05:05:43"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1927,79 +1927,79 @@
         },
         {
           "rank": 41,
-          "title": "塞伦盖提大草原",
+          "title": "维米尔·旷世大展",
           "author": "",
           "heat": "41.",
-          "url": "https://movie.douban.com/subject/36745791"
+          "url": "https://movie.douban.com/subject/36594974"
         },
         {
           "rank": 42,
-          "title": "太湖英雄",
+          "title": "塞伦盖提大草原",
           "author": "",
           "heat": "42.",
-          "url": "https://movie.douban.com/subject/38458879"
+          "url": "https://movie.douban.com/subject/36745791"
         },
         {
           "rank": 43,
-          "title": "海洋之谜",
+          "title": "太湖英雄",
           "author": "",
           "heat": "43.",
-          "url": "https://movie.douban.com/subject/36827764"
+          "url": "https://movie.douban.com/subject/38458879"
         },
         {
           "rank": 44,
-          "title": "冬旅人",
+          "title": "海洋之谜",
           "author": "",
           "heat": "44.",
-          "url": "https://movie.douban.com/subject/35201478"
+          "url": "https://movie.douban.com/subject/36827764"
         },
         {
           "rank": 45,
-          "title": "林家宅37号",
+          "title": "冬旅人",
           "author": "",
           "heat": "45.",
-          "url": "https://movie.douban.com/subject/37435260"
+          "url": "https://movie.douban.com/subject/35201478"
         },
         {
           "rank": 46,
-          "title": "大唐妖探",
+          "title": "林家宅37号",
           "author": "",
           "heat": "46.",
-          "url": "https://movie.douban.com/subject/35464353"
+          "url": "https://movie.douban.com/subject/37435260"
         },
         {
           "rank": 47,
-          "title": "汪汪队立大功大电影3：勇闯恐龙岛",
+          "title": "大唐妖探",
           "author": "",
           "heat": "47.",
-          "url": "https://movie.douban.com/subject/36791178"
+          "url": "https://movie.douban.com/subject/35464353"
         },
         {
           "rank": 48,
-          "title": "奥德赛",
+          "title": "汪汪队立大功大电影3：勇闯恐龙岛",
           "author": "",
           "heat": "48.",
-          "url": "https://movie.douban.com/subject/36808876"
+          "url": "https://movie.douban.com/subject/36791178"
         },
         {
           "rank": 49,
-          "title": "逃出绝命街",
+          "title": "奥德赛",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/36318703"
+          "url": "https://movie.douban.com/subject/36808876"
         },
         {
           "rank": 50,
-          "title": "猫猫的奇幻漂流",
+          "title": "逃出绝命街",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/35603727"
+          "url": "https://movie.douban.com/subject/36318703"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:55"
+      "update_time": "2026-08-03 05:05:45"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-03 05:00:57"
+      "update_time": "2026-08-03 05:05:47"
     }
   }
 }
