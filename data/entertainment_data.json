@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-06 04:15:24",
+  "update_time": "2026-08-06 04:20:28",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:26"
+      "update_time": "2026-08-06 04:20:30"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:29"
+      "update_time": "2026-08-06 04:20:33"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:31"
+      "update_time": "2026-08-06 04:20:35"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:33"
+      "update_time": "2026-08-06 04:20:37"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:35"
+      "update_time": "2026-08-06 04:20:39"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:38"
+      "update_time": "2026-08-06 04:20:42"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1201,23 +1201,23 @@
       "items": [
         {
           "rank": 1,
-          "title": "【TF家族练习生】《突围II破局》EP06：我们把彼此留下来（下）",
+          "title": "【TF家族练习生】《突围II破局》EP06：加更",
           "author": "",
-          "heat": "239.3万",
-          "url": "https://www.bilibili.com/video/av117024504220475/"
+          "heat": "77.5万",
+          "url": "https://www.bilibili.com/video/av117042422286834/"
         },
         {
           "rank": 2,
           "title": "全明星大逃杀真人秀！考古跑步类综艺《全员加速中》跑不动就等着被抓~",
           "author": "",
-          "heat": "90.6万",
+          "heat": "90.8万",
           "url": "https://www.bilibili.com/video/av117030057415950/"
         },
         {
           "rank": 3,
           "title": "连干六碗饭加一碗面的极饿贝利亚",
           "author": "",
-          "heat": "91.7万",
+          "heat": "91.8万",
           "url": "https://www.bilibili.com/video/av117013783642384/"
         },
         {
@@ -1231,42 +1231,42 @@
           "rank": 5,
           "title": "王俊凯和黄晓明都放弃张雅琪了，张雅琪凭实力让自己游离在众人之外，全员内心os:算了吧，没事，她爱干嘛干嘛吧，少干点也没事，还不会被甩锅",
           "author": "",
-          "heat": "82.0万",
+          "heat": "82.1万",
           "url": "https://www.bilibili.com/video/av117020846724107/"
         },
         {
           "rank": 6,
           "title": "【吃瓜】赵露思直播乐子…粉丝催进组被怼，个人品牌品控问题也不能提，肉丝还是太有节目了。",
           "author": "",
-          "heat": "34.7万",
+          "heat": "34.8万",
           "url": "https://www.bilibili.com/video/av117026785858563/"
         },
         {
           "rank": 7,
+          "title": "【登陆少年】《TOP登陆少年组合日常角》 71",
+          "author": "",
+          "heat": "18.2万",
+          "url": "https://www.bilibili.com/video/av117041868833597/"
+        },
+        {
+          "rank": 8,
           "title": "救命大家真的彻底放弃张雅琪了…不仅不给她派活连汤都不分她！姜妍甚至想收编阿福…宁愿麻烦阿福也不让张去采购…在后厨站半天别人都快忙飞了她依旧不干活…妍姐都懒得理她",
           "author": "",
           "heat": "30.0万",
           "url": "https://www.bilibili.com/video/av117027406616547/"
         },
         {
-          "rank": 8,
-          "title": "【登陆少年】《TOP登陆少年组合日常角》 71",
-          "author": "",
-          "heat": "18.1万",
-          "url": "https://www.bilibili.com/video/av117041868833597/"
-        },
-        {
           "rank": 9,
           "title": "我们一起去海边一日游 | TXT的暑假日记 EP.4",
           "author": "",
-          "heat": "7.3万",
+          "heat": "7.4万",
           "url": "https://www.bilibili.com/video/av117041398879520/"
         },
         {
           "rank": 10,
           "title": "这一秒过火雷霆剧，欣欣剧宣撒娇，tf四代再创窜绩。。。",
           "author": "",
-          "heat": "40.8万",
+          "heat": "40.9万",
           "url": "https://www.bilibili.com/video/av117024453821294/"
         },
         {
@@ -1280,71 +1280,71 @@
           "rank": 12,
           "title": "罗正否认2023年存款有1900多万：从未刻意卖惨，已委托律师取证维权",
           "author": "",
-          "heat": "28.2万",
+          "heat": "28.4万",
           "url": "https://www.bilibili.com/video/av117031164709653/"
         },
         {
           "rank": 13,
-          "title": "白鹿露思演唱会折磨，双男主cp边麦边磕，短剧长吃这一秒上火",
-          "author": "",
-          "heat": "129.2万",
-          "url": "https://www.bilibili.com/video/av117008129591610/"
-        },
-        {
-          "rank": 14,
           "title": "如果帅是一种天赋",
           "author": "",
-          "heat": "334.9万",
+          "heat": "335.0万",
           "url": "https://www.bilibili.com/video/av116763299678352/"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "【kpop】过度包装爱豆~本质是团队推卸责任",
           "author": "",
-          "heat": "19.2万",
+          "heat": "19.3万",
           "url": "https://www.bilibili.com/video/av117029554102190/"
+        },
+        {
+          "rank": 15,
+          "title": "白鹿露思演唱会折磨，双男主cp边麦边磕，短剧长吃这一秒上火",
+          "author": "",
+          "heat": "129.3万",
+          "url": "https://www.bilibili.com/video/av117008129591610/"
         },
         {
           "rank": 16,
           "title": "满嘴跑火车，左右脑互搏，老实话不多【韩红雷霆发言名场面】",
           "author": "",
-          "heat": "362.9万",
+          "heat": "363.1万",
           "url": "https://www.bilibili.com/video/av116978182391457/"
         },
         {
           "rank": 17,
+          "title": "[GOING SEVENTEEN] EP.154 Red Ball #1",
+          "author": "",
+          "heat": "8.1万",
+          "url": "https://www.bilibili.com/video/av117041616979085/"
+        },
+        {
+          "rank": 18,
           "title": "【陈瑶】闪闪发光的一天🪩",
           "author": "",
           "heat": "10.3万",
           "url": "https://www.bilibili.com/video/av117030543955658/"
         },
         {
-          "rank": 18,
-          "title": "[GOING SEVENTEEN] EP.154 Red Ball #1",
+          "rank": 19,
+          "title": "她把中餐厅拍成了变形记，坏了也没变好啊！",
           "author": "",
-          "heat": "8.0万",
-          "url": "https://www.bilibili.com/video/av117041616979085/"
+          "heat": "10.6万",
+          "url": "https://www.bilibili.com/video/av117043126868564/"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "title": "[TWS:CLUB] ○○居然是狂徒！太难以置信了… | 六个家伙 | EP.63",
           "author": "",
           "heat": "9.2万",
           "url": "https://www.bilibili.com/video/av117036785206195/"
         },
         {
-          "rank": 20,
+          "rank": 21,
           "title": "雄竞修罗场，四男争一女笑疯了！《心动的信号9》第一期",
           "author": "",
           "heat": "13.8万",
           "url": "https://www.bilibili.com/video/av117031282149851/"
-        },
-        {
-          "rank": 21,
-          "title": "她把中餐厅拍成了变形记，坏了也没变好啊！",
-          "author": "",
-          "heat": "9.6万",
-          "url": "https://www.bilibili.com/video/av117043126868564/"
         },
         {
           "rank": 22,
@@ -1357,64 +1357,64 @@
           "rank": 23,
           "title": "【台娱12瓜盘点】孙燕姿被骂上热搜、李佳薇抄袭？林志玲被举报、修杰楷求轻判！吴宗宪离婚…台娱这波瓜一个比一个离谱",
           "author": "",
-          "heat": "12.3万",
+          "heat": "12.4万",
           "url": "https://www.bilibili.com/video/av117036768368257/"
         },
         {
           "rank": 24,
-          "title": "热烈欢迎“苟师”孙浩！听说浩哥是个讲究人，今天看看他都用什么讲究物？（本期又名《热烈欢迎之孙浩打歌大舞台》",
-          "author": "",
-          "heat": "160.0万",
-          "url": "https://www.bilibili.com/video/av116997006299512/"
-        },
-        {
-          "rank": 25,
           "title": "可别欧巴了 欧尼们清醒点吧",
           "author": "",
-          "heat": "66.1万",
+          "heat": "66.2万",
           "url": "https://www.bilibili.com/video/av116991067168434/"
         },
         {
-          "rank": 26,
-          "title": "JYP线下签售vlog！是一场会有戒断反应的签售",
-          "author": "",
-          "heat": "18.0万",
-          "url": "https://www.bilibili.com/video/av117019370328337/"
-        },
-        {
-          "rank": 27,
-          "title": "kpop：靠雷霆穿搭和畸形审美走下坡路",
-          "author": "",
-          "heat": "29.0万",
-          "url": "https://www.bilibili.com/video/av117017843664825/"
-        },
-        {
-          "rank": 28,
+          "rank": 25,
           "title": "李小璐澄清离婚时间，否认“做头发”？夜宿门时间线全复盘！",
           "author": "",
           "heat": "37.8万",
           "url": "https://www.bilibili.com/video/av117012978205706/"
         },
         {
-          "rank": 29,
-          "title": "卷王教主VS松弛大爷，刘旸“倒反天罡”教于谦做播客？【多新鲜呐ep26｜于谦的视频播客】",
+          "rank": 26,
+          "title": "热烈欢迎“苟师”孙浩！听说浩哥是个讲究人，今天看看他都用什么讲究物？（本期又名《热烈欢迎之孙浩打歌大舞台》",
           "author": "",
-          "heat": "100.2万",
-          "url": "https://www.bilibili.com/video/av116990899390830/"
+          "heat": "160.1万",
+          "url": "https://www.bilibili.com/video/av116997006299512/"
+        },
+        {
+          "rank": 27,
+          "title": "JYP线下签售vlog！是一场会有戒断反应的签售",
+          "author": "",
+          "heat": "18.0万",
+          "url": "https://www.bilibili.com/video/av117019370328337/"
+        },
+        {
+          "rank": 28,
+          "title": "kpop：靠雷霆穿搭和畸形审美走下坡路",
+          "author": "",
+          "heat": "29.0万",
+          "url": "https://www.bilibili.com/video/av117017843664825/"
+        },
+        {
+          "rank": 29,
+          "title": "Reaction第9期｜演员已就位，请把祝福打在公屏上!!!",
+          "author": "",
+          "heat": "9.0万",
+          "url": "https://www.bilibili.com/video/av117036231629551/"
         },
         {
           "rank": 30,
           "title": "没一点想看的欲望？胆量不详？笑料一筐！周笔畅满身大汉？笑到没空害怕《密室大逃脱8》",
           "author": "",
-          "heat": "583.6万",
+          "heat": "583.7万",
           "url": "https://www.bilibili.com/video/av116980463962922/"
         },
         {
           "rank": 31,
-          "title": "Reaction第9期｜演员已就位，请把祝福打在公屏上!!!",
+          "title": "卷王教主VS松弛大爷，刘旸“倒反天罡”教于谦做播客？【多新鲜呐ep26｜于谦的视频播客】",
           "author": "",
-          "heat": "9.0万",
-          "url": "https://www.bilibili.com/video/av117036231629551/"
+          "heat": "100.2万",
+          "url": "https://www.bilibili.com/video/av116990899390830/"
         },
         {
           "rank": 32,
@@ -1425,23 +1425,23 @@
         },
         {
           "rank": 33,
-          "title": "全体起立！最速“寿司百盘斩”达成！超新星大胃袋暴力速食！",
-          "author": "",
-          "heat": "15.3万",
-          "url": "https://www.bilibili.com/video/av117024504351318/"
-        },
-        {
-          "rank": 34,
           "title": "《抓特务》巨亏，华谊破产，冯小刚和京圈为何没落？【银幕黑金档案03】",
           "author": "",
           "heat": "541.3万",
           "url": "https://www.bilibili.com/video/av116893289553700/"
         },
         {
+          "rank": 34,
+          "title": "全体起立！最速“寿司百盘斩”达成！超新星大胃袋暴力速食！",
+          "author": "",
+          "heat": "15.3万",
+          "url": "https://www.bilibili.com/video/av117024504351318/"
+        },
+        {
           "rank": 35,
           "title": "李沁张雅琪关系的重要转折点！花五花七对比之为什么我会说张雅琪是“冷漠空心人”伪装的“小太阳”！！！李沁迟到那一天经受的打击影响有多大？！",
           "author": "",
-          "heat": "96.3万",
+          "heat": "96.4万",
           "url": "https://www.bilibili.com/video/av117008163146176/"
         },
         {
@@ -1460,31 +1460,31 @@
         },
         {
           "rank": 38,
-          "title": "《上野中下辅都尽力啦2》 EP01——中野篇",
-          "author": "",
-          "heat": "89.9万",
-          "url": "https://www.bilibili.com/video/av117001150269146/"
-        },
-        {
-          "rank": 39,
           "title": "【时代少年团】「米爆探班日记」EP05",
           "author": "",
           "heat": "34.9万",
           "url": "https://www.bilibili.com/video/av117019470991713/"
         },
         {
-          "rank": 40,
-          "title": "WC~炸锅!8月3号张雅琪被中餐厅开除!算错中餐厅账单，偷懒啥活不干!CEO只能亲自下厨…节目被搞得一团糟，还连累队友一起背锅!翻车从来不是偶然！从花少到中餐厅",
+          "rank": 39,
+          "title": "望周知！不同脸型的存在才会有不同类型的大美人！没必要在幼态脸锥子脸这个赛道卷生卷死！！",
           "author": "",
-          "heat": "8.6万",
-          "url": "https://www.bilibili.com/video/av117030929891843/"
+          "heat": "4.5万",
+          "url": "https://www.bilibili.com/video/av117035090648697/"
+        },
+        {
+          "rank": 40,
+          "title": "《上野中下辅都尽力啦2》 EP01——中野篇",
+          "author": "",
+          "heat": "89.9万",
+          "url": "https://www.bilibili.com/video/av117001150269146/"
         },
         {
           "rank": 41,
-          "title": "望周知！不同脸型的存在才会有不同类型的大美人！没必要在幼态脸锥子脸这个赛道卷生卷死！！",
+          "title": "WC~炸锅!8月3号张雅琪被中餐厅开除!算错中餐厅账单，偷懒啥活不干!CEO只能亲自下厨…节目被搞得一团糟，还连累队友一起背锅!翻车从来不是偶然！从花少到中餐厅",
           "author": "",
-          "heat": "4.4万",
-          "url": "https://www.bilibili.com/video/av117035090648697/"
+          "heat": "8.7万",
+          "url": "https://www.bilibili.com/video/av117030929891843/"
         },
         {
           "rank": 42,
@@ -1497,7 +1497,7 @@
           "rank": 43,
           "title": "用AI展示活跃于日本80~90年代的30位传说中的超级偶像今与昔对比：很容易就想起南野阳子、中森明菜、森高千里、小泉今日子、中山美穗、工藤静香这些当时的天然美女",
           "author": "",
-          "heat": "5.9万",
+          "heat": "6.0万",
           "url": "https://www.bilibili.com/video/av117024454023885/"
         },
         {
@@ -1525,14 +1525,14 @@
           "rank": 47,
           "title": "Jennie 芝加哥音乐节遭差评 宣布休假，未来两三年内不再精心规划",
           "author": "",
-          "heat": "9.6万",
+          "heat": "9.7万",
           "url": "https://www.bilibili.com/video/av117036768367003/"
         },
         {
           "rank": 48,
           "title": "悄然撤名！ 多平台撤销李荣浩《小眼睛》作曲署名 4个月前其曾发文称没有抄袭 本人至今暂未回应",
           "author": "",
-          "heat": "10.5万",
+          "heat": "10.9万",
           "url": "https://www.bilibili.com/video/av117036919358545/"
         },
         {
@@ -1546,14 +1546,14 @@
           "rank": 50,
           "title": "你懂白鹿吗？——内娱嘉欣",
           "author": "",
-          "heat": "1594.7万",
+          "heat": "1594.8万",
           "url": "https://www.bilibili.com/video/av116747445208084/"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:40"
+      "update_time": "2026-08-06 04:20:44"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:42"
+      "update_time": "2026-08-06 04:20:46"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:44"
+      "update_time": "2026-08-06 04:20:48"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 04:15:46"
+      "update_time": "2026-08-06 04:20:51"
     }
   }
 }
