@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-06 14:55:26",
+  "update_time": "2026-08-06 15:00:49",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:29"
+      "update_time": "2026-08-06 15:00:51"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -464,48 +464,41 @@
         },
         {
           "rank": 14,
-          "title": "是家长纵容还是包容度低？ 到底是年轻人太冷漠，还是现在的家长太纵容 内容来源：@正宗大懒虫#孩子教育#年轻人#社会百态#熊孩子#家庭教育",
-          "author": "剧好看鸭",
-          "heat": "4943526次播放",
-          "url": "https://www.douyin.com/video/7670124681093074202"
-        },
-        {
-          "rank": 15,
           "title": "我就说中国人真的能飞吧#中国人能飞 #魔术 #抽象 #高雨田大魔王 #高雨田",
           "author": "萌小妞日记",
           "heat": "4846496次播放",
           "url": "https://www.douyin.com/video/7670122917983784244"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "谁看见筷子能忍住 #离谱 #反转 #筷子 #搞笑 #万万没想到",
           "author": "胖猫痴娱",
           "heat": "4841779次播放",
           "url": "https://www.douyin.com/video/7670110198681373971"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "小苦瓜终于找到了爱它的人 二创画师：@乐乐网名 @渔川. #verity #我的世界 #奶奶 #治愈",
           "author": "喵酱爱吃娱",
           "heat": "4788341次播放",
           "url": "https://www.douyin.com/video/7670467620801383720"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "人甚至不能共情从前的自己#打工 #万万没想到 #老板 #搞笑",
           "author": "娱乐鲜报",
           "heat": "4565936次播放",
           "url": "https://www.douyin.com/video/7670390044716174619"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "memo就这样懵逼的看着你#家务 #机器人 #科技 #AI",
           "author": "喵酱爱吃娱",
           "heat": "4439322次播放",
           "url": "https://www.douyin.com/video/7670132745997126954"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "广告弹窗要肆无忌惮到什么时候 #弹窗 #广告 #老年人 #软件 #社会",
           "author": "圈圈来了",
           "heat": "4414497次播放",
@@ -513,9 +506,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:31"
+      "update_time": "2026-08-06 15:00:54"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +654,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:33"
+      "update_time": "2026-08-06 15:00:56"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:35"
+      "update_time": "2026-08-06 15:00:58"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:37"
+      "update_time": "2026-08-06 15:01:00"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:39"
+      "update_time": "2026-08-06 15:01:02"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:41"
+      "update_time": "2026-08-06 15:01:04"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:43"
+      "update_time": "2026-08-06 15:01:06"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:45"
+      "update_time": "2026-08-06 15:01:09"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-06 14:55:48"
+      "update_time": "2026-08-06 15:01:11"
     }
   }
 }
