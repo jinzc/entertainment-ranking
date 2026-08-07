@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-07 20:25:22",
+  "update_time": "2026-08-07 20:30:34",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:24"
+      "update_time": "2026-08-07 20:30:36"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -471,41 +471,34 @@
         },
         {
           "rank": 15,
-          "title": "女孩儿你怎么这么好啊 （cr.leo） #女儿 #孩子 #家庭 #父母 #大数据推荐给有需要的人",
-          "author": "抓马娱乐圈",
-          "heat": "4168664次播放",
-          "url": "https://www.douyin.com/video/7670855032551656714"
-        },
-        {
-          "rank": 16,
           "title": "仿佛你只需静静看我一眼 #蜘蛛侠崭新之日 #蜘蛛侠 #荷兰弟 #赞达亚 #情侣",
           "author": "电影蜘蛛侠：崭新之日",
           "heat": "4163362次播放",
           "url": "https://www.douyin.com/video/7670565676197928425"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "至此 宁夏迎来了真正懂审美的建筑#宁夏 #西夏王陵 #文旅 #审美 #旅游 （感谢授权@K K . @欠我一个真心. @叫我生菜 ）",
           "author": "会火",
           "heat": "4071941次播放",
           "url": "https://www.douyin.com/video/7670774271349656884"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "这年头，追未婚的 竞争对手会有很多，但追已婚的 竞争对手只有一个！",
           "author": "我的偶像巨顽皮",
           "heat": "4026586次播放",
           "url": "https://www.douyin.com/video/7670796007596248326"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "一开口质感就上来了！感觉经历了一场思想洗礼！#老人 #爱国 #感动 #老兵 #信仰 素材来源：@至少我开枪了",
           "author": "芒果妈妈",
           "heat": "3979333次播放",
           "url": "https://www.douyin.com/video/7670909310020374129"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "好像确实是这么个道理（@约翰.道长）#寺庙 #道观 #斋饭 #素食 #万万没想到",
           "author": "圈圈来了",
           "heat": "3970557次播放",
@@ -513,9 +506,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:26"
+      "update_time": "2026-08-07 20:30:38"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +654,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:28"
+      "update_time": "2026-08-07 20:30:40"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:30"
+      "update_time": "2026-08-07 20:30:42"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:32"
+      "update_time": "2026-08-07 20:30:44"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:35"
+      "update_time": "2026-08-07 20:30:47"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:37"
+      "update_time": "2026-08-07 20:30:49"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:39"
+      "update_time": "2026-08-07 20:30:51"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:41"
+      "update_time": "2026-08-07 20:30:53"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-07 20:25:43"
+      "update_time": "2026-08-07 20:30:55"
     }
   }
 }
