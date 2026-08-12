@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-12 09:35:21",
+  "update_time": "2026-08-12 09:40:28",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:23"
+      "update_time": "2026-08-12 09:40:30"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:26"
+      "update_time": "2026-08-12 09:40:32"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -525,136 +525,143 @@
       "color": "#F59E0B",
       "items": [
         {
-          "rank": 2,
-          "title": "超～合～拍！#默契拍手舞挑战 #抖音创意玩法大赛",
-          "author": "佟丽娅",
-          "heat": "10971837次播放",
-          "url": "https://www.douyin.com/video/7672286803793283034"
+          "rank": 1,
+          "title": "孩子们，好好吃饭，好好长大 #欢迎来龙餐馆",
+          "author": "沈腾",
+          "heat": "21958895次播放",
+          "url": "https://www.douyin.com/video/7672588488647104377"
         },
         {
-          "rank": 4,
+          "rank": 2,
+          "title": "这下真的存货告罄啦！#变装",
+          "author": "董璇",
+          "heat": "14059265次播放",
+          "url": "https://www.douyin.com/video/7672695925555074432"
+        },
+        {
+          "rank": 3,
           "title": "这次化妆buff叠满，我和吴昕喜提双胞胎皮肤！ #嘉码一下",
           "author": "李维嘉",
-          "heat": "9721285次播放",
+          "heat": "12449657次播放",
           "url": "https://www.douyin.com/video/7672315171000308194"
         },
         {
+          "rank": 4,
+          "title": "逛我们云南的菜街子每次都有新体验！ #一勺楠风#记录真实生活#美食#云南#菜市场",
+          "author": "王一楠",
+          "heat": "11163945次播放",
+          "url": "https://www.douyin.com/video/7672711296600509731"
+        },
+        {
           "rank": 5,
-          "title": "把我的领带拿来！！#正太扭腰 #活人感一夏",
-          "author": "罗正",
-          "heat": "9646592次播放",
-          "url": "https://www.douyin.com/video/7672239240897582254"
+          "title": "二龙湖村暖花开3正在热映 #二龙湖村暖花开3",
+          "author": "二龙湖浩哥",
+          "heat": "10179503次播放",
+          "url": "https://www.douyin.com/video/7672623810059174329"
         },
         {
           "rank": 6,
-          "title": "武汉的朋友们你们的盖浇饭可挺别致的#日常vlog",
-          "author": "王宁",
-          "heat": "9006650次播放",
-          "url": "https://www.douyin.com/video/7671923496783860462"
+          "title": "🆒🙂‍↔️#降躁一夏",
+          "author": "周翊然",
+          "heat": "9009411次播放",
+          "url": "https://www.douyin.com/video/7672705180199380650"
         },
         {
           "rank": 7,
-          "title": "猫砂抗洪 过半小时就之知道我是天才或是白痴哈哈哈 #上海 #台风",
-          "author": "杨英格格",
-          "heat": "6982477次播放",
-          "url": "https://www.douyin.com/video/7671920180448827304"
+          "title": "#陈伟霆 张启山负伤救401出来，副官张小鱼担心下跪喊佛爷，九门路透#陈伟霆九门#张启山 #张大佛爷 #九门",
+          "author": "陈伟霆的tada",
+          "heat": "8592555次播放",
+          "url": "https://www.douyin.com/video/7672695470741169039"
         },
         {
           "rank": 8,
-          "title": "#陈伟霆 张启山接过副官张小鱼递来的东西，举臂对天鸣示，九门拍摄路透#陈伟霆九门#张启山 #张大佛爷 #九门",
-          "author": "陈伟霆的tada",
-          "heat": "6616627次播放",
-          "url": "https://www.douyin.com/video/7672296998603050575"
-        },
-        {
-          "rank": 9,
-          "title": "台风来了～ #一念江南 #剧剧抖有戏 #我的追剧日志",
-          "author": "白冰",
-          "heat": "6306967次播放",
-          "url": "https://www.douyin.com/video/7671877999579173745"
+          "title": "做她的大地 别做她的天#张若昀 #活人感一夏 #全国清凉地",
+          "author": "王星越",
+          "heat": "7999786次播放",
+          "url": "https://www.douyin.com/video/7672678260397145024"
         },
         {
           "rank": 10,
-          "title": "同学，你书掉了📖 #活人感一夏",
-          "author": "杨洋",
-          "heat": "6103198次播放",
-          "url": "https://www.douyin.com/video/7671970867455075825"
+          "title": "超～合～拍！#默契拍手舞挑战 #抖音创意玩法大赛",
+          "author": "佟丽娅",
+          "heat": "7772488次播放",
+          "url": "https://www.douyin.com/video/7672286803793283034"
         },
         {
           "rank": 11,
-          "title": "秦大爷一路走好 不能信，不敢信，这是真的吗？好大爷。一路走好。",
-          "author": "谢宁",
-          "heat": "6099204次播放",
-          "url": "https://www.douyin.com/video/7672296119330874217"
+          "title": "#伙伴计划#夫妻日常#云南方言",
+          "author": "云南小林",
+          "heat": "6516361次播放",
+          "url": "https://www.douyin.com/video/7672641552322380425"
         },
         {
           "rank": 12,
-          "title": "阝余 ㄋ↘ 氵冗 黑犬ィ我 辶不 乘刂 丅 イ+ ㄙ",
-          "author": "王玉雯U.Vin",
-          "heat": "5961899次播放",
-          "url": "https://www.douyin.com/video/7671631129237338289"
+          "title": "很难解释，我只是看了一本太上头的书！#天蚕土豆新作神通者 #神通者",
+          "author": "程潇",
+          "heat": "6206552次播放",
+          "url": "https://www.douyin.com/video/7672273353272875904"
         },
         {
           "rank": 13,
-          "title": "春和必定百花开！#易烊千玺 #刘春和 #百花奖最佳男主角 #电影小小的我",
-          "author": "传说有个魔仙堡",
-          "heat": "5689253次播放",
-          "url": "https://www.douyin.com/video/7672017568869260435"
+          "title": "慢慢播种，静静等候。 花开有时，自有满心欢喜，一起遇见#我的花园世界 #张新成代言我的花园世界 #花园遇见新朋友",
+          "author": "张新成",
+          "heat": "5780171次播放",
+          "url": "https://www.douyin.com/video/7672061270766857649"
         },
         {
           "rank": 14,
-          "title": "重生之…？🤔",
-          "author": "程潇",
-          "heat": "5673328次播放",
-          "url": "https://www.douyin.com/video/7672275888042394560"
+          "title": "欢迎来我的餐馆，龙餐馆！#欢迎来龙餐馆",
+          "author": "沈腾",
+          "heat": "5679084次播放",
+          "url": "https://www.douyin.com/video/7670489706047547062"
         },
         {
           "rank": 15,
-          "title": "🥰🥰🥰 被你们包围啦～🍋",
-          "author": "孟子义",
-          "heat": "4974727次播放",
-          "url": "https://www.douyin.com/video/7672250007755817138"
+          "title": "#活人感一夏 #引体向上",
+          "author": "何与happy",
+          "heat": "5299741次播放",
+          "url": "https://www.douyin.com/video/7672722064713740985"
         },
         {
           "rank": 16,
-          "title": "许愿柳:就这点要求？#五菱代步车300万用户盛典#缤果Pro",
-          "author": "孟子义",
-          "heat": "4959536次播放",
-          "url": "https://www.douyin.com/video/7671641220380488185"
+          "title": "听到莫言到现场，特别惊讶的宝宝",
+          "author": "烊是的念来过倒",
+          "heat": "5134594次播放",
+          "url": "https://www.douyin.com/video/7672455330982483897"
         },
         {
           "rank": 17,
-          "title": "#天才女友 你镜头下的我 #剧剧抖有戏 #我的追剧日志",
-          "author": "小田",
-          "heat": "4935265次播放",
-          "url": "https://www.douyin.com/video/7672077767047533562"
+          "title": "你们觉得山东话真的影响颜值吗？ #王艳 #山东话 #方言的魅力",
+          "author": "王艳",
+          "heat": "4988443次播放",
+          "url": "https://www.douyin.com/video/7672592654408938859"
         },
         {
           "rank": 18,
-          "title": "这才是结婚该有的氛围，都来学学，最后有惊喜#胡歌#彭于晏#马天宇#刘昊然#婚礼@DOU+小助手",
-          "author": "星⭐️歌",
-          "heat": "4619963次播放",
-          "url": "https://www.douyin.com/video/7672247161585299109"
+          "title": "我欠你啥子嘛，我啥子都不欠你的，你问我真哩迈真哩。#朱迅#朱迅千里千寻#胡广生#远山之约#蜀山转",
+          "author": "朱迅",
+          "heat": "4970913次播放",
+          "url": "https://www.douyin.com/video/7672586923583474990"
         },
         {
           "rank": 19,
-          "title": "被骗到了吧 #活人感一夏 #奶油风 #尝试一个新look",
-          "author": "白鹿my",
-          "heat": "4517759次播放",
-          "url": "https://www.douyin.com/video/7671597918529522664"
+          "title": "#烈阳之上阵容官宣 听说了吗，高龙城四大家族势力盘踞。掌权人们每一个都是狠角色！#烈阳之上",
+          "author": "骆达华",
+          "heat": "4948603次播放",
+          "url": "https://www.douyin.com/video/7672597988526681307"
         },
         {
           "rank": 20,
-          "title": "彩排就已经是如此权威 #程潇#姚琛 #troublemaker （感谢素材提供@锦鲤不吃海草了 ）",
-          "author": "-小鱼派-",
-          "heat": "4284187次播放",
-          "url": "https://www.douyin.com/video/7672007340488687744"
+          "title": "阳光开朗大男孩儿！#魔性年会2结算舞",
+          "author": "李乃文",
+          "heat": "4634277次播放",
+          "url": "https://www.douyin.com/video/7672422745262956770"
         }
       ],
       "error": null,
-      "item_count": 18,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:28"
+      "update_time": "2026-08-12 09:40:34"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:30"
+      "update_time": "2026-08-12 09:40:37"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:32"
+      "update_time": "2026-08-12 09:40:39"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:35"
+      "update_time": "2026-08-12 09:40:41"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:37"
+      "update_time": "2026-08-12 09:40:43"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:39"
+      "update_time": "2026-08-12 09:40:45"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1992,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:41"
+      "update_time": "2026-08-12 09:40:47"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-12 09:35:44"
+      "update_time": "2026-08-12 09:40:49"
     }
   }
 }
