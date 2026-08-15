@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-16 01:00:36",
+  "update_time": "2026-08-16 01:05:21",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:38"
+      "update_time": "2026-08-16 01:05:23"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:41"
+      "update_time": "2026-08-16 01:05:25"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:43"
+      "update_time": "2026-08-16 01:05:27"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:45"
+      "update_time": "2026-08-16 01:05:29"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:47"
+      "update_time": "2026-08-16 01:05:31"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:49"
+      "update_time": "2026-08-16 01:05:33"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:52"
+      "update_time": "2026-08-16 01:05:35"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:54"
+      "update_time": "2026-08-16 01:05:38"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1731,31 +1731,31 @@
         },
         {
           "rank": 12,
-          "title": "小黄人与大怪兽",
-          "author": "",
-          "heat": "12.",
-          "url": "https://movie.douban.com/subject/36962219"
-        },
-        {
-          "rank": 13,
           "title": "汪汪队立大功大电影3：勇闯恐龙岛",
           "author": "",
-          "heat": "13.",
+          "heat": "12.",
           "url": "https://movie.douban.com/subject/36791178"
         },
         {
+          "rank": 13,
+          "title": "小黄人与大怪兽",
+          "author": "",
+          "heat": "13.",
+          "url": "https://movie.douban.com/subject/36962219"
+        },
+        {
           "rank": 14,
-          "title": "后室",
+          "title": "想你了",
           "author": "",
           "heat": "14.",
-          "url": "https://movie.douban.com/subject/36235977"
+          "url": "https://movie.douban.com/subject/37021936"
         },
         {
           "rank": 15,
-          "title": "想你了",
+          "title": "后室",
           "author": "",
           "heat": "15.",
-          "url": "https://movie.douban.com/subject/37021936"
+          "url": "https://movie.douban.com/subject/36235977"
         },
         {
           "rank": 16,
@@ -1794,17 +1794,17 @@
         },
         {
           "rank": 21,
-          "title": "玩具总动员5",
+          "title": "诺曼底72小时",
           "author": "",
           "heat": "21.",
-          "url": "https://movie.douban.com/subject/36238849"
+          "url": "https://movie.douban.com/subject/36916000"
         },
         {
           "rank": 22,
-          "title": "诺曼底72小时",
+          "title": "玩具总动员5",
           "author": "",
           "heat": "22.",
-          "url": "https://movie.douban.com/subject/36916000"
+          "url": "https://movie.douban.com/subject/36238849"
         },
         {
           "rank": 23,
@@ -1878,17 +1878,17 @@
         },
         {
           "rank": 33,
-          "title": "续范亭将军",
+          "title": "祖与占",
           "author": "",
           "heat": "33.",
-          "url": "https://movie.douban.com/subject/37234431"
+          "url": "https://movie.douban.com/subject/1292338"
         },
         {
           "rank": 34,
-          "title": "祖与占",
+          "title": "续范亭将军",
           "author": "",
           "heat": "34.",
-          "url": "https://movie.douban.com/subject/1292338"
+          "url": "https://movie.douban.com/subject/37234431"
         },
         {
           "rank": 35,
@@ -1962,51 +1962,51 @@
         },
         {
           "rank": 45,
-          "title": "塞伦盖提大草原",
-          "author": "",
-          "heat": "45.",
-          "url": "https://movie.douban.com/subject/36745791"
-        },
-        {
-          "rank": 46,
           "title": "谢瑶环(京剧)",
           "author": "",
-          "heat": "46.",
+          "heat": "45.",
           "url": "https://movie.douban.com/subject/27005365"
         },
         {
-          "rank": 47,
+          "rank": 46,
           "title": "最小的大片",
           "author": "",
-          "heat": "47.",
+          "heat": "46.",
           "url": "https://movie.douban.com/subject/37248641"
         },
         {
-          "rank": 48,
+          "rank": 47,
           "title": "机器人总动员",
           "author": "",
-          "heat": "48.",
+          "heat": "47.",
           "url": "https://movie.douban.com/subject/2131459"
         },
         {
-          "rank": 49,
+          "rank": 48,
           "title": "空枪",
           "author": "",
-          "heat": "49.",
+          "heat": "48.",
           "url": "https://movie.douban.com/subject/37508847"
         },
         {
-          "rank": 50,
+          "rank": 49,
           "title": "不想失去你",
           "author": "",
-          "heat": "50.",
+          "heat": "49.",
           "url": "https://movie.douban.com/subject/36779597"
+        },
+        {
+          "rank": 50,
+          "title": "喜欢高兴爱",
+          "author": "",
+          "heat": "50.",
+          "url": "https://movie.douban.com/subject/35317825"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:56"
+      "update_time": "2026-08-16 01:05:40"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-16 01:00:58"
+      "update_time": "2026-08-16 01:05:42"
     }
   }
 }
