@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-19 21:35:21",
+  "update_time": "2026-08-19 21:37:58",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:23"
+      "update_time": "2026-08-19 21:38:00"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:25"
+      "update_time": "2026-08-19 21:38:02"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:28"
+      "update_time": "2026-08-19 21:38:05"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:30"
+      "update_time": "2026-08-19 21:38:07"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:32"
+      "update_time": "2026-08-19 21:38:09"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:34"
+      "update_time": "2026-08-19 21:38:11"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:36"
+      "update_time": "2026-08-19 21:38:13"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:38"
+      "update_time": "2026-08-19 21:38:15"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1969,44 +1969,44 @@
         },
         {
           "rank": 46,
-          "title": "柳媚花娇",
+          "title": "奔跑的石头",
           "author": "",
           "heat": "46.",
-          "url": "https://movie.douban.com/subject/1301648"
+          "url": "https://movie.douban.com/subject/34834795"
         },
         {
           "rank": 47,
-          "title": "瑟堡的雨伞",
+          "title": "柳媚花娇",
           "author": "",
           "heat": "47.",
-          "url": "https://movie.douban.com/subject/1301646"
+          "url": "https://movie.douban.com/subject/1301648"
         },
         {
           "rank": 48,
-          "title": "亚利桑那之梦",
+          "title": "瑟堡的雨伞",
           "author": "",
           "heat": "48.",
-          "url": "https://movie.douban.com/subject/1293191"
+          "url": "https://movie.douban.com/subject/1301646"
         },
         {
           "rank": 49,
-          "title": "红圈",
+          "title": "亚利桑那之梦",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/1401915"
+          "url": "https://movie.douban.com/subject/1293191"
         },
         {
           "rank": 50,
-          "title": "续范亭将军",
+          "title": "红圈",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/37234431"
+          "url": "https://movie.douban.com/subject/1401915"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:40"
+      "update_time": "2026-08-19 21:38:17"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-19 21:35:43"
+      "update_time": "2026-08-19 21:38:20"
     }
   }
 }
