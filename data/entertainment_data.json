@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-21 12:55:20",
+  "update_time": "2026-08-21 13:00:39",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:22"
+      "update_time": "2026-08-21 13:00:41"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -464,48 +464,41 @@
         },
         {
           "rank": 14,
-          "title": "谁懂刚被欺负完，下一秒就撞见青天大佬的爽感#交警 #高速别车 #高速",
-          "author": "极速车讯站",
-          "heat": "5467813次播放",
-          "url": "https://www.douyin.com/video/7676054196608683299"
-        },
-        {
-          "rank": 15,
           "title": "“少爷你豪到我了” #流星花园 #搞笑",
           "author": "十八画Cut",
           "heat": "5443159次播放",
           "url": "https://www.douyin.com/video/7675685504982214757"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "这才是真专家！！！ #万万没想到 #娱乐评论大赏",
           "author": "毒舌娱乐",
           "heat": "5273616次播放",
           "url": "https://www.douyin.com/video/7669422347346021675"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "爱不是生命的延续，爱是生命的给予，致天下所有托举着我们的长辈 #抖音创作者大会 #抖音AI创作大赛 #开放赛道 #即梦AI创作者成长计划 #86岁爷爷捐肾救孙",
           "author": "海林故事馆",
           "heat": "5049517次播放",
           "url": "https://www.douyin.com/video/7675359310091717942"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "改完以后跟我抬杠的都少了#娱乐 #女性成长 #换位思考 #猛男",
           "author": "娱乐草莓酱",
           "heat": "5038596次播放",
           "url": "https://www.douyin.com/video/7675698781375057179"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "上官正义又上大分了！希望坏人早日受到严惩！",
           "author": "我的偶像巨顽皮",
           "heat": "4814545次播放",
           "url": "https://www.douyin.com/video/7675966211976400168"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "发现规律利用规律#离谱 #头像 #万万没想到 #网名 #换位思考",
           "author": "呆猫吃娱",
           "heat": "4802384次播放",
@@ -513,9 +506,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:24"
+      "update_time": "2026-08-21 13:00:43"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +661,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:27"
+      "update_time": "2026-08-21 13:00:45"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:29"
+      "update_time": "2026-08-21 13:00:48"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:31"
+      "update_time": "2026-08-21 13:00:50"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:33"
+      "update_time": "2026-08-21 13:00:52"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:36"
+      "update_time": "2026-08-21 13:00:54"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:38"
+      "update_time": "2026-08-21 13:00:56"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:40"
+      "update_time": "2026-08-21 13:00:59"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-21 12:55:42"
+      "update_time": "2026-08-21 13:01:01"
     }
   }
 }
