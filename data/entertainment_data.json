@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-25 03:00:38",
+  "update_time": "2026-08-25 03:05:27",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:00:42"
+      "update_time": "2026-08-25 03:05:29"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:00:44"
+      "update_time": "2026-08-25 03:05:31"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:00:46"
+      "update_time": "2026-08-25 03:05:33"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:00:49"
+      "update_time": "2026-08-25 03:05:35"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:00:51"
+      "update_time": "2026-08-25 03:05:37"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:00:53"
+      "update_time": "2026-08-25 03:05:39"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:00:55"
+      "update_time": "2026-08-25 03:05:41"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:00:58"
+      "update_time": "2026-08-25 03:05:43"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1871,142 +1871,142 @@
         },
         {
           "rank": 32,
-          "title": "蓝白红三部曲之红",
+          "title": "哈姆雷特",
           "author": "",
           "heat": "32.",
-          "url": "https://movie.douban.com/subject/1292047"
+          "url": "https://movie.douban.com/subject/26588017"
         },
         {
           "rank": 33,
-          "title": "探戈课",
+          "title": "蓝白红三部曲之红",
           "author": "",
           "heat": "33.",
-          "url": "https://movie.douban.com/subject/1306960"
+          "url": "https://movie.douban.com/subject/1292047"
         },
         {
           "rank": 34,
-          "title": "胭脂扣",
+          "title": "探戈课",
           "author": "",
           "heat": "34.",
-          "url": "https://movie.douban.com/subject/1299288"
+          "url": "https://movie.douban.com/subject/1306960"
         },
         {
           "rank": 35,
-          "title": "柳媚花娇",
+          "title": "胭脂扣",
           "author": "",
           "heat": "35.",
-          "url": "https://movie.douban.com/subject/1301648"
+          "url": "https://movie.douban.com/subject/1299288"
         },
         {
           "rank": 36,
-          "title": "祖与占",
+          "title": "柳媚花娇",
           "author": "",
           "heat": "36.",
-          "url": "https://movie.douban.com/subject/1292338"
+          "url": "https://movie.douban.com/subject/1301648"
         },
         {
           "rank": 37,
-          "title": "童梦失魂夜",
+          "title": "祖与占",
           "author": "",
           "heat": "37.",
-          "url": "https://movie.douban.com/subject/1306450"
+          "url": "https://movie.douban.com/subject/1292338"
         },
         {
           "rank": 38,
-          "title": "红圈",
+          "title": "童梦失魂夜",
           "author": "",
           "heat": "38.",
-          "url": "https://movie.douban.com/subject/1401915"
+          "url": "https://movie.douban.com/subject/1306450"
         },
         {
           "rank": 39,
-          "title": "瑟堡的雨伞",
+          "title": "红圈",
           "author": "",
           "heat": "39.",
-          "url": "https://movie.douban.com/subject/1301646"
+          "url": "https://movie.douban.com/subject/1401915"
         },
         {
           "rank": 40,
-          "title": "坏血",
+          "title": "瑟堡的雨伞",
           "author": "",
           "heat": "40.",
-          "url": "https://movie.douban.com/subject/1301678"
+          "url": "https://movie.douban.com/subject/1301646"
         },
         {
           "rank": 41,
-          "title": "八卦楼",
+          "title": "坏血",
           "author": "",
           "heat": "41.",
-          "url": "https://movie.douban.com/subject/36650751"
+          "url": "https://movie.douban.com/subject/1301678"
         },
         {
           "rank": 42,
-          "title": "火山边缘之恋",
+          "title": "八卦楼",
           "author": "",
           "heat": "42.",
-          "url": "https://movie.douban.com/subject/1294382"
+          "url": "https://movie.douban.com/subject/36650751"
         },
         {
           "rank": 43,
-          "title": "那山那水",
+          "title": "火山边缘之恋",
           "author": "",
           "heat": "43.",
-          "url": "https://movie.douban.com/subject/38502416"
+          "url": "https://movie.douban.com/subject/1294382"
         },
         {
           "rank": 44,
-          "title": "续范亭将军",
+          "title": "那山那水",
           "author": "",
           "heat": "44.",
-          "url": "https://movie.douban.com/subject/37234431"
+          "url": "https://movie.douban.com/subject/38502416"
         },
         {
           "rank": 45,
-          "title": "塞伦盖提大草原",
+          "title": "续范亭将军",
           "author": "",
           "heat": "45.",
-          "url": "https://movie.douban.com/subject/36745791"
+          "url": "https://movie.douban.com/subject/37234431"
         },
         {
           "rank": 46,
-          "title": "蓝鲸：庞然大物归来",
+          "title": "塞伦盖提大草原",
           "author": "",
           "heat": "46.",
-          "url": "https://movie.douban.com/subject/36761980"
+          "url": "https://movie.douban.com/subject/36745791"
         },
         {
           "rank": 47,
-          "title": "肖申克的救赎",
+          "title": "蓝鲸：庞然大物归来",
           "author": "",
           "heat": "47.",
-          "url": "https://movie.douban.com/subject/1292052"
+          "url": "https://movie.douban.com/subject/36761980"
         },
         {
           "rank": 48,
-          "title": "数到三",
+          "title": "肖申克的救赎",
           "author": "",
           "heat": "48.",
-          "url": "https://movie.douban.com/subject/36931140"
+          "url": "https://movie.douban.com/subject/1292052"
         },
         {
           "rank": 49,
-          "title": "密档",
+          "title": "数到三",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/35209727"
+          "url": "https://movie.douban.com/subject/36931140"
         },
         {
           "rank": 50,
-          "title": "怪屋",
+          "title": "密档",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/37427091"
+          "url": "https://movie.douban.com/subject/35209727"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:01:00"
+      "update_time": "2026-08-25 03:05:45"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 03:01:02"
+      "update_time": "2026-08-25 03:05:48"
     }
   }
 }
