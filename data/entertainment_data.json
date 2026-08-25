@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-25 14:55:21",
+  "update_time": "2026-08-25 15:00:39",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:24"
+      "update_time": "2026-08-25 15:00:41"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -471,41 +471,34 @@
         },
         {
           "rank": 15,
-          "title": "这个bgm终于来了新英雄#帝国理工 #学霸 #蹦沙卡拉卡 #升学宴 #金榜题名",
-          "author": "灵光闪闪",
-          "heat": "5013964次播放",
-          "url": "https://www.douyin.com/video/7677475254272265514"
-        },
-        {
-          "rank": 16,
           "title": "一看就知道是谁的儿子，男版袁咏仪。 #娱乐评论大赏",
           "author": "阿一古清流",
           "heat": "4849098次播放",
           "url": "https://www.douyin.com/video/7677453642558983458"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "持“枪”抢劫派出所，这是什么电影情节 #离谱 #抽象 #云南 #万万没想到",
           "author": "飞天小娱警",
           "heat": "4712718次播放",
           "url": "https://www.douyin.com/video/7677273168897199406"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "常州这个地方有恐龙真是很有说法了 #常州 #旅游 #恐龙 #中华恐龙园 #万万没想到",
           "author": "知名叭叭观众",
           "heat": "4692902次播放",
           "url": "https://www.douyin.com/video/7677196140516871476"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "警察：你的胆子真是肥嘟嘟的 #离谱 #搞笑 #万万没想到 #内容启发搜索 （素材来源：@昆明警方发布 ）",
           "author": "赛博洞察司徒风",
           "heat": "4665555次播放",
           "url": "https://www.douyin.com/video/7677439075279785222"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "这下是真的仇人知道都心疼了 #离谱 #婚姻 #可怕 #万万没想到",
           "author": "西湖醋娱",
           "heat": "4536278次播放",
@@ -513,9 +506,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:26"
+      "update_time": "2026-08-25 15:00:43"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +661,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:28"
+      "update_time": "2026-08-25 15:00:45"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:30"
+      "update_time": "2026-08-25 15:00:48"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:32"
+      "update_time": "2026-08-25 15:00:50"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:34"
+      "update_time": "2026-08-25 15:00:52"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:37"
+      "update_time": "2026-08-25 15:00:54"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:39"
+      "update_time": "2026-08-25 15:00:56"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:41"
+      "update_time": "2026-08-25 15:00:58"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-25 14:55:43"
+      "update_time": "2026-08-25 15:01:00"
     }
   }
 }
