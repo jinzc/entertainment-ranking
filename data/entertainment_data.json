@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-29 18:05:24",
+  "update_time": "2026-08-29 18:10:23",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:26"
+      "update_time": "2026-08-29 18:10:26"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:28"
+      "update_time": "2026-08-29 18:10:28"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -617,48 +617,41 @@
         },
         {
           "rank": 14,
-          "title": "感恩的心#画江湖之不良人 #侍宣如 #网剧",
-          "author": "侍宣如",
-          "heat": "6013768次播放",
-          "url": "https://www.douyin.com/video/7678965971150827931"
-        },
-        {
-          "rank": 15,
           "title": "小宝，你是会做生意的😂#抖音玩法达人挑战赛 #晒娃晒宠 #玩法达人中心#抖音玩法合伙人",
           "author": "小苹果",
           "heat": "5761610次播放",
           "url": "https://www.douyin.com/video/7678581865687307747"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "赶在夏天来之前，和大家分享我的防晒“小诀窍”啦～#mistine #mistine小黄帽",
           "author": "景甜",
           "heat": "5043515次播放",
           "url": "https://www.douyin.com/video/7629298553987326065"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "old school #hiphop",
           "author": "蔡徐坤",
           "heat": "4888004次播放",
           "url": "https://www.douyin.com/video/7675556939884014181"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "小狐狸又被酒杯砸头了哈哈哈哈哈 看着就很疼的样子🥹#薛之谦 #薛之谦演唱会 #薛之谦万兽之王 #薛之谦万兽之王演唱会 #薛之谦深圳演唱会",
           "author": "我握薛之谦手了（比心版）",
           "heat": "4695825次播放",
           "url": "https://www.douyin.com/video/7678685574807098363"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "“也许今天糟糕 那这是今天的错 不是你 相信自己 总能走到愿望里。”#小狗日记",
           "author": "孙千",
           "heat": "4573022次播放",
           "url": "https://www.douyin.com/video/7673761158390195941"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "拯救世界的小狗英雄 #吴克群的巡演看世界 #人间观察计划#吴克群在西安体验视障出行",
           "author": "吴克群",
           "heat": "4366134次播放",
@@ -666,9 +659,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:30"
+      "update_time": "2026-08-29 18:10:30"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:32"
+      "update_time": "2026-08-29 18:10:32"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:34"
+      "update_time": "2026-08-29 18:10:35"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:37"
+      "update_time": "2026-08-29 18:10:37"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:39"
+      "update_time": "2026-08-29 18:10:39"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:41"
+      "update_time": "2026-08-29 18:10:41"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:43"
+      "update_time": "2026-08-29 18:10:43"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-29 18:05:45"
+      "update_time": "2026-08-29 18:10:46"
     }
   }
 }
