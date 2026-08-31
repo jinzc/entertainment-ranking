@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-31 11:30:42",
+  "update_time": "2026-08-31 11:35:21",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:30:44"
+      "update_time": "2026-08-31 11:35:23"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:30:47"
+      "update_time": "2026-08-31 11:35:25"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:30:49"
+      "update_time": "2026-08-31 11:35:28"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:30:51"
+      "update_time": "2026-08-31 11:35:30"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:30:53"
+      "update_time": "2026-08-31 11:35:32"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:30:55"
+      "update_time": "2026-08-31 11:35:34"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:30:58"
+      "update_time": "2026-08-31 11:35:36"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1564,10 +1564,10 @@
       "items": [
         {
           "rank": 1,
-          "title": "欢迎再次登录",
+          "title": "怒之杀",
           "author": "",
           "heat": "1.",
-          "url": "https://movie.douban.com/subject/36251766/"
+          "url": "https://movie.douban.com/subject/36889088/"
         },
         {
           "rank": 2,
@@ -1578,65 +1578,65 @@
         },
         {
           "rank": 3,
-          "title": "最后孤屋",
-          "author": "",
-          "heat": "3.",
-          "url": "https://movie.douban.com/subject/36877284/"
-        },
-        {
-          "rank": 4,
           "title": "火遮眼",
           "author": "",
-          "heat": "4.",
+          "heat": "3.",
           "url": "https://movie.douban.com/subject/36877245/"
         },
         {
+          "rank": 4,
+          "title": "夜王",
+          "author": "",
+          "heat": "4.",
+          "url": "https://movie.douban.com/subject/37375594/"
+        },
+        {
           "rank": 5,
-          "title": "鬼玩人6：炼狱",
+          "title": "蔷薇修剪术",
           "author": "",
           "heat": "5.",
-          "url": "https://movie.douban.com/subject/36767846/"
+          "url": "https://movie.douban.com/subject/36419426/"
         },
         {
           "rank": 6,
-          "title": "消失的人",
+          "title": "耳语者",
           "author": "",
           "heat": "6.",
-          "url": "https://movie.douban.com/subject/36965301/"
+          "url": "https://movie.douban.com/subject/37228429/"
         },
         {
           "rank": 7,
-          "title": "利未记",
+          "title": "欢迎再次登录",
           "author": "",
           "heat": "7.",
-          "url": "https://movie.douban.com/subject/37559942/"
+          "url": "https://movie.douban.com/subject/36251766/"
         },
         {
           "rank": 8,
-          "title": "群体",
+          "title": "牢笼鬼魂",
           "author": "",
           "heat": "8.",
-          "url": "https://movie.douban.com/subject/37096700/"
+          "url": "https://movie.douban.com/subject/36146114/"
         },
         {
           "rank": 9,
-          "title": "寻找艾米丽",
+          "title": "挽救计划",
           "author": "",
           "heat": "9.",
-          "url": "https://movie.douban.com/subject/36912404/"
+          "url": "https://movie.douban.com/subject/35010610/"
         },
         {
           "rank": 10,
-          "title": "我看见两朵一样的云",
+          "title": "阳光女子合唱团",
           "author": "",
           "heat": "10.",
-          "url": "https://movie.douban.com/subject/35211447/"
+          "url": "https://movie.douban.com/subject/37193250/"
         }
       ],
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:31:00"
+      "update_time": "2026-08-31 11:35:38"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:31:02"
+      "update_time": "2026-08-31 11:35:41"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-08-31 11:31:04"
+      "update_time": "2026-08-31 11:35:43"
     }
   }
 }
