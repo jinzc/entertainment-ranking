@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-02 23:25:27",
+  "update_time": "2026-09-02 23:30:40",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:29"
+      "update_time": "2026-09-02 23:30:42"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:32"
+      "update_time": "2026-09-02 23:30:44"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -617,41 +617,34 @@
         },
         {
           "rank": 14,
-          "title": "到底是谁说的 陈泽是东北屯里的luke...#陈泽 #陈泽许愿 #宠粉 #网红 #1103",
-          "author": "会火全娱乐",
-          "heat": "4096544次播放",
-          "url": "https://www.douyin.com/video/7680502805207043380"
-        },
-        {
-          "rank": 15,
           "title": "#kungfujumpstyle #夸夸孩子的健康小进步",
           "author": "曾舜晞",
           "heat": "4021091次播放",
           "url": "https://www.douyin.com/video/7680058805124586917"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "“喜欢吗。”#早春晴朗",
           "author": "孙千",
           "heat": "3376925次播放",
           "url": "https://www.douyin.com/video/7679769114194408315"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "许家印一审被判无期，到底揭示了哪些人性规则 #向太陈岚 #许家印 #认知 #人性",
           "author": "向太陈岚",
           "heat": "3285629次播放",
           "url": "https://www.douyin.com/video/7680163656864189723"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "简单伸个懒腰🫣 #燕麦系",
           "author": "程潇",
           "heat": "3184675次播放",
           "url": "https://www.douyin.com/video/7679102773887995043"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "“爱需要好多勇气 也费了好多力气 爱没那么厉害 是你动人。”#小狗日记 #剧剧抖有戏",
           "author": "孙千",
           "heat": "3150947次播放",
@@ -659,9 +652,9 @@
         }
       ],
       "error": null,
-      "item_count": 19,
+      "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:34"
+      "update_time": "2026-09-02 23:30:46"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:36"
+      "update_time": "2026-09-02 23:30:48"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:38"
+      "update_time": "2026-09-02 23:30:50"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:40"
+      "update_time": "2026-09-02 23:30:52"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:43"
+      "update_time": "2026-09-02 23:30:55"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:45"
+      "update_time": "2026-09-02 23:30:57"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:47"
+      "update_time": "2026-09-02 23:30:59"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-02 23:25:49"
+      "update_time": "2026-09-02 23:31:02"
     }
   }
 }
