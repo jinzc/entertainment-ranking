@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-04 23:10:28",
+  "update_time": "2026-09-04 23:15:29",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -31,17 +31,17 @@
         },
         {
           "rank": 4,
-          "title": "刘雯评论区",
+          "title": "同花顺",
           "author": "",
           "heat": "4.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E9%9B%AF%E8%AF%84%E8%AE%BA%E5%8C%BA%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%90%8C%E8%8A%B1%E9%A1%BA&t=152&Refer=top"
         },
         {
           "rank": 5,
-          "title": "同花顺",
+          "title": "宁静 谁说小爽坏了",
           "author": "",
           "heat": "5.",
-          "url": "https://s.weibo.com/weibo?q=%E5%90%8C%E8%8A%B1%E9%A1%BA&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%AE%81%E9%9D%99%20%E8%B0%81%E8%AF%B4%E5%B0%8F%E7%88%BD%E5%9D%8F%E4%BA%86&t=152&Refer=top"
         },
         {
           "rank": 6,
@@ -52,24 +52,24 @@
         },
         {
           "rank": 7,
-          "title": "宁静 谁说小爽坏了",
-          "author": "",
-          "heat": "7.",
-          "url": "https://s.weibo.com/weibo?q=%E5%AE%81%E9%9D%99%20%E8%B0%81%E8%AF%B4%E5%B0%8F%E7%88%BD%E5%9D%8F%E4%BA%86&t=152&Refer=top"
-        },
-        {
-          "rank": 8,
           "title": "王赫野跳舞像赵四",
           "author": "",
-          "heat": "8.",
+          "heat": "7.",
           "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%B5%AB%E9%87%8E%E8%B7%B3%E8%88%9E%E5%83%8F%E8%B5%B5%E5%9B%9B&t=152&Refer=top"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "Lisa曝BLACKPINK时期曾隐藏恋爱",
           "author": "",
-          "heat": "9.",
+          "heat": "8.",
           "url": "https://s.weibo.com/weibo?q=%23Lisa%E6%9B%9DBLACKPINK%E6%97%B6%E6%9C%9F%E6%9B%BE%E9%9A%90%E8%97%8F%E6%81%8B%E7%88%B1%23&t=152&Refer=top"
+        },
+        {
+          "rank": 9,
+          "title": "沈佳润骨折",
+          "author": "",
+          "heat": "9.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E4%BD%B3%E6%B6%A6%E9%AA%A8%E6%8A%98%23&t=152&Refer=top"
         },
         {
           "rank": 10,
@@ -80,73 +80,73 @@
         },
         {
           "rank": 11,
-          "title": "曹骏让节目组把训练镜头放出来",
+          "title": "刘雯评论区",
           "author": "",
           "heat": "11.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%B9%E9%AA%8F%E8%AE%A9%E8%8A%82%E7%9B%AE%E7%BB%84%E6%8A%8A%E8%AE%AD%E7%BB%83%E9%95%9C%E5%A4%B4%E6%94%BE%E5%87%BA%E6%9D%A5%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E9%9B%AF%E8%AF%84%E8%AE%BA%E5%8C%BA%23&t=152&Refer=top"
         },
         {
           "rank": 12,
-          "title": "井柏然到杭州了",
+          "title": "曹骏让节目组把训练镜头放出来",
           "author": "",
           "heat": "12.",
-          "url": "https://s.weibo.com/weibo?q=%E4%BA%95%E6%9F%8F%E7%84%B6%E5%88%B0%E6%9D%AD%E5%B7%9E%E4%BA%86&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%B9%E9%AA%8F%E8%AE%A9%E8%8A%82%E7%9B%AE%E7%BB%84%E6%8A%8A%E8%AE%AD%E7%BB%83%E9%95%9C%E5%A4%B4%E6%94%BE%E5%87%BA%E6%9D%A5%23&t=152&Refer=top"
         },
         {
           "rank": 13,
-          "title": "沈佳润骨折",
-          "author": "",
-          "heat": "13.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E4%BD%B3%E6%B6%A6%E9%AA%A8%E6%8A%98%23&t=152&Refer=top"
-        },
-        {
-          "rank": 14,
           "title": "栾念盯着前男友照顾尚之桃",
           "author": "",
-          "heat": "14.",
+          "heat": "13.",
           "url": "https://s.weibo.com/weibo?q=%23%E6%A0%BE%E5%BF%B5%E7%9B%AF%E7%9D%80%E5%89%8D%E7%94%B7%E5%8F%8B%E7%85%A7%E9%A1%BE%E5%B0%9A%E4%B9%8B%E6%A1%83%23&t=152&Refer=top"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "金希澈的爱猫希范去世",
           "author": "",
-          "heat": "15.",
+          "heat": "14.",
           "url": "https://s.weibo.com/weibo?q=%E9%87%91%E5%B8%8C%E6%BE%88%E7%9A%84%E7%88%B1%E7%8C%AB%E5%B8%8C%E8%8C%83%E5%8E%BB%E4%B8%96&t=152&Refer=top"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "鞠婧祎cha第57次取消发送",
           "author": "",
-          "heat": "16.",
+          "heat": "15.",
           "url": "https://s.weibo.com/weibo?q=%23%E9%9E%A0%E5%A9%A7%E7%A5%8Echa%E7%AC%AC57%E6%AC%A1%E5%8F%96%E6%B6%88%E5%8F%91%E9%80%81%23&t=152&Refer=top"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "邓为花少8情商",
           "author": "",
-          "heat": "17.",
+          "heat": "16.",
           "url": "https://s.weibo.com/weibo?q=%23%E9%82%93%E4%B8%BA%E8%8A%B1%E5%B0%918%E6%83%85%E5%95%86%23&t=152&Refer=top"
         },
         {
+          "rank": 17,
+          "title": "井柏然到杭州了",
+          "author": "",
+          "heat": "17.",
+          "url": "https://s.weibo.com/weibo?q=%E4%BA%95%E6%9F%8F%E7%84%B6%E5%88%B0%E6%9D%AD%E5%B7%9E%E4%BA%86&t=152&Refer=top"
+        },
+        {
           "rank": 18,
-          "title": "有人想靠复盘花少6洗白",
+          "title": "花少2嘉宾干活表",
           "author": "",
           "heat": "18.",
-          "url": "https://s.weibo.com/weibo?q=%E6%9C%89%E4%BA%BA%E6%83%B3%E9%9D%A0%E5%A4%8D%E7%9B%98%E8%8A%B1%E5%B0%916%E6%B4%97%E7%99%BD&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%912%E5%98%89%E5%AE%BE%E5%B9%B2%E6%B4%BB%E8%A1%A8%23&t=152&Refer=top"
         },
         {
           "rank": 19,
-          "title": "孙千听到今天星期五的反应",
+          "title": "在孙千身上感受到了红气养人",
           "author": "",
           "heat": "19.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E5%8D%83%E5%90%AC%E5%88%B0%E4%BB%8A%E5%A4%A9%E6%98%9F%E6%9C%9F%E4%BA%94%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E5%AD%99%E5%8D%83%E8%BA%AB%E4%B8%8A%E6%84%9F%E5%8F%97%E5%88%B0%E4%BA%86%E7%BA%A2%E6%B0%94%E5%85%BB%E4%BA%BA%23&t=152&Refer=top"
         },
         {
           "rank": 20,
-          "title": "张睿喊话节目组",
+          "title": "汪苏泷演唱会把全场的灯打开了",
           "author": "",
           "heat": "20.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E7%9D%BF%E5%96%8A%E8%AF%9D%E8%8A%82%E7%9B%AE%E7%BB%84%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%B1%AA%E8%8B%8F%E6%B3%B7%E6%BC%94%E5%94%B1%E4%BC%9A%E6%8A%8A%E5%85%A8%E5%9C%BA%E7%9A%84%E7%81%AF%E6%89%93%E5%BC%80%E4%BA%86&t=152&Refer=top"
         },
         {
           "rank": 21,
@@ -157,66 +157,66 @@
         },
         {
           "rank": 22,
-          "title": "花少2嘉宾干活表",
+          "title": "孙千听到今天星期五的反应",
           "author": "",
           "heat": "22.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%912%E5%98%89%E5%AE%BE%E5%B9%B2%E6%B4%BB%E8%A1%A8%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E5%8D%83%E5%90%AC%E5%88%B0%E4%BB%8A%E5%A4%A9%E6%98%9F%E6%9C%9F%E4%BA%94%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=152&Refer=top"
         },
         {
           "rank": 23,
-          "title": "在孙千身上感受到了红气养人",
+          "title": "有人想靠复盘花少6洗白",
           "author": "",
           "heat": "23.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E5%AD%99%E5%8D%83%E8%BA%AB%E4%B8%8A%E6%84%9F%E5%8F%97%E5%88%B0%E4%BA%86%E7%BA%A2%E6%B0%94%E5%85%BB%E4%BA%BA%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%9C%89%E4%BA%BA%E6%83%B3%E9%9D%A0%E5%A4%8D%E7%9B%98%E8%8A%B1%E5%B0%916%E6%B4%97%E7%99%BD&t=152&Refer=top"
         },
         {
           "rank": 24,
-          "title": "披哥二公淘汰一位",
-          "author": "",
-          "heat": "24.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%8A%AB%E5%93%A5%E4%BA%8C%E5%85%AC%E6%B7%98%E6%B1%B0%E4%B8%80%E4%BD%8D%23&t=152&Refer=top"
-        },
-        {
-          "rank": 25,
-          "title": "沈梦辰腰身比",
-          "author": "",
-          "heat": "25.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E6%A2%A6%E8%BE%B0%E8%85%B0%E8%BA%AB%E6%AF%94%23&t=152&Refer=top"
-        },
-        {
-          "rank": 26,
           "title": "曹骏耳返没声音",
           "author": "",
-          "heat": "26.",
+          "heat": "24.",
           "url": "https://s.weibo.com/weibo?q=%23%E6%9B%B9%E9%AA%8F%E8%80%B3%E8%BF%94%E6%B2%A1%E5%A3%B0%E9%9F%B3%23&t=152&Refer=top"
         },
         {
+          "rank": 25,
+          "title": "披哥二公淘汰一位",
+          "author": "",
+          "heat": "25.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%8A%AB%E5%93%A5%E4%BA%8C%E5%85%AC%E6%B7%98%E6%B1%B0%E4%B8%80%E4%BD%8D%23&t=152&Refer=top"
+        },
+        {
+          "rank": 26,
+          "title": "网传TF家族新音取消",
+          "author": "",
+          "heat": "26.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E4%BC%A0TF%E5%AE%B6%E6%97%8F%E6%96%B0%E9%9F%B3%E5%8F%96%E6%B6%88%23&t=152&Refer=top"
+        },
+        {
           "rank": 27,
-          "title": "披荆斩棘直播",
+          "title": "沈梦辰腰身比",
           "author": "",
           "heat": "27.",
-          "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E7%9B%B4%E6%92%AD&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E6%A2%A6%E8%BE%B0%E8%85%B0%E8%BA%AB%E6%AF%94%23&t=152&Refer=top"
         },
         {
           "rank": 28,
-          "title": "同花顺 故事感",
+          "title": "陈都灵南航保留节目",
           "author": "",
           "heat": "28.",
-          "url": "https://s.weibo.com/weibo?q=%E5%90%8C%E8%8A%B1%E9%A1%BA%20%E6%95%85%E4%BA%8B%E6%84%9F&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E9%83%BD%E7%81%B5%E5%8D%97%E8%88%AA%E4%BF%9D%E7%95%99%E8%8A%82%E7%9B%AE%23&t=152&Refer=top"
         },
         {
           "rank": 29,
-          "title": "成毅又在用腰带撑伞",
+          "title": "披荆斩棘",
           "author": "",
           "heat": "29.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%88%90%E6%AF%85%E5%8F%88%E5%9C%A8%E7%94%A8%E8%85%B0%E5%B8%A6%E6%92%91%E4%BC%9E%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98&t=152&Refer=top"
         },
         {
           "rank": 30,
-          "title": "披荆斩棘",
+          "title": "陈若轩道歉",
           "author": "",
           "heat": "30.",
-          "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E8%8B%A5%E8%BD%A9%E9%81%93%E6%AD%89%23&t=152&Refer=top"
         },
         {
           "rank": 31,
@@ -227,52 +227,52 @@
         },
         {
           "rank": 32,
-          "title": "你的眼神好听又好看",
+          "title": "披荆斩棘直播",
           "author": "",
           "heat": "32.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E7%9A%84%E7%9C%BC%E7%A5%9E%E5%A5%BD%E5%90%AC%E5%8F%88%E5%A5%BD%E7%9C%8B%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E7%9B%B4%E6%92%AD&t=152&Refer=top"
         },
         {
           "rank": 33,
-          "title": "网传TF家族新音取消",
+          "title": "你的眼神好听又好看",
           "author": "",
           "heat": "33.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E4%BC%A0TF%E5%AE%B6%E6%97%8F%E6%96%B0%E9%9F%B3%E5%8F%96%E6%B6%88%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E7%9A%84%E7%9C%BC%E7%A5%9E%E5%A5%BD%E5%90%AC%E5%8F%88%E5%A5%BD%E7%9C%8B%23&t=152&Refer=top"
         },
         {
           "rank": 34,
-          "title": "时代少年团 物料呢",
+          "title": "成毅又在用腰带撑伞",
           "author": "",
           "heat": "34.",
-          "url": "https://s.weibo.com/weibo?q=%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%20%E7%89%A9%E6%96%99%E5%91%A2&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%88%90%E6%AF%85%E5%8F%88%E5%9C%A8%E7%94%A8%E8%85%B0%E5%B8%A6%E6%92%91%E4%BC%9E%23&t=152&Refer=top"
         },
         {
           "rank": 35,
-          "title": "王烁然新歌",
+          "title": "时代少年团 物料呢",
           "author": "",
           "heat": "35.",
-          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E7%83%81%E7%84%B6%E6%96%B0%E6%AD%8C&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%20%E7%89%A9%E6%96%99%E5%91%A2&t=152&Refer=top"
         },
         {
           "rank": 36,
-          "title": "井柏然直播澄清",
-          "author": "",
-          "heat": "36.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E7%9B%B4%E6%92%AD%E6%BE%84%E6%B8%85%23&t=152&Refer=top"
-        },
-        {
-          "rank": 37,
           "title": "陈若轩跑调但实在美丽",
           "author": "",
-          "heat": "37.",
+          "heat": "36.",
           "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E8%8B%A5%E8%BD%A9%E8%B7%91%E8%B0%83%E4%BD%86%E5%AE%9E%E5%9C%A8%E7%BE%8E%E4%B8%BD%23&t=152&Refer=top"
         },
         {
-          "rank": 38,
+          "rank": 37,
           "title": "花少6下水这段",
           "author": "",
-          "heat": "38.",
+          "heat": "37.",
           "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%916%E4%B8%8B%E6%B0%B4%E8%BF%99%E6%AE%B5%23&t=152&Refer=top"
+        },
+        {
+          "rank": 38,
+          "title": "邵子恒喊话披哥节目组",
+          "author": "",
+          "heat": "38.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%82%B5%E5%AD%90%E6%81%92%E5%96%8A%E8%AF%9D%E6%8A%AB%E5%93%A5%E8%8A%82%E7%9B%AE%E7%BB%84%23&t=152&Refer=top"
         },
         {
           "rank": 39,
@@ -290,24 +290,24 @@
         },
         {
           "rank": 41,
-          "title": "吴君如眼神就没离开邓为",
+          "title": "龚爽讣告",
           "author": "",
           "heat": "41.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%90%B4%E5%90%9B%E5%A6%82%E7%9C%BC%E7%A5%9E%E5%B0%B1%E6%B2%A1%E7%A6%BB%E5%BC%80%E9%82%93%E4%B8%BA%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%BE%9A%E7%88%BD%E8%AE%A3%E5%91%8A%23&t=152&Refer=top"
         },
         {
           "rank": 42,
-          "title": "郭涛儿子石头入学北电国际班",
+          "title": "吴君如眼神就没离开邓为",
           "author": "",
           "heat": "42.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%83%AD%E6%B6%9B%E5%84%BF%E5%AD%90%E7%9F%B3%E5%A4%B4%E5%85%A5%E5%AD%A6%E5%8C%97%E7%94%B5%E5%9B%BD%E9%99%85%E7%8F%AD%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%90%B4%E5%90%9B%E5%A6%82%E7%9C%BC%E7%A5%9E%E5%B0%B1%E6%B2%A1%E7%A6%BB%E5%BC%80%E9%82%93%E4%B8%BA%23&t=152&Refer=top"
         },
         {
           "rank": 43,
-          "title": "陈若轩道歉",
+          "title": "井柏然直播澄清",
           "author": "",
           "heat": "43.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E8%8B%A5%E8%BD%A9%E9%81%93%E6%AD%89%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E7%9B%B4%E6%92%AD%E6%BE%84%E6%B8%85%23&t=152&Refer=top"
         },
         {
           "rank": 44,
@@ -318,51 +318,51 @@
         },
         {
           "rank": 45,
-          "title": "龚爽讣告",
+          "title": "张睿喊话节目组",
           "author": "",
           "heat": "45.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%BE%9A%E7%88%BD%E8%AE%A3%E5%91%8A%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E7%9D%BF%E5%96%8A%E8%AF%9D%E8%8A%82%E7%9B%AE%E7%BB%84%23&t=152&Refer=top"
         },
         {
           "rank": 46,
-          "title": "邵子恒喊话披哥节目组",
-          "author": "",
-          "heat": "46.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%82%B5%E5%AD%90%E6%81%92%E5%96%8A%E8%AF%9D%E6%8A%AB%E5%93%A5%E8%8A%82%E7%9B%AE%E7%BB%84%23&t=152&Refer=top"
-        },
-        {
-          "rank": 47,
           "title": "邵子恒什么时候原谅现偶",
           "author": "",
-          "heat": "47.",
+          "heat": "46.",
           "url": "https://s.weibo.com/weibo?q=%23%E9%82%B5%E5%AD%90%E6%81%92%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%8E%9F%E8%B0%85%E7%8E%B0%E5%81%B6%23&t=152&Refer=top"
         },
         {
+          "rank": 47,
+          "title": "郭涛儿子石头入学北电国际班",
+          "author": "",
+          "heat": "47.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%83%AD%E6%B6%9B%E5%84%BF%E5%AD%90%E7%9F%B3%E5%A4%B4%E5%85%A5%E5%AD%A6%E5%8C%97%E7%94%B5%E5%9B%BD%E9%99%85%E7%8F%AD%23&t=152&Refer=top"
+        },
+        {
           "rank": 48,
-          "title": "Lisa自曝恋爱被批",
+          "title": "王烁然新歌",
           "author": "",
           "heat": "48.",
-          "url": "https://s.weibo.com/weibo?q=%23Lisa%E8%87%AA%E6%9B%9D%E6%81%8B%E7%88%B1%E8%A2%AB%E6%89%B9%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E7%83%81%E7%84%B6%E6%96%B0%E6%AD%8C&t=152&Refer=top"
         },
         {
           "rank": 49,
-          "title": "见证喜单3年度总冠军诞生",
+          "title": "同花顺 故事感",
           "author": "",
           "heat": "49.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%A7%81%E8%AF%81%E5%96%9C%E5%8D%953%E5%B9%B4%E5%BA%A6%E6%80%BB%E5%86%A0%E5%86%9B%E8%AF%9E%E7%94%9F%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%90%8C%E8%8A%B1%E9%A1%BA%20%E6%95%85%E4%BA%8B%E6%84%9F&t=152&Refer=top"
         },
         {
           "rank": 50,
-          "title": "披荆斩棘二公舞台",
+          "title": "陈若轩淘汰待定",
           "author": "",
           "heat": "50.",
-          "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E4%BA%8C%E5%85%AC%E8%88%9E%E5%8F%B0&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E9%99%88%E8%8B%A5%E8%BD%A9%E6%B7%98%E6%B1%B0%E5%BE%85%E5%AE%9A&t=152&Refer=top"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:30"
+      "update_time": "2026-09-04 23:15:31"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -501,7 +501,7 @@
       "error": null,
       "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:32"
+      "update_time": "2026-09-04 23:15:33"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -654,7 +654,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:34"
+      "update_time": "2026-09-04 23:15:35"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:37"
+      "update_time": "2026-09-04 23:15:37"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:39"
+      "update_time": "2026-09-04 23:15:39"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:41"
+      "update_time": "2026-09-04 23:15:41"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:43"
+      "update_time": "2026-09-04 23:15:44"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:46"
+      "update_time": "2026-09-04 23:15:46"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1992,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:48"
+      "update_time": "2026-09-04 23:15:48"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-04 23:10:50"
+      "update_time": "2026-09-04 23:15:50"
     }
   }
 }
