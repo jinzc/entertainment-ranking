@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-07 22:15:27",
+  "update_time": "2026-09-07 22:20:36",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:29"
+      "update_time": "2026-09-07 22:20:38"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:31"
+      "update_time": "2026-09-07 22:20:40"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:34"
+      "update_time": "2026-09-07 22:20:42"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:36"
+      "update_time": "2026-09-07 22:20:45"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:38"
+      "update_time": "2026-09-07 22:20:47"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:41"
+      "update_time": "2026-09-07 22:20:49"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1198,362 +1198,11 @@
       "category": "哔哩哔哩",
       "icon": "🎮",
       "color": "#EC4899",
-      "items": [
-        {
-          "rank": 1,
-          "title": "【花学12大历史事件逐帧解读】第一回：伦敦暖气致疯事件",
-          "author": "",
-          "heat": "131.3万",
-          "url": "https://www.bilibili.com/video/av117215999363208/"
-        },
-        {
-          "rank": 2,
-          "title": "注意！花少2全集解说，时长共8小时（莫要通宵看）",
-          "author": "",
-          "heat": "735.6万",
-          "url": "https://www.bilibili.com/video/av116107360862973/"
-        },
-        {
-          "rank": 3,
-          "title": "【TF家族练习生】《千万分之一的我》02「幸会，再会」先导片",
-          "author": "",
-          "heat": "54.7万",
-          "url": "https://www.bilibili.com/video/av117223280610095/"
-        },
-        {
-          "rank": 4,
-          "title": "【TF_ING】《CHILL ING》S2 EP01：厂家的故事",
-          "author": "",
-          "heat": "40.8万",
-          "url": "https://www.bilibili.com/video/av117217156927882/"
-        },
-        {
-          "rank": 5,
-          "title": "一口气看完《花少2》",
-          "author": "",
-          "heat": "542.0万",
-          "url": "https://www.bilibili.com/video/av116475570428894/"
-        },
-        {
-          "rank": 6,
-          "title": "极限挑战——时光大桥",
-          "author": "",
-          "heat": "234.5万",
-          "url": "https://www.bilibili.com/video/av117199222085393/"
-        },
-        {
-          "rank": 7,
-          "title": "第一次看《明侦》reaction S1-《男团鲜肉的战争》这案子怎么有一种人情世故的感觉(点赞过5000啦)",
-          "author": "",
-          "heat": "44.5万",
-          "url": "https://www.bilibili.com/video/av117217207257105/"
-        },
-        {
-          "rank": 8,
-          "title": "越努力越淘汰？越松驰越搞笑！《披荆斩棘2026》：二公舞台上！",
-          "author": "",
-          "heat": "34.0万",
-          "url": "https://www.bilibili.com/video/av117217458984515/"
-        },
-        {
-          "rank": 9,
-          "title": "救命啊，好好的收官宴，被她搅的一团乱！",
-          "author": "",
-          "heat": "27.7万",
-          "url": "https://www.bilibili.com/video/av117217089886136/"
-        },
-        {
-          "rank": 10,
-          "title": "52岁黄渤家门口骑车摔成锁骨骨折，头戴氧气面罩躺在病床上，捂着胳膊自嘲",
-          "author": "",
-          "heat": "52.3万",
-          "url": "https://www.bilibili.com/video/av117207728129499/"
-        },
-        {
-          "rank": 11,
-          "title": "当老板给我的cp写官宣文案",
-          "author": "",
-          "heat": "11.7万",
-          "url": "https://www.bilibili.com/video/av117221720332839/"
-        },
-        {
-          "rank": 12,
-          "title": "花少2房车大战僵持及毛阿敏“反水”真相还原！重难点讲解！节目里被删掉被忽略掉的地方是什么…",
-          "author": "",
-          "heat": "17.9万",
-          "url": "https://www.bilibili.com/video/av117215714088558/"
-        },
-        {
-          "rank": 13,
-          "title": "收到了B站送来的端午礼盒！",
-          "author": "",
-          "heat": "17.3万",
-          "url": "https://www.bilibili.com/video/av117208231446617/"
-        },
-        {
-          "rank": 14,
-          "title": "“四分之一个世纪 我人生的7:30”",
-          "author": "",
-          "heat": "17.2万",
-          "url": "https://www.bilibili.com/video/av117223330945166/"
-        },
-        {
-          "rank": 15,
-          "title": "28岁演完大爆剧，原本计划…",
-          "author": "",
-          "heat": "18.1万",
-          "url": "https://www.bilibili.com/video/av117223465162977/"
-        },
-        {
-          "rank": 16,
-          "title": "十一年了！综艺界甄嬛传 花少二名场面完整复盘【第一期】",
-          "author": "",
-          "heat": "17.4万",
-          "url": "https://www.bilibili.com/video/av117218012569016/"
-        },
-        {
-          "rank": 17,
-          "title": "错骂毛阿敏11年？谁才是花少2真正的大BOSS？花学深度解析",
-          "author": "",
-          "heat": "17.1万",
-          "url": "https://www.bilibili.com/video/av117223498717816/"
-        },
-        {
-          "rank": 18,
-          "title": "【TF家族四代】杨博文1小时日常vlog",
-          "author": "",
-          "heat": "11.1万",
-          "url": "https://www.bilibili.com/video/av117213382056690/"
-        },
-        {
-          "rank": 19,
-          "title": "赔笑有压力？无聊还无趣？大姐选的好！笑料少不了！偶数记魔咒将破？《花少8》",
-          "author": "",
-          "heat": "18.0万",
-          "url": "https://www.bilibili.com/video/av117221938431454/"
-        },
-        {
-          "rank": 20,
-          "title": "【杨西】沈佳润！不需要被溺爱！",
-          "author": "",
-          "heat": "18.0万",
-          "url": "https://www.bilibili.com/video/av117184760126981/"
-        },
-        {
-          "rank": 21,
-          "title": "十一年了！这档综艺的抓马程度依旧震撼内娱！！【花少第二季解析】",
-          "author": "",
-          "heat": "14.6万",
-          "url": "https://www.bilibili.com/video/av117217811367685/"
-        },
-        {
-          "rank": 22,
-          "title": "Cooking PACK IT UP & MONEYMONEYMONEY",
-          "author": "",
-          "heat": "28.2万",
-          "url": "https://www.bilibili.com/video/av117201185019077/"
-        },
-        {
-          "rank": 23,
-          "title": "【逐帧还原花少2第一期暖气事变】是全员恶人还是被过度妖魔化了？",
-          "author": "",
-          "heat": "13.2万",
-          "url": "https://www.bilibili.com/video/av117213247839699/"
-        },
-        {
-          "rank": 24,
-          "title": "祈祷少些举报多些场次",
-          "author": "",
-          "heat": "31.1万",
-          "url": "https://www.bilibili.com/video/av117206570505578/"
-        },
-        {
-          "rank": 25,
-          "title": "井柏然准备去花少3大干一场，结果发现这群人，上不尊老下不爱幼",
-          "author": "",
-          "heat": "13.6万",
-          "url": "https://www.bilibili.com/video/av117217995790906/"
-        },
-        {
-          "rank": 26,
-          "title": "严敏直播透露新综艺筹备中 张智超、周嘉伟、张百乔、小奥奥等同框 本人在线征集节目名称 退出极挑7年后再次喊出“这就是命”",
-          "author": "",
-          "heat": "19.1万",
-          "url": "https://www.bilibili.com/video/av117217559579448/"
-        },
-        {
-          "rank": 27,
-          "title": "怎么能在配对节目里邀请黑帮的人过来？ | 伴侣地狱 | [TO DO X TXT] EP.170",
-          "author": "",
-          "heat": "6.9万",
-          "url": "https://www.bilibili.com/video/av117228951312202/"
-        },
-        {
-          "rank": 28,
-          "title": "樊振东为什么把综艺初舞台献给一饭封神2",
-          "author": "",
-          "heat": "10.8万",
-          "url": "https://www.bilibili.com/video/av117223129619220/"
-        },
-        {
-          "rank": 29,
-          "title": "逆天神人在央视上写91 78 67",
-          "author": "",
-          "heat": "14.1万",
-          "url": "https://www.bilibili.com/video/av117217777748042/"
-        },
-        {
-          "rank": 30,
-          "title": "尼格买提随口一问：“哥，2008年你在干吗？”结果又被撒贝宁“凡尔赛”到了。【你好时光第二季】",
-          "author": "",
-          "heat": "17.6万",
-          "url": "https://www.bilibili.com/video/av117224102758179/"
-        },
-        {
-          "rank": 31,
-          "title": "巨作完结！我们的少年时代2为什么让我无法自拔",
-          "author": "",
-          "heat": "139.0万",
-          "url": "https://www.bilibili.com/video/av117189172528549/"
-        },
-        {
-          "rank": 32,
-          "title": "【双宋恩怨录】升温似火箭，下坠如陨石，剧播十年仍在BE之巅",
-          "author": "",
-          "heat": "12.8万",
-          "url": "https://www.bilibili.com/video/av117190380625712/"
-        },
-        {
-          "rank": 33,
-          "title": "看个恋综竟然打起来了 黑道青年上演火爆相亲现场！《不良一族寻爱记》第二季",
-          "author": "",
-          "heat": "8.1万",
-          "url": "https://www.bilibili.com/video/av117216351619108/"
-        },
-        {
-          "rank": 34,
-          "title": "花少2房车名场面分析！真性情格格不入，装友谊其乐融融？",
-          "author": "",
-          "heat": "515.8万",
-          "url": "https://www.bilibili.com/video/av796009270/"
-        },
-        {
-          "rank": 35,
-          "title": "《我家那闺女》陈瑶是妈妈眼里100%的优秀…张家齐是奥运冠军却被挑刺？同样是妈妈，爱意表达方式如此不同！",
-          "author": "",
-          "heat": "16.9万",
-          "url": "https://www.bilibili.com/video/av117217123374765/"
-        },
-        {
-          "rank": 36,
-          "title": "旺仔小乔解封了,互联网是没有记忆的",
-          "author": "",
-          "heat": "152.9万",
-          "url": "https://www.bilibili.com/video/av117183887708601/"
-        },
-        {
-          "rank": 37,
-          "title": "公主晴说花少1的人都正常，可她这是整的哪一出；三姐妹与俩男生打成一片，嫉妒使公主晴面目全非",
-          "author": "",
-          "heat": "8.4万",
-          "url": "https://www.bilibili.com/video/av117217559582949/"
-        },
-        {
-          "rank": 38,
-          "title": "Reaction第4期中下｜一招制敌，“小王一快”气焰嚣张！！",
-          "author": "",
-          "heat": "10.8万",
-          "url": "https://www.bilibili.com/video/av117211486230730/"
-        },
-        {
-          "rank": 39,
-          "title": "爱豆在洗手间犯法？大热演员离奇身亡？双蛋之争彻底打响，2016韩娱大事件最全盘点",
-          "author": "",
-          "heat": "5.3万",
-          "url": "https://www.bilibili.com/video/av117218364889809/"
-        },
-        {
-          "rank": 40,
-          "title": "包贝尔意内塌房，花少二文学再度返场，《牛来》强势占领票房",
-          "author": "",
-          "heat": "11.1万",
-          "url": "https://www.bilibili.com/video/av117210362154557/"
-        },
-        {
-          "rank": 41,
-          "title": "lisa：分手后的她，还能回归亚洲市场吗",
-          "author": "",
-          "heat": "9.2万",
-          "url": "https://www.bilibili.com/video/av117212039940196/"
-        },
-        {
-          "rank": 42,
-          "title": "【svt reaction】前内鱼工作者/多年同人女看次人娜娜兔3.0",
-          "author": "",
-          "heat": "7.7万",
-          "url": "https://www.bilibili.com/video/av117217073105553/"
-        },
-        {
-          "rank": 43,
-          "title": "【1喜】好起来了，终于好起来了！《时间都去哪儿了》",
-          "author": "",
-          "heat": "5.2万",
-          "url": "https://www.bilibili.com/video/av117186354022304/"
-        },
-        {
-          "rank": 44,
-          "title": "替毛阿敏说两句，她真的背刺许晴了吗",
-          "author": "",
-          "heat": "6.1万",
-          "url": "https://www.bilibili.com/video/av117223347782933/"
-        },
-        {
-          "rank": 45,
-          "title": "【高战士】i人团队老外一带三！你是真正的英雄【一饭封神第二季06（下）】",
-          "author": "",
-          "heat": "10.1万",
-          "url": "https://www.bilibili.com/video/av117212576745311/"
-        },
-        {
-          "rank": 46,
-          "title": "球球了，我平时好像不长这样啊啊！！",
-          "author": "",
-          "heat": "690.7万",
-          "url": "https://www.bilibili.com/video/av117063880279688/"
-        },
-        {
-          "rank": 47,
-          "title": "[GOING SEVENTEEN] EP.158 21 #1",
-          "author": "",
-          "heat": "29.6万",
-          "url": "https://www.bilibili.com/video/av117201134684192/"
-        },
-        {
-          "rank": 48,
-          "title": "减重三年却爆肥150斤？中国反向减肥第一网红如何爆红网络！！！",
-          "author": "",
-          "heat": "15.3万",
-          "url": "https://www.bilibili.com/video/av117207342325242/"
-        },
-        {
-          "rank": 49,
-          "title": "韩剧最严厉的母亲来了！",
-          "author": "",
-          "heat": "26.4万",
-          "url": "https://www.bilibili.com/video/av117195212462841/"
-        },
-        {
-          "rank": 50,
-          "title": "笑点密集！胡军李乃文给艺人当两日助理？《大哥小助理》好看！",
-          "author": "",
-          "heat": "20.2万",
-          "url": "https://www.bilibili.com/video/av117207359101687/"
-        }
-      ],
-      "error": null,
-      "item_count": 50,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:44"
+      "update_time": "2026-09-07 22:21:12"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1285,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:46"
+      "update_time": "2026-09-07 22:21:14"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1648,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:48"
+      "update_time": "2026-09-07 22:21:16"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2011,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-07 22:15:51"
+      "update_time": "2026-09-07 22:21:19"
     }
   }
 }
