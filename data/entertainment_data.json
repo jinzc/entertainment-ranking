@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-16 23:15:26",
+  "update_time": "2026-09-16 23:20:26",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:28"
+      "update_time": "2026-09-16 23:20:28"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:30"
+      "update_time": "2026-09-16 23:20:31"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:32"
+      "update_time": "2026-09-16 23:20:33"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:34"
+      "update_time": "2026-09-16 23:20:35"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:37"
+      "update_time": "2026-09-16 23:20:37"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:39"
+      "update_time": "2026-09-16 23:20:40"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1210,106 +1210,106 @@
           "rank": 1,
           "title": "露之癫😡 傲世间😡",
           "author": "",
-          "heat": "321.5万",
+          "heat": "324.9万",
           "url": "https://www.bilibili.com/video/av117258344990503/"
         },
         {
           "rank": 2,
           "title": "抱团女王，爱男轻女，杨洋之怒？人际关系乱成一锅粥【花学第2回】",
           "author": "",
-          "heat": "48.2万",
+          "heat": "49.0万",
           "url": "https://www.bilibili.com/video/av117272639178625/"
         },
         {
           "rank": 3,
           "title": "莫名有点在意 | 换乘伴侣 | [TO DO X TXT] EP.171",
           "author": "",
-          "heat": "28.5万",
+          "heat": "28.8万",
           "url": "https://www.bilibili.com/video/av117257657194331/"
         },
         {
           "rank": 4,
           "title": "虽然是短视频",
           "author": "",
-          "heat": "12.6万",
+          "heat": "12.8万",
           "url": "https://www.bilibili.com/video/av117267320872378/"
         },
         {
           "rank": 5,
           "title": "知名爱豆嫁给励志博主，竟是天龙人的绑架pua？夫妻人设割韭菜，到底能有多赚钱！",
           "author": "",
-          "heat": "48.3万",
+          "heat": "48.9万",
           "url": "https://www.bilibili.com/video/av117261801168381/"
         },
         {
           "rank": 6,
           "title": "花少2第一期，节目组巧设暖气局，小导游泪洒第一夜",
           "author": "",
-          "heat": "24.0万",
+          "heat": "24.3万",
           "url": "https://www.bilibili.com/video/av117264451966997/"
         },
         {
           "rank": 7,
           "title": "万合天宜PK喜人兄弟|死肌肉大挑战！EP05",
           "author": "",
-          "heat": "16.9万",
+          "heat": "17.0万",
           "url": "https://www.bilibili.com/video/av117267505353145/"
         },
         {
           "rank": 8,
           "title": "柳智敏&沈佳润 | 都有一种特权感…",
           "author": "",
-          "heat": "20.0万",
+          "heat": "20.3万",
           "url": "https://www.bilibili.com/video/av117263093012214/"
         },
         {
           "rank": 9,
-          "title": "顶级治愈？无法复刻！封神的不是单数季，而是北斗七行！《花少5》永远都是宣发期",
-          "author": "",
-          "heat": "61.0万",
-          "url": "https://www.bilibili.com/video/av117252204594752/"
-        },
-        {
-          "rank": 10,
           "title": "天哪原来全家都靠她养，所有人都发现了张家齐妈妈的病态！！",
           "author": "",
-          "heat": "22.2万",
+          "heat": "22.4万",
           "url": "https://www.bilibili.com/video/av117264535849172/"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "title": "锐评花8：拿钱不干活，享受明星特权！没有鬼一季，是糊一季，是最无聊的一季！《花儿与少年2026》",
           "author": "",
-          "heat": "18.6万",
+          "heat": "18.9万",
           "url": "https://www.bilibili.com/video/av117268679821519/"
+        },
+        {
+          "rank": 11,
+          "title": "顶级治愈？无法复刻！封神的不是单数季，而是北斗七行！《花少5》永远都是宣发期",
+          "author": "",
+          "heat": "61.5万",
+          "url": "https://www.bilibili.com/video/av117252204594752/"
         },
         {
           "rank": 12,
           "title": "网红四川芬达向杨坤道歉并赔款，杨坤方将捐出四川芬达31万赔款，用于帮助孤独症群体。",
           "author": "",
-          "heat": "26.4万",
+          "heat": "27.3万",
           "url": "https://www.bilibili.com/video/av117274702774682/"
         },
         {
           "rank": 13,
-          "title": "决战上海滩 谁是最强打工人？【极限挑战 Reaction-03】(含花絮) 赞币5000加更～",
-          "author": "",
-          "heat": "27.2万",
-          "url": "https://www.bilibili.com/video/av117261499109694/"
-        },
-        {
-          "rank": 14,
           "title": "[TWS:CLUB] 背着老师偷吃零食🍬 | 42高中 | EP.69",
           "author": "",
-          "heat": "11.3万",
+          "heat": "11.9万",
           "url": "https://www.bilibili.com/video/av117273964644572/"
         },
         {
-          "rank": 15,
-          "title": "热烈欢迎欧阳娜娜！我们的第二位00后嘉宾～看看喜欢搞婚庆的娜娜带了什么可爱（但没用）的小东西呢？",
+          "rank": 14,
+          "title": "决战上海滩 谁是最强打工人？【极限挑战 Reaction-03】(含花絮) 赞币5000加更～",
           "author": "",
-          "heat": "179.5万",
-          "url": "https://www.bilibili.com/video/av117240494037629/"
+          "heat": "27.4万",
+          "url": "https://www.bilibili.com/video/av117261499109694/"
+        },
+        {
+          "rank": 15,
+          "title": "网友称偶遇倪妮在烈日下学驾照，衣服湿透，倪妮发自拍照俏皮承认",
+          "author": "",
+          "heat": "26.5万",
+          "url": "https://www.bilibili.com/video/av117263025967227/"
         },
         {
           "rank": 16,
@@ -1320,10 +1320,10 @@
         },
         {
           "rank": 17,
-          "title": "网友称偶遇倪妮在烈日下学驾照，衣服湿透，倪妮发自拍照俏皮承认",
+          "title": "热烈欢迎欧阳娜娜！我们的第二位00后嘉宾～看看喜欢搞婚庆的娜娜带了什么可爱（但没用）的小东西呢？",
           "author": "",
-          "heat": "26.4万",
-          "url": "https://www.bilibili.com/video/av117263025967227/"
+          "heat": "179.9万",
+          "url": "https://www.bilibili.com/video/av117240494037629/"
         },
         {
           "rank": 18,
@@ -1336,218 +1336,218 @@
           "rank": 19,
           "title": "注意！花少2全集解说，时长共8小时（莫要通宵看）",
           "author": "",
-          "heat": "903.4万",
+          "heat": "903.8万",
           "url": "https://www.bilibili.com/video/av116107360862973/"
         },
         {
           "rank": 20,
-          "title": "第一次看《明侦》reaction S1-《消失的新郎》不愧是你，撒明灯，还好我没跟你(点赞过5000啦)",
-          "author": "",
-          "heat": "46.2万",
-          "url": "https://www.bilibili.com/video/av117257657257649/"
-        },
-        {
-          "rank": 21,
-          "title": "网络人物志第99期贾乃亮",
-          "author": "",
-          "heat": "33.1万",
-          "url": "https://www.bilibili.com/video/av117252976346993/"
-        },
-        {
-          "rank": 22,
           "title": "时差五小时3 EP03《时差屯往事》超长未播轮惊喜掉落",
           "author": "",
-          "heat": "8.9万",
+          "heat": "9.1万",
           "url": "https://www.bilibili.com/video/av117252724622989/"
         },
         {
-          "rank": 23,
-          "title": "连吃死神辣椒 160万辣度入口 太奶当场显灵！",
+          "rank": 21,
+          "title": "第一次看《明侦》reaction S1-《消失的新郎》不愧是你，撒明灯，还好我没跟你(点赞过5000啦)",
           "author": "",
-          "heat": "32.3万",
-          "url": "https://www.bilibili.com/video/av117251298691306/"
+          "heat": "46.5万",
+          "url": "https://www.bilibili.com/video/av117257657257649/"
+        },
+        {
+          "rank": 22,
+          "title": "网络人物志第99期贾乃亮",
+          "author": "",
+          "heat": "33.2万",
+          "url": "https://www.bilibili.com/video/av117252976346993/"
+        },
+        {
+          "rank": 23,
+          "title": "全职研究张雅琪《倍速天才》",
+          "author": "",
+          "heat": "8.9万",
+          "url": "https://www.bilibili.com/video/av117268142886430/"
         },
         {
           "rank": 24,
-          "title": "全职研究张雅琪《倍速天才》",
+          "title": "连吃死神辣椒 160万辣度入口 太奶当场显灵！",
           "author": "",
-          "heat": "8.8万",
-          "url": "https://www.bilibili.com/video/av117268142886430/"
+          "heat": "32.4万",
+          "url": "https://www.bilibili.com/video/av117251298691306/"
         },
         {
           "rank": 25,
           "title": "和谐但无聊？正常但糊了？这季花少能看吗？【花少8第一期测评】",
           "author": "",
-          "heat": "25.5万",
+          "heat": "25.6万",
           "url": "https://www.bilibili.com/video/av117257220919733/"
         },
         {
           "rank": 26,
           "title": "米卡在线回应“披颜一”？【当面哔哔专访季EP03】",
           "author": "",
-          "heat": "8.0万",
+          "heat": "8.4万",
           "url": "https://www.bilibili.com/video/av117274602181744/"
         },
         {
           "rank": 27,
-          "title": "不想唱跳就回家！余文乐你的“顺风顺水”还要演到什么时候？",
-          "author": "",
-          "heat": "33.6万",
-          "url": "https://www.bilibili.com/video/av117253630598117/"
-        },
-        {
-          "rank": 28,
-          "title": "京圈太子爷，论迹不论心",
-          "author": "",
-          "heat": "155.4万",
-          "url": "https://www.bilibili.com/video/av117239957162740/"
-        },
-        {
-          "rank": 29,
           "title": "不良男女谈恋爱！海王都被女嘉宾骂哭了！《不良一族寻爱记2》解说01",
           "author": "",
-          "heat": "8.7万",
+          "heat": "9.1万",
           "url": "https://www.bilibili.com/video/av117268310660689/"
         },
         {
-          "rank": 30,
+          "rank": 28,
           "title": "房主任：拿亲人的家丑，给自己的流量铺路，全是算计",
           "author": "",
-          "heat": "11.0万",
+          "heat": "11.7万",
           "url": "https://www.bilibili.com/video/av117276598601801/"
+        },
+        {
+          "rank": 29,
+          "title": "京圈太子爷，论迹不论心",
+          "author": "",
+          "heat": "155.8万",
+          "url": "https://www.bilibili.com/video/av117239957162740/"
+        },
+        {
+          "rank": 30,
+          "title": "不想唱跳就回家！余文乐你的“顺风顺水”还要演到什么时候？",
+          "author": "",
+          "heat": "33.7万",
+          "url": "https://www.bilibili.com/video/av117253630598117/"
         },
         {
           "rank": 31,
           "title": "【考古up计划】——Serin塞琳（活跃中）",
           "author": "",
-          "heat": "8.8万",
+          "heat": "8.9万",
           "url": "https://www.bilibili.com/video/av117268310727333/"
         },
         {
           "rank": 32,
           "title": "看得出！他们是真不想成为新课件啊哈哈！《花少8》01：拉美之旅来了！",
           "author": "",
-          "heat": "49.3万",
+          "heat": "49.6万",
           "url": "https://www.bilibili.com/video/av117255190944739/"
         },
         {
           "rank": 33,
-          "title": "贾乃亮李小璐再同框！载入互联网史册的世纪大和解",
-          "author": "",
-          "heat": "92.5万",
-          "url": "https://www.bilibili.com/video/av117246399749474/"
-        },
-        {
-          "rank": 34,
           "title": "谁说夏天结束了? ILLIT刚去夏日休假 I SUPER ILLIT EP28",
           "author": "",
-          "heat": "4.7万",
+          "heat": "4.8万",
           "url": "https://www.bilibili.com/video/av117268981745616/"
         },
         {
-          "rank": 35,
+          "rank": 34,
           "title": "王婆说媒新番，赖克宝相亲记",
           "author": "",
-          "heat": "9.3万",
+          "heat": "9.7万",
           "url": "https://www.bilibili.com/video/av117273041836605/"
+        },
+        {
+          "rank": 35,
+          "title": "贾乃亮李小璐再同框！载入互联网史册的世纪大和解",
+          "author": "",
+          "heat": "92.7万",
+          "url": "https://www.bilibili.com/video/av117246399749474/"
         },
         {
           "rank": 36,
           "title": "露思正面对抗月亮脸，TF家没有好听的风险",
           "author": "",
-          "heat": "260.2万",
+          "heat": "261.3万",
           "url": "https://www.bilibili.com/video/av117240175265595/"
         },
         {
           "rank": 37,
-          "title": "资本弃子包贝尔，彻底塌房",
+          "title": "三公小考保持绝望！捣蛋鬼好多！《24个比利》最佳！【披荆斩棘6】",
           "author": "",
-          "heat": "177.7万",
-          "url": "https://www.bilibili.com/video/av117234890442937/"
+          "heat": "10.0万",
+          "url": "https://www.bilibili.com/video/av117275256496034/"
         },
         {
           "rank": 38,
+          "title": "资本弃子包贝尔，彻底塌房",
+          "author": "",
+          "heat": "178.0万",
+          "url": "https://www.bilibili.com/video/av117234890442937/"
+        },
+        {
+          "rank": 39,
           "title": "文徐允/沈佳润：不要轻易相信她们定义的努力",
           "author": "",
           "heat": "7.6万",
           "url": "https://www.bilibili.com/video/av117268612711683/"
         },
         {
-          "rank": 39,
-          "title": "三公小考保持绝望！捣蛋鬼好多！《24个比利》最佳！【披荆斩棘6】",
-          "author": "",
-          "heat": "9.4万",
-          "url": "https://www.bilibili.com/video/av117275256496034/"
-        },
-        {
           "rank": 40,
           "title": "【花少8】嘉宾打破偶数季魔咒？地陪争议已上线！相比于《花少2》待遇好到不值得起冲突！",
           "author": "",
-          "heat": "9.4万",
+          "heat": "9.5万",
           "url": "https://www.bilibili.com/video/av117262371591902/"
         },
         {
           "rank": 41,
-          "title": "【TF_ING】《CHILL ING》S2 EP03：危险又迷人的故事",
+          "title": "[GOING SEVENTEEN] EP.160 12,317韩元的幸福 #1",
           "author": "",
-          "heat": "26.1万",
-          "url": "https://www.bilibili.com/video/av117257338428319/"
+          "heat": "5.0万",
+          "url": "https://www.bilibili.com/video/av117279836671179/"
         },
         {
           "rank": 42,
           "title": "为了打破偶数季魔咒！为了不想成为花学课件！看的出来这伙人真的很努力！！《花少2026》第一期解说",
           "author": "",
-          "heat": "19.3万",
+          "heat": "19.4万",
           "url": "https://www.bilibili.com/video/av117256835041529/"
         },
         {
           "rank": 43,
-          "title": "[DK TIME] DK TIME Coming Soon!",
-          "author": "",
-          "heat": "3.9万",
-          "url": "https://www.bilibili.com/video/av117262002489971/"
-        },
-        {
-          "rank": 44,
-          "title": "陈浩民直播翻车！妻子当众撕破脸：你给前任全款买房，却让我连要钱都难！",
-          "author": "",
-          "heat": "11.5万",
-          "url": "https://www.bilibili.com/video/av117260341481908/"
-        },
-        {
-          "rank": 45,
           "title": "【回顾明侦S3E6】第三次两票全中，鸥姐当侦探还是太超模了！",
           "author": "",
-          "heat": "5.9万",
+          "heat": "6.0万",
           "url": "https://www.bilibili.com/video/av117272588916883/"
         },
         {
-          "rank": 46,
-          "title": "磕cp的小众爱好",
-          "author": "",
-          "heat": "9.8万",
-          "url": "https://www.bilibili.com/video/av117261733987857/"
-        },
-        {
-          "rank": 47,
-          "title": "凭什么一个亚裔演员的“死”？让全美观众怒砸电视！收视率暴跌70%！直接给这部剧判了死刑！",
-          "author": "",
-          "heat": "6.8万",
-          "url": "https://www.bilibili.com/video/av117262723849115/"
-        },
-        {
-          "rank": 48,
+          "rank": 44,
           "title": "毫不留情！九成网友反对、演出当场遭抵制叫停，劣迹艺人复出梦碎",
           "author": "",
-          "heat": "27.5万",
+          "heat": "28.7万",
           "url": "https://www.bilibili.com/video/av117229991566781/"
         },
         {
-          "rank": 49,
-          "title": "张彬彬人际修罗场，王赫野舞魂迸发，邵子恒一拖四！三公选人精彩但心眼儿多【披荆斩棘3公选人】",
+          "rank": 45,
+          "title": "陈浩民直播翻车！妻子当众撕破脸：你给前任全款买房，却让我连要钱都难！",
           "author": "",
-          "heat": "10.4万",
-          "url": "https://www.bilibili.com/video/av117262052824965/"
+          "heat": "11.7万",
+          "url": "https://www.bilibili.com/video/av117260341481908/"
+        },
+        {
+          "rank": 46,
+          "title": "【TF_ING】《CHILL ING》S2 EP03：危险又迷人的故事",
+          "author": "",
+          "heat": "26.2万",
+          "url": "https://www.bilibili.com/video/av117257338428319/"
+        },
+        {
+          "rank": 47,
+          "title": "磕cp的小众爱好",
+          "author": "",
+          "heat": "10.1万",
+          "url": "https://www.bilibili.com/video/av117261733987857/"
+        },
+        {
+          "rank": 48,
+          "title": "凭什么一个亚裔演员的“死”？让全美观众怒砸电视！收视率暴跌70%！直接给这部剧判了死刑！",
+          "author": "",
+          "heat": "6.9万",
+          "url": "https://www.bilibili.com/video/av117262723849115/"
+        },
+        {
+          "rank": 49,
+          "title": "【1喜】天才，无需多言《父亲的葬礼》",
+          "author": "",
+          "heat": "4.5万",
+          "url": "https://www.bilibili.com/video/av117264871394048/"
         },
         {
           "rank": 50,
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:41"
+      "update_time": "2026-09-16 23:20:42"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:43"
+      "update_time": "2026-09-16 23:20:44"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:45"
+      "update_time": "2026-09-16 23:20:47"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-16 23:15:47"
+      "update_time": "2026-09-16 23:20:49"
     }
   }
 }
