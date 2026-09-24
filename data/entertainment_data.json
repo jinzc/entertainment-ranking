@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-25 04:45:24",
+  "update_time": "2026-09-25 04:50:28",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -7,362 +7,11 @@
       "category": "微博",
       "icon": "🔥",
       "color": "#DC2626",
-      "items": [
-        {
-          "rank": 1,
-          "title": "井柏然刘雯 大大方方",
-          "author": "",
-          "heat": "1.",
-          "url": "https://s.weibo.com/weibo?q=%E4%BA%95%E6%9F%8F%E7%84%B6%E5%88%98%E9%9B%AF%20%E5%A4%A7%E5%A4%A7%E6%96%B9%E6%96%B9&t=152&Refer=top"
-        },
-        {
-          "rank": 2,
-          "title": "港媒取的标题也太好笑了",
-          "author": "",
-          "heat": "2.",
-          "url": "https://s.weibo.com/weibo?q=%E6%B8%AF%E5%AA%92%E5%8F%96%E7%9A%84%E6%A0%87%E9%A2%98%E4%B9%9F%E5%A4%AA%E5%A5%BD%E7%AC%91%E4%BA%86&t=152&Refer=top"
-        },
-        {
-          "rank": 3,
-          "title": "花少北复活了",
-          "author": "",
-          "heat": "3.",
-          "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%B0%91%E5%8C%97%E5%A4%8D%E6%B4%BB%E4%BA%86&t=152&Refer=top"
-        },
-        {
-          "rank": 4,
-          "title": "王嘉尔否认与宋雨琦恋情",
-          "author": "",
-          "heat": "4.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%98%89%E5%B0%94%E5%90%A6%E8%AE%A4%E4%B8%8E%E5%AE%8B%E9%9B%A8%E7%90%A6%E6%81%8B%E6%83%85%23&t=152&Refer=top"
-        },
-        {
-          "rank": 5,
-          "title": "游本昌临终遗言",
-          "author": "",
-          "heat": "5.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B8%B8%E6%9C%AC%E6%98%8C%E4%B8%B4%E7%BB%88%E9%81%97%E8%A8%80%23&t=152&Refer=top"
-        },
-        {
-          "rank": 6,
-          "title": "李现新剧首播反响",
-          "author": "",
-          "heat": "6.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E7%8E%B0%E6%96%B0%E5%89%A7%E9%A6%96%E6%92%AD%E5%8F%8D%E5%93%8D%23&t=152&Refer=top"
-        },
-        {
-          "rank": 7,
-          "title": "王嘉尔说和宋雨琦私下有沟通",
-          "author": "",
-          "heat": "7.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%98%89%E5%B0%94%E8%AF%B4%E5%92%8C%E5%AE%8B%E9%9B%A8%E7%90%A6%E7%A7%81%E4%B8%8B%E6%9C%89%E6%B2%9F%E9%80%9A%23&t=152&Refer=top"
-        },
-        {
-          "rank": 8,
-          "title": "Angelababy米兰时装周状态",
-          "author": "",
-          "heat": "8.",
-          "url": "https://s.weibo.com/weibo?q=%23Angelababy%E7%B1%B3%E5%85%B0%E6%97%B6%E8%A3%85%E5%91%A8%E7%8A%B6%E6%80%81%23&t=152&Refer=top"
-        },
-        {
-          "rank": 9,
-          "title": "曝南烟斋笔录男二号AI换脸",
-          "author": "",
-          "heat": "9.",
-          "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E5%8D%97%E7%83%9F%E6%96%8B%E7%AC%94%E5%BD%95%E7%94%B7%E4%BA%8C%E5%8F%B7AI%E6%8D%A2%E8%84%B8&t=152&Refer=top"
-        },
-        {
-          "rank": 10,
-          "title": "花少9邀请了一个9095的顶流花",
-          "author": "",
-          "heat": "10.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%919%E9%82%80%E8%AF%B7%E4%BA%86%E4%B8%80%E4%B8%AA9095%E7%9A%84%E9%A1%B6%E6%B5%81%E8%8A%B1%23&t=152&Refer=top"
-        },
-        {
-          "rank": 11,
-          "title": "白鹿吃面都不敢看镜头了",
-          "author": "",
-          "heat": "11.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E5%90%83%E9%9D%A2%E9%83%BD%E4%B8%8D%E6%95%A2%E7%9C%8B%E9%95%9C%E5%A4%B4%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 12,
-          "title": "王嘉尔回应粉丝追星体验不好",
-          "author": "",
-          "heat": "12.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%98%89%E5%B0%94%E5%9B%9E%E5%BA%94%E7%B2%89%E4%B8%9D%E8%BF%BD%E6%98%9F%E4%BD%93%E9%AA%8C%E4%B8%8D%E5%A5%BD%23&t=152&Refer=top"
-        },
-        {
-          "rank": 13,
-          "title": "花少9熟人局",
-          "author": "",
-          "heat": "13.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%919%E7%86%9F%E4%BA%BA%E5%B1%80%23&t=152&Refer=top"
-        },
-        {
-          "rank": 14,
-          "title": "兰香如故",
-          "author": "",
-          "heat": "14.",
-          "url": "https://s.weibo.com/weibo?q=%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85&t=152&Refer=top"
-        },
-        {
-          "rank": 15,
-          "title": "王嘉尔又住院了",
-          "author": "",
-          "heat": "15.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%98%89%E5%B0%94%E5%8F%88%E4%BD%8F%E9%99%A2%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 16,
-          "title": "成毅白发",
-          "author": "",
-          "heat": "16.",
-          "url": "https://s.weibo.com/weibo?q=%E6%88%90%E6%AF%85%E7%99%BD%E5%8F%91&t=152&Refer=top"
-        },
-        {
-          "rank": 17,
-          "title": "井柏然家里剩下的只有刘雯的了",
-          "author": "",
-          "heat": "17.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E5%AE%B6%E9%87%8C%E5%89%A9%E4%B8%8B%E7%9A%84%E5%8F%AA%E6%9C%89%E5%88%98%E9%9B%AF%E7%9A%84%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 18,
-          "title": "早春晴朗到底赚到了多少",
-          "author": "",
-          "heat": "18.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E5%88%B0%E5%BA%95%E8%B5%9A%E5%88%B0%E4%BA%86%E5%A4%9A%E5%B0%91%23&t=152&Refer=top"
-        },
-        {
-          "rank": 19,
-          "title": "王一博剪了短发",
-          "author": "",
-          "heat": "19.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%B8%80%E5%8D%9A%E5%89%AA%E4%BA%86%E7%9F%AD%E5%8F%91%23&t=152&Refer=top"
-        },
-        {
-          "rank": 20,
-          "title": "云旗在上海暴走的一天",
-          "author": "",
-          "heat": "20.",
-          "url": "https://s.weibo.com/weibo?q=%E4%BA%91%E6%97%97%E5%9C%A8%E4%B8%8A%E6%B5%B7%E6%9A%B4%E8%B5%B0%E7%9A%84%E4%B8%80%E5%A4%A9&t=152&Refer=top"
-        },
-        {
-          "rank": 21,
-          "title": "小雨妖妖我承认你是全服第一美女了",
-          "author": "",
-          "heat": "21.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E9%9B%A8%E5%A6%96%E5%A6%96%E6%88%91%E6%89%BF%E8%AE%A4%E4%BD%A0%E6%98%AF%E5%85%A8%E6%9C%8D%E7%AC%AC%E4%B8%80%E7%BE%8E%E5%A5%B3%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 22,
-          "title": "谭松韵回复刘学义",
-          "author": "",
-          "heat": "22.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%B0%AD%E6%9D%BE%E9%9F%B5%E5%9B%9E%E5%A4%8D%E5%88%98%E5%AD%A6%E4%B9%89%23&t=152&Refer=top"
-        },
-        {
-          "rank": 23,
-          "title": "胡歌悼念游本昌",
-          "author": "",
-          "heat": "23.",
-          "url": "https://s.weibo.com/weibo?q=%E8%83%A1%E6%AD%8C%E6%82%BC%E5%BF%B5%E6%B8%B8%E6%9C%AC%E6%98%8C&t=152&Refer=top"
-        },
-        {
-          "rank": 24,
-          "title": "李现李一桐新剧口碑",
-          "author": "",
-          "heat": "24.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E7%8E%B0%E6%9D%8E%E4%B8%80%E6%A1%90%E6%96%B0%E5%89%A7%E5%8F%A3%E7%A2%91%23&t=152&Refer=top"
-        },
-        {
-          "rank": 25,
-          "title": "张碧晨突然长了2个酒窝",
-          "author": "",
-          "heat": "25.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E7%A2%A7%E6%99%A8%E7%AA%81%E7%84%B6%E9%95%BF%E4%BA%862%E4%B8%AA%E9%85%92%E7%AA%9D%23&t=152&Refer=top"
-        },
-        {
-          "rank": 26,
-          "title": "陈浩民发文悼念游本昌",
-          "author": "",
-          "heat": "26.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E6%B5%A9%E6%B0%91%E5%8F%91%E6%96%87%E6%82%BC%E5%BF%B5%E6%B8%B8%E6%9C%AC%E6%98%8C%23&t=152&Refer=top"
-        },
-        {
-          "rank": 27,
-          "title": "丁程鑫清唱月亮代表我的心",
-          "author": "",
-          "heat": "27.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%81%E7%A8%8B%E9%91%AB%E6%B8%85%E5%94%B1%E6%9C%88%E4%BA%AE%E4%BB%A3%E8%A1%A8%E6%88%91%E7%9A%84%E5%BF%83%23&t=152&Refer=top"
-        },
-        {
-          "rank": 28,
-          "title": "许兰香不会捶丸但沈嘉兰会",
-          "author": "",
-          "heat": "28.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E5%85%B0%E9%A6%99%E4%B8%8D%E4%BC%9A%E6%8D%B6%E4%B8%B8%E4%BD%86%E6%B2%88%E5%98%89%E5%85%B0%E4%BC%9A%23&t=152&Refer=top"
-        },
-        {
-          "rank": 29,
-          "title": "小水G社生图状态",
-          "author": "",
-          "heat": "29.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E6%B0%B4G%E7%A4%BE%E7%94%9F%E5%9B%BE%E7%8A%B6%E6%80%81%23&t=152&Refer=top"
-        },
-        {
-          "rank": 30,
-          "title": "六福珠宝给成毅送杀青花篮",
-          "author": "",
-          "heat": "30.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%85%AD%E7%A6%8F%E7%8F%A0%E5%AE%9D%E7%BB%99%E6%88%90%E6%AF%85%E9%80%81%E6%9D%80%E9%9D%92%E8%8A%B1%E7%AF%AE%23&t=152&Refer=top"
-        },
-        {
-          "rank": 31,
-          "title": "李现李一桐情侣名",
-          "author": "",
-          "heat": "31.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E7%8E%B0%E6%9D%8E%E4%B8%80%E6%A1%90%E6%83%85%E4%BE%A3%E5%90%8D%23&t=152&Refer=top"
-        },
-        {
-          "rank": 32,
-          "title": "私服肖战",
-          "author": "",
-          "heat": "32.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%A7%81%E6%9C%8D%E8%82%96%E6%88%98%23&t=152&Refer=top"
-        },
-        {
-          "rank": 33,
-          "title": "沈月米兰人气",
-          "author": "",
-          "heat": "33.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E6%9C%88%E7%B1%B3%E5%85%B0%E4%BA%BA%E6%B0%94%23&t=152&Refer=top"
-        },
-        {
-          "rank": 34,
-          "title": "迪丽热巴拍了光绘镜头签",
-          "author": "",
-          "heat": "34.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E6%8B%8D%E4%BA%86%E5%85%89%E7%BB%98%E9%95%9C%E5%A4%B4%E7%AD%BE%23&t=152&Refer=top"
-        },
-        {
-          "rank": 35,
-          "title": "丁程鑫变着花样跟粉丝表白",
-          "author": "",
-          "heat": "35.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%81%E7%A8%8B%E9%91%AB%E5%8F%98%E7%9D%80%E8%8A%B1%E6%A0%B7%E8%B7%9F%E7%B2%89%E4%B8%9D%E8%A1%A8%E7%99%BD%23&t=152&Refer=top"
-        },
-        {
-          "rank": 36,
-          "title": "王一博单手解衣",
-          "author": "",
-          "heat": "36.",
-          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%B8%80%E5%8D%9A%E5%8D%95%E6%89%8B%E8%A7%A3%E8%A1%A3&t=152&Refer=top"
-        },
-        {
-          "rank": 37,
-          "title": "李现看自己洗澡戏看呆了",
-          "author": "",
-          "heat": "37.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E7%8E%B0%E7%9C%8B%E8%87%AA%E5%B7%B1%E6%B4%97%E6%BE%A1%E6%88%8F%E7%9C%8B%E5%91%86%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 38,
-          "title": "橹穆",
-          "author": "",
-          "heat": "38.",
-          "url": "https://s.weibo.com/weibo?q=%E6%A9%B9%E7%A9%86&t=152&Refer=top"
-        },
-        {
-          "rank": 39,
-          "title": "李现被李一桐骗得团团转",
-          "author": "",
-          "heat": "39.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E7%8E%B0%E8%A2%AB%E6%9D%8E%E4%B8%80%E6%A1%90%E9%AA%97%E5%BE%97%E5%9B%A2%E5%9B%A2%E8%BD%AC%23&t=152&Refer=top"
-        },
-        {
-          "rank": 40,
-          "title": "王奕婷新剧被李现设局",
-          "author": "",
-          "heat": "40.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%A5%95%E5%A9%B7%E6%96%B0%E5%89%A7%E8%A2%AB%E6%9D%8E%E7%8E%B0%E8%AE%BE%E5%B1%80%23&t=152&Refer=top"
-        },
-        {
-          "rank": 41,
-          "title": "好心疼许兰香",
-          "author": "",
-          "heat": "41.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%BD%E5%BF%83%E7%96%BC%E8%AE%B8%E5%85%B0%E9%A6%99%23&t=152&Refer=top"
-        },
-        {
-          "rank": 42,
-          "title": "游本昌亲传弟子暂停景区济公演出",
-          "author": "",
-          "heat": "42.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B8%B8%E6%9C%AC%E6%98%8C%E4%BA%B2%E4%BC%A0%E5%BC%9F%E5%AD%90%E6%9A%82%E5%81%9C%E6%99%AF%E5%8C%BA%E6%B5%8E%E5%85%AC%E6%BC%94%E5%87%BA%23&t=152&Refer=top"
-        },
-        {
-          "rank": 43,
-          "title": "张杰亚运电竞夺金战歌振乾坤",
-          "author": "",
-          "heat": "43.",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9D%B0%E4%BA%9A%E8%BF%90%E7%94%B5%E7%AB%9E%E5%A4%BA%E9%87%91%E6%88%98%E6%AD%8C%E6%8C%AF%E4%B9%BE%E5%9D%A4&t=152&Refer=top"
-        },
-        {
-          "rank": 44,
-          "title": "刘宇宁说追梦要趁现在",
-          "author": "",
-          "heat": "44.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AE%87%E5%AE%81%E8%AF%B4%E8%BF%BD%E6%A2%A6%E8%A6%81%E8%B6%81%E7%8E%B0%E5%9C%A8%23&t=152&Refer=top"
-        },
-        {
-          "rank": 45,
-          "title": "王鸥 最尊重眉毛的女明星",
-          "author": "",
-          "heat": "45.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E9%B8%A5%20%E6%9C%80%E5%B0%8A%E9%87%8D%E7%9C%89%E6%AF%9B%E7%9A%84%E5%A5%B3%E6%98%8E%E6%98%9F%23&t=152&Refer=top"
-        },
-        {
-          "rank": 46,
-          "title": "我不是大师首播热度",
-          "author": "",
-          "heat": "46.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E4%B8%8D%E6%98%AF%E5%A4%A7%E5%B8%88%E9%A6%96%E6%92%AD%E7%83%AD%E5%BA%A6%23&t=152&Refer=top"
-        },
-        {
-          "rank": 47,
-          "title": "沈月林允儿同框",
-          "author": "",
-          "heat": "47.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E6%9C%88%E6%9E%97%E5%85%81%E5%84%BF%E5%90%8C%E6%A1%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 48,
-          "title": "兰香如故林家爷孙对峙太好笑",
-          "author": "",
-          "heat": "48.",
-          "url": "https://s.weibo.com/weibo?q=%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85%E6%9E%97%E5%AE%B6%E7%88%B7%E5%AD%99%E5%AF%B9%E5%B3%99%E5%A4%AA%E5%A5%BD%E7%AC%91&t=152&Refer=top"
-        },
-        {
-          "rank": 49,
-          "title": "李现开局就被骗婚",
-          "author": "",
-          "heat": "49.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E7%8E%B0%E5%BC%80%E5%B1%80%E5%B0%B1%E8%A2%AB%E9%AA%97%E5%A9%9A%23&t=152&Refer=top"
-        },
-        {
-          "rank": 50,
-          "title": "Linda爷只活到50多岁",
-          "author": "",
-          "heat": "50.",
-          "url": "https://s.weibo.com/weibo?q=Linda%E7%88%B7%E5%8F%AA%E6%B4%BB%E5%88%B050%E5%A4%9A%E5%B2%81&t=152&Refer=top"
-        }
-      ],
-      "error": null,
-      "item_count": 50,
+      "items": [],
+      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/3QeLwJEd7k",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:26"
+      "update_time": "2026-09-25 04:50:37"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +164,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:31"
+      "update_time": "2026-09-25 04:50:41"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -523,145 +172,11 @@
       "category": "抖音",
       "icon": "⭐",
       "color": "#F59E0B",
-      "items": [
-        {
-          "rank": 1,
-          "title": "一个人心中只有一个宝贝#陪你长大 #母女 #独有的爱",
-          "author": "董璇",
-          "heat": "13714623次播放",
-          "url": "https://www.douyin.com/video/7688588674649417679"
-        },
-        {
-          "rank": 2,
-          "title": "真正的功夫，安然于动静之间。这一次，和#理想L9一起，穿过千重浪，稳住这一程。",
-          "author": "谢苗",
-          "heat": "10022220次播放",
-          "url": "https://www.douyin.com/video/7687597210854296882"
-        },
-        {
-          "rank": 3,
-          "title": "“时光修剪我的枝桠 却让根系更接近星河”🎂✨🫶🏻#可可系",
-          "author": "白鹿my",
-          "heat": "9198726次播放",
-          "url": "https://www.douyin.com/video/7688644333306631912"
-        },
-        {
-          "rank": 4,
-          "title": "I like to eat🍨🍉🍹🍖🌽#活人感一夏",
-          "author": "宋雨琦_i-dle",
-          "heat": "8203845次播放",
-          "url": "https://www.douyin.com/video/7688281830394446971"
-        },
-        {
-          "rank": 5,
-          "title": "三分球的落点是幸福🏀 #电影活久久",
-          "author": "张艺凡ZYF",
-          "heat": "7999374次播放",
-          "url": "https://www.douyin.com/video/7688355612316519680"
-        },
-        {
-          "rank": 6,
-          "title": "这把稳了 #父母 #学生必看",
-          "author": "踹宝王",
-          "heat": "6713412次播放",
-          "url": "https://www.douyin.com/video/7688352523250211258"
-        },
-        {
-          "rank": 8,
-          "title": "#可可妆 青~",
-          "author": "小田",
-          "heat": "6054799次播放",
-          "url": "https://www.douyin.com/video/7687601272635881908"
-        },
-        {
-          "rank": 9,
-          "title": "闪现 🕺#闪身步",
-          "author": "张艺兴",
-          "heat": "5565269次播放",
-          "url": "https://www.douyin.com/video/7688670141035407269"
-        },
-        {
-          "rank": 10,
-          "title": "夏天過去了，就不會再回來。#周传雄秋天的海上线 #秋天的海",
-          "author": "周傳雄",
-          "heat": "5470476次播放",
-          "url": "https://www.douyin.com/video/7688546377277672714"
-        },
-        {
-          "rank": 11,
-          "title": "#何盼 🌸学功夫",
-          "author": "虞书欣Esther",
-          "heat": "5272777次播放",
-          "url": "https://www.douyin.com/video/7686101836104912741"
-        },
-        {
-          "rank": 12,
-          "title": "今夜星光闪闪✨@谭松韵seven @刘美含 姐妹合体手势舞手拿把掐之🫳🫴👌 #谭松韵 #刘美含 #许兰香 #吕蕺儿 #兰香如故",
-          "author": "谭松韵工作室",
-          "heat": "5210973次播放",
-          "url": "https://www.douyin.com/video/7687930579023934137"
-        },
-        {
-          "rank": 13,
-          "title": "哈尔滨的新疆大盘鸡味道正不正宗先不说，我想问一下新疆99块钱也是这么大分量么#日常vlog",
-          "author": "王宁",
-          "heat": "5054800次播放",
-          "url": "https://www.douyin.com/video/7680431542452281818"
-        },
-        {
-          "rank": 14,
-          "title": "新鲜的醋意摇🤎 #可可系",
-          "author": "李一桐Q",
-          "heat": "3850362次播放",
-          "url": "https://www.douyin.com/video/7688662879080589567"
-        },
-        {
-          "rank": 15,
-          "title": "湾区升明月售后来啦《爱情鸟》#爱情鸟舞蹈挑战#小鸟依任",
-          "author": "任嘉伦Allen",
-          "heat": "3756789次播放",
-          "url": "https://www.douyin.com/video/7688352931607974321"
-        },
-        {
-          "rank": 16,
-          "title": "“眼泪比你的话先跑出来 像句号。”#小狗日记",
-          "author": "孙千",
-          "heat": "3593938次播放",
-          "url": "https://www.douyin.com/video/7687257646562831601"
-        },
-        {
-          "rank": 17,
-          "title": "在音乐里给自己一段慢慢摇晃的时间。@肖战 全新EP《异想天开》9月29日正式上线 ，我们不见不散！ #肖战全新EP异想天开 #肖战",
-          "author": "肖战工作室",
-          "heat": "3366481次播放",
-          "url": "https://www.douyin.com/video/7688431017510547441"
-        },
-        {
-          "rank": 18,
-          "title": "昨晚去参加婚礼了吗 #兰香如故 #我的追剧日志 #林绣茹",
-          "author": "马凡丁",
-          "heat": "3091229次播放",
-          "url": "https://www.douyin.com/video/7688181387316335019"
-        },
-        {
-          "rank": 19,
-          "title": "赶上热点了吗",
-          "author": "章若楠",
-          "heat": "2858757次播放",
-          "url": "https://www.douyin.com/video/7681594227411426801"
-        },
-        {
-          "rank": 20,
-          "title": "全网一千万人都在等的大婚他来了@刘学义 #林锦岐 #刘学义 #兰香如故 #精神状态belike #努力",
-          "author": "刘学义工作室",
-          "heat": "2809496次播放",
-          "url": "https://www.douyin.com/video/7688555293172930970"
-        }
-      ],
-      "error": null,
-      "item_count": 19,
+      "items": [],
+      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/RrvWy7Re5z",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:34"
+      "update_time": "2026-09-25 04:50:46"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +259,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:36"
+      "update_time": "2026-09-25 04:50:49"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -752,82 +267,11 @@
       "category": "百度",
       "icon": "📺",
       "color": "#3B82F6",
-      "items": [
-        {
-          "rank": 1,
-          "title": "九门",
-          "author": "",
-          "heat": "1.",
-          "url": "https://www.baidu.com/s?wd=%E4%B9%9D%E9%97%A8"
-        },
-        {
-          "rank": 2,
-          "title": "非份之罪",
-          "author": "",
-          "heat": "2.",
-          "url": "https://www.baidu.com/s?wd=%E9%9D%9E%E4%BB%BD%E4%B9%8B%E7%BD%AA"
-        },
-        {
-          "rank": 3,
-          "title": "这一秒过火",
-          "author": "",
-          "heat": "3.",
-          "url": "https://www.baidu.com/s?wd=%E8%BF%99%E4%B8%80%E7%A7%92%E8%BF%87%E7%81%AB"
-        },
-        {
-          "rank": 4,
-          "title": "百花杀",
-          "author": "",
-          "heat": "4.",
-          "url": "https://www.baidu.com/s?wd=%E7%99%BE%E8%8A%B1%E6%9D%80"
-        },
-        {
-          "rank": 5,
-          "title": "天才，女友",
-          "author": "",
-          "heat": "5.",
-          "url": "https://www.baidu.com/s?wd=%E5%A4%A9%E6%89%8D%EF%BC%8C%E5%A5%B3%E5%8F%8B"
-        },
-        {
-          "rank": 6,
-          "title": "御廷谣",
-          "author": "",
-          "heat": "6.",
-          "url": "https://www.baidu.com/s?wd=%E5%BE%A1%E5%BB%B7%E8%B0%A3"
-        },
-        {
-          "rank": 7,
-          "title": "小芳",
-          "author": "",
-          "heat": "7.",
-          "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E8%8A%B3"
-        },
-        {
-          "rank": 8,
-          "title": "雀骨",
-          "author": "",
-          "heat": "8.",
-          "url": "https://www.baidu.com/s?wd=%E9%9B%80%E9%AA%A8"
-        },
-        {
-          "rank": 9,
-          "title": "悬案",
-          "author": "",
-          "heat": "9.",
-          "url": "https://www.baidu.com/s?wd=%E6%82%AC%E6%A1%88"
-        },
-        {
-          "rank": 10,
-          "title": "人鱼",
-          "author": "",
-          "heat": "10.",
-          "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E9%B1%BC"
-        }
-      ],
-      "error": null,
-      "item_count": 10,
+      "items": [],
+      "error": "tophub请求失败: 500 Server Error: Internal Server Error for url: https://tophub.today/n/ENeYp23dY4",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:38"
+      "update_time": "2026-09-25 04:50:53"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +634,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:47"
+      "update_time": "2026-09-25 04:50:55"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +997,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:49"
+      "update_time": "2026-09-25 04:50:59"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1080,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:52"
+      "update_time": "2026-09-25 04:51:02"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1443,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:54"
+      "update_time": "2026-09-25 04:51:08"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +1806,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-25 04:45:58"
+      "update_time": "2026-09-25 04:51:13"
     }
   }
 }
