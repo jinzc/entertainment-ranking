@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-30 08:45:24",
+  "update_time": "2026-09-30 08:50:29",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -24,52 +24,52 @@
         },
         {
           "rank": 3,
-          "title": "小巷人家 陪跑",
-          "author": "",
-          "heat": "3.",
-          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%B7%B7%E4%BA%BA%E5%AE%B6%20%E9%99%AA%E8%B7%91&t=152&Refer=top"
-        },
-        {
-          "rank": 4,
           "title": "AI漫剧要拍真人版了",
           "author": "",
-          "heat": "4.",
+          "heat": "3.",
           "url": "https://s.weibo.com/weibo?q=%23AI%E6%BC%AB%E5%89%A7%E8%A6%81%E6%8B%8D%E7%9C%9F%E4%BA%BA%E7%89%88%E4%BA%86%23&t=152&Refer=top"
         },
         {
+          "rank": 4,
+          "title": "小巷人家 陪跑",
+          "author": "",
+          "heat": "4.",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%B7%B7%E4%BA%BA%E5%AE%B6%20%E9%99%AA%E8%B7%91&t=152&Refer=top"
+        },
+        {
           "rank": 5,
-          "title": "井柏然早春晴朗穿的卫衣是刘雯的",
-          "author": "",
-          "heat": "5.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E7%A9%BF%E7%9A%84%E5%8D%AB%E8%A1%A3%E6%98%AF%E5%88%98%E9%9B%AF%E7%9A%84%23&t=152&Refer=top"
-        },
-        {
-          "rank": 6,
-          "title": "金鹰奖最佳男女配角双双爆冷",
-          "author": "",
-          "heat": "6.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E9%B9%B0%E5%A5%96%E6%9C%80%E4%BD%B3%E7%94%B7%E5%A5%B3%E9%85%8D%E8%A7%92%E5%8F%8C%E5%8F%8C%E7%88%86%E5%86%B7%23&t=152&Refer=top"
-        },
-        {
-          "rank": 7,
-          "title": "沙玥儿长文",
-          "author": "",
-          "heat": "7.",
-          "url": "https://s.weibo.com/weibo?q=%E6%B2%99%E7%8E%A5%E5%84%BF%E9%95%BF%E6%96%87&t=152&Refer=top"
-        },
-        {
-          "rank": 8,
           "title": "迪丽热巴看秀内场待遇",
           "author": "",
-          "heat": "8.",
+          "heat": "5.",
           "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E7%9C%8B%E7%A7%80%E5%86%85%E5%9C%BA%E5%BE%85%E9%81%87%23&t=152&Refer=top"
         },
         {
-          "rank": 9,
+          "rank": 6,
           "title": "赵丽颖身体到底怎么了",
           "author": "",
-          "heat": "9.",
+          "heat": "6.",
           "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E8%BA%AB%E4%BD%93%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E4%BA%86%23&t=152&Refer=top"
+        },
+        {
+          "rank": 7,
+          "title": "井柏然早春晴朗穿的卫衣是刘雯的",
+          "author": "",
+          "heat": "7.",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E7%A9%BF%E7%9A%84%E5%8D%AB%E8%A1%A3%E6%98%AF%E5%88%98%E9%9B%AF%E7%9A%84%23&t=152&Refer=top"
+        },
+        {
+          "rank": 8,
+          "title": "金鹰奖最佳男女配角双双爆冷",
+          "author": "",
+          "heat": "8.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E9%B9%B0%E5%A5%96%E6%9C%80%E4%BD%B3%E7%94%B7%E5%A5%B3%E9%85%8D%E8%A7%92%E5%8F%8C%E5%8F%8C%E7%88%86%E5%86%B7%23&t=152&Refer=top"
+        },
+        {
+          "rank": 9,
+          "title": "沙玥儿长文",
+          "author": "",
+          "heat": "9.",
+          "url": "https://s.weibo.com/weibo?q=%E6%B2%99%E7%8E%A5%E5%84%BF%E9%95%BF%E6%96%87&t=152&Refer=top"
         },
         {
           "rank": 10,
@@ -87,17 +87,17 @@
         },
         {
           "rank": 12,
-          "title": "小巷人家 颗粒无收",
+          "title": "迪丽热巴迪奥专车入场",
           "author": "",
           "heat": "12.",
-          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%B7%B7%E4%BA%BA%E5%AE%B6%20%E9%A2%97%E7%B2%92%E6%97%A0%E6%94%B6&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E8%BF%AA%E5%A5%A5%E4%B8%93%E8%BD%A6%E5%85%A5%E5%9C%BA&t=152&Refer=top"
         },
         {
           "rank": 13,
-          "title": "周深唱了70首歌",
+          "title": "小巷人家 颗粒无收",
           "author": "",
           "heat": "13.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%91%A8%E6%B7%B1%E5%94%B1%E4%BA%8670%E9%A6%96%E6%AD%8C%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%B7%B7%E4%BA%BA%E5%AE%B6%20%E9%A2%97%E7%B2%92%E6%97%A0%E6%94%B6&t=152&Refer=top"
         },
         {
           "rank": 14,
@@ -108,17 +108,17 @@
         },
         {
           "rank": 15,
-          "title": "于和伟2026已经拿了三个最佳男主了",
+          "title": "周深唱了70首歌",
           "author": "",
           "heat": "15.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%8E%E5%92%8C%E4%BC%9F2026%E5%B7%B2%E7%BB%8F%E6%8B%BF%E4%BA%86%E4%B8%89%E4%B8%AA%E6%9C%80%E4%BD%B3%E7%94%B7%E4%B8%BB%E4%BA%86%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%91%A8%E6%B7%B1%E5%94%B1%E4%BA%8670%E9%A6%96%E6%AD%8C%23&t=152&Refer=top"
         },
         {
           "rank": 16,
-          "title": "生万物",
+          "title": "于和伟2026已经拿了三个最佳男主了",
           "author": "",
           "heat": "16.",
-          "url": "https://s.weibo.com/weibo?q=%E7%94%9F%E4%B8%87%E7%89%A9&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%8E%E5%92%8C%E4%BC%9F2026%E5%B7%B2%E7%BB%8F%E6%8B%BF%E4%BA%86%E4%B8%89%E4%B8%AA%E6%9C%80%E4%BD%B3%E7%94%B7%E4%B8%BB%E4%BA%86%23&t=152&Refer=top"
         },
         {
           "rank": 17,
@@ -129,24 +129,24 @@
         },
         {
           "rank": 18,
-          "title": "刘学义不认识杨迪何炅",
+          "title": "王一博看展",
           "author": "",
           "heat": "18.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AD%A6%E4%B9%89%E4%B8%8D%E8%AE%A4%E8%AF%86%E6%9D%A8%E8%BF%AA%E4%BD%95%E7%82%85%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%B8%80%E5%8D%9A%E7%9C%8B%E5%B1%95&t=152&Refer=top"
         },
         {
           "rank": 19,
-          "title": "邝玲玲对迪丽热巴飞吻",
+          "title": "金智秀Dior待遇",
           "author": "",
           "heat": "19.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%82%9D%E7%8E%B2%E7%8E%B2%E5%AF%B9%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E9%A3%9E%E5%90%BB%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E6%99%BA%E7%A7%80Dior%E5%BE%85%E9%81%87&t=152&Refer=top"
         },
         {
           "rank": 20,
-          "title": "无可替代赵今麦演技",
+          "title": "林锦岐短命的原因",
           "author": "",
           "heat": "20.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%97%A0%E5%8F%AF%E6%9B%BF%E4%BB%A3%E8%B5%B5%E4%BB%8A%E9%BA%A6%E6%BC%94%E6%8A%80%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9E%97%E9%94%A6%E5%B2%90%E7%9F%AD%E5%91%BD%E7%9A%84%E5%8E%9F%E5%9B%A0%23&t=152&Refer=top"
         },
         {
           "rank": 21,
@@ -157,171 +157,171 @@
         },
         {
           "rank": 22,
-          "title": "许嵩冯禧婚后首现身",
+          "title": "董子健看孙怡获奖的眼神",
           "author": "",
           "heat": "22.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E5%B5%A9%E5%86%AF%E7%A6%A7%E5%A9%9A%E5%90%8E%E9%A6%96%E7%8E%B0%E8%BA%AB%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%91%A3%E5%AD%90%E5%81%A5%E7%9C%8B%E5%AD%99%E6%80%A1%E8%8E%B7%E5%A5%96%E7%9A%84%E7%9C%BC%E7%A5%9E%23&t=152&Refer=top"
         },
         {
           "rank": 23,
-          "title": "金智秀Dior待遇",
+          "title": "刘学义不认识杨迪何炅",
           "author": "",
           "heat": "23.",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E6%99%BA%E7%A7%80Dior%E5%BE%85%E9%81%87&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AD%A6%E4%B9%89%E4%B8%8D%E8%AE%A4%E8%AF%86%E6%9D%A8%E8%BF%AA%E4%BD%95%E7%82%85%23&t=152&Refer=top"
         },
         {
           "rank": 24,
-          "title": "赵丽颖拼命三娘背后是透支的身体",
+          "title": "生万物",
           "author": "",
           "heat": "24.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E6%8B%BC%E5%91%BD%E4%B8%89%E5%A8%98%E8%83%8C%E5%90%8E%E6%98%AF%E9%80%8F%E6%94%AF%E7%9A%84%E8%BA%AB%E4%BD%93%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E7%94%9F%E4%B8%87%E7%89%A9&t=152&Refer=top"
         },
         {
           "rank": 25,
-          "title": "王鹤棣不吃压力回应",
+          "title": "邝玲玲对迪丽热巴飞吻",
           "author": "",
           "heat": "25.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E9%B9%A4%E6%A3%A3%E4%B8%8D%E5%90%83%E5%8E%8B%E5%8A%9B%E5%9B%9E%E5%BA%94%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%82%9D%E7%8E%B2%E7%8E%B2%E5%AF%B9%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E9%A3%9E%E5%90%BB%23&t=152&Refer=top"
         },
         {
           "rank": 26,
-          "title": "兰香如故40.8%",
+          "title": "赵丽颖拼命三娘背后是透支的身体",
           "author": "",
           "heat": "26.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%8540.8%25%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E6%8B%BC%E5%91%BD%E4%B8%89%E5%A8%98%E8%83%8C%E5%90%8E%E6%98%AF%E9%80%8F%E6%94%AF%E7%9A%84%E8%BA%AB%E4%BD%93%23&t=152&Refer=top"
         },
         {
           "rank": 27,
-          "title": "王一博看展",
+          "title": "兰香如故40.8%",
           "author": "",
           "heat": "27.",
-          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%B8%80%E5%8D%9A%E7%9C%8B%E5%B1%95&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%8540.8%25%23&t=152&Refer=top"
         },
         {
           "rank": 28,
-          "title": "张元英Dior超季上身",
+          "title": "王鹤棣不吃压力回应",
           "author": "",
           "heat": "28.",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%85%83%E8%8B%B1Dior%E8%B6%85%E5%AD%A3%E4%B8%8A%E8%BA%AB&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E9%B9%A4%E6%A3%A3%E4%B8%8D%E5%90%83%E5%8E%8B%E5%8A%9B%E5%9B%9E%E5%BA%94%23&t=152&Refer=top"
         },
         {
           "rank": 29,
-          "title": "兰香如故程氏争夺管家权",
+          "title": "李一桐小时候就学闪身步",
           "author": "",
           "heat": "29.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85%E7%A8%8B%E6%B0%8F%E4%BA%89%E5%A4%BA%E7%AE%A1%E5%AE%B6%E6%9D%83%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E4%B8%80%E6%A1%90%E5%B0%8F%E6%97%B6%E5%80%99%E5%B0%B1%E5%AD%A6%E9%97%AA%E8%BA%AB%E6%AD%A5%23&t=152&Refer=top"
         },
         {
           "rank": 30,
-          "title": "穆祉丞直播",
+          "title": "马苏回应提名金鹰奖",
           "author": "",
           "heat": "30.",
-          "url": "https://s.weibo.com/weibo?q=%E7%A9%86%E7%A5%89%E4%B8%9E%E7%9B%B4%E6%92%AD&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E8%8B%8F%E5%9B%9E%E5%BA%94%E6%8F%90%E5%90%8D%E9%87%91%E9%B9%B0%E5%A5%96%23&t=152&Refer=top"
         },
         {
           "rank": 31,
-          "title": "Dior大秀",
+          "title": "许嵩冯禧婚后首现身",
           "author": "",
           "heat": "31.",
-          "url": "https://s.weibo.com/weibo?q=Dior%E5%A4%A7%E7%A7%80&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E5%B5%A9%E5%86%AF%E7%A6%A7%E5%A9%9A%E5%90%8E%E9%A6%96%E7%8E%B0%E8%BA%AB%23&t=152&Refer=top"
         },
         {
           "rank": 32,
-          "title": "任敏说一年换一个手机太浪费了",
-          "author": "",
-          "heat": "32.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BB%BB%E6%95%8F%E8%AF%B4%E4%B8%80%E5%B9%B4%E6%8D%A2%E4%B8%80%E4%B8%AA%E6%89%8B%E6%9C%BA%E5%A4%AA%E6%B5%AA%E8%B4%B9%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 33,
           "title": "迪丽热巴走错方向",
           "author": "",
-          "heat": "33.",
+          "heat": "32.",
           "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E8%B5%B0%E9%94%99%E6%96%B9%E5%90%91%23&t=152&Refer=top"
         },
         {
-          "rank": 34,
-          "title": "何炅点名",
-          "author": "",
-          "heat": "34.",
-          "url": "https://s.weibo.com/weibo?q=%E4%BD%95%E7%82%85%E7%82%B9%E5%90%8D&t=152&Refer=top"
-        },
-        {
-          "rank": 35,
-          "title": "田曦薇hotnerd",
-          "author": "",
-          "heat": "35.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87hotnerd%23&t=152&Refer=top"
-        },
-        {
-          "rank": 36,
-          "title": "周深现学一首歌",
-          "author": "",
-          "heat": "36.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%91%A8%E6%B7%B1%E7%8E%B0%E5%AD%A6%E4%B8%80%E9%A6%96%E6%AD%8C%23&t=152&Refer=top"
-        },
-        {
-          "rank": 37,
+          "rank": 33,
           "title": "许兰香林锦岐圆房吻",
           "author": "",
-          "heat": "37.",
+          "heat": "33.",
           "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E5%85%B0%E9%A6%99%E6%9E%97%E9%94%A6%E5%B2%90%E5%9C%86%E6%88%BF%E5%90%BB%23&t=152&Refer=top"
         },
         {
-          "rank": 38,
-          "title": "肖战跪着补妆",
+          "rank": 34,
+          "title": "张元英Dior超季上身",
           "author": "",
-          "heat": "38.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E8%B7%AA%E7%9D%80%E8%A1%A5%E5%A6%86%23&t=152&Refer=top"
+          "heat": "34.",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%85%83%E8%8B%B1Dior%E8%B6%85%E5%AD%A3%E4%B8%8A%E8%BA%AB&t=152&Refer=top"
         },
         {
-          "rank": 39,
+          "rank": 35,
+          "title": "这次马苏能拿下金鹰奖吗",
+          "author": "",
+          "heat": "35.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%99%E6%AC%A1%E9%A9%AC%E8%8B%8F%E8%83%BD%E6%8B%BF%E4%B8%8B%E9%87%91%E9%B9%B0%E5%A5%96%E5%90%97%23&t=152&Refer=top"
+        },
+        {
+          "rank": 36,
           "title": "沙玥儿对陈鹤文的感觉很难回到过去",
           "author": "",
-          "heat": "39.",
+          "heat": "36.",
           "url": "https://s.weibo.com/weibo?q=%23%E6%B2%99%E7%8E%A5%E5%84%BF%E5%AF%B9%E9%99%88%E9%B9%A4%E6%96%87%E7%9A%84%E6%84%9F%E8%A7%89%E5%BE%88%E9%9A%BE%E5%9B%9E%E5%88%B0%E8%BF%87%E5%8E%BB%23&t=152&Refer=top"
         },
         {
+          "rank": 37,
+          "title": "穆祉丞直播",
+          "author": "",
+          "heat": "37.",
+          "url": "https://s.weibo.com/weibo?q=%E7%A9%86%E7%A5%89%E4%B8%9E%E7%9B%B4%E6%92%AD&t=152&Refer=top"
+        },
+        {
+          "rank": 38,
+          "title": "朱亚文之前竟然提名了7次",
+          "author": "",
+          "heat": "38.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E4%BA%9A%E6%96%87%E4%B9%8B%E5%89%8D%E7%AB%9F%E7%84%B6%E6%8F%90%E5%90%8D%E4%BA%867%E6%AC%A1%23&t=152&Refer=top"
+        },
+        {
+          "rank": 39,
+          "title": "任敏说一年换一个手机太浪费了",
+          "author": "",
+          "heat": "39.",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%BB%BB%E6%95%8F%E8%AF%B4%E4%B8%80%E5%B9%B4%E6%8D%A2%E4%B8%80%E4%B8%AA%E6%89%8B%E6%9C%BA%E5%A4%AA%E6%B5%AA%E8%B4%B9%E4%BA%86%23&t=152&Refer=top"
+        },
+        {
           "rank": 40,
-          "title": "张凌赫抱歉我现在想的都是井柏然",
+          "title": "何炅点名",
           "author": "",
           "heat": "40.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E6%8A%B1%E6%AD%89%E6%88%91%E7%8E%B0%E5%9C%A8%E6%83%B3%E7%9A%84%E9%83%BD%E6%98%AF%E4%BA%95%E6%9F%8F%E7%84%B6%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E4%BD%95%E7%82%85%E7%82%B9%E5%90%8D&t=152&Refer=top"
         },
         {
           "rank": 41,
-          "title": "原来死缠烂打真能追到刘学义",
+          "title": "周深现学一首歌",
           "author": "",
           "heat": "41.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E6%AD%BB%E7%BC%A0%E7%83%82%E6%89%93%E7%9C%9F%E8%83%BD%E8%BF%BD%E5%88%B0%E5%88%98%E5%AD%A6%E4%B9%89%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%91%A8%E6%B7%B1%E7%8E%B0%E5%AD%A6%E4%B8%80%E9%A6%96%E6%AD%8C%23&t=152&Refer=top"
         },
         {
           "rank": 42,
-          "title": "窦骁偷拍何超莲深夜给他做夜宵",
+          "title": "Dior大秀",
           "author": "",
           "heat": "42.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%AA%A6%E9%AA%81%E5%81%B7%E6%8B%8D%E4%BD%95%E8%B6%85%E8%8E%B2%E6%B7%B1%E5%A4%9C%E7%BB%99%E4%BB%96%E5%81%9A%E5%A4%9C%E5%AE%B5%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=Dior%E5%A4%A7%E7%A7%80&t=152&Refer=top"
         },
         {
           "rank": 43,
-          "title": "热巴谷爱凌李昀锐秀场同框",
+          "title": "田曦薇hotnerd",
           "author": "",
           "heat": "43.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%83%AD%E5%B7%B4%E8%B0%B7%E7%88%B1%E5%87%8C%E6%9D%8E%E6%98%80%E9%94%90%E7%A7%80%E5%9C%BA%E5%90%8C%E6%A1%86%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87hotnerd%23&t=152&Refer=top"
         },
         {
           "rank": 44,
-          "title": "金鹰奖",
+          "title": "肖战跪着补妆",
           "author": "",
           "heat": "44.",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B9%B0%E5%A5%96&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E8%B7%AA%E7%9D%80%E8%A1%A5%E5%A6%86%23&t=152&Refer=top"
         },
         {
           "rank": 45,
-          "title": "刘学义说我是懒不是不行",
+          "title": "无可替代赵今麦演技",
           "author": "",
           "heat": "45.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AD%A6%E4%B9%89%E8%AF%B4%E6%88%91%E6%98%AF%E6%87%92%E4%B8%8D%E6%98%AF%E4%B8%8D%E8%A1%8C%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%97%A0%E5%8F%AF%E6%9B%BF%E4%BB%A3%E8%B5%B5%E4%BB%8A%E9%BA%A6%E6%BC%94%E6%8A%80%23&t=152&Refer=top"
         },
         {
           "rank": 46,
@@ -332,37 +332,37 @@
         },
         {
           "rank": 47,
-          "title": "李一桐小时候就学闪身步",
+          "title": "刘学义说我是懒不是不行",
           "author": "",
           "heat": "47.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E4%B8%80%E6%A1%90%E5%B0%8F%E6%97%B6%E5%80%99%E5%B0%B1%E5%AD%A6%E9%97%AA%E8%BA%AB%E6%AD%A5%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AD%A6%E4%B9%89%E8%AF%B4%E6%88%91%E6%98%AF%E6%87%92%E4%B8%8D%E6%98%AF%E4%B8%8D%E8%A1%8C%23&t=152&Refer=top"
         },
         {
           "rank": 48,
-          "title": "宋佳金鹰视后",
+          "title": "原来死缠烂打真能追到刘学义",
           "author": "",
           "heat": "48.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E4%BD%B3%E9%87%91%E9%B9%B0%E8%A7%86%E5%90%8E%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E6%AD%BB%E7%BC%A0%E7%83%82%E6%89%93%E7%9C%9F%E8%83%BD%E8%BF%BD%E5%88%B0%E5%88%98%E5%AD%A6%E4%B9%89%23&t=152&Refer=top"
         },
         {
           "rank": 49,
-          "title": "迪丽热巴看秀扇扇子这一下",
+          "title": "金鹰奖",
           "author": "",
           "heat": "49.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E7%9C%8B%E7%A7%80%E6%89%87%E6%89%87%E5%AD%90%E8%BF%99%E4%B8%80%E4%B8%8B%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B9%B0%E5%A5%96&t=152&Refer=top"
         },
         {
           "rank": 50,
-          "title": "佟丽娅经纪人拉黑李乃文",
+          "title": "张凌赫抱歉我现在想的都是井柏然",
           "author": "",
           "heat": "50.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BD%9F%E4%B8%BD%E5%A8%85%E7%BB%8F%E7%BA%AA%E4%BA%BA%E6%8B%89%E9%BB%91%E6%9D%8E%E4%B9%83%E6%96%87%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E6%8A%B1%E6%AD%89%E6%88%91%E7%8E%B0%E5%9C%A8%E6%83%B3%E7%9A%84%E9%83%BD%E6%98%AF%E4%BA%95%E6%9F%8F%E7%84%B6%23&t=152&Refer=top"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:26"
+      "update_time": "2026-09-30 08:50:31"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:28"
+      "update_time": "2026-09-30 08:50:33"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -526,142 +526,142 @@
       "items": [
         {
           "rank": 1,
-          "title": "看看平时我玩儿游戏的时候她都是怎么来骚扰我的",
-          "author": "黄子韬",
-          "heat": "13116600次播放",
-          "url": "https://www.douyin.com/video/7690125751777585506"
+          "title": "直击许兰香/沈嘉兰@谭松韵seven 配音现场🎙 再一次感受一遍兰香的委屈和痛苦，怎能不难受呢……#谭松韵 #许兰香 #沈嘉兰 #兰香如故",
+          "author": "谭松韵工作室",
+          "heat": "18430311次播放",
+          "url": "https://www.douyin.com/video/7690795449629040219"
         },
         {
           "rank": 2,
-          "title": "就借这月光，盛世如您期望！#金鹰节 #金鹰节开幕式 #长沙 #金鹰节现场盛况",
-          "author": "京健🏃向前冲",
-          "heat": "12043677次播放",
-          "url": "https://www.douyin.com/video/7690212198245838729"
+          "title": "三十一年，一晃而过。 那支敢于跳出时代想象的广告，你还记得吗？ 今天，我们再度携手，大胆共创。 跨越时光，让经典记忆碰撞全新视界，焕发新的活力。 屏幕越做越大，敢闯的劲头，一点没减。🔥 45而已，下一场好戏，这才刚刚开场。 #45而已 #TCL成立45周年 #王牌女皇已就位",
+          "author": "刘晓庆",
+          "heat": "13442625次播放",
+          "url": "https://www.douyin.com/video/7690456131545632000"
         },
         {
           "rank": 3,
-          "title": "吃面。",
-          "author": "李立群",
-          "heat": "8458793次播放",
-          "url": "https://www.douyin.com/video/7690452183100280499"
+          "title": "刚拍完许兰香/沈嘉兰找到亲人坟墓重场戏的两小姐@谭松韵seven 有话说🎤 #谭松韵 #许兰香 #沈嘉兰 #兰香如故",
+          "author": "谭松韵工作室",
+          "heat": "8998383次播放",
+          "url": "https://www.douyin.com/video/7690793566251279305"
         },
         {
           "rank": 4,
-          "title": "想对所有处在低谷期的女孩们说： #长长长假星日记 #少女时代 #theboys #感觉至上 #我的梦享生活",
-          "author": "李梦",
-          "heat": "8234814次播放",
-          "url": "https://www.douyin.com/video/7690258984972436618"
+          "title": "多给自己一点时间，让舒适 更多一些 ☁️ #高洁丝海岛奢宠 #棉中白金顶配奢适 #卫生巾",
+          "author": "小田",
+          "heat": "8271002次播放",
+          "url": "https://www.douyin.com/video/7688375073313606065"
         },
         {
           "rank": 5,
-          "title": "演的时候心里就希望这部戏能上央一，中间等了两年，今天它要在央一黄金档播出了，所以，你想要，你努力，你得到，吸引力法则真的有用。#爱在山海间",
-          "author": "张馨予",
-          "heat": "8203243次播放",
-          "url": "https://www.douyin.com/video/7690418833190679546"
+          "title": "哈哈哈哈哈哈 #我和小狗 #甜妹与小狗 #谁能拒绝软萌小狗 #长长长假星日记 #我的长长长假",
+          "author": "张艺凡ZYF",
+          "heat": "7607887次播放",
+          "url": "https://www.douyin.com/video/7690572577069298406"
         },
         {
           "rank": 6,
-          "title": "兜兜转转，我们还是我们#回忆杀 #好友相聚在一起",
-          "author": "娄艺潇",
-          "heat": "6746908次播放",
-          "url": "https://www.douyin.com/video/7690251388668285275"
+          "title": "干饭人上班啦#吃面的最高境界 #沉浸式吃播 #风华计划 #生活vlog #周六六",
+          "author": "演员李勤勤",
+          "heat": "7481660次播放",
+          "url": "https://www.douyin.com/video/7690745658543077490"
         },
         {
           "rank": 7,
-          "title": "过去你陪我并肩前行，今天你们开启全新人生旅程。愿这台车伴你们岁岁同行，每段旅程都满载欢声笑语。新婚快乐，永远幸福！",
-          "author": "贾乃亮",
-          "heat": "6523897次播放",
-          "url": "https://www.douyin.com/video/7690163534411418880"
+          "title": "#可可系 #长长长假星日记 风带走黄昏的温度，雨下整夜，天一亮，繁华森林变成单薄的野地。 秋天来了。 你知道的，我出生在秋天。",
+          "author": "小田",
+          "heat": "7317724次播放",
+          "url": "https://www.douyin.com/video/7690908165731273664"
         },
         {
           "rank": 8,
-          "title": "你别管，我有我的#闪身步",
-          "author": "曾舜晞",
-          "heat": "6147028次播放",
-          "url": "https://www.douyin.com/video/7690171429975783589"
-        },
-        {
-          "rank": 9,
-          "title": "2026亚运会第11、47、88、94 金张雨霏来抖音报到啦！😏 #亚运会夺金请报数",
-          "author": "张雨霏",
-          "heat": "5612521次播放",
-          "url": "https://www.douyin.com/video/7689425516701365681"
-        },
-        {
-          "rank": 10,
-          "title": "我每天梳头belike：#迪丽热巴 #迪丽热巴见面会",
-          "author": "雪碧三分饱（看白日提灯版）",
-          "heat": "5475982次播放",
-          "url": "https://www.douyin.com/video/7690124796470949011"
-        },
-        {
-          "rank": 11,
-          "title": "#可可妆 青~",
-          "author": "小田",
-          "heat": "5288366次播放",
-          "url": "https://www.douyin.com/video/7687601272635881908"
-        },
-        {
-          "rank": 12,
-          "title": "对她而言，汽车最大的价值，便是能为妈妈遮风挡雨 #零跑A05#天生懂你有我都灵#反转#剧情#生日礼物",
-          "author": "孙大聪明",
-          "heat": "5202463次播放",
-          "url": "https://www.douyin.com/video/7674220649019231540"
-        },
-        {
-          "rank": 13,
-          "title": "我的美貌和气质一定需要钱💰 #长长长假星日记#钱#我的梦享生活#经典台词#精神状态belike",
-          "author": "李梦",
-          "heat": "5108025次播放",
-          "url": "https://www.douyin.com/video/7689384321429726066"
-        },
-        {
-          "rank": 14,
           "title": "身处琐碎泥沼，犹怜世人风霜。 #善意#正能量#温暖故事",
           "author": "孙大聪明",
-          "heat": "4949691次播放",
+          "heat": "7054566次播放",
           "url": "https://www.douyin.com/video/7690470532881354026"
         },
         {
-          "rank": 15,
-          "title": "一掷定乾坤 严子怡你的厉害无需多言 #名古屋亚运会 #严子怡 #女子标枪 #体育精神 #亚运会",
-          "author": "抓马课代表",
-          "heat": "4438641次播放",
-          "url": "https://www.douyin.com/video/7690471137326796070"
+          "rank": 9,
+          "title": "参加婚礼答谢宴啦！大家一起沾沾喜气～ #何猷君奚梦瑶 #何猷君奚梦瑶举办婚礼答谢宴 #真歆实艺",
+          "author": "张歆艺",
+          "heat": "6630734次播放",
+          "url": "https://www.douyin.com/video/7690838212596631217"
         },
         {
-          "rank": 16,
+          "rank": 10,
           "title": "《红尘误此生》 红尘误此生 我叫宋晓峰 感谢您收听 感悟在其中 #红尘误此生",
           "author": "宋晓峰、新歌:(红尘误此生）",
-          "heat": "4296647次播放",
+          "heat": "6462040次播放",
           "url": "https://www.douyin.com/video/7690507166922362121"
         },
         {
+          "rank": 11,
+          "title": "看看平时我玩儿游戏的时候她都是怎么来骚扰我的",
+          "author": "黄子韬",
+          "heat": "5067089次播放",
+          "url": "https://www.douyin.com/video/7690125751777585506"
+        },
+        {
+          "rank": 12,
+          "title": "就借这月光，盛世如您期望！#金鹰节 #金鹰节开幕式 #长沙 #金鹰节现场盛况",
+          "author": "京健🏃向前冲",
+          "heat": "4951086次播放",
+          "url": "https://www.douyin.com/video/7690212198245838729"
+        },
+        {
+          "rank": 13,
+          "title": "从妈妈的小宝贝慢慢长成了大宝贝呀#母女 #杨雪",
+          "author": "杨雪",
+          "heat": "4897529次播放",
+          "url": "https://www.douyin.com/video/7690879472787285482"
+        },
+        {
+          "rank": 14,
+          "title": "不画扮熟的眼线 不用抹匀粉底液 #变装 #反向变装",
+          "author": "吕小雨",
+          "heat": "4682181次播放",
+          "url": "https://www.douyin.com/video/7690897608928143461"
+        },
+        {
+          "rank": 15,
+          "title": "好巧，看我遇见了谁？",
+          "author": "张晔子🐘",
+          "heat": "3975753次播放",
+          "url": "https://www.douyin.com/video/7690894916574630330"
+        },
+        {
+          "rank": 16,
+          "title": "2026亚运会第11、47、88、94 金张雨霏来抖音报到啦！😏 #亚运会夺金请报数",
+          "author": "张雨霏",
+          "heat": "3620514次播放",
+          "url": "https://www.douyin.com/video/7689425516701365681"
+        },
+        {
           "rank": 17,
-          "title": "真正的功夫，安然于动静之间。这一次，和#理想L9一起，穿过千重浪，稳住这一程。",
-          "author": "谢苗",
-          "heat": "3958035次播放",
-          "url": "https://www.douyin.com/video/7687597210854296882"
+          "title": "想对所有处在低谷期的女孩们说： #长长长假星日记 #少女时代 #theboys #感觉至上 #我的梦享生活",
+          "author": "李梦",
+          "heat": "3576513次播放",
+          "url": "https://www.douyin.com/video/7690258984972436618"
         },
         {
           "rank": 18,
-          "title": "朋友是长大后自己选择的家人#带着明星回西安",
-          "author": "孙坚",
-          "heat": "3929168次播放",
-          "url": "https://www.douyin.com/video/7690176435420829546"
+          "title": "出门玩吗 我来接你～😘 #转方向盘变装",
+          "author": "徐艺洋",
+          "heat": "3392343次播放",
+          "url": "https://www.douyin.com/video/7690900966820853174"
         },
         {
           "rank": 19,
-          "title": "有她们，有我们，那……你们呢？",
-          "author": "赵文琪",
-          "heat": "3485910次播放",
-          "url": "https://www.douyin.com/video/7690239618721597029"
+          "title": "我的美貌和气质一定需要钱💰 #长长长假星日记#钱#我的梦享生活#经典台词#精神状态belike",
+          "author": "李梦",
+          "heat": "3370695次播放",
+          "url": "https://www.douyin.com/video/7689384321429726066"
         }
       ],
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:30"
+      "update_time": "2026-09-30 08:50:35"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:32"
+      "update_time": "2026-09-30 08:50:37"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:34"
+      "update_time": "2026-09-30 08:50:39"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:36"
+      "update_time": "2026-09-30 08:50:41"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:38"
+      "update_time": "2026-09-30 08:50:44"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:40"
+      "update_time": "2026-09-30 08:50:46"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:42"
+      "update_time": "2026-09-30 08:50:48"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-09-30 08:45:44"
+      "update_time": "2026-09-30 08:50:50"
     }
   }
 }
