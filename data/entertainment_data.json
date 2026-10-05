@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-05 12:31:05",
+  "update_time": "2026-10-05 12:35:24",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:08"
+      "update_time": "2026-10-05 12:35:26"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:10"
+      "update_time": "2026-10-05 12:35:28"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:12"
+      "update_time": "2026-10-05 12:35:30"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:14"
+      "update_time": "2026-10-05 12:35:32"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:16"
+      "update_time": "2026-10-05 12:35:34"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -835,362 +835,11 @@
       "category": "哔哩哔哩",
       "icon": "📽️",
       "color": "#EC4899",
-      "items": [
-        {
-          "rank": 1,
-          "title": "兄妹失散、魔龙失控、风神回归！从蒙德重新出发，一口气补完原神主线剧情 【提瓦特说书人·蒙德篇】",
-          "author": "",
-          "heat": "108.8万",
-          "url": "https://www.bilibili.com/video/av117358605634304/"
-        },
-        {
-          "rank": 2,
-          "title": "我的东京留学生活不可能那么二次元！【AI全民制作人】",
-          "author": "",
-          "heat": "107.9万",
-          "url": "https://www.bilibili.com/video/av117359545292873/"
-        },
-        {
-          "rank": 3,
-          "title": "真龙天子，全员影帝！丐帮帮主成皇帝了，最好笑的一局！万字细嗦《我不是大师》第五局 包含；剧情、细节、历史科普、骗术拆解等",
-          "author": "",
-          "heat": "192.0万",
-          "url": "https://www.bilibili.com/video/av117376020515673/"
-        },
-        {
-          "rank": 4,
-          "title": "“战争不会因为我们离得远一点就忘记这里” - 第1章—失超丨写实真人机甲原创IP《合金战役》",
-          "author": "",
-          "heat": "152.1万",
-          "url": "https://www.bilibili.com/video/av117365215857474/"
-        },
-        {
-          "rank": 5,
-          "title": "《断枪》一把从没打响过的枪，却要了所有恶人的命",
-          "author": "",
-          "heat": "276.7万",
-          "url": "https://www.bilibili.com/video/av117359260010095/"
-        },
-        {
-          "rank": 6,
-          "title": "撞断双腿后，我把油门踩到底 【探照灯计划】",
-          "author": "",
-          "heat": "114.5万",
-          "url": "https://www.bilibili.com/video/av117371809502449/"
-        },
-        {
-          "rank": 7,
-          "title": "这一刻我才真正明白，为何他能成为军旅剧的天花板！",
-          "author": "",
-          "heat": "125.9万",
-          "url": "https://www.bilibili.com/video/av117364024675231/"
-        },
-        {
-          "rank": 8,
-          "title": "《人民的民亿》我总不至于连这点存款都没有吧！",
-          "author": "",
-          "heat": "93.2万",
-          "url": "https://www.bilibili.com/video/av117371188549135/"
-        },
-        {
-          "rank": 9,
-          "title": "全球变暖，冰封末日！自由女神像冻成冰雕，人类重返冰河世纪！2万字拆解《后天》",
-          "author": "",
-          "heat": "58.5万",
-          "url": "https://www.bilibili.com/video/av117375936566494/"
-        },
-        {
-          "rank": 10,
-          "title": "当你和一百万人一起吃自助餐【AI全民制作人】",
-          "author": "",
-          "heat": "59.4万",
-          "url": "https://www.bilibili.com/video/av117369913476754/"
-        },
-        {
-          "rank": 11,
-          "title": "怪诞童话之金刚公主与娇弱的王子与龙",
-          "author": "",
-          "heat": "133.3万",
-          "url": "https://www.bilibili.com/video/av117355904500617/"
-        },
-        {
-          "rank": 12,
-          "title": "这些地狱笑话你听过几个？",
-          "author": "",
-          "heat": "52.0万",
-          "url": "https://www.bilibili.com/video/av117374074229129/"
-        },
-        {
-          "rank": 13,
-          "title": "旧日死于今夜【AI全民制作人】",
-          "author": "",
-          "heat": "90.8万",
-          "url": "https://www.bilibili.com/video/av117370232244683/"
-        },
-        {
-          "rank": 14,
-          "title": "【奥术之贼02】姑娘都单手架你重锤了，还不跑吗？原创西幻cg影片",
-          "author": "",
-          "heat": "36.7万",
-          "url": "https://www.bilibili.com/video/av117366021297555/"
-        },
-        {
-          "rank": 15,
-          "title": "【邓肯】共和国神探——崔道植",
-          "author": "",
-          "heat": "37.9万",
-          "url": "https://www.bilibili.com/video/av117371524221491/"
-        },
-        {
-          "rank": 16,
-          "title": "黑暗版《爱丽丝梦游仙境》！再难复现的手搓奇幻巨制《潘神的迷宫》",
-          "author": "",
-          "heat": "48.4万",
-          "url": "https://www.bilibili.com/video/av117381389161828/"
-        },
-        {
-          "rank": 17,
-          "title": "“真正的战士”",
-          "author": "",
-          "heat": "88.2万",
-          "url": "https://www.bilibili.com/video/av117332684837318/"
-        },
-        {
-          "rank": 18,
-          "title": "富豪回村养羊 无人机牧羊 方瞳恶魔有够难养！《克拉克森的农场》",
-          "author": "",
-          "heat": "35.8万",
-          "url": "https://www.bilibili.com/video/av117377127814906/"
-        },
-        {
-          "rank": 19,
-          "title": "女孩被大货车撞的呜呜起飞。双王合体，以个拉里",
-          "author": "",
-          "heat": "43.5万",
-          "url": "https://www.bilibili.com/video/av117363756237960/"
-        },
-        {
-          "rank": 20,
-          "title": "古代的将军能不能打得过现在的肌肉男呢？这是个好问题",
-          "author": "",
-          "heat": "136.6万",
-          "url": "https://www.bilibili.com/video/av117365601733564/"
-        },
-        {
-          "rank": 21,
-          "title": "这就是现代高级西餐推崇的煨煮意面法?【AI全民制作人】",
-          "author": "",
-          "heat": "50.2万",
-          "url": "https://www.bilibili.com/video/av117374795647419/"
-        },
-        {
-          "rank": 22,
-          "title": "装什么慈悲。 【AI全民制作人】",
-          "author": "",
-          "heat": "50.4万",
-          "url": "https://www.bilibili.com/video/av117359461271250/"
-        },
-        {
-          "rank": 23,
-          "title": "看超长长长蛋挞如何复仇！ #ai短剧 #剧情 #蛋挞 #动画",
-          "author": "",
-          "heat": "80.7万",
-          "url": "https://www.bilibili.com/video/av117370668452201/"
-        },
-        {
-          "rank": 24,
-          "title": "新三国up锐评楚汉传奇21：真是令我刮目相看！",
-          "author": "",
-          "heat": "36.5万",
-          "url": "https://www.bilibili.com/video/av117372832779174/"
-        },
-        {
-          "rank": 25,
-          "title": "2026最吓人的恐怖电影!《痴迷》:爱越圆满，代价越狰狞....",
-          "author": "",
-          "heat": "30.6万",
-          "url": "https://www.bilibili.com/video/av117376590808045/"
-        },
-        {
-          "rank": 26,
-          "title": "“雷霆万钧，给我醒”",
-          "author": "",
-          "heat": "91.6万",
-          "url": "https://www.bilibili.com/video/av117370433569711/"
-        },
-        {
-          "rank": 27,
-          "title": "《胖哥暖心炒饭》剩下的怎么办？明天接着卖，不怕顾客吃了烧心",
-          "author": "",
-          "heat": "64.3万",
-          "url": "https://www.bilibili.com/video/av117374997038763/"
-        },
-        {
-          "rank": 28,
-          "title": "我们成功作出了四合一！",
-          "author": "",
-          "heat": "32.2万",
-          "url": "https://www.bilibili.com/video/av117342885451345/"
-        },
-        {
-          "rank": 29,
-          "title": "当AI，让一切神迹，失去意义！",
-          "author": "",
-          "heat": "85.7万",
-          "url": "https://www.bilibili.com/video/av117359427782483/"
-        },
-        {
-          "rank": 30,
-          "title": "凉了点，但看了不烧心。《神探之痕迹》《什么意思夫妇》《活色生香》《野兽之心》2026国庆电影排雷报告",
-          "author": "",
-          "heat": "69.9万",
-          "url": "https://www.bilibili.com/video/av117366256178833/"
-        },
-        {
-          "rank": 31,
-          "title": "越努力越翻车！这些大咖都是凭实力把机会给折腾没了！",
-          "author": "",
-          "heat": "39.7万",
-          "url": "https://www.bilibili.com/video/av117353052374928/"
-        },
-        {
-          "rank": 32,
-          "title": "我们西格玛男人也有自己的阿贝贝 Ep.23 【AI全民制作人】",
-          "author": "",
-          "heat": "54.7万",
-          "url": "https://www.bilibili.com/video/av117360132359796/"
-        },
-        {
-          "rank": 33,
-          "title": "细读经典：“为了胜利，向我开炮！”，华语影史最震撼人心的台词，几代人的荧幕记忆《英雄儿女》",
-          "author": "",
-          "heat": "47.5万",
-          "url": "https://www.bilibili.com/video/av117344194008780/"
-        },
-        {
-          "rank": 34,
-          "title": "从此君王 不 澡 潮！",
-          "author": "",
-          "heat": "26.9万",
-          "url": "https://www.bilibili.com/video/av117376473371028/"
-        },
-        {
-          "rank": 35,
-          "title": "【人类往事】国庆40K：四万年，终抵群星 【AI全民制作人】",
-          "author": "",
-          "heat": "50.1万",
-          "url": "https://www.bilibili.com/video/av117363538135452/"
-        },
-        {
-          "rank": 36,
-          "title": "战锤40K灰骑士穿越修仙篇-17",
-          "author": "",
-          "heat": "63.5万",
-          "url": "https://www.bilibili.com/video/av117367128463259/"
-        },
-        {
-          "rank": 37,
-          "title": "今年看过最好的故事，竟然来自一个游戏，《山中好长日》原神剧情巅峰！",
-          "author": "",
-          "heat": "26.1万",
-          "url": "https://www.bilibili.com/video/av117377748437729/"
-        },
-        {
-          "rank": 38,
-          "title": "比《2001太空漫游》更加深邃？逐帧解析史上最诗意科幻片《索拉里斯》",
-          "author": "",
-          "heat": "20.4万",
-          "url": "https://www.bilibili.com/video/av117381892413492/"
-        },
-        {
-          "rank": 39,
-          "title": "曹操玩笑记(四)",
-          "author": "",
-          "heat": "20.3万",
-          "url": "https://www.bilibili.com/video/av117347918547276/"
-        },
-        {
-          "rank": 40,
-          "title": "【邪修润魂子】EP03 本地邻居太热情！【AI全民制作人】",
-          "author": "",
-          "heat": "25.5万",
-          "url": "https://www.bilibili.com/video/av117376741803086/"
-        },
-        {
-          "rank": 41,
-          "title": "叫肩膀带花的接电话，什么叫通天路，那是牛爷爷的来时路！【AI全民制作人】",
-          "author": "",
-          "heat": "57.9万",
-          "url": "https://www.bilibili.com/video/av117334614411870/"
-        },
-        {
-          "rank": 42,
-          "title": "《诡异的她》第一季全集·纯享",
-          "author": "",
-          "heat": "22.4万",
-          "url": "https://www.bilibili.com/video/av117382345460653/"
-        },
-        {
-          "rank": 43,
-          "title": "原创惊悚怪谈冒险剧《误入岐路》藤山疯人院篇",
-          "author": "",
-          "heat": "39.2万",
-          "url": "https://www.bilibili.com/video/av117364947551398/"
-        },
-        {
-          "rank": 44,
-          "title": "粉丝投稿的一部冷门恐怖电影，诅咒手机极速版",
-          "author": "",
-          "heat": "50.4万",
-          "url": "https://www.bilibili.com/video/av117370685294945/"
-        },
-        {
-          "rank": 45,
-          "title": "【情景喜剧】《是 魏王》EP02-2：谁说先王是好人了【AI全民制作人】",
-          "author": "",
-          "heat": "20.3万",
-          "url": "https://www.bilibili.com/video/av117371624753736/"
-        },
-        {
-          "rank": 46,
-          "title": "2026奇幻美剧《斯图尔特未能拯救宇宙》，生活大爆炸衍生剧，奇妙脑洞拉满！",
-          "author": "",
-          "heat": "42.3万",
-          "url": "https://www.bilibili.com/video/av117365954053290/"
-        },
-        {
-          "rank": 47,
-          "title": "《无敌超人》当你拥有无限增强的超能力，会做什么？【Hishorts! × updream AI短片大赛+剧情单元】",
-          "author": "",
-          "heat": "219.6万",
-          "url": "https://www.bilibili.com/video/av117342684187646/"
-        },
-        {
-          "rank": 48,
-          "title": "抽象三国第三季：子龙的108种用法。超长全集一口气看完",
-          "author": "",
-          "heat": "39.2万",
-          "url": "https://www.bilibili.com/video/av117354377774943/"
-        },
-        {
-          "rank": 49,
-          "title": "史上评分最爆的生化危机电影，《生化危机：爆发夜》那些你错过的彩蛋【彩蛋艺术馆】",
-          "author": "",
-          "heat": "28.1万",
-          "url": "https://www.bilibili.com/video/av117369628267883/"
-        },
-        {
-          "rank": 50,
-          "title": "工地不烧心盒饭",
-          "author": "",
-          "heat": "58.2万",
-          "url": "https://www.bilibili.com/video/av117374392995999/"
-        }
-      ],
-      "error": null,
-      "item_count": 50,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:18"
+      "update_time": "2026-10-05 12:35:57"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1202,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:21"
+      "update_time": "2026-10-05 12:35:59"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1285,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:23"
+      "update_time": "2026-10-05 12:36:01"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1648,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:25"
+      "update_time": "2026-10-05 12:36:04"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2011,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-05 12:31:27"
+      "update_time": "2026-10-05 12:36:06"
     }
   }
 }
