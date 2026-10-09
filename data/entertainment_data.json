@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-09 11:50:22",
+  "update_time": "2026-10-09 11:55:18",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:50:24"
+      "update_time": "2026-10-09 11:55:20"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -501,7 +501,7 @@
       "error": null,
       "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:50:26"
+      "update_time": "2026-10-09 11:55:22"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -654,7 +654,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:50:29"
+      "update_time": "2026-10-09 11:55:24"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:50:31"
+      "update_time": "2026-10-09 11:55:26"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:50:33"
+      "update_time": "2026-10-09 11:55:28"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:50:35"
+      "update_time": "2026-10-09 11:55:30"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1191,11 +1191,362 @@
       "category": "哔哩哔哩",
       "icon": "🎮",
       "color": "#EC4899",
-      "items": [],
-      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "明星上节目献祭原生家庭卖惨失败？代露娃为何一夜翻车？",
+          "author": "",
+          "heat": "88.6万",
+          "url": "https://www.bilibili.com/video/av117387949053081/"
+        },
+        {
+          "rank": 2,
+          "title": "从未见过如此「好笑」之人丨丞相还挺忙·于洋",
+          "author": "",
+          "heat": "33.2万",
+          "url": "https://www.bilibili.com/video/av117360736344040/"
+        },
+        {
+          "rank": 3,
+          "title": "抱着恋爱的决心工作——许晴花少2完全溃败的根本原因",
+          "author": "",
+          "heat": "32.7万",
+          "url": "https://www.bilibili.com/video/av117392931819599/"
+        },
+        {
+          "rank": 4,
+          "title": "【吃瓜】好典的白眼狼！代露娃用原生家庭卖惨失败！大夸特夸前男友？copy张家齐但翻车！《我家那闺女2026》",
+          "author": "",
+          "heat": "63.8万",
+          "url": "https://www.bilibili.com/video/av117387512780852/"
+        },
+        {
+          "rank": 5,
+          "title": "从夯到拉盘点难绷营销号嬷嬷",
+          "author": "",
+          "heat": "26.4万",
+          "url": "https://www.bilibili.com/video/av117390952109579/"
+        },
+        {
+          "rank": 6,
+          "title": "Cortis的赵雨凡为什么秒了",
+          "author": "",
+          "heat": "22.4万",
+          "url": "https://www.bilibili.com/video/av117400078915058/"
+        },
+        {
+          "rank": 7,
+          "title": "隐狼现世，全员恶人，无限反转？盘点【花少2】六次神反转！",
+          "author": "",
+          "heat": "21.6万",
+          "url": "https://www.bilibili.com/video/av117405464398148/"
+        },
+        {
+          "rank": 8,
+          "title": "不装了！赚够不演，公然跳反，蔡康永退博跑路，宝岛第一P精作死遭封！",
+          "author": "",
+          "heat": "21.3万",
+          "url": "https://www.bilibili.com/video/av117392898267140/"
+        },
+        {
+          "rank": 9,
+          "title": "martin pov in busan TMA",
+          "author": "",
+          "heat": "8.6万",
+          "url": "https://www.bilibili.com/video/av117397713328011/"
+        },
+        {
+          "rank": 10,
+          "title": "[TWS:CLUB] 要说我，当然可以为42拼一把 | 未播花絮大公开 | EP.72",
+          "author": "",
+          "heat": "14.3万",
+          "url": "https://www.bilibili.com/video/av117393351248796/"
+        },
+        {
+          "rank": 11,
+          "title": "[GOING SEVENTEEN] EP.163 拍摄现场发生的事 : Don’t Lie #2",
+          "author": "",
+          "heat": "13.6万",
+          "url": "https://www.bilibili.com/video/av117392596338358/"
+        },
+        {
+          "rank": 12,
+          "title": "第一次看《明侦》reaction S1-《决战欧冠之巅》什么玩意从我脸上轧过去了(点赞过万啦)",
+          "author": "",
+          "heat": "51.4万",
+          "url": "https://www.bilibili.com/video/av117387378557935/"
+        },
+        {
+          "rank": 13,
+          "title": "演员李一桐自曝被骗过钱和感情 金额高达六七位数，已报警 “吃一堑长一‘堑’”",
+          "author": "",
+          "heat": "29.0万",
+          "url": "https://www.bilibili.com/video/av117388267817643/"
+        },
+        {
+          "rank": 14,
+          "title": "【EP2】真心半解的我们",
+          "author": "",
+          "heat": "30.0万",
+          "url": "https://www.bilibili.com/video/av117384090227910/"
+        },
+        {
+          "rank": 15,
+          "title": "一场叭叭博弈，打工人必看的心理攻防战！",
+          "author": "",
+          "heat": "15.9万",
+          "url": "https://www.bilibili.com/video/av117392428501483/"
+        },
+        {
+          "rank": 16,
+          "title": "露之癫😡 傲世间😡",
+          "author": "",
+          "heat": "829.6万",
+          "url": "https://www.bilibili.com/video/av117258344990503/"
+        },
+        {
+          "rank": 17,
+          "title": "感觉YEONJUN哥会当场板脸? | 龙山时尚周 | [TO DO X TXT] EP.174",
+          "author": "",
+          "heat": "20.8万",
+          "url": "https://www.bilibili.com/video/av117374846047951/"
+        },
+        {
+          "rank": 18,
+          "title": "【回顾明侦S3E9】为什么《狼人前传》回看最少，印象却最深？全靠Beer撒",
+          "author": "",
+          "heat": "14.4万",
+          "url": "https://www.bilibili.com/video/av117392646609465/"
+        },
+        {
+          "rank": 19,
+          "title": "全角度解析aespa队内格局和对抗叙事变化",
+          "author": "",
+          "heat": "9.7万",
+          "url": "https://www.bilibili.com/video/av117392780821559/"
+        },
+        {
+          "rank": 20,
+          "title": "拜托了！请让老牛再吃一次嫩草",
+          "author": "",
+          "heat": "11.4万",
+          "url": "https://www.bilibili.com/video/av117397193299110/"
+        },
+        {
+          "rank": 21,
+          "title": "为什么录节目拍戏必须吃盒饭？",
+          "author": "",
+          "heat": "11.8万",
+          "url": "https://www.bilibili.com/video/av117397142898288/"
+        },
+        {
+          "rank": 22,
+          "title": "《镜头之后#9》——神鹰哥",
+          "author": "",
+          "heat": "65.2万",
+          "url": "https://www.bilibili.com/video/av117365249415922/"
+        },
+        {
+          "rank": 23,
+          "title": "【杨西】不尊重不祝福！TOP&NANA丑闻缠身的爱情",
+          "author": "",
+          "heat": "9.8万",
+          "url": "https://www.bilibili.com/video/av117370450417497/"
+        },
+        {
+          "rank": 24,
+          "title": "花少2-房车大战 or 房车起义（P2-2）",
+          "author": "",
+          "heat": "13.0万",
+          "url": "https://www.bilibili.com/video/av117387311454723/"
+        },
+        {
+          "rank": 25,
+          "title": "蔡康永支持台独顽固分子，韩男团成员辱华怼中粉！大国庆都给我找事是吧？",
+          "author": "",
+          "heat": "7.6万",
+          "url": "https://www.bilibili.com/video/av117399810539934/"
+        },
+        {
+          "rank": 26,
+          "title": "宁愿跟宁静吵架，也不想和许晴说话",
+          "author": "",
+          "heat": "7.0万",
+          "url": "https://www.bilibili.com/video/av117394592831681/"
+        },
+        {
+          "rank": 27,
+          "title": "考古内娱古早顶流CP！捐骨髓？为爱整容？张翰某爽年少情史",
+          "author": "",
+          "heat": "7.1万",
+          "url": "https://www.bilibili.com/video/av117399038792905/"
+        },
+        {
+          "rank": 28,
+          "title": "是谁说张家齐妈妈是老财迷，专盯女儿金项链？？？",
+          "author": "",
+          "heat": "7.8万",
+          "url": "https://www.bilibili.com/video/av117388402101233/"
+        },
+        {
+          "rank": 29,
+          "title": "恋与何老师",
+          "author": "",
+          "heat": "6.7万",
+          "url": "https://www.bilibili.com/video/av117359243303549/"
+        },
+        {
+          "rank": 30,
+          "title": "笑死！没想到2026年代露娃把王楚然都洗白了！父母尽全力托举结果自己抽烟早恋打麻将，考200多分还控诉原生家庭！白粥姐都想让她妈妈逃离原生家庭了！！！",
+          "author": "",
+          "heat": "6.7万",
+          "url": "https://www.bilibili.com/video/av117391388314580/"
+        },
+        {
+          "rank": 31,
+          "title": "笑死牌面太大，这姐在小韩走红毯都有专属bgm了！！",
+          "author": "",
+          "heat": "8.4万",
+          "url": "https://www.bilibili.com/video/av117393821073750/"
+        },
+        {
+          "rank": 32,
+          "title": "40岁泽尻英龙华釜山红毯状态刷屏，涉毒后时隔四年携新作回归荧幕",
+          "author": "",
+          "heat": "7.9万",
+          "url": "https://www.bilibili.com/video/av117397579110512/"
+        },
+        {
+          "rank": 33,
+          "title": "陆虎在音乐节上发现有观众晕倒，舞台上指方向改歌词提醒",
+          "author": "",
+          "heat": "8.1万",
+          "url": "https://www.bilibili.com/video/av117393116369107/"
+        },
+        {
+          "rank": 34,
+          "title": "发长文回应依旧嘴硬到极点，回应春秋笔法，还要对网友维权，桩桩件件哪一点冤？！",
+          "author": "",
+          "heat": "6.6万",
+          "url": "https://www.bilibili.com/video/av117403753191414/"
+        },
+        {
+          "rank": 35,
+          "title": "张家齐母女的大结局！连芒果都包不了的饺子！",
+          "author": "",
+          "heat": "5.5万",
+          "url": "https://www.bilibili.com/video/av117388972460638/"
+        },
+        {
+          "rank": 36,
+          "title": "消失的爸，诡异的妈，不和解的她，张家齐大战NPD父母夯爆了！！",
+          "author": "",
+          "heat": "89.6万",
+          "url": "https://www.bilibili.com/video/av117366272821837/"
+        },
+        {
+          "rank": 37,
+          "title": "【驼】逼疯品牌，折磨老板，一年一度老板受难记！【所有女生的OFFER2026】",
+          "author": "",
+          "heat": "6.8万",
+          "url": "https://www.bilibili.com/video/av117391186990955/"
+        },
+        {
+          "rank": 38,
+          "title": "【1喜】阿珍爱上了阿蒋，好舒服的人物塑造《梦幻丽莎发廊》",
+          "author": "",
+          "heat": "5.1万",
+          "url": "https://www.bilibili.com/video/av117343439030352/"
+        },
+        {
+          "rank": 39,
+          "title": "阎鹤祥成长史：为何淡出德云社",
+          "author": "",
+          "heat": "4.9万",
+          "url": "https://www.bilibili.com/video/av117398350858906/"
+        },
+        {
+          "rank": 40,
+          "title": "陈瑶梦想独居生活！陈妍希相信爱情美好！《我家那闺女2026》：生女儿可真好！",
+          "author": "",
+          "heat": "258.1万",
+          "url": "https://www.bilibili.com/video/av117193551454163/"
+        },
+        {
+          "rank": 41,
+          "title": "【小甜甜宋逸民教会争议始末】一场新戏宣传，为什么烧成「邪教」争议？家暴离婚、艺人站队、强迫奉献、税务疑云全回顾",
+          "author": "",
+          "heat": "6.3万",
+          "url": "https://www.bilibili.com/video/av117388955686188/"
+        },
+        {
+          "rank": 42,
+          "title": "古偶剧毁人不浅，马嘉祺末日剧上线，无限流何时穿完？",
+          "author": "",
+          "heat": "316.2万",
+          "url": "https://www.bilibili.com/video/av117342046522578/"
+        },
+        {
+          "rank": 43,
+          "title": "大脑好像在打架......",
+          "author": "",
+          "heat": "3.6万",
+          "url": "https://www.bilibili.com/video/av117398803910815/"
+        },
+        {
+          "rank": 44,
+          "title": "回应月亮脸？国民女主？小鸟去哪了？扒一扒职高三兄妹又留下了哪些笑话！",
+          "author": "",
+          "heat": "111.1万",
+          "url": "https://www.bilibili.com/video/av117296060173357/"
+        },
+        {
+          "rank": 45,
+          "title": "唯一一个三十多岁突然长开变好看的女星了",
+          "author": "",
+          "heat": "26.0万",
+          "url": "https://www.bilibili.com/video/av117376876022103/"
+        },
+        {
+          "rank": 46,
+          "title": "棣棣霸气回应小鸟事变，跨界唱跳笑话，周也雷霆演技【内娱破绷挑战】",
+          "author": "",
+          "heat": "88.9万",
+          "url": "https://www.bilibili.com/video/av117359259943884/"
+        },
+        {
+          "rank": 47,
+          "title": "一夜之间演出归零，郭德纲到底怎么了？郭德纲一生树敌无数，连师父杨志刚、徒弟曹云金都不放过，他究竟是小人还是大师？",
+          "author": "",
+          "heat": "202.2万",
+          "url": "https://www.bilibili.com/video/av117325470632263/"
+        },
+        {
+          "rank": 48,
+          "title": "杨丽萍，把孩子当作品是最大的陷阱",
+          "author": "",
+          "heat": "4.3万",
+          "url": "https://www.bilibili.com/video/av117386623649317/"
+        },
+        {
+          "rank": 49,
+          "title": "张家齐父母要脸？",
+          "author": "",
+          "heat": "10.8万",
+          "url": "https://www.bilibili.com/video/av117379140950687/"
+        },
+        {
+          "rank": 50,
+          "title": "大结局了！张家齐妈妈依旧拒绝理解，拒绝改变，坚持自己，为难家齐！好在，张家齐也没有妥协，芒果想包饺子，但失败了，可好像更好品了怎么回事哈哈哈哈哈哈哈",
+          "author": "",
+          "heat": "12.8万",
+          "url": "https://www.bilibili.com/video/av117381808590961/"
+        }
+      ],
+      "error": null,
+      "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:50:57"
+      "update_time": "2026-10-09 11:55:32"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1278,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:50:59"
+      "update_time": "2026-10-09 11:55:35"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1641,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:51:01"
+      "update_time": "2026-10-09 11:55:37"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2004,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-09 11:51:04"
+      "update_time": "2026-10-09 11:55:39"
     }
   }
 }
