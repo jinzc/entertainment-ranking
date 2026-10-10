@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-11 02:00:35",
+  "update_time": "2026-10-11 02:05:20",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:37"
+      "update_time": "2026-10-11 02:05:22"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -494,7 +494,7 @@
       "error": null,
       "item_count": 17,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:39"
+      "update_time": "2026-10-11 02:05:24"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -640,7 +640,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:41"
+      "update_time": "2026-10-11 02:05:27"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -723,7 +723,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:43"
+      "update_time": "2026-10-11 02:05:29"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -806,7 +806,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:45"
+      "update_time": "2026-10-11 02:05:31"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1169,7 +1169,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:47"
+      "update_time": "2026-10-11 02:05:33"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1532,7 +1532,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:49"
+      "update_time": "2026-10-11 02:05:35"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1615,7 +1615,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:52"
+      "update_time": "2026-10-11 02:05:38"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1710,17 +1710,17 @@
         },
         {
           "rank": 13,
-          "title": "奥德赛",
+          "title": "欢迎来龙餐馆",
           "author": "",
           "heat": "13.",
-          "url": "https://movie.douban.com/subject/36808876"
+          "url": "https://movie.douban.com/subject/35811064"
         },
         {
           "rank": 14,
-          "title": "欢迎来龙餐馆",
+          "title": "奥德赛",
           "author": "",
           "heat": "14.",
-          "url": "https://movie.douban.com/subject/35811064"
+          "url": "https://movie.douban.com/subject/36808876"
         },
         {
           "rank": 15,
@@ -1948,37 +1948,37 @@
         },
         {
           "rank": 47,
-          "title": "蓝鲸：庞然大物归来",
-          "author": "",
-          "heat": "47.",
-          "url": "https://movie.douban.com/subject/36761980"
-        },
-        {
-          "rank": 48,
           "title": "状元媒(京剧)",
           "author": "",
-          "heat": "48.",
+          "heat": "47.",
           "url": "https://movie.douban.com/subject/26347311"
         },
         {
-          "rank": 49,
+          "rank": 48,
           "title": "赵氏孤儿(京剧)",
           "author": "",
-          "heat": "49.",
+          "heat": "48.",
           "url": "https://movie.douban.com/subject/27005362"
         },
         {
-          "rank": 50,
+          "rank": 49,
           "title": "谢瑶环(京剧)",
           "author": "",
-          "heat": "50.",
+          "heat": "49.",
           "url": "https://movie.douban.com/subject/27005365"
+        },
+        {
+          "rank": 50,
+          "title": "一个夜晚与三个夏天",
+          "author": "",
+          "heat": "50.",
+          "url": "https://movie.douban.com/subject/36449264"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:54"
+      "update_time": "2026-10-11 02:05:40"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2341,7 +2341,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 02:00:56"
+      "update_time": "2026-10-11 02:05:42"
     }
   }
 }
