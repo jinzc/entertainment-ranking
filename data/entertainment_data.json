@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-11 09:10:32",
+  "update_time": "2026-10-11 09:15:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:34"
+      "update_time": "2026-10-11 09:15:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -494,7 +494,7 @@
       "error": null,
       "item_count": 17,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:36"
+      "update_time": "2026-10-11 09:15:26"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -633,7 +633,7 @@
       "error": null,
       "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:38"
+      "update_time": "2026-10-11 09:15:28"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -716,7 +716,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:40"
+      "update_time": "2026-10-11 09:15:31"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -799,7 +799,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:43"
+      "update_time": "2026-10-11 09:15:33"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1162,7 +1162,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:45"
+      "update_time": "2026-10-11 09:15:35"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1525,7 +1525,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:47"
+      "update_time": "2026-10-11 09:15:37"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1608,7 +1608,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:49"
+      "update_time": "2026-10-11 09:15:39"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1640,10 +1640,10 @@
         },
         {
           "rank": 4,
-          "title": "重生2",
+          "title": "野兽之心",
           "author": "",
           "heat": "4.",
-          "url": "https://movie.douban.com/subject/37403222"
+          "url": "https://movie.douban.com/subject/36828393"
         },
         {
           "rank": 5,
@@ -1654,17 +1654,17 @@
         },
         {
           "rank": 6,
-          "title": "野兽之心",
+          "title": "重生2",
           "author": "",
           "heat": "6.",
-          "url": "https://movie.douban.com/subject/36828393"
+          "url": "https://movie.douban.com/subject/37403222"
         },
         {
           "rank": 7,
-          "title": "坠落2：死点",
+          "title": "一路超平安",
           "author": "",
           "heat": "7.",
-          "url": "https://movie.douban.com/subject/36318704"
+          "url": "https://movie.douban.com/subject/36192993"
         },
         {
           "rank": 8,
@@ -1675,10 +1675,10 @@
         },
         {
           "rank": 9,
-          "title": "一路超平安",
+          "title": "坠落2：死点",
           "author": "",
           "heat": "9.",
-          "url": "https://movie.douban.com/subject/36192993"
+          "url": "https://movie.douban.com/subject/36318704"
         },
         {
           "rank": 10,
@@ -1703,17 +1703,17 @@
         },
         {
           "rank": 13,
-          "title": "欢迎来龙餐馆",
+          "title": "奥德赛",
           "author": "",
           "heat": "13.",
-          "url": "https://movie.douban.com/subject/35811064"
+          "url": "https://movie.douban.com/subject/36808876"
         },
         {
           "rank": 14,
-          "title": "奥德赛",
+          "title": "欢迎来龙餐馆",
           "author": "",
           "heat": "14.",
-          "url": "https://movie.douban.com/subject/36808876"
+          "url": "https://movie.douban.com/subject/35811064"
         },
         {
           "rank": 15,
@@ -1738,24 +1738,24 @@
         },
         {
           "rank": 18,
-          "title": "凝脂手",
-          "author": "",
-          "heat": "18.",
-          "url": "https://movie.douban.com/subject/37667170"
-        },
-        {
-          "rank": 19,
           "title": "死亡禁区实录",
           "author": "",
-          "heat": "19.",
+          "heat": "18.",
           "url": "https://movie.douban.com/subject/37380650"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "痴迷",
           "author": "",
-          "heat": "20.",
+          "heat": "19.",
           "url": "https://movie.douban.com/subject/37450627"
+        },
+        {
+          "rank": 20,
+          "title": "怒之杀",
+          "author": "",
+          "heat": "20.",
+          "url": "https://movie.douban.com/subject/36889088"
         },
         {
           "rank": 21,
@@ -1766,31 +1766,31 @@
         },
         {
           "rank": 22,
-          "title": "怒之杀",
-          "author": "",
-          "heat": "22.",
-          "url": "https://movie.douban.com/subject/36889088"
-        },
-        {
-          "rank": 23,
           "title": "复仇者联盟4：终局之战",
           "author": "",
-          "heat": "23.",
+          "heat": "22.",
           "url": "https://movie.douban.com/subject/26100958"
         },
         {
-          "rank": 24,
+          "rank": 23,
           "title": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
           "author": "",
-          "heat": "24.",
+          "heat": "23.",
           "url": "https://movie.douban.com/subject/38902940"
         },
         {
+          "rank": 24,
+          "title": "凝脂手",
+          "author": "",
+          "heat": "24.",
+          "url": "https://movie.douban.com/subject/37667170"
+        },
+        {
           "rank": 25,
-          "title": "上海女儿",
+          "title": "燃烧吧！爸爸",
           "author": "",
           "heat": "25.",
-          "url": "https://movie.douban.com/subject/36753343"
+          "url": "https://movie.douban.com/subject/36903929"
         },
         {
           "rank": 26,
@@ -1801,10 +1801,10 @@
         },
         {
           "rank": 27,
-          "title": "燃烧吧！爸爸",
+          "title": "上海女儿",
           "author": "",
           "heat": "27.",
-          "url": "https://movie.douban.com/subject/36903929"
+          "url": "https://movie.douban.com/subject/36753343"
         },
         {
           "rank": 28,
@@ -1815,17 +1815,17 @@
         },
         {
           "rank": 29,
-          "title": "红孩儿火焰山之王",
+          "title": "牛来",
           "author": "",
           "heat": "29.",
-          "url": "https://movie.douban.com/subject/37054065"
+          "url": "https://movie.douban.com/subject/38581618"
         },
         {
           "rank": 30,
-          "title": "牛来",
+          "title": "红孩儿火焰山之王",
           "author": "",
           "heat": "30.",
-          "url": "https://movie.douban.com/subject/38581618"
+          "url": "https://movie.douban.com/subject/37054065"
         },
         {
           "rank": 31,
@@ -1836,17 +1836,17 @@
         },
         {
           "rank": 32,
-          "title": "我想留在你身边",
+          "title": "床下有人4",
           "author": "",
           "heat": "32.",
-          "url": "https://movie.douban.com/subject/35390242"
+          "url": "https://movie.douban.com/subject/36961914"
         },
         {
           "rank": 33,
-          "title": "床下有人4",
+          "title": "我想留在你身边",
           "author": "",
           "heat": "33.",
-          "url": "https://movie.douban.com/subject/36961914"
+          "url": "https://movie.douban.com/subject/35390242"
         },
         {
           "rank": 34,
@@ -1864,17 +1864,17 @@
         },
         {
           "rank": 36,
-          "title": "大熊雨林",
+          "title": "惊魂迷影",
           "author": "",
           "heat": "36.",
-          "url": "https://movie.douban.com/subject/33422507"
+          "url": "https://movie.douban.com/subject/38215445"
         },
         {
           "rank": 37,
-          "title": "惊魂迷影",
+          "title": "大熊雨林",
           "author": "",
           "heat": "37.",
-          "url": "https://movie.douban.com/subject/38215445"
+          "url": "https://movie.douban.com/subject/33422507"
         },
         {
           "rank": 38,
@@ -1885,17 +1885,17 @@
         },
         {
           "rank": 39,
-          "title": "老师您辛苦了",
+          "title": "想你了",
           "author": "",
           "heat": "39.",
-          "url": "https://movie.douban.com/subject/37395367"
+          "url": "https://movie.douban.com/subject/37021936"
         },
         {
           "rank": 40,
-          "title": "想你了",
+          "title": "老师您辛苦了",
           "author": "",
           "heat": "40.",
-          "url": "https://movie.douban.com/subject/37021936"
+          "url": "https://movie.douban.com/subject/37395367"
         },
         {
           "rank": 41,
@@ -1927,17 +1927,17 @@
         },
         {
           "rank": 45,
-          "title": "龙凤呈祥(京剧)",
+          "title": "谢瑶环(京剧)",
           "author": "",
           "heat": "45.",
-          "url": "https://movie.douban.com/subject/20645021"
+          "url": "https://movie.douban.com/subject/27005365"
         },
         {
           "rank": 46,
-          "title": "塞伦盖提大草原",
+          "title": "龙凤呈祥(京剧)",
           "author": "",
           "heat": "46.",
-          "url": "https://movie.douban.com/subject/36745791"
+          "url": "https://movie.douban.com/subject/20645021"
         },
         {
           "rank": 47,
@@ -1955,10 +1955,10 @@
         },
         {
           "rank": 49,
-          "title": "谢瑶环(京剧)",
+          "title": "塞伦盖提大草原",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/27005365"
+          "url": "https://movie.douban.com/subject/36745791"
         },
         {
           "rank": 50,
@@ -1971,7 +1971,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:51"
+      "update_time": "2026-10-11 09:15:41"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2334,7 +2334,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-11 09:10:53"
+      "update_time": "2026-10-11 09:15:44"
     }
   }
 }
