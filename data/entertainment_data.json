@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-14 02:00:38",
+  "update_time": "2026-10-14 02:05:19",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:40"
+      "update_time": "2026-10-14 02:05:21"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -501,7 +501,7 @@
       "error": null,
       "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:42"
+      "update_time": "2026-10-14 02:05:24"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -654,7 +654,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:45"
+      "update_time": "2026-10-14 02:05:26"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:47"
+      "update_time": "2026-10-14 02:05:28"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:49"
+      "update_time": "2026-10-14 02:05:30"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:51"
+      "update_time": "2026-10-14 02:05:33"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:53"
+      "update_time": "2026-10-14 02:05:35"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:56"
+      "update_time": "2026-10-14 02:05:37"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1654,38 +1654,38 @@
         },
         {
           "rank": 3,
-          "title": "一个夜晚与三个夏天",
-          "author": "",
-          "heat": "3.",
-          "url": "https://movie.douban.com/subject/36449264"
-        },
-        {
-          "rank": 4,
           "title": "活色生香",
           "author": "",
-          "heat": "4.",
+          "heat": "3.",
           "url": "https://movie.douban.com/subject/37899051"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "野兽之心",
           "author": "",
-          "heat": "5.",
+          "heat": "4.",
           "url": "https://movie.douban.com/subject/36828393"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "什么意思夫妇",
           "author": "",
-          "heat": "6.",
+          "heat": "5.",
           "url": "https://movie.douban.com/subject/37667015"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "重生2",
           "author": "",
-          "heat": "7.",
+          "heat": "6.",
           "url": "https://movie.douban.com/subject/37403222"
+        },
+        {
+          "rank": 7,
+          "title": "一个夜晚与三个夏天",
+          "author": "",
+          "heat": "7.",
+          "url": "https://movie.douban.com/subject/36449264"
         },
         {
           "rank": 8,
@@ -1941,58 +1941,58 @@
         },
         {
           "rank": 44,
-          "title": "正义必胜",
-          "author": "",
-          "heat": "44.",
-          "url": "https://movie.douban.com/subject/38188824"
-        },
-        {
-          "rank": 45,
           "title": "汪汪队立大功大电影3：勇闯恐龙岛",
           "author": "",
-          "heat": "45.",
+          "heat": "44.",
           "url": "https://movie.douban.com/subject/36791178"
         },
         {
-          "rank": 46,
+          "rank": 45,
           "title": "哈姆雷特",
           "author": "",
-          "heat": "46.",
+          "heat": "45.",
           "url": "https://movie.douban.com/subject/26588017"
         },
         {
-          "rank": 47,
+          "rank": 46,
           "title": "雪豹",
           "author": "",
-          "heat": "47.",
+          "heat": "46.",
           "url": "https://movie.douban.com/subject/35811006"
         },
         {
-          "rank": 48,
+          "rank": 47,
           "title": "蓝鲸：庞然大物归来",
           "author": "",
-          "heat": "48.",
+          "heat": "47.",
           "url": "https://movie.douban.com/subject/36761980"
         },
         {
-          "rank": 49,
+          "rank": 48,
           "title": "赵氏孤儿(京剧)",
           "author": "",
-          "heat": "49.",
+          "heat": "48.",
           "url": "https://movie.douban.com/subject/27005362"
         },
         {
+          "rank": 49,
+          "title": "龙凤呈祥(京剧)",
+          "author": "",
+          "heat": "49.",
+          "url": "https://movie.douban.com/subject/20645021"
+        },
+        {
           "rank": 50,
-          "title": "平安的女儿",
+          "title": "状元媒(京剧)",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/37561431"
+          "url": "https://movie.douban.com/subject/26347311"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:00:58"
+      "update_time": "2026-10-14 02:05:39"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-14 02:01:00"
+      "update_time": "2026-10-14 02:05:41"
     }
   }
 }
