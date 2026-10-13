@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-13 16:05:19",
+  "update_time": "2026-10-13 16:10:25",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:21"
+      "update_time": "2026-10-13 16:10:31"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -370,11 +370,138 @@
       "category": "抖音",
       "icon": "🎵",
       "color": "#F59E0B",
-      "items": [],
-      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "熟悉的面孔，不同的角色，期待#小罗伯特唐尼 在#复仇者联盟5 中饰演的毁灭博士！#复联5定档1216全球领先上映",
+          "author": "漫威影业",
+          "heat": "13074121次播放",
+          "url": "https://www.douyin.com/video/7695395595771629945"
+        },
+        {
+          "rank": 2,
+          "title": "我是做死亡摇滚的！ #了不起的混剪团 #共鸣叙事家 #历史 #电影 #青年创作者成长计划",
+          "author": "霉叔讲故事",
+          "heat": "12413412次播放",
+          "url": "https://www.douyin.com/video/7695663779706703104"
+        },
+        {
+          "rank": 3,
+          "title": "过去的选择，迎来最终审判。 #复联5定档1216全球领先上映 #复仇者联盟5",
+          "author": "漫威影业",
+          "heat": "7797378次播放",
+          "url": "https://www.douyin.com/video/7695596919515637659"
+        },
+        {
+          "rank": 4,
+          "title": "宋雨琦广州演唱会嘉宾居然是关晓彤！合唱《一个像夏天 一个像秋天》高清直拍!#宋雨琦#关晓彤#宋雨琦广州演唱会#一个像夏天一个像秋天",
+          "author": "恰好",
+          "heat": "7113971次播放",
+          "url": "https://www.douyin.com/video/7695489712773884921"
+        },
+        {
+          "rank": 5,
+          "title": "声带受伤，甜妹儿直接变硬汉 #影视解说 #塔科马消防队 #美剧",
+          "author": "枫说影视",
+          "heat": "6932035次播放",
+          "url": "https://www.douyin.com/video/7695445296335162666"
+        },
+        {
+          "rank": 6,
+          "title": "比秋裤“兜”都管用的内搭出现了！！#新帮宝适安睡拉拉裤 #帮宝适一级帮 #哄睡 #邪修带娃",
+          "author": "会火大明星",
+          "heat": "6284886次播放",
+          "url": "https://www.douyin.com/video/7690767460236119332"
+        },
+        {
+          "rank": 7,
+          "title": "雷神：早知道回村喝啤酒了#复联5定档1216全球领先上映 #复仇者联盟5",
+          "author": "漫威影业",
+          "heat": "5971862次播放",
+          "url": "https://www.douyin.com/video/7695397192797908730"
+        },
+        {
+          "rank": 8,
+          "title": "郑钦文夺冠！ 现在没睡的有福了，赶紧预定一杯先！#郑钦文 #郑钦文夺冠 #中国网球公开赛",
+          "author": "二十三娱乐",
+          "heat": "5819888次播放",
+          "url": "https://www.douyin.com/video/7695461957909925129"
+        },
+        {
+          "rank": 9,
+          "title": "让我们谢谢网球女王郑钦文！ #郑钦文 #郑钦文中网女单冠军 #奶茶 #买一送一 #搞笑",
+          "author": "高能娱乐",
+          "heat": "5766050次播放",
+          "url": "https://www.douyin.com/video/7695648414528245055"
+        },
+        {
+          "rank": 10,
+          "title": "一加16这波185+高清，对我们打洲的人来说真的无法拒绝啊！#一加16 #一加16明日星光#三角洲行动#白泽#昊天",
+          "author": "追娱大明星",
+          "heat": "5486527次播放",
+          "url": "https://www.douyin.com/video/7694538993303629418"
+        },
+        {
+          "rank": 11,
+          "title": "选择皆有代价，唯有毁灭裁决一切。#复联5定档1216全球领先上映 #复仇者联盟5",
+          "author": "漫威影业",
+          "heat": "5449880次播放",
+          "url": "https://www.douyin.com/video/7695596015689167218"
+        },
+        {
+          "rank": 12,
+          "title": "真的感受到了作为竞技运动顶尖之人心中的韧劲 #傅园慧 #游泳 #坚持 #体育竞技 #韧劲",
+          "author": "大板凳娱乐",
+          "heat": "5080425次播放",
+          "url": "https://www.douyin.com/video/7695366290176838922"
+        },
+        {
+          "rank": 13,
+          "title": "火星？我以为是地球沙漠 第一眼：地球？第二眼：火星！#火星 #NASA #宇宙",
+          "author": "娱乐瓜妹",
+          "heat": "5060009次播放",
+          "url": "https://www.douyin.com/video/7695350384856895397"
+        },
+        {
+          "rank": 14,
+          "title": "请问有喝到的风险吗#霸王茶姬 #郑钦文 #奶茶 #离谱",
+          "author": "娱星帧探",
+          "heat": "4977990次播放",
+          "url": "https://www.douyin.com/video/7695656222774643995"
+        },
+        {
+          "rank": 15,
+          "title": "你是如何形成的 #怀孕 #孕育生命是一段奇妙的旅程",
+          "author": "科普菌",
+          "heat": "4713420次播放",
+          "url": "https://www.douyin.com/video/7695328712778075443"
+        },
+        {
+          "rank": 16,
+          "title": "从不内耗之人 #ai创作浪潮计划 #即梦ai创作者成长计划 #拒绝内耗 #00后 #万万没想到",
+          "author": "白日梦境",
+          "heat": "4627349次播放",
+          "url": "https://www.douyin.com/video/7695381864369982746"
+        },
+        {
+          "rank": 17,
+          "title": "别人的爱情总是那么让人羡慕",
+          "author": "是梦梦吖",
+          "heat": "3795350次播放",
+          "url": "https://www.douyin.com/video/7695366437628923008"
+        },
+        {
+          "rank": 18,
+          "title": "这一集完全蜡笔小新走进现实、、幸福到我一个路人了#成长 #萌娃 #教育 #育儿 #可爱",
+          "author": "追娱大明星",
+          "heat": "3640258次播放",
+          "url": "https://www.douyin.com/video/7695729130498755882"
+        }
+      ],
+      "error": null,
+      "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:44"
+      "update_time": "2026-10-13 16:10:33"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -527,7 +654,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:46"
+      "update_time": "2026-10-13 16:10:35"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -610,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:48"
+      "update_time": "2026-10-13 16:10:38"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -693,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:50"
+      "update_time": "2026-10-13 16:10:40"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -706,56 +833,56 @@
           "rank": 1,
           "title": "虽然命还在，但是鱼没了啊！！！【AI全民制作人】",
           "author": "",
-          "heat": "376.0万",
+          "heat": "378.3万",
           "url": "https://www.bilibili.com/video/av117417158187658/"
         },
         {
           "rank": 2,
           "title": "《不该存在的访客》继续用爱发电，耗费10000分钟制作，花费1000块",
           "author": "",
-          "heat": "132.3万",
+          "heat": "135.0万",
           "url": "https://www.bilibili.com/video/av117409658700910/"
         },
         {
           "rank": 3,
           "title": "一口气6小时看完民国江湖骗局《我不是大师》八场骗局每一分钟都在反转，爆肝十五天狂写十万字！最值得你收藏的版本！",
           "author": "",
-          "heat": "65.0万",
+          "heat": "65.5万",
           "url": "https://www.bilibili.com/video/av117415883048609/"
         },
         {
           "rank": 4,
           "title": "杀人经历写进小说，意外成为名作家？现实比剧更离奇！万字解析《悬案：旅馆案》下",
           "author": "",
-          "heat": "113.6万",
+          "heat": "113.8万",
           "url": "https://www.bilibili.com/video/av117410078196168/"
         },
         {
           "rank": 5,
-          "title": "假小子仙人最新力作，耗时55555秒制作！！！1-5集大合集",
+          "title": "[审美积累]“一场关于压抑、执念与精神崩塌的视觉诗篇”",
           "author": "",
-          "heat": "68.4万",
-          "url": "https://www.bilibili.com/video/av117408568186124/"
+          "heat": "39.4万",
+          "url": "https://www.bilibili.com/video/av117414993922749/"
         },
         {
           "rank": 6,
-          "title": "[审美积累]“一场关于压抑、执念与精神崩塌的视觉诗篇”",
+          "title": "假小子仙人最新力作，耗时55555秒制作！！！1-5集大合集",
           "author": "",
-          "heat": "39.0万",
-          "url": "https://www.bilibili.com/video/av117414993922749/"
+          "heat": "68.5万",
+          "url": "https://www.bilibili.com/video/av117408568186124/"
         },
         {
           "rank": 7,
           "title": "用十三年去拍一部纪录片，然后明白死亡只是一个炎热的夏天午后 【探照灯计划】",
           "author": "",
-          "heat": "64.8万",
+          "heat": "65.9万",
           "url": "https://www.bilibili.com/video/av117417426551863/"
         },
         {
           "rank": 8,
           "title": "【立志成为恶兽】06 青竹宗与狗妖的智斗【UP动画】【HiShorts! × updream AI短片大赛-剧情单元】",
           "author": "",
-          "heat": "58.3万",
+          "heat": "59.0万",
           "url": "https://www.bilibili.com/video/av117417225229992/"
         },
         {
@@ -769,190 +896,190 @@
           "rank": 10,
           "title": "华丽与腐烂共存的色彩美学，一部反撒切尔主义精准寓言《厨师，大盗，他的太太和她的情人》",
           "author": "",
-          "heat": "59.6万",
+          "heat": "59.7万",
           "url": "https://www.bilibili.com/video/av117416034048560/"
         },
         {
           "rank": 11,
           "title": "【颠覆】我用AI魔改周星驰电影宇宙 【AI全民制作人】",
           "author": "",
-          "heat": "150.6万",
+          "heat": "151.2万",
           "url": "https://www.bilibili.com/video/av117405229519082/"
         },
         {
           "rank": 12,
           "title": "把角色塑造太深入人心也不好，观众是真把演的当真事啊！",
           "author": "",
-          "heat": "61.5万",
+          "heat": "63.4万",
           "url": "https://www.bilibili.com/video/av117426570201698/"
         },
         {
           "rank": 13,
-          "title": "来纽约，拍到了些怪东西",
+          "title": "新三国up锐评老三国22：子义还是义子，这是个问题！",
           "author": "",
-          "heat": "344.7万",
-          "url": "https://www.bilibili.com/video/av117403316917696/"
+          "heat": "51.0万",
+          "url": "https://www.bilibili.com/video/av117417946646828/"
         },
         {
           "rank": 14,
-          "title": "新三国up锐评老三国22：子义还是义子，这是个问题！",
+          "title": "来纽约，拍到了些怪东西",
           "author": "",
-          "heat": "50.8万",
-          "url": "https://www.bilibili.com/video/av117417946646828/"
+          "heat": "345.6万",
+          "url": "https://www.bilibili.com/video/av117403316917696/"
         },
         {
           "rank": 15,
           "title": "有些人的名字，念出来就是一封情书【AI全民制作人】",
           "author": "",
-          "heat": "97.3万",
+          "heat": "97.5万",
           "url": "https://www.bilibili.com/video/av117408400541394/"
         },
         {
           "rank": 16,
           "title": "【自制动画】聊斋系列之《商三官》",
           "author": "",
-          "heat": "27.4万",
+          "heat": "27.7万",
           "url": "https://www.bilibili.com/video/av117415782384087/"
         },
         {
           "rank": 17,
-          "title": "《诡异的她》第一季全集·纯享",
-          "author": "",
-          "heat": "884.9万",
-          "url": "https://www.bilibili.com/video/av117382345460653/"
-        },
-        {
-          "rank": 18,
           "title": "来跟抓拍摄影师竞赛吧【AI全民制作人】",
           "author": "",
-          "heat": "78.7万",
+          "heat": "80.9万",
           "url": "https://www.bilibili.com/video/av117422543805037/"
         },
         {
-          "rank": 19,
-          "title": "电登熄灭 物换星移 泥牛下海",
-          "author": "",
-          "heat": "51.9万",
-          "url": "https://www.bilibili.com/video/av117409457375951/"
-        },
-        {
-          "rank": 20,
+          "rank": 18,
           "title": "赵露思亲友自嗨神作《我不是npc》",
           "author": "",
-          "heat": "45.1万",
+          "heat": "48.6万",
           "url": "https://www.bilibili.com/video/av117428533135339/"
         },
         {
-          "rank": 21,
+          "rank": 19,
+          "title": "《诡异的她》第一季全集·纯享",
+          "author": "",
+          "heat": "885.4万",
+          "url": "https://www.bilibili.com/video/av117382345460653/"
+        },
+        {
+          "rank": 20,
           "title": "一口烤鳄鱼 一口死神辣椒《美国烧烤对决》有点烧心呐！",
           "author": "",
-          "heat": "43.1万",
+          "heat": "43.5万",
           "url": "https://www.bilibili.com/video/av117422459722349/"
+        },
+        {
+          "rank": 21,
+          "title": "电登熄灭 物换星移 泥牛下海",
+          "author": "",
+          "heat": "52.0万",
+          "url": "https://www.bilibili.com/video/av117409457375951/"
         },
         {
           "rank": 22,
           "title": "嗜辣无度，付出惨痛代价。",
           "author": "",
-          "heat": "121.8万",
+          "heat": "122.0万",
           "url": "https://www.bilibili.com/video/av117409105055840/"
         },
         {
           "rank": 23,
           "title": "【情景喜剧】《是 魏王》EP02-4：怎么谁都喊着复兴汉室",
           "author": "",
-          "heat": "32.7万",
+          "heat": "32.8万",
           "url": "https://www.bilibili.com/video/av117415681786658/"
         },
         {
           "rank": 24,
-          "title": "老师你也不想是Coser的事情被同学知道吧！！",
-          "author": "",
-          "heat": "100.4万",
-          "url": "https://www.bilibili.com/video/av117409792984244/"
-        },
-        {
-          "rank": 25,
           "title": "陈翔六点半 :当你的人生有了bgm，你还会选错吗",
           "author": "",
-          "heat": "501.9万",
+          "heat": "503.3万",
           "url": "https://www.bilibili.com/video/av117404323549425/"
         },
         {
-          "rank": 26,
+          "rank": 25,
           "title": "外星人入侵！白宫被炸！核弹失效！人类绝地反攻外星舰队，2万字拆解《独立日》",
           "author": "",
-          "heat": "35.2万",
+          "heat": "35.4万",
           "url": "https://www.bilibili.com/video/av117421721524092/"
+        },
+        {
+          "rank": 26,
+          "title": "老师你也不想是Coser的事情被同学知道吧！！",
+          "author": "",
+          "heat": "100.5万",
+          "url": "https://www.bilibili.com/video/av117409792984244/"
         },
         {
           "rank": 27,
           "title": "为什么很多电影越来越没有“电影感”？这就是原因。",
           "author": "",
-          "heat": "34.4万",
+          "heat": "34.6万",
           "url": "https://www.bilibili.com/video/av117415614678739/"
         },
         {
           "rank": 28,
           "title": "【审美积累】“今天我们要看的东方幻想美学，到底是什么呢?”",
           "author": "",
-          "heat": "26.4万",
+          "heat": "26.7万",
           "url": "https://www.bilibili.com/video/av117421989959701/"
         },
         {
           "rank": 29,
           "title": "【假装讲电影】黑帮御用神医！2 小时救 30 个黑帮小弟，却卷入千亿豪门阴谋！",
           "author": "",
-          "heat": "33.9万",
+          "heat": "34.3万",
           "url": "https://www.bilibili.com/video/av117420966675663/"
         },
         {
           "rank": 30,
-          "title": "\"我当然知道!\"",
-          "author": "",
-          "heat": "60.5万",
-          "url": "https://www.bilibili.com/video/av117410782844939/"
-        },
-        {
-          "rank": 31,
           "title": "“真正的战士”",
           "author": "",
-          "heat": "262.3万",
+          "heat": "262.7万",
           "url": "https://www.bilibili.com/video/av117332684837318/"
         },
         {
-          "rank": 32,
-          "title": "从余则成视角看懂：国民党为何会从革命走向反动？《潜伏03》",
-          "author": "",
-          "heat": "45.5万",
-          "url": "https://www.bilibili.com/video/av117411101611901/"
-        },
-        {
-          "rank": 33,
+          "rank": 31,
           "title": "【全球领先上映】《复仇者联盟5》定档12月16日",
           "author": "",
-          "heat": "51.6万",
+          "heat": "51.8万",
           "url": "https://www.bilibili.com/video/av117421016941767/"
         },
         {
-          "rank": 34,
-          "title": "第一集",
+          "rank": 32,
+          "title": "\"我当然知道!\"",
           "author": "",
-          "heat": "39.4万",
-          "url": "https://www.bilibili.com/video/av117404508166660/"
+          "heat": "61.1万",
+          "url": "https://www.bilibili.com/video/av117410782844939/"
         },
         {
-          "rank": 35,
+          "rank": 33,
+          "title": "从余则成视角看懂：国民党为何会从革命走向反动？《潜伏03》",
+          "author": "",
+          "heat": "45.8万",
+          "url": "https://www.bilibili.com/video/av117411101611901/"
+        },
+        {
+          "rank": 34,
           "title": "“预判了你的爱”",
           "author": "",
-          "heat": "76.3万",
+          "heat": "77.9万",
           "url": "https://www.bilibili.com/video/av117420798773671/"
         },
         {
-          "rank": 36,
-          "title": "第7期 | 战争电影巅峰代表",
+          "rank": 35,
+          "title": "第一集",
           "author": "",
-          "heat": "47.2万",
-          "url": "https://www.bilibili.com/video/av117415396574955/"
+          "heat": "39.7万",
+          "url": "https://www.bilibili.com/video/av117404508166660/"
+        },
+        {
+          "rank": 36,
+          "title": "［少女终末旅行］死亡前的回忆",
+          "author": "",
+          "heat": "31.4万",
+          "url": "https://www.bilibili.com/video/av117401991518178/"
         },
         {
           "rank": 37,
@@ -963,100 +1090,100 @@
         },
         {
           "rank": 38,
-          "title": "第一人称视角 数千人争抢十个登船名额【AI全民制作人】",
+          "title": "这把原来高端局啊 Ep.25 【AI全民制作人】",
           "author": "",
-          "heat": "123.9万",
-          "url": "https://www.bilibili.com/video/av117408719308372/"
+          "heat": "36.5万",
+          "url": "https://www.bilibili.com/video/av117416453473516/"
         },
         {
           "rank": 39,
-          "title": "［少女终末旅行］死亡前的回忆",
+          "title": "第一人称视角 数千人争抢十个登船名额【AI全民制作人】",
           "author": "",
-          "heat": "30.9万",
-          "url": "https://www.bilibili.com/video/av117401991518178/"
+          "heat": "124.3万",
+          "url": "https://www.bilibili.com/video/av117408719308372/"
         },
         {
           "rank": 40,
-          "title": "恶役千金爱上眼镜弟弟 女版马尔福哈利波特玛尔芙大小姐",
-          "author": "",
-          "heat": "64.6万",
-          "url": "https://www.bilibili.com/video/av117408568378524/"
-        },
-        {
-          "rank": 41,
           "title": "《一板车蔬菜》你只管心怀慈悲，岁月自会赠你万丈光芒。 善意从不会落空，人间自会有回响！",
           "author": "",
           "heat": "140.8万",
           "url": "https://www.bilibili.com/video/av117383435911676/"
         },
         {
-          "rank": 42,
-          "title": "这把原来高端局啊 Ep.25 【AI全民制作人】",
-          "author": "",
-          "heat": "36.4万",
-          "url": "https://www.bilibili.com/video/av117416453473516/"
-        },
-        {
-          "rank": 43,
-          "title": "【WHAT IF/虫琴】当彼得带琴见钢铁侠⚡️⚡️⚡️",
-          "author": "",
-          "heat": "121.6万",
-          "url": "https://www.bilibili.com/video/av117403870560560/"
-        },
-        {
-          "rank": 44,
-          "title": "“若真相太过于残酷，不如沉溺在美好梦境中！”",
-          "author": "",
-          "heat": "199.1万",
-          "url": "https://www.bilibili.com/video/av117388636849753/"
-        },
-        {
-          "rank": 45,
+          "rank": 41,
           "title": "居然被电影骗了20年！一口气看完【哈利波特与魔法石】原著深度解析（和电影吐槽）",
           "author": "",
-          "heat": "86.6万",
+          "heat": "87.2万",
           "url": "https://www.bilibili.com/video/av117398501856937/"
         },
         {
+          "rank": 42,
+          "title": "恶役千金爱上眼镜弟弟 女版马尔福哈利波特玛尔芙大小姐",
+          "author": "",
+          "heat": "65.0万",
+          "url": "https://www.bilibili.com/video/av117408568378524/"
+        },
+        {
+          "rank": 43,
+          "title": "第7期 | 战争电影巅峰代表",
+          "author": "",
+          "heat": "47.3万",
+          "url": "https://www.bilibili.com/video/av117415396574955/"
+        },
+        {
+          "rank": 44,
+          "title": "当人类成为食物后，竟开始不理解为什么会被吃",
+          "author": "",
+          "heat": "42.6万",
+          "url": "https://www.bilibili.com/video/av117414876418353/"
+        },
+        {
+          "rank": 45,
+          "title": "“若真相太过于残酷，不如沉溺在美好梦境中！”",
+          "author": "",
+          "heat": "199.6万",
+          "url": "https://www.bilibili.com/video/av117388636849753/"
+        },
+        {
           "rank": 46,
+          "title": "【WHAT IF/虫琴】当彼得带琴见钢铁侠⚡️⚡️⚡️",
+          "author": "",
+          "heat": "122.1万",
+          "url": "https://www.bilibili.com/video/av117403870560560/"
+        },
+        {
+          "rank": 47,
           "title": "金鸡奖最佳导演陈思诚在陈小姐眼中是什么水平？",
           "author": "",
           "heat": "24.5万",
           "url": "https://www.bilibili.com/video/av117415396511906/"
         },
         {
-          "rank": 47,
-          "title": "《和樱花妹互换身体の日常》第五集【AI全民制作人】",
-          "author": "",
-          "heat": "160.2万",
-          "url": "https://www.bilibili.com/video/av117402662603617/"
-        },
-        {
           "rank": 48,
-          "title": "当人类成为食物后，竟开始不理解为什么会被吃",
+          "title": "《两种肚子》流的是同一种血。",
           "author": "",
-          "heat": "41.0万",
-          "url": "https://www.bilibili.com/video/av117414876418353/"
+          "heat": "28.2万",
+          "url": "https://www.bilibili.com/video/av117427023121380/"
         },
         {
           "rank": 49,
           "title": "当人类世界被AI取代以后，AI竟然雇佣人类？",
           "author": "",
-          "heat": "217.6万",
+          "heat": "217.8万",
           "url": "https://www.bilibili.com/video/av117410698887678/"
         },
         {
           "rank": 50,
-          "title": "“我们是被历史遗忘的一代，我们的大战是心灵之战”",
+          "title": "《和樱花妹互换身体の日常》第五集【AI全民制作人】",
           "author": "",
-          "heat": "80.0万",
-          "url": "https://www.bilibili.com/video/av117407762879970/"
+          "heat": "160.3万",
+          "url": "https://www.bilibili.com/video/av117402662603617/"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:52"
+      "update_time": "2026-10-13 16:10:42"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1069,161 +1196,161 @@
           "rank": 1,
           "title": "时代峰峻全员过日子时代，热门壁纸技能也惨被抄袭",
           "author": "",
-          "heat": "98.4万",
+          "heat": "99.0万",
           "url": "https://www.bilibili.com/video/av117404726331668/"
         },
         {
           "rank": 2,
           "title": "邓紫棋娶进狱男友被脱粉，王星绑架后网贷仍没还完，代露娃献祭父母后开始洗白【吃瓜周报】",
           "author": "",
-          "heat": "95.7万",
+          "heat": "98.1万",
           "url": "https://www.bilibili.com/video/av117422208058947/"
         },
         {
           "rank": 3,
           "title": "上不了台面？简直是羞辱！张元英迪奥活动转圈丢脸，待遇差、数据注水、粉圈逼氪上供",
           "author": "",
-          "heat": "56.4万",
+          "heat": "56.7万",
           "url": "https://www.bilibili.com/video/av117415715473088/"
         },
         {
           "rank": 4,
           "title": "第一次看《明侦》reaction S1-《英雄不联盟》学挖机，挖金子，要被王嘉尔笑死了(点赞过万啦)",
           "author": "",
-          "heat": "40.6万",
+          "heat": "40.7万",
           "url": "https://www.bilibili.com/video/av117415715275935/"
         },
         {
           "rank": 5,
           "title": "隐狼现世，全员恶人，无限反转？盘点【花少2】六次神反转！",
           "author": "",
-          "heat": "236.1万",
+          "heat": "236.6万",
           "url": "https://www.bilibili.com/video/av117405464398148/"
         },
         {
           "rank": 6,
           "title": "上节目卖惨献祭父母，被发现说谎光速翻车，现实版“白粥姐”代露娃",
           "author": "",
-          "heat": "62.4万",
+          "heat": "62.7万",
           "url": "https://www.bilibili.com/video/av117410195574929/"
         },
         {
           "rank": 7,
           "title": "从未见过如此「好笑」之人丨丞相还挺忙·于洋",
           "author": "",
-          "heat": "82.4万",
+          "heat": "83.3万",
           "url": "https://www.bilibili.com/video/av117360736344040/"
         },
         {
           "rank": 8,
           "title": "8000亿赌局养活半个港娱，聊聊洗米华的赌博帝国和影视黑产【银幕黑金档案06】",
           "author": "",
-          "heat": "52.9万",
+          "heat": "53.0万",
           "url": "https://www.bilibili.com/video/av117405397359208/"
         },
         {
           "rank": 9,
           "title": "Cortis的赵雨凡为什么秒了",
           "author": "",
-          "heat": "70.0万",
+          "heat": "70.2万",
           "url": "https://www.bilibili.com/video/av117400078915058/"
         },
         {
           "rank": 10,
           "title": "[Random Play🕹️] 会感谢我们哄他们入睡吗？ | TWS",
           "author": "",
-          "heat": "15.2万",
+          "heat": "15.3万",
           "url": "https://www.bilibili.com/video/av117421117539879/"
         },
         {
           "rank": 11,
           "title": "martin pov in barcelona",
           "author": "",
-          "heat": "10.1万",
+          "heat": "10.3万",
           "url": "https://www.bilibili.com/video/av117426419146012/"
         },
         {
           "rank": 12,
           "title": "有人被关在这里!! | 极限二选一监狱 | [TO DO X TXT] EP.175",
           "author": "",
-          "heat": "11.9万",
+          "heat": "12.2万",
           "url": "https://www.bilibili.com/video/av117415111301120/"
         },
         {
           "rank": 13,
           "title": "为什么宋佳获飞天奖再次引发巨大争议？",
           "author": "",
-          "heat": "25.5万",
+          "heat": "25.7万",
           "url": "https://www.bilibili.com/video/av117416218593058/"
         },
         {
           "rank": 14,
           "title": "【心动的信号9】一步之遥，拿下大结果！",
           "author": "",
-          "heat": "16.5万",
+          "heat": "16.7万",
           "url": "https://www.bilibili.com/video/av117421973308647/"
         },
         {
           "rank": 15,
           "title": "天呐难怪蔡康永直接对她翻白眼，完全理解这姐敢说地理不好但历史很好！",
           "author": "",
-          "heat": "19.8万",
+          "heat": "19.9万",
           "url": "https://www.bilibili.com/video/av117416856192636/"
         },
         {
           "rank": 16,
           "title": "天哪丰唇堪比毁容，微do真的太考验女明星整商了！！",
           "author": "",
-          "heat": "28.2万",
+          "heat": "28.4万",
           "url": "https://www.bilibili.com/video/av117415849493339/"
         },
         {
           "rank": 17,
-          "title": "人类迷惑情感调解10.0！眉姐姐气的当场失控，《爱情保卫战》到底有没有剧本...",
+          "title": "【张元英】缪缪弃女大型碰瓷人间迪奥现场",
           "author": "",
-          "heat": "14.6万",
-          "url": "https://www.bilibili.com/video/av117415446844775/"
+          "heat": "16.8万",
+          "url": "https://www.bilibili.com/video/av117422577160625/"
         },
         {
           "rank": 18,
-          "title": "【张元英】缪缪弃女大型碰瓷人间迪奥现场",
+          "title": "人类迷惑情感调解10.0！眉姐姐气的当场失控，《爱情保卫战》到底有没有剧本...",
           "author": "",
-          "heat": "16.6万",
-          "url": "https://www.bilibili.com/video/av117422577160625/"
+          "heat": "14.7万",
+          "url": "https://www.bilibili.com/video/av117415446844775/"
         },
         {
           "rank": 19,
           "title": "热暴力地偶",
           "author": "",
-          "heat": "7.2万",
+          "heat": "7.4万",
           "url": "https://www.bilibili.com/video/av117421788632260/"
         },
         {
           "rank": 20,
-          "title": "别管AI了，人都给我笑抽过去了！《现在就出发4》",
+          "title": "全韩国直播杀人现场，主演全部被追杀？甩锅中方来造谣？案件不断反转到底谁是真凶！",
           "author": "",
-          "heat": "11.4万",
-          "url": "https://www.bilibili.com/video/av117420966611626/"
+          "heat": "9.0万",
+          "url": "https://www.bilibili.com/video/av117427325115119/"
         },
         {
           "rank": 21,
-          "title": "全韩国直播杀人现场，主演全部被追杀？甩锅中方来造谣？案件不断反转到底谁是真凶！",
+          "title": "别管AI了，人都给我笑抽过去了！《现在就出发4》",
           "author": "",
-          "heat": "8.8万",
-          "url": "https://www.bilibili.com/video/av117427325115119/"
+          "heat": "11.5万",
+          "url": "https://www.bilibili.com/video/av117420966611626/"
         },
         {
           "rank": 22,
           "title": "全网撕了十年！为什么直男崇拜亨利卡维尔？而女生偏爱克里斯埃文斯？“人间之神”VS“全美翘臀”！",
           "author": "",
-          "heat": "10.5万",
+          "heat": "10.7万",
           "url": "https://www.bilibili.com/video/av117415564286658/"
         },
         {
           "rank": 23,
           "title": "胡歌建议刚入行的年轻人先温饱再理想：拍《仙剑3》时觉得很无聊 、好幼稚",
           "author": "",
-          "heat": "12.2万",
+          "heat": "12.3万",
           "url": "https://www.bilibili.com/video/av117421386039664/"
         },
         {
@@ -1237,7 +1364,7 @@
           "rank": 25,
           "title": "2026年了，AKB48为什么又翻红了？",
           "author": "",
-          "heat": "7.2万",
+          "heat": "7.3万",
           "url": "https://www.bilibili.com/video/av117427107006220/"
         },
         {
@@ -1256,73 +1383,73 @@
         },
         {
           "rank": 28,
-          "title": "艾火戏精闹分家，曾辉小沈阳缠绵偶像剧【披哥2026五公组队回顾】【高战士】",
+          "title": "aespa现在有两个正统师妹吗",
           "author": "",
-          "heat": "7.6万",
-          "url": "https://www.bilibili.com/video/av117414373099259/"
+          "heat": "7.1万",
+          "url": "https://www.bilibili.com/video/av117427559991287/"
         },
         {
           "rank": 29,
+          "title": "重庆最🐂🍺的女人！",
+          "author": "",
+          "heat": "5.8万",
+          "url": "https://www.bilibili.com/video/av117427895539029/"
+        },
+        {
+          "rank": 30,
           "title": "砍价砍到大动脉！?《所有女生的OFFER2026》：谈判桌上顶级智斗！",
           "author": "",
           "heat": "6.6万",
           "url": "https://www.bilibili.com/video/av117414389880754/"
         },
         {
-          "rank": 30,
+          "rank": 31,
+          "title": "艾火戏精闹分家，曾辉小沈阳缠绵偶像剧【披哥2026五公组队回顾】【高战士】",
+          "author": "",
+          "heat": "7.7万",
+          "url": "https://www.bilibili.com/video/av117414373099259/"
+        },
+        {
+          "rank": 32,
           "title": "全网都在担心她们互撕的女综，是如何打破“常规”成为标杆的呢？《偶像来了》解说版第三期",
           "author": "",
           "heat": "5.7万",
           "url": "https://www.bilibili.com/video/av117416017331092/"
         },
         {
-          "rank": 31,
-          "title": "重庆最🐂🍺的女人！",
-          "author": "",
-          "heat": "5.6万",
-          "url": "https://www.bilibili.com/video/av117427895539029/"
-        },
-        {
-          "rank": 32,
-          "title": "aespa现在有两个正统师妹吗",
-          "author": "",
-          "heat": "6.7万",
-          "url": "https://www.bilibili.com/video/av117427559991287/"
-        },
-        {
           "rank": 33,
           "title": "一夜之间演出归零，郭德纲到底怎么了？郭德纲一生树敌无数，连师父杨志刚、徒弟曹云金都不放过，他究竟是小人还是大师？",
           "author": "",
-          "heat": "220.6万",
+          "heat": "220.8万",
           "url": "https://www.bilibili.com/video/av117325470632263/"
         },
         {
           "rank": 34,
           "title": "极限拉扯！全是套路！逐帧拆解巅峰局「李佳琦×周扬青」！",
           "author": "",
-          "heat": "5.1万",
+          "heat": "5.2万",
           "url": "https://www.bilibili.com/video/av117421318936490/"
         },
         {
           "rank": 35,
           "title": "【台娱9瓜整理】蔡康永风波延烧、家族往事翻出！吴宗宪传交新女友，Makiyo爆前夫抢子，田馥甄说话再引争议，葛斯齐前女友爆料牵出大S、汪小菲…还有隋棠、林志玲等",
           "author": "",
-          "heat": "5.9万",
+          "heat": "6.0万",
           "url": "https://www.bilibili.com/video/av117421134452067/"
         },
         {
           "rank": 36,
-          "title": "露之癫😡 傲世间😡",
+          "title": "【1喜】丰富、流畅、完整、有趣！最好的一场《平行时空饭店》",
           "author": "",
-          "heat": "855.3万",
-          "url": "https://www.bilibili.com/video/av117258344990503/"
+          "heat": "4.9万",
+          "url": "https://www.bilibili.com/video/av117383251363580/"
         },
         {
           "rank": 37,
-          "title": "【1喜】丰富、流畅、完整、有趣！最好的一场《平行时空饭店》",
+          "title": "露之癫😡 傲世间😡",
           "author": "",
-          "heat": "4.8万",
-          "url": "https://www.bilibili.com/video/av117383251363580/"
+          "heat": "855.6万",
+          "url": "https://www.bilibili.com/video/av117258344990503/"
         },
         {
           "rank": 38,
@@ -1347,79 +1474,79 @@
         },
         {
           "rank": 41,
+          "title": "盘点10大难看的真人秀综艺，全都是一坨！",
+          "author": "",
+          "heat": "5.0万",
+          "url": "https://www.bilibili.com/video/av117425278360839/"
+        },
+        {
+          "rank": 42,
           "title": "归国四子系列完结篇（上），影视 音乐 代言从夯到拉详解",
           "author": "",
           "heat": "7.3万",
           "url": "https://www.bilibili.com/video/av117405078521691/"
         },
         {
-          "rank": 42,
-          "title": "盘点10大难看的真人秀综艺，全都是一坨！",
-          "author": "",
-          "heat": "4.8万",
-          "url": "https://www.bilibili.com/video/av117425278360839/"
-        },
-        {
           "rank": 43,
-          "title": "【王老吉】李小冉的狗是在横店捡的——小冉！你是天使来的！",
+          "title": "代露娃男友是光，父母是浪，闺蜜辅助绝招卖惨 “悲惨又励志”的 “大女主”烧心之路！",
           "author": "",
-          "heat": "3.4万",
-          "url": "https://www.bilibili.com/video/av117410447230714/"
+          "heat": "5.6万",
+          "url": "https://www.bilibili.com/video/av117417342666424/"
         },
         {
           "rank": 44,
           "title": "【A2O LITE 出道舞台&MV reaction】哇塞啊我可太喜欢美女了 OA真的长得好好看啊 9个妹妹都很棒啊 艾敬大舞担啊 不愧是老一辈艺术家啊",
           "author": "",
-          "heat": "4.4万",
+          "heat": "4.5万",
           "url": "https://www.bilibili.com/video/av117427224452482/"
         },
         {
           "rank": 45,
-          "title": "代露娃男友是光，父母是浪，闺蜜辅助绝招卖惨 “悲惨又励志”的 “大女主”烧心之路！",
+          "title": "【王老吉】李小冉的狗是在横店捡的——小冉！你是天使来的！",
           "author": "",
-          "heat": "5.4万",
-          "url": "https://www.bilibili.com/video/av117417342666424/"
+          "heat": "3.5万",
+          "url": "https://www.bilibili.com/video/av117410447230714/"
         },
         {
           "rank": 46,
           "title": "《镜头之后#9》——神鹰哥",
           "author": "",
-          "heat": "75.2万",
+          "heat": "75.3万",
           "url": "https://www.bilibili.com/video/av117365249415922/"
         },
         {
           "rank": 47,
+          "title": "第四课：碰撞·睡衣派对局｜快乐这就有啦",
+          "author": "",
+          "heat": "3100",
+          "url": "https://www.bilibili.com/video/av117411604862206/"
+        },
+        {
+          "rank": 48,
           "title": "笑不活了，老搭档见面先斗嘴！潘长江蹲下身瞅蔡明鞋跟高度，当场直呼：过分，我得踩高跷了，蔡明：这人合着一点儿没长",
           "author": "",
           "heat": "6.2万",
           "url": "https://www.bilibili.com/video/av117414289212211/"
         },
         {
-          "rank": 48,
+          "rank": 49,
           "title": "[威神V/WayV] ❤︎All the Moments We Shared (+ 任务🕹️) | 《鸢 (Vision Wings)》TME & 试听会花絮",
           "author": "",
           "heat": "1.3万",
           "url": "https://www.bilibili.com/video/av117427191024126/"
         },
         {
-          "rank": 49,
-          "title": "蔡康永为啥宁可不赚钱了也要公然跳反？究竟图什么？",
-          "author": "",
-          "heat": "31.5万",
-          "url": "https://www.bilibili.com/video/av117398535477922/"
-        },
-        {
           "rank": 50,
-          "title": "第四课：碰撞·睡衣派对局｜快乐这就有啦",
+          "title": "【SVT_ZER·0】261006 SEVENTEEN 尹净汉 洪知秀JOSHUA | salon drip2 零站中字",
           "author": "",
-          "heat": "3043",
-          "url": "https://www.bilibili.com/video/av117411604862206/"
+          "heat": "2.9万",
+          "url": "https://www.bilibili.com/video/av117415899826068/"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:54"
+      "update_time": "2026-10-13 16:10:44"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1502,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:56"
+      "update_time": "2026-10-13 16:10:46"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1865,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:05:58"
+      "update_time": "2026-10-13 16:10:48"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2228,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-13 16:06:01"
+      "update_time": "2026-10-13 16:10:51"
     }
   }
 }
