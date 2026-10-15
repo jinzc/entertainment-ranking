@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-15 22:15:25",
+  "update_time": "2026-10-15 22:20:23",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:27"
+      "update_time": "2026-10-15 22:20:25"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:30"
+      "update_time": "2026-10-15 22:20:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -624,34 +624,27 @@
         },
         {
           "rank": 16,
-          "title": "我喜欢你💖",
-          "author": "演员侍宣如",
-          "heat": "3672968次播放",
-          "url": "https://www.douyin.com/video/7695983877818870682"
-        },
-        {
-          "rank": 17,
           "title": "纯过日子人看到这菜…真烧心 #进入新时代#过日子人#好好吃饭 #点菜技巧 #全员进入不烧心时代",
           "author": "薛凯琪",
           "heat": "3619213次播放",
           "url": "https://www.douyin.com/video/7696103901754414969"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "Holy Moly～ #跟着HolyMoly放烟花 #seonghyeon #holymoly",
           "author": "黄思瑞",
           "heat": "3559816次播放",
           "url": "https://www.douyin.com/video/7690476255775848099"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "这风一点也不内敛 #风月吻眉梢 #一追就上头",
           "author": "李一桐Q",
           "heat": "3441658次播放",
           "url": "https://www.douyin.com/video/7696121494224717284"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "怎么说 #喵阿里嘎多手势舞",
           "author": "娜扎nz",
           "heat": "3009092次播放",
@@ -659,9 +652,9 @@
         }
       ],
       "error": null,
-      "item_count": 19,
+      "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:32"
+      "update_time": "2026-10-15 22:20:30"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:34"
+      "update_time": "2026-10-15 22:20:32"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:36"
+      "update_time": "2026-10-15 22:20:34"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:39"
+      "update_time": "2026-10-15 22:20:36"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:41"
+      "update_time": "2026-10-15 22:20:39"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:43"
+      "update_time": "2026-10-15 22:20:41"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:45"
+      "update_time": "2026-10-15 22:20:43"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-15 22:15:48"
+      "update_time": "2026-10-15 22:20:45"
     }
   }
 }
