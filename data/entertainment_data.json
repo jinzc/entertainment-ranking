@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-20 16:05:27",
+  "update_time": "2026-10-20 16:10:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:29"
+      "update_time": "2026-10-20 16:10:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:31"
+      "update_time": "2026-10-20 16:10:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -626,7 +626,7 @@
       "error": null,
       "item_count": 15,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:33"
+      "update_time": "2026-10-20 16:10:29"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -709,7 +709,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:35"
+      "update_time": "2026-10-20 16:10:31"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -792,7 +792,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:37"
+      "update_time": "2026-10-20 16:10:33"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1155,7 +1155,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:40"
+      "update_time": "2026-10-20 16:10:35"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1518,7 +1518,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:42"
+      "update_time": "2026-10-20 16:10:38"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1601,7 +1601,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:44"
+      "update_time": "2026-10-20 16:10:40"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1801,170 +1801,170 @@
         },
         {
           "rank": 28,
-          "title": "牛来",
+          "title": "侦战",
           "author": "",
           "heat": "28.",
-          "url": "https://movie.douban.com/subject/38581618"
+          "url": "https://movie.douban.com/subject/36912789"
         },
         {
           "rank": 29,
-          "title": "凝脂手",
+          "title": "牛来",
           "author": "",
           "heat": "29.",
-          "url": "https://movie.douban.com/subject/37667170"
+          "url": "https://movie.douban.com/subject/38581618"
         },
         {
           "rank": 30,
-          "title": "红孩儿火焰山之王",
+          "title": "凝脂手",
           "author": "",
           "heat": "30.",
-          "url": "https://movie.douban.com/subject/37054065"
+          "url": "https://movie.douban.com/subject/37667170"
         },
         {
           "rank": 31,
-          "title": "驴得水",
+          "title": "红孩儿火焰山之王",
           "author": "",
           "heat": "31.",
-          "url": "https://movie.douban.com/subject/25921812"
+          "url": "https://movie.douban.com/subject/37054065"
         },
         {
           "rank": 32,
-          "title": "我想留在你身边",
+          "title": "驴得水",
           "author": "",
           "heat": "32.",
-          "url": "https://movie.douban.com/subject/35390242"
+          "url": "https://movie.douban.com/subject/25921812"
         },
         {
           "rank": 33,
-          "title": "喂喂喂，足球队",
+          "title": "我想留在你身边",
           "author": "",
           "heat": "33.",
-          "url": "https://movie.douban.com/subject/37388212"
+          "url": "https://movie.douban.com/subject/35390242"
         },
         {
           "rank": 34,
-          "title": "床下有人4",
+          "title": "喂喂喂，足球队",
           "author": "",
           "heat": "34.",
-          "url": "https://movie.douban.com/subject/36961914"
+          "url": "https://movie.douban.com/subject/37388212"
         },
         {
           "rank": 35,
-          "title": "蝉衣",
+          "title": "床下有人4",
           "author": "",
           "heat": "35.",
-          "url": "https://movie.douban.com/subject/35964329"
+          "url": "https://movie.douban.com/subject/36961914"
         },
         {
           "rank": 36,
-          "title": "去你的岛",
+          "title": "蝉衣",
           "author": "",
           "heat": "36.",
-          "url": "https://movie.douban.com/subject/35275131"
+          "url": "https://movie.douban.com/subject/35964329"
         },
         {
           "rank": 37,
-          "title": "夏洛特烦恼",
+          "title": "去你的岛",
           "author": "",
           "heat": "37.",
-          "url": "https://movie.douban.com/subject/25964071"
+          "url": "https://movie.douban.com/subject/35275131"
         },
         {
           "rank": 38,
-          "title": "惊魂迷影",
+          "title": "夏洛特烦恼",
           "author": "",
           "heat": "38.",
-          "url": "https://movie.douban.com/subject/38215445"
+          "url": "https://movie.douban.com/subject/25964071"
         },
         {
           "rank": 39,
-          "title": "宇宙巨人：希曼崛起",
+          "title": "惊魂迷影",
           "author": "",
           "heat": "39.",
-          "url": "https://movie.douban.com/subject/1951286"
+          "url": "https://movie.douban.com/subject/38215445"
         },
         {
           "rank": 40,
-          "title": "水东游",
+          "title": "宇宙巨人：希曼崛起",
           "author": "",
           "heat": "40.",
-          "url": "https://movie.douban.com/subject/34926133"
+          "url": "https://movie.douban.com/subject/1951286"
         },
         {
           "rank": 41,
-          "title": "大熊雨林",
+          "title": "水东游",
           "author": "",
           "heat": "41.",
-          "url": "https://movie.douban.com/subject/33422507"
+          "url": "https://movie.douban.com/subject/34926133"
         },
         {
           "rank": 42,
-          "title": "汪汪队立大功大电影3：勇闯恐龙岛",
+          "title": "大熊雨林",
           "author": "",
           "heat": "42.",
-          "url": "https://movie.douban.com/subject/36791178"
+          "url": "https://movie.douban.com/subject/33422507"
         },
         {
           "rank": 43,
-          "title": "红闪电",
+          "title": "汪汪队立大功大电影3：勇闯恐龙岛",
           "author": "",
           "heat": "43.",
-          "url": "https://movie.douban.com/subject/37171813"
+          "url": "https://movie.douban.com/subject/36791178"
         },
         {
           "rank": 44,
-          "title": "穆桂英挂帅(京剧)",
+          "title": "红闪电",
           "author": "",
           "heat": "44.",
-          "url": "https://movie.douban.com/subject/26421039"
+          "url": "https://movie.douban.com/subject/37171813"
         },
         {
           "rank": 45,
-          "title": "蓝鲸：庞然大物归来",
+          "title": "穆桂英挂帅(京剧)",
           "author": "",
           "heat": "45.",
-          "url": "https://movie.douban.com/subject/36761980"
+          "url": "https://movie.douban.com/subject/26421039"
         },
         {
           "rank": 46,
-          "title": "龙凤呈祥(京剧)",
+          "title": "蓝鲸：庞然大物归来",
           "author": "",
           "heat": "46.",
-          "url": "https://movie.douban.com/subject/20645021"
+          "url": "https://movie.douban.com/subject/36761980"
         },
         {
           "rank": 47,
-          "title": "谢瑶环(京剧)",
+          "title": "龙凤呈祥(京剧)",
           "author": "",
           "heat": "47.",
-          "url": "https://movie.douban.com/subject/27005365"
+          "url": "https://movie.douban.com/subject/20645021"
         },
         {
           "rank": 48,
-          "title": "状元媒(京剧)",
+          "title": "谢瑶环(京剧)",
           "author": "",
           "heat": "48.",
-          "url": "https://movie.douban.com/subject/26347311"
+          "url": "https://movie.douban.com/subject/27005365"
         },
         {
           "rank": 49,
-          "title": "赵氏孤儿(京剧)",
+          "title": "状元媒(京剧)",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/27005362"
+          "url": "https://movie.douban.com/subject/26347311"
         },
         {
           "rank": 50,
-          "title": "塞伦盖提大草原",
+          "title": "赵氏孤儿(京剧)",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/36745791"
+          "url": "https://movie.douban.com/subject/27005362"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:46"
+      "update_time": "2026-10-20 16:10:42"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2327,7 +2327,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-20 16:05:48"
+      "update_time": "2026-10-20 16:10:44"
     }
   }
 }
