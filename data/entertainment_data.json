@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-22 17:20:25",
+  "update_time": "2026-10-22 17:25:21",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:27"
+      "update_time": "2026-10-22 17:25:23"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:29"
+      "update_time": "2026-10-22 17:25:25"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -533,7 +533,7 @@
         },
         {
           "rank": 2,
-          "title": "当然是把手松开啦👋#我的追剧日志 #剧剧抖有戏",
+          "title": "当然是把手松开啦👋 #剧剧抖有戏",
           "author": "小田",
           "heat": "10819866次播放",
           "url": "https://www.douyin.com/video/7699043291048008945"
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:31"
+      "update_time": "2026-10-22 17:25:27"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:33"
+      "update_time": "2026-10-22 17:25:29"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:35"
+      "update_time": "2026-10-22 17:25:31"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:38"
+      "update_time": "2026-10-22 17:25:34"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:40"
+      "update_time": "2026-10-22 17:25:36"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:42"
+      "update_time": "2026-10-22 17:25:38"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:44"
+      "update_time": "2026-10-22 17:25:40"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 17:20:46"
+      "update_time": "2026-10-22 17:25:42"
     }
   }
 }
