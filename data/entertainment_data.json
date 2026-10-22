@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-22 15:25:18",
+  "update_time": "2026-10-22 15:30:29",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:20"
+      "update_time": "2026-10-22 15:30:32"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:23"
+      "update_time": "2026-10-22 15:30:34"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -527,7 +527,7 @@
         {
           "rank": 1,
           "title": "iPhone涨价，那也送！这个双十一，只要你来，iPhone17、iPhone18Pro、iPhone Duo！我都送！全场大牌云集，场场豪礼不停！抄底价买大牌，就来亮哥的巅峰双十一抖音王牌直播间！#贾乃亮巅峰双十一一降到底",
-          "author": "贾乃亮10.23兰蔻重磅补贴专场",
+          "author": "贾乃亮10.23早9点资生堂集团年度大场",
           "heat": "18549675次播放",
           "url": "https://www.douyin.com/video/7697295853928664363"
         },
@@ -597,7 +597,7 @@
         {
           "rank": 11,
           "title": "这个双十一，亮哥宠你到底！iPhone18 Pro、iPhone Duo、黄金金钞、百万福利品，全部疯狂送！大牌一降到底，锁定直播间冲！#贾乃亮巅峰双十一一降到底",
-          "author": "贾乃亮10.23兰蔻重磅补贴专场",
+          "author": "贾乃亮10.23早9点资生堂集团年度大场",
           "heat": "5602987次播放",
           "url": "https://www.douyin.com/video/7696884041202666767"
         },
@@ -661,7 +661,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:25"
+      "update_time": "2026-10-22 15:30:36"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:27"
+      "update_time": "2026-10-22 15:30:38"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:29"
+      "update_time": "2026-10-22 15:30:40"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:32"
+      "update_time": "2026-10-22 15:30:43"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:34"
+      "update_time": "2026-10-22 15:30:45"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:36"
+      "update_time": "2026-10-22 15:30:47"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:38"
+      "update_time": "2026-10-22 15:30:49"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-22 15:25:41"
+      "update_time": "2026-10-22 15:30:51"
     }
   }
 }
