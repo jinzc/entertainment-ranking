@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-24 06:40:28",
+  "update_time": "2026-10-24 06:45:29",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:30"
+      "update_time": "2026-10-24 06:45:31"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:32"
+      "update_time": "2026-10-24 06:45:33"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -647,7 +647,7 @@
       "error": null,
       "item_count": 17,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:34"
+      "update_time": "2026-10-24 06:45:35"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -730,7 +730,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:37"
+      "update_time": "2026-10-24 06:45:38"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -813,7 +813,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:39"
+      "update_time": "2026-10-24 06:45:41"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1176,7 +1176,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:41"
+      "update_time": "2026-10-24 06:45:45"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1184,362 +1184,11 @@
       "category": "哔哩哔哩",
       "icon": "🎮",
       "color": "#EC4899",
-      "items": [
-        {
-          "rank": 1,
-          "title": "因为智商不够，从EXO到生子，被打脸的嘴硬的一生。【黄子韬徐艺洋官宣生子】",
-          "author": "",
-          "heat": "162.0万",
-          "url": "https://www.bilibili.com/video/av117482002057599/"
-        },
-        {
-          "rank": 2,
-          "title": "CORTIS男团学解说（二）这堪比花少2",
-          "author": "",
-          "heat": "46.7万",
-          "url": "https://www.bilibili.com/video/av117479099602794/"
-        },
-        {
-          "rank": 3,
-          "title": "中国选手打进决赛 挑战 澳、日、泰 顶尖胃袋！ 《胃袋挑战》",
-          "author": "",
-          "heat": "76.4万",
-          "url": "https://www.bilibili.com/video/av117471365302077/"
-        },
-        {
-          "rank": 4,
-          "title": "医学博士不临床？诊病一句我盲猜，从此开启子祺元年",
-          "author": "",
-          "heat": "72.1万",
-          "url": "https://www.bilibili.com/video/av117484350870954/"
-        },
-        {
-          "rank": 5,
-          "title": "王扁街头遇袭事件：前经纪人为何欲夺人性命？",
-          "author": "",
-          "heat": "268.9万",
-          "url": "https://www.bilibili.com/video/av117467590430089/"
-        },
-        {
-          "rank": 6,
-          "title": "对话十个勤天的小友｜丞相还挺忙·赵小童",
-          "author": "",
-          "heat": "38.3万",
-          "url": "https://www.bilibili.com/video/av117471667296919/"
-        },
-        {
-          "rank": 7,
-          "title": "你能想象张若昀扇唐艺昕一巴掌吗？说白了就是性格问题，跟非主流有什么关系",
-          "author": "",
-          "heat": "42.6万",
-          "url": "https://www.bilibili.com/video/av117478025861209/"
-        },
-        {
-          "rank": 8,
-          "title": "【SNH48】林舒晴塌房：私联、嘴队友，骂粉丝、还顺手炸出个私联恋爱大四角",
-          "author": "",
-          "heat": "35.0万",
-          "url": "https://www.bilibili.com/video/av117477975661344/"
-        },
-        {
-          "rank": 9,
-          "title": "自费买高定？临时赖红毯？粉丝大比拼！【时尚芭莎夜乐子大赏】",
-          "author": "",
-          "heat": "51.4万",
-          "url": "https://www.bilibili.com/video/av117482757034325/"
-        },
-        {
-          "rank": 10,
-          "title": "CP炒完没？炒完回家吧回家吧！【李昀锐孟子义你好星期六剧宣争议复盘】",
-          "author": "",
-          "heat": "56.6万",
-          "url": "https://www.bilibili.com/video/av117472137120333/"
-        },
-        {
-          "rank": 11,
-          "title": "为何黄子韬徐艺洋这对夫妻被全网唾弃！！",
-          "author": "",
-          "heat": "40.3万",
-          "url": "https://www.bilibili.com/video/av117477539318034/"
-        },
-        {
-          "rank": 12,
-          "title": "情感资本双线复盘李小冉离婚：拆解比利时古堡婚礼背后的婚姻和资本逻辑",
-          "author": "",
-          "heat": "30.9万",
-          "url": "https://www.bilibili.com/video/av117476784413486/"
-        },
-        {
-          "rank": 13,
-          "title": "【乌镇戏剧节】黄磊见到最怕的人后飞走了？",
-          "author": "",
-          "heat": "26.8万",
-          "url": "https://www.bilibili.com/video/av117475425390964/"
-        },
-        {
-          "rank": 14,
-          "title": "医学博士看病靠盲猜！offer8的协和董小姐2.0让中国医学生天塌了！",
-          "author": "",
-          "heat": "29.5万",
-          "url": "https://www.bilibili.com/video/av117484552192170/"
-        },
-        {
-          "rank": 15,
-          "title": "morning samgyeopsal",
-          "author": "",
-          "heat": "25.4万",
-          "url": "https://www.bilibili.com/video/av117470895673642/"
-        },
-        {
-          "rank": 16,
-          "title": "【吃瓜报告】老赖之女出道不还钱、黄子韬霸气护妻怼网友、宋佳奖运逆天终爆发（近期热门事件后续）",
-          "author": "",
-          "heat": "19.0万",
-          "url": "https://www.bilibili.com/video/av117483914794500/"
-        },
-        {
-          "rank": 17,
-          "title": "欠钱不还却有钱出道？是谁又在给老赖之女洗白？深扒李秀满新女团成员盛艾敬！",
-          "author": "",
-          "heat": "424.1万",
-          "url": "https://www.bilibili.com/video/av117450158907258/"
-        },
-        {
-          "rank": 18,
-          "title": "笑死天资真的很残忍，谁说卷高定还不如一件白衬衫！！",
-          "author": "",
-          "heat": "32.8万",
-          "url": "https://www.bilibili.com/video/av117479418429446/"
-        },
-        {
-          "rank": 19,
-          "title": "王扁伤情好转，感谢大家关心，出院给大家做烧烤",
-          "author": "",
-          "heat": "27.6万",
-          "url": "https://www.bilibili.com/video/av117479653312422/"
-        },
-        {
-          "rank": 20,
-          "title": "【配音模仿台媒】报道宋佳拿遍各大奖项，已成红遍亚洲的殿堂级影后？",
-          "author": "",
-          "heat": "22.1万",
-          "url": "https://www.bilibili.com/video/av117479149995769/"
-        },
-        {
-          "rank": 21,
-          "title": "爆笑盘点！我用的快本表情包原来出自这些名场面！",
-          "author": "",
-          "heat": "26.8万",
-          "url": "https://www.bilibili.com/video/av117471415700422/"
-        },
-        {
-          "rank": 22,
-          "title": "【REACTION】路人第一次看李秀满俩大型新团舞台！女团A2O LITE夸夸局，男团A2O SOUL评价不一？(首舞台+合作舞台+女团接力reaction)",
-          "author": "",
-          "heat": "15.6万",
-          "url": "https://www.bilibili.com/video/av117479351261859/"
-        },
-        {
-          "rank": 23,
-          "title": "时尚芭莎Reaction，厚本谁请来的",
-          "author": "",
-          "heat": "16.6万",
-          "url": "https://www.bilibili.com/video/av117479619827006/"
-        },
-        {
-          "rank": 24,
-          "title": "北美爱情故事2",
-          "author": "",
-          "heat": "10.5万",
-          "url": "https://www.bilibili.com/video/av117485525273203/"
-        },
-        {
-          "rank": 25,
-          "title": "【吃瓜SP】欠钱的露屁股的摄政辱华的，kpop真的闹鬼了",
-          "author": "",
-          "heat": "15.6万",
-          "url": "https://www.bilibili.com/video/av117473781290523/"
-        },
-        {
-          "rank": 26,
-          "title": "同样60多岁，你会选择自然老去还是维持冻龄？",
-          "author": "",
-          "heat": "18.4万",
-          "url": "https://www.bilibili.com/video/av117472355157905/"
-        },
-        {
-          "rank": 27,
-          "title": "现在的SM为何如此反感李秀满的A2O 如果李秀满没有输掉内斗？SM现在会是什么样子 ｜SM内斗时间线盘点【复盘】",
-          "author": "",
-          "heat": "13.1万",
-          "url": "https://www.bilibili.com/video/av117476482484962/"
-        },
-        {
-          "rank": 28,
-          "title": "【高战士】黄婷婷被贴脸开大，许飞厉娜背刺修罗场【后会友期01】",
-          "author": "",
-          "heat": "12.9万",
-          "url": "https://www.bilibili.com/video/av117484552260597/"
-        },
-        {
-          "rank": 29,
-          "title": "恋综男嘉宾还是太想拿下Ally的a8大结果了…",
-          "author": "",
-          "heat": "13.2万",
-          "url": "https://www.bilibili.com/video/av117478193632842/"
-        },
-        {
-          "rank": 30,
-          "title": "论装？“子韬”比“嘉豪”狠多了",
-          "author": "",
-          "heat": "19.9万",
-          "url": "https://www.bilibili.com/video/av117479300930480/"
-        },
-        {
-          "rank": 31,
-          "title": "当我给导师看《心动的offer》……",
-          "author": "",
-          "heat": "14.0万",
-          "url": "https://www.bilibili.com/video/av117484652986447/"
-        },
-        {
-          "rank": 32,
-          "title": "昔日挚友遭背刺停工，兄弟反目大爆猛料《后会友期》震撼来袭",
-          "author": "",
-          "heat": "13.3万",
-          "url": "https://www.bilibili.com/video/av117484988468633/"
-        },
-        {
-          "rank": 33,
-          "title": "[GOING JxJ SPECIAL] THE DREAM GAME SHOW #2",
-          "author": "",
-          "heat": "6.1万",
-          "url": "https://www.bilibili.com/video/av117478294357898/"
-        },
-        {
-          "rank": 34,
-          "title": "【驼】被张家齐妈妈气死，被代露娃迷惑死，被蔡文静笑死，全是神人 [我家那闺女]",
-          "author": "",
-          "heat": "50.2万",
-          "url": "https://www.bilibili.com/video/av117461416483640/"
-        },
-        {
-          "rank": 35,
-          "title": "【我家那闺女2026】张家齐妈妈说女儿的钱一分没动…代露娃说自己也曾自卑怯懦？换个朋友继续诉苦。",
-          "author": "",
-          "heat": "10.9万",
-          "url": "https://www.bilibili.com/video/av117478076191016/"
-        },
-        {
-          "rank": 36,
-          "title": "【回顾明侦S3E11】叮咚，您已抵达天堂岛，甄漂亮整形医院欢迎您！",
-          "author": "",
-          "heat": "14.7万",
-          "url": "https://www.bilibili.com/video/av117472036393048/"
-        },
-        {
-          "rank": 37,
-          "title": "小E赖床的样子太可爱了(*/ω＼*)",
-          "author": "",
-          "heat": "7.3万",
-          "url": "https://www.bilibili.com/video/av117486531903612/"
-        },
-        {
-          "rank": 38,
-          "title": "上百名时代峰峻粉丝被骗，骗子还是个私生？",
-          "author": "",
-          "heat": "76.6万",
-          "url": "https://www.bilibili.com/video/av117449622036384/"
-        },
-        {
-          "rank": 39,
-          "title": "Key社官宣51岁麻枝准确诊咽喉癌，放弃积极抗癌选择姑息疗养，只想把剩余时间留给作品",
-          "author": "",
-          "heat": "50.9万",
-          "url": "https://www.bilibili.com/video/av117467271796333/"
-        },
-        {
-          "rank": 40,
-          "title": "好闺蜜再见面变仇人！王子璇被气疯了！《再见爱人》友情版真烧心！《后会友期》",
-          "author": "",
-          "heat": "10.0万",
-          "url": "https://www.bilibili.com/video/av117483663001113/"
-        },
-        {
-          "rank": 41,
-          "title": "日赚208万依然崩溃，素人爽到底在焦虑什么啊",
-          "author": "",
-          "heat": "7.5万",
-          "url": "https://www.bilibili.com/video/av117476465645290/"
-        },
-        {
-          "rank": 42,
-          "title": "天哪没一点医美痕迹，这姐真能说自己30岁之后更美！",
-          "author": "",
-          "heat": "11.0万",
-          "url": "https://www.bilibili.com/video/av117481867840883/"
-        },
-        {
-          "rank": 43,
-          "title": "凉记鉴定网络热门生物",
-          "author": "",
-          "heat": "47.3万",
-          "url": "https://www.bilibili.com/video/av117431435528111/"
-        },
-        {
-          "rank": 44,
-          "title": "这是一场明星对粉丝长达两年的凌迟",
-          "author": "",
-          "heat": "10.7万",
-          "url": "https://www.bilibili.com/video/av117468479619120/"
-        },
-        {
-          "rank": 45,
-          "title": "[24/7📹LOG] 小道一家全家的第一次日本旅行 🚠ㅣTWS",
-          "author": "",
-          "heat": "3.0万",
-          "url": "https://www.bilibili.com/video/av117489551805112/"
-        },
-        {
-          "rank": 46,
-          "title": "1996版三毛饰演者孟智超已经40岁 ：和曹骏是童星与好友，他翻红，我很高兴，也很羡慕",
-          "author": "",
-          "heat": "10.4万",
-          "url": "https://www.bilibili.com/video/av117485340724337/"
-        },
-        {
-          "rank": 47,
-          "title": "天啊他俩竟然是真夫妻，完全想不到的组合！！！",
-          "author": "",
-          "heat": "15.4万",
-          "url": "https://www.bilibili.com/video/av117461248646088/"
-        },
-        {
-          "rank": 48,
-          "title": "[威神V/WayV] 𝗟𝗜𝗩𝗘🔎寻找承载着回忆的最终目的地！🗺️ | 𓊈Finding XIAOJUN! 寻找肖俊！𓊉",
-          "author": "",
-          "heat": "1.8万",
-          "url": "https://www.bilibili.com/video/av117483780509045/"
-        },
-        {
-          "rank": 49,
-          "title": "热烈欢迎袁咏仪！超级爱买的靓靓姐最近又乱买了什么呢？（恭喜靓靓终于演上警察了👏",
-          "author": "",
-          "heat": "180.8万",
-          "url": "https://www.bilibili.com/video/av117437156562230/"
-        },
-        {
-          "rank": 50,
-          "title": "体验了一把专业MC的人生 | 我的名字叫金善禹 EP.1 | ENHYPEN SUNOO",
-          "author": "",
-          "heat": "2.1万",
-          "url": "https://www.bilibili.com/video/av117483847617079/"
-        }
-      ],
-      "error": null,
-      "item_count": 50,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:43"
+      "update_time": "2026-10-24 06:46:07"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1550,79 +1199,72 @@
       "items": [
         {
           "rank": 1,
-          "title": "希望",
-          "author": "",
-          "heat": "1.",
-          "url": "https://movie.douban.com/subject/36179101/"
-        },
-        {
-          "rank": 2,
           "title": "逃出布迪秀",
           "author": "",
-          "heat": "2.",
+          "heat": "7.3",
           "url": "https://movie.douban.com/subject/37446297/"
         },
         {
-          "rank": 3,
-          "title": "杯雪·一战成名",
+          "rank": 2,
+          "title": "杯雪·一战成名 / 一战成名 / 杯雪·夜雨打金荷",
           "author": "",
-          "heat": "3.",
+          "heat": "7.5",
           "url": "https://movie.douban.com/subject/37516455/"
         },
         {
-          "rank": 4,
-          "title": "潜伏6",
+          "rank": 3,
+          "title": "潜伏6 / 儿凶：屠出暗界(港) / 阴儿房：穿越阴深处(台)",
           "author": "",
-          "heat": "4.",
+          "heat": "6.6",
           "url": "https://movie.douban.com/subject/37525017/"
         },
         {
-          "rank": 5,
-          "title": "罗斯",
+          "rank": 4,
+          "title": "罗斯 / 扑朔迷离的露丝(港)",
           "author": "",
-          "heat": "5.",
+          "heat": "8.5",
           "url": "https://movie.douban.com/subject/35322132/"
         },
         {
-          "rank": 6,
-          "title": "人性本兽",
+          "rank": 5,
+          "title": "人性本兽 / 政界野兽 / 动物",
           "author": "",
-          "heat": "6.",
+          "heat": "5.8",
           "url": "https://movie.douban.com/subject/36749187/"
         },
         {
-          "rank": 7,
-          "title": "功夫女足",
+          "rank": 6,
+          "title": "功夫女足 / 女足 / 少林女足",
           "author": "",
-          "heat": "7.",
+          "heat": "5.9",
           "url": "https://movie.douban.com/subject/36452545/"
         },
         {
-          "rank": 8,
-          "title": "另一个妈妈",
+          "rank": 7,
+          "title": "另一个妈妈 / 另一个妈咪(台) / 衣柜里的妈咪(港)",
           "author": "",
-          "heat": "8.",
+          "heat": "5.6",
           "url": "https://movie.douban.com/subject/37317907/"
         },
         {
-          "rank": 9,
-          "title": "一个部门的诞生",
+          "rank": 8,
+          "title": "一个部门的诞生 / Dog Day Evening",
           "author": "",
-          "heat": "9.",
+          "heat": "7.2",
           "url": "https://movie.douban.com/subject/36937765/"
         },
         {
-          "rank": 10,
-          "title": "可能的爱",
+          "rank": 9,
+          "title": "可能的爱 / 假如爱有如果(台) / 可能的爱情",
           "author": "",
-          "heat": "10.",
+          "heat": "8.5",
           "url": "https://movie.douban.com/subject/36847425/"
         }
       ],
       "error": null,
-      "item_count": 10,
-      "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:45"
+      "item_count": 9,
+      "source_used": "original",
+      "update_time": "2026-10-24 06:46:30"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1985,7 +1627,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:47"
+      "update_time": "2026-10-24 06:46:33"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2348,7 +1990,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-24 06:40:49"
+      "update_time": "2026-10-24 06:46:35"
     }
   }
 }
