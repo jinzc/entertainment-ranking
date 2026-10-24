@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-24 18:35:20",
+  "update_time": "2026-10-24 18:40:25",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -7,11 +7,362 @@
       "category": "微博",
       "icon": "🔥",
       "color": "#DC2626",
-      "items": [],
-      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/3QeLwJEd7k",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "突然get到了杨超越毫不费力的绝美",
+          "author": "",
+          "heat": "1.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%AA%81%E7%84%B6get%E5%88%B0%E4%BA%86%E6%9D%A8%E8%B6%85%E8%B6%8A%E6%AF%AB%E4%B8%8D%E8%B4%B9%E5%8A%9B%E7%9A%84%E7%BB%9D%E7%BE%8E%23&t=152&Refer=top"
+        },
+        {
+          "rank": 2,
+          "title": "汪苏泷晒了iPhoneDuo自拍",
+          "author": "",
+          "heat": "2.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B1%AA%E8%8B%8F%E6%B3%B7%E6%99%92%E4%BA%86iPhoneDuo%E8%87%AA%E6%8B%8D%23&t=152&Refer=top"
+        },
+        {
+          "rank": 3,
+          "title": "VOGUE厕所 好紧绷的松弛",
+          "author": "",
+          "heat": "3.",
+          "url": "https://s.weibo.com/weibo?q=VOGUE%E5%8E%95%E6%89%80%20%E5%A5%BD%E7%B4%A7%E7%BB%B7%E7%9A%84%E6%9D%BE%E5%BC%9B&t=152&Refer=top"
+        },
+        {
+          "rank": 4,
+          "title": "毛不易 情商",
+          "author": "",
+          "heat": "4.",
+          "url": "https://s.weibo.com/weibo?q=%E6%AF%9B%E4%B8%8D%E6%98%93%20%E6%83%85%E5%95%86&t=152&Refer=top"
+        },
+        {
+          "rank": 5,
+          "title": "黄多多说自己的头号粉丝是妹妹",
+          "author": "",
+          "heat": "5.",
+          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E5%A4%9A%E5%A4%9A%E8%AF%B4%E8%87%AA%E5%B7%B1%E7%9A%84%E5%A4%B4%E5%8F%B7%E7%B2%89%E4%B8%9D%E6%98%AF%E5%A6%B9%E5%A6%B9&t=152&Refer=top"
+        },
+        {
+          "rank": 6,
+          "title": "迪丽热巴造型师被指逼宫冤吗",
+          "author": "",
+          "heat": "6.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E9%80%A0%E5%9E%8B%E5%B8%88%E8%A2%AB%E6%8C%87%E9%80%BC%E5%AE%AB%E5%86%A4%E5%90%97%23&t=152&Refer=top"
+        },
+        {
+          "rank": 7,
+          "title": "黄多多大学GPA接近满分",
+          "author": "",
+          "heat": "7.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%A4%9A%E5%A4%9A%E5%A4%A7%E5%AD%A6GPA%E6%8E%A5%E8%BF%91%E6%BB%A1%E5%88%86%23&t=152&Refer=top"
+        },
+        {
+          "rank": 8,
+          "title": "王一博 不是我的肚子",
+          "author": "",
+          "heat": "8.",
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%B8%80%E5%8D%9A%20%E4%B8%8D%E6%98%AF%E6%88%91%E7%9A%84%E8%82%9A%E5%AD%90&t=152&Refer=top"
+        },
+        {
+          "rank": 9,
+          "title": "肖战演唱会30台投影史无前例",
+          "author": "",
+          "heat": "9.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A30%E5%8F%B0%E6%8A%95%E5%BD%B1%E5%8F%B2%E6%97%A0%E5%89%8D%E4%BE%8B%23&t=152&Refer=top"
+        },
+        {
+          "rank": 10,
+          "title": "王一博的名字真出现在摄影团队名单里",
+          "author": "",
+          "heat": "10.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%B8%80%E5%8D%9A%E7%9A%84%E5%90%8D%E5%AD%97%E7%9C%9F%E5%87%BA%E7%8E%B0%E5%9C%A8%E6%91%84%E5%BD%B1%E5%9B%A2%E9%98%9F%E5%90%8D%E5%8D%95%E9%87%8C%23&t=152&Refer=top"
+        },
+        {
+          "rank": 11,
+          "title": "男明星红毯 无聊",
+          "author": "",
+          "heat": "11.",
+          "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E6%98%8E%E6%98%9F%E7%BA%A2%E6%AF%AF%20%E6%97%A0%E8%81%8A&t=152&Refer=top"
+        },
+        {
+          "rank": 12,
+          "title": "刘亦菲上场前欧阳娜娜给她换伞",
+          "author": "",
+          "heat": "12.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E4%BA%A6%E8%8F%B2%E4%B8%8A%E5%9C%BA%E5%89%8D%E6%AC%A7%E9%98%B3%E5%A8%9C%E5%A8%9C%E7%BB%99%E5%A5%B9%E6%8D%A2%E4%BC%9E%23&t=152&Refer=top"
+        },
+        {
+          "rank": 13,
+          "title": "肖战小城良方云合涨幅",
+          "author": "",
+          "heat": "13.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E4%BA%91%E5%90%88%E6%B6%A8%E5%B9%85%23&t=152&Refer=top"
+        },
+        {
+          "rank": 14,
+          "title": "甜馨14岁生日全家福",
+          "author": "",
+          "heat": "14.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%94%9C%E9%A6%A814%E5%B2%81%E7%94%9F%E6%97%A5%E5%85%A8%E5%AE%B6%E7%A6%8F%23&t=152&Refer=top"
+        },
+        {
+          "rank": 15,
+          "title": "红秀主编说法庭见",
+          "author": "",
+          "heat": "15.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BA%A2%E7%A7%80%E4%B8%BB%E7%BC%96%E8%AF%B4%E6%B3%95%E5%BA%AD%E8%A7%81%23&t=152&Refer=top"
+        },
+        {
+          "rank": 16,
+          "title": "黄多多讲话跟小时候一模一样",
+          "author": "",
+          "heat": "16.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%A4%9A%E5%A4%9A%E8%AE%B2%E8%AF%9D%E8%B7%9F%E5%B0%8F%E6%97%B6%E5%80%99%E4%B8%80%E6%A8%A1%E4%B8%80%E6%A0%B7%23&t=152&Refer=top"
+        },
+        {
+          "rank": 17,
+          "title": "闵塔鲨回应",
+          "author": "",
+          "heat": "17.",
+          "url": "https://s.weibo.com/weibo?q=%E9%97%B5%E5%A1%94%E9%B2%A8%E5%9B%9E%E5%BA%94&t=152&Refer=top"
+        },
+        {
+          "rank": 18,
+          "title": "肖战迪丽热巴刘亦菲微指前三",
+          "author": "",
+          "heat": "18.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%88%98%E4%BA%A6%E8%8F%B2%E5%BE%AE%E6%8C%87%E5%89%8D%E4%B8%89%23&t=152&Refer=top"
+        },
+        {
+          "rank": 19,
+          "title": "张元英 我为什么要了解你",
+          "author": "",
+          "heat": "19.",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%85%83%E8%8B%B1%20%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BA%86%E8%A7%A3%E4%BD%A0&t=152&Refer=top"
+        },
+        {
+          "rank": 20,
+          "title": "嫁金钗单更热度",
+          "author": "",
+          "heat": "20.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%AB%81%E9%87%91%E9%92%97%E5%8D%95%E6%9B%B4%E7%83%AD%E5%BA%A6%23&t=152&Refer=top"
+        },
+        {
+          "rank": 21,
+          "title": "原来肖战粉丝才是社交悍匪",
+          "author": "",
+          "heat": "21.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E8%82%96%E6%88%98%E7%B2%89%E4%B8%9D%E6%89%8D%E6%98%AF%E7%A4%BE%E4%BA%A4%E6%82%8D%E5%8C%AA%23&t=152&Refer=top"
+        },
+        {
+          "rank": 22,
+          "title": "艺人自费高定时间线",
+          "author": "",
+          "heat": "22.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%89%BA%E4%BA%BA%E8%87%AA%E8%B4%B9%E9%AB%98%E5%AE%9A%E6%97%B6%E9%97%B4%E7%BA%BF%23&t=152&Refer=top"
+        },
+        {
+          "rank": 23,
+          "title": "肖战演唱会舞美裸眼3D效果",
+          "author": "",
+          "heat": "23.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E8%88%9E%E7%BE%8E%E8%A3%B8%E7%9C%BC3D%E6%95%88%E6%9E%9C%23&t=152&Refer=top"
+        },
+        {
+          "rank": 24,
+          "title": "点进李昀锐直播间结果是孟子义",
+          "author": "",
+          "heat": "24.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%82%B9%E8%BF%9B%E6%9D%8E%E6%98%80%E9%94%90%E7%9B%B4%E6%92%AD%E9%97%B4%E7%BB%93%E6%9E%9C%E6%98%AF%E5%AD%9F%E5%AD%90%E4%B9%89%23&t=152&Refer=top"
+        },
+        {
+          "rank": 25,
+          "title": "金鸡奖提名最佳男主的眼神戏",
+          "author": "",
+          "heat": "25.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E9%B8%A1%E5%A5%96%E6%8F%90%E5%90%8D%E6%9C%80%E4%BD%B3%E7%94%B7%E4%B8%BB%E7%9A%84%E7%9C%BC%E7%A5%9E%E6%88%8F%23&t=152&Refer=top"
+        },
+        {
+          "rank": 26,
+          "title": "横店展览张凌赫摄影作品",
+          "author": "",
+          "heat": "26.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%A8%AA%E5%BA%97%E5%B1%95%E8%A7%88%E5%BC%A0%E5%87%8C%E8%B5%AB%E6%91%84%E5%BD%B1%E4%BD%9C%E5%93%81%23&t=152&Refer=top"
+        },
+        {
+          "rank": 27,
+          "title": "高梓淇女友因太漂亮被问职业",
+          "author": "",
+          "heat": "27.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E6%A2%93%E6%B7%87%E5%A5%B3%E5%8F%8B%E5%9B%A0%E5%A4%AA%E6%BC%82%E4%BA%AE%E8%A2%AB%E9%97%AE%E8%81%8C%E4%B8%9A%23&t=152&Refer=top"
+        },
+        {
+          "rank": 28,
+          "title": "张小斐 动作越少越大气",
+          "author": "",
+          "heat": "28.",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%B0%8F%E6%96%90%20%E5%8A%A8%E4%BD%9C%E8%B6%8A%E5%B0%91%E8%B6%8A%E5%A4%A7%E6%B0%94&t=152&Refer=top"
+        },
+        {
+          "rank": 29,
+          "title": "黄多多太像妈妈了",
+          "author": "",
+          "heat": "29.",
+          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E5%A4%9A%E5%A4%9A%E5%A4%AA%E5%83%8F%E5%A6%88%E5%A6%88%E4%BA%86&t=152&Refer=top"
+        },
+        {
+          "rank": 30,
+          "title": "A2O音银舞台全员穿长袖长裤",
+          "author": "",
+          "heat": "30.",
+          "url": "https://s.weibo.com/weibo?q=A2O%E9%9F%B3%E9%93%B6%E8%88%9E%E5%8F%B0%E5%85%A8%E5%91%98%E7%A9%BF%E9%95%BF%E8%A2%96%E9%95%BF%E8%A3%A4&t=152&Refer=top"
+        },
+        {
+          "rank": 31,
+          "title": "后天美女就很容易过度",
+          "author": "",
+          "heat": "31.",
+          "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E5%A4%A9%E7%BE%8E%E5%A5%B3%E5%B0%B1%E5%BE%88%E5%AE%B9%E6%98%93%E8%BF%87%E5%BA%A6&t=152&Refer=top"
+        },
+        {
+          "rank": 32,
+          "title": "王安宇 白你能想通吗",
+          "author": "",
+          "heat": "32.",
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%AE%89%E5%AE%87%20%E7%99%BD%E4%BD%A0%E8%83%BD%E6%83%B3%E9%80%9A%E5%90%97&t=152&Refer=top"
+        },
+        {
+          "rank": 33,
+          "title": "时代少年团台词大赏",
+          "author": "",
+          "heat": "33.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%E5%8F%B0%E8%AF%8D%E5%A4%A7%E8%B5%8F%23&t=152&Refer=top"
+        },
+        {
+          "rank": 34,
+          "title": "欧阳娜娜 审美创意",
+          "author": "",
+          "heat": "34.",
+          "url": "https://s.weibo.com/weibo?q=%E6%AC%A7%E9%98%B3%E5%A8%9C%E5%A8%9C%20%E5%AE%A1%E7%BE%8E%E5%88%9B%E6%84%8F&t=152&Refer=top"
+        },
+        {
+          "rank": 35,
+          "title": "蒋劲夫回应这么自律还会想女人吗",
+          "author": "",
+          "heat": "35.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%92%8B%E5%8A%B2%E5%A4%AB%E5%9B%9E%E5%BA%94%E8%BF%99%E4%B9%88%E8%87%AA%E5%BE%8B%E8%BF%98%E4%BC%9A%E6%83%B3%E5%A5%B3%E4%BA%BA%E5%90%97%23&t=152&Refer=top"
+        },
+        {
+          "rank": 36,
+          "title": "刘宇宁王者荣耀共创之夜",
+          "author": "",
+          "heat": "36.",
+          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E5%AE%87%E5%AE%81%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%85%B1%E5%88%9B%E4%B9%8B%E5%A4%9C&t=152&Refer=top"
+        },
+        {
+          "rank": 37,
+          "title": "迪丽热巴走路粉",
+          "author": "",
+          "heat": "37.",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E8%B5%B0%E8%B7%AF%E7%B2%89&t=152&Refer=top"
+        },
+        {
+          "rank": 38,
+          "title": "严浩翔贡献了伟大的人生镜头",
+          "author": "",
+          "heat": "38.",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A5%E6%B5%A9%E7%BF%94%E8%B4%A1%E7%8C%AE%E4%BA%86%E4%BC%9F%E5%A4%A7%E7%9A%84%E4%BA%BA%E7%94%9F%E9%95%9C%E5%A4%B4%23&t=152&Refer=top"
+        },
+        {
+          "rank": 39,
+          "title": "迪丽热巴微指断层",
+          "author": "",
+          "heat": "39.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E5%BE%AE%E6%8C%87%E6%96%AD%E5%B1%82%23&t=152&Refer=top"
+        },
+        {
+          "rank": 40,
+          "title": "刘亦菲VOGUE红毯口碑",
+          "author": "",
+          "heat": "40.",
+          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E4%BA%A6%E8%8F%B2VOGUE%E7%BA%A2%E6%AF%AF%E5%8F%A3%E7%A2%91&t=152&Refer=top"
+        },
+        {
+          "rank": 41,
+          "title": "华晨宇演唱会偶遇失联24年老友",
+          "author": "",
+          "heat": "41.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8E%E6%99%A8%E5%AE%87%E6%BC%94%E5%94%B1%E4%BC%9A%E5%81%B6%E9%81%87%E5%A4%B1%E8%81%9424%E5%B9%B4%E8%80%81%E5%8F%8B%23&t=152&Refer=top"
+        },
+        {
+          "rank": 42,
+          "title": "尚公主开播云合",
+          "author": "",
+          "heat": "42.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%9A%E5%85%AC%E4%B8%BB%E5%BC%80%E6%92%AD%E4%BA%91%E5%90%88%23&t=152&Refer=top"
+        },
+        {
+          "rank": 43,
+          "title": "严浩翔新剧一上来就被分手",
+          "author": "",
+          "heat": "43.",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A5%E6%B5%A9%E7%BF%94%E6%96%B0%E5%89%A7%E4%B8%80%E4%B8%8A%E6%9D%A5%E5%B0%B1%E8%A2%AB%E5%88%86%E6%89%8B%23&t=152&Refer=top"
+        },
+        {
+          "rank": 44,
+          "title": "田曦薇这段戏演得好好",
+          "author": "",
+          "heat": "44.",
+          "url": "https://s.weibo.com/weibo?q=%E7%94%B0%E6%9B%A6%E8%96%87%E8%BF%99%E6%AE%B5%E6%88%8F%E6%BC%94%E5%BE%97%E5%A5%BD%E5%A5%BD&t=152&Refer=top"
+        },
+        {
+          "rank": 45,
+          "title": "文荣奖",
+          "author": "",
+          "heat": "45.",
+          "url": "https://s.weibo.com/weibo?q=%E6%96%87%E8%8D%A3%E5%A5%96&t=152&Refer=top"
+        },
+        {
+          "rank": 46,
+          "title": "宋亚轩新疆综艺路透",
+          "author": "",
+          "heat": "46.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E4%BA%9A%E8%BD%A9%E6%96%B0%E7%96%86%E7%BB%BC%E8%89%BA%E8%B7%AF%E9%80%8F%23&t=152&Refer=top"
+        },
+        {
+          "rank": 47,
+          "title": "白鹿角色宇宙电影预告片",
+          "author": "",
+          "heat": "47.",
+          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E8%A7%92%E8%89%B2%E5%AE%87%E5%AE%99%E7%94%B5%E5%BD%B1%E9%A2%84%E5%91%8A%E7%89%87&t=152&Refer=top"
+        },
+        {
+          "rank": 48,
+          "title": "尚公主首播云合4.6",
+          "author": "",
+          "heat": "48.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%9A%E5%85%AC%E4%B8%BB%E9%A6%96%E6%92%AD%E4%BA%91%E5%90%884.6%23&t=152&Refer=top"
+        },
+        {
+          "rank": 49,
+          "title": "魏娆周芙母女俩把夫君迷成智障了",
+          "author": "",
+          "heat": "49.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%AD%8F%E5%A8%86%E5%91%A8%E8%8A%99%E6%AF%8D%E5%A5%B3%E4%BF%A9%E6%8A%8A%E5%A4%AB%E5%90%9B%E8%BF%B7%E6%88%90%E6%99%BA%E9%9A%9C%E4%BA%86%23&t=152&Refer=top"
+        },
+        {
+          "rank": 50,
+          "title": "嫁金钗没有人真正关心君黛",
+          "author": "",
+          "heat": "50.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%AB%81%E9%87%91%E9%92%97%E6%B2%A1%E6%9C%89%E4%BA%BA%E7%9C%9F%E6%AD%A3%E5%85%B3%E5%BF%83%E5%90%9B%E9%BB%9B%23&t=152&Refer=top"
+        }
+      ],
+      "error": null,
+      "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-24 18:35:25"
+      "update_time": "2026-10-24 18:40:27"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -19,11 +370,152 @@
       "category": "抖音",
       "icon": "🎵",
       "color": "#F59E0B",
-      "items": [],
-      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/2me33NBewj",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "人均系统？当1000名主角参与末日求生挑战会发生什么？ #未来导演扶持计划 #自制综艺 #零跑A05",
+          "author": "十万个挑战",
+          "heat": "7467847次播放",
+          "url": "https://www.douyin.com/video/7690955248831171874"
+        },
+        {
+          "rank": 2,
+          "title": "《00后整治催婚父母》03，看00后如何整治催婚父母 #即梦AI创作者成长计划 #AI创作浪潮计划 #未来导演扶持计划 #ai短剧",
+          "author": "元气讲",
+          "heat": "5712462次播放",
+          "url": "https://www.douyin.com/video/7699717827946745139"
+        },
+        {
+          "rank": 3,
+          "title": "多大岁数 自己不清楚啊#小城良方 #小城良方顶级治愈感 #王彦霖",
+          "author": "桃桃云赏剧",
+          "heat": "5291223次播放",
+          "url": "https://www.douyin.com/video/7699453738032860467"
+        },
+        {
+          "rank": 4,
+          "title": "当各方知道了兵部尚书冻死在宫殿外的消息be back：#历史 #万万没想到 #明朝 #即梦AI创作者成长计划 #ai创作浪潮计划",
+          "author": "小黄油美式",
+          "heat": "5142746次播放",
+          "url": "https://www.douyin.com/video/7699491214290193698"
+        },
+        {
+          "rank": 5,
+          "title": "原来我修的是无情道啊#单身 #solo #情根 #道家文化 #娱乐评论大赏",
+          "author": "资深观众刘根红",
+          "heat": "4701598次播放",
+          "url": "https://www.douyin.com/video/7699445210106842411"
+        },
+        {
+          "rank": 6,
+          "title": "那这个受伤的女孩子怎么办 #真实事件 #正能量 #安全 #泪目 #大数据推荐给有需要的人",
+          "author": "凤梨说",
+          "heat": "4644007次播放",
+          "url": "https://www.douyin.com/video/7699355725264424235"
+        },
+        {
+          "rank": 7,
+          "title": "VOGUE盛典明星红毯状态，这次红毯主题是绝色，你get到了吗？#迪丽热巴 #杨紫 #刘亦菲 #白鹿 #李昀锐 王鹤棣 关晓彤等",
+          "author": "明星娱乐一线",
+          "heat": "4571780次播放",
+          "url": "https://www.douyin.com/video/7699838138634171323"
+        },
+        {
+          "rank": 8,
+          "title": "小霸王和张律内心os：总有一个能爆吧#搞笑 #婚礼 #网红 #结婚 #小霸王张律婚礼",
+          "author": "追娱大明星",
+          "heat": "4317599次播放",
+          "url": "https://www.douyin.com/video/7699730134781218089"
+        },
+        {
+          "rank": 9,
+          "title": "评论区：你怕不要拿着我挡啊！#外卖小哥#电梯 #外卖员日常vlog #反转",
+          "author": "圈内芒果捞",
+          "heat": "4254711次播放",
+          "url": "https://www.douyin.com/video/7699708787510349066"
+        },
+        {
+          "rank": 10,
+          "title": "《跟随久了成了灵器了》 #万岁山武侠城 #万岁山侠影 #舞台",
+          "author": "喵酱爱吃娱",
+          "heat": "4211869次播放",
+          "url": "https://www.douyin.com/video/7699465284872097059"
+        },
+        {
+          "rank": 11,
+          "title": "依旧展示家庭地位！#小城良方 #小城良方绝佳下饭剧",
+          "author": "轻拿轻放",
+          "heat": "4063185次播放",
+          "url": "https://www.douyin.com/video/7699458434895398635"
+        },
+        {
+          "rank": 12,
+          "title": "屎壳郎：你不干有的是郎干。#万万没想到 #打工人 #澳大利亚 #屎壳郎",
+          "author": "小影娱乐",
+          "heat": "4012181次播放",
+          "url": "https://www.douyin.com/video/7699437222004542720"
+        },
+        {
+          "rank": 13,
+          "title": "任正非称社会终将走向人工智能 生产线已经全实现无人化自动化，没受过教育连做工人的机会都没有 #任正非 #华为 #AI #科技 #人工智能",
+          "author": "财研网AI",
+          "heat": "3922952次播放",
+          "url": "https://www.douyin.com/video/7699419690875030820"
+        },
+        {
+          "rank": 14,
+          "title": "这样吃着不烧心的糖葫芦 我先吃为敬 #现在糖葫芦都这么能装了吗 #冬天的第一场车厘子糖葫芦 #全网糖葫芦进入瑜伽裤时代 #糖葫芦",
+          "author": "小影娱乐",
+          "heat": "3630097次播放",
+          "url": "https://www.douyin.com/video/7699705852668325362"
+        },
+        {
+          "rank": 15,
+          "title": "我的功德要笑没了呀！#搞笑 #抽象 #万万没想到",
+          "author": "猪妹",
+          "heat": "3464418次播放",
+          "url": "https://www.douyin.com/video/7699450832563031338"
+        },
+        {
+          "rank": 16,
+          "title": "《亲爱的杀手》 底层微光里，两个残缺的人，替彼此活成一个明天。#佳片说 #了不起的精讲团 #影视万字精讲 #影视经典补完计划",
+          "author": "佳片说",
+          "heat": "3441687次播放",
+          "url": "https://www.douyin.com/video/7696458346936716571"
+        },
+        {
+          "rank": 17,
+          "title": "王兴兴称未来5-10年机器人走进家庭 首先需要每个老百姓都接受机器人，另外也要确保机器人的安全性 #宇树科技 #王兴兴 #AI #科技 #人工智能",
+          "author": "财研网AI",
+          "heat": "3433681次播放",
+          "url": "https://www.douyin.com/video/7699425610203958578"
+        },
+        {
+          "rank": 18,
+          "title": "今天老王给孩子们做了徐福烩饭， 看到孩子们大声的笑大口吃饭老王心都化了，能够好好吃饭，比什么都重要#抖音精选App #创作阶梯计划 #dou爱公益日 #抖音美食爱心厨房计划 #抖音精选app美食录",
+          "author": "老王在中国",
+          "heat": "3410133次播放",
+          "url": "https://www.douyin.com/video/7696805284890545434"
+        },
+        {
+          "rank": 19,
+          "title": "知道古代为什么重文轻武了#万万没想到 #语言的艺术 #搞笑 #萝卜干 #乒乓球",
+          "author": "呆猫吃娱",
+          "heat": "3391471次播放",
+          "url": "https://www.douyin.com/video/7699434373094970277"
+        },
+        {
+          "rank": 20,
+          "title": "魏娆你怎么不怨呢？拼尽全力得到的一切原本 #混剪产粮团 #嫁金钗 #嫁金钗名场面好酷好爽 #田曦薇 #魏娆 爱不满，恨不全，所以怨，魏娆小心翼翼地捧着证物来相认，被信任的碧桃背刺，被属于自己的阿母质疑，真的无力了",
+          "author": "云从星来",
+          "heat": "3383994次播放",
+          "url": "https://www.douyin.com/video/7699370740180716819"
+        }
+      ],
+      "error": null,
+      "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-24 18:35:28"
+      "update_time": "2026-10-24 18:40:29"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -31,11 +523,152 @@
       "category": "抖音",
       "icon": "⭐",
       "color": "#F59E0B",
-      "items": [],
-      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/RrvWy7Re5z",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "既怕闺蜜开路虎，又怕闺蜜过得苦！ #闺蜜 #嫉妒 #友谊 #未来导演扶持计划",
+          "author": "孙大聪明",
+          "heat": "14745305次播放",
+          "url": "https://www.douyin.com/video/7697285596309376256"
+        },
+        {
+          "rank": 2,
+          "title": "来吧，允许对我臣服 #尚公主开播 #尚公主 #暮晚摇",
+          "author": "孟子义",
+          "heat": "14444646次播放",
+          "url": "https://www.douyin.com/video/7699568348946625506"
+        },
+        {
+          "rank": 3,
+          "title": "君子论迹不论心～ #一念之差 #剧情 #东风奕派 #奕派M8#奕派M8满配华为乾崑SUV",
+          "author": "孙大聪明",
+          "heat": "8135798次播放",
+          "url": "https://www.douyin.com/video/7695022753090456883"
+        },
+        {
+          "rank": 4,
+          "title": "happy 10th year🩵",
+          "author": "虞书欣Esther",
+          "heat": "7275415次播放",
+          "url": "https://www.douyin.com/video/7699481958989486437"
+        },
+        {
+          "rank": 5,
+          "title": "今天把这件衣服翻出来啦 #旧照片 #回忆 #李小龙传奇",
+          "author": "演员陈国坤",
+          "heat": "7271160次播放",
+          "url": "https://www.douyin.com/video/7699369940352709199"
+        },
+        {
+          "rank": 6,
+          "title": "为什么和好之后，还是会分开？ #情感共鸣 #经验分享 #人生哲理 #认知思维",
+          "author": "张晨光",
+          "heat": "6045897次播放",
+          "url": "https://www.douyin.com/video/7697203373807815945"
+        },
+        {
+          "rank": 7,
+          "title": "这次轮到😈#一追就上头 #大狗大狗叫叫叫",
+          "author": "小鬼-王琳凯😈",
+          "heat": "5705672次播放",
+          "url": "https://www.douyin.com/video/7699803216154855099"
+        },
+        {
+          "rank": 8,
+          "title": "井迪突袭我家的24小时？！",
+          "author": "井胧(10.24成都巡演)",
+          "heat": "5554809次播放",
+          "url": "https://www.douyin.com/video/7699809072883713913"
+        },
+        {
+          "rank": 9,
+          "title": "Radar☞到你喽~#宋茜Radar袋鼠挥拳挑战 #宋茜新歌Radar",
+          "author": "宋茜",
+          "heat": "5380895次播放",
+          "url": "https://www.douyin.com/video/7699469588212506024"
+        },
+        {
+          "rank": 10,
+          "title": "美丽和莹莹#抖音玩法合伙人计划",
+          "author": "阚清子",
+          "heat": "4540099次播放",
+          "url": "https://www.douyin.com/video/7699823505701036793"
+        },
+        {
+          "rank": 11,
+          "title": "当然是把手松开啦👋 #剧剧抖有戏",
+          "author": "小田",
+          "heat": "4209371次播放",
+          "url": "https://www.douyin.com/video/7699043291048008945"
+        },
+        {
+          "rank": 12,
+          "title": "开开心心的过好每一天 #走进片场一秒入戏 #古装扮相分享 #古装飙戏 #古装片场日常 #哈哈哈哈哈哈我要笑死了",
+          "author": "卢星宇",
+          "heat": "4095300次播放",
+          "url": "https://www.douyin.com/video/7695113582917445627"
+        },
+        {
+          "rank": 13,
+          "title": "“你赶不走我”#嫁金钗 #我追嫁金钗酷酷安利 #田曦薇 #魏娆 #闫桉",
+          "author": "阿妤yeah",
+          "heat": "4008233次播放",
+          "url": "https://www.douyin.com/video/7699519203631549732"
+        },
+        {
+          "rank": 14,
+          "title": "你是谁😳",
+          "author": "张馨予",
+          "heat": "3700047次播放",
+          "url": "https://www.douyin.com/video/7699351013144864229"
+        },
+        {
+          "rank": 15,
+          "title": "给大家表演一个：女明星高高兴兴回家继承家业，结果天崩开局.😩#蒋一侨 #回家上班 #霸总剧本翻车现场",
+          "author": "蒋一侨",
+          "heat": "3605656次播放",
+          "url": "https://www.douyin.com/video/7699419822808117163"
+        },
+        {
+          "rank": 16,
+          "title": "停止等待认可 你生来就是顶配 #一追就上头 #早秋姐系穿搭法则 #我本该命途齐天唯有破开了天 #吉克隽逸新歌指引我归程",
+          "author": "吉克隽逸",
+          "heat": "3597639次播放",
+          "url": "https://www.douyin.com/video/7699708159938158769"
+        },
+        {
+          "rank": 17,
+          "title": "四季的旋律，总是由秋天开始变得深沉。",
+          "author": "李小璐",
+          "heat": "3452047次播放",
+          "url": "https://www.douyin.com/video/7699808761846156523"
+        },
+        {
+          "rank": 18,
+          "title": "急什么！少不了你的 #剧剧抖有戏",
+          "author": "小田",
+          "heat": "3428425次播放",
+          "url": "https://www.douyin.com/video/7697495265423184229"
+        },
+        {
+          "rank": 19,
+          "title": "好了，我和duo只有一线之隔了。",
+          "author": "徐可",
+          "heat": "3384692次播放",
+          "url": "https://www.douyin.com/video/7699682478172280292"
+        },
+        {
+          "rank": 20,
+          "title": "喵~🐱 #毛茸茸治愈一切",
+          "author": "徐若晗",
+          "heat": "3212959次播放",
+          "url": "https://www.douyin.com/video/7699761191816439729"
+        }
+      ],
+      "error": null,
+      "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-24 18:35:31"
+      "update_time": "2026-10-24 18:40:31"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -43,11 +676,82 @@
       "category": "百度",
       "icon": "🎬",
       "color": "#3B82F6",
-      "items": [],
-      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/4KvxRL1ekx",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "功夫女足",
+          "author": "",
+          "heat": "1.",
+          "url": "https://www.baidu.com/s?wd=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3"
+        },
+        {
+          "rank": 2,
+          "title": "欢迎来龙餐馆",
+          "author": "",
+          "heat": "2.",
+          "url": "https://www.baidu.com/s?wd=%E6%AC%A2%E8%BF%8E%E6%9D%A5%E9%BE%99%E9%A4%90%E9%A6%86"
+        },
+        {
+          "rank": 3,
+          "title": "蜘蛛侠：崭新之日",
+          "author": "",
+          "heat": "3.",
+          "url": "https://www.baidu.com/s?wd=%E8%9C%98%E8%9B%9B%E4%BE%A0%EF%BC%9A%E5%B4%AD%E6%96%B0%E4%B9%8B%E6%97%A5"
+        },
+        {
+          "rank": 4,
+          "title": "奥德赛",
+          "author": "",
+          "heat": "4.",
+          "url": "https://www.baidu.com/s?wd=%E5%A5%A5%E5%BE%B7%E8%B5%9B"
+        },
+        {
+          "rank": 5,
+          "title": "八仙！",
+          "author": "",
+          "heat": "5.",
+          "url": "https://www.baidu.com/s?wd=%E5%85%AB%E4%BB%99%EF%BC%81"
+        },
+        {
+          "rank": 6,
+          "title": "年会不能停2！",
+          "author": "",
+          "heat": "6.",
+          "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E4%BC%9A%E4%B8%8D%E8%83%BD%E5%81%9C2%EF%BC%81"
+        },
+        {
+          "rank": 7,
+          "title": "逃出绝命街",
+          "author": "",
+          "heat": "7.",
+          "url": "https://www.baidu.com/s?wd=%E9%80%83%E5%87%BA%E7%BB%9D%E5%91%BD%E8%A1%97"
+        },
+        {
+          "rank": 8,
+          "title": "大唐妖探",
+          "author": "",
+          "heat": "8.",
+          "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%94%90%E5%A6%96%E6%8E%A2"
+        },
+        {
+          "rank": 9,
+          "title": "去你的岛",
+          "author": "",
+          "heat": "9.",
+          "url": "https://www.baidu.com/s?wd=%E5%8E%BB%E4%BD%A0%E7%9A%84%E5%B2%9B"
+        },
+        {
+          "rank": 10,
+          "title": "想你了",
+          "author": "",
+          "heat": "10.",
+          "url": "https://www.baidu.com/s?wd=%E6%83%B3%E4%BD%A0%E4%BA%86"
+        }
+      ],
+      "error": null,
+      "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-24 18:35:37"
+      "update_time": "2026-10-24 18:40:34"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -55,11 +759,82 @@
       "category": "百度",
       "icon": "📺",
       "color": "#3B82F6",
-      "items": [],
-      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/ENeYp23dY4",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "九门",
+          "author": "",
+          "heat": "1.",
+          "url": "https://www.baidu.com/s?wd=%E4%B9%9D%E9%97%A8"
+        },
+        {
+          "rank": 2,
+          "title": "非份之罪",
+          "author": "",
+          "heat": "2.",
+          "url": "https://www.baidu.com/s?wd=%E9%9D%9E%E4%BB%BD%E4%B9%8B%E7%BD%AA"
+        },
+        {
+          "rank": 3,
+          "title": "这一秒过火",
+          "author": "",
+          "heat": "3.",
+          "url": "https://www.baidu.com/s?wd=%E8%BF%99%E4%B8%80%E7%A7%92%E8%BF%87%E7%81%AB"
+        },
+        {
+          "rank": 4,
+          "title": "百花杀",
+          "author": "",
+          "heat": "4.",
+          "url": "https://www.baidu.com/s?wd=%E7%99%BE%E8%8A%B1%E6%9D%80"
+        },
+        {
+          "rank": 5,
+          "title": "天才，女友",
+          "author": "",
+          "heat": "5.",
+          "url": "https://www.baidu.com/s?wd=%E5%A4%A9%E6%89%8D%EF%BC%8C%E5%A5%B3%E5%8F%8B"
+        },
+        {
+          "rank": 6,
+          "title": "御廷谣",
+          "author": "",
+          "heat": "6.",
+          "url": "https://www.baidu.com/s?wd=%E5%BE%A1%E5%BB%B7%E8%B0%A3"
+        },
+        {
+          "rank": 7,
+          "title": "小芳",
+          "author": "",
+          "heat": "7.",
+          "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E8%8A%B3"
+        },
+        {
+          "rank": 8,
+          "title": "雀骨",
+          "author": "",
+          "heat": "8.",
+          "url": "https://www.baidu.com/s?wd=%E9%9B%80%E9%AA%A8"
+        },
+        {
+          "rank": 9,
+          "title": "悬案",
+          "author": "",
+          "heat": "9.",
+          "url": "https://www.baidu.com/s?wd=%E6%82%AC%E6%A1%88"
+        },
+        {
+          "rank": 10,
+          "title": "人鱼",
+          "author": "",
+          "heat": "10.",
+          "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E9%B1%BC"
+        }
+      ],
+      "error": null,
+      "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-24 18:35:41"
+      "update_time": "2026-10-24 18:40:36"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -67,11 +842,362 @@
       "category": "哔哩哔哩",
       "icon": "📽️",
       "color": "#EC4899",
-      "items": [],
-      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/MZd77ypdrO",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "现实可比电影荒谬多了！这些看似鬼扯的桥段，一查资料全是真事！",
+          "author": "",
+          "heat": "193.4万",
+          "url": "https://www.bilibili.com/video/av117477925260303/"
+        },
+        {
+          "rank": 2,
+          "title": "史诗级发现，曼从中间劈开是MAN",
+          "author": "",
+          "heat": "206.4万",
+          "url": "https://www.bilibili.com/video/av117477992303222/"
+        },
+        {
+          "rank": 3,
+          "title": "大难不死的男孩爱上纯血家族的女孩【AI全民制作人】",
+          "author": "",
+          "heat": "276.5万",
+          "url": "https://www.bilibili.com/video/av117472019682726/"
+        },
+        {
+          "rank": 4,
+          "title": "抗日神剧逆天剧情！女兵战场睡觉？睡醒还要给她找吃的！",
+          "author": "",
+          "heat": "228.3万",
+          "url": "https://www.bilibili.com/video/av117477639980887/"
+        },
+        {
+          "rank": 5,
+          "title": "入局",
+          "author": "",
+          "heat": "158.0万",
+          "url": "https://www.bilibili.com/video/av117476281031296/"
+        },
+        {
+          "rank": 6,
+          "title": "绝对不能看的儿童节目！2026最新《逃出布迪秀》：坠入诡异老式儿童节目次元....",
+          "author": "",
+          "heat": "220.6万",
+          "url": "https://www.bilibili.com/video/av117472741035376/"
+        },
+        {
+          "rank": 7,
+          "title": "上课时唱网络热梗",
+          "author": "",
+          "heat": "118.7万",
+          "url": "https://www.bilibili.com/video/av117478512400918/"
+        },
+        {
+          "rank": 8,
+          "title": "不卖不卖,根本不肥【AI全民制作人】",
+          "author": "",
+          "heat": "83.7万",
+          "url": "https://www.bilibili.com/video/av117481968502293/"
+        },
+        {
+          "rank": 9,
+          "title": "一起命案竟有三十多个嫌疑人？光天化日行凶，却没人看到？《谜探路德维希》第二季 上",
+          "author": "",
+          "heat": "85.0万",
+          "url": "https://www.bilibili.com/video/av117477388453843/"
+        },
+        {
+          "rank": 10,
+          "title": "⚡⚡逆 天 复 仇 者⚡⚡",
+          "author": "",
+          "heat": "81.5万",
+          "url": "https://www.bilibili.com/video/av117490172566027/"
+        },
+        {
+          "rank": 11,
+          "title": "【立志成为恶兽】07 新武器等离子大炮！【UP动画】",
+          "author": "",
+          "heat": "56.7万",
+          "url": "https://www.bilibili.com/video/av117484720035841/"
+        },
+        {
+          "rank": 12,
+          "title": "《锻刀大赛》非洲邪门武器反伤评委 华裔选手水淬封神！",
+          "author": "",
+          "heat": "90.8万",
+          "url": "https://www.bilibili.com/video/av117477874932532/"
+        },
+        {
+          "rank": 13,
+          "title": "“踏出自己的路，这一刻比封神更重！！！”",
+          "author": "",
+          "heat": "92.7万",
+          "url": "https://www.bilibili.com/video/av117489132374451/"
+        },
+        {
+          "rank": 14,
+          "title": "爆笑喜剧！一己之力拿下一群好莱坞明星，恶搞讽刺又黑色幽默，全程高能让人笑不停！",
+          "author": "",
+          "heat": "74.5万",
+          "url": "https://www.bilibili.com/video/av117482589328884/"
+        },
+        {
+          "rank": 15,
+          "title": "吓晕观众！竖锯谢幕！对比三个版本，我们还复原出《电锯惊魂3》上映背后的删减秘事！",
+          "author": "",
+          "heat": "63.8万",
+          "url": "https://www.bilibili.com/video/av117477640048860/"
+        },
+        {
+          "rank": 16,
+          "title": "这种主角最阴了，你问他赢了还是输了，他说他悟了！",
+          "author": "",
+          "heat": "120.8万",
+          "url": "https://www.bilibili.com/video/av117470878761142/"
+        },
+        {
+          "rank": 17,
+          "title": "巨构：移动城邦｜大灾变档案【砼核纪元】",
+          "author": "",
+          "heat": "109.8万",
+          "url": "https://www.bilibili.com/video/av117478025922467/"
+        },
+        {
+          "rank": 18,
+          "title": "《妖怪衙门》第三集（上） 壮胆",
+          "author": "",
+          "heat": "67.5万",
+          "url": "https://www.bilibili.com/video/av117479233821686/"
+        },
+        {
+          "rank": 19,
+          "title": "细读经典：医生说他活不过 20 岁，他却在另一个世界，活出了非凡人生",
+          "author": "",
+          "heat": "49.4万",
+          "url": "https://www.bilibili.com/video/av117467489769669/"
+        },
+        {
+          "rank": 20,
+          "title": "闺蜜 help 闺蜜《我不是npc》2-3集解说",
+          "author": "",
+          "heat": "46.5万",
+          "url": "https://www.bilibili.com/video/av117478311136414/"
+        },
+        {
+          "rank": 21,
+          "title": "沉浸式体验清代御厨做古法灌汤小笼包【AI全民制作人】",
+          "author": "",
+          "heat": "60.2万",
+          "url": "https://www.bilibili.com/video/av117482991983470/"
+        },
+        {
+          "rank": 22,
+          "title": "不嫁入豪门就出不来的学校→ 丨妖怪澡堂丨第八回丨【B站AI影视片场】",
+          "author": "",
+          "heat": "62.0万",
+          "url": "https://www.bilibili.com/video/av117483981837668/"
+        },
+        {
+          "rank": 23,
+          "title": "兵部尚书活活冻死？？",
+          "author": "",
+          "heat": "94.3万",
+          "url": "https://www.bilibili.com/video/av117474435535271/"
+        },
+        {
+          "rank": 24,
+          "title": "“我从来没有如此神清气爽过。”",
+          "author": "",
+          "heat": "44.0万",
+          "url": "https://www.bilibili.com/video/av117480827654322/"
+        },
+        {
+          "rank": 25,
+          "title": "太阳也有接触不良的时候，掀开它底下的盖子，插上电，闪两下，它才肯亮",
+          "author": "",
+          "heat": "56.0万",
+          "url": "https://www.bilibili.com/video/av117479015782475/"
+        },
+        {
+          "rank": 26,
+          "title": "豆瓣5.6！狗尾续貂还是不被理解？ 夜之城最“区”传奇诞生记！万字拆解《赛博朋克：边缘行者2》",
+          "author": "",
+          "heat": "48.0万",
+          "url": "https://www.bilibili.com/video/av117484132833255/"
+        },
+        {
+          "rank": 27,
+          "title": "马桶家族全集",
+          "author": "",
+          "heat": "52.1万",
+          "url": "https://www.bilibili.com/video/av117477657021678/"
+        },
+        {
+          "rank": 28,
+          "title": "新三国up锐评老三国24：布平生不好斗，唯好解斗！",
+          "author": "",
+          "heat": "45.7万",
+          "url": "https://www.bilibili.com/video/av117482689923608/"
+        },
+        {
+          "rank": 29,
+          "title": "【灾厄TV】第一集：传送新世界！",
+          "author": "",
+          "heat": "34.0万",
+          "url": "https://www.bilibili.com/video/av117478361405955/"
+        },
+        {
+          "rank": 30,
+          "title": "“打开神龙秘籍的那一刻，至此封神！！！”",
+          "author": "",
+          "heat": "277.9万",
+          "url": "https://www.bilibili.com/video/av117450091793332/"
+        },
+        {
+          "rank": 31,
+          "title": "当你在十万人宿舍网红餐厅探店【AI全民制作人】",
+          "author": "",
+          "heat": "39.7万",
+          "url": "https://www.bilibili.com/video/av117488108965186/"
+        },
+        {
+          "rank": 32,
+          "title": "《我的发小不好惹》第二集",
+          "author": "",
+          "heat": "35.9万",
+          "url": "https://www.bilibili.com/video/av117479032489898/"
+        },
+        {
+          "rank": 33,
+          "title": "香港电影竟如此丧心病狂67：周星驰《济公》神话破灭，香港电影迎来灭顶之灾",
+          "author": "",
+          "heat": "42.3万",
+          "url": "https://www.bilibili.com/video/av117482203519859/"
+        },
+        {
+          "rank": 34,
+          "title": "“你根本不知道我的罪孽有多深。” “你根本不知道这的菩萨有多灵。”",
+          "author": "",
+          "heat": "57.5万",
+          "url": "https://www.bilibili.com/video/av117473865108767/"
+        },
+        {
+          "rank": 35,
+          "title": "10月最大惊喜「逃出布迪秀」儿童节目变诱拐杀人实况 | 豆瓣7.2分模拟恐怖佳作",
+          "author": "",
+          "heat": "38.1万",
+          "url": "https://www.bilibili.com/video/av117485021960837/"
+        },
+        {
+          "rank": 36,
+          "title": "《清微观来的插班生》EP02 ：报告老师！有蛇精！ 【UP动画】",
+          "author": "",
+          "heat": "81.4万",
+          "url": "https://www.bilibili.com/video/av117472942426710/"
+        },
+        {
+          "rank": 37,
+          "title": "“我叫陈桂林”",
+          "author": "",
+          "heat": "192.6万",
+          "url": "https://www.bilibili.com/video/av117411403532057/"
+        },
+        {
+          "rank": 38,
+          "title": "110分钟精细解读《双瞳》！到底什么是修仙！",
+          "author": "",
+          "heat": "35.8万",
+          "url": "https://www.bilibili.com/video/av117483210083398/"
+        },
+        {
+          "rank": 39,
+          "title": "【mj小剧场】“罪恶的份量？”",
+          "author": "",
+          "heat": "28.1万",
+          "url": "https://www.bilibili.com/video/av117478076320636/"
+        },
+        {
+          "rank": 40,
+          "title": "征服者康演员现在咋样了？让他败诉的家暴案有多抽象？",
+          "author": "",
+          "heat": "64.7万",
+          "url": "https://www.bilibili.com/video/av117476130031125/"
+        },
+        {
+          "rank": 41,
+          "title": "这下灭霸要遗憾一辈子",
+          "author": "",
+          "heat": "43.2万",
+          "url": "https://www.bilibili.com/video/av117479502256317/"
+        },
+        {
+          "rank": 42,
+          "title": "今年最佳悬疑喜剧，一上来四条人命，一唠嗑全是梗",
+          "author": "",
+          "heat": "59.4万",
+          "url": "https://www.bilibili.com/video/av117472086790388/"
+        },
+        {
+          "rank": 43,
+          "title": "早期爽剧，康熙被掳去矿山做苦工，真皇帝打脸土皇帝！太精彩了！",
+          "author": "",
+          "heat": "57.9万",
+          "url": "https://www.bilibili.com/video/av117488142520452/"
+        },
+        {
+          "rank": 44,
+          "title": "真·香港枪王操刀，最硬核枪战港片的专业细节 | 漫谈《枪王》【01】",
+          "author": "",
+          "heat": "41.3万",
+          "url": "https://www.bilibili.com/video/av117479384880794/"
+        },
+        {
+          "rank": 45,
+          "title": "女人的一个错误决定，竟让她踏入了无法回头的深渊！《害群之马》",
+          "author": "",
+          "heat": "80.3万",
+          "url": "https://www.bilibili.com/video/av117489065270093/"
+        },
+        {
+          "rank": 46,
+          "title": "《浮生若梦》假如你有80万重骑皇帝还要赐死你",
+          "author": "",
+          "heat": "156.9万",
+          "url": "https://www.bilibili.com/video/av117475156953867/"
+        },
+        {
+          "rank": 47,
+          "title": "【人民的名义66】我来监督李达康，谁来监督沙瑞金？（又名：同志们，我们下一期开始讲《龙年档案》）",
+          "author": "",
+          "heat": "43.1万",
+          "url": "https://www.bilibili.com/video/av117477388324899/"
+        },
+        {
+          "rank": 48,
+          "title": "⚡你是穆兰，那我是谁？⚡",
+          "author": "",
+          "heat": "51.1万",
+          "url": "https://www.bilibili.com/video/av117477740708075/"
+        },
+        {
+          "rank": 49,
+          "title": "2026艾滋病新规！",
+          "author": "",
+          "heat": "54.3万",
+          "url": "https://www.bilibili.com/video/av117473714243253/"
+        },
+        {
+          "rank": 50,
+          "title": "里昂叔叔带你通关生化危机爆发夜【AI全民制作人】",
+          "author": "",
+          "heat": "106.9万",
+          "url": "https://www.bilibili.com/video/av117464989964868/"
+        }
+      ],
+      "error": null,
+      "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-24 18:35:44"
+      "update_time": "2026-10-24 18:40:38"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -79,11 +1205,362 @@
       "category": "哔哩哔哩",
       "icon": "🎮",
       "color": "#EC4899",
-      "items": [],
-      "error": "tophub请求失败: 403 Client Error: Forbidden for url: https://tophub.today/n/YKd67qneaP",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "因为智商不够，从EXO到生子，被打脸的嘴硬的一生。【黄子韬徐艺洋官宣生子】",
+          "author": "",
+          "heat": "185.4万",
+          "url": "https://www.bilibili.com/video/av117482002057599/"
+        },
+        {
+          "rank": 2,
+          "title": "CORTIS男团学解说（二）这堪比花少2",
+          "author": "",
+          "heat": "54.4万",
+          "url": "https://www.bilibili.com/video/av117479099602794/"
+        },
+        {
+          "rank": 3,
+          "title": "医学博士不临床？诊病一句我盲猜，从此开启子祺元年",
+          "author": "",
+          "heat": "94.0万",
+          "url": "https://www.bilibili.com/video/av117484350870954/"
+        },
+        {
+          "rank": 4,
+          "title": "中国选手打进决赛 挑战 澳、日、泰 顶尖胃袋！ 《胃袋挑战》",
+          "author": "",
+          "heat": "80.2万",
+          "url": "https://www.bilibili.com/video/av117471365302077/"
+        },
+        {
+          "rank": 5,
+          "title": "对话十个勤天的小友｜丞相还挺忙·赵小童",
+          "author": "",
+          "heat": "41.6万",
+          "url": "https://www.bilibili.com/video/av117471667296919/"
+        },
+        {
+          "rank": 6,
+          "title": "自费买高定？临时赖红毯？粉丝大比拼！【时尚芭莎夜乐子大赏】",
+          "author": "",
+          "heat": "63.1万",
+          "url": "https://www.bilibili.com/video/av117482757034325/"
+        },
+        {
+          "rank": 7,
+          "title": "你能想象张若昀扇唐艺昕一巴掌吗？说白了就是性格问题，跟非主流有什么关系",
+          "author": "",
+          "heat": "45.6万",
+          "url": "https://www.bilibili.com/video/av117478025861209/"
+        },
+        {
+          "rank": 8,
+          "title": "【SNH48】林舒晴塌房：私联、嘴队友，骂粉丝、还顺手炸出个私联恋爱大四角",
+          "author": "",
+          "heat": "41.0万",
+          "url": "https://www.bilibili.com/video/av117477975661344/"
+        },
+        {
+          "rank": 9,
+          "title": "王扁街头遇袭事件：前经纪人为何欲夺人性命？",
+          "author": "",
+          "heat": "297.2万",
+          "url": "https://www.bilibili.com/video/av117467590430089/"
+        },
+        {
+          "rank": 10,
+          "title": "医学博士看病靠盲猜！offer8的协和董小姐2.0让中国医学生天塌了！",
+          "author": "",
+          "heat": "39.4万",
+          "url": "https://www.bilibili.com/video/av117484552192170/"
+        },
+        {
+          "rank": 11,
+          "title": "为何黄子韬徐艺洋这对夫妻被全网唾弃！！",
+          "author": "",
+          "heat": "45.0万",
+          "url": "https://www.bilibili.com/video/av117477539318034/"
+        },
+        {
+          "rank": 12,
+          "title": "北美爱情故事2",
+          "author": "",
+          "heat": "45.2万",
+          "url": "https://www.bilibili.com/video/av117485525273203/"
+        },
+        {
+          "rank": 13,
+          "title": "情感资本双线复盘李小冉离婚：拆解比利时古堡婚礼背后的婚姻和资本逻辑",
+          "author": "",
+          "heat": "32.4万",
+          "url": "https://www.bilibili.com/video/av117476784413486/"
+        },
+        {
+          "rank": 14,
+          "title": "【吃瓜报告】老赖之女出道不还钱、黄子韬霸气护妻怼网友、宋佳奖运逆天终爆发（近期热门事件后续）",
+          "author": "",
+          "heat": "22.4万",
+          "url": "https://www.bilibili.com/video/av117483914794500/"
+        },
+        {
+          "rank": 15,
+          "title": "CP炒完没？炒完回家吧回家吧！【李昀锐孟子义你好星期六剧宣争议复盘】",
+          "author": "",
+          "heat": "60.6万",
+          "url": "https://www.bilibili.com/video/av117472137120333/"
+        },
+        {
+          "rank": 16,
+          "title": "morning samgyeopsal",
+          "author": "",
+          "heat": "28.9万",
+          "url": "https://www.bilibili.com/video/av117470895673642/"
+        },
+        {
+          "rank": 17,
+          "title": "【乌镇戏剧节】黄磊见到最怕的人后飞走了？",
+          "author": "",
+          "heat": "28.3万",
+          "url": "https://www.bilibili.com/video/av117475425390964/"
+        },
+        {
+          "rank": 18,
+          "title": "笑死天资真的很残忍，谁说卷高定还不如一件白衬衫！！",
+          "author": "",
+          "heat": "35.9万",
+          "url": "https://www.bilibili.com/video/av117479418429446/"
+        },
+        {
+          "rank": 19,
+          "title": "梦开始的地方",
+          "author": "",
+          "heat": "28.4万",
+          "url": "https://www.bilibili.com/video/av117489249818763/"
+        },
+        {
+          "rank": 20,
+          "title": "王扁伤情好转，感谢大家关心，出院给大家做烧烤",
+          "author": "",
+          "heat": "29.5万",
+          "url": "https://www.bilibili.com/video/av117479653312422/"
+        },
+        {
+          "rank": 21,
+          "title": "欠钱不还却有钱出道？是谁又在给老赖之女洗白？深扒李秀满新女团成员盛艾敬！",
+          "author": "",
+          "heat": "453.7万",
+          "url": "https://www.bilibili.com/video/av117450158907258/"
+        },
+        {
+          "rank": 22,
+          "title": "【配音模仿台媒】报道宋佳拿遍各大奖项，已成红遍亚洲的殿堂级影后？",
+          "author": "",
+          "heat": "22.4万",
+          "url": "https://www.bilibili.com/video/av117479149995769/"
+        },
+        {
+          "rank": 23,
+          "title": "【REACTION】路人第一次看李秀满俩大型新团舞台！女团A2O LITE夸夸局，男团A2O SOUL评价不一？(首舞台+合作舞台+女团接力reaction)",
+          "author": "",
+          "heat": "16.8万",
+          "url": "https://www.bilibili.com/video/av117479351261859/"
+        },
+        {
+          "rank": 24,
+          "title": "时尚芭莎Reaction，厚本谁请来的",
+          "author": "",
+          "heat": "17.7万",
+          "url": "https://www.bilibili.com/video/av117479619827006/"
+        },
+        {
+          "rank": 25,
+          "title": "当我给导师看《心动的offer》……",
+          "author": "",
+          "heat": "23.3万",
+          "url": "https://www.bilibili.com/video/av117484652986447/"
+        },
+        {
+          "rank": 26,
+          "title": "【高战士】黄婷婷被贴脸开大，许飞厉娜背刺修罗场【后会友期01】",
+          "author": "",
+          "heat": "17.2万",
+          "url": "https://www.bilibili.com/video/av117484552260597/"
+        },
+        {
+          "rank": 27,
+          "title": "爆笑盘点！我用的快本表情包原来出自这些名场面！",
+          "author": "",
+          "heat": "28.4万",
+          "url": "https://www.bilibili.com/video/av117471415700422/"
+        },
+        {
+          "rank": 28,
+          "title": "爆综预定！再见朋友它来了！四组风味不同的BE！许飞“背刺”厉娜？【后会友期01】",
+          "author": "",
+          "heat": "14.7万",
+          "url": "https://www.bilibili.com/video/av117489921038891/"
+        },
+        {
+          "rank": 29,
+          "title": "同样60多岁，你会选择自然老去还是维持冻龄？",
+          "author": "",
+          "heat": "19.7万",
+          "url": "https://www.bilibili.com/video/av117472355157905/"
+        },
+        {
+          "rank": 30,
+          "title": "恋综男嘉宾还是太想拿下Ally的a8大结果了…",
+          "author": "",
+          "heat": "15.3万",
+          "url": "https://www.bilibili.com/video/av117478193632842/"
+        },
+        {
+          "rank": 31,
+          "title": "现在的SM为何如此反感李秀满的A2O 如果李秀满没有输掉内斗？SM现在会是什么样子 ｜SM内斗时间线盘点【复盘】",
+          "author": "",
+          "heat": "14.1万",
+          "url": "https://www.bilibili.com/video/av117476482484962/"
+        },
+        {
+          "rank": 32,
+          "title": "小E赖床的样子太可爱了(*/ω＼*)",
+          "author": "",
+          "heat": "10.0万",
+          "url": "https://www.bilibili.com/video/av117486531903612/"
+        },
+        {
+          "rank": 33,
+          "title": "【吃瓜SP】欠钱的露屁股的摄政辱华的，kpop真的闹鬼了",
+          "author": "",
+          "heat": "17.3万",
+          "url": "https://www.bilibili.com/video/av117473781290523/"
+        },
+        {
+          "rank": 34,
+          "title": "论装？“子韬”比“嘉豪”狠多了",
+          "author": "",
+          "heat": "25.0万",
+          "url": "https://www.bilibili.com/video/av117479300930480/"
+        },
+        {
+          "rank": 35,
+          "title": "昔日挚友遭背刺停工，兄弟反目大爆猛料《后会友期》震撼来袭",
+          "author": "",
+          "heat": "15.9万",
+          "url": "https://www.bilibili.com/video/av117484988468633/"
+        },
+        {
+          "rank": 36,
+          "title": "天哪没一点医美痕迹，这姐真能说自己30岁之后更美！",
+          "author": "",
+          "heat": "14.0万",
+          "url": "https://www.bilibili.com/video/av117481867840883/"
+        },
+        {
+          "rank": 37,
+          "title": "[GOING JxJ SPECIAL] THE DREAM GAME SHOW #2",
+          "author": "",
+          "heat": "6.5万",
+          "url": "https://www.bilibili.com/video/av117478294357898/"
+        },
+        {
+          "rank": 38,
+          "title": "【我家那闺女2026】张家齐妈妈说女儿的钱一分没动…代露娃说自己也曾自卑怯懦？换个朋友继续诉苦。",
+          "author": "",
+          "heat": "12.0万",
+          "url": "https://www.bilibili.com/video/av117478076191016/"
+        },
+        {
+          "rank": 39,
+          "title": "[24/7📹LOG] 小道一家全家的第一次日本旅行 🚠ㅣTWS",
+          "author": "",
+          "heat": "4.4万",
+          "url": "https://www.bilibili.com/video/av117489551805112/"
+        },
+        {
+          "rank": 40,
+          "title": "赛博人物志第21期：刘晓艳",
+          "author": "",
+          "heat": "8.1万",
+          "url": "https://www.bilibili.com/video/av117489031715461/"
+        },
+        {
+          "rank": 41,
+          "title": "【回顾明侦S3E12】收官封神、完结撒花！天堂岛的秘密，远比命案更复杂",
+          "author": "",
+          "heat": "7.6万",
+          "url": "https://www.bilibili.com/video/av117489031714647/"
+        },
+        {
+          "rank": 42,
+          "title": "好闺蜜再见面变仇人！王子璇被气疯了！《再见爱人》友情版真烧心！《后会友期》",
+          "author": "",
+          "heat": "11.2万",
+          "url": "https://www.bilibili.com/video/av117483663001113/"
+        },
+        {
+          "rank": 43,
+          "title": "VOGUE盛典造型真的赢麻了！从此以后，内娱女明星红毯只分迪丽热巴和其他！",
+          "author": "",
+          "heat": "8.0万",
+          "url": "https://www.bilibili.com/video/av117490642325506/"
+        },
+        {
+          "rank": 44,
+          "title": "1996版三毛饰演者孟智超已经40岁 ：和曹骏是童星与好友，他翻红，我很高兴，也很羡慕",
+          "author": "",
+          "heat": "13.0万",
+          "url": "https://www.bilibili.com/video/av117485340724337/"
+        },
+        {
+          "rank": 45,
+          "title": "日赚208万依然崩溃，素人爽到底在焦虑什么啊",
+          "author": "",
+          "heat": "8.0万",
+          "url": "https://www.bilibili.com/video/av117476465645290/"
+        },
+        {
+          "rank": 46,
+          "title": "上百名时代峰峻粉丝被骗，骗子还是个私生？",
+          "author": "",
+          "heat": "77.3万",
+          "url": "https://www.bilibili.com/video/av117449622036384/"
+        },
+        {
+          "rank": 47,
+          "title": "【驼】被张家齐妈妈气死，被代露娃迷惑死，被蔡文静笑死，全是神人 [我家那闺女]",
+          "author": "",
+          "heat": "53.0万",
+          "url": "https://www.bilibili.com/video/av117461416483640/"
+        },
+        {
+          "rank": 48,
+          "title": "[威神V/WayV] 𝗟𝗜𝗩𝗘🔎寻找承载着回忆的最终目的地！🗺️ | 𓊈Finding XIAOJUN! 寻找肖俊！𓊉",
+          "author": "",
+          "heat": "2.0万",
+          "url": "https://www.bilibili.com/video/av117483780509045/"
+        },
+        {
+          "rank": 49,
+          "title": "体验了一把专业MC的人生 | 我的名字叫金善禹 EP.1 | ENHYPEN SUNOO",
+          "author": "",
+          "heat": "2.4万",
+          "url": "https://www.bilibili.com/video/av117483847617079/"
+        },
+        {
+          "rank": 50,
+          "title": "赵露思真是一出门就闹笑话，造型团队拉踩白鹿，红毯赖着不走，被曝自费穿高定，杨幂也是好起来了可以和厚本同台了",
+          "author": "",
+          "heat": "9.2万",
+          "url": "https://www.bilibili.com/video/av117483293903973/"
+        }
+      ],
+      "error": null,
+      "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-24 18:35:47"
+      "update_time": "2026-10-24 18:40:40"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -94,72 +1571,79 @@
       "items": [
         {
           "rank": 1,
-          "title": "逃出布迪秀",
+          "title": "希望",
           "author": "",
-          "heat": "7.3",
-          "url": "https://movie.douban.com/subject/37446297/"
+          "heat": "1.",
+          "url": "https://movie.douban.com/subject/36179101/"
         },
         {
           "rank": 2,
-          "title": "杯雪·一战成名 / 一战成名 / 杯雪·夜雨打金荷",
+          "title": "逃出布迪秀",
           "author": "",
-          "heat": "7.5",
-          "url": "https://movie.douban.com/subject/37516455/"
+          "heat": "2.",
+          "url": "https://movie.douban.com/subject/37446297/"
         },
         {
           "rank": 3,
-          "title": "潜伏6 / 儿凶：屠出暗界(港) / 阴儿房：穿越阴深处(台)",
+          "title": "杯雪·一战成名",
           "author": "",
-          "heat": "6.6",
-          "url": "https://movie.douban.com/subject/37525017/"
+          "heat": "3.",
+          "url": "https://movie.douban.com/subject/37516455/"
         },
         {
           "rank": 4,
-          "title": "罗斯 / 扑朔迷离的露丝(港)",
+          "title": "潜伏6",
           "author": "",
-          "heat": "8.5",
-          "url": "https://movie.douban.com/subject/35322132/"
+          "heat": "4.",
+          "url": "https://movie.douban.com/subject/37525017/"
         },
         {
           "rank": 5,
-          "title": "人性本兽 / 政界野兽 / 动物",
+          "title": "罗斯",
           "author": "",
-          "heat": "5.8",
-          "url": "https://movie.douban.com/subject/36749187/"
+          "heat": "5.",
+          "url": "https://movie.douban.com/subject/35322132/"
         },
         {
           "rank": 6,
-          "title": "功夫女足 / 女足 / 少林女足",
+          "title": "人性本兽",
           "author": "",
-          "heat": "5.9",
-          "url": "https://movie.douban.com/subject/36452545/"
+          "heat": "6.",
+          "url": "https://movie.douban.com/subject/36749187/"
         },
         {
           "rank": 7,
-          "title": "另一个妈妈 / 另一个妈咪(台) / 衣柜里的妈咪(港)",
+          "title": "功夫女足",
           "author": "",
-          "heat": "5.6",
-          "url": "https://movie.douban.com/subject/37317907/"
+          "heat": "7.",
+          "url": "https://movie.douban.com/subject/36452545/"
         },
         {
           "rank": 8,
-          "title": "一个部门的诞生 / Dog Day Evening",
+          "title": "另一个妈妈",
           "author": "",
-          "heat": "7.2",
-          "url": "https://movie.douban.com/subject/36937765/"
+          "heat": "8.",
+          "url": "https://movie.douban.com/subject/37317907/"
         },
         {
           "rank": 9,
-          "title": "可能的爱 / 假如爱有如果(台) / 可能的爱情",
+          "title": "一个部门的诞生",
           "author": "",
-          "heat": "8.5",
+          "heat": "9.",
+          "url": "https://movie.douban.com/subject/36937765/"
+        },
+        {
+          "rank": 10,
+          "title": "可能的爱",
+          "author": "",
+          "heat": "10.",
           "url": "https://movie.douban.com/subject/36847425/"
         }
       ],
       "error": null,
-      "item_count": 9,
-      "source_used": "original",
-      "update_time": "2026-10-24 18:35:51"
+      "item_count": 10,
+      "source_used": "tophub",
+      "update_time": "2026-10-24 18:40:42"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -172,357 +1656,357 @@
           "rank": 1,
           "title": "生日快乐",
           "author": "",
-          "heat": "8.9",
-          "url": "https://movie.douban.com/subject/37322586/?from=playing_poster"
+          "heat": "1.",
+          "url": "https://movie.douban.com/subject/37322586"
         },
         {
           "rank": 2,
           "title": "愤怒的老虎",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37088929/?from=playing_poster"
+          "heat": "2.",
+          "url": "https://movie.douban.com/subject/37088929"
         },
         {
           "rank": 3,
-          "title": "小羊肖恩3：...",
+          "title": "小羊肖恩3：怪兽来袭",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37344902/?from=playing_poster"
+          "heat": "3.",
+          "url": "https://movie.douban.com/subject/37344902"
         },
         {
           "rank": 4,
-          "title": "生化危机：爆...",
+          "title": "生化危机：爆发夜",
           "author": "",
-          "heat": "7.3",
-          "url": "https://movie.douban.com/subject/37068446/?from=playing_poster"
+          "heat": "4.",
+          "url": "https://movie.douban.com/subject/37068446"
         },
         {
           "rank": 5,
-          "title": "一个夜晚与三...",
+          "title": "一个夜晚与三个夏天",
           "author": "",
-          "heat": "7.2",
-          "url": "https://movie.douban.com/subject/36449264/?from=playing_poster"
+          "heat": "5.",
+          "url": "https://movie.douban.com/subject/36449264"
         },
         {
           "rank": 6,
           "title": "象行记",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/36464801/?from=playing_poster"
+          "heat": "6.",
+          "url": "https://movie.douban.com/subject/36464801"
         },
         {
           "rank": 7,
-          "title": "神探之痕迹‎...",
+          "title": "神探之痕迹‎",
           "author": "",
-          "heat": "6.8",
-          "url": "https://movie.douban.com/subject/37247814/?from=playing_poster"
+          "heat": "7.",
+          "url": "https://movie.douban.com/subject/37247814"
         },
         {
           "rank": 8,
           "title": "老江湖",
           "author": "",
-          "heat": "4.6",
-          "url": "https://movie.douban.com/subject/35840408/?from=playing_poster"
+          "heat": "8.",
+          "url": "https://movie.douban.com/subject/35840408"
         },
         {
           "rank": 9,
-          "title": "三星堆：未来...",
+          "title": "三星堆：未来往事",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37509917/?from=playing_poster"
+          "heat": "9.",
+          "url": "https://movie.douban.com/subject/37509917"
         },
         {
           "rank": 10,
           "title": "野兽之心",
           "author": "",
-          "heat": "7.3",
-          "url": "https://movie.douban.com/subject/36828393/?from=playing_poster"
+          "heat": "10.",
+          "url": "https://movie.douban.com/subject/36828393"
         },
         {
           "rank": 11,
           "title": "鲸口脱险",
           "author": "",
-          "heat": "6.1",
-          "url": "https://movie.douban.com/subject/36806762/?from=playing_poster"
+          "heat": "11.",
+          "url": "https://movie.douban.com/subject/36806762"
         },
         {
           "rank": 12,
-          "title": "什么意思夫妇...",
+          "title": "什么意思夫妇",
           "author": "",
-          "heat": "6.3",
-          "url": "https://movie.douban.com/subject/37667015/?from=playing_poster"
+          "heat": "12.",
+          "url": "https://movie.douban.com/subject/37667015"
         },
         {
           "rank": 13,
           "title": "空枪",
           "author": "",
-          "heat": "7.2",
-          "url": "https://movie.douban.com/subject/37508847/?from=playing_poster"
+          "heat": "13.",
+          "url": "https://movie.douban.com/subject/37508847"
         },
         {
           "rank": 14,
           "title": "重生2",
           "author": "",
-          "heat": "6.5",
-          "url": "https://movie.douban.com/subject/37403222/?from=playing_poster"
+          "heat": "14.",
+          "url": "https://movie.douban.com/subject/37403222"
         },
         {
           "rank": 15,
           "title": "活色生香",
           "author": "",
-          "heat": "6.9",
-          "url": "https://movie.douban.com/subject/37899051/?from=playing_poster"
+          "heat": "15.",
+          "url": "https://movie.douban.com/subject/37899051"
         },
         {
           "rank": 16,
-          "title": "欢迎来龙餐馆...",
+          "title": "欢迎来龙餐馆",
           "author": "",
-          "heat": "8.7",
-          "url": "https://movie.douban.com/subject/35811064/?from=playing_poster"
+          "heat": "16.",
+          "url": "https://movie.douban.com/subject/35811064"
         },
         {
           "rank": 17,
-          "title": "勇敢女孩合唱...",
+          "title": "勇敢女孩合唱团",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37474012/?from=playing_poster"
+          "heat": "17.",
+          "url": "https://movie.douban.com/subject/37474012"
         },
         {
           "rank": 18,
           "title": "敦煌英雄",
           "author": "",
-          "heat": "6.0",
-          "url": "https://movie.douban.com/subject/35244246/?from=playing_poster"
+          "heat": "18.",
+          "url": "https://movie.douban.com/subject/35244246"
         },
         {
           "rank": 19,
           "title": "非凡的你",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37450049/?from=playing_poster"
+          "heat": "19.",
+          "url": "https://movie.douban.com/subject/37450049"
         },
         {
           "rank": 20,
           "title": "奥德赛",
           "author": "",
-          "heat": "8.6",
-          "url": "https://movie.douban.com/subject/36808876/?from=playing_poster"
+          "heat": "20.",
+          "url": "https://movie.douban.com/subject/36808876"
         },
         {
           "rank": 21,
-          "title": "逐浪之文圣常...",
+          "title": "逐浪之文圣常",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37070811/?from=playing_poster"
+          "heat": "21.",
+          "url": "https://movie.douban.com/subject/37070811"
         },
         {
           "rank": 22,
-          "title": "坠落2：死点...",
+          "title": "坠落2：死点",
           "author": "",
-          "heat": "5.2",
-          "url": "https://movie.douban.com/subject/36318704/?from=playing_poster"
+          "heat": "22.",
+          "url": "https://movie.douban.com/subject/36318704"
         },
         {
           "rank": 23,
-          "title": "杀死比尔：血...",
+          "title": "杀死比尔：血色全传",
           "author": "",
-          "heat": "8.7",
-          "url": "https://movie.douban.com/subject/10756537/?from=playing_poster"
+          "heat": "23.",
+          "url": "https://movie.douban.com/subject/10756537"
         },
         {
           "rank": 24,
           "title": "痴迷",
           "author": "",
-          "heat": "7.6",
-          "url": "https://movie.douban.com/subject/37450627/?from=playing_poster"
+          "heat": "24.",
+          "url": "https://movie.douban.com/subject/37450627"
         },
         {
           "rank": 25,
-          "title": "肖申克的救赎...",
+          "title": "肖申克的救赎",
           "author": "",
-          "heat": "9.7",
-          "url": "https://movie.douban.com/subject/1292052/?from=playing_poster"
+          "heat": "25.",
+          "url": "https://movie.douban.com/subject/1292052"
         },
         {
           "rank": 26,
-          "title": "小猪佩奇·完...",
+          "title": "小猪佩奇·完美假期",
           "author": "",
-          "heat": "6.3",
-          "url": "https://movie.douban.com/subject/36964833/?from=playing_poster"
+          "heat": "26.",
+          "url": "https://movie.douban.com/subject/36964833"
         },
         {
           "rank": 27,
           "title": "落凡尘",
           "author": "",
-          "heat": "7.7",
-          "url": "https://movie.douban.com/subject/36624248/?from=playing_poster"
+          "heat": "27.",
+          "url": "https://movie.douban.com/subject/36624248"
         },
         {
           "rank": 28,
-          "title": "死亡禁区实录...",
+          "title": "死亡禁区实录",
           "author": "",
-          "heat": "4.5",
-          "url": "https://movie.douban.com/subject/37380650/?from=playing_poster"
+          "heat": "28.",
+          "url": "https://movie.douban.com/subject/37380650"
         },
         {
           "rank": 29,
-          "title": "复仇者联盟4...",
+          "title": "复仇者联盟4：终局之战",
           "author": "",
-          "heat": "8.5",
-          "url": "https://movie.douban.com/subject/26100958/?from=playing_poster"
+          "heat": "29.",
+          "url": "https://movie.douban.com/subject/26100958"
         },
         {
           "rank": 30,
           "title": "牛来",
           "author": "",
-          "heat": "6.0",
-          "url": "https://movie.douban.com/subject/38581618/?from=playing_poster"
+          "heat": "30.",
+          "url": "https://movie.douban.com/subject/38581618"
         },
         {
           "rank": 31,
-          "title": "新大头儿子和...",
+          "title": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/38902940/?from=playing_poster"
+          "heat": "31.",
+          "url": "https://movie.douban.com/subject/38902940"
         },
         {
           "rank": 32,
           "title": "武汉任务",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37497419/?from=playing_poster"
+          "heat": "32.",
+          "url": "https://movie.douban.com/subject/37497419"
         },
         {
           "rank": 33,
           "title": "怪屋",
           "author": "",
-          "heat": "5.7",
-          "url": "https://movie.douban.com/subject/37427091/?from=playing_poster"
+          "heat": "33.",
+          "url": "https://movie.douban.com/subject/37427091"
         },
         {
           "rank": 34,
           "title": "密档",
           "author": "",
-          "heat": "6.7",
-          "url": "https://movie.douban.com/subject/35209727/?from=playing_poster"
+          "heat": "34.",
+          "url": "https://movie.douban.com/subject/35209727"
         },
         {
           "rank": 35,
           "title": "凝脂手",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37667170/?from=playing_poster"
+          "heat": "35.",
+          "url": "https://movie.douban.com/subject/37667170"
         },
         {
           "rank": 36,
-          "title": "喂喂喂，足球...",
+          "title": "喂喂喂，足球队",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37388212/?from=playing_poster"
+          "heat": "36.",
+          "url": "https://movie.douban.com/subject/37388212"
         },
         {
           "rank": 37,
-          "title": "红孩儿火焰山...",
+          "title": "红孩儿火焰山之王",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37054065/?from=playing_poster"
+          "heat": "37.",
+          "url": "https://movie.douban.com/subject/37054065"
         },
         {
           "rank": 38,
           "title": "去你的岛",
           "author": "",
-          "heat": "7.5",
-          "url": "https://movie.douban.com/subject/35275131/?from=playing_poster"
+          "heat": "38.",
+          "url": "https://movie.douban.com/subject/35275131"
         },
         {
           "rank": 39,
           "title": "夏洛特烦恼",
           "author": "",
-          "heat": "7.9",
-          "url": "https://movie.douban.com/subject/25964071/?from=playing_poster"
+          "heat": "39.",
+          "url": "https://movie.douban.com/subject/25964071"
         },
         {
           "rank": 40,
           "title": "大熊雨林",
           "author": "",
-          "heat": "8.4",
-          "url": "https://movie.douban.com/subject/33422507/?from=playing_poster"
+          "heat": "40.",
+          "url": "https://movie.douban.com/subject/33422507"
         },
         {
           "rank": 41,
-          "title": "我想留在你身...",
+          "title": "我想留在你身边",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/35390242/?from=playing_poster"
+          "heat": "41.",
+          "url": "https://movie.douban.com/subject/35390242"
         },
         {
           "rank": 42,
           "title": "白茶人生",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37926552/?from=playing_poster"
+          "heat": "42.",
+          "url": "https://movie.douban.com/subject/37926552"
         },
         {
           "rank": 43,
           "title": "落叶球",
           "author": "",
-          "heat": "7.1",
-          "url": "https://movie.douban.com/subject/35699905/?from=playing_poster"
+          "heat": "43.",
+          "url": "https://movie.douban.com/subject/35699905"
         },
         {
           "rank": 44,
-          "title": "汪汪队立大功...",
+          "title": "汪汪队立大功大电影3：勇闯恐龙岛",
           "author": "",
-          "heat": "7.1",
-          "url": "https://movie.douban.com/subject/36791178/?from=playing_poster"
+          "heat": "44.",
+          "url": "https://movie.douban.com/subject/36791178"
         },
         {
           "rank": 45,
           "title": "当猪会飞",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/38352241/?from=playing_poster"
+          "heat": "45.",
+          "url": "https://movie.douban.com/subject/38352241"
         },
         {
           "rank": 46,
           "title": "阿姆鲁姆",
           "author": "",
-          "heat": "7.1",
-          "url": "https://movie.douban.com/subject/36116464/?from=playing_poster"
+          "heat": "46.",
+          "url": "https://movie.douban.com/subject/36116464"
         },
         {
           "rank": 47,
-          "title": "她们的狂想曲...",
+          "title": "她们的狂想曲",
           "author": "",
-          "heat": "7.1",
-          "url": "https://movie.douban.com/subject/37045627/?from=playing_poster"
+          "heat": "47.",
+          "url": "https://movie.douban.com/subject/37045627"
         },
         {
           "rank": 48,
           "title": "卡拉的审判",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/35337596/?from=playing_poster"
+          "heat": "48.",
+          "url": "https://movie.douban.com/subject/35337596"
         },
         {
           "rank": 49,
-          "title": "我理解您的不...",
+          "title": "我理解您的不满",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/38197587/?from=playing_poster"
+          "heat": "49.",
+          "url": "https://movie.douban.com/subject/38197587"
         },
         {
           "rank": 50,
           "title": "红闪电",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37171813/?from=playing_poster"
+          "heat": "50.",
+          "url": "https://movie.douban.com/subject/37171813"
         }
       ],
       "error": null,
       "item_count": 50,
-      "source_used": "original",
-      "update_time": "2026-10-24 18:35:57"
+      "source_used": "tophub",
+      "update_time": "2026-10-24 18:40:45"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -533,359 +2017,359 @@
       "items": [
         {
           "rank": 1,
-          "title": "小城良方",
+          "title": "铁拳教育",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/36675942/"
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37071123/"
         },
         {
           "rank": 2,
-          "title": "醉梦",
+          "title": "主角",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37042229/"
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/35295564/"
         },
         {
           "rank": 3,
-          "title": "新手上路",
+          "title": "寻找珀耳塞福涅",
           "author": "",
-          "heat": "6.8",
-          "url": "https://movie.douban.com/subject/37485048/"
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/38376325/"
         },
         {
           "rank": 4,
-          "title": "尘落",
+          "title": "躲在超市后门抽烟的两人",
           "author": "",
-          "heat": "8.3",
-          "url": "https://movie.douban.com/subject/37862311/"
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37441858/"
         },
         {
           "rank": 5,
-          "title": "嫁金钗",
+          "title": "耀眼",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37191789/"
+          "heat": "5",
+          "url": "https://movie.douban.com/subject/37112008/"
         },
         {
           "rank": 6,
-          "title": "蒸蒸日上",
+          "title": "翘楚",
           "author": "",
-          "heat": "7.8",
-          "url": "https://movie.douban.com/subject/37296949/"
+          "heat": "6.",
+          "url": "https://movie.douban.com/subject/36894289/"
         },
         {
           "rank": 7,
-          "title": "余红旧事",
+          "title": "校园之外 第一季",
           "author": "",
-          "heat": "7.8",
-          "url": "https://movie.douban.com/subject/37560173/"
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37061179/"
         },
         {
           "rank": 8,
-          "title": "幻视任务",
+          "title": "家业",
           "author": "",
-          "heat": "8.6",
-          "url": "https://movie.douban.com/subject/36137784/"
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/36883114/"
         },
         {
           "rank": 9,
-          "title": "兰香如故",
+          "title": "低智商犯罪",
           "author": "",
-          "heat": "7.5",
-          "url": "https://movie.douban.com/subject/36449295/"
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/35517044/"
         },
         {
           "rank": 10,
-          "title": "赛博朋克：边缘行者 第二季",
+          "title": "灵魂摆渡·十年",
           "author": "",
-          "heat": "5.5",
-          "url": "https://movie.douban.com/subject/37421775/"
+          "heat": "10.",
+          "url": "https://movie.douban.com/subject/37317021/"
         },
         {
           "rank": 11,
-          "title": "Doctor X：白色黑手党时代",
+          "title": "雨霖铃",
           "author": "",
-          "heat": "8.4",
-          "url": "https://movie.douban.com/subject/37235560/"
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/36310054/"
         },
         {
           "rank": 12,
-          "title": "玉簟秋",
+          "title": "迷墙",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37070518/"
+          "heat": "12.",
+          "url": "https://movie.douban.com/subject/36449703/"
         },
         {
           "rank": 13,
-          "title": "把黑夜点燃",
+          "title": "寡妇湾",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37307385/"
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37032135/"
         },
         {
           "rank": 14,
-          "title": "美人余",
+          "title": "我的王室死对头",
           "author": "",
-          "heat": "6.7",
-          "url": "https://movie.douban.com/subject/36962068/"
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/37261471/"
         },
         {
           "rank": 15,
-          "title": "我不是大师",
-          "author": "",
-          "heat": "7.3",
-          "url": "https://movie.douban.com/subject/37297001/"
-        },
-        {
-          "rank": 16,
-          "title": "恋爱博士",
-          "author": "",
-          "heat": "8.4",
-          "url": "https://movie.douban.com/subject/37746098/"
-        },
-        {
-          "rank": 17,
-          "title": "翠鸟谋杀案",
-          "author": "",
-          "heat": "8.4",
-          "url": "https://movie.douban.com/subject/37218278/"
-        },
-        {
-          "rank": 18,
-          "title": "现在不是出轨的问题",
-          "author": "",
-          "heat": "8.7",
-          "url": "https://movie.douban.com/subject/37501131/"
-        },
-        {
-          "rank": 19,
-          "title": "伟大的长征",
-          "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/36155236/"
-        },
-        {
-          "rank": 20,
-          "title": "我的有罪之人",
-          "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37806882/"
-        },
-        {
-          "rank": 21,
-          "title": "百日谎言",
-          "author": "",
-          "heat": "8.1",
-          "url": "https://movie.douban.com/subject/37069670/"
-        },
-        {
-          "rank": 22,
-          "title": "流人 第六季",
-          "author": "",
-          "heat": "7.5",
-          "url": "https://movie.douban.com/subject/36689816/"
-        },
-        {
-          "rank": 23,
-          "title": "现在就出发 第四季",
-          "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37816990/"
-        },
-        {
-          "rank": 24,
-          "title": "你却爱着一个他",
-          "author": "",
-          "heat": "9.2",
-          "url": "https://movie.douban.com/subject/38530785/"
-        },
-        {
-          "rank": 25,
-          "title": "魔女嘉莉 第一季",
-          "author": "",
-          "heat": "7.8",
-          "url": "https://movie.douban.com/subject/37083974/"
-        },
-        {
-          "rank": 26,
-          "title": "深夜食堂6",
-          "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/38382925/"
-        },
-        {
-          "rank": 27,
-          "title": "绝望写手 第五季",
-          "author": "",
-          "heat": "9.7",
-          "url": "https://movie.douban.com/subject/37370438/"
-        },
-        {
-          "rank": 28,
-          "title": "魅影神捕",
-          "author": "",
-          "heat": "6.4",
-          "url": "https://movie.douban.com/subject/36481657/"
-        },
-        {
-          "rank": 29,
-          "title": "终极名单 第二季",
-          "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/36227197/"
-        },
-        {
-          "rank": 30,
-          "title": "喜剧之王",
-          "author": "",
-          "heat": "6.5",
-          "url": "https://movie.douban.com/subject/36868927/"
-        },
-        {
-          "rank": 31,
-          "title": "后会友期",
-          "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37100984/"
-        },
-        {
-          "rank": 32,
-          "title": "可以爱吗",
-          "author": "",
-          "heat": "9.2",
-          "url": "https://movie.douban.com/subject/38375675/"
-        },
-        {
-          "rank": 33,
-          "title": "怪物：丽兹·波顿的故事",
-          "author": "",
-          "heat": "7.4",
-          "url": "https://movie.douban.com/subject/37413245/"
-        },
-        {
-          "rank": 34,
-          "title": "踮起脚尖",
-          "author": "",
-          "heat": "9.0",
-          "url": "https://movie.douban.com/subject/37235098/"
-        },
-        {
-          "rank": 35,
-          "title": "令人心动的offer 第八季",
-          "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37814643/"
-        },
-        {
-          "rank": 36,
-          "title": "水晶湖",
-          "author": "",
-          "heat": "7.2",
-          "url": "https://movie.douban.com/subject/37274570/"
-        },
-        {
-          "rank": 37,
-          "title": "赛博朋克：边缘行者 第一季",
-          "author": "",
-          "heat": "9.0",
-          "url": "https://movie.douban.com/subject/35118256/"
-        },
-        {
-          "rank": 38,
-          "title": "中头奖还是要上班",
-          "author": "",
-          "heat": "8.0",
-          "url": "https://movie.douban.com/subject/37214286/"
-        },
-        {
-          "rank": 39,
-          "title": "无可替代",
-          "author": "",
-          "heat": "6.1",
-          "url": "https://movie.douban.com/subject/36117379/"
-        },
-        {
-          "rank": 40,
-          "title": "恋爱充电中",
-          "author": "",
-          "heat": "7.1",
-          "url": "https://movie.douban.com/subject/37317490/"
-        },
-        {
-          "rank": 41,
-          "title": "心动制造所",
-          "author": "",
-          "heat": "7.6",
-          "url": "https://movie.douban.com/subject/37317494/"
-        },
-        {
-          "rank": 42,
-          "title": "冬城猎凶",
-          "author": "",
-          "heat": "7.0",
-          "url": "https://movie.douban.com/subject/37264799/"
-        },
-        {
-          "rank": 43,
-          "title": "交锋",
-          "author": "",
-          "heat": "7.2",
-          "url": "https://movie.douban.com/subject/36314809/"
-        },
-        {
-          "rank": 44,
           "title": "克拉克森的农场 第五季",
           "author": "",
-          "heat": "9.6",
+          "heat": "9",
           "url": "https://movie.douban.com/subject/37303191/"
         },
         {
-          "rank": 45,
-          "title": "璀璨之城",
+          "rank": 16,
+          "title": "地狱占星师",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37105547/"
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37134474/"
         },
         {
-          "rank": 46,
-          "title": "人生七年10",
+          "rank": 17,
+          "title": "努力克服自卑的我们",
           "author": "",
-          "heat": "9.5",
-          "url": "https://movie.douban.com/subject/38456015/"
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37335468/"
         },
         {
-          "rank": 47,
-          "title": "欢迎回来，初恋。",
+          "rank": 18,
+          "title": "乘风2026",
           "author": "",
-          "heat": "7.7",
-          "url": "https://movie.douban.com/subject/38433096/"
+          "heat": "5",
+          "url": "https://movie.douban.com/subject/37816789/"
         },
         {
-          "rank": 48,
-          "title": "喜鹊谋杀案",
+          "rank": 19,
+          "title": "超能路人甲",
           "author": "",
-          "heat": "8.4",
-          "url": "https://movie.douban.com/subject/35154761/"
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/36680667/"
         },
         {
-          "rank": 49,
+          "rank": 20,
+          "title": "暗影蜘蛛侠",
+          "author": "",
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/36240199/"
+        },
+        {
+          "rank": 21,
+          "title": "生命树",
+          "author": "",
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/35424715/"
+        },
+        {
+          "rank": 22,
+          "title": "奔跑吧 第十季",
+          "author": "",
+          "heat": "22.",
+          "url": "https://movie.douban.com/subject/38363866/"
+        },
+        {
+          "rank": 23,
+          "title": "瑞克和莫蒂 第九季",
+          "author": "",
+          "heat": "9",
+          "url": "https://movie.douban.com/subject/36508123/"
+        },
+        {
+          "rank": 24,
+          "title": "绝望写手 第五季",
+          "author": "",
+          "heat": "9",
+          "url": "https://movie.douban.com/subject/37370438/"
+        },
+        {
+          "rank": 25,
+          "title": "亢奋 第三季",
+          "author": "",
+          "heat": "6",
+          "url": "https://movie.douban.com/subject/35758798/"
+        },
+        {
+          "rank": 26,
+          "title": "曼哈顿打拼日记",
+          "author": "",
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/36845423/"
+        },
+        {
+          "rank": 27,
+          "title": "菜鸟炊事兵",
+          "author": "",
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/37194459/"
+        },
+        {
+          "rank": 28,
+          "title": "灵魂摆渡",
+          "author": "",
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/25800263/"
+        },
+        {
+          "rank": 29,
+          "title": "达顿牧场",
+          "author": "",
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37028528/"
+        },
+        {
+          "rank": 30,
+          "title": "良陈美锦",
+          "author": "",
+          "heat": "5",
+          "url": "https://movie.douban.com/subject/36640247/"
+        },
+        {
+          "rank": 31,
+          "title": "潜伏",
+          "author": "",
+          "heat": "9",
+          "url": "https://movie.douban.com/subject/3314870/"
+        },
+        {
+          "rank": 32,
+          "title": "哈哈哈哈哈 第六季",
+          "author": "",
+          "heat": "32.",
+          "url": "https://movie.douban.com/subject/37561228/"
+        },
+        {
+          "rank": 33,
+          "title": "新进职员姜会长",
+          "author": "",
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/37172409/"
+        },
+        {
+          "rank": 34,
+          "title": "黑夜告白",
+          "author": "",
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/35922594/"
+        },
+        {
+          "rank": 35,
+          "title": "黑袍纠察队 第五季",
+          "author": "",
+          "heat": "6",
+          "url": "https://movie.douban.com/subject/36343491/"
+        },
+        {
+          "rank": 36,
+          "title": "太平年",
+          "author": "",
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/36317421/"
+        },
+        {
+          "rank": 37,
+          "title": "21世纪大君夫人",
+          "author": "",
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/37147970/"
+        },
+        {
+          "rank": 38,
+          "title": "宿敌恋人",
+          "author": "",
+          "heat": "9",
+          "url": "https://movie.douban.com/subject/37434212/"
+        },
+        {
+          "rank": 39,
+          "title": "开始推理吧 第四季",
+          "author": "",
+          "heat": "39.",
+          "url": "https://movie.douban.com/subject/37815828/"
+        },
+        {
+          "rank": 40,
           "title": "大明王朝1566",
           "author": "",
-          "heat": "9.8",
+          "heat": "9",
           "url": "https://movie.douban.com/subject/2210001/"
         },
         {
-          "rank": 50,
-          "title": "政盗鲁邦",
+          "rank": 41,
+          "title": "五十公里桃花坞6",
           "author": "",
-          "heat": "7.3",
-          "url": "https://movie.douban.com/subject/38611331/"
+          "heat": "41.",
+          "url": "https://movie.douban.com/subject/37814472/"
+        },
+        {
+          "rank": 42,
+          "title": "掩耳盗邻 第二季",
+          "author": "",
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37200350/"
+        },
+        {
+          "rank": 43,
+          "title": "夺命许愿",
+          "author": "",
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/37125831/"
+        },
+        {
+          "rank": 44,
+          "title": "逐玉",
+          "author": "",
+          "heat": "6",
+          "url": "https://movie.douban.com/subject/36554061/"
+        },
+        {
+          "rank": 45,
+          "title": "恐怖角",
+          "author": "",
+          "heat": "45.",
+          "url": "https://movie.douban.com/subject/36657472/"
+        },
+        {
+          "rank": 46,
+          "title": "通往天堂的门票",
+          "author": "",
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/37134257/"
+        },
+        {
+          "rank": 47,
+          "title": "证言 第一季",
+          "author": "",
+          "heat": "8",
+          "url": "https://movie.douban.com/subject/34815019/"
+        },
+        {
+          "rank": 48,
+          "title": "危险关系",
+          "author": "",
+          "heat": "7",
+          "url": "https://movie.douban.com/subject/36866390/"
+        },
+        {
+          "rank": 49,
+          "title": "半熟恋人 第五季",
+          "author": "",
+          "heat": "49.",
+          "url": "https://movie.douban.com/subject/37815127/"
+        },
+        {
+          "rank": 50,
+          "title": "歌手2026",
+          "author": "",
+          "heat": "50.",
+          "url": "https://movie.douban.com/subject/37816937/"
         }
       ],
       "error": null,
       "item_count": 50,
-      "source_used": "original",
-      "update_time": "2026-10-24 18:36:02"
+      "source_used": "tophub",
+      "update_time": "2026-10-24 18:40:47"
     }
   }
 }
