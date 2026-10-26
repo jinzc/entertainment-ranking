@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-26 22:00:44",
+  "update_time": "2026-10-26 22:05:24",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:00:47"
+      "update_time": "2026-10-26 22:05:27"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:00:49"
+      "update_time": "2026-10-26 22:05:29"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:00:51"
+      "update_time": "2026-10-26 22:05:31"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:00:53"
+      "update_time": "2026-10-26 22:05:33"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:00:55"
+      "update_time": "2026-10-26 22:05:35"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:00:58"
+      "update_time": "2026-10-26 22:05:37"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:01:00"
+      "update_time": "2026-10-26 22:05:40"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:01:03"
+      "update_time": "2026-10-26 22:05:42"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1843,170 +1843,170 @@
         },
         {
           "rank": 28,
-          "title": "落凡尘",
+          "title": "复仇者联盟4：终局之战",
           "author": "",
           "heat": "28.",
-          "url": "https://movie.douban.com/subject/36624248"
+          "url": "https://movie.douban.com/subject/26100958"
         },
         {
           "rank": 29,
-          "title": "死亡禁区实录",
+          "title": "落凡尘",
           "author": "",
           "heat": "29.",
-          "url": "https://movie.douban.com/subject/37380650"
+          "url": "https://movie.douban.com/subject/36624248"
         },
         {
           "rank": 30,
-          "title": "牛来",
+          "title": "死亡禁区实录",
           "author": "",
           "heat": "30.",
-          "url": "https://movie.douban.com/subject/38581618"
+          "url": "https://movie.douban.com/subject/37380650"
         },
         {
           "rank": 31,
-          "title": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
+          "title": "牛来",
           "author": "",
           "heat": "31.",
-          "url": "https://movie.douban.com/subject/38902940"
+          "url": "https://movie.douban.com/subject/38581618"
         },
         {
           "rank": 32,
-          "title": "狗镇",
+          "title": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
           "author": "",
           "heat": "32.",
-          "url": "https://movie.douban.com/subject/1298759"
+          "url": "https://movie.douban.com/subject/38902940"
         },
         {
           "rank": 33,
-          "title": "小城之春",
+          "title": "上海女儿",
           "author": "",
           "heat": "33.",
-          "url": "https://movie.douban.com/subject/1323746"
+          "url": "https://movie.douban.com/subject/36753343"
         },
         {
           "rank": 34,
-          "title": "凝脂手",
+          "title": "狗镇",
           "author": "",
           "heat": "34.",
-          "url": "https://movie.douban.com/subject/37667170"
+          "url": "https://movie.douban.com/subject/1298759"
         },
         {
           "rank": 35,
-          "title": "何处是我朋友的家",
+          "title": "小城之春",
           "author": "",
           "heat": "35.",
-          "url": "https://movie.douban.com/subject/1301897"
+          "url": "https://movie.douban.com/subject/1323746"
         },
         {
           "rank": 36,
-          "title": "去你的岛",
+          "title": "凝脂手",
           "author": "",
           "heat": "36.",
-          "url": "https://movie.douban.com/subject/35275131"
+          "url": "https://movie.douban.com/subject/37667170"
         },
         {
           "rank": 37,
-          "title": "红孩儿火焰山之王",
+          "title": "何处是我朋友的家",
           "author": "",
           "heat": "37.",
-          "url": "https://movie.douban.com/subject/37054065"
+          "url": "https://movie.douban.com/subject/1301897"
         },
         {
           "rank": 38,
-          "title": "太太万岁",
+          "title": "去你的岛",
           "author": "",
           "heat": "38.",
-          "url": "https://movie.douban.com/subject/1421673"
+          "url": "https://movie.douban.com/subject/35275131"
         },
         {
           "rank": 39,
-          "title": "白茶人生",
+          "title": "红孩儿火焰山之王",
           "author": "",
           "heat": "39.",
-          "url": "https://movie.douban.com/subject/37926552"
+          "url": "https://movie.douban.com/subject/37054065"
         },
         {
           "rank": 40,
-          "title": "都灵之马",
+          "title": "太太万岁",
           "author": "",
           "heat": "40.",
-          "url": "https://movie.douban.com/subject/3285632"
+          "url": "https://movie.douban.com/subject/1421673"
         },
         {
           "rank": 41,
-          "title": "血迷宫",
+          "title": "白茶人生",
           "author": "",
           "heat": "41.",
-          "url": "https://movie.douban.com/subject/1302542"
+          "url": "https://movie.douban.com/subject/37926552"
         },
         {
           "rank": 42,
-          "title": "我想留在你身边",
+          "title": "都灵之马",
           "author": "",
           "heat": "42.",
-          "url": "https://movie.douban.com/subject/35390242"
+          "url": "https://movie.douban.com/subject/3285632"
         },
         {
           "rank": 43,
-          "title": "脸庞，村庄",
+          "title": "血迷宫",
           "author": "",
           "heat": "43.",
-          "url": "https://movie.douban.com/subject/26764928"
+          "url": "https://movie.douban.com/subject/1302542"
         },
         {
           "rank": 44,
-          "title": "大熊雨林",
+          "title": "我想留在你身边",
           "author": "",
           "heat": "44.",
-          "url": "https://movie.douban.com/subject/33422507"
+          "url": "https://movie.douban.com/subject/35390242"
         },
         {
           "rank": 45,
-          "title": "接近终点",
+          "title": "脸庞，村庄",
           "author": "",
           "heat": "45.",
-          "url": "https://movie.douban.com/subject/35409362"
+          "url": "https://movie.douban.com/subject/26764928"
         },
         {
           "rank": 46,
-          "title": "子弹横飞百老汇",
+          "title": "大熊雨林",
           "author": "",
           "heat": "46.",
-          "url": "https://movie.douban.com/subject/1295452"
+          "url": "https://movie.douban.com/subject/33422507"
         },
         {
           "rank": 47,
-          "title": "密档",
+          "title": "接近终点",
           "author": "",
           "heat": "47.",
-          "url": "https://movie.douban.com/subject/35209727"
+          "url": "https://movie.douban.com/subject/35409362"
         },
         {
           "rank": 48,
-          "title": "列宁格勒牛仔征美记",
+          "title": "子弹横飞百老汇",
           "author": "",
           "heat": "48.",
-          "url": "https://movie.douban.com/subject/1316560"
+          "url": "https://movie.douban.com/subject/1295452"
         },
         {
           "rank": 49,
-          "title": "牺牲",
+          "title": "密档",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/36877356"
+          "url": "https://movie.douban.com/subject/35209727"
         },
         {
           "rank": 50,
-          "title": "惊魂迷影",
+          "title": "列宁格勒牛仔征美记",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/38215445"
+          "url": "https://movie.douban.com/subject/1316560"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:01:05"
+      "update_time": "2026-10-26 22:05:44"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-26 22:01:07"
+      "update_time": "2026-10-26 22:05:46"
     }
   }
 }
