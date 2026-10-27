@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-28 00:10:26",
+  "update_time": "2026-10-28 00:15:26",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -10,38 +10,38 @@
       "items": [
         {
           "rank": 1,
-          "title": "小城良方被指医学漏洞百出",
-          "author": "",
-          "heat": "1.",
-          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E8%A2%AB%E6%8C%87%E5%8C%BB%E5%AD%A6%E6%BC%8F%E6%B4%9E%E7%99%BE%E5%87%BA&t=152&Refer=top"
-        },
-        {
-          "rank": 2,
           "title": "李胜利要当爸爸了",
           "author": "",
-          "heat": "2.",
+          "heat": "1.",
           "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E8%83%9C%E5%88%A9%E8%A6%81%E5%BD%93%E7%88%B8%E7%88%B8%E4%BA%86%23&t=152&Refer=top"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "张峻豪节目录制取消",
           "author": "",
-          "heat": "3.",
+          "heat": "2.",
           "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%B3%BB%E8%B1%AA%E8%8A%82%E7%9B%AE%E5%BD%95%E5%88%B6%E5%8F%96%E6%B6%88&t=152&Refer=top"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "title": "小城良方 76位医学顾问",
           "author": "",
-          "heat": "4.",
+          "heat": "3.",
           "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%2076%E4%BD%8D%E5%8C%BB%E5%AD%A6%E9%A1%BE%E9%97%AE&t=152&Refer=top"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "金裕贞被揩油",
           "author": "",
-          "heat": "5.",
+          "heat": "4.",
           "url": "https://s.weibo.com/weibo?q=%E9%87%91%E8%A3%95%E8%B4%9E%E8%A2%AB%E6%8F%A9%E6%B2%B9&t=152&Refer=top"
+        },
+        {
+          "rank": 5,
+          "title": "李彩演因翻跳NEON泡泡道歉",
+          "author": "",
+          "heat": "5.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%BD%A9%E6%BC%94%E5%9B%A0%E7%BF%BB%E8%B7%B3NEON%E6%B3%A1%E6%B3%A1%E9%81%93%E6%AD%89%23&t=152&Refer=top"
         },
         {
           "rank": 6,
@@ -52,59 +52,59 @@
         },
         {
           "rank": 7,
-          "title": "郭晓婷王天辰三搭",
-          "author": "",
-          "heat": "7.",
-          "url": "https://s.weibo.com/weibo?q=%E9%83%AD%E6%99%93%E5%A9%B7%E7%8E%8B%E5%A4%A9%E8%BE%B0%E4%B8%89%E6%90%AD&t=152&Refer=top"
-        },
-        {
-          "rank": 8,
-          "title": "曝虞书欣何与崩了",
-          "author": "",
-          "heat": "8.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%99%9E%E4%B9%A6%E6%AC%A3%E4%BD%95%E4%B8%8E%E5%B4%A9%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 9,
           "title": "厉娜这些年赚不到钱的原因",
           "author": "",
-          "heat": "9.",
+          "heat": "7.",
           "url": "https://s.weibo.com/weibo?q=%23%E5%8E%89%E5%A8%9C%E8%BF%99%E4%BA%9B%E5%B9%B4%E8%B5%9A%E4%B8%8D%E5%88%B0%E9%92%B1%E7%9A%84%E5%8E%9F%E5%9B%A0%23&t=152&Refer=top"
         },
         {
-          "rank": 10,
-          "title": "李彩演因翻跳NEON泡泡道歉",
+          "rank": 8,
+          "title": "郭晓婷王天辰三搭",
           "author": "",
-          "heat": "10.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%BD%A9%E6%BC%94%E5%9B%A0%E7%BF%BB%E8%B7%B3NEON%E6%B3%A1%E6%B3%A1%E9%81%93%E6%AD%89%23&t=152&Refer=top"
+          "heat": "8.",
+          "url": "https://s.weibo.com/weibo?q=%E9%83%AD%E6%99%93%E5%A9%B7%E7%8E%8B%E5%A4%A9%E8%BE%B0%E4%B8%89%E6%90%AD&t=152&Refer=top"
         },
         {
-          "rank": 11,
+          "rank": 9,
+          "title": "曝虞书欣何与崩了",
+          "author": "",
+          "heat": "9.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%99%9E%E4%B9%A6%E6%AC%A3%E4%BD%95%E4%B8%8E%E5%B4%A9%E4%BA%86%23&t=152&Refer=top"
+        },
+        {
+          "rank": 10,
           "title": "邓佳鑫节目取消录制",
           "author": "",
-          "heat": "11.",
+          "heat": "10.",
           "url": "https://s.weibo.com/weibo?q=%E9%82%93%E4%BD%B3%E9%91%AB%E8%8A%82%E7%9B%AE%E5%8F%96%E6%B6%88%E5%BD%95%E5%88%B6&t=152&Refer=top"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "title": "邓超Angelababy合体比心",
           "author": "",
-          "heat": "12.",
+          "heat": "11.",
           "url": "https://s.weibo.com/weibo?q=%23%E9%82%93%E8%B6%85Angelababy%E5%90%88%E4%BD%93%E6%AF%94%E5%BF%83%23&t=152&Refer=top"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "title": "薛之谦12年歌迷被骗钱又遭取关",
           "author": "",
-          "heat": "13.",
+          "heat": "12.",
           "url": "https://s.weibo.com/weibo?q=%E8%96%9B%E4%B9%8B%E8%B0%A612%E5%B9%B4%E6%AD%8C%E8%BF%B7%E8%A2%AB%E9%AA%97%E9%92%B1%E5%8F%88%E9%81%AD%E5%8F%96%E5%85%B3&t=152&Refer=top"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "刘铮亮没有被吊销医师证",
           "author": "",
-          "heat": "14.",
+          "heat": "13.",
           "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E9%93%AE%E4%BA%AE%E6%B2%A1%E6%9C%89%E8%A2%AB%E5%90%8A%E9%94%80%E5%8C%BB%E5%B8%88%E8%AF%81%23&t=152&Refer=top"
+        },
+        {
+          "rank": 14,
+          "title": "卢昱晓田嘉瑞 我欲乘风",
+          "author": "",
+          "heat": "14.",
+          "url": "https://s.weibo.com/weibo?q=%E5%8D%A2%E6%98%B1%E6%99%93%E7%94%B0%E5%98%89%E7%91%9E%20%E6%88%91%E6%AC%B2%E4%B9%98%E9%A3%8E&t=152&Refer=top"
         },
         {
           "rank": 15,
@@ -122,17 +122,17 @@
         },
         {
           "rank": 17,
-          "title": "卢昱晓田嘉瑞 我欲乘风",
+          "title": "杨洋陈都灵 等风热吻你",
           "author": "",
           "heat": "17.",
-          "url": "https://s.weibo.com/weibo?q=%E5%8D%A2%E6%98%B1%E6%99%93%E7%94%B0%E5%98%89%E7%91%9E%20%E6%88%91%E6%AC%B2%E4%B9%98%E9%A3%8E&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E6%B4%8B%E9%99%88%E9%83%BD%E7%81%B5%20%E7%AD%89%E9%A3%8E%E7%83%AD%E5%90%BB%E4%BD%A0&t=152&Refer=top"
         },
         {
           "rank": 18,
-          "title": "杨洋陈都灵 等风热吻你",
+          "title": "明天要官宣的剧集",
           "author": "",
           "heat": "18.",
-          "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E6%B4%8B%E9%99%88%E9%83%BD%E7%81%B5%20%E7%AD%89%E9%A3%8E%E7%83%AD%E5%90%BB%E4%BD%A0&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%98%8E%E5%A4%A9%E8%A6%81%E5%AE%98%E5%AE%A3%E7%9A%84%E5%89%A7%E9%9B%86%23&t=152&Refer=top"
         },
         {
           "rank": 19,
@@ -143,24 +143,24 @@
         },
         {
           "rank": 20,
-          "title": "肖战现场还原刘铮亮演我上班",
+          "title": "丞磊玉簟秋海内外全平台吸粉",
           "author": "",
           "heat": "20.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E7%8E%B0%E5%9C%BA%E8%BF%98%E5%8E%9F%E5%88%98%E9%93%AE%E4%BA%AE%E6%BC%94%E6%88%91%E4%B8%8A%E7%8F%AD%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9E%E7%A3%8A%E7%8E%89%E7%B0%9F%E7%A7%8B%E6%B5%B7%E5%86%85%E5%A4%96%E5%85%A8%E5%B9%B3%E5%8F%B0%E5%90%B8%E7%B2%89%23&t=152&Refer=top"
         },
         {
           "rank": 21,
-          "title": "明天要官宣的剧集",
+          "title": "肖战伴手礼17斤",
           "author": "",
           "heat": "21.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%98%8E%E5%A4%A9%E8%A6%81%E5%AE%98%E5%AE%A3%E7%9A%84%E5%89%A7%E9%9B%86%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E4%BC%B4%E6%89%8B%E7%A4%BC17%E6%96%A4%23&t=152&Refer=top"
         },
         {
           "rank": 22,
-          "title": "肖战伴手礼17斤",
+          "title": "SuperJunior跳NEON",
           "author": "",
           "heat": "22.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E4%BC%B4%E6%89%8B%E7%A4%BC17%E6%96%A4%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23SuperJunior%E8%B7%B3NEON%23&t=152&Refer=top"
         },
         {
           "rank": 23,
@@ -171,10 +171,10 @@
         },
         {
           "rank": 24,
-          "title": "SuperJunior跳NEON",
+          "title": "小城良方高开颠走",
           "author": "",
           "heat": "24.",
-          "url": "https://s.weibo.com/weibo?q=%23SuperJunior%E8%B7%B3NEON%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E9%AB%98%E5%BC%80%E9%A2%A0%E8%B5%B0&t=152&Refer=top"
         },
         {
           "rank": 25,
@@ -185,66 +185,66 @@
         },
         {
           "rank": 26,
-          "title": "刘耀文被郁可唯万妮达紧急叫停",
-          "author": "",
-          "heat": "26.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%80%80%E6%96%87%E8%A2%AB%E9%83%81%E5%8F%AF%E5%94%AF%E4%B8%87%E5%A6%AE%E8%BE%BE%E7%B4%A7%E6%80%A5%E5%8F%AB%E5%81%9C%23&t=152&Refer=top"
-        },
-        {
-          "rank": 27,
-          "title": "田曦薇一年三部爆剧无缝进组",
-          "author": "",
-          "heat": "27.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E4%B8%80%E5%B9%B4%E4%B8%89%E9%83%A8%E7%88%86%E5%89%A7%E6%97%A0%E7%BC%9D%E8%BF%9B%E7%BB%84%23&t=152&Refer=top"
-        },
-        {
-          "rank": 28,
-          "title": "郑希怡澄清生二胎",
-          "author": "",
-          "heat": "28.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E5%B8%8C%E6%80%A1%E6%BE%84%E6%B8%85%E7%94%9F%E4%BA%8C%E8%83%8E%23&t=152&Refer=top"
-        },
-        {
-          "rank": 29,
-          "title": "小城良方高开颠走",
-          "author": "",
-          "heat": "29.",
-          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E9%AB%98%E5%BC%80%E9%A2%A0%E8%B5%B0&t=152&Refer=top"
-        },
-        {
-          "rank": 30,
           "title": "金智媛两天舞台对比",
           "author": "",
-          "heat": "30.",
+          "heat": "26.",
           "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E6%99%BA%E5%AA%9B%E4%B8%A4%E5%A4%A9%E8%88%9E%E5%8F%B0%E5%AF%B9%E6%AF%94%23&t=152&Refer=top"
         },
         {
-          "rank": 31,
-          "title": "等风热吻你官宣",
+          "rank": 27,
+          "title": "刘耀文被郁可唯万妮达紧急叫停",
           "author": "",
-          "heat": "31.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%AD%89%E9%A3%8E%E7%83%AD%E5%90%BB%E4%BD%A0%E5%AE%98%E5%AE%A3%23&t=152&Refer=top"
+          "heat": "27.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%80%80%E6%96%87%E8%A2%AB%E9%83%81%E5%8F%AF%E5%94%AF%E4%B8%87%E5%A6%AE%E8%BE%BE%E7%B4%A7%E6%80%A5%E5%8F%AB%E5%81%9C%23&t=152&Refer=top"
         },
         {
-          "rank": 32,
-          "title": "杨洋终于回归现偶了",
-          "author": "",
-          "heat": "32.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%B4%8B%E7%BB%88%E4%BA%8E%E5%9B%9E%E5%BD%92%E7%8E%B0%E5%81%B6%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 33,
+          "rank": 28,
           "title": "欧阳娜娜家族越过越好真是有原因的",
           "author": "",
-          "heat": "33.",
+          "heat": "28.",
           "url": "https://s.weibo.com/weibo?q=%23%E6%AC%A7%E9%98%B3%E5%A8%9C%E5%A8%9C%E5%AE%B6%E6%97%8F%E8%B6%8A%E8%BF%87%E8%B6%8A%E5%A5%BD%E7%9C%9F%E6%98%AF%E6%9C%89%E5%8E%9F%E5%9B%A0%E7%9A%84%23&t=152&Refer=top"
         },
         {
-          "rank": 34,
+          "rank": 29,
           "title": "尚公主胡杏儿演技",
           "author": "",
-          "heat": "34.",
+          "heat": "29.",
           "url": "https://s.weibo.com/weibo?q=%E5%B0%9A%E5%85%AC%E4%B8%BB%E8%83%A1%E6%9D%8F%E5%84%BF%E6%BC%94%E6%8A%80&t=152&Refer=top"
+        },
+        {
+          "rank": 30,
+          "title": "郑希怡澄清生二胎",
+          "author": "",
+          "heat": "30.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E5%B8%8C%E6%80%A1%E6%BE%84%E6%B8%85%E7%94%9F%E4%BA%8C%E8%83%8E%23&t=152&Refer=top"
+        },
+        {
+          "rank": 31,
+          "title": "小城良方被指医学漏洞百出",
+          "author": "",
+          "heat": "31.",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E8%A2%AB%E6%8C%87%E5%8C%BB%E5%AD%A6%E6%BC%8F%E6%B4%9E%E7%99%BE%E5%87%BA&t=152&Refer=top"
+        },
+        {
+          "rank": 32,
+          "title": "等风热吻你官宣",
+          "author": "",
+          "heat": "32.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%AD%89%E9%A3%8E%E7%83%AD%E5%90%BB%E4%BD%A0%E5%AE%98%E5%AE%A3%23&t=152&Refer=top"
+        },
+        {
+          "rank": 33,
+          "title": "杨洋终于回归现偶了",
+          "author": "",
+          "heat": "33.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%B4%8B%E7%BB%88%E4%BA%8E%E5%9B%9E%E5%BD%92%E7%8E%B0%E5%81%B6%E4%BA%86%23&t=152&Refer=top"
+        },
+        {
+          "rank": 34,
+          "title": "田曦薇一年三部爆剧无缝进组",
+          "author": "",
+          "heat": "34.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E4%B8%80%E5%B9%B4%E4%B8%89%E9%83%A8%E7%88%86%E5%89%A7%E6%97%A0%E7%BC%9D%E8%BF%9B%E7%BB%84%23&t=152&Refer=top"
         },
         {
           "rank": 35,
@@ -255,10 +255,10 @@
         },
         {
           "rank": 36,
-          "title": "朱志鑫把叶子串成薯片了",
+          "title": "声生不息首期录制repo",
           "author": "",
           "heat": "36.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E5%BF%97%E9%91%AB%E6%8A%8A%E5%8F%B6%E5%AD%90%E4%B8%B2%E6%88%90%E8%96%AF%E7%89%87%E4%BA%86%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF%E9%A6%96%E6%9C%9F%E5%BD%95%E5%88%B6repo%23&t=152&Refer=top"
         },
         {
           "rank": 37,
@@ -269,100 +269,100 @@
         },
         {
           "rank": 38,
-          "title": "声生不息首期录制repo",
-          "author": "",
-          "heat": "38.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF%E9%A6%96%E6%9C%9F%E5%BD%95%E5%88%B6repo%23&t=152&Refer=top"
-        },
-        {
-          "rank": 39,
           "title": "敖瑞鹏王玉雯确认出演亲吻的敌人",
           "author": "",
-          "heat": "39.",
+          "heat": "38.",
           "url": "https://s.weibo.com/weibo?q=%23%E6%95%96%E7%91%9E%E9%B9%8F%E7%8E%8B%E7%8E%89%E9%9B%AF%E7%A1%AE%E8%AE%A4%E5%87%BA%E6%BC%94%E4%BA%B2%E5%90%BB%E7%9A%84%E6%95%8C%E4%BA%BA%23&t=152&Refer=top"
         },
         {
-          "rank": 40,
-          "title": "张晓波说大家都有喜剧天赋除了肖战",
-          "author": "",
-          "heat": "40.",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%99%93%E6%B3%A2%E8%AF%B4%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%9C%89%E5%96%9C%E5%89%A7%E5%A4%A9%E8%B5%8B%E9%99%A4%E4%BA%86%E8%82%96%E6%88%98&t=152&Refer=top"
-        },
-        {
-          "rank": 41,
-          "title": "小城良方",
-          "author": "",
-          "heat": "41.",
-          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9&t=152&Refer=top"
-        },
-        {
-          "rank": 42,
-          "title": "SEVENTEEN 粉丝卡车抗议",
-          "author": "",
-          "heat": "42.",
-          "url": "https://s.weibo.com/weibo?q=SEVENTEEN%20%E7%B2%89%E4%B8%9D%E5%8D%A1%E8%BD%A6%E6%8A%97%E8%AE%AE&t=152&Refer=top"
-        },
-        {
-          "rank": 43,
+          "rank": 39,
           "title": "肖战姜妍两个人的身材太权威了",
           "author": "",
-          "heat": "43.",
+          "heat": "39.",
           "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E5%A7%9C%E5%A6%8D%E4%B8%A4%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%BA%AB%E6%9D%90%E5%A4%AA%E6%9D%83%E5%A8%81%E4%BA%86%23&t=152&Refer=top"
         },
         {
-          "rank": 44,
-          "title": "Prada广告又是陈昊宇",
+          "rank": 40,
+          "title": "SEVENTEEN 粉丝卡车抗议",
           "author": "",
-          "heat": "44.",
-          "url": "https://s.weibo.com/weibo?q=%23Prada%E5%B9%BF%E5%91%8A%E5%8F%88%E6%98%AF%E9%99%88%E6%98%8A%E5%AE%87%23&t=152&Refer=top"
+          "heat": "40.",
+          "url": "https://s.weibo.com/weibo?q=SEVENTEEN%20%E7%B2%89%E4%B8%9D%E5%8D%A1%E8%BD%A6%E6%8A%97%E8%AE%AE&t=152&Refer=top"
         },
         {
-          "rank": 45,
-          "title": "易烊千玺就这样让我学会了很多生僻字",
+          "rank": 41,
+          "title": "朱志鑫把叶子串成薯片了",
           "author": "",
-          "heat": "45.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E5%B0%B1%E8%BF%99%E6%A0%B7%E8%AE%A9%E6%88%91%E5%AD%A6%E4%BC%9A%E4%BA%86%E5%BE%88%E5%A4%9A%E7%94%9F%E5%83%BB%E5%AD%97%23&t=152&Refer=top"
+          "heat": "41.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E5%BF%97%E9%91%AB%E6%8A%8A%E5%8F%B6%E5%AD%90%E4%B8%B2%E6%88%90%E8%96%AF%E7%89%87%E4%BA%86%23&t=152&Refer=top"
         },
         {
-          "rank": 46,
-          "title": "迪丽热巴 好有力量的腿",
-          "author": "",
-          "heat": "46.",
-          "url": "https://s.weibo.com/weibo?q=%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%20%E5%A5%BD%E6%9C%89%E5%8A%9B%E9%87%8F%E7%9A%84%E8%85%BF&t=152&Refer=top"
-        },
-        {
-          "rank": 47,
-          "title": "朱志鑫拍的黄玫瑰",
-          "author": "",
-          "heat": "47.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E5%BF%97%E9%91%AB%E6%8B%8D%E7%9A%84%E9%BB%84%E7%8E%AB%E7%91%B0%23&t=152&Refer=top"
-        },
-        {
-          "rank": 48,
-          "title": "曝四字男星恋情瓜",
-          "author": "",
-          "heat": "48.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%9B%9B%E5%AD%97%E7%94%B7%E6%98%9F%E6%81%8B%E6%83%85%E7%93%9C%23&t=152&Refer=top"
-        },
-        {
-          "rank": 49,
+          "rank": 42,
           "title": "华晨宇唱2天带动南京消费超4.38亿",
           "author": "",
-          "heat": "49.",
+          "heat": "42.",
           "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E6%99%A8%E5%AE%87%E5%94%B12%E5%A4%A9%E5%B8%A6%E5%8A%A8%E5%8D%97%E4%BA%AC%E6%B6%88%E8%B4%B9%E8%B6%854.38%E4%BA%BF&t=152&Refer=top"
         },
         {
+          "rank": 43,
+          "title": "Prada广告又是陈昊宇",
+          "author": "",
+          "heat": "43.",
+          "url": "https://s.weibo.com/weibo?q=%23Prada%E5%B9%BF%E5%91%8A%E5%8F%88%E6%98%AF%E9%99%88%E6%98%8A%E5%AE%87%23&t=152&Refer=top"
+        },
+        {
+          "rank": 44,
+          "title": "张晓波说大家都有喜剧天赋除了肖战",
+          "author": "",
+          "heat": "44.",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%99%93%E6%B3%A2%E8%AF%B4%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%9C%89%E5%96%9C%E5%89%A7%E5%A4%A9%E8%B5%8B%E9%99%A4%E4%BA%86%E8%82%96%E6%88%98&t=152&Refer=top"
+        },
+        {
+          "rank": 45,
+          "title": "小城良方",
+          "author": "",
+          "heat": "45.",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9&t=152&Refer=top"
+        },
+        {
+          "rank": 46,
+          "title": "曝四字男星恋情瓜",
+          "author": "",
+          "heat": "46.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%9B%9B%E5%AD%97%E7%94%B7%E6%98%9F%E6%81%8B%E6%83%85%E7%93%9C%23&t=152&Refer=top"
+        },
+        {
+          "rank": 47,
+          "title": "迪丽热巴 好有力量的腿",
+          "author": "",
+          "heat": "47.",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%20%E5%A5%BD%E6%9C%89%E5%8A%9B%E9%87%8F%E7%9A%84%E8%85%BF&t=152&Refer=top"
+        },
+        {
+          "rank": 48,
+          "title": "肖战嘴没输过",
+          "author": "",
+          "heat": "48.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E5%98%B4%E6%B2%A1%E8%BE%93%E8%BF%87%23&t=152&Refer=top"
+        },
+        {
+          "rank": 49,
+          "title": "刘铮亮当群演",
+          "author": "",
+          "heat": "49.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E9%93%AE%E4%BA%AE%E5%BD%93%E7%BE%A4%E6%BC%94%23&t=152&Refer=top"
+        },
+        {
           "rank": 50,
-          "title": "小城良方热度破9600",
+          "title": "李沁张晚意当上皇帝皇后了",
           "author": "",
           "heat": "50.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E7%83%AD%E5%BA%A6%E7%A0%B49600%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%B2%81%E5%BC%A0%E6%99%9A%E6%84%8F%E5%BD%93%E4%B8%8A%E7%9A%87%E5%B8%9D%E7%9A%87%E5%90%8E%E4%BA%86%23&t=152&Refer=top"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:29"
+      "update_time": "2026-10-28 00:15:29"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:31"
+      "update_time": "2026-10-28 00:15:31"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:33"
+      "update_time": "2026-10-28 00:15:34"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:35"
+      "update_time": "2026-10-28 00:15:36"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:38"
+      "update_time": "2026-10-28 00:15:38"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:40"
+      "update_time": "2026-10-28 00:15:40"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:42"
+      "update_time": "2026-10-28 00:15:43"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:44"
+      "update_time": "2026-10-28 00:15:45"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:46"
+      "update_time": "2026-10-28 00:15:47"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-28 00:10:49"
+      "update_time": "2026-10-28 00:15:49"
     }
   }
 }
