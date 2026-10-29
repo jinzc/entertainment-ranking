@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-29 08:55:19",
+  "update_time": "2026-10-29 09:00:39",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:22"
+      "update_time": "2026-10-29 09:00:42"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -450,62 +450,55 @@
         },
         {
           "rank": 12,
-          "title": "2026安妮海瑟薇的最新电影《不存在的罪人》正式来袭！ #惊悚 #悬疑 #新片速递",
-          "author": "布丁影视",
-          "heat": "4364991次播放",
-          "url": "https://www.douyin.com/video/7701382646303149362"
-        },
-        {
-          "rank": 13,
           "title": "男主以为女主是男生 自我攻略直掰弯吗 #韩剧 #薛仁雅 #任时完 #我的有罪之人 #女扮男装",
           "author": "抓马娱乐",
           "heat": "4339190次播放",
           "url": "https://www.douyin.com/video/7701586543638596883"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "#小城良方 不管是谁，快从刘铮亮身上下来！#来央八看好剧 #肖战",
           "author": "CCTV电视剧",
           "heat": "4141511次播放",
           "url": "https://www.douyin.com/video/7701182930124115243"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "别说小孩错过会哭一星期，这个不去我也得后悔一辈子#婚礼#小吃街#河北#美食#习俗",
           "author": "圈内老顽童",
           "heat": "4001107次播放",
           "url": "https://www.douyin.com/video/7701284030267821366"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "代入博主好绝望，所以我代入网友视角（cr：@暖阳阳 ）#搞笑 #网购 #小猪 #宠物 #万万没想到",
           "author": "呆猫吃娱",
           "heat": "3944283次播放",
           "url": "https://www.douyin.com/video/7701664330521629809"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "就这现发团帅大了！#现在就出发 #颜值 #现在就出发4 #帅 #相机",
           "author": "抹茶大王",
           "heat": "3944063次播放",
           "url": "https://www.douyin.com/video/7701559522426391859"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "首先，万圣节这种装扮很正常，其次我不玩了我要回家 #万圣节 #cos #抽象 #万梗节 #搞笑",
           "author": "娱乐早班车",
           "heat": "3902326次播放",
           "url": "https://www.douyin.com/video/7701620475339820339"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "我们对某鱼的开发程度不足百分之一！！！ #抽象 #搞笑 #内容过于真实 ##ai创作浪潮计划 #即梦ai创作者成长计划",
           "author": "白日梦境",
           "heat": "3781125次播放",
           "url": "https://www.douyin.com/video/7701545258609429811"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "#虾仁炒饭",
           "author": "千鹤影视",
           "heat": "3697112次播放",
@@ -513,9 +506,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:24"
+      "update_time": "2026-10-29 09:00:44"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -654,7 +647,7 @@
       "error": null,
       "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:26"
+      "update_time": "2026-10-29 09:00:46"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +730,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:28"
+      "update_time": "2026-10-29 09:00:48"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +813,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:30"
+      "update_time": "2026-10-29 09:00:51"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1176,7 +1169,7 @@
       "error": null,
       "item_count": 49,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:32"
+      "update_time": "2026-10-29 09:00:53"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1539,7 +1532,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:34"
+      "update_time": "2026-10-29 09:00:55"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1622,7 +1615,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:36"
+      "update_time": "2026-10-29 09:00:57"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1985,7 +1978,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:38"
+      "update_time": "2026-10-29 09:00:59"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2348,7 +2341,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:55:40"
+      "update_time": "2026-10-29 09:01:02"
     }
   }
 }
