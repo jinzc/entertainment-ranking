@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-29 08:40:28",
+  "update_time": "2026-10-29 08:45:28",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:30"
+      "update_time": "2026-10-29 08:45:30"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:33"
+      "update_time": "2026-10-29 08:45:33"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -525,143 +525,136 @@
       "color": "#F59E0B",
       "items": [
         {
-          "rank": 1,
-          "title": "家妻真是。。 #巡演日记 #陈小春成都演唱会",
-          "author": "陈小春",
-          "heat": "11394410次播放",
-          "url": "https://www.douyin.com/video/7700954635809191123"
-        },
-        {
           "rank": 2,
-          "title": "摇来玩✌️✊🤚吗？#尚公主 #尚公主抖音追剧团",
-          "author": "孟子义",
-          "heat": "11097623次播放",
-          "url": "https://www.douyin.com/video/7701193977596611151"
+          "title": "我又回来了，这回有啥事儿尽管招呼刀特刘！#小城良方",
+          "author": "肖战",
+          "heat": "10401511次播放",
+          "url": "https://www.douyin.com/video/7701563598531322545"
         },
         {
           "rank": 3,
-          "title": "一支当时只有时间录一条滴库存🤓～#一追就上头 #傣族",
-          "author": "卢昱晓",
-          "heat": "8918669次播放",
-          "url": "https://www.douyin.com/video/7701188083648299519"
+          "title": "一场场站稳，一步步走远。#曹云金 #听云轩 #听云轩全国巡演",
+          "author": "曹云金",
+          "heat": "9916990次播放",
+          "url": "https://www.douyin.com/video/7701567153304413850"
         },
         {
           "rank": 4,
-          "title": "谨以此信致 18 岁的贝儿。 上一次爸爸写信还是贝儿6岁的时候，转眼就18了~#生日快乐 #成人礼 #18岁生日",
-          "author": "鲍小蕾同学",
-          "heat": "8277981次播放",
-          "url": "https://www.douyin.com/video/7701289916684923121"
+          "title": "吃饭啦！大家都吃了吗？#记录瞬间的感觉 #风华计划 #流浪猫 #救助 #李勤勤",
+          "author": "演员李勤勤",
+          "heat": "9900369次播放",
+          "url": "https://www.douyin.com/video/7701658522220557274"
         },
         {
           "rank": 5,
-          "title": "💜。不不不 绝不能回到以前",
-          "author": "赵露思",
-          "heat": "7456605次播放",
-          "url": "https://www.douyin.com/video/7701300937528659944"
+          "title": "双11是省钱的，不是做算术题的！来我这不凑单，直接一降到底！还有iPhone18 Pro、iPhone DUO、黄金金钞和百万福利品等你抢！#贾乃亮巅峰双十一一降到底",
+          "author": "贾乃亮10.30早9点可复美年度折扣大场",
+          "heat": "9593982次播放",
+          "url": "https://www.douyin.com/video/7700549247355145498"
         },
         {
           "rank": 6,
-          "title": "她，不止镜头里的这一面； 它，也不止驶向一种生活。 #娜扎 X #豪华智慧全地形SUV猛士X700 豪华有格调，智慧有底气 携所爱，赴山海，去见未见 #猛士X700正式上市#真方盒子验出来 #娜扎猛士汽车品牌代言人",
-          "author": "娜扎nz",
-          "heat": "7383713次播放",
-          "url": "https://www.douyin.com/video/7700200655755007178"
+          "title": "谨以此信致 18 岁的贝儿。 上一次爸爸写信还是贝儿6岁的时候，转眼就18了~#生日快乐 #成人礼 #18岁生日",
+          "author": "鲍小蕾同学",
+          "heat": "9420049次播放",
+          "url": "https://www.douyin.com/video/7701289916684923121"
         },
         {
           "rank": 7,
-          "title": "“听”说这里有一个变装#听研 #听研乳霜面膜 #听研乳霜绷带膜",
-          "author": "杨颖angelababy",
-          "heat": "7304079次播放",
-          "url": "https://www.douyin.com/video/7699779688306134299"
+          "title": "为唱一首歌，我在贵州深山找了100个人！ #非遗盈光 #贵州 #bampo #万物皆可葫 #侗族大歌",
+          "author": "蓝盈莹Lyric",
+          "heat": "9153330次播放",
+          "url": "https://www.douyin.com/video/7699881999695088938"
+        },
+        {
+          "rank": 8,
+          "title": "⼀起去⼭顶看落⽇ 今天⼜是打⼯的⼀天。收⼯后和\"⼤朋友\"@理想汽车 ⼀起去⼭顶看落⽇。 #理想L8 #孙千理想L8质感漫游家",
+          "author": "孙千",
+          "heat": "8327910次播放",
+          "url": "https://www.douyin.com/video/7699891027259182370"
         },
         {
           "rank": 9,
-          "title": "孩子不在家，两个空巢老人生活也挺幸福的！ #记录真实生活#一勺楠风#中年夫妻#云南美食",
-          "author": "王一楠",
-          "heat": "6110125次播放",
-          "url": "https://www.douyin.com/video/7699500679932529935"
+          "title": "Hong Kong",
+          "author": "黄景瑜",
+          "heat": "8071086次播放",
+          "url": "https://www.douyin.com/video/7701662092160877922"
         },
         {
           "rank": 10,
-          "title": "站在秋天的阳光里 #可可系 #好好出门过个秋天",
-          "author": "关晓彤",
-          "heat": "6060082次播放",
-          "url": "https://www.douyin.com/video/7701269865999722088"
+          "title": "恭喜《逍遥仙》王哥获得奥斯卡最佳女主角，@王太利 百感交集。",
+          "author": "肖央",
+          "heat": "7576918次播放",
+          "url": "https://www.douyin.com/video/7701613773799099593"
         },
         {
           "rank": 11,
-          "title": "蜀道上班第一天 #唐朝诡事录 #唐朝诡事录之蜀道 #一追就上头",
-          "author": "演员杨志刚",
-          "heat": "5837773次播放",
-          "url": "https://www.douyin.com/video/7700898899112460978"
+          "title": "今年巅峰双十一，全品类大牌云集，五重补贴一降到底，百万单福利品和手机金钞直接送，让你省心又省钱！#贾乃亮巅峰双十一一降到底",
+          "author": "贾乃亮10.30早9点可复美年度折扣大场",
+          "heat": "7548832次播放",
+          "url": "https://www.douyin.com/video/7700612049612574002"
         },
         {
           "rank": 12,
-          "title": "有些执念，早就在暗处生了根。#把黑夜点燃",
-          "author": "张国强",
-          "heat": "5765303次播放",
-          "url": "https://www.douyin.com/video/7700951312448708530"
+          "title": "💜。不不不 绝不能回到以前",
+          "author": "赵露思",
+          "heat": "6764439次播放",
+          "url": "https://www.douyin.com/video/7701300937528659944"
         },
         {
           "rank": 13,
-          "title": "欢迎来到 2 号地球。 世界在此重启。 G.E.M.邓紫棋《自由的你》MV 特别出演：@魏大勋 2026.10.30｜11 AM",
-          "author": "GEM鄧紫棋",
-          "heat": "5627123次播放",
-          "url": "https://www.douyin.com/video/7701026113526566179"
-        },
-        {
-          "rank": 14,
-          "title": "今夜有好眠😴#尚公主 #尚公主抖音追剧团",
-          "author": "李昀锐Lin",
-          "heat": "5161302次播放",
-          "url": "https://www.douyin.com/video/7700994066724567717"
-        },
-        {
-          "rank": 15,
-          "title": "you know i ain’t worried about nothing #蔡徐坤TheDeadman演唱会",
-          "author": "蔡徐坤",
-          "heat": "5109120次播放",
-          "url": "https://www.douyin.com/video/7700992169046604466"
-        },
-        {
-          "rank": 16,
           "title": "任务没结束呢，还会再见的 #万花世界",
           "author": "鞠婧祎",
-          "heat": "4563700次播放",
+          "heat": "6630597次播放",
           "url": "https://www.douyin.com/video/7701300601947104448"
         },
         {
+          "rank": 14,
+          "title": "敢送，才是真底气！双11狂送iPhone18 Pro、金钞和100万单福利品！五重补贴一降到底，还有千人团队护航，你只管放心买！#贾乃亮巅峰双十一一降到底",
+          "author": "贾乃亮10.30早9点可复美年度折扣大场",
+          "heat": "6514681次播放",
+          "url": "https://www.douyin.com/video/7700611387382353161"
+        },
+        {
+          "rank": 15,
+          "title": "没想到吧，38年后的我依然落的住！ #黄河大侠 #车天 #一追就上头 #淳于珊珊",
+          "author": "演员淳于珊珊",
+          "heat": "6429084次播放",
+          "url": "https://www.douyin.com/video/7701592313419549978"
+        },
+        {
+          "rank": 16,
+          "title": "几点睡算熬夜？熬夜和猝s有什么关联？普通人心脏健康如何自查？#抖来聊聊 #视频播客扶持计划 #心脏健康 #心血管健康 #辅酶Q10",
+          "author": "主持人百克力（家庭健康局）",
+          "heat": "6310249次播放",
+          "url": "https://www.douyin.com/video/7701294645904575754"
+        },
+        {
           "rank": 17,
-          "title": "既怕闺蜜开路虎，又怕闺蜜过得苦！ #闺蜜 #嫉妒 #未来导演扶持计划#天冷有它就暖了 #冬日里的温暖陪伴",
-          "author": "孙大聪明",
-          "heat": "4460164次播放",
-          "url": "https://www.douyin.com/video/7697285596309376256"
+          "title": "为什么和好之后，还是会分开？ #情感共鸣 #经验分享 #人生哲理 #认知思维",
+          "author": "张晨光",
+          "heat": "6214588次播放",
+          "url": "https://www.douyin.com/video/7697203373807815945"
         },
         {
           "rank": 18,
-          "title": "再跳123遍holymoly🌽就掰完了 #全城星动 #holymoly #毛晓彤祝绪丹扒苞米太接地气了",
-          "author": "毛晓彤",
-          "heat": "4201080次播放",
-          "url": "https://www.douyin.com/video/7701268891271710163"
+          "title": "愿你的每一天都比昨天更好💗💗💗 #养宠需负责 #请尊重生命",
+          "author": "王彦霖",
+          "heat": "6105038次播放",
+          "url": "https://www.douyin.com/video/7701589801485084922"
         },
         {
           "rank": 19,
           "title": "落座，举杯🥂#可可系",
           "author": "Dear-迪丽热巴",
-          "heat": "4043894次播放",
+          "heat": "5954572次播放",
           "url": "https://www.douyin.com/video/7701316865427795114"
-        },
-        {
-          "rank": 20,
-          "title": "普通日子里也会有小浪漫 #生活温柔且浪漫",
-          "author": "李小璐",
-          "heat": "3836789次播放",
-          "url": "https://www.douyin.com/video/7700898291373865354"
         }
       ],
       "error": null,
-      "item_count": 19,
+      "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:35"
+      "update_time": "2026-10-29 08:45:35"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:37"
+      "update_time": "2026-10-29 08:45:37"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:39"
+      "update_time": "2026-10-29 08:45:39"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1176,7 @@
       "error": null,
       "item_count": 49,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:41"
+      "update_time": "2026-10-29 08:45:41"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1539,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:44"
+      "update_time": "2026-10-29 08:45:44"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1622,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:46"
+      "update_time": "2026-10-29 08:45:46"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1992,7 +1985,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:48"
+      "update_time": "2026-10-29 08:45:48"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2348,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-29 08:40:50"
+      "update_time": "2026-10-29 08:45:50"
     }
   }
 }
