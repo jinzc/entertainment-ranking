@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-30 17:20:31",
+  "update_time": "2026-10-30 17:22:34",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:33"
+      "update_time": "2026-10-30 17:22:36"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -499,13 +499,6 @@
         },
         {
           "rank": 19,
-          "title": "老中人对800的敏锐程度可不是说着玩玩的#历史 #海外 #霍去病 #李世民 #万万想不到",
-          "author": "章娱来了",
-          "heat": "3772860次播放",
-          "url": "https://www.douyin.com/video/7702016687922597170"
-        },
-        {
-          "rank": 20,
           "title": "#文吉儿 现在心结是当初给#王子璇 的三万块钱。。#后会友期",
           "author": "我的偶像是二哔",
           "heat": "3555047次播放",
@@ -513,9 +506,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:35"
+      "update_time": "2026-10-30 17:22:39"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +654,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:38"
+      "update_time": "2026-10-30 17:22:41"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:40"
+      "update_time": "2026-10-30 17:22:43"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:42"
+      "update_time": "2026-10-30 17:22:45"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1183,7 +1176,7 @@
       "error": null,
       "item_count": 49,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:44"
+      "update_time": "2026-10-30 17:22:47"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1546,7 +1539,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:46"
+      "update_time": "2026-10-30 17:22:49"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1629,7 +1622,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:48"
+      "update_time": "2026-10-30 17:22:51"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1992,7 +1985,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:50"
+      "update_time": "2026-10-30 17:22:54"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2355,7 +2348,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-30 17:20:52"
+      "update_time": "2026-10-30 17:22:56"
     }
   }
 }
