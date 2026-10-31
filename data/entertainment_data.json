@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-31 17:20:31",
+  "update_time": "2026-10-31 17:25:21",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:33"
+      "update_time": "2026-10-31 17:25:23"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:36"
+      "update_time": "2026-10-31 17:25:26"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -654,7 +654,7 @@
       "error": null,
       "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:38"
+      "update_time": "2026-10-31 17:25:28"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -737,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:40"
+      "update_time": "2026-10-31 17:25:30"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -820,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:42"
+      "update_time": "2026-10-31 17:25:32"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1176,7 +1176,7 @@
       "error": null,
       "item_count": 49,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:44"
+      "update_time": "2026-10-31 17:25:34"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1539,7 +1539,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:46"
+      "update_time": "2026-10-31 17:25:37"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1622,7 +1622,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:48"
+      "update_time": "2026-10-31 17:25:39"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1899,93 +1899,93 @@
         },
         {
           "rank": 39,
-          "title": "牛来",
+          "title": "怒之杀",
           "author": "",
           "heat": "39.",
-          "url": "https://movie.douban.com/subject/38581618"
+          "url": "https://movie.douban.com/subject/36889088"
         },
         {
           "rank": 40,
-          "title": "子弹横飞百老汇",
+          "title": "牛来",
           "author": "",
           "heat": "40.",
-          "url": "https://movie.douban.com/subject/1295452"
+          "url": "https://movie.douban.com/subject/38581618"
         },
         {
           "rank": 41,
-          "title": "接近终点",
+          "title": "子弹横飞百老汇",
           "author": "",
           "heat": "41.",
-          "url": "https://movie.douban.com/subject/35409362"
+          "url": "https://movie.douban.com/subject/1295452"
         },
         {
           "rank": 42,
-          "title": "上海女儿",
+          "title": "接近终点",
           "author": "",
           "heat": "42.",
-          "url": "https://movie.douban.com/subject/36753343"
+          "url": "https://movie.douban.com/subject/35409362"
         },
         {
           "rank": 43,
-          "title": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
+          "title": "上海女儿",
           "author": "",
           "heat": "43.",
-          "url": "https://movie.douban.com/subject/38902940"
+          "url": "https://movie.douban.com/subject/36753343"
         },
         {
           "rank": 44,
-          "title": "列宁格勒牛仔征美记",
+          "title": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
           "author": "",
           "heat": "44.",
-          "url": "https://movie.douban.com/subject/1316560"
+          "url": "https://movie.douban.com/subject/38902940"
         },
         {
           "rank": 45,
-          "title": "落凡尘",
+          "title": "列宁格勒牛仔征美记",
           "author": "",
           "heat": "45.",
-          "url": "https://movie.douban.com/subject/36624248"
+          "url": "https://movie.douban.com/subject/1316560"
         },
         {
           "rank": 46,
-          "title": "密档",
+          "title": "落凡尘",
           "author": "",
           "heat": "46.",
-          "url": "https://movie.douban.com/subject/35209727"
+          "url": "https://movie.douban.com/subject/36624248"
         },
         {
           "rank": 47,
-          "title": "在那河畔青草青",
+          "title": "密档",
           "author": "",
           "heat": "47.",
-          "url": "https://movie.douban.com/subject/1296972"
+          "url": "https://movie.douban.com/subject/35209727"
         },
         {
           "rank": 48,
-          "title": "去你的岛",
+          "title": "在那河畔青草青",
           "author": "",
           "heat": "48.",
-          "url": "https://movie.douban.com/subject/35275131"
+          "url": "https://movie.douban.com/subject/1296972"
         },
         {
           "rank": 49,
-          "title": "凝脂手",
+          "title": "去你的岛",
           "author": "",
           "heat": "49.",
-          "url": "https://movie.douban.com/subject/37667170"
+          "url": "https://movie.douban.com/subject/35275131"
         },
         {
           "rank": 50,
-          "title": "武汉任务",
+          "title": "凝脂手",
           "author": "",
           "heat": "50.",
-          "url": "https://movie.douban.com/subject/37497419"
+          "url": "https://movie.douban.com/subject/37667170"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:50"
+      "update_time": "2026-10-31 17:25:41"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2348,7 +2348,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-10-31 17:20:53"
+      "update_time": "2026-10-31 17:25:43"
     }
   }
 }
