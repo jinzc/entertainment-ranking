@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-10 20:35:24",
+  "update_time": "2026-11-10 20:40:30",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -10,108 +10,108 @@
       "items": [
         {
           "rank": 1,
-          "title": "金鸡奖",
-          "author": "",
-          "heat": "1.",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96&t=152&Refer=top"
-        },
-        {
-          "rank": 2,
-          "title": "兰西雅金鸡奖最佳女配角",
-          "author": "",
-          "heat": "2.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%85%B0%E8%A5%BF%E9%9B%85%E9%87%91%E9%B8%A1%E5%A5%96%E6%9C%80%E4%BD%B3%E5%A5%B3%E9%85%8D%E8%A7%92%23&t=152&Refer=top"
-        },
-        {
-          "rank": 3,
-          "title": "金子涵妹妹回复网友",
-          "author": "",
-          "heat": "3.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E5%AD%90%E6%B6%B5%E5%A6%B9%E5%A6%B9%E5%9B%9E%E5%A4%8D%E7%BD%91%E5%8F%8B%23&t=152&Refer=top"
-        },
-        {
-          "rank": 4,
           "title": "金鸡奖颁奖典礼",
           "author": "",
-          "heat": "4.",
+          "heat": "1.",
           "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E9%A2%81%E5%A5%96%E5%85%B8%E7%A4%BC&t=152&Refer=top"
         },
         {
-          "rank": 5,
-          "title": "黄景瑜 唯爱姐姐",
+          "rank": 2,
+          "title": "金鸡奖",
           "author": "",
-          "heat": "5.",
-          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E6%99%AF%E7%91%9C%20%E5%94%AF%E7%88%B1%E5%A7%90%E5%A7%90&t=152&Refer=top"
+          "heat": "2.",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96&t=152&Refer=top"
         },
         {
-          "rank": 6,
-          "title": "王子璇一个手表能买了白小纯",
-          "author": "",
-          "heat": "6.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E4%B8%80%E4%B8%AA%E6%89%8B%E8%A1%A8%E8%83%BD%E4%B9%B0%E4%BA%86%E7%99%BD%E5%B0%8F%E7%BA%AF%23&t=152&Refer=top"
-        },
-        {
-          "rank": 7,
-          "title": "易烊千玺金鸡奖坐第一排",
-          "author": "",
-          "heat": "7.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E9%87%91%E9%B8%A1%E5%A5%96%E5%9D%90%E7%AC%AC%E4%B8%80%E6%8E%92%23&t=152&Refer=top"
-        },
-        {
-          "rank": 8,
-          "title": "青稚允许你说不舒服了",
-          "author": "",
-          "heat": "8.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E5%85%81%E8%AE%B8%E4%BD%A0%E8%AF%B4%E4%B8%8D%E8%88%92%E6%9C%8D%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 9,
-          "title": "绝味找了厉娜 周黑鸭找了许飞",
-          "author": "",
-          "heat": "9.",
-          "url": "https://s.weibo.com/weibo?q=%E7%BB%9D%E5%91%B3%E6%89%BE%E4%BA%86%E5%8E%89%E5%A8%9C%20%E5%91%A8%E9%BB%91%E9%B8%AD%E6%89%BE%E4%BA%86%E8%AE%B8%E9%A3%9E&t=152&Refer=top"
-        },
-        {
-          "rank": 10,
-          "title": "黄景瑜感情时间线",
-          "author": "",
-          "heat": "10.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E6%99%AF%E7%91%9C%E6%84%9F%E6%83%85%E6%97%B6%E9%97%B4%E7%BA%BF%23&t=152&Refer=top"
-        },
-        {
-          "rank": 11,
-          "title": "金鸡奖内场座位图",
-          "author": "",
-          "heat": "11.",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E5%86%85%E5%9C%BA%E5%BA%A7%E4%BD%8D%E5%9B%BE&t=152&Refer=top"
-        },
-        {
-          "rank": 12,
-          "title": "疯狂好六夜",
-          "author": "",
-          "heat": "12.",
-          "url": "https://s.weibo.com/weibo?q=%E7%96%AF%E7%8B%82%E5%A5%BD%E5%85%AD%E5%A4%9C&t=152&Refer=top"
-        },
-        {
-          "rank": 13,
+          "rank": 3,
           "title": "金鸡奖获奖名单",
           "author": "",
-          "heat": "13.",
+          "heat": "3.",
           "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95&t=152&Refer=top"
         },
         {
+          "rank": 4,
+          "title": "金子涵妹妹回复网友",
+          "author": "",
+          "heat": "4.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E5%AD%90%E6%B6%B5%E5%A6%B9%E5%A6%B9%E5%9B%9E%E5%A4%8D%E7%BD%91%E5%8F%8B%23&t=152&Refer=top"
+        },
+        {
+          "rank": 5,
+          "title": "兰西雅金鸡奖最佳女配角",
+          "author": "",
+          "heat": "5.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%85%B0%E8%A5%BF%E9%9B%85%E9%87%91%E9%B8%A1%E5%A5%96%E6%9C%80%E4%BD%B3%E5%A5%B3%E9%85%8D%E8%A7%92%23&t=152&Refer=top"
+        },
+        {
+          "rank": 6,
+          "title": "易烊千玺金鸡奖坐第一排",
+          "author": "",
+          "heat": "6.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E9%87%91%E9%B8%A1%E5%A5%96%E5%9D%90%E7%AC%AC%E4%B8%80%E6%8E%92%23&t=152&Refer=top"
+        },
+        {
+          "rank": 7,
+          "title": "黄景瑜 唯爱姐姐",
+          "author": "",
+          "heat": "7.",
+          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E6%99%AF%E7%91%9C%20%E5%94%AF%E7%88%B1%E5%A7%90%E5%A7%90&t=152&Refer=top"
+        },
+        {
+          "rank": 8,
+          "title": "王子璇一个手表能买了白小纯",
+          "author": "",
+          "heat": "8.",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E4%B8%80%E4%B8%AA%E6%89%8B%E8%A1%A8%E8%83%BD%E4%B9%B0%E4%BA%86%E7%99%BD%E5%B0%8F%E7%BA%AF%23&t=152&Refer=top"
+        },
+        {
+          "rank": 9,
+          "title": "青稚允许你说不舒服了",
+          "author": "",
+          "heat": "9.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E5%85%81%E8%AE%B8%E4%BD%A0%E8%AF%B4%E4%B8%8D%E8%88%92%E6%9C%8D%E4%BA%86%23&t=152&Refer=top"
+        },
+        {
+          "rank": 10,
+          "title": "绝味找了厉娜 周黑鸭找了许飞",
+          "author": "",
+          "heat": "10.",
+          "url": "https://s.weibo.com/weibo?q=%E7%BB%9D%E5%91%B3%E6%89%BE%E4%BA%86%E5%8E%89%E5%A8%9C%20%E5%91%A8%E9%BB%91%E9%B8%AD%E6%89%BE%E4%BA%86%E8%AE%B8%E9%A3%9E&t=152&Refer=top"
+        },
+        {
+          "rank": 11,
+          "title": "疯狂好六夜",
+          "author": "",
+          "heat": "11.",
+          "url": "https://s.weibo.com/weibo?q=%E7%96%AF%E7%8B%82%E5%A5%BD%E5%85%AD%E5%A4%9C&t=152&Refer=top"
+        },
+        {
+          "rank": 12,
+          "title": "黄景瑜感情时间线",
+          "author": "",
+          "heat": "12.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E6%99%AF%E7%91%9C%E6%84%9F%E6%83%85%E6%97%B6%E9%97%B4%E7%BA%BF%23&t=152&Refer=top"
+        },
+        {
+          "rank": 13,
+          "title": "金鸡奖内场座位图",
+          "author": "",
+          "heat": "13.",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E5%86%85%E5%9C%BA%E5%BA%A7%E4%BD%8D%E5%9B%BE&t=152&Refer=top"
+        },
+        {
           "rank": 14,
-          "title": "金鸡奖红毯",
+          "title": "黄仁勋女儿曾帮父亲与情人拍合照",
           "author": "",
           "heat": "14.",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E7%BA%A2%E6%AF%AF&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E5%A5%B3%E5%84%BF%E6%9B%BE%E5%B8%AE%E7%88%B6%E4%BA%B2%E4%B8%8E%E6%83%85%E4%BA%BA%E6%8B%8D%E5%90%88%E7%85%A7%23&t=152&Refer=top"
         },
         {
           "rank": 15,
-          "title": "黄仁勋女儿曾帮父亲与情人拍合照",
+          "title": "金鸡奖红毯",
           "author": "",
           "heat": "15.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E5%A5%B3%E5%84%BF%E6%9B%BE%E5%B8%AE%E7%88%B6%E4%BA%B2%E4%B8%8E%E6%83%85%E4%BA%BA%E6%8B%8D%E5%90%88%E7%85%A7%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E7%BA%A2%E6%AF%AF&t=152&Refer=top"
         },
         {
           "rank": 16,
@@ -129,10 +129,10 @@
         },
         {
           "rank": 18,
-          "title": "惠英红阿玛尼顶级高定",
+          "title": "李思潼吴磊坐第一排",
           "author": "",
           "heat": "18.",
-          "url": "https://s.weibo.com/weibo?q=%E6%83%A0%E8%8B%B1%E7%BA%A2%E9%98%BF%E7%8E%9B%E5%B0%BC%E9%A1%B6%E7%BA%A7%E9%AB%98%E5%AE%9A&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%80%9D%E6%BD%BC%E5%90%B4%E7%A3%8A%E5%9D%90%E7%AC%AC%E4%B8%80%E6%8E%92%23&t=152&Refer=top"
         },
         {
           "rank": 19,
@@ -143,45 +143,45 @@
         },
         {
           "rank": 20,
-          "title": "李宇春走红毯自带BGM",
+          "title": "冯巩牵着何赛飞一起合影",
           "author": "",
           "heat": "20.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%AE%87%E6%98%A5%E8%B5%B0%E7%BA%A2%E6%AF%AF%E8%87%AA%E5%B8%A6BGM%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E5%86%AF%E5%B7%A9%E7%89%B5%E7%9D%80%E4%BD%95%E8%B5%9B%E9%A3%9E%E4%B8%80%E8%B5%B7%E5%90%88%E5%BD%B1&t=152&Refer=top"
         },
         {
           "rank": 21,
-          "title": "李思潼吴磊坐第一排",
+          "title": "惠英红阿玛尼顶级高定",
           "author": "",
           "heat": "21.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%80%9D%E6%BD%BC%E5%90%B4%E7%A3%8A%E5%9D%90%E7%AC%AC%E4%B8%80%E6%8E%92%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%83%A0%E8%8B%B1%E7%BA%A2%E9%98%BF%E7%8E%9B%E5%B0%BC%E9%A1%B6%E7%BA%A7%E9%AB%98%E5%AE%9A&t=152&Refer=top"
         },
         {
           "rank": 22,
-          "title": "霍建华为林心如辟谣",
-          "author": "",
-          "heat": "22.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E5%BB%BA%E5%8D%8E%E4%B8%BA%E6%9E%97%E5%BF%83%E5%A6%82%E8%BE%9F%E8%B0%A3%23&t=152&Refer=top"
-        },
-        {
-          "rank": 23,
-          "title": "青稚睡沙发没有被子",
-          "author": "",
-          "heat": "23.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E7%9D%A1%E6%B2%99%E5%8F%91%E6%B2%A1%E6%9C%89%E8%A2%AB%E5%AD%90%23&t=152&Refer=top"
-        },
-        {
-          "rank": 24,
           "title": "白小纯看的那一眼都快拉丝了",
           "author": "",
-          "heat": "24.",
+          "heat": "22.",
           "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E7%9C%8B%E7%9A%84%E9%82%A3%E4%B8%80%E7%9C%BC%E9%83%BD%E5%BF%AB%E6%8B%89%E4%B8%9D%E4%BA%86%23&t=152&Refer=top"
         },
         {
+          "rank": 23,
+          "title": "霍建华为林心如辟谣",
+          "author": "",
+          "heat": "23.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E5%BB%BA%E5%8D%8E%E4%B8%BA%E6%9E%97%E5%BF%83%E5%A6%82%E8%BE%9F%E8%B0%A3%23&t=152&Refer=top"
+        },
+        {
+          "rank": 24,
+          "title": "女明星红毯看得我眼前一亮又一亮",
+          "author": "",
+          "heat": "24.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%98%8E%E6%98%9F%E7%BA%A2%E6%AF%AF%E7%9C%8B%E5%BE%97%E6%88%91%E7%9C%BC%E5%89%8D%E4%B8%80%E4%BA%AE%E5%8F%88%E4%B8%80%E4%BA%AE%23&t=152&Refer=top"
+        },
+        {
           "rank": 25,
-          "title": "白鹿五条人画地为牢",
+          "title": "曝金子涵在SM训练时就有点抑郁了",
           "author": "",
           "heat": "25.",
-          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E4%BA%94%E6%9D%A1%E4%BA%BA%E7%94%BB%E5%9C%B0%E4%B8%BA%E7%89%A2&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E9%87%91%E5%AD%90%E6%B6%B5%E5%9C%A8SM%E8%AE%AD%E7%BB%83%E6%97%B6%E5%B0%B1%E6%9C%89%E7%82%B9%E6%8A%91%E9%83%81%E4%BA%86%23&t=152&Refer=top"
         },
         {
           "rank": 26,
@@ -192,150 +192,150 @@
         },
         {
           "rank": 27,
-          "title": "吾守尔赛来金鸡奖最佳男配角",
+          "title": "李宇春对井柏然说还行没露背",
           "author": "",
           "heat": "27.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%90%BE%E5%AE%88%E5%B0%94%E8%B5%9B%E6%9D%A5%E9%87%91%E9%B8%A1%E5%A5%96%E6%9C%80%E4%BD%B3%E7%94%B7%E9%85%8D%E8%A7%92%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%AE%87%E6%98%A5%E5%AF%B9%E4%BA%95%E6%9F%8F%E7%84%B6%E8%AF%B4%E8%BF%98%E8%A1%8C%E6%B2%A1%E9%9C%B2%E8%83%8C%23&t=152&Refer=top"
         },
         {
           "rank": 28,
-          "title": "曝刘念提一九分账录音",
+          "title": "白鹿五条人画地为牢",
           "author": "",
           "heat": "28.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%88%98%E5%BF%B5%E6%8F%90%E4%B8%80%E4%B9%9D%E5%88%86%E8%B4%A6%E5%BD%95%E9%9F%B3%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E4%BA%94%E6%9D%A1%E4%BA%BA%E7%94%BB%E5%9C%B0%E4%B8%BA%E7%89%A2&t=152&Refer=top"
         },
         {
           "rank": 29,
-          "title": "杨紫玉兰花开君再来预告片",
+          "title": "檀健次金鸡奖颁奖典礼造型",
           "author": "",
           "heat": "29.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%B4%AB%E7%8E%89%E5%85%B0%E8%8A%B1%E5%BC%80%E5%90%9B%E5%86%8D%E6%9D%A5%E9%A2%84%E5%91%8A%E7%89%87%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%AA%80%E5%81%A5%E6%AC%A1%E9%87%91%E9%B8%A1%E5%A5%96%E9%A2%81%E5%A5%96%E5%85%B8%E7%A4%BC%E9%80%A0%E5%9E%8B%23&t=152&Refer=top"
         },
         {
           "rank": 30,
-          "title": "宋威龙问我冷不冷",
-          "author": "",
-          "heat": "30.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E5%A8%81%E9%BE%99%E9%97%AE%E6%88%91%E5%86%B7%E4%B8%8D%E5%86%B7%23&t=152&Refer=top"
-        },
-        {
-          "rank": 31,
-          "title": "井柏然李宇春合影",
-          "author": "",
-          "heat": "31.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E6%9D%8E%E5%AE%87%E6%98%A5%E5%90%88%E5%BD%B1%23&t=152&Refer=top"
-        },
-        {
-          "rank": 32,
-          "title": "白小纯王子璇玩满分朋友时就不对劲了",
-          "author": "",
-          "heat": "32.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E7%8E%8B%E5%AD%90%E7%92%87%E7%8E%A9%E6%BB%A1%E5%88%86%E6%9C%8B%E5%8F%8B%E6%97%B6%E5%B0%B1%E4%B8%8D%E5%AF%B9%E5%8A%B2%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 33,
-          "title": "白鹿甜酷辣妹",
-          "author": "",
-          "heat": "33.",
-          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E7%94%9C%E9%85%B7%E8%BE%A3%E5%A6%B9&t=152&Refer=top"
-        },
-        {
-          "rank": 34,
-          "title": "杨超越 别拿拍立得拍我",
-          "author": "",
-          "heat": "34.",
-          "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E8%B6%85%E8%B6%8A%20%E5%88%AB%E6%8B%BF%E6%8B%8D%E7%AB%8B%E5%BE%97%E6%8B%8D%E6%88%91&t=152&Refer=top"
-        },
-        {
-          "rank": 35,
-          "title": "王传君邓家佳金鸡奖挨着坐",
-          "author": "",
-          "heat": "35.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BC%A0%E5%90%9B%E9%82%93%E5%AE%B6%E4%BD%B3%E9%87%91%E9%B8%A1%E5%A5%96%E6%8C%A8%E7%9D%80%E5%9D%90%23&t=152&Refer=top"
-        },
-        {
-          "rank": 36,
-          "title": "梁家辉朱一龙 厕所不解之缘",
-          "author": "",
-          "heat": "36.",
-          "url": "https://s.weibo.com/weibo?q=%E6%A2%81%E5%AE%B6%E8%BE%89%E6%9C%B1%E4%B8%80%E9%BE%99%20%E5%8E%95%E6%89%80%E4%B8%8D%E8%A7%A3%E4%B9%8B%E7%BC%98&t=152&Refer=top"
-        },
-        {
-          "rank": 37,
           "title": "我的初中同学黄景瑜",
           "author": "",
-          "heat": "37.",
+          "heat": "30.",
           "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E7%9A%84%E5%88%9D%E4%B8%AD%E5%90%8C%E5%AD%A6%E9%BB%84%E6%99%AF%E7%91%9C%23&t=152&Refer=top"
         },
         {
-          "rank": 38,
+          "rank": 31,
+          "title": "青稚睡沙发没有被子",
+          "author": "",
+          "heat": "31.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E7%9D%A1%E6%B2%99%E5%8F%91%E6%B2%A1%E6%9C%89%E8%A2%AB%E5%AD%90%23&t=152&Refer=top"
+        },
+        {
+          "rank": 32,
+          "title": "井柏然李宇春合影",
+          "author": "",
+          "heat": "32.",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E6%9D%8E%E5%AE%87%E6%98%A5%E5%90%88%E5%BD%B1%23&t=152&Refer=top"
+        },
+        {
+          "rank": 33,
           "title": "易梦玲柯淳陈添祥金鸡奖红毯",
           "author": "",
-          "heat": "38.",
+          "heat": "33.",
           "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E6%A2%A6%E7%8E%B2%E6%9F%AF%E6%B7%B3%E9%99%88%E6%B7%BB%E7%A5%A5%E9%87%91%E9%B8%A1%E5%A5%96%E7%BA%A2%E6%AF%AF%23&t=152&Refer=top"
         },
         {
+          "rank": 34,
+          "title": "曝刘念提一九分账录音",
+          "author": "",
+          "heat": "34.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%88%98%E5%BF%B5%E6%8F%90%E4%B8%80%E4%B9%9D%E5%88%86%E8%B4%A6%E5%BD%95%E9%9F%B3%23&t=152&Refer=top"
+        },
+        {
+          "rank": 35,
+          "title": "杨紫玉兰花开君再来预告片",
+          "author": "",
+          "heat": "35.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%B4%AB%E7%8E%89%E5%85%B0%E8%8A%B1%E5%BC%80%E5%90%9B%E5%86%8D%E6%9D%A5%E9%A2%84%E5%91%8A%E7%89%87%23&t=152&Refer=top"
+        },
+        {
+          "rank": 36,
+          "title": "李宇春走红毯自带BGM",
+          "author": "",
+          "heat": "36.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%AE%87%E6%98%A5%E8%B5%B0%E7%BA%A2%E6%AF%AF%E8%87%AA%E5%B8%A6BGM%23&t=152&Refer=top"
+        },
+        {
+          "rank": 37,
+          "title": "厉娜机场穿搭vs许飞机场穿搭",
+          "author": "",
+          "heat": "37.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%8E%89%E5%A8%9C%E6%9C%BA%E5%9C%BA%E7%A9%BF%E6%90%ADvs%E8%AE%B8%E9%A3%9E%E6%9C%BA%E5%9C%BA%E7%A9%BF%E6%90%AD%23&t=152&Refer=top"
+        },
+        {
+          "rank": 38,
+          "title": "梁家辉朱一龙 厕所不解之缘",
+          "author": "",
+          "heat": "38.",
+          "url": "https://s.weibo.com/weibo?q=%E6%A2%81%E5%AE%B6%E8%BE%89%E6%9C%B1%E4%B8%80%E9%BE%99%20%E5%8E%95%E6%89%80%E4%B8%8D%E8%A7%A3%E4%B9%8B%E7%BC%98&t=152&Refer=top"
+        },
+        {
           "rank": 39,
-          "title": "丞磊张云龙再现名场面",
+          "title": "严浩翔紫色深V",
           "author": "",
           "heat": "39.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9E%E7%A3%8A%E5%BC%A0%E4%BA%91%E9%BE%99%E5%86%8D%E7%8E%B0%E5%90%8D%E5%9C%BA%E9%9D%A2%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%A5%E6%B5%A9%E7%BF%94%E7%B4%AB%E8%89%B2%E6%B7%B1V&t=152&Refer=top"
         },
         {
           "rank": 40,
-          "title": "刘耀文冷到发抖",
+          "title": "王传君邓家佳金鸡奖挨着坐",
           "author": "",
           "heat": "40.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%80%80%E6%96%87%E5%86%B7%E5%88%B0%E5%8F%91%E6%8A%96%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BC%A0%E5%90%9B%E9%82%93%E5%AE%B6%E4%BD%B3%E9%87%91%E9%B8%A1%E5%A5%96%E6%8C%A8%E7%9D%80%E5%9D%90%23&t=152&Refer=top"
         },
         {
           "rank": 41,
-          "title": "许飞穿的外套才65块",
+          "title": "刘耀文冷到发抖",
           "author": "",
           "heat": "41.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E9%A3%9E%E7%A9%BF%E7%9A%84%E5%A4%96%E5%A5%97%E6%89%8D65%E5%9D%97%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%80%80%E6%96%87%E5%86%B7%E5%88%B0%E5%8F%91%E6%8A%96%23&t=152&Refer=top"
         },
         {
           "rank": 42,
-          "title": "金鸡奖预测",
+          "title": "丞磊张云龙再现名场面",
           "author": "",
           "heat": "42.",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E9%A2%84%E6%B5%8B&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9E%E7%A3%8A%E5%BC%A0%E4%BA%91%E9%BE%99%E5%86%8D%E7%8E%B0%E5%90%8D%E5%9C%BA%E9%9D%A2%23&t=152&Refer=top"
         },
         {
           "rank": 43,
-          "title": "文吉儿 王子璇",
+          "title": "吾守尔赛来金鸡奖最佳男配角",
           "author": "",
           "heat": "43.",
-          "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%20%E7%8E%8B%E5%AD%90%E7%92%87&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%90%BE%E5%AE%88%E5%B0%94%E8%B5%9B%E6%9D%A5%E9%87%91%E9%B8%A1%E5%A5%96%E6%9C%80%E4%BD%B3%E7%94%B7%E9%85%8D%E8%A7%92%23&t=152&Refer=top"
         },
         {
           "rank": 44,
-          "title": "易烊千玺现身厦门金鸡",
+          "title": "杨超越 别拿拍立得拍我",
           "author": "",
           "heat": "44.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E7%8E%B0%E8%BA%AB%E5%8E%A6%E9%97%A8%E9%87%91%E9%B8%A1%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E8%B6%85%E8%B6%8A%20%E5%88%AB%E6%8B%BF%E6%8B%8D%E7%AB%8B%E5%BE%97%E6%8B%8D%E6%88%91&t=152&Refer=top"
         },
         {
           "rank": 45,
-          "title": "朱一龙红毯小跑跟上惠英红",
+          "title": "易烊千玺现身厦门金鸡",
           "author": "",
           "heat": "45.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E4%B8%80%E9%BE%99%E7%BA%A2%E6%AF%AF%E5%B0%8F%E8%B7%91%E8%B7%9F%E4%B8%8A%E6%83%A0%E8%8B%B1%E7%BA%A2%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E7%8E%B0%E8%BA%AB%E5%8E%A6%E9%97%A8%E9%87%91%E9%B8%A1%23&t=152&Refer=top"
         },
         {
           "rank": 46,
-          "title": "白鹿五条人合唱两首歌",
+          "title": "白鹿甜酷辣妹",
           "author": "",
           "heat": "46.",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E4%BA%94%E6%9D%A1%E4%BA%BA%E5%90%88%E5%94%B1%E4%B8%A4%E9%A6%96%E6%AD%8C%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E7%94%9C%E9%85%B7%E8%BE%A3%E5%A6%B9&t=152&Refer=top"
         },
         {
           "rank": 47,
-          "title": "厦门文旅 金鸡奖文案",
+          "title": "白小纯王子璇玩满分朋友时就不对劲了",
           "author": "",
           "heat": "47.",
-          "url": "https://s.weibo.com/weibo?q=%E5%8E%A6%E9%97%A8%E6%96%87%E6%97%85%20%E9%87%91%E9%B8%A1%E5%A5%96%E6%96%87%E6%A1%88&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E7%8E%8B%E5%AD%90%E7%92%87%E7%8E%A9%E6%BB%A1%E5%88%86%E6%9C%8B%E5%8F%8B%E6%97%B6%E5%B0%B1%E4%B8%8D%E5%AF%B9%E5%8A%B2%E4%BA%86%23&t=152&Refer=top"
         },
         {
           "rank": 48,
@@ -346,23 +346,23 @@
         },
         {
           "rank": 49,
-          "title": "曝金晨回归现发录制",
+          "title": "如果许飞唱的是原版歌词那将是绝杀",
           "author": "",
           "heat": "49.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E9%87%91%E6%99%A8%E5%9B%9E%E5%BD%92%E7%8E%B0%E5%8F%91%E5%BD%95%E5%88%B6%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A6%82%E6%9E%9C%E8%AE%B8%E9%A3%9E%E5%94%B1%E7%9A%84%E6%98%AF%E5%8E%9F%E7%89%88%E6%AD%8C%E8%AF%8D%E9%82%A3%E5%B0%86%E6%98%AF%E7%BB%9D%E6%9D%80%23&t=152&Refer=top"
         },
         {
           "rank": 50,
-          "title": "宋佳坐朱一龙檀健次中间",
+          "title": "许飞穿的外套才65块",
           "author": "",
           "heat": "50.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E4%BD%B3%E5%9D%90%E6%9C%B1%E4%B8%80%E9%BE%99%E6%AA%80%E5%81%A5%E6%AC%A1%E4%B8%AD%E9%97%B4%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E9%A3%9E%E7%A9%BF%E7%9A%84%E5%A4%96%E5%A5%97%E6%89%8D65%E5%9D%97%23&t=152&Refer=top"
         }
       ],
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:27"
+      "update_time": "2026-11-10 20:40:32"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:29"
+      "update_time": "2026-11-10 20:40:34"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -640,7 +640,7 @@
       "error": null,
       "item_count": 16,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:32"
+      "update_time": "2026-11-10 20:40:36"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -723,7 +723,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:34"
+      "update_time": "2026-11-10 20:40:38"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -806,7 +806,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:36"
+      "update_time": "2026-11-10 20:40:40"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1169,7 +1169,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:38"
+      "update_time": "2026-11-10 20:40:42"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1532,7 +1532,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:40"
+      "update_time": "2026-11-10 20:40:45"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1615,7 +1615,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:42"
+      "update_time": "2026-11-10 20:40:47"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1978,7 +1978,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:45"
+      "update_time": "2026-11-10 20:40:49"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2341,7 +2341,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-10 20:35:47"
+      "update_time": "2026-11-10 20:40:51"
     }
   }
 }
