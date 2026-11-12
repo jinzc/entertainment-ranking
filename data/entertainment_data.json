@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-13 01:55:23",
+  "update_time": "2026-11-13 02:00:43",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:25"
+      "update_time": "2026-11-13 02:00:47"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -370,152 +370,11 @@
       "category": "抖音",
       "icon": "🎵",
       "color": "#F59E0B",
-      "items": [
-        {
-          "rank": 1,
-          "title": "曾舜晞孟子义合作舞台《犯错》 一个敢唱一个敢接 这节目效果拉满了！#曾舜晞 #孟子义 #犯错 #双11疯狂好六夜",
-          "author": "一期一会Live",
-          "heat": "7698835次播放",
-          "url": "https://www.douyin.com/video/7706559409572705535"
-        },
-        {
-          "rank": 2,
-          "title": "孟子义曾舜晞《犯错》两个是如何绷住的 特像两个吵架的情侣 #孟子义 #犯错 #曾舜晞 #双11疯狂好六夜",
-          "author": "一期一会Live",
-          "heat": "7662277次播放",
-          "url": "https://www.douyin.com/video/7706528702855671247"
-        },
-        {
-          "rank": 3,
-          "title": "发明让孟子义曾舜晞唱完《犯错》唱《不值得》的人真是个天才！反正我是蚌埠住了！#孟子义 #曾舜晞 #不值得 #双11疯狂好六夜",
-          "author": "一期一会Live",
-          "heat": "7533518次播放",
-          "url": "https://www.douyin.com/video/7706785558542916068"
-        },
-        {
-          "rank": 4,
-          "title": "#2026星辰大海金鸡奖大合影 来啦！顺利“毕业”，未来再见！#金鸡奖 #2026星辰大海青年演员优选计划",
-          "author": "电影频道融媒体中心",
-          "heat": "7510775次播放",
-          "url": "https://www.douyin.com/video/7706566228034869979"
-        },
-        {
-          "rank": 5,
-          "title": "【本内容由OiiOii AI制作】 纸媳妇儿施法搅黄相亲，媒婆春杏哭爹喊娘 #OiiOii #OiiOii创作者计划",
-          "author": "灵猫追剧",
-          "heat": "6486332次播放",
-          "url": "https://www.douyin.com/video/7706723326940417334"
-        },
-        {
-          "rank": 6,
-          "title": "被白鹿这个转身美了一大跳！太可爱了 和五条人的合作舞台完全是摇滚女主唱来的！#白鹿 #五条人 #双11疯狂好六夜",
-          "author": "一期一会Live",
-          "heat": "6374477次播放",
-          "url": "https://www.douyin.com/video/7706736645777875177"
-        },
-        {
-          "rank": 7,
-          "title": "这是受害者一生的潮湿 #真相 #新闻 #正义 #泸州花坛 #公道 无不良引导！",
-          "author": "蛙仔吐司",
-          "heat": "6182726次播放",
-          "url": "https://www.douyin.com/video/7706512979713445171"
-        },
-        {
-          "rank": 8,
-          "title": "三金影帝达成！ #梁家辉 #梁家辉第39届金鸡奖最佳男主角 #金鸡奖",
-          "author": "搜狐娱乐",
-          "heat": "5657867次播放",
-          "url": "https://www.douyin.com/video/7706538106640901555"
-        },
-        {
-          "rank": 9,
-          "title": "原创AI剧《奇案·幻蜡新娘》第一集“非遗蜡像展开幕，新娘蜡像额头裂开，流的却是人血”全片由即梦AI制作 #即梦AI创作者成长计划 #奇案·幻蜡新娘 #ai悬疑故事",
-          "author": "洛克影视",
-          "heat": "5618642次播放",
-          "url": "https://www.douyin.com/video/7706810177021938963"
-        },
-        {
-          "rank": 10,
-          "title": "至此艺术已成#给阿嬷的情书 #密档 #金鸡奖 #万万没想到",
-          "author": "非本人意志摸娱",
-          "heat": "5612002次播放",
-          "url": "https://www.douyin.com/video/7706802908326612278"
-        },
-        {
-          "rank": 11,
-          "title": "正义终会到来，可谁来赔他这被偷走母爱的28年",
-          "author": "我的偶像巨顽皮",
-          "heat": "5452024次播放",
-          "url": "https://www.douyin.com/video/7706603819244850441"
-        },
-        {
-          "rank": 12,
-          "title": "电影圈你们还没有原谅观众吗#金鸡奖 #阿嬷的情书 #电影 #离谱 #名场面",
-          "author": "星扒客",
-          "heat": "5374675次播放",
-          "url": "https://www.douyin.com/video/7706763526202723635"
-        },
-        {
-          "rank": 13,
-          "title": "高叶获得金鸡奖最佳女主角，泪撒颁奖典礼。 #高叶首次获得金鸡奖 #高叶金鸡奖最佳女主角 #1905影讯直击",
-          "author": "1905电影网",
-          "heat": "5286712次播放",
-          "url": "https://www.douyin.com/video/7706539389106588937"
-        },
-        {
-          "rank": 14,
-          "title": "我的古早cp终于同框了#金鸡奖 #爱情公寓 #邓家佳 #王传君 #生死攸关",
-          "author": "巨星火火",
-          "heat": "5286072次播放",
-          "url": "https://www.douyin.com/video/7706783441420815635"
-        },
-        {
-          "rank": 15,
-          "title": "好好好，不想比心把丞磊拉进来了 #双11疯狂好六夜 #张云龙#丞磊",
-          "author": "大寒带你去追星",
-          "heat": "4614537次播放",
-          "url": "https://www.douyin.com/video/7706181241360118265"
-        },
-        {
-          "rank": 16,
-          "title": "还好毕业早了，不然哪能上大学啊，直通功德林了#淮海战役 #语文 #江苏 #考试",
-          "author": "三言两娱",
-          "heat": "4448352次播放",
-          "url": "https://www.douyin.com/video/7706546008687234338"
-        },
-        {
-          "rank": 17,
-          "title": "虽然许飞穿搭有限，但文化无限啊！#许飞 #厉娜 #穿搭 #搞笑 #考古",
-          "author": "芒果妈妈",
-          "heat": "4379283次播放",
-          "url": "https://www.douyin.com/video/7706537677072501243"
-        },
-        {
-          "rank": 18,
-          "title": "觉得压力大的可以看看这个视频 #猫咪 #压迫感 #站位 #第一视角",
-          "author": "一口娱子酱",
-          "heat": "4374942次播放",
-          "url": "https://www.douyin.com/video/7706569974092959002"
-        },
-        {
-          "rank": 19,
-          "title": "我真的不能接受熊大下线啊！#电影 #熊出没 #动画片 #熊大 #万万没想到",
-          "author": "追娱大明星",
-          "heat": "4319978次播放",
-          "url": "https://www.douyin.com/video/7706786683911441664"
-        },
-        {
-          "rank": 20,
-          "title": "典典居然也参加金鸡奖了！#金鸡奖 #张典 #典典 #红毯 #05后",
-          "author": "满分姨母酱",
-          "heat": "4311945次播放",
-          "url": "https://www.douyin.com/video/7706556525082397978"
-        }
-      ],
-      "error": null,
-      "item_count": 20,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:27"
+      "update_time": "2026-11-13 02:01:10"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +527,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:30"
+      "update_time": "2026-11-13 02:01:14"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +610,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:32"
+      "update_time": "2026-11-13 02:01:20"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +693,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:34"
+      "update_time": "2026-11-13 02:01:26"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1056,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:36"
+      "update_time": "2026-11-13 02:01:30"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1419,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:38"
+      "update_time": "2026-11-13 02:01:35"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1502,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:40"
+      "update_time": "2026-11-13 02:01:39"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1865,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:42"
+      "update_time": "2026-11-13 02:01:44"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2228,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 01:55:45"
+      "update_time": "2026-11-13 02:01:46"
     }
   }
 }
