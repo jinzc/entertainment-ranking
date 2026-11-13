@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-13 17:00:42",
+  "update_time": "2026-11-13 17:05:28",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:00:49"
+      "update_time": "2026-11-13 17:05:30"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:00:53"
+      "update_time": "2026-11-13 17:05:32"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:00:57"
+      "update_time": "2026-11-13 17:05:35"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:01:01"
+      "update_time": "2026-11-13 17:05:37"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:01:04"
+      "update_time": "2026-11-13 17:05:39"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:01:08"
+      "update_time": "2026-11-13 17:05:41"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1205,11 +1205,362 @@
       "category": "哔哩哔哩",
       "icon": "🎮",
       "color": "#EC4899",
-      "items": [],
-      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "热烈欢迎谢苗！听听新一代“功夫巨星”对自己的生活和工作什么评价？（有一说一，苗哥的夫人何彦霓女士做面包真的太好吃了！太好吃啦！！！",
+          "author": "",
+          "heat": "91.5万",
+          "url": "https://www.bilibili.com/video/av117591355954491/"
+        },
+        {
+          "rank": 2,
+          "title": "中文要有魅力，真情不必美图！许飞厉娜、纯稚引发的时代感概",
+          "author": "",
+          "heat": "105.1万",
+          "url": "https://www.bilibili.com/video/av117585534326557/"
+        },
+        {
+          "rank": 3,
+          "title": "天哪好强的宿命感！发誓没用!!证据确凿!!没想到这俩吃瓜选手也这么好嗑！",
+          "author": "",
+          "heat": "77.1万",
+          "url": "https://www.bilibili.com/video/av117589292420213/"
+        },
+        {
+          "rank": 4,
+          "title": "【TF家族练习生】《千万分之一的我》02「幸会，再会」篇章二《啐啄同时》",
+          "author": "",
+          "heat": "55.2万",
+          "url": "https://www.bilibili.com/video/av117591288841759/"
+        },
+        {
+          "rank": 5,
+          "title": "理性简析后会友期：全嘉宾主要矛盾、和好预测",
+          "author": "",
+          "heat": "33.6万",
+          "url": "https://www.bilibili.com/video/av117597211264763/"
+        },
+        {
+          "rank": 6,
+          "title": "相亲女嘉宾天天喝大酒！断片大闹男生宿舍？",
+          "author": "",
+          "heat": "41.7万",
+          "url": "https://www.bilibili.com/video/av117589829289570/"
+        },
+        {
+          "rank": 7,
+          "title": "结婚五天就出轨，歌手杀害女儿被判刑，爱豆恋爱怒赚100w，韩娱十月吃瓜茶话会",
+          "author": "",
+          "heat": "37.3万",
+          "url": "https://www.bilibili.com/video/av117591708340373/"
+        },
+        {
+          "rank": 8,
+          "title": "蔡徐坤名场面实力排行",
+          "author": "",
+          "heat": "16.4万",
+          "url": "https://www.bilibili.com/video/av117596925986796/"
+        },
+        {
+          "rank": 9,
+          "title": "大S：全世界最有种的女人",
+          "author": "",
+          "heat": "19.9万",
+          "url": "https://www.bilibili.com/video/av117589963443107/"
+        },
+        {
+          "rank": 10,
+          "title": "一期超神？笑崩溃了！不理解但大为震撼！沈腾到底为何那样《现在就出发4》第五期",
+          "author": "",
+          "heat": "41.3万",
+          "url": "https://www.bilibili.com/video/av117592396139878/"
+        },
+        {
+          "rank": 11,
+          "title": "看什么这么认真！",
+          "author": "",
+          "heat": "34.3万",
+          "url": "https://www.bilibili.com/video/av117586138240803/"
+        },
+        {
+          "rank": 12,
+          "title": "第一次看《明侦》reaction S2-《午夜列车》鬼鬼不在，综艺效果可能差点，但是这个本格本确实可以的(点赞过万啦)",
+          "author": "",
+          "heat": "28.5万",
+          "url": "https://www.bilibili.com/video/av117591808935770/"
+        },
+        {
+          "rank": 13,
+          "title": "[SVT Record] 宽尼灿尼去哪尼 | 谢谢哥哥们能来🩷💙| 去去就回🫡#31",
+          "author": "",
+          "heat": "11.7万",
+          "url": "https://www.bilibili.com/video/av117591825713485/"
+        },
+        {
+          "rank": 14,
+          "title": "青春疼痛作家绞尽脑汁也想不出的金句，许飞随口就说了！",
+          "author": "",
+          "heat": "109.5万",
+          "url": "https://www.bilibili.com/video/av117563321223965/"
+        },
+        {
+          "rank": 15,
+          "title": "re《后会友期》系列纯稚篇——（9）：",
+          "author": "",
+          "heat": "13.9万",
+          "url": "https://www.bilibili.com/video/av117590668220535/"
+        },
+        {
+          "rank": 16,
+          "title": "一次说清青稚白小纯五期纠葛！简直是男版许飞厉娜啊！《后会友期》高能解说",
+          "author": "",
+          "heat": "68.8万",
+          "url": "https://www.bilibili.com/video/av117580081727819/"
+        },
+        {
+          "rank": 17,
+          "title": "【后会友期】Reaction01！超级好看啊，厉娜！初见面已经看紧张了！嗑到是一件再正常不过的事~",
+          "author": "",
+          "heat": "16.8万",
+          "url": "https://www.bilibili.com/video/av117592614371579/"
+        },
+        {
+          "rank": 18,
+          "title": "怪话少说呀",
+          "author": "",
+          "heat": "8.7万",
+          "url": "https://www.bilibili.com/video/av117601187468639/"
+        },
+        {
+          "rank": 19,
+          "title": "林心如被曝骂化妆师白痴 并称对方为“社会底层” 丈夫霍建华出面否认 称“在拍戏生涯里没看过这件事情”",
+          "author": "",
+          "heat": "27.2万",
+          "url": "https://www.bilibili.com/video/av117597379104067/"
+        },
+        {
+          "rank": 20,
+          "title": "许飞厉娜第二次对谈依然动人：“我为你的成长感到骄傲”【后会友期第五期01飞雪】",
+          "author": "",
+          "heat": "13.4万",
+          "url": "https://www.bilibili.com/video/av117604240924617/"
+        },
+        {
+          "rank": 21,
+          "title": "后会友期本质上是一款规避了性取向风险的再见爱人",
+          "author": "",
+          "heat": "140.9万",
+          "url": "https://www.bilibili.com/video/av117569243580984/"
+        },
+        {
+          "rank": 22,
+          "title": "【深度拉片】悬崖对谈｜爱是最小单位的共产主义",
+          "author": "",
+          "heat": "66.8万",
+          "url": "https://www.bilibili.com/video/av117563153516212/"
+        },
+        {
+          "rank": 23,
+          "title": "同是美猴王，一个桀骜张扬，一个慈悲向佛",
+          "author": "",
+          "heat": "18.4万",
+          "url": "https://www.bilibili.com/video/av117585148382408/"
+        },
+        {
+          "rank": 24,
+          "title": "纯稚的悬崖对谈终于来了，要我说这一波管理层负全责！《后会友期》观后感第三期",
+          "author": "",
+          "heat": "37.1万",
+          "url": "https://www.bilibili.com/video/av117581541280012/"
+        },
+        {
+          "rank": 25,
+          "title": "许飞如果是演的，明年奥斯卡影后就是她的了！【后会友期】",
+          "author": "",
+          "heat": "152.7万",
+          "url": "https://www.bilibili.com/video/av117572246767420/"
+        },
+        {
+          "rank": 26,
+          "title": "中国巴菲特相亲！金融天才の陨落",
+          "author": "",
+          "heat": "13.3万",
+          "url": "https://www.bilibili.com/video/av117595667699209/"
+        },
+        {
+          "rank": 27,
+          "title": "【金鸡颁奖礼】：抓马、乌龙、尴尬爆冷……谁是这届最大赢家?",
+          "author": "",
+          "heat": "18.5万",
+          "url": "https://www.bilibili.com/video/av117597009877716/"
+        },
+        {
+          "rank": 28,
+          "title": "我不要你滚，我要我滚？《后会友期》（第五期）",
+          "author": "",
+          "heat": "11.8万",
+          "url": "https://www.bilibili.com/video/av117603049736077/"
+        },
+        {
+          "rank": 29,
+          "title": "原来马天宇当年就是闲人马大哥！【飘飘】",
+          "author": "",
+          "heat": "15.0万",
+          "url": "https://www.bilibili.com/video/av117590735326670/"
+        },
+        {
+          "rank": 30,
+          "title": "开播一周就停播！祺哥凭一己之力，把我追了八年的综艺送走了！",
+          "author": "",
+          "heat": "32.3万",
+          "url": "https://www.bilibili.com/video/av117583974108218/"
+        },
+        {
+          "rank": 31,
+          "title": "一场酣畅淋漓的人类高质量灵魂对话！【后会友期第五期飞雪对话深度解析】",
+          "author": "",
+          "heat": "10.8万",
+          "url": "https://www.bilibili.com/video/av117604660288361/"
+        },
+        {
+          "rank": 32,
+          "title": "郭德纲拜马志明干爹事件大揭秘",
+          "author": "",
+          "heat": "10.3万",
+          "url": "https://www.bilibili.com/video/av117599643899162/"
+        },
+        {
+          "rank": 33,
+          "title": "【纯稚】 世界纷纷扰扰 纯稚纳纳尼尼",
+          "author": "",
+          "heat": "29.0万",
+          "url": "https://www.bilibili.com/video/av117577011497715/"
+        },
+        {
+          "rank": 34,
+          "title": "【高战士】许飞厉娜车中叙旧，青稚白小纯餐桌爆吵【后会友期第四期04】",
+          "author": "",
+          "heat": "11.2万",
+          "url": "https://www.bilibili.com/video/av117597009872879/"
+        },
+        {
+          "rank": 35,
+          "title": "晚安同学们｜两任校长亲自查寝，就问你怕不怕！｜斯内普×邓布利多",
+          "author": "",
+          "heat": "13.6万",
+          "url": "https://www.bilibili.com/video/av117576776550866/"
+        },
+        {
+          "rank": 36,
+          "title": "起底天才美女作家文吉儿成名路！承认她的优秀很难吗？",
+          "author": "",
+          "heat": "88.2万",
+          "url": "https://www.bilibili.com/video/av117570485095194/"
+        },
+        {
+          "rank": 37,
+          "title": "《镜头之后#14》——塔子哥",
+          "author": "",
+          "heat": "6.5万",
+          "url": "https://www.bilibili.com/video/av117597496414257/"
+        },
+        {
+          "rank": 38,
+          "title": "来B站开独家播客了，杨澜！【当面哔哔专访季EP07】",
+          "author": "",
+          "heat": "7.5万",
+          "url": "https://www.bilibili.com/video/av117590064174530/"
+        },
+        {
+          "rank": 39,
+          "title": "【纯稚｜小半】“ 不应该 太心软 不大胆。”",
+          "author": "",
+          "heat": "15.9万",
+          "url": "https://www.bilibili.com/video/av117564092975928/"
+        },
+        {
+          "rank": 40,
+          "title": "不逐帧审判？只一味共情！《后会友期》需要细品！【用青稚视角打开后会友期】",
+          "author": "",
+          "heat": "28.2万",
+          "url": "https://www.bilibili.com/video/av117580064885249/"
+        },
+        {
+          "rank": 41,
+          "title": "【预告】声音是会变的么么哒~解锁配音演员的世界！",
+          "author": "",
+          "heat": "4.2万",
+          "url": "https://www.bilibili.com/video/av117602898679609/"
+        },
+        {
+          "rank": 42,
+          "title": "【西中双语Reaction】外国人看后会友期许飞&厉娜cut 2：见字如面，厉娜",
+          "author": "",
+          "heat": "4.5万",
+          "url": "https://www.bilibili.com/video/av117591758670762/"
+        },
+        {
+          "rank": 43,
+          "title": "持刀！王扁被经纪人实锤爆头，幕后真相竟是……【网络狠人123】",
+          "author": "",
+          "heat": "92.6万",
+          "url": "https://www.bilibili.com/video/av117562851464909/"
+        },
+        {
+          "rank": 44,
+          "title": "普通女同事的职场纠纷和爱恨情仇【卡黄盘点】",
+          "author": "",
+          "heat": "254.4万",
+          "url": "https://www.bilibili.com/video/av117506631079247/"
+        },
+        {
+          "rank": 45,
+          "title": "还钱悟道、偏要勉强、淡淡遗憾，《后会友期》到底还有多少风味！",
+          "author": "",
+          "heat": "6.2万",
+          "url": "https://www.bilibili.com/video/av117601791444489/"
+        },
+        {
+          "rank": 46,
+          "title": "甄子丹年轻打得那么猛，偏偏不火，中年之后反而走红，长相气质真的影响太大了！#甄子丹 #李连杰 #演员 #人物故事",
+          "author": "",
+          "heat": "13.8万",
+          "url": "https://www.bilibili.com/video/av117580283058182/"
+        },
+        {
+          "rank": 47,
+          "title": "一剪没，但处处留痕！给观众都逼成侦探了！《后会友期》第四期",
+          "author": "",
+          "heat": "40.7万",
+          "url": "https://www.bilibili.com/video/av117579561568665/"
+        },
+        {
+          "rank": 48,
+          "title": "悬崖对谈!许飞在气炸的边缘抽空看了一眼厉娜，发现厉娜像个刚化成人形的小香猪一样依然对这个世界抱有绝对的信任，只把唯一一点儿警惕心用在她许飞身上了哈哈哈哈哈哈哈",
+          "author": "",
+          "heat": "6.8万",
+          "url": "https://www.bilibili.com/video/av117593553771154/"
+        },
+        {
+          "rank": 49,
+          "title": "黄仁勋出轨马斯克绷不住了，评论区最有生命力的一集",
+          "author": "",
+          "heat": "8.7万",
+          "url": "https://www.bilibili.com/video/av117591775382909/"
+        },
+        {
+          "rank": 50,
+          "title": "青稚使用手册，白小纯&青稚，大冤种VS阿斯伯格",
+          "author": "",
+          "heat": "4.5万",
+          "url": "https://www.bilibili.com/video/av117591087516794/"
+        }
+      ],
+      "error": null,
+      "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:01:31"
+      "update_time": "2026-11-13 17:05:43"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1292,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:01:34"
+      "update_time": "2026-11-13 17:05:45"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1655,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:01:36"
+      "update_time": "2026-11-13 17:05:47"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2018,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 17:01:41"
+      "update_time": "2026-11-13 17:05:49"
     }
   }
 }
