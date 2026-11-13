@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-13 18:55:22",
+  "update_time": "2026-11-13 19:00:43",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:24"
+      "update_time": "2026-11-13 19:00:47"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -492,20 +492,13 @@
         },
         {
           "rank": 18,
-          "title": "大家为了等文吉儿一起吃饭快要饿晕了#许飞 #马天宇 #张萌 #厉娜",
-          "author": "娱乐看点",
-          "heat": "3292318次播放",
-          "url": "https://www.douyin.com/video/7707158704461778185"
-        },
-        {
-          "rank": 19,
           "title": "#虾仁拌饭",
           "author": "千鹤影视",
           "heat": "3269938次播放",
           "url": "https://www.douyin.com/video/7706476508491058482"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "果然综艺这块怎么也飞不出芒果的世界#画地为牢 #玩梗 #搞笑 #芒果tv #真香",
           "author": "娱乐范",
           "heat": "3194248次播放",
@@ -513,9 +506,9 @@
         }
       ],
       "error": null,
-      "item_count": 20,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:26"
+      "update_time": "2026-11-13 19:00:49"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +661,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:28"
+      "update_time": "2026-11-13 19:00:51"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:30"
+      "update_time": "2026-11-13 19:00:54"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:32"
+      "update_time": "2026-11-13 19:00:56"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:34"
+      "update_time": "2026-11-13 19:00:58"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:37"
+      "update_time": "2026-11-13 19:01:01"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:39"
+      "update_time": "2026-11-13 19:01:05"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:41"
+      "update_time": "2026-11-13 19:01:08"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-13 18:55:43"
+      "update_time": "2026-11-13 19:01:12"
     }
   }
 }
