@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-14 19:00:42",
+  "update_time": "2026-11-14 19:05:23",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:00:46"
+      "update_time": "2026-11-14 19:05:25"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -492,13 +492,6 @@
         },
         {
           "rank": 18,
-          "title": "白小纯读青稚心结卡#白小纯 #青稚",
-          "author": "我的偶像是二哔",
-          "heat": "3277564次播放",
-          "url": "https://www.douyin.com/video/7707507224335142182"
-        },
-        {
-          "rank": 19,
           "title": "没想到有一天喊小猫小狗名字需要念咒语#万万没想到 #搞笑 #抽象 #萌宠 #取名",
           "author": "呆猫吃娱",
           "heat": "3226085次播放",
@@ -506,9 +499,9 @@
         }
       ],
       "error": null,
-      "item_count": 19,
+      "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:00:48"
+      "update_time": "2026-11-14 19:05:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -661,7 +654,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:00:51"
+      "update_time": "2026-11-14 19:05:30"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -744,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:00:53"
+      "update_time": "2026-11-14 19:05:32"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -827,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:00:56"
+      "update_time": "2026-11-14 19:05:34"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1190,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:00:58"
+      "update_time": "2026-11-14 19:05:36"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1553,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:01:01"
+      "update_time": "2026-11-14 19:05:38"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1636,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:01:03"
+      "update_time": "2026-11-14 19:05:40"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1999,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:01:07"
+      "update_time": "2026-11-14 19:05:42"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2362,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-14 19:01:09"
+      "update_time": "2026-11-14 19:05:45"
     }
   }
 }
