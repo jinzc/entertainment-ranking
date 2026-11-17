@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-18 02:05:23",
+  "update_time": "2026-11-18 02:10:30",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:26"
+      "update_time": "2026-11-18 02:10:32"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:28"
+      "update_time": "2026-11-18 02:10:35"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:30"
+      "update_time": "2026-11-18 02:10:37"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:32"
+      "update_time": "2026-11-18 02:10:39"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:34"
+      "update_time": "2026-11-18 02:10:41"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:36"
+      "update_time": "2026-11-18 02:10:43"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:38"
+      "update_time": "2026-11-18 02:10:46"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:40"
+      "update_time": "2026-11-18 02:10:48"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1787,17 +1787,17 @@
         },
         {
           "rank": 20,
-          "title": "敦煌英雄",
+          "title": "海上钢琴师",
           "author": "",
           "heat": "20.",
-          "url": "https://movie.douban.com/subject/35244246"
+          "url": "https://movie.douban.com/subject/1292001"
         },
         {
           "rank": 21,
-          "title": "海上钢琴师",
+          "title": "敦煌英雄",
           "author": "",
           "heat": "21.",
-          "url": "https://movie.douban.com/subject/1292001"
+          "url": "https://movie.douban.com/subject/35244246"
         },
         {
           "rank": 22,
@@ -1829,17 +1829,17 @@
         },
         {
           "rank": 26,
-          "title": "老江湖",
+          "title": "密档",
           "author": "",
           "heat": "26.",
-          "url": "https://movie.douban.com/subject/35840408"
+          "url": "https://movie.douban.com/subject/35209727"
         },
         {
           "rank": 27,
-          "title": "密档",
+          "title": "老江湖",
           "author": "",
           "heat": "27.",
-          "url": "https://movie.douban.com/subject/35209727"
+          "url": "https://movie.douban.com/subject/35840408"
         },
         {
           "rank": 28,
@@ -1962,10 +1962,10 @@
         },
         {
           "rank": 45,
-          "title": "小猪佩奇·完美假期",
+          "title": "杀死比尔：血色全传",
           "author": "",
           "heat": "45.",
-          "url": "https://movie.douban.com/subject/36964833"
+          "url": "https://movie.douban.com/subject/10756537"
         },
         {
           "rank": 46,
@@ -1976,24 +1976,24 @@
         },
         {
           "rank": 47,
-          "title": "杀死比尔：血色全传",
-          "author": "",
-          "heat": "47.",
-          "url": "https://movie.douban.com/subject/10756537"
-        },
-        {
-          "rank": 48,
           "title": "一朵山花别样红",
           "author": "",
-          "heat": "48.",
+          "heat": "47.",
           "url": "https://movie.douban.com/subject/36641112"
         },
         {
-          "rank": 49,
+          "rank": 48,
           "title": "我的舅舅",
           "author": "",
-          "heat": "49.",
+          "heat": "48.",
           "url": "https://movie.douban.com/subject/1400829"
+        },
+        {
+          "rank": 49,
+          "title": "小猪佩奇·完美假期",
+          "author": "",
+          "heat": "49.",
+          "url": "https://movie.douban.com/subject/36964833"
         },
         {
           "rank": 50,
@@ -2006,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:42"
+      "update_time": "2026-11-18 02:10:50"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 02:05:45"
+      "update_time": "2026-11-18 02:10:52"
     }
   }
 }
