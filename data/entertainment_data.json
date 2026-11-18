@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-18 07:55:22",
+  "update_time": "2026-11-18 08:00:43",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:25"
+      "update_time": "2026-11-18 08:00:48"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:27"
+      "update_time": "2026-11-18 08:00:51"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -523,152 +523,11 @@
       "category": "抖音",
       "icon": "⭐",
       "color": "#F59E0B",
-      "items": [
-        {
-          "rank": 1,
-          "title": "慌啥子嘛，慢慢来。花开有时，好日子会到。 #走马上任 #赵家班 #赵本山亲唱走马上任推广曲 #赵本山慌啥子嘛 #赵老师慌啥子嘛慢慢来",
-          "author": "小球球吖",
-          "heat": "21545881次播放",
-          "url": "https://www.douyin.com/video/7708582923913415955"
-        },
-        {
-          "rank": 2,
-          "title": "#女子推理社 #抖音潮流舞蹈大赛",
-          "author": "小田",
-          "heat": "16590394次播放",
-          "url": "https://www.douyin.com/video/7708335310887009640"
-        },
-        {
-          "rank": 3,
-          "title": "茉莉小姐💗 #茉茉 #热点趋势策划人",
-          "author": "杨超越",
-          "heat": "14477323次播放",
-          "url": "https://www.douyin.com/video/7708371999042630986"
-        },
-        {
-          "rank": 4,
-          "title": "#moonride🖤",
-          "author": "李小璐",
-          "heat": "13905771次播放",
-          "url": "https://www.douyin.com/video/7708344984479188475"
-        },
-        {
-          "rank": 5,
-          "title": "#去大自然感受自由 #是户外给的自由感 #今日份山系发呆 #户外是我的精神保护区",
-          "author": "章若楠",
-          "heat": "8591930次播放",
-          "url": "https://www.douyin.com/video/7708710191030166393"
-        },
-        {
-          "rank": 6,
-          "title": "看！军国主义新动向。 #日本军国之路 #演员杨清文",
-          "author": "演员杨清文",
-          "heat": "8311869次播放",
-          "url": "https://www.douyin.com/video/7708549271776120201"
-        },
-        {
-          "rank": 7,
-          "title": "当女儿收到国旗下主持的任务",
-          "author": "徐可",
-          "heat": "8286072次播放",
-          "url": "https://www.douyin.com/video/7708610493821546340"
-        },
-        {
-          "rank": 8,
-          "title": "公主可以是任何样子 #素颜#变装#转场#毛茸茸治愈一切",
-          "author": "陈小云",
-          "heat": "8041717次播放",
-          "url": "https://www.douyin.com/video/7708691777846736250"
-        },
-        {
-          "rank": 9,
-          "title": "来啦，实名认证来啦！",
-          "author": "梁冠华",
-          "heat": "7906624次播放",
-          "url": "https://www.douyin.com/video/7708382742728244394"
-        },
-        {
-          "rank": 10,
-          "title": "这次回宫，到底哪个“我”才是那个被牵着走的人？#提线木偶 #提线人偶转场挑战 #一追就上头",
-          "author": "海陆",
-          "heat": "7479122次播放",
-          "url": "https://www.douyin.com/video/7708279939866348838"
-        },
-        {
-          "rank": 11,
-          "title": "新 新 新 鮮 出 炉💖",
-          "author": "王子璇",
-          "heat": "7388685次播放",
-          "url": "https://www.douyin.com/video/7708421951987288186"
-        },
-        {
-          "rank": 12,
-          "title": "还得自己拍🤓“慌啥子嘛”洗脑中🤪 以后坚决不让雷哥给我拍了 #慌啥子嘛 #慌啥子嘛配什么都好治愈 #跳舞使我快乐 #一学就会的手势舞来了 #粉色穿搭👒",
-          "author": "李小萌",
-          "heat": "7106397次播放",
-          "url": "https://www.douyin.com/video/7708661111126503921"
-        },
-        {
-          "rank": 13,
-          "title": "合影合影#lpl永不放弃 恭喜blg，冠军又回来了！合影#blg #英雄联盟全球总决赛",
-          "author": "李佳航MVP",
-          "heat": "6816795次播放",
-          "url": "https://www.douyin.com/video/7708183065789807539"
-        },
-        {
-          "rank": 14,
-          "title": "牛，我只说一万次#把这份庆祝送给BLG",
-          "author": "汪苏泷",
-          "heat": "5751883次播放",
-          "url": "https://www.douyin.com/video/7708420772294097841"
-        },
-        {
-          "rank": 15,
-          "title": "🖤💖 #Moonride #热点趋势策划人",
-          "author": "杨超越",
-          "heat": "5693017次播放",
-          "url": "https://www.douyin.com/video/7708000449001750217"
-        },
-        {
-          "rank": 16,
-          "title": "喵🐈",
-          "author": "孙千",
-          "heat": "5665109次播放",
-          "url": "https://www.douyin.com/video/7707534203638523771"
-        },
-        {
-          "rank": 17,
-          "title": "我跟你最好啦@潘长江 #表面心连心背后玩脑筋 #表面心连心背后玩脑筋成气候了 #父女日常 #抽象 #一追就上头",
-          "author": "潘阳",
-          "heat": "5633308次播放",
-          "url": "https://www.douyin.com/video/7706463093610156698"
-        },
-        {
-          "rank": 18,
-          "title": "让我为你画地为牢❤️。#去有风的地方穿搭 #老巷ootd #画地为牢 #我的梦享生活 #大理",
-          "author": "李梦",
-          "heat": "5630594次播放",
-          "url": "https://www.douyin.com/video/7708650765690979762"
-        },
-        {
-          "rank": 19,
-          "title": "人生三大事：工作、睡觉、吃麦当劳🍔一起去麦当劳App/小程序领券吃叠叠卷吧～#麦当劳早餐 #麦当劳超值早餐两件套",
-          "author": "厉娜",
-          "heat": "5582538次播放",
-          "url": "https://www.douyin.com/video/7707239524019064118"
-        },
-        {
-          "rank": 20,
-          "title": "就这样一直踏步直到排练结束 #小猫踏步 #节奏天国 #双人版小猫踏步舞",
-          "author": "厉娜",
-          "heat": "5559086次播放",
-          "url": "https://www.douyin.com/video/7707953030616309395"
-        }
-      ],
-      "error": null,
-      "item_count": 20,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:29"
+      "update_time": "2026-11-18 08:01:14"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +610,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:31"
+      "update_time": "2026-11-18 08:01:17"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +693,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:33"
+      "update_time": "2026-11-18 08:01:21"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1056,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:36"
+      "update_time": "2026-11-18 08:01:25"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1419,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:38"
+      "update_time": "2026-11-18 08:01:28"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1502,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:40"
+      "update_time": "2026-11-18 08:01:31"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1865,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:42"
+      "update_time": "2026-11-18 08:01:35"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2228,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 07:55:44"
+      "update_time": "2026-11-18 08:01:51"
     }
   }
 }
