@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-18 16:40:29",
+  "update_time": "2026-11-18 16:45:20",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -38,31 +38,31 @@
         },
         {
           "rank": 5,
-          "title": "虞书欣 张昊玥",
-          "author": "",
-          "heat": "5.",
-          "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%20%E5%BC%A0%E6%98%8A%E7%8E%A5&t=152&Refer=top"
-        },
-        {
-          "rank": 6,
-          "title": "李嘉格听到冯薪朵生了孩子的反应",
-          "author": "",
-          "heat": "6.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%98%89%E6%A0%BC%E5%90%AC%E5%88%B0%E5%86%AF%E8%96%AA%E6%9C%B5%E7%94%9F%E4%BA%86%E5%AD%A9%E5%AD%90%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=152&Refer=top"
-        },
-        {
-          "rank": 7,
           "title": "高梓淇在孩子六岁才见第二面",
           "author": "",
-          "heat": "7.",
+          "heat": "5.",
           "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E6%A2%93%E6%B7%87%E5%9C%A8%E5%AD%A9%E5%AD%90%E5%85%AD%E5%B2%81%E6%89%8D%E8%A7%81%E7%AC%AC%E4%BA%8C%E9%9D%A2%23&t=152&Refer=top"
         },
         {
-          "rank": 8,
+          "rank": 6,
+          "title": "虞书欣 张昊玥",
+          "author": "",
+          "heat": "6.",
+          "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%20%E5%BC%A0%E6%98%8A%E7%8E%A5&t=152&Refer=top"
+        },
+        {
+          "rank": 7,
           "title": "宋雨琦秦岚拦着金晨买防猴登山棍",
           "author": "",
-          "heat": "8.",
+          "heat": "7.",
           "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E7%A7%A6%E5%B2%9A%E6%8B%A6%E7%9D%80%E9%87%91%E6%99%A8%E4%B9%B0%E9%98%B2%E7%8C%B4%E7%99%BB%E5%B1%B1%E6%A3%8D%23&t=152&Refer=top"
+        },
+        {
+          "rank": 8,
+          "title": "李嘉格听到冯薪朵生了孩子的反应",
+          "author": "",
+          "heat": "8.",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%98%89%E6%A0%BC%E5%90%AC%E5%88%B0%E5%86%AF%E8%96%AA%E6%9C%B5%E7%94%9F%E4%BA%86%E5%AD%A9%E5%AD%90%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=152&Refer=top"
         },
         {
           "rank": 9,
@@ -80,17 +80,17 @@
         },
         {
           "rank": 11,
-          "title": "郑恺女儿英文水平超过不少大学生了",
+          "title": "难怪郑恺高考成绩可以上复旦",
           "author": "",
           "heat": "11.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E6%81%BA%E5%A5%B3%E5%84%BF%E8%8B%B1%E6%96%87%E6%B0%B4%E5%B9%B3%E8%B6%85%E8%BF%87%E4%B8%8D%E5%B0%91%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%BA%86%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%9A%BE%E6%80%AA%E9%83%91%E6%81%BA%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9%E5%8F%AF%E4%BB%A5%E4%B8%8A%E5%A4%8D%E6%97%A6%23&t=152&Refer=top"
         },
         {
           "rank": 12,
-          "title": "难怪郑恺高考成绩可以上复旦",
+          "title": "郑恺女儿英文水平超过不少大学生了",
           "author": "",
           "heat": "12.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9A%BE%E6%80%AA%E9%83%91%E6%81%BA%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9%E5%8F%AF%E4%BB%A5%E4%B8%8A%E5%A4%8D%E6%97%A6%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E6%81%BA%E5%A5%B3%E5%84%BF%E8%8B%B1%E6%96%87%E6%B0%B4%E5%B9%B3%E8%B6%85%E8%BF%87%E4%B8%8D%E5%B0%91%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%BA%86%23&t=152&Refer=top"
         },
         {
           "rank": 13,
@@ -171,10 +171,10 @@
         },
         {
           "rank": 24,
-          "title": "小城良方早春晴朗AI后期占比30%",
+          "title": "冯薪朵钟正产子时间线",
           "author": "",
           "heat": "24.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97AI%E5%90%8E%E6%9C%9F%E5%8D%A0%E6%AF%9430%25%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E8%96%AA%E6%9C%B5%E9%92%9F%E6%AD%A3%E4%BA%A7%E5%AD%90%E6%97%B6%E9%97%B4%E7%BA%BF%23&t=152&Refer=top"
         },
         {
           "rank": 25,
@@ -185,10 +185,10 @@
         },
         {
           "rank": 26,
-          "title": "冯薪朵钟正产子时间线",
+          "title": "小城良方早春晴朗AI后期占比30%",
           "author": "",
           "heat": "26.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E8%96%AA%E6%9C%B5%E9%92%9F%E6%AD%A3%E4%BA%A7%E5%AD%90%E6%97%B6%E9%97%B4%E7%BA%BF%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97AI%E5%90%8E%E6%9C%9F%E5%8D%A0%E6%AF%9430%25%23&t=152&Refer=top"
         },
         {
           "rank": 27,
@@ -199,101 +199,101 @@
         },
         {
           "rank": 28,
-          "title": "陆毅女儿唱功",
-          "author": "",
-          "heat": "28.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%99%86%E6%AF%85%E5%A5%B3%E5%84%BF%E5%94%B1%E5%8A%9F%23&t=152&Refer=top"
-        },
-        {
-          "rank": 29,
-          "title": "冯薪朵不知道该怎么面对小孩",
-          "author": "",
-          "heat": "29.",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E8%96%AA%E6%9C%B5%E4%B8%8D%E7%9F%A5%E9%81%93%E8%AF%A5%E6%80%8E%E4%B9%88%E9%9D%A2%E5%AF%B9%E5%B0%8F%E5%AD%A9%23&t=152&Refer=top"
-        },
-        {
-          "rank": 30,
-          "title": "表演老师点评王子璇后会友期表现",
-          "author": "",
-          "heat": "30.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%A1%A8%E6%BC%94%E8%80%81%E5%B8%88%E7%82%B9%E8%AF%84%E7%8E%8B%E5%AD%90%E7%92%87%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E8%A1%A8%E7%8E%B0%23&t=152&Refer=top"
-        },
-        {
-          "rank": 31,
-          "title": "许飞说自己可以生刘耀文了",
-          "author": "",
-          "heat": "31.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E9%A3%9E%E8%AF%B4%E8%87%AA%E5%B7%B1%E5%8F%AF%E4%BB%A5%E7%94%9F%E5%88%98%E8%80%80%E6%96%87%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 32,
-          "title": "黄多多贝儿都出道了",
-          "author": "",
-          "heat": "32.",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%A4%9A%E5%A4%9A%E8%B4%9D%E5%84%BF%E9%83%BD%E5%87%BA%E9%81%93%E4%BA%86%23&t=152&Refer=top"
-        },
-        {
-          "rank": 33,
-          "title": "虞书欣秦岚讨论猴子跑完就坐",
-          "author": "",
-          "heat": "33.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%A7%A6%E5%B2%9A%E8%AE%A8%E8%AE%BA%E7%8C%B4%E5%AD%90%E8%B7%91%E5%AE%8C%E5%B0%B1%E5%9D%90%23&t=152&Refer=top"
-        },
-        {
-          "rank": 34,
           "title": "王安宇和狗仔聊天",
           "author": "",
-          "heat": "34.",
+          "heat": "28.",
           "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AE%89%E5%AE%87%E5%92%8C%E7%8B%97%E4%BB%94%E8%81%8A%E5%A4%A9%23&t=152&Refer=top"
         },
         {
-          "rank": 35,
+          "rank": 29,
+          "title": "陆毅女儿唱功",
+          "author": "",
+          "heat": "29.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%99%86%E6%AF%85%E5%A5%B3%E5%84%BF%E5%94%B1%E5%8A%9F%23&t=152&Refer=top"
+        },
+        {
+          "rank": 30,
+          "title": "冯薪朵不知道该怎么面对小孩",
+          "author": "",
+          "heat": "30.",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E8%96%AA%E6%9C%B5%E4%B8%8D%E7%9F%A5%E9%81%93%E8%AF%A5%E6%80%8E%E4%B9%88%E9%9D%A2%E5%AF%B9%E5%B0%8F%E5%AD%A9%23&t=152&Refer=top"
+        },
+        {
+          "rank": 31,
+          "title": "黄多多贝儿都出道了",
+          "author": "",
+          "heat": "31.",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%A4%9A%E5%A4%9A%E8%B4%9D%E5%84%BF%E9%83%BD%E5%87%BA%E9%81%93%E4%BA%86%23&t=152&Refer=top"
+        },
+        {
+          "rank": 32,
+          "title": "虞书欣秦岚讨论猴子跑完就坐",
+          "author": "",
+          "heat": "32.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%A7%A6%E5%B2%9A%E8%AE%A8%E8%AE%BA%E7%8C%B4%E5%AD%90%E8%B7%91%E5%AE%8C%E5%B0%B1%E5%9D%90%23&t=152&Refer=top"
+        },
+        {
+          "rank": 33,
           "title": "尤长靖问许飞端盘子",
           "author": "",
-          "heat": "35.",
+          "heat": "33.",
           "url": "https://s.weibo.com/weibo?q=%23%E5%B0%A4%E9%95%BF%E9%9D%96%E9%97%AE%E8%AE%B8%E9%A3%9E%E7%AB%AF%E7%9B%98%E5%AD%90%23&t=152&Refer=top"
         },
         {
-          "rank": 36,
-          "title": "两京十五日闯万重关预告",
-          "author": "",
-          "heat": "36.",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E9%97%AF%E4%B8%87%E9%87%8D%E5%85%B3%E9%A2%84%E5%91%8A%23&t=152&Refer=top"
-        },
-        {
-          "rank": 37,
+          "rank": 34,
           "title": "后援会称张慧雯已与贺鹏分手",
           "author": "",
-          "heat": "37.",
+          "heat": "34.",
           "url": "https://s.weibo.com/weibo?q=%23%E5%90%8E%E6%8F%B4%E4%BC%9A%E7%A7%B0%E5%BC%A0%E6%85%A7%E9%9B%AF%E5%B7%B2%E4%B8%8E%E8%B4%BA%E9%B9%8F%E5%88%86%E6%89%8B%23&t=152&Refer=top"
         },
         {
-          "rank": 38,
+          "rank": 35,
+          "title": "两京十五日闯万重关预告",
+          "author": "",
+          "heat": "35.",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E9%97%AF%E4%B8%87%E9%87%8D%E5%85%B3%E9%A2%84%E5%91%8A%23&t=152&Refer=top"
+        },
+        {
+          "rank": 36,
           "title": "董思成当爱豆时的实力是有目共睹的",
           "author": "",
-          "heat": "38.",
+          "heat": "36.",
           "url": "https://s.weibo.com/weibo?q=%23%E8%91%A3%E6%80%9D%E6%88%90%E5%BD%93%E7%88%B1%E8%B1%86%E6%97%B6%E7%9A%84%E5%AE%9E%E5%8A%9B%E6%98%AF%E6%9C%89%E7%9B%AE%E5%85%B1%E7%9D%B9%E7%9A%84%23&t=152&Refer=top"
         },
         {
-          "rank": 39,
+          "rank": 37,
           "title": "许飞的笑料还在叠加",
           "author": "",
-          "heat": "39.",
+          "heat": "37.",
           "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E9%A3%9E%E7%9A%84%E7%AC%91%E6%96%99%E8%BF%98%E5%9C%A8%E5%8F%A0%E5%8A%A0%23&t=152&Refer=top"
         },
         {
-          "rank": 40,
+          "rank": 38,
           "title": "冯薪朵浓缩了黄子韬几年的经历",
           "author": "",
-          "heat": "40.",
+          "heat": "38.",
           "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E8%96%AA%E6%9C%B5%E6%B5%93%E7%BC%A9%E4%BA%86%E9%BB%84%E5%AD%90%E9%9F%AC%E5%87%A0%E5%B9%B4%E7%9A%84%E7%BB%8F%E5%8E%86%23&t=152&Refer=top"
         },
         {
-          "rank": 41,
+          "rank": 39,
           "title": "前夫自曝与韦雪离婚原因",
           "author": "",
-          "heat": "41.",
+          "heat": "39.",
           "url": "https://s.weibo.com/weibo?q=%23%E5%89%8D%E5%A4%AB%E8%87%AA%E6%9B%9D%E4%B8%8E%E9%9F%A6%E9%9B%AA%E7%A6%BB%E5%A9%9A%E5%8E%9F%E5%9B%A0%23&t=152&Refer=top"
+        },
+        {
+          "rank": 40,
+          "title": "表演老师点评王子璇后会友期表现",
+          "author": "",
+          "heat": "40.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%A1%A8%E6%BC%94%E8%80%81%E5%B8%88%E7%82%B9%E8%AF%84%E7%8E%8B%E5%AD%90%E7%92%87%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E8%A1%A8%E7%8E%B0%23&t=152&Refer=top"
+        },
+        {
+          "rank": 41,
+          "title": "许飞说自己可以生刘耀文了",
+          "author": "",
+          "heat": "41.",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E9%A3%9E%E8%AF%B4%E8%87%AA%E5%B7%B1%E5%8F%AF%E4%BB%A5%E7%94%9F%E5%88%98%E8%80%80%E6%96%87%E4%BA%86%23&t=152&Refer=top"
         },
         {
           "rank": 42,
@@ -304,10 +304,10 @@
         },
         {
           "rank": 43,
-          "title": "毛林林上妆自带压迫感",
+          "title": "成毅朱瞻基两京险奔日记",
           "author": "",
           "heat": "43.",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%AF%9B%E6%9E%97%E6%9E%97%E4%B8%8A%E5%A6%86%E8%87%AA%E5%B8%A6%E5%8E%8B%E8%BF%AB%E6%84%9F%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%E6%88%90%E6%AF%85%E6%9C%B1%E7%9E%BB%E5%9F%BA%E4%B8%A4%E4%BA%AC%E9%99%A9%E5%A5%94%E6%97%A5%E8%AE%B0&t=152&Refer=top"
         },
         {
           "rank": 44,
@@ -339,17 +339,17 @@
         },
         {
           "rank": 48,
-          "title": "董思成的待播剧",
+          "title": "毛林林上妆自带压迫感",
           "author": "",
           "heat": "48.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%91%A3%E6%80%9D%E6%88%90%E7%9A%84%E5%BE%85%E6%92%AD%E5%89%A7%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E6%AF%9B%E6%9E%97%E6%9E%97%E4%B8%8A%E5%A6%86%E8%87%AA%E5%B8%A6%E5%8E%8B%E8%BF%AB%E6%84%9F%23&t=152&Refer=top"
         },
         {
           "rank": 49,
-          "title": "许飞曾沛慈听到刘耀文年龄的反应",
+          "title": "董思成的待播剧",
           "author": "",
           "heat": "49.",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%AE%B8%E9%A3%9E%E6%9B%BE%E6%B2%9B%E6%85%88%E5%90%AC%E5%88%B0%E5%88%98%E8%80%80%E6%96%87%E5%B9%B4%E9%BE%84%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=152&Refer=top"
+          "url": "https://s.weibo.com/weibo?q=%23%E8%91%A3%E6%80%9D%E6%88%90%E7%9A%84%E5%BE%85%E6%92%AD%E5%89%A7%23&t=152&Refer=top"
         },
         {
           "rank": 50,
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:31"
+      "update_time": "2026-11-18 16:45:22"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:33"
+      "update_time": "2026-11-18 16:45:25"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +668,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:35"
+      "update_time": "2026-11-18 16:45:27"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +751,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:37"
+      "update_time": "2026-11-18 16:45:29"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +834,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:39"
+      "update_time": "2026-11-18 16:45:31"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1197,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:41"
+      "update_time": "2026-11-18 16:45:34"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1560,7 +1560,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:43"
+      "update_time": "2026-11-18 16:45:36"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1643,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:45"
+      "update_time": "2026-11-18 16:45:38"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +2006,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:48"
+      "update_time": "2026-11-18 16:45:41"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +2369,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-18 16:40:50"
+      "update_time": "2026-11-18 16:45:43"
     }
   }
 }
