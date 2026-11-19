@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-19 15:00:46",
+  "update_time": "2026-11-19 15:05:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:00:50"
+      "update_time": "2026-11-19 15:05:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:00:53"
+      "update_time": "2026-11-19 15:05:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -516,11 +516,152 @@
       "category": "抖音",
       "icon": "⭐",
       "color": "#F59E0B",
-      "items": [],
-      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "轻松拿捏✌️ #Elido摇手势舞挑战 #热点趋势策划人 #elido摇",
+          "author": "张萌",
+          "heat": "15860876次播放",
+          "url": "https://www.douyin.com/video/7709082477591482981"
+        },
+        {
+          "rank": 2,
+          "title": "一针一线，绣尽东方雅韵。@关晓彤 #关晓彤",
+          "author": "关晓彤工作室",
+          "heat": "7375795次播放",
+          "url": "https://www.douyin.com/video/7709399728823457891"
+        },
+        {
+          "rank": 3,
+          "title": "#女子推理社 #抖音潮流舞蹈大赛",
+          "author": "小田",
+          "heat": "6832707次播放",
+          "url": "https://www.douyin.com/video/7708335310887009640"
+        },
+        {
+          "rank": 4,
+          "title": "有些答案，藏不住 #浩歌 #矢野浩二 #中文 #日语",
+          "author": "浩歌",
+          "heat": "6734670次播放",
+          "url": "https://www.douyin.com/video/7709423304402129343"
+        },
+        {
+          "rank": 5,
+          "title": "谁推了我一下子？#周涛 #瞬移滑镜慢动作挑战 #就这样闯进我的心窝",
+          "author": "周涛",
+          "heat": "6485970次播放",
+          "url": "https://www.douyin.com/video/7708984488198636145"
+        },
+        {
+          "rank": 6,
+          "title": "茉莉小姐💗 #茉茉 #热点趋势策划人",
+          "author": "杨超越",
+          "heat": "6158349次播放",
+          "url": "https://www.douyin.com/video/7708371999042630986"
+        },
+        {
+          "rank": 7,
+          "title": "❄️📸🎄#秋冬最有记忆的可可妆",
+          "author": "王楚然",
+          "heat": "5929382次播放",
+          "url": "https://www.douyin.com/video/7709445378877818795"
+        },
+        {
+          "rank": 8,
+          "title": "我的留白时刻。#新疆是个好地方",
+          "author": "梁洁Little",
+          "heat": "5182417次播放",
+          "url": "https://www.douyin.com/video/7709388492530763173"
+        },
+        {
+          "rank": 9,
+          "title": "猜猜我身后藏了多少个小朋友👧🏻👦🏻🧒🏻 #全城星动 #心动打卡指南",
+          "author": "毛晓彤",
+          "heat": "5000072次播放",
+          "url": "https://www.douyin.com/video/7708735377745515446"
+        },
+        {
+          "rank": 10,
+          "title": "🖤💖 #Moonride #热点趋势策划人",
+          "author": "杨超越",
+          "heat": "4528343次播放",
+          "url": "https://www.douyin.com/video/7708000449001750217"
+        },
+        {
+          "rank": 11,
+          "title": "👻#elido摇 #rickandmorty #今天是太阳雨",
+          "author": "肖添仁",
+          "heat": "4226640次播放",
+          "url": "https://www.douyin.com/video/7709449330672144617"
+        },
+        {
+          "rank": 12,
+          "title": "今晚你还是得炸 #要抱抱舞蹈挑战 #要抱抱 #抖音潮流舞蹈大赛 #用一支舞跳进荣耀之夜 #荣耀之夜百强领舞来了",
+          "author": "罗杰_RL",
+          "heat": "4119386次播放",
+          "url": "https://www.douyin.com/video/7708013658077830464"
+        },
+        {
+          "rank": 13,
+          "title": "在吗 #我家门口开了一朵茉莉 #一追就上头",
+          "author": "李一桐Q",
+          "heat": "3964620次播放",
+          "url": "https://www.douyin.com/video/7709083094591016298"
+        },
+        {
+          "rank": 14,
+          "title": "世上哪有那么多心想事成",
+          "author": "徐可",
+          "heat": "3701155次播放",
+          "url": "https://www.douyin.com/video/7709450800455693494"
+        },
+        {
+          "rank": 15,
+          "title": "我看着你 走过街～#王心凌#甜心教主#第一次爱的人 #王心凌演唱会",
+          "author": "王心凌FM",
+          "heat": "3539120次播放",
+          "url": "https://www.douyin.com/video/7708463615364634761"
+        },
+        {
+          "rank": 16,
+          "title": "回京第一步：来给他们狠一个！#两京十五日",
+          "author": "成毅",
+          "heat": "3537433次播放",
+          "url": "https://www.douyin.com/video/7709448125286604219"
+        },
+        {
+          "rank": 17,
+          "title": "好了好了这下坏了 #恋爱小技巧 #父母",
+          "author": "踹宝王",
+          "heat": "3484753次播放",
+          "url": "https://www.douyin.com/video/7709204739914097915"
+        },
+        {
+          "rank": 18,
+          "title": "白成 “剥了壳的鸡蛋”，一点瑕疵都没有，有可能吗？ 跟田歆主任聊完后才发现，皮肤科说的白是光泽感、细腻度、均匀度～那一块暗沉、一块红、一块黑，脸看上去就是脏的！ 所以我把大家好奇的、想了解的“敏感皮怎么白”、“油黄皮怎么白”、包括“晒黑和天生黑怎么白”都问了一遍。 医生说只要思路对了，是能白出来的！只是方法有点多，光听一遍，记不住，所以干脆让田歆医生给我们做了一个28 天「不同皮肤怎么白」打卡计划，我已经先行一步打卡上啦，你们收藏跟上呀！#护肤干货 #美白淡斑提亮肤色 #抖出健康知识宝藏 #视频播客扶持计划 #抖音精选App征稿中",
+          "author": "李艾",
+          "heat": "3377209次播放",
+          "url": "https://www.douyin.com/video/7709019354054135091"
+        },
+        {
+          "rank": 19,
+          "title": "#骑有此理 环海南岛篇EP02：物理意义上湿答答的一集#交换100个旅途故事",
+          "author": "吴磊LEO",
+          "heat": "3340110次播放",
+          "url": "https://www.douyin.com/video/7708769366786968874"
+        },
+        {
+          "rank": 20,
+          "title": "面要多见！#面要多吃 #综艺趁热打铁 #趁热打铁",
+          "author": "罗正",
+          "heat": "3298429次播放",
+          "url": "https://www.douyin.com/video/7709066337759173011"
+        }
+      ],
+      "error": null,
+      "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:01:16"
+      "update_time": "2026-11-19 15:05:29"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -603,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:01:21"
+      "update_time": "2026-11-19 15:05:31"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -686,7 +827,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:01:23"
+      "update_time": "2026-11-19 15:05:33"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1049,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:01:28"
+      "update_time": "2026-11-19 15:05:36"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1412,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:01:31"
+      "update_time": "2026-11-19 15:05:38"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1495,7 +1636,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:01:35"
+      "update_time": "2026-11-19 15:05:40"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1858,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:01:38"
+      "update_time": "2026-11-19 15:05:42"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2221,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-19 15:01:41"
+      "update_time": "2026-11-19 15:05:44"
     }
   }
 }
