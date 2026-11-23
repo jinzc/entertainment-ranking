@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-23 16:55:22",
+  "update_time": "2026-11-23 17:01:01",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:24"
+      "update_time": "2026-11-23 17:01:07"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -370,152 +370,11 @@
       "category": "抖音",
       "icon": "🎵",
       "color": "#F59E0B",
-      "items": [
-        {
-          "rank": 1,
-          "title": "陈楚生：我们输在了没上过名校#曾沛慈 #张信哲 #任贤齐 #声生不息 #芒果综艺名场面",
-          "author": "芒果TV",
-          "heat": "9953090次播放",
-          "url": "https://www.douyin.com/video/7710214053859183923"
-        },
-        {
-          "rank": 2,
-          "title": "“韩影里那些无法言说的痛”#哭戏 #混剪 #抖音精选 #了不起的混剪团",
-          "author": "心影之剪",
-          "heat": "9857526次播放",
-          "url": "https://www.douyin.com/video/7704531938203192603"
-        },
-        {
-          "rank": 3,
-          "title": "西班牙高分恐怖片《咖啡桌》31分钟完整版，全程极致压抑 #抖音午夜放映厅 #了不起的精讲团 #恐怖 #悬疑",
-          "author": "最恐怖说",
-          "heat": "7498760次播放",
-          "url": "https://www.douyin.com/video/7710576478932536630"
-        },
-        {
-          "rank": 4,
-          "title": "十年过去还是一句“我是那英老师的学生”#万妮达 #那英 #那英万妮达十年舞台重逢",
-          "author": "会火大明星",
-          "heat": "5936892次播放",
-          "url": "https://www.douyin.com/video/7710856199947734281"
-        },
-        {
-          "rank": 5,
-          "title": "姐妹俩跳舞一个好看一个好笑 #万万没想到 #搞笑 #姐妹 #跳舞",
-          "author": "蘑菇娱乐日记",
-          "heat": "5245246次播放",
-          "url": "https://www.douyin.com/video/7710838378098445611"
-        },
-        {
-          "rank": 6,
-          "title": "大声发经典名场面，吃饭不用给钱！ #甄子丹 #常威 #电影解说 #抖音精选 #青年创作者成长计划",
-          "author": "知书电影",
-          "heat": "4638891次播放",
-          "url": "https://www.douyin.com/video/7710801829809917222"
-        },
-        {
-          "rank": 7,
-          "title": "她把婚礼的最后一项流程，办成了葬礼 因为妈妈爱你，所以她不愿意来，可是也因为妈妈爱你，所以她最后还是来了#癌症#离别#母女#葬礼#小蝴蝶",
-          "author": "娱乐榜姐",
-          "heat": "4519071次播放",
-          "url": "https://www.douyin.com/video/7710572651986636082"
-        },
-        {
-          "rank": 8,
-          "title": "我要是被抽到 未必有他理智啊 #薛之谦 #万兽之王演唱会 #演唱会现场 #搞笑 #谦友",
-          "author": "娱乐小表妹",
-          "heat": "4510284次播放",
-          "url": "https://www.douyin.com/video/7710617099382558015"
-        },
-        {
-          "rank": 9,
-          "title": "当《后会有期》有候选人面试 #后会有期#人文创意挑战赛 #易中天#混饭达人 #用后会有期打开历史人物 欢迎@易中天 老师加入调解员！老师竟然录了两版给我哈哈 抖音发起了人文创意挑战赛，鼓励大家用轻松娱乐的方式表达历史，欢迎大家一起来玩呀！",
-          "author": "混饭达人",
-          "heat": "4416244次播放",
-          "url": "https://www.douyin.com/video/7710561980108960211"
-        },
-        {
-          "rank": 10,
-          "title": "穷人家庭的孩子为何难出头？这部纪录片讲的清清楚楚！ #佳片推荐 #了不起的精讲团 #父亲 #大学生",
-          "author": "浮生说剧",
-          "heat": "4305250次播放",
-          "url": "https://www.douyin.com/video/7701102015463656758"
-        },
-        {
-          "rank": 11,
-          "title": "孟子义选择唐晓天 根本不用分析小林微表情 #孟子义 #李昀锐 #唐晓天 #你好星期六 #搞笑",
-          "author": "大板凳娱乐",
-          "heat": "4168915次播放",
-          "url": "https://www.douyin.com/video/7710583884634688819"
-        },
-        {
-          "rank": 12,
-          "title": "原创AI剧《无声之恶》第二集她本想熬到 18 岁逃离，命运，却连两年都不肯给她全片由即梦AI制作 #即梦AI创作者成长计划 #ai悬疑故事 #AI创作浪潮计划 #无声之恶",
-          "author": "洛克影视",
-          "heat": "4092268次播放",
-          "url": "https://www.douyin.com/video/7710596276173245747"
-        },
-        {
-          "rank": 13,
-          "title": "人均系统？当1000名主角参与末日求生挑战会发生什么？ #未来导演扶持计划 #自制综艺 #零跑A05",
-          "author": "十万个挑战",
-          "heat": "4006937次播放",
-          "url": "https://www.douyin.com/video/7690955248831171874"
-        },
-        {
-          "rank": 14,
-          "title": "全身起着鸡皮疙瘩哭的体验我也是第一次...#泰国灵能综艺UNSEEN #震惊 #亲情#WeTV",
-          "author": "小柴爆米花",
-          "heat": "3762788次播放",
-          "url": "https://www.douyin.com/video/7710575590310563087"
-        },
-        {
-          "rank": 15,
-          "title": "绝命毒师：蒙城版绝命毒师520当天，为医院急诊猛冲业绩",
-          "author": "小苏叨影",
-          "heat": "3590602次播放",
-          "url": "https://www.douyin.com/video/7710226647840066870"
-        },
-        {
-          "rank": 16,
-          "title": "有些“人”，画着画着，就“舞”起来了。#抖音美好微光集",
-          "author": "抖音",
-          "heat": "3553461次播放",
-          "url": "https://www.douyin.com/video/7707521348549119272"
-        },
-        {
-          "rank": 17,
-          "title": "666 花2万块钱 请了俩大便超人#破大防 #娱乐评论大赏",
-          "author": "毒舌扒姨太",
-          "heat": "3499039次播放",
-          "url": "https://www.douyin.com/video/7710579385645261989"
-        },
-        {
-          "rank": 18,
-          "title": "AI自制微恐短剧《猫妖》 全片由即梦短剧制作#即梦AI创作者成长计划#AI创作浪潮计划#即梦AI动效大赏 @即梦AI",
-          "author": "与墨映像",
-          "heat": "3477154次播放",
-          "url": "https://www.douyin.com/video/7710232897084575018"
-        },
-        {
-          "rank": 19,
-          "title": "谁说状元一定要用考？全片由即梦AI制作#即梦AI创作者成长计划 #历史 #整活 #抽象 #AI创作浪潮计划",
-          "author": "小黄油美式",
-          "heat": "3423649次播放",
-          "url": "https://www.douyin.com/video/7710564769517915411"
-        },
-        {
-          "rank": 20,
-          "title": "才第二题就是这个难度吗#韩国高考 #历史 #高中",
-          "author": "爆米花妈妈",
-          "heat": "3416823次播放",
-          "url": "https://www.douyin.com/video/7710834648619765027"
-        }
-      ],
-      "error": null,
-      "item_count": 20,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:26"
+      "update_time": "2026-11-23 17:01:30"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -668,7 +527,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:29"
+      "update_time": "2026-11-23 17:01:33"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -751,7 +610,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:31"
+      "update_time": "2026-11-23 17:01:36"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -834,7 +693,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:33"
+      "update_time": "2026-11-23 17:01:39"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1197,7 +1056,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:35"
+      "update_time": "2026-11-23 17:01:43"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1205,362 +1064,11 @@
       "category": "哔哩哔哩",
       "icon": "🎮",
       "color": "#EC4899",
-      "items": [
-        {
-          "rank": 1,
-          "title": "欣欣子宅心仁厚 未成年在劫难逃！",
-          "author": "",
-          "heat": "77.5万",
-          "url": "https://www.bilibili.com/video/av117653616199971/"
-        },
-        {
-          "rank": 2,
-          "title": "盘点《芒果十大名梗》：出处、含义、用法，一次性全扒透！",
-          "author": "",
-          "heat": "132.9万",
-          "url": "https://www.bilibili.com/video/av117648784491979/"
-        },
-        {
-          "rank": 3,
-          "title": "【时代少年团】七周年粉丝福利大放送",
-          "author": "",
-          "heat": "64.1万",
-          "url": "https://www.bilibili.com/video/av117647442188160/"
-        },
-        {
-          "rank": 4,
-          "title": "【地狱厨神】我有属于自己的星星了",
-          "author": "",
-          "heat": "186.4万",
-          "url": "https://www.bilibili.com/video/av117643130444623/"
-        },
-        {
-          "rank": 5,
-          "title": "什么叫给心理师整出了心理阴影？",
-          "author": "",
-          "heat": "87.7万",
-          "url": "https://www.bilibili.com/video/av117649036154256/"
-        },
-        {
-          "rank": 6,
-          "title": "纯稚沟通大进步！雪山对谈好哭又好笑！爬上雪山为3块钱豆皮吵？【后会友期第六期02】",
-          "author": "",
-          "heat": "44.2万",
-          "url": "https://www.bilibili.com/video/av117649572895655/"
-        },
-        {
-          "rank": 7,
-          "title": "【登陆少年】朱志鑫21岁生日特别企划纪录片《署名》(Signature)",
-          "author": "",
-          "heat": "35.6万",
-          "url": "https://www.bilibili.com/video/av117641855370859/"
-        },
-        {
-          "rank": 8,
-          "title": "【大演特演】这样的cp和演技注入内娱是带给观众的一场高度近视",
-          "author": "",
-          "heat": "109.2万",
-          "url": "https://www.bilibili.com/video/av117641888926052/"
-        },
-        {
-          "rank": 9,
-          "title": "友情爱情的边界是什么？或许每个人都能从卡黄身上看到一点自己",
-          "author": "",
-          "heat": "27.9万",
-          "url": "https://www.bilibili.com/video/av117653364542329/"
-        },
-        {
-          "rank": 10,
-          "title": "第一次看《明侦》reaction S2-《博物馆奇妙夜》本格完了，就变格，这才有意思嘛(点赞过万，投币过5000，明天加更一期)",
-          "author": "",
-          "heat": "43.2万",
-          "url": "https://www.bilibili.com/video/av117641956035827/"
-        },
-        {
-          "rank": 11,
-          "title": "女仆觉醒？超绝没礼貌！上趟节目老十岁！第六期有种创飞所有剪辑的美！《后会友期》",
-          "author": "",
-          "heat": "49.4万",
-          "url": "https://www.bilibili.com/video/av117653985297947/"
-        },
-        {
-          "rank": 12,
-          "title": "天哪!!伊能静分析征服全场，这才是后会友期观察室应该有的水平！！",
-          "author": "",
-          "heat": "60.0万",
-          "url": "https://www.bilibili.com/video/av117641888991863/"
-        },
-        {
-          "rank": 13,
-          "title": "re《后会友期》纯稚——（13）：",
-          "author": "",
-          "heat": "15.3万",
-          "url": "https://www.bilibili.com/video/av117653599426767/"
-        },
-        {
-          "rank": 14,
-          "title": "从经济舱升到商务舱 pullin up",
-          "author": "",
-          "heat": "12.8万",
-          "url": "https://www.bilibili.com/video/av117641150730719/"
-        },
-        {
-          "rank": 15,
-          "title": "在许飞身上，文青不是病【飘飘】",
-          "author": "",
-          "heat": "17.0万",
-          "url": "https://www.bilibili.com/video/av117648717253647/"
-        },
-        {
-          "rank": 16,
-          "title": "笑死!怎么会有人幽默又毒舌还兼任幼儿园园长哈哈哈，全是巨表情!!他们的对话互动好有趣啊！",
-          "author": "",
-          "heat": "36.7万",
-          "url": "https://www.bilibili.com/video/av117645579913360/"
-        },
-        {
-          "rank": 17,
-          "title": "【访谈解析】王子璇回怼，文吉公主逃避，访谈不得已中止；锐评文王对谈：把老师都问成工伤了【后会友期 19】",
-          "author": "",
-          "heat": "60.8万",
-          "url": "https://www.bilibili.com/video/av117642476198355/"
-        },
-        {
-          "rank": 18,
-          "title": "【下架重传】中华传奇女女纯友情…？【后会友期】",
-          "author": "",
-          "heat": "11.2万",
-          "url": "https://www.bilibili.com/video/av117649254124256/"
-        },
-        {
-          "rank": 19,
-          "title": "青稚白小纯为何能治愈我们？马天宇张萌的时代共振！文吉儿的大芒果来了！",
-          "author": "",
-          "heat": "18.3万",
-          "url": "https://www.bilibili.com/video/av117653767197975/"
-        },
-        {
-          "rank": 20,
-          "title": "文吉儿频繁作妖被实锤，王子璇强势反击！【脑洞小剧场】假如大家都说“实话”……",
-          "author": "",
-          "heat": "21.5万",
-          "url": "https://www.bilibili.com/video/av117657961502679/"
-        },
-        {
-          "rank": 21,
-          "title": "飞雪一日约会，文王对抗PK！《后会友期》第六期！看爽了！",
-          "author": "",
-          "heat": "19.7万",
-          "url": "https://www.bilibili.com/video/av117653062555101/"
-        },
-        {
-          "rank": 22,
-          "title": "王子璇复仇反击！回旋镖来了～用网课的方式打开《后会友期》",
-          "author": "",
-          "heat": "16.7万",
-          "url": "https://www.bilibili.com/video/av117655025485470/"
-        },
-        {
-          "rank": 23,
-          "title": "「我」可以高于性别与时代｜丞相还挺忙·谭卓",
-          "author": "",
-          "heat": "45.1万",
-          "url": "https://www.bilibili.com/video/av117626906877491/"
-        },
-        {
-          "rank": 24,
-          "title": "【TF家族练习生】《千万分之一的我》02「幸会，再会」篇章四《再会》",
-          "author": "",
-          "heat": "143.2万",
-          "url": "https://www.bilibili.com/video/av117620430997210/"
-        },
-        {
-          "rank": 25,
-          "title": "【高战士】文王对谈老师工伤，文吉儿要把王子璇的“价格”打下来【后会友期第六期02】",
-          "author": "",
-          "heat": "19.1万",
-          "url": "https://www.bilibili.com/video/av117647945567395/"
-        },
-        {
-          "rank": 26,
-          "title": "【补】文吉儿的天才之路（上）",
-          "author": "",
-          "heat": "9.2万",
-          "url": "https://www.bilibili.com/video/av117658280270781/"
-        },
-        {
-          "rank": 27,
-          "title": "A2O SOUL为什么对KPOP行业如此重要",
-          "author": "",
-          "heat": "54.9万",
-          "url": "https://www.bilibili.com/video/av117631604692965/"
-        },
-        {
-          "rank": 28,
-          "title": "和李雪琴就聊点好笑的！综艺幕后、演戏趣事、烧脑话题｜迪厅ep01【视频播客】",
-          "author": "",
-          "heat": "44.3万",
-          "url": "https://www.bilibili.com/video/av117637191375478/"
-        },
-        {
-          "rank": 29,
-          "title": "【后会友期】Reaction06！还钱，绝交！悬崖悟道了~第一次预测结局",
-          "author": "",
-          "heat": "12.0万",
-          "url": "https://www.bilibili.com/video/av117648046163395/"
-        },
-        {
-          "rank": 30,
-          "title": "厉娜爆改许飞穿搭？许飞一件未买，唯爱阿童木长袖？这辈子当不上牌子t！六期上",
-          "author": "",
-          "heat": "8.2万",
-          "url": "https://www.bilibili.com/video/av117647945504553/"
-        },
-        {
-          "rank": 31,
-          "title": "她需要一场盛大的无罪释放",
-          "author": "",
-          "heat": "86.9万",
-          "url": "https://www.bilibili.com/video/av117616689616782/"
-        },
-        {
-          "rank": 32,
-          "title": "报价事件2.0震撼来袭！文吉儿的心结有且只有:钱钱钱钱钱钱钱钱钱钱，王子璇悟道了",
-          "author": "",
-          "heat": "12.9万",
-          "url": "https://www.bilibili.com/video/av117653800749760/"
-        },
-        {
-          "rank": 33,
-          "title": "话说一半衣服变了！原来是黄焖鸡事变动手了？!芒果剪辑再次发力，难怪对谈这么短！",
-          "author": "",
-          "heat": "13.6万",
-          "url": "https://www.bilibili.com/video/av117651099620989/"
-        },
-        {
-          "rank": 34,
-          "title": "一场专门为许飞设计的鸿门宴，许飞不战而胜",
-          "author": "",
-          "heat": "7.0万",
-          "url": "https://www.bilibili.com/video/av117647224084946/"
-        },
-        {
-          "rank": 35,
-          "title": "接人事件不止3通？逐帧扒完《后会友期》这通“超时空电话”，观察室可能才是看到真相的人",
-          "author": "",
-          "heat": "24.3万",
-          "url": "https://www.bilibili.com/video/av117636520220113/"
-        },
-        {
-          "rank": 36,
-          "title": "蔡徐坤战胜99位练习生，拿下主题曲c位！",
-          "author": "",
-          "heat": "193.0万",
-          "url": "https://www.bilibili.com/video/av117637392762695/"
-        },
-        {
-          "rank": 37,
-          "title": "谁说张家人一上雪山简直请神上身哈哈！无数次的表达“我很想你”…这些话在情侣关系里都很难听到吧qzz",
-          "author": "",
-          "heat": "6.7万",
-          "url": "https://www.bilibili.com/video/av117649556113954/"
-        },
-        {
-          "rank": 38,
-          "title": "难绷！最强法务吴亦凡，栽在了抽象串子人手里！【网络狠人124】",
-          "author": "",
-          "heat": "193.5万",
-          "url": "https://www.bilibili.com/video/av117614609175871/"
-        },
-        {
-          "rank": 39,
-          "title": "“两人看似和好的谈话，也成了无法再成为密友的原因”一起聊聊情感上的错位",
-          "author": "",
-          "heat": "7.0万",
-          "url": "https://www.bilibili.com/video/av117648448883025/"
-        },
-        {
-          "rank": 40,
-          "title": "【TF_ING穆祉丞】《MISSION MU》EP05：在比利时，其实我只有一个愿望…",
-          "author": "",
-          "heat": "5.0万",
-          "url": "https://www.bilibili.com/video/av117648633371159/"
-        },
-        {
-          "rank": 41,
-          "title": "纯稚最近简直请神上身！新播出的cut两人都突然开智了，也不吵了也不嘴硬了都能好好沟通了，简直太好磕了，磕得我一整天都很兴奋！",
-          "author": "",
-          "heat": "7.3万",
-          "url": "https://www.bilibili.com/video/av117653666536395/"
-        },
-        {
-          "rank": 42,
-          "title": "95花的头部厮杀，其实已经结束了【行业向年终深度盘点】",
-          "author": "",
-          "heat": "11.7万",
-          "url": "https://www.bilibili.com/video/av117647979058873/"
-        },
-        {
-          "rank": 43,
-          "title": "终于等到了飞雪真情松动的那一秒：宁舍如来，不负少年！飞雪党头顶青天~《后会友期》飞雪线解说版第六期",
-          "author": "",
-          "heat": "5.4万",
-          "url": "https://www.bilibili.com/video/av117653532445045/"
-        },
-        {
-          "rank": 44,
-          "title": "“原生家庭论”正在批量制造表演型deep talk",
-          "author": "",
-          "heat": "5.6万",
-          "url": "https://www.bilibili.com/video/av117648465597852/"
-        },
-        {
-          "rank": 45,
-          "title": "【彩】文吉儿太优秀了，又是美女作家，又能唱歌读博，还是大学教授，说不完，真的说不完",
-          "author": "",
-          "heat": "7.9万",
-          "url": "https://www.bilibili.com/video/av117649153526165/"
-        },
-        {
-          "rank": 46,
-          "title": "文王二战你马叔萌姐功不可没！马天宇明明已经因材施教了！两个人都听进去了！但依旧吵得不可开交！只能说过程全对！结果全错！哈哈哈哈哈哈",
-          "author": "",
-          "heat": "16.1万",
-          "url": "https://www.bilibili.com/video/av117643616983986/"
-        },
-        {
-          "rank": 47,
-          "title": "[WOO.ZIP] BIRTHDAY UNLOCKED ❤️",
-          "author": "",
-          "heat": "2.2万",
-          "url": "https://www.bilibili.com/video/av117637073865924/"
-        },
-        {
-          "rank": 48,
-          "title": "文学品鉴：写序三万那本书到底写了什么？耐力大挑战！你能坚持几分钟！",
-          "author": "",
-          "heat": "7.9万",
-          "url": "https://www.bilibili.com/video/av117650327864900/"
-        },
-        {
-          "rank": 49,
-          "title": "A/S PROJECT EP.1 GLAMPING",
-          "author": "",
-          "heat": "4.0万",
-          "url": "https://www.bilibili.com/video/av117647794510403/"
-        },
-        {
-          "rank": 50,
-          "title": "盘点10大一手好牌打稀烂的明星，都是自己作的！",
-          "author": "",
-          "heat": "12.3万",
-          "url": "https://www.bilibili.com/video/av117640630769793/"
-        }
-      ],
-      "error": null,
-      "item_count": 50,
+      "items": [],
+      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
+      "item_count": 0,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:37"
+      "update_time": "2026-11-23 17:02:05"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1643,7 +1151,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:40"
+      "update_time": "2026-11-23 17:02:09"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -2006,7 +1514,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:42"
+      "update_time": "2026-11-23 17:02:12"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2369,7 +1877,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-23 16:55:44"
+      "update_time": "2026-11-23 17:02:16"
     }
   }
 }
