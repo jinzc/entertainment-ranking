@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-25 08:00:43",
+  "update_time": "2026-11-25 08:05:22",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:00:47"
+      "update_time": "2026-11-25 08:05:24"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -508,7 +508,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:00:51"
+      "update_time": "2026-11-25 08:05:27"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -516,11 +516,145 @@
       "category": "抖音",
       "icon": "⭐",
       "color": "#F59E0B",
-      "items": [],
-      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "东北低收入家庭冬日娱乐项目 #低收入人群 #冰屋 #手工diy #抖音手工大赏 #世界是我的手工台",
+          "author": "Mr.汤普森",
+          "heat": "30486571次播放",
+          "url": "https://www.douyin.com/video/7711027149829967145"
+        },
+        {
+          "rank": 2,
+          "title": "中国最北，漠河！ 今天还挺暖和的，零下15°😂#漠河 #下雪 #心动打卡指南#沿着边境看中国",
+          "author": "杨迪",
+          "heat": "19075949次播放",
+          "url": "https://www.douyin.com/video/7710391785008771259"
+        },
+        {
+          "rank": 3,
+          "title": "好久不见₍^. .^₎⟆#一追就上头 #小猫踏步舞",
+          "author": "徐梦洁梦徐",
+          "heat": "14653024次播放",
+          "url": "https://www.douyin.com/video/7711307428218231780"
+        },
+        {
+          "rank": 4,
+          "title": "自制美人鱼",
+          "author": "张馨予",
+          "heat": "10620038次播放",
+          "url": "https://www.douyin.com/video/7711276276368450469"
+        },
+        {
+          "rank": 5,
+          "title": "笑了半个小时才舍得发出来 #现在就出发",
+          "author": "黄景瑜",
+          "heat": "10434738次播放",
+          "url": "https://www.douyin.com/video/7710143043656543461"
+        },
+        {
+          "rank": 6,
+          "title": "伟大的前奏当然要配一张伟大的脸@关晓彤 #关晓彤",
+          "author": "关晓彤工作室",
+          "heat": "7240119次播放",
+          "url": "https://www.douyin.com/video/7711205168750541903"
+        },
+        {
+          "rank": 7,
+          "title": "不会玩德莱文啊！ 没咋玩过 这样啊，可以和文森特掰掰手腕了#弹跳蜜蜂 #大腕 #海克斯大乱斗 #英雄联盟",
+          "author": "李佳航MVP",
+          "heat": "6944594次播放",
+          "url": "https://www.douyin.com/video/7710933029459353971"
+        },
+        {
+          "rank": 8,
+          "title": "🩵🩷🤍🖤，请选择你的出片色！",
+          "author": "鞠婧祎",
+          "heat": "6325166次播放",
+          "url": "https://www.douyin.com/video/7707532022625731322"
+        },
+        {
+          "rank": 9,
+          "title": "女演员睡前必做的n件小事，收工版 #女演员日常 #沉浸式回家",
+          "author": "陈紫函",
+          "heat": "6280286次播放",
+          "url": "https://www.douyin.com/video/7711211624249576746"
+        },
+        {
+          "rank": 10,
+          "title": "#陈伟霆 超近距离唱跳野狼Disco，生日会现场直拍#张启山 #跳舞 #陈伟霆九门 #野狼disco",
+          "author": "陈伟霆的tada",
+          "heat": "5843324次播放",
+          "url": "https://www.douyin.com/video/7711295962043667938"
+        },
+        {
+          "rank": 11,
+          "title": "#掉沟里的车",
+          "author": "云南小林",
+          "heat": "5453882次播放",
+          "url": "https://www.douyin.com/video/7711004842815014491"
+        },
+        {
+          "rank": 12,
+          "title": "《不得不爱》最佳赏味来了💿你的DNA动了吗#潘玮柏狂爱终极巡回演唱会 #不得不爱 #巡演日记 #声浪计划",
+          "author": "潘玮柏（1231深圳跨年）",
+          "heat": "4405544次播放",
+          "url": "https://www.douyin.com/video/7710958955111181946"
+        },
+        {
+          "rank": 13,
+          "title": "我就这样小发雷霆。#徐良武汉演唱会 #徐良演唱会 #抽象 #内容过于真实 #精神状态belike",
+          "author": "徐良",
+          "heat": "3928541次播放",
+          "url": "https://www.douyin.com/video/7710555775450231514"
+        },
+        {
+          "rank": 14,
+          "title": "陈文杰背后到底还有谁呀？#提线木偶转场集齐了影视回忆杀#少年大钦差 #叮当谢昀杉",
+          "author": "叮当谢昀杉",
+          "heat": "3813967次播放",
+          "url": "https://www.douyin.com/video/7710566703578492362"
+        },
+        {
+          "rank": 15,
+          "title": "宝莲背后到底还有谁呀？？#提线木偶转场集齐了影视回忆杀 #哪个角色让你记忆深刻 #活佛济公花娘 #封神英雄榜凤青青 #宝藏女孩洪宝莲",
+          "author": "演员郑亦桐🍒“原来是宝莲啊”",
+          "heat": "3579961次播放",
+          "url": "https://www.douyin.com/video/7710499641829205711"
+        },
+        {
+          "rank": 16,
+          "title": "好的婚姻就是两人结伴同行 彼此托底 #婚姻#夫妻日常#情感#记录真实生活",
+          "author": "杨雨婷",
+          "heat": "3319755次播放",
+          "url": "https://www.douyin.com/video/7710915629918640996"
+        },
+        {
+          "rank": 17,
+          "title": "喂？跟别的男人说话是要逼死哥哥吗？#高海诚#欧巴#面对我 #哼 #干什么玩意",
+          "author": "范丞丞",
+          "heat": "3303408次播放",
+          "url": "https://www.douyin.com/video/7710543900162895460"
+        },
+        {
+          "rank": 18,
+          "title": "表面心连心，主唱变嘉宾。#徐良武汉演唱会 #徐良演唱会 #对口型 #表面心连心背后玩脑筋",
+          "author": "徐良",
+          "heat": "3159608次播放",
+          "url": "https://www.douyin.com/video/7710186500452965221"
+        },
+        {
+          "rank": 19,
+          "title": "👆👇👈👉#一追就上头",
+          "author": "姜珮瑶",
+          "heat": "3136371次播放",
+          "url": "https://www.douyin.com/video/7710995110830164145"
+        }
+      ],
+      "error": null,
+      "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:01:14"
+      "update_time": "2026-11-25 08:05:29"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -603,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:01:20"
+      "update_time": "2026-11-25 08:05:31"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -686,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:01:23"
+      "update_time": "2026-11-25 08:05:33"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1049,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:01:26"
+      "update_time": "2026-11-25 08:05:35"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1412,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:01:30"
+      "update_time": "2026-11-25 08:05:38"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1423,72 +1557,79 @@
       "items": [
         {
           "rank": 1,
-          "title": "黑球 / 禁恋黑名单(港) / The Black Ball",
+          "title": "可能的爱",
           "author": "",
-          "heat": "8.7",
-          "url": "https://movie.douban.com/subject/37215318/"
+          "heat": "1.",
+          "url": "https://movie.douban.com/subject/36847425/"
         },
         {
           "rank": 2,
-          "title": "另一个妈妈 / 另一个妈咪(台) / 衣柜里的妈咪(港)",
+          "title": "黑球",
           "author": "",
-          "heat": "5.8",
-          "url": "https://movie.douban.com/subject/37317907/"
+          "heat": "2.",
+          "url": "https://movie.douban.com/subject/37215318/"
         },
         {
           "rank": 3,
-          "title": "突如其来 / 一瞬间(台) / 突缘其来(港)",
+          "title": "另一个妈妈",
           "author": "",
-          "heat": "7.7",
-          "url": "https://movie.douban.com/subject/37342630/"
+          "heat": "3.",
+          "url": "https://movie.douban.com/subject/37317907/"
         },
         {
           "rank": 4,
-          "title": "八仙！ / 八仙之瞒天过海 / All Wishes Come True!",
+          "title": "突如其来",
           "author": "",
-          "heat": "8.2",
-          "url": "https://movie.douban.com/subject/36882191/"
+          "heat": "4.",
+          "url": "https://movie.douban.com/subject/37342630/"
         },
         {
           "rank": 5,
-          "title": "懦夫 / 怜爱(港)",
+          "title": "八仙！",
           "author": "",
-          "heat": "7.5",
-          "url": "https://movie.douban.com/subject/37148241/"
+          "heat": "5.",
+          "url": "https://movie.douban.com/subject/36882191/"
         },
         {
           "rank": 6,
-          "title": "黄金时段 / 实境诱捕(台)",
+          "title": "懦夫",
           "author": "",
-          "heat": "6.2",
-          "url": "https://movie.douban.com/subject/37087760/"
+          "heat": "6.",
+          "url": "https://movie.douban.com/subject/37148241/"
         },
         {
           "rank": 7,
-          "title": "一切如你所见 / 一切如你所见(港) / 袒裎相见(台)",
+          "title": "黄金时段",
           "author": "",
-          "heat": "8.7",
-          "url": "https://movie.douban.com/subject/38643086/"
+          "heat": "7.",
+          "url": "https://movie.douban.com/subject/37087760/"
         },
         {
           "rank": 8,
-          "title": "逃出布迪秀 / 逃出巴迪秀",
+          "title": "一切如你所见",
           "author": "",
-          "heat": "7.3",
-          "url": "https://movie.douban.com/subject/37446297/"
+          "heat": "8.",
+          "url": "https://movie.douban.com/subject/38643086/"
         },
         {
           "rank": 9,
-          "title": "哥斯拉-0.0 / Godzilla -0.0 / 哥斯拉-1.0续集",
+          "title": "逃出布迪秀",
           "author": "",
-          "heat": "6.7",
+          "heat": "9.",
+          "url": "https://movie.douban.com/subject/37446297/"
+        },
+        {
+          "rank": 10,
+          "title": "哥斯拉-0.0",
+          "author": "",
+          "heat": "10.",
           "url": "https://movie.douban.com/subject/37100760/"
         }
       ],
       "error": null,
-      "item_count": 9,
-      "source_used": "original",
-      "update_time": "2026-11-25 08:01:53"
+      "item_count": 10,
+      "source_used": "tophub",
+      "update_time": "2026-11-25 08:05:40"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1851,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:01:56"
+      "update_time": "2026-11-25 08:05:42"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2214,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-25 08:02:00"
+      "update_time": "2026-11-25 08:05:44"
     }
   }
 }
