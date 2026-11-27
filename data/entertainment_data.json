@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-27 08:00:46",
+  "update_time": "2026-11-27 08:05:23",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:00:52"
+      "update_time": "2026-11-27 08:05:26"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -370,11 +370,152 @@
       "category": "抖音",
       "icon": "🎵",
       "color": "#F59E0B",
-      "items": [],
-      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "丧尸村续集《我不是丧尸》1/6 大合集 全片由即梦短剧制作#即梦AI创作者成长计划 #丧尸村",
+          "author": "大浩哥",
+          "heat": "6383770次播放",
+          "url": "https://www.douyin.com/video/7711627398798283123"
+        },
+        {
+          "rank": 2,
+          "title": "完全没有害怕的情绪，完全是想立马出发的冲动！#上海 #游乐园 #旅游 #万万想不到 #好玩",
+          "author": "资深观众刘根红",
+          "heat": "4639572次播放",
+          "url": "https://www.douyin.com/video/7711571551061151003"
+        },
+        {
+          "rank": 3,
+          "title": "原来当年在看非诚勿扰的那一批小孩，现在已经登上舞台了吗！#非诚勿扰 #童年 #孟非 #娱乐评论大赏",
+          "author": "毒舌扒姨太",
+          "heat": "4372355次播放",
+          "url": "https://www.douyin.com/video/7711678672188558626"
+        },
+        {
+          "rank": 4,
+          "title": "陈楚生：我们输在了没上过名校#曾沛慈 #张信哲 #任贤齐 #声生不息 #芒果综艺名场面",
+          "author": "芒果TV",
+          "heat": "4369779次播放",
+          "url": "https://www.douyin.com/video/7710214053859183923"
+        },
+        {
+          "rank": 5,
+          "title": "面试者的优点：耐心 缺点：不耐烦#娱乐评论大赏 #面试",
+          "author": "毒舌扒姨太",
+          "heat": "4131293次播放",
+          "url": "https://www.douyin.com/video/7711933368581000511"
+        },
+        {
+          "rank": 6,
+          "title": "人前光鲜豪门贵妇，人后藏着大把不能说的糟心事#此刻的生活#此刻的生活3分钟预告11个瓜",
+          "author": "小呆",
+          "heat": "4091628次播放",
+          "url": "https://www.douyin.com/video/7711950702154632488"
+        },
+        {
+          "rank": 7,
+          "title": "论一个人能有牛 （（投资有风险，理财需谨慎，无不良引导)",
+          "author": "大娱转晴",
+          "heat": "4059857次播放",
+          "url": "https://www.douyin.com/video/7711783497614003507"
+        },
+        {
+          "rank": 8,
+          "title": "这也太浪漫了吧 #冷知识 #浪漫 #朋友 #好朋友 #万万没想到",
+          "author": "小熊叭叭叭",
+          "heat": "4058453次播放",
+          "url": "https://www.douyin.com/video/7711680916430540047"
+        },
+        {
+          "rank": 9,
+          "title": "赵老师《慌啥子嘛》棚内片段，味儿一下就上来了！#走马上任 #赵家班#赵老师慌啥子嘛慢慢来",
+          "author": "刘老根传媒",
+          "heat": "3960303次播放",
+          "url": "https://www.douyin.com/video/7707996871800671498"
+        },
+        {
+          "rank": 10,
+          "title": "为黄仁勋辞职的英伟达工程师，刚交工牌3天，老板回来了#英伟达 #黄仁勋",
+          "author": "芯有引力",
+          "heat": "3813859次播放",
+          "url": "https://www.douyin.com/video/7711958136831216911"
+        },
+        {
+          "rank": 11,
+          "title": "有些“人”，画着画着，就“舞”起来了。#抖音美好微光集",
+          "author": "抖音",
+          "heat": "3789653次播放",
+          "url": "https://www.douyin.com/video/7707521348549119272"
+        },
+        {
+          "rank": 12,
+          "title": "代入粉丝真的好绝望啊 #孙芮 #爱豆 #粉丝 #内容启发搜索",
+          "author": "娱乐侠女玉娇龙",
+          "heat": "3768701次播放",
+          "url": "https://www.douyin.com/video/7712049982664199458"
+        },
+        {
+          "rank": 13,
+          "title": "至此全校开启大耍起时代！#南充一中 #说唱 #四川 #学生 #学校",
+          "author": "灵光闪闪",
+          "heat": "3755933次播放",
+          "url": "https://www.douyin.com/video/7711702047237606675"
+        },
+        {
+          "rank": 14,
+          "title": "片段先行｜谁懂啊，就爱这一句“慌啥子嘛”！#走马上任 #赵家班#赵老师慌啥子嘛慢慢来",
+          "author": "刘老根传媒",
+          "heat": "3638211次播放",
+          "url": "https://www.douyin.com/video/7707897339020578084"
+        },
+        {
+          "rank": 15,
+          "title": "好险 差点就吃上时团七周年同款蛋糕了 #时代少年团 #蛋糕 #七周年 #搞笑",
+          "author": "娱圈熊猫酱",
+          "heat": "3537744次播放",
+          "url": "https://www.douyin.com/video/7711994240913526031"
+        },
+        {
+          "rank": 16,
+          "title": "我宣布dirtytalk必须严肃进入普通话二甲时代（素材来源：@伍叁柒 ）#dirtytalk #普通话 #方言 #万万没想到",
+          "author": "奈小妹",
+          "heat": "3395496次播放",
+          "url": "https://www.douyin.com/video/7711762881083182378"
+        },
+        {
+          "rank": 17,
+          "title": "最后的最后只是想提醒你关注一下自己的生活吧#台风#母亲#AI漫剧",
+          "author": "芒果妈妈",
+          "heat": "3387618次播放",
+          "url": "https://www.douyin.com/video/7711747200972285113"
+        },
+        {
+          "rank": 18,
+          "title": "“吴老师的顶级阴阳，论我和高级串的区别”#人民的名义 #吴惠芳 #高级串",
+          "author": "猪妹",
+          "heat": "3269557次播放",
+          "url": "https://www.douyin.com/video/7711915661517407845"
+        },
+        {
+          "rank": 19,
+          "title": "什么叫打游戏看到自己家了#万万没想到 #求生之路 #GTA6 #离谱 #神操作",
+          "author": "呆猫吃娱",
+          "heat": "3265593次播放",
+          "url": "https://www.douyin.com/video/7712049268701383936"
+        },
+        {
+          "rank": 20,
+          "title": "消费风波 好久没逛商场了 消费水平跟不上啦 哈哈#搞笑配音 #冲锋衣 #羽绒服 #实体店 #拯救不开心",
+          "author": "阿建欢乐多",
+          "heat": "3259080次播放",
+          "url": "https://www.douyin.com/video/7711593537598751334"
+        }
+      ],
+      "error": null,
+      "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:01:15"
+      "update_time": "2026-11-27 08:05:29"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -520,7 +661,7 @@
       "error": null,
       "item_count": 19,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:01:18"
+      "update_time": "2026-11-27 08:05:31"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -603,7 +744,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:01:21"
+      "update_time": "2026-11-27 08:05:33"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -611,11 +752,82 @@
       "category": "百度",
       "icon": "📺",
       "color": "#3B82F6",
-      "items": [],
-      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "九门",
+          "author": "",
+          "heat": "1.",
+          "url": "https://www.baidu.com/s?wd=%E4%B9%9D%E9%97%A8"
+        },
+        {
+          "rank": 2,
+          "title": "非份之罪",
+          "author": "",
+          "heat": "2.",
+          "url": "https://www.baidu.com/s?wd=%E9%9D%9E%E4%BB%BD%E4%B9%8B%E7%BD%AA"
+        },
+        {
+          "rank": 3,
+          "title": "这一秒过火",
+          "author": "",
+          "heat": "3.",
+          "url": "https://www.baidu.com/s?wd=%E8%BF%99%E4%B8%80%E7%A7%92%E8%BF%87%E7%81%AB"
+        },
+        {
+          "rank": 4,
+          "title": "百花杀",
+          "author": "",
+          "heat": "4.",
+          "url": "https://www.baidu.com/s?wd=%E7%99%BE%E8%8A%B1%E6%9D%80"
+        },
+        {
+          "rank": 5,
+          "title": "天才，女友",
+          "author": "",
+          "heat": "5.",
+          "url": "https://www.baidu.com/s?wd=%E5%A4%A9%E6%89%8D%EF%BC%8C%E5%A5%B3%E5%8F%8B"
+        },
+        {
+          "rank": 6,
+          "title": "御廷谣",
+          "author": "",
+          "heat": "6.",
+          "url": "https://www.baidu.com/s?wd=%E5%BE%A1%E5%BB%B7%E8%B0%A3"
+        },
+        {
+          "rank": 7,
+          "title": "小芳",
+          "author": "",
+          "heat": "7.",
+          "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E8%8A%B3"
+        },
+        {
+          "rank": 8,
+          "title": "雀骨",
+          "author": "",
+          "heat": "8.",
+          "url": "https://www.baidu.com/s?wd=%E9%9B%80%E9%AA%A8"
+        },
+        {
+          "rank": 9,
+          "title": "悬案",
+          "author": "",
+          "heat": "9.",
+          "url": "https://www.baidu.com/s?wd=%E6%82%AC%E6%A1%88"
+        },
+        {
+          "rank": 10,
+          "title": "人鱼",
+          "author": "",
+          "heat": "10.",
+          "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E9%B1%BC"
+        }
+      ],
+      "error": null,
+      "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:01:48"
+      "update_time": "2026-11-27 08:05:35"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -978,7 +1190,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:01:50"
+      "update_time": "2026-11-27 08:05:38"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1341,7 +1553,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:01:53"
+      "update_time": "2026-11-27 08:05:40"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1352,72 +1564,79 @@
       "items": [
         {
           "rank": 1,
-          "title": "黑球 / 禁恋黑名单(港) / The Black Ball",
+          "title": "可能的爱",
           "author": "",
-          "heat": "8.7",
-          "url": "https://movie.douban.com/subject/37215318/"
+          "heat": "1.",
+          "url": "https://movie.douban.com/subject/36847425/"
         },
         {
           "rank": 2,
-          "title": "一切如你所见 / 袒裎相见(台) / 你能看见一切",
+          "title": "黑球",
           "author": "",
-          "heat": "8.6",
-          "url": "https://movie.douban.com/subject/38643086/"
+          "heat": "2.",
+          "url": "https://movie.douban.com/subject/37215318/"
         },
         {
           "rank": 3,
-          "title": "斗破苍穹剧场版 双帝之战​ / 斗破苍穹·双帝之战 / Battle Through the Heavens Movie：Duel of the Two Dou Emperors",
+          "title": "一切如你所见",
           "author": "",
-          "heat": "",
-          "url": "https://movie.douban.com/subject/37471473/"
+          "heat": "3.",
+          "url": "https://movie.douban.com/subject/38643086/"
         },
         {
           "rank": 4,
-          "title": "另一个妈妈 / 另一个妈咪(台) / 衣柜里的妈咪(港)",
+          "title": "斗破苍穹剧场版 双帝之战​",
           "author": "",
-          "heat": "5.8",
-          "url": "https://movie.douban.com/subject/37317907/"
+          "heat": "4.",
+          "url": "https://movie.douban.com/subject/37471473/"
         },
         {
           "rank": 5,
-          "title": "峡湾 / 谁偷走了我的孩子(港) / 完美家庭风暴(台)",
+          "title": "另一个妈妈",
           "author": "",
-          "heat": "8.0",
-          "url": "https://movie.douban.com/subject/37168181/"
+          "heat": "5.",
+          "url": "https://movie.douban.com/subject/37317907/"
         },
         {
           "rank": 6,
-          "title": "懦夫 / 怜爱(港)",
+          "title": "峡湾",
           "author": "",
-          "heat": "7.5",
-          "url": "https://movie.douban.com/subject/37148241/"
+          "heat": "6.",
+          "url": "https://movie.douban.com/subject/37168181/"
         },
         {
           "rank": 7,
-          "title": "突如其来 / 一瞬间(台) / 突缘其来(港)",
+          "title": "懦夫",
           "author": "",
-          "heat": "7.7",
-          "url": "https://movie.douban.com/subject/37342630/"
+          "heat": "7.",
+          "url": "https://movie.douban.com/subject/37148241/"
         },
         {
           "rank": 8,
-          "title": "八仙！ / 八仙之瞒天过海 / All Wishes Come True!",
+          "title": "突如其来",
           "author": "",
-          "heat": "8.2",
-          "url": "https://movie.douban.com/subject/36882191/"
+          "heat": "8.",
+          "url": "https://movie.douban.com/subject/37342630/"
         },
         {
           "rank": 9,
-          "title": "逃出布迪秀 / 逃出巴迪秀",
+          "title": "八仙！",
           "author": "",
-          "heat": "7.3",
+          "heat": "9.",
+          "url": "https://movie.douban.com/subject/36882191/"
+        },
+        {
+          "rank": 10,
+          "title": "逃出布迪秀",
+          "author": "",
+          "heat": "10.",
           "url": "https://movie.douban.com/subject/37446297/"
         }
       ],
       "error": null,
-      "item_count": 9,
-      "source_used": "original",
-      "update_time": "2026-11-27 08:02:16"
+      "item_count": 10,
+      "source_used": "tophub",
+      "update_time": "2026-11-27 08:05:42"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1780,7 +1999,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:02:19"
+      "update_time": "2026-11-27 08:05:45"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2143,7 +2362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-27 08:02:22"
+      "update_time": "2026-11-27 08:05:47"
     }
   }
 }
