@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-28 08:00:44",
+  "update_time": "2026-11-28 08:05:23",
   "sources": {
     "weibo_entertainment": {
       "source_key": "weibo_entertainment",
@@ -362,7 +362,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:00:50"
+      "update_time": "2026-11-28 08:05:26"
     },
     "douyin_entertainment": {
       "source_key": "douyin_entertainment",
@@ -515,7 +515,7 @@
       "error": null,
       "item_count": 20,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:00:54"
+      "update_time": "2026-11-28 08:05:28"
     },
     "douyin_star": {
       "source_key": "douyin_star",
@@ -523,11 +523,138 @@
       "category": "抖音",
       "icon": "⭐",
       "color": "#F59E0B",
-      "items": [],
-      "error": "tophub请求失败: HTTPSConnectionPool(host='tophub.today', port=443): Read timed out. (read timeout=20)",
-      "item_count": 0,
+      "items": [
+        {
+          "rank": 1,
+          "title": "@老邓（SuperDeng） @杨颖angelababy 猜你爱看的借粉老邓已更新!#邓超 #你是我的超级英雄 #万物可爱计划 #和邓超Angelababy一起守护萌宠",
+          "author": "邓超工作室",
+          "heat": "42980434次播放",
+          "url": "https://www.douyin.com/video/7712337120874119281"
+        },
+        {
+          "rank": 3,
+          "title": "来自于我老婆的“超能力”…#巴图 #博谷 #夫妻日常搞笑",
+          "author": "巴图&博谷",
+          "heat": "11067389次播放",
+          "url": "https://www.douyin.com/video/7712654149368448114"
+        },
+        {
+          "rank": 4,
+          "title": "愿人生常驻上上上上上升期⬆️🌌拖鞋版lalaland申请出战🩴💡#一追就上头 #爱乐之城发光裙舞蹈挑战 #lalaland",
+          "author": "毛晓彤",
+          "heat": "9030425次播放",
+          "url": "https://www.douyin.com/video/7712009305440065124"
+        },
+        {
+          "rank": 5,
+          "title": "时隔多年又再次见到“村长爸爸” 当年的小小贝儿也已经长大成年～ #云南#日常vlog",
+          "author": "陆毅",
+          "heat": "8893167次播放",
+          "url": "https://www.douyin.com/video/7712334132747182400"
+        },
+        {
+          "rank": 6,
+          "title": "是誰說我胖了？🤣",
+          "author": "黃宗澤 Bosco Wong",
+          "heat": "6328183次播放",
+          "url": "https://www.douyin.com/video/7712519062257242019"
+        },
+        {
+          "rank": 7,
+          "title": "吹吹海風#季候风#一追就上头",
+          "author": "張智霖",
+          "heat": "5890734次播放",
+          "url": "https://www.douyin.com/video/7712697150367558245"
+        },
+        {
+          "rank": 8,
+          "title": "这一次我败得很彻底。#徐良演唱会 #徐良大连演唱会 #演唱会 #精神状态belike",
+          "author": "徐良",
+          "heat": "5339465次播放",
+          "url": "https://www.douyin.com/video/7712789788339823514"
+        },
+        {
+          "rank": 9,
+          "title": "当警嫂比当大嫂帅多了 #电视剧风生水起",
+          "author": "傅菁",
+          "heat": "4681247次播放",
+          "url": "https://www.douyin.com/video/7712650245599078115"
+        },
+        {
+          "rank": 10,
+          "title": "#杨紫 这张单发🙋至善至美天蝎女💜@杨紫",
+          "author": "杨紫工作室",
+          "heat": "4676972次播放",
+          "url": "https://www.douyin.com/video/7712708491874275539"
+        },
+        {
+          "rank": 11,
+          "title": "#王嘉尔 #欧阳娜娜 #Tim",
+          "author": "guofoo",
+          "heat": "4410307次播放",
+          "url": "https://www.douyin.com/video/7712468612263200106"
+        },
+        {
+          "rank": 12,
+          "title": "硬照配硬曲@关晓彤 #关晓彤",
+          "author": "关晓彤工作室",
+          "heat": "4343986次播放",
+          "url": "https://www.douyin.com/video/7712479999487745635"
+        },
+        {
+          "rank": 13,
+          "title": "好我这就发。",
+          "author": "卢昱晓",
+          "heat": "4252452次播放",
+          "url": "https://www.douyin.com/video/7712513230132726122"
+        },
+        {
+          "rank": 14,
+          "title": "拥有一具不受控制的身体，我该怎么办？ 一段藏了很久的心里话，我现在决定卸下包袱，和不完美的自己和解。愿正在对抗无力与执念的你，能得到一点力量。#西绕措的随想随语",
+          "author": "杨蓉",
+          "heat": "4192047次播放",
+          "url": "https://www.douyin.com/video/7712345817084541041"
+        },
+        {
+          "rank": 15,
+          "title": "东北低收入家庭冬日娱乐项目 #低收入人群 #冰屋 #手工diy #抖音手工大赏 #世界是我的手工台",
+          "author": "Mr.汤普森",
+          "heat": "4150280次播放",
+          "url": "https://www.douyin.com/video/7711027149829967145"
+        },
+        {
+          "rank": 16,
+          "title": "#骑有此理 环海南岛篇EP03:最想回家的一集#交换100个旅途故事",
+          "author": "吴磊LEO",
+          "heat": "4146349次播放",
+          "url": "https://www.douyin.com/video/7712541256957693222"
+        },
+        {
+          "rank": 17,
+          "title": "好久不见₍^. .^₎⟆#一追就上头 #小猫踏步舞",
+          "author": "徐梦洁梦徐",
+          "heat": "4145397次播放",
+          "url": "https://www.douyin.com/video/7711307428218231780"
+        },
+        {
+          "rank": 18,
+          "title": "期待已久的叔侄，和老朋友新朋友and毛茸茸们，在音乐与自然里，感受温暖与爱✨#邓超 #你是我的超级英雄 #万物可爱计划 #和邓超Angelababy一起守护萌宠",
+          "author": "邓超工作室",
+          "heat": "3875540次播放",
+          "url": "https://www.douyin.com/video/7712402476549637220"
+        },
+        {
+          "rank": 19,
+          "title": "咪们，猫王老邓喊你吃饭喽~ #邓超 #你是我的超级英雄 #万物可爱计划 #和邓超Angelababy一起守护萌宠",
+          "author": "邓超工作室",
+          "heat": "3691763次播放",
+          "url": "https://www.douyin.com/video/7712339133523782577"
+        }
+      ],
+      "error": null,
+      "item_count": 18,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:01:17"
+      "update_time": "2026-11-28 08:05:31"
     },
     "baidu_movie": {
       "source_key": "baidu_movie",
@@ -610,7 +737,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:01:21"
+      "update_time": "2026-11-28 08:05:33"
     },
     "baidu_tv": {
       "source_key": "baidu_tv",
@@ -693,7 +820,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:01:25"
+      "update_time": "2026-11-28 08:05:35"
     },
     "bilibili_movie": {
       "source_key": "bilibili_movie",
@@ -1056,7 +1183,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:01:29"
+      "update_time": "2026-11-28 08:05:37"
     },
     "bilibili_entertainment": {
       "source_key": "bilibili_entertainment",
@@ -1419,7 +1546,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:01:32"
+      "update_time": "2026-11-28 08:05:40"
     },
     "douban_new": {
       "source_key": "douban_new",
@@ -1502,7 +1629,7 @@
       "error": null,
       "item_count": 10,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:01:35"
+      "update_time": "2026-11-28 08:05:42"
     },
     "douban_nowplaying": {
       "source_key": "douban_nowplaying",
@@ -1865,7 +1992,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:01:39"
+      "update_time": "2026-11-28 08:05:44"
     },
     "douban_hot_tv": {
       "source_key": "douban_hot_tv",
@@ -2228,7 +2355,7 @@
       "error": null,
       "item_count": 50,
       "source_used": "tophub",
-      "update_time": "2026-11-28 08:01:42"
+      "update_time": "2026-11-28 08:05:47"
     }
   }
 }
